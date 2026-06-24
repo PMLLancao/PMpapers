@@ -1,0 +1,48 @@
+{
+  "project_name": "PMpapers",
+  "weekly_days": 30,
+  "max_results_per_query": 40,
+  "top_journals": [
+    "Nature",
+    "Science",
+    "Cell",
+    "Neuron",
+    "Nature Neuroscience",
+    "Nature Cell Biology",
+    "Molecular Biology of the Cell",
+    "Journal of Cell Biology",
+    "EMBO Journal",
+    "Current Opinion in Cell Biology",
+    "Current Biology",
+    "Journal of Neuroscience",
+    "Annals of Neurology",
+    "American Journal of Human Genetics"
+  ],
+  "queries": [
+    {
+      "topic": "JIP3 / MAPK8IP3",
+      "pubmed": "((MAPK8IP3 OR JIP3 OR JIP4) AND neuron)",
+      "europepmc": "((MAPK8IP3 OR JIP3 OR JIP4) AND neuron)"
+    },
+    {
+      "topic": "Lysosome transport",
+      "pubmed": "(axonal lysosome transport neuron) OR (lysosome trafficking neuron)",
+      "europepmc": "(axonal lysosome transport neuron) OR (lysosome trafficking neuron)"
+    },
+    {
+      "topic": "Dynein / autophagosome",
+      "pubmed": "((dynein AND autophagosome neuron) OR (JIP3 AND dynein neuron))",
+      "europepmc": "((dynein AND autophagosome neuron) OR (JIP3 AND dynein neuron))"
+    },
+    {
+      "topic": "Endosome maturation",
+      "pubmed": "((Rab7 AND endosome AND neuron) OR (endosome maturation neuron dynein))",
+      "europepmc": "((Rab7 AND endosome AND neuron) OR (endosome maturation neuron dynein))"
+    },
+    {
+      "topic": "Disease mechanisms",
+      "pubmed": "((neurodegeneration lysosome transport review) OR (Parkinson autophagy trafficking neuron))",
+      "europepmc": "((neurodegeneration lysosome transport review) OR (Parkinson autophagy trafficking neuron))"
+    }
+  ]
+}
