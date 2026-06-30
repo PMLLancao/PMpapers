@@ -26,7 +26,7 @@ jobs:
 
       - name: Run updater
         env:
-          USER_EMAIL: your_email@example.com
+          USER_EMAIL: pamunozl@um.uchile.cl
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
         run: python scripts/update_literature.py
 
