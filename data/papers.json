@@ -250,41 +250,6 @@
     "matched_topics_label": "Lysosome transport"
   },
   {
-    "title": "Late Endosome Transport by RILP-RAB7A Promotes Dendrite Arborization Independently of Degradation.",
-    "abstract": "Directional dendritic transport of late endosomes (LEs) retrogradely towards the soma is required for fusion with lysosomes and for degradation in the soma. Both dendritic motility of LEs and somatic degradation require RAB7A. Similarly, interference with dynein function reduces motility of LEs and results in degradative failure. Blocking dynein function also impairs normal dendrite growth, suggesting that motility of LEs and subsequent fusion with lysosomes might be required for dendrite growth. RAB7A and dynein are mechanistically linked via the dynein-interacting RAB7A effector RILP. RILP also binds the LE-lysosome fusion tether HOPS. In non-neuronal cells, downregulation of RILP leads to impaired degradation due to deficiencies in LE transport and fusion defects with lysosomes. In this work, we express a separation-of-function mutant of RAB7A (RAB7A-L8A) incapable of RILP binding. Based on the results in non-neuronal cells, we hypothesized that both endosome motility and degradation in neurons depended on RILP. Our data in cultured rat and mouse hippocampal neurons of both sexes suggest that endogenous RILP is a functional RAB7A-dependent dynein adaptor for LE motility in dendrites. In addition, it promotes endosome carrier formation. As a consequence of LE transport inhibition, degradative cargos are not cleared normally from dendrites in RAB7A-L8A. Surprisingly, lysosomal fusion and somatic degradation do not require RAB7A-RILP interactions. Despite the normal degradation, dendrite arborization is impaired in RAB7A-L8A expressing neurons, demonstrating that dendrite morphology defects are separable from degradation blockade. This indicates that normal dendrite growth/maintenance is dependent on sustained RAB7A/RILP-dependent LE transport.Significance Statement Dendrite growth requires membrane trafficking, but the roles of individual compartments and regulators are not well established. Stunted dendrite growth is often associated with endolysosomal traffic jams and degradation block. In contrast, our work reveals a requirement for transport of late endosomes via RAB7A-RILP to support dendrite growth independently of cargo transport to the lysosome for degradation.",
-    "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
-    "year": 2026,
-    "authors": "Yap CC, Digilio L, McMahon LP, Mulligan RJ, Witteveen IF, Winckler B",
-    "pmid": "42242913",
-    "doi": "10.1523/JNEUROSCI.2214-25.2026",
-    "review": false,
-    "matched_topics": [
-      "Lysosome transport"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42242913/",
-    "topic": "Lysosome transport",
-    "top": true,
-    "score": 92,
-    "type": "Primary research",
-    "overview": "Directional dendritic transport of late endosomes (LEs) retrogradely towards the soma is required for fusion with lysosomes and for degradation in the soma.",
-    "did": [
-      "Both dendritic motility of LEs and somatic degradation require RAB7A.",
-      "Similarly, interference with dynein function reduces motility of LEs and results in degradative failure.",
-      "Blocking dynein function also impairs normal dendrite growth, suggesting that motility of LEs and subsequent fusion with lysosomes might be required for dendrite growth.",
-      "RAB7A and dynein are mechanistically linked via the dynein-interacting RAB7A effector RILP."
-    ],
-    "main": "RILP also binds the LE-lysosome fusion tether HOPS.",
-    "context": "In non-neuronal cells, downregulation of RILP leads to impaired degradation due to deficiencies in LE transport and fusion defects with lysosomes.",
-    "why": "Matched topics: Lysosome transport. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Lysosome transport"
-  },
-  {
     "title": "Functional and morphological alterations in animal models of valproic acid exposure.",
     "abstract": "Valproic acid (VPA) is an antiepileptic and mood-stabilizing drug; however, it also produces side effects. This review examines how VPA exposure influences neurodevelopment, endocrine regulation, reproduction, and sex-dependent outcomes, providing an integrated interpretation of its biological consequences. VPA modifies chromatin structure, gene expression, neuronal differentiation, and synaptic development, generating functional and morphological alterations in the nervous system. Animal models of prenatal VPA exposure have been used to characterize these alterations and explore underlying mechanisms related to neurodevelopmental disorders. In rodents, VPA produces imbalances between excitatory/inhibitory (E/I) synaptic activity, neurotransmitters and morphological brain changes. Behaviorally, VPA exposed animals in utero show deficits in social interaction, sensory processing, communication, cognition, and increased stereotyped behaviors, phenotypes paralleling core features of autism spectrum disorder (ASD). Besides, VPA induces sexual dimorphism where males are the most affected. VPA also induces endocrine and reproductive abnormalities, including altered steroidogenesis, ovarian dysfunction, and impaired spermatogenesis. Importantly, postnatal environmental interventions as environmental enrichment, enhanced socialization, and early handling partially rescue neurobehavioral and neurochemical deficits, highlighting neural plasticity and experience-dependent reprogramming. The evidence reviewed supports an integrative framework where neurodevelopmental, endocrine, and behavioral alterations are understood as interacting processes across biological levels, rather than independent domains. It integrates central neurodevelopmental changes with systemic outcomes, evaluates enriched environments as non-pharmacological rescue strategies, addresses limitations of VPA model, and proposes future research directions. This review is guided by the central question of how prenatal VPA exposure produces interacting neurodevelopmental, endocrine, and behavioral alterations across biological levels, ultimately shaping long-term functional outcomes.",
     "journal": "Neuroscience and biobehavioral reviews",
@@ -490,6 +455,42 @@
     ],
     "main": "Whilst albumin fusion appears to hinder interaction of rD'D3-FP with STAB2, STAB2-mediated internalisation and lysosomal degradation of rD'D3-FP could be observed in an in vitro system.",
     "context": "Rescue of rD'D3-FP via diversion into Rab11+ recycling endosomes was achieved with the co-expression of STAB2 and FcRn.",
+    "why": "Matched topics: Lysosome transport, Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Lysosome transport, Neuronal lysosome"
+  },
+  {
+    "title": "A genome-wide screen identifies that PLCG2 restrains lysosomal GCase activity.",
+    "abstract": "Mutations in the GBA1 gene, which encodes the lysosomal glucocerebrosidase enzyme GCase, cause the lysosomal storage disorder Gaucher disease and represent the most common genetic risk factor for Parkinson's disease (PD). These mutations deplete lysosomal GCase activity and cause accumulation of GCase substrate, glucosylceramide, and its pathological metabolite, glucosylsphingosine. Impaired GCase activity then drives immune and neuronal dysfunction in Gaucher disease and promotes pathogenic aggregation of \u03b1-Synuclein in PD. As such, boosting the lysosomal activity of GCase is a therapeutic strategy to ameliorate substrate accumulation and prevent associated neurotoxicity. To identify the regulators of GCase activity in lysosomes, we conducted a genome-wide screen in primary mouse macrophages using a fluorescent enzyme activity reporter. By validating the screen hits in cellular biochemical and profiling assays, we identified pathways that promote or inhibit lysosomal GCase activity. Our screen identified PLCG2 as a regulator of lysosomal GCase activity. Mechanistically, PLCG2 depletion accumulates Golgi-associated phosphatidylinositols, promoting the transport of mutant GCase into lysosomes while reducing its Golgi-associated pool. Functionally, PLCG2 depletion boosts the activity of lysosomal mutant GCase, the cellular flux of glucosylceramide, and the clearance of pathogenic GCase substrates. In summary, our screen has uncovered the regulators of GCase abundance and trafficking at a whole-genome scale and identified potential pathways for future therapeutic interventions in Gaucher and Parkinson's to boost the activity of this enzyme in lysosomes.",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "year": 2026,
+    "authors": "Lawrence J, Kulkarni VV, Tan CL, Callow M, Juste Y, Sangaraju D, Costa M, Bingol B",
+    "pmid": "42384678",
+    "doi": "10.1073/pnas.2514112123",
+    "review": false,
+    "matched_topics": [
+      "Lysosome transport",
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42384678/",
+    "topic": "Lysosome transport",
+    "top": true,
+    "score": 92,
+    "type": "Primary research",
+    "overview": "Mutations in the GBA1 gene, which encodes the lysosomal glucocerebrosidase enzyme GCase, cause the lysosomal storage disorder Gaucher disease and represent the most common genetic risk factor for Parkinson's disease (PD).",
+    "did": [
+      "These mutations deplete lysosomal GCase activity and cause accumulation of GCase substrate, glucosylceramide, and its pathological metabolite, glucosylsphingosine.",
+      "Impaired GCase activity then drives immune and neuronal dysfunction in Gaucher disease and promotes pathogenic aggregation of \u03b1-Synuclein in PD.",
+      "As such, boosting the lysosomal activity of GCase is a therapeutic strategy to ameliorate substrate accumulation and prevent associated neurotoxicity.",
+      "To identify the regulators of GCase activity in lysosomes, we conducted a genome-wide screen in primary mouse macrophages using a fluorescent enzyme activity reporter."
+    ],
+    "main": "By validating the screen hits in cellular biochemical and profiling assays, we identified pathways that promote or inhibit lysosomal GCase activity.",
+    "context": "Our screen identified PLCG2 as a regulator of lysosomal GCase activity.",
     "why": "Matched topics: Lysosome transport, Neuronal lysosome. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
@@ -1552,6 +1553,42 @@
     "matched_topics_label": "Lysosome transport, Disease mechanisms"
   },
   {
+    "title": "Late Endosome Transport by RILP-RAB7A Promotes Dendrite Arborization Independently of Degradation.",
+    "abstract": "Directional dendritic transport of late endosomes (LEs) retrogradely toward the soma is required for fusion with lysosomes and for degradation in the soma. Both dendritic motility of LEs and somatic degradation require RAB7A. Similarly, interference with dynein function reduces motility of LEs and results in degradative failure. Blocking dynein function also impairs normal dendrite growth, suggesting that motility of LEs and subsequent fusion with lysosomes might be required for dendrite growth. RAB7A and dynein are mechanistically linked via the dynein-interacting RAB7A effector RILP. RILP also binds the LE-lysosome fusion tether HOPS. In non-neuronal cells, downregulation of RILP leads to impaired degradation due to deficiencies in LE transport and fusion defects with lysosomes. In this work, we express a separation-of-function mutant of RAB7A (RAB7A-L8A) incapable of RILP binding. Based on the results in non-neuronal cells, we hypothesized that both endosome motility and degradation in neurons depended on RILP. Our data in cultured rat and mouse hippocampal neurons of both sexes suggest that endogenous RILP is a functional RAB7A-dependent dynein adaptor for LE motility in dendrites. In addition, it promotes endosome carrier formation. As a consequence of LE transport inhibition, degradative cargos are not cleared normally from dendrites in RAB7A-L8A. Surprisingly, lysosomal fusion and somatic degradation do not require RAB7A-RILP interactions. Despite the normal degradation, dendrite arborization is impaired in RAB7A-L8A expressing neurons, demonstrating that dendrite morphology defects are separable from degradation blockade. This indicates that normal dendrite growth/maintenance is dependent on sustained RAB7A/RILP-dependent LE transport.",
+    "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+    "year": 2026,
+    "authors": "Yap CC, Digilio L, McMahon LP, Mulligan RJ, Witteveen IF, Winckler B",
+    "pmid": "42242913",
+    "doi": "10.1523/JNEUROSCI.2214-25.2026",
+    "review": false,
+    "matched_topics": [
+      "Endosome maturation",
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42242913/",
+    "topic": "Endosome maturation",
+    "top": true,
+    "score": 88,
+    "type": "Primary research",
+    "overview": "Directional dendritic transport of late endosomes (LEs) retrogradely toward the soma is required for fusion with lysosomes and for degradation in the soma.",
+    "did": [
+      "Both dendritic motility of LEs and somatic degradation require RAB7A.",
+      "Similarly, interference with dynein function reduces motility of LEs and results in degradative failure.",
+      "Blocking dynein function also impairs normal dendrite growth, suggesting that motility of LEs and subsequent fusion with lysosomes might be required for dendrite growth.",
+      "RAB7A and dynein are mechanistically linked via the dynein-interacting RAB7A effector RILP."
+    ],
+    "main": "RILP also binds the LE-lysosome fusion tether HOPS.",
+    "context": "In non-neuronal cells, downregulation of RILP leads to impaired degradation due to deficiencies in LE transport and fusion defects with lysosomes.",
+    "why": "Matched topics: Endosome maturation, Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Endosome maturation, Neuronal lysosome"
+  },
+  {
     "title": "Mitochondrial quality in aging and neurodegeneration: The emerging role of mitochondria-derived vesicles.",
     "abstract": "Mitochondria are central to cellular energy metabolism, redox balance, and signaling, and their integrity is maintained by a multilayered mitochondrial quality control (MQC) system. This system includes proteostasis, dynamics, biogenesis, and mitophagy, which together repair or remove damaged organelles. Mitochondria-derived vesicles (MDVs) have emerged as an additional MQC component. MDVs are small vesicles that bud from mitochondria and selectively transport damaged mitochondrial proteins, lipids, and nucleic acids to endolysosomal compartments or other intracellular destinations, enabling rapid and localized responses to mitochondrial stress. Acting upstream of or in parallel with mitophagy, MDVs can avoid or delay irreversible mitochondrial damage and help preserve cellular homeostasis. Aging and age-associated disorders are characterized by progressive mitochondrial dysfunction and chronic inflammation. Age-related changes in intracellular trafficking, lysosomal function, and vesicle dynamics may impair MDV formation, cargo selection, and targeting. Under conditions of defective degradation, mitochondrial components may also appear in extracellular vesicles, potentially contributing to altered intercellular signaling and inflammation. In the nervous system, where energetic demands are high and mitochondrial turnover requires tight regulation, such alterations may be especially harmful. This review summarizes MQC mechanisms in neurons, with a focus on MDVs, their dysregulation during aging and neurodegeneration, and implications for biomarkers and therapeutic strategies.",
     "journal": "Mechanisms of ageing and development",
@@ -2221,6 +2258,41 @@
     "matched_topics_label": "JIP3 / MAPK8IP3"
   },
   {
+    "title": "A human lysosomal storage disorder toolkit for decoding proteome landscapes in cortical-like and dopaminergic-like induced neurons.",
+    "abstract": "Lysosomes maintain cellular homeostasis by degrading proteins delivered via endocytosis and autophagy and by recycling building blocks for organelle biogenesis. Lysosomal storage disorders (LSDs) comprise a group of diseases affecting diverse lysosomal functions. To facilitate molecular phenotyping across diverse LSD gene classes, we are developing a library of human embryonic stem cells engineered to lack individual LSD genes as a resource for the field. Here, we report our initial stem cell toolkit lacking one of 23 LSD genes, including the majority of genes associated with sphingolipidoses and neuronal ceroid lipofuscinoses, and its use in the generation of a proteomic resource for induced cortical-like and midbrain dopaminergic-like neurons. In-depth abundance and correlation profiling across organelles and suborganelle components revealed potential vulnerabilities that reflect distinct patterns of proteome alterations across both genotypes and neuronal cell types. We characterize alterations in the mitochondrial proteome associated with GBA1 and ASAH1 deficiency and identify synaptic and mitochondrial defects in ASAH1-/- induced neurons that correlate with defects in neuronal firing rates. Moreover, we developed an informatic pipeline for proteome-wide identification of individual protein-protein interactions and protein complexes that may be disrupted as a result of LSD gene deficiency. Finally, we visualized structural alterations of ASAH1-deficient endolysosomes in situ using cryoelectron tomography, revealing swollen organelles that were largely devoid of dense internal membranes characteristic of wild-type cells, but containing numerous intralumenal vesicle compartments. This toolkit and associated proteomic landscapes provide a resource for defining molecular signatures associated with LSD gene dysfunction and organelle vulnerability.",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "year": 2026,
+    "authors": "Kraus F, He Y, Jiang Y, Li D, Ambaw YA, Gasparoli FM, Paulo JA, Walther TC",
+    "pmid": "42384675",
+    "doi": "10.1073/pnas.2609132123",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42384675/",
+    "topic": "Neuronal lysosome",
+    "top": true,
+    "score": 86,
+    "type": "Primary research",
+    "overview": "Lysosomes maintain cellular homeostasis by degrading proteins delivered via endocytosis and autophagy and by recycling building blocks for organelle biogenesis.",
+    "did": [
+      "Lysosomal storage disorders (LSDs) comprise a group of diseases affecting diverse lysosomal functions.",
+      "To facilitate molecular phenotyping across diverse LSD gene classes, we are developing a library of human embryonic stem cells engineered to lack individual LSD genes as a resource for the field.",
+      "Here, we report our initial stem cell toolkit lacking one of 23 LSD genes, including the majority of genes associated with sphingolipidoses and neuronal ceroid lipofuscinoses, and its use in the generation of a proteomic resource for induced cortical-like and midbrain dopaminergic-like neurons.",
+      "In-depth abundance and correlation profiling across organelles and suborganelle components revealed potential vulnerabilities that reflect distinct patterns of proteome alterations across both genotypes and neuronal cell types."
+    ],
+    "main": "We characterize alterations in the mitochondrial proteome associated with GBA1 and ASAH1 deficiency and identify synaptic and mitochondrial defects in ASAH1-/- induced neurons that correlate with defects in neuronal firing rates.",
+    "context": "Moreover, we developed an informatic pipeline for proteome-wide identification of individual protein-protein interactions and protein complexes that may be disrupted as a result of LSD gene deficiency.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "A covalent organic framework nano-chelator orchestrates multitarget clearance of Alzheimer's pathologies.",
     "abstract": "Metal ion dysregulation is a critical pathological driver and a promising therapeutic target in Alzheimer's disease (AD). This study presents a novel multifunctional nanoplatform based on a covalent organic framework functionalized with 8-hydroxyquinoline (COF-HQ), engineered to simultaneously address the multifaceted pathology of AD. The material not only effectively chelates Cu2+ to inhibit and reverse Cu2+-induced amyloid-\u03b2 (A\u03b2) aggregation but also, upon coordination, forms a complex with potent superoxide dismutase (SOD)-mimetic activity. This catalytic function enables the continuous scavenging of reactive oxygen species (ROS), thereby alleviating oxidative stress in the neuronal microenvironment. Furthermore, COF-HQ drives microglial polarization from the pro-inflammatory M1 to the anti-inflammatory M2 state and restores lysosomal acidification and function impaired by A\u03b2-Cu2+, thereby enhancing microglial phagocytosis and clearance of A\u03b2 to break the vicious cycle of impaired degradation. The multivalent porous architecture of the COF scaffold provides enhanced binding capacity and stability, resulting in superior anti-aggregation, antioxidant, and cytoprotective efficacy compared to its molecular building block. In vivo studies demonstrate that systemic administration of COF-HQ significantly improves cognitive performance in behavioral tests, reduces cerebral A\u03b2 plaque burden, and attenuates synaptic and neuronal loss in an AD mouse model. This work establishes a new COF-based therapeutic paradigm that concurrently targets metal dyshomeostasis, protein misfolding, oxidative stress, and defective cellular clearance, offering a comprehensive and integrated nanotherapeutic strategy for AD.",
     "journal": "Journal of colloid and interface science",
@@ -2291,39 +2363,74 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Karyoptosis mediates cell death and neurodegeneration upon proteotoxic stress.",
-    "abstract": "Neurodegenerative diseases are frequently associated with proteotoxic stress linked to disease specific proteins. The autophagy-lysosome system provides essential control of proteotoxic stress and its failure can lead to initiation of apoptosis. However, in aging and neurodegenerative diseases apoptosis is insufficient to account for all neuronal death, and several different cell death types have been reported in these contexts. Here we show that karyoptosis, a distinct form of cell death, can be induced by proteotoxic stress and then develops through nuclear degeneration and cellular expulsion of nuclear material. We establish that karyoptosis is regulated by the p38 kinase signalling pathway, which controls stability of the nuclear lamina protein LaminB1 via direct phosphorylation. We demonstrate that karyoptosis affects neurons in models of amyotrophic lateral sclerosis/frontotemporal dementia (ALS/FTD) pathology. Finally, we identify karyoptotic features in post-mortem frontal cortex of FTD and Alzheimer's disease (AD) patients. Together these findings characterise a form of cell death directly linked to proteotoxic stress and nuclear lamina stability that is associated with neurodegeneration.",
-    "journal": "Nature communications",
+    "title": "Expression and Localization of NMDA Receptor GluN2 Subunits in Dorsal Horn Pain Circuits across Sex, Species, and Late Postnatal Development.",
+    "abstract": "Despite being essential mediators of pain processing, the molecular identity of N-methyl-d-aspartate receptor (NMDAR) subtypes in nociceptive dorsal horn circuits is poorly understood, especially between sexes and in humans. Given the importance of GluN2 subunits in shaping NMDAR function and plasticity, we investigated the expression and localization of specific GluN2 NMDAR variants in the dorsal horn of viable spinal cord tissue from male and female rodents and human organ donors. Analysis of single-cell/nuclei sequencing datasets and quantitative reverse transcriptase polymerase chain reactions revealed that the GluN2A (GRIN2A) and GluN2B (GRIN2B) subunits are robustly expressed in dorsal horn neurons of mice, rats, and humans, with moderate expression of GluN2D (GRIN2D). Immunohistochemistry with antigen retrieval demonstrated that GluN2A, GluN2B, and GluN2D proteins are all preferentially localized to the superficial dorsal horn (SDH) of both adult rats and humans, which is conserved between males and females. Surprisingly, we found that these GluN2 NMDAR subunits are enriched in the lateral SDH in rats but not in humans, while presynaptic and neuronal markers are symmetrically distributed across the rat mediolateral axis. A dramatic shift in localization of GluN2A to the lateral SDH was observed across later postnatal development (PD21-PD90) in both male and female rats, with a corresponding change in synaptic NMDAR currents. This discovery of changes in NMDAR subunit distribution during maturation and between species will shed light on the physiological roles of NMDARs and their potential as therapeutic targets for pain.",
+    "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
     "year": 2026,
-    "authors": "Casterton R, Martinez-Cotrina A, Barnard J, Wycherley E, Hu Y, Anderson R, Janel S, Byun J",
-    "pmid": "42350373",
-    "doi": "10.1038/s41467-026-73802-w",
+    "authors": "Griffiths K, Armstrong J, Martin N, Murray-Lawson C, Oneil E, David LS, Temi S, Parnell J",
+    "pmid": "42167918",
+    "doi": "10.1523/JNEUROSCI.1174-25.2026",
     "review": false,
     "matched_topics": [
-      "Neuronal lysosome"
+      "Neurodevelopment disorder"
     ],
     "sources": [
       "PubMed"
     ],
     "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42350373/",
-    "topic": "Neuronal lysosome",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42167918/",
+    "topic": "Neurodevelopment disorder",
     "top": true,
     "score": 86,
     "type": "Primary research",
-    "overview": "Neurodegenerative diseases are frequently associated with proteotoxic stress linked to disease specific proteins.",
+    "overview": "Despite being essential mediators of pain processing, the molecular identity of N-methyl-d-aspartate receptor (NMDAR) subtypes in nociceptive dorsal horn circuits is poorly understood, especially between sexes and in humans.",
     "did": [
-      "The autophagy-lysosome system provides essential control of proteotoxic stress and its failure can lead to initiation of apoptosis.",
-      "However, in aging and neurodegenerative diseases apoptosis is insufficient to account for all neuronal death, and several different cell death types have been reported in these contexts.",
-      "Here we show that karyoptosis, a distinct form of cell death, can be induced by proteotoxic stress and then develops through nuclear degeneration and cellular expulsion of nuclear material.",
-      "We establish that karyoptosis is regulated by the p38 kinase signalling pathway, which controls stability of the nuclear lamina protein LaminB1 via direct phosphorylation."
+      "Given the importance of GluN2 subunits in shaping NMDAR function and plasticity, we investigated the expression and localization of specific GluN2 NMDAR variants in the dorsal horn of viable spinal cord tissue from male and female rodents and human organ donors.",
+      "Analysis of single-cell/nuclei sequencing datasets and quantitative reverse transcriptase polymerase chain reactions revealed that the GluN2A (GRIN2A) and GluN2B (GRIN2B) subunits are robustly expressed in dorsal horn neurons of mice, rats, and humans, with moderate expression of GluN2D (GRIN2D).",
+      "Immunohistochemistry with antigen retrieval demonstrated that GluN2A, GluN2B, and GluN2D proteins are all preferentially localized to the superficial dorsal horn (SDH) of both adult rats and humans, which is conserved between males and females.",
+      "Surprisingly, we found that these GluN2 NMDAR subunits are enriched in the lateral SDH in rats but not in humans, while presynaptic and neuronal markers are symmetrically distributed across the rat mediolateral axis."
     ],
-    "main": "We demonstrate that karyoptosis affects neurons in models of amyotrophic lateral sclerosis/frontotemporal dementia (ALS/FTD) pathology.",
-    "context": "Finally, we identify karyoptotic features in post-mortem frontal cortex of FTD and Alzheimer's disease (AD) patients.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "main": "A dramatic shift in localization of GluN2A to the lateral SDH was observed across later postnatal development (PD21-PD90) in both male and female rats, with a corresponding change in synaptic NMDAR currents.",
+    "context": "This discovery of changes in NMDAR subunit distribution during maturation and between species will shed light on the physiological roles of NMDARs and their potential as therapeutic targets for pain.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
+    "title": "Transcriptomic signatures and neural cell composition in schizophrenia iPSC-derived neuron cultures.",
+    "abstract": "Schizophrenia is a neurodevelopmental disorder associated with alterations in neuronal function and connectivity. It has been extensively modeled using neurons derived from induced pluripotent stem cells (iPSC), where significant differences between patients and healthy controls have been reported. Notably, spontaneous generation of astrocytes in these cultures can influence functional and molecular analyses. This study assesses whether schizophrenia (SZ) and healthy control (HC) iPSC-derived neuronal cultures significantly differ in their cellular composition and determines how these variations impact transcriptomic interpretations. iPSC from three HC and four SZ were differentiated into neuronal cultures and then characterized using immunostaining, RNA sequencing, transcriptomic deconvolution, and flow cytometry. Transcriptomic analysis identified differential gene expression in SZ cultures, enriched gene ontology (GO) pathways related to neurodevelopment and synaptic function. Additionally, SynGO analysis revealed altered expression of genes associated with pre- and postsynaptic compartments. Cell-type deconvolution showed enrichment of immature and postmitotic neuronal populations in SZ cultures, whereas HC cultures displayed higher astrocyte enrichment. The neuronal enrichment was further supported by flow cytometry, which indicated an increased proportion of NeuN-positive nuclei in SZ-derived cultures. Together, our results support a model where a shift in the neuronal-glial balance in schizophrenia neural cell populations may contribute to the disease-associated phenotypes.",
+    "journal": "Cells & development",
+    "year": 2026,
+    "authors": "Casas BS, Z\u00fa\u00f1iga J, Ariz\u00e1balos S, Maluenda M, Letelier-Naritelli C, Palma V, Montecino M",
+    "pmid": "42385890",
+    "doi": "10.1016/j.cdev.2026.204097",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42385890/",
+    "topic": "Neurodevelopment disorder",
+    "top": true,
+    "score": 86,
+    "type": "Primary research",
+    "overview": "Schizophrenia is a neurodevelopmental disorder associated with alterations in neuronal function and connectivity.",
+    "did": [
+      "It has been extensively modeled using neurons derived from induced pluripotent stem cells (iPSC), where significant differences between patients and healthy controls have been reported.",
+      "Notably, spontaneous generation of astrocytes in these cultures can influence functional and molecular analyses.",
+      "This study assesses whether schizophrenia (SZ) and healthy control (HC) iPSC-derived neuronal cultures significantly differ in their cellular composition and determines how these variations impact transcriptomic interpretations.",
+      "iPSC from three HC and four SZ were differentiated into neuronal cultures and then characterized using immunostaining, RNA sequencing, transcriptomic deconvolution, and flow cytometry."
+    ],
+    "main": "Transcriptomic analysis identified differential gene expression in SZ cultures, enriched gene ontology (GO) pathways related to neurodevelopment and synaptic function.",
+    "context": "Additionally, SynGO analysis revealed altered expression of genes associated with pre- and postsynaptic compartments.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "NERINE reveals rare variant associations in gene networks across phenotypes and implicates an SNCA-PRL-LRRK2 subnetwork in Parkinson's disease.",
@@ -3078,39 +3185,40 @@
     "matched_topics_label": "Endosome maturation"
   },
   {
-    "title": "Time-Dependent Analysis of Plasmalogens in the Hippocampus of an Alzheimer's Disease Mouse Model: A Role of Ethanolamine Plasmalogen.",
-    "abstract": "Plasmalogens are alkenyl-acyl glycerophospholipids and decreased in post-mortem Alzheimer's disease (AD) brains. The aim of this study is to investigate the time-dependent changes of plasmalogens in the hippocampus of an AD model mouse (J20). Plasmalogen levels at 3, 6, 9, 12 and 15 months were analyzed by liquid-chromatography-targeted-multiplexed-selected-reaction-monitoring-tandem-mass-spectrometry (LC-SRM/MS). Reactive oxygen species (ROS) levels were evaluated using dichlorofluorescein diacetate (DCF-DA). Plasmalogen synthesizing enzyme glycerone-phosphate O-acyltransferase (GNPAT) and late endosome marker Rab7 levels were quantified by Western blotting. GNPAT localization, changes of neuronal and glial cell numbers were evaluated by immunostaining. Compared to wild-type mice (WT), total plasmalogen-ethanolamine, but not plasmalogen-choline levels, were increased at 9 months and subsequently decreased at 15 months in J20 mice. A principal component analysis of plasmalogen-ethanolamine species could separate WT and J20 mice both at 9 and 15 months. Both GNPAT and Rab7 protein were increased in J20 mice at 9 months, whereas GNPAT was decreased at 15 months. ROS levels were increased in J20 mice except for 9 months. Our results suggest that increased plasmalogen-ethanolamine could counteract ROS levels and contribute to the phagocytosis process in J20 mice at 9 months. Such results might indicate a transient protective response of plasmalogen-ethanolamine in AD conditions.",
-    "journal": "Brain sciences",
-    "year": 2021,
-    "authors": "Azad AK, Sheikh AM, Haque MA, Osago H, Sakai H, Shibly AZ, Yano S, Michikawa M",
-    "pmid": "34942905",
-    "doi": "10.3390/brainsci11121603",
+    "title": "CTSS regulates macrophage lipid metabolic reprogramming and white matter repair after intracerebral hemorrhage.",
+    "abstract": "BACKGROUND: Intracerebral hemorrhage (ICH) causes secondary white matter injury, which contributes substantially to long-term neurological disability. Although macrophages accumulate in the perihematomal region and participate in tissue remodeling after ICH, the molecular programs that link macrophage responses to white matter repair remain poorly understood, and no current strategies specifically target macrophage\u2011mediated white matter restoration. Cathepsin S (CTSS), a lysosomal cysteine protease involved in immune regulation and tissue remodeling, is strongly induced after brain injury; however, its role in post\u2011ICH white matter pathology has not been defined. METHODS: A collagenase-induced mouse model of intracerebral hemorrhage (ICH) was established, followed by pharmacological inhibition of Cathepsin S (CTSS) using LY3000328. Single-cell RNA sequencing was performed on perihematomal tissues from Vehicle- and CTSS inhibitor-treated mice to explore CTSS-responsive cell populations and transcriptional programs. Macrophage lipid handling was assessed using flow cytometry, immunofluorescence, and fluorescent myelin debris-based uptake and lipid-transfer assays. A bone marrow-derived macrophage (BMDM)-oligodendrocyte precursor cell (OPC) co-culture system was used to determine whether CTSS inhibition alters macrophage-derived lipid support for OPC differentiation. The LXR agonist GW3965 was applied as a rescue intervention. White matter repair and neurological recovery were evaluated by myelin-associated protein analysis, immunofluorescence, behavioral testing, and transmission electron microscopy. RESULTS: Single-cell analysis identified infiltrating macrophages, particularly adaptive lipid-associated macrophages (aLAMs), as a major CTSS-expressing population after ICH, displaying a transcriptional state related to lipid metabolism and tissue repair. CTSS inhibition attenuated this lipid-associated macrophage program and reduced ApoE, ABCA1, and ABCG1 expression. Mechanistically, CTSS inhibition reduced Npc1/Npc2 expression and disrupted lysosomal cholesterol trafficking, leading to lysosomal cholesterol retention. These changes suggest impaired Npc1/Npc2-associated cholesterol mobilization and attenuation of the LXR-associated macrophage lipid efflux program. In BMDM-OPC co-cultures, CTSS inhibition reduced the transfer of fluorescent macrophage-processed myelin-derived lipids to OPCs and limited OPC differentiation, whereas GW3965 partially restored Npc1/Npc2 expression, macrophage-derived lipid support, and OPC differentiation. Consistently, in vivo CTSS inhibition reduced MBP expression and MBP\u207a axonal wrapping, increased g-ratio values, aggravated myelin ultrastructural abnormalities, and delayed neurological recovery after ICH. CONCLUSIONS: CTSS in macrophages supports white matter repair after ICH by maintaining lysosomal cholesterol trafficking and macrophage lipid efflux. CTSS inhibition limits macrophage-derived lipid support for OPCs and impairs remyelination, whereas LXR activation partially restores these reparative responses.",
+    "journal": "Journal of translational medicine",
+    "year": 2026,
+    "authors": "Yu X, Huang H, Mao D, Wu J, Pan J, Kuang Y, Wu Y, Chen H",
+    "pmid": "42381008",
+    "doi": "10.1186/s12967-026-08523-1",
     "review": false,
     "matched_topics": [
-      "Endosome maturation"
+      "Lysosome transport",
+      "Neuronal lysosome"
     ],
     "sources": [
       "PubMed"
     ],
     "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34942905/",
-    "topic": "Endosome maturation",
-    "top": true,
-    "score": 84,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42381008/",
+    "topic": "Lysosome transport",
+    "top": false,
+    "score": 82,
     "type": "Primary research",
-    "overview": "Plasmalogens are alkenyl-acyl glycerophospholipids and decreased in post-mortem Alzheimer's disease (AD) brains.",
+    "overview": "BACKGROUND: Intracerebral hemorrhage (ICH) causes secondary white matter injury, which contributes substantially to long-term neurological disability.",
     "did": [
-      "The aim of this study is to investigate the time-dependent changes of plasmalogens in the hippocampus of an AD model mouse (J20).",
-      "Plasmalogen levels at 3, 6, 9, 12 and 15 months were analyzed by liquid-chromatography-targeted-multiplexed-selected-reaction-monitoring-tandem-mass-spectrometry (LC-SRM/MS).",
-      "Reactive oxygen species (ROS) levels were evaluated using dichlorofluorescein diacetate (DCF-DA).",
-      "Plasmalogen synthesizing enzyme glycerone-phosphate O-acyltransferase (GNPAT) and late endosome marker Rab7 levels were quantified by Western blotting."
+      "Although macrophages accumulate in the perihematomal region and participate in tissue remodeling after ICH, the molecular programs that link macrophage responses to white matter repair remain poorly understood, and no current strategies specifically target macrophage\u2011mediated white matter restoration.",
+      "Cathepsin S (CTSS), a lysosomal cysteine protease involved in immune regulation and tissue remodeling, is strongly induced after brain injury; however, its role in post\u2011ICH white matter pathology has not been defined.",
+      "METHODS: A collagenase-induced mouse model of intracerebral hemorrhage (ICH) was established, followed by pharmacological inhibition of Cathepsin S (CTSS) using LY3000328.",
+      "Single-cell RNA sequencing was performed on perihematomal tissues from Vehicle- and CTSS inhibitor-treated mice to explore CTSS-responsive cell populations and transcriptional programs."
     ],
-    "main": "GNPAT localization, changes of neuronal and glial cell numbers were evaluated by immunostaining.",
-    "context": "Compared to wild-type mice (WT), total plasmalogen-ethanolamine, but not plasmalogen-choline levels, were increased at 9 months and subsequently decreased at 15 months in J20 mice.",
-    "why": "Matched topics: Endosome maturation. Sources: PubMed.",
+    "main": "Macrophage lipid handling was assessed using flow cytometry, immunofluorescence, and fluorescent myelin debris-based uptake and lipid-transfer assays.",
+    "context": "A bone marrow-derived macrophage (BMDM)-oligodendrocyte precursor cell (OPC) co-culture system was used to determine whether CTSS inhibition alters macrophage-derived lipid support for OPC differentiation.",
+    "why": "Matched topics: Lysosome transport, Neuronal lysosome. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
-    "matched_topics_label": "Endosome maturation"
+    "matched_topics_label": "Lysosome transport, Neuronal lysosome"
   },
   {
     "title": "Structural dynamics of \u03b1-Synuclein: Multi-scale imaging insights into pathological progression across Synucleinopathies.",
@@ -3323,6 +3431,41 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
+    "title": "Chinese herbal and natural compounds for Parkinson's disease: Myth or truth.",
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Parkinson's disease is a common neurodegenerative disorder with a complex pathogenesis, which limits the application of single-target inhibitors. At present, the main Western therapeutic drugs for Parkinson's disease include dopamine precursors, dopamine receptor agonists, monoamine oxidase inhibitors (MAO-B), catechol-O-methyltransferase (COMT) inhibitors and anticholinergic drugs. These treatments have limited efficacy and obvious toxic and side effects. In recent years, with the deepening of research on Parkinson's disease, traditional Chinese medicine (TCM) and its active components have played an increasingly important role in clinical treatment. A large number of studies have shown that TCM and its active components exert anti-Parkinsonian effects by inhibiting ferroptosis, regulating autophagy and apoptosis, exerting anti-inflammatory and antioxidant effects, and enhancing neuronal protection. AIM OF THE REVIEW: To show that traditional medicine is a promising strategy for the treatment of Parkinson's disease, and to lay a foundation for exploring the specific mechanisms of traditional Chinese medicine in the prevention and treatment of this disease. MATERIALS AND METHODS: This study conducted a bibliometric analysis of Chinese and foreign databases to screen the core traditional Chinese medicines currently used clinically for Parkinson's disease, and further analyzed the specific mechanisms of action of the selected core herbs in the treatment of Parkinson's disease. RESULTS: Bibliometric analysis identified core TCM herbs clinically used for Parkinson's disease. The specific mechanisms of these core herbs against Parkinson's disease were clarified at the molecular level, involving inhibition of ferroptosis, regulation of autophagy and apoptosis, anti-inflammatory and antioxidant effects, and enhancement of neuroprotection. CONCLUSIONS: This study provides data support for the subsequent research and clinical application of traditional Chinese medicine in Parkinson's disease, and deepens the molecular understanding of the efficacy of traditional Chinese medicine, verifying that traditional medicine is a promising therapeutic strategy for Parkinson's disease.",
+    "journal": "Journal of ethnopharmacology",
+    "year": 2026,
+    "authors": "Zhang R, Chen Y, Qian Y, Zhu C, Yang J, Zhang J",
+    "pmid": "42302937",
+    "doi": "10.1016/j.jep.2026.122047",
+    "review": true,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42302937/",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 82,
+    "type": "Review",
+    "overview": "ETHNOPHARMACOLOGICAL RELEVANCE: Parkinson's disease is a common neurodegenerative disorder with a complex pathogenesis, which limits the application of single-target inhibitors.",
+    "did": [
+      "At present, the main Western therapeutic drugs for Parkinson's disease include dopamine precursors, dopamine receptor agonists, monoamine oxidase inhibitors (MAO-B), catechol-O-methyltransferase (COMT) inhibitors and anticholinergic drugs.",
+      "These treatments have limited efficacy and obvious toxic and side effects.",
+      "In recent years, with the deepening of research on Parkinson's disease, traditional Chinese medicine (TCM) and its active components have played an increasingly important role in clinical treatment.",
+      "A large number of studies have shown that TCM and its active components exert anti-Parkinsonian effects by inhibiting ferroptosis, regulating autophagy and apoptosis, exerting anti-inflammatory and antioxidant effects, and enhancing neuronal protection."
+    ],
+    "main": "AIM OF THE REVIEW: To show that traditional medicine is a promising strategy for the treatment of Parkinson's disease, and to lay a foundation for exploring the specific mechanisms of traditional Chinese medicine in the prevention and treatment of this disease.",
+    "context": "MATERIALS AND METHODS: This study conducted a bibliometric analysis of Chinese and foreign databases to screen the core traditional Chinese medicines currently used clinically for Parkinson's disease, and further analyzed the specific mechanisms of action of the selected core herbs in the treatment of Parkinson's disease.",
+    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
     "title": "Zinc dyshomeostasis, mitochondrial dysfunction, and their pathological cycle in ischemic stroke pathophysiology: Mechanisms and potential therapeutic targets.",
     "abstract": "Ischemic stroke is a leading cause of global mortality and long-term neurological disability. Zinc, an essential trace element critical for neuronal survival within the central nervous system, becomes a key pathological mediator when its homeostasis is disrupted following ischemia. Mitochondria, which are essential for neuronal energy production and survival, are primary targets of zinc-induced toxicity. Excess zinc disrupts mitochondria through multiple mechanisms, causing significant structural damage (swelling and cristae remodeling), impairing dynamic balance (fission/fusion and mitophagy), disrupting oxidative respiratory chain function, reducing ATP production, inducing loss of membrane potential, and triggering oxidative stress responses. Notably, mitochondrial impairment during cerebral ischemia-reperfusion further promotes intracellular zinc accumulation by disrupting cytosolic zinc pools and calcium homeostasis, as well as impairing the interactions between mitochondria and other organelles including the endoplasmic reticulum and lysosomes, creating a vicious cycle that exacerbate ischemic damage. Due to the critical role of zinc ions, emerging zinc-related technologies such as the AggHX sensor, antioxidant zinc oxide nanoparticles and modern zinc chelation strategies offer promising diagnosing and therapeutic avenues for neurological disorders like cerebral ischemia. Meanwhile, the emergence of mitochondrial DNA editing tools marks a new era of precise mitochondrial therapy. Firstly, this review systematically traces the historical evolution of the understanding of zinc's dual roles in neural physiology and pathology, and subsequently summarizes the pathogenic interplay between zinc dyshomeostasis and mitochondrial dysfunction in ischemic stroke, highlighting the \"zinc-mitochondria axis\" as a potential therapeutic target. It also provides a comprehensive overview of recent advances in zinc-based technologies for neurological diseases, evaluating their opportunities and challenges in neuroprotection and clinical applications, aiming to provide novel insights for developing advanced therapeutic strategies.",
     "journal": "Redox biology",
@@ -3426,76 +3569,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Bacoside-A from Bacopa monnieri (L.) Wettst. in Parkinson's disease: In Silico and preclinical insights into dopaminergic neuroprotection.",
-    "abstract": "Parkinson's disease (PD) presents a formidable therapeutic challenge rooted not in a singular pathogenic event but in the convergent failure of mitochondrial homeostasis, redox balance, \u03b1-synuclein proteostasis, autophagy-lysosomal integrity, and neuroinflammatory amplification within substantia nigra dopaminergic neurons. Existing dopaminergic pharmacotherapies address symptomatic deficits while leaving the underlying neurodegenerative cascade unchecked, underscoring the need for disease-modifying strategies with multi-target mechanistic reach. This review examines bacoside-A, the principal triterpenoid saponin complex of Bacopa monnieri (L.) Wettst., as a structurally distinctive, polypharmacological neuroprotective scaffold whose biological relevance emerges from convergence with core vulnerability pathways driving dopaminergic degeneration. Integrating in silico, in vitro, and in vivo evidence, we examine how bacoside-A engages molecular targets including \u03b1-synuclein aggregation intermediates, monoamine oxidase-B, LRRK2 kinase, PINK1-Parkin mitophagy regulators, and the redox sensor DJ-1, with computational predictions providing a coherent mechanistic framework for findings observed across MPP\u207a-, rotenone-, and 6-OHDA-based preclinical models, including attenuation of mitochondrial dysfunction, oxidative amplification, and apoptotic signalling, and partial nigrostriatal preservation with motor improvement in vivo. This review reframes bacoside-A as a stress-buffering, network-active modulator most relevant during early, pre-degenerative disease stages. While no clinical trial has yet evaluated bacoside-A in PD, and findings from cognitive or other non-PD indications cannot be extrapolated as efficacy evidence, the convergent mechanistic, computational, and preclinical evidence presented here provides a strong rationale for advancing bacoside-A toward systems pharmacology-guided preclinical and clinical evaluation as an adjunct neuroprotective candidate.",
-    "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
-    "year": 2026,
-    "authors": "Dadhich A, Verma AK, Dhar I, Bhatt S, Agarwal N, Sharma MM",
-    "pmid": "42335514",
-    "doi": "10.1016/j.biopha.2026.119712",
-    "review": true,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42335514/",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 82,
-    "type": "Review",
-    "overview": "Parkinson's disease (PD) presents a formidable therapeutic challenge rooted not in a singular pathogenic event but in the convergent failure of mitochondrial homeostasis, redox balance, \u03b1-synuclein proteostasis, autophagy-lysosomal integrity, and neuroinflammatory amplification within substantia nigra dopaminergic neurons.",
-    "did": [
-      "Existing dopaminergic pharmacotherapies address symptomatic deficits while leaving the underlying neurodegenerative cascade unchecked, underscoring the need for disease-modifying strategies with multi-target mechanistic reach.",
-      "This review examines bacoside-A, the principal triterpenoid saponin complex of Bacopa monnieri (L.) Wettst., as a structurally distinctive, polypharmacological neuroprotective scaffold whose biological relevance emerges from convergence with core vulnerability pathways driving dopaminergic degeneration.",
-      "Integrating in silico, in vitro, and in vivo evidence, we examine how bacoside-A engages molecular targets including \u03b1-synuclein aggregation intermediates, monoamine oxidase-B, LRRK2 kinase, PINK1-Parkin mitophagy regulators, and the redox sensor DJ-1, with computational predictions providing a coherent mechanistic framework for findings observed across MPP\u207a-, rotenone-, and 6-OHDA-based preclinical models, including attenuation of mitochondrial dysfunction, oxidative amplification, and apoptotic signalling, and partial nigrostriatal preservation with motor improvement in vivo.",
-      "This review reframes bacoside-A as a stress-buffering, network-active modulator most relevant during early, pre-degenerative disease stages."
-    ],
-    "main": "While no clinical trial has yet evaluated bacoside-A in PD, and findings from cognitive or other non-PD indications cannot be extrapolated as efficacy evidence, the convergent mechanistic, computational, and preclinical evidence presented here provides a strong rationale for advancing bacoside-A toward systems pharmacology-guided preclinical and clinical evaluation as an adjunct neuroprotective candidate.",
-    "context": "While no clinical trial has yet evaluated bacoside-A in PD, and findings from cognitive or other non-PD indications cannot be extrapolated as efficacy evidence, the convergent mechanistic, computational, and preclinical evidence presented here provides a strong rationale for advancing bacoside-A toward systems pharmacology-guided preclinical and clinical evaluation as an adjunct neuroprotective candidate.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "Long-term potentiation in the brain: A synaptic memory mechanism.",
-    "abstract": "One of the most remarkable properties of the mammalian brain is its ability to change in response to experience, a phenomenon referred to as neural plasticity. Synaptic plasticity specifically refers to activity-dependent changes in synaptic strength or efficacy of synaptic transmission. Synaptic plasticity enables us to acquire and perform different sensory, motor and cognitive tasks, such as playing a musical instrument or learning a language. Synaptic plasticity is involved in the creation of memories and is a phenomenon that varies and evolves over an individual's lifetime. The most extensively studied forms of synaptic plasticity in the mammalian brain are long-term potentiation (LTP) and long-term depression (LTD) of synaptic transmission. Sixty years ago, an abstract by Terje L\u00f8mo first described a long-lasting synaptic potentiation induced by high-frequency afferent stimulation (1) and seven years later, the first full paper on LTP was published by Tim Bliss and Terje L\u00f8mo in The Journal of Physiology (2). Since then, \"neuroplasticity\" or \"brain plasticity\" has emerged as a central theme of research in neuroscience. Increasing evidence supports the supposition that LTP is a natural phenomenon that is directly involved in neurodevelopment and learning and memory processes. Additionally, different brain disorders seem to be due to alterations in brain plasticity. Since its discovery, thousands of papers have appeared describing the underlying mechanisms and demonstrating that LTP is a robust and general brain mechanism that exists in vivo in animals including humans. Currently, the field is dedicated to defining more precisely the functions in which LTP (and LTD) is involved, including development, learning and memory, as well as their roles in brain disorders. Here, we describe the present state of the field. We foresee tht important discoveries remain to be made with implications for the understanding of, and treatment of, brain disorders.",
-    "journal": "Physiological reviews",
-    "year": 2026,
-    "authors": "Rodr\u00edguez-Moreno A, Paulsen O",
-    "pmid": "42363710",
-    "doi": "10.1152/physrev.00028.2025",
-    "review": true,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42363710/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 82,
-    "type": "Review",
-    "overview": "One of the most remarkable properties of the mammalian brain is its ability to change in response to experience, a phenomenon referred to as neural plasticity.",
-    "did": [
-      "Synaptic plasticity specifically refers to activity-dependent changes in synaptic strength or efficacy of synaptic transmission.",
-      "Synaptic plasticity enables us to acquire and perform different sensory, motor and cognitive tasks, such as playing a musical instrument or learning a language.",
-      "Synaptic plasticity is involved in the creation of memories and is a phenomenon that varies and evolves over an individual's lifetime.",
-      "The most extensively studied forms of synaptic plasticity in the mammalian brain are long-term potentiation (LTP) and long-term depression (LTD) of synaptic transmission."
-    ],
-    "main": "Sixty years ago, an abstract by Terje L\u00f8mo first described a long-lasting synaptic potentiation induced by high-frequency afferent stimulation (1) and seven years later, the first full paper on LTP was published by Tim Bliss and Terje L\u00f8mo in The Journal of Physiology (2).",
-    "context": "Since then, \"neuroplasticity\" or \"brain plasticity\" has emerged as a central theme of research in neuroscience.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Redefining ocular safety assessment: retinal organoids as platforms for predicting human ocular toxicology.",
@@ -4730,41 +4803,6 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
-    "title": "Regulatory mechanisms of post-translational modifications on autophagic flux in neurons following ischemic stroke.",
-    "abstract": "Ischemic stroke, a serious disease that threatens to human health, is caused by insufficient blood supply due to cerebrovascular occlusion, leading to severe brain damage and neurological deficits. Numerous investigations have revealed that autophagy is extensively involved in the pathophysiological processes of ischemic stroke. Autophagy is a vital mechanism to maintain neuronal homeostasis by degradation and recycling of cytoplasmic components. It comprises a series of consecutive processes, including autophagy initiation, autophagosome formation, fusion of autophagosomes with lysosomes, and degradation of autophagic substrates within autolysosomes. Thus, autophagy is termed as autophagic flux, as well as autophagic/lysosomal signaling pathway. Several key steps in autophagic signaling pathway are prominently regulated by post-translational modifications, thereby significantly affecting neurological outcomes after ischemic stroke. However, how the post-translational modifications regulate autophagic flux to mitigate ischemic neuronal injury remains to be systematically expounded. To provide insights into the researches on the pathogenesis and neuroprotection of ischemic stroke, this article is to summarize the post-translational modifications involved in autophagic/lysosomal signaling pathway in neurons after ischemic stroke, especially highlighting the effects of acetylation and phosphorylation on post-stroke pathophysiological processes.",
-    "journal": "Molecular biology reports",
-    "year": 2026,
-    "authors": "Yu L, Zhuang W, Liu X, He H, Deng Y, He H",
-    "pmid": "42334662",
-    "doi": "10.1007/s11033-026-12177-z",
-    "review": true,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42334662/",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 82,
-    "type": "Review",
-    "overview": "Ischemic stroke, a serious disease that threatens to human health, is caused by insufficient blood supply due to cerebrovascular occlusion, leading to severe brain damage and neurological deficits.",
-    "did": [
-      "Numerous investigations have revealed that autophagy is extensively involved in the pathophysiological processes of ischemic stroke.",
-      "Autophagy is a vital mechanism to maintain neuronal homeostasis by degradation and recycling of cytoplasmic components.",
-      "It comprises a series of consecutive processes, including autophagy initiation, autophagosome formation, fusion of autophagosomes with lysosomes, and degradation of autophagic substrates within autolysosomes.",
-      "Thus, autophagy is termed as autophagic flux, as well as autophagic/lysosomal signaling pathway."
-    ],
-    "main": "Several key steps in autophagic signaling pathway are prominently regulated by post-translational modifications, thereby significantly affecting neurological outcomes after ischemic stroke.",
-    "context": "However, how the post-translational modifications regulate autophagic flux to mitigate ischemic neuronal injury remains to be systematically expounded.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
     "title": "Targeting lysosomal dysfunction with small-molecule TRPML1 ligands: Therapeutic opportunities in lysosomal storage disorders, neurodegeneration and beyond.",
     "abstract": "TRPML1, a lysosomal Ca2+ channel, has emerged as a clinically relevant target due to its genetic and mechanistic links to lysosomal storage disorders and neurodegenerative diseases, including Gaucher disease, Parkinson's disease, Alzheimer's disease, and amyotrophic lateral sclerosis. This evidence has prompted TRPML1 drug discovery efforts across academia and industry, with several small-molecule agonists advancing toward clinical development. In this review, we provide a comprehensive overview of the therapeutic potential of TRPML1 as a molecular target from a medicinal chemistry perspective. We summarize the structural basis of channel activation and inhibition, highlighting insights from recent cryo-EM studies that define the principal ligand-binding sites and mechanisms of allosteric modulation. We systematically survey the chemical space of TRPML1 ligands reported to date, including diverse agonist and antagonist chemotypes, and extend this analysis to encompass undisclosed or recently disclosed compounds emerging from industry pipelines. Furthermore, we discuss key determinants of ligand design and developability, including the challenges associated with targeting a deeply embedded, lipophilic binding pocket within the membrane. Overall, the available evidence positions TRPML1 as a promising target for small-molecule drug discovery and provides a framework for the rational design of next-generation lysosome-directed therapeutics.",
     "journal": "European journal of medicinal chemistry",
@@ -4833,42 +4871,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Palmitoylation of death receptor p75NTR contributes to Alzheimer's disease progression by regulating APP trafficking and degradation.",
-    "abstract": "Although protein palmitoylation has been associated with Alzheimer\u2019s Disease (AD), it remains unclear whether or how palmitoylation of specific proteins contributes to any of the pathological features of AD. The p75 neurotrophin receptor (p75NTR) contributes to AD progression by regulating the intracellular trafficking and amyloidogenic processing of amyloid precursor protein (APP). p75NTR is palmitoylated at a juxtamembrane cysteine but it is currently unknown whether this has any effect on its role in AD. Here, we report that 5xFAD mice, an animal model of AD, expressing a palmitoylation-deficient mutant of p75NTR (p75C281A) display significantly attenuated neuropathology and cognitive deficits. Mechanistically, p75C281A showed enhanced internalization, trafficking to Rab5/Rab7 endosomes and lysosomal-mediated degradation. In mutant p75C281A neurons, APP displayed accelerated co-internalization with p75NTR, increased trafficking to late endosomes and lysosome, and enhanced degradation, thereby limiting neuronal A\u03b2 production. Interestingly, the brain of 5xFAD mice shows increased levels of p75NTR palmitoylation. These results indicate that palmitoylation of p75NTR enhances its stability and, indirectly, that of APP by reducing their trafficking to the lysosome, resulting in increased A\u03b2 accumulation and neuropathology in the AD brain. Selective inhibitors of p75NTR palmitoylation may find applications in the treatment of AD.",
-    "journal": "Alzheimer's research & therapy",
-    "year": 2026,
-    "authors": "Ma Y, Xie M, Ib\u00e1\u00f1ez CF",
-    "pmid": "41896988",
-    "doi": "10.1186/s13195-026-02032-5",
-    "review": false,
-    "matched_topics": [
-      "Lysosome transport",
-      "Endosome maturation"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41896988/",
-    "topic": "Lysosome transport",
-    "top": false,
-    "score": 82,
-    "type": "Primary research",
-    "overview": "Although protein palmitoylation has been associated with Alzheimer\u2019s Disease (AD), it remains unclear whether or how palmitoylation of specific proteins contributes to any of the pathological features of AD.",
-    "did": [
-      "The p75 neurotrophin receptor (p75NTR) contributes to AD progression by regulating the intracellular trafficking and amyloidogenic processing of amyloid precursor protein (APP).",
-      "p75NTR is palmitoylated at a juxtamembrane cysteine but it is currently unknown whether this has any effect on its role in AD.",
-      "Here, we report that 5xFAD mice, an animal model of AD, expressing a palmitoylation-deficient mutant of p75NTR (p75C281A) display significantly attenuated neuropathology and cognitive deficits.",
-      "Mechanistically, p75C281A showed enhanced internalization, trafficking to Rab5/Rab7 endosomes and lysosomal-mediated degradation."
-    ],
-    "main": "In mutant p75C281A neurons, APP displayed accelerated co-internalization with p75NTR, increased trafficking to late endosomes and lysosome, and enhanced degradation, thereby limiting neuronal A\u03b2 production.",
-    "context": "Interestingly, the brain of 5xFAD mice shows increased levels of p75NTR palmitoylation.",
-    "why": "Matched topics: Lysosome transport, Endosome maturation. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Lysosome transport, Endosome maturation"
   },
   {
     "title": "Roles of histone lysine methylation in neurodevelopment and related disorders.",
@@ -5361,41 +5363,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Lysosome transport"
-  },
-  {
-    "title": "Nonclustered Protocadherins in Autism: Integrating Cell Adhesion and Activity-Dependent Signalling.",
-    "abstract": "Autism spectrum disorders (ASD) are heterogeneous neurodevelopmental conditions characterized by deficits in social communication and repetitive behaviours, collectively affecting nearly 2% of the global population. ASD is strongly heritable, with genetic variants converging on molecular pathways that regulate synaptic connectivity. Protocadherins, particularly nonclustered protocadherins (ncPCDHs), have emerged as high-confidence ASD-associated genes. By mediating cell surface adhesion and downstream signalling, ncPCDHs regulate essential neurodevelopmental processes ranging from neuronal production and migration to synaptic maturation, while generating combinatorial surface codes that organize circuit wiring-all mechanisms highly relevant to ASD. Here, we review recent findings from human genetics and rodent models, highlighting activity-dependent signalling as a central hub through which ncPCDHs coordinate synaptic refinement and maintain excitatory/inhibitory balance. Finally, we discuss how dissecting ncPCDH molecular mechanisms may clarify ASD pathogenesis and inform targeted therapeutic strategies.",
-    "journal": "The Neuroscientist : a review journal bringing neurobiology, neurology and psychiatry",
-    "year": 2026,
-    "authors": "Miozzo F",
-    "pmid": "42363437",
-    "doi": "10.1177/10738584261457052",
-    "review": true,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42363437/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 82,
-    "type": "Review",
-    "overview": "Autism spectrum disorders (ASD) are heterogeneous neurodevelopmental conditions characterized by deficits in social communication and repetitive behaviours, collectively affecting nearly 2% of the global population.",
-    "did": [
-      "ASD is strongly heritable, with genetic variants converging on molecular pathways that regulate synaptic connectivity.",
-      "Protocadherins, particularly nonclustered protocadherins (ncPCDHs), have emerged as high-confidence ASD-associated genes.",
-      "By mediating cell surface adhesion and downstream signalling, ncPCDHs regulate essential neurodevelopmental processes ranging from neuronal production and migration to synaptic maturation, while generating combinatorial surface codes that organize circuit wiring-all mechanisms highly relevant to ASD.",
-      "Here, we review recent findings from human genetics and rodent models, highlighting activity-dependent signalling as a central hub through which ncPCDHs coordinate synaptic refinement and maintain excitatory/inhibitory balance."
-    ],
-    "main": "Finally, we discuss how dissecting ncPCDH molecular mechanisms may clarify ASD pathogenesis and inform targeted therapeutic strategies.",
-    "context": "Finally, we discuss how dissecting ncPCDH molecular mechanisms may clarify ASD pathogenesis and inform targeted therapeutic strategies.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Nusinersen: the antisense oligonucleotide at the forefront of spinal muscular atrophy treatment.",
@@ -6608,6 +6575,38 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
+    "title": "Alzheimer's and Parkinson's disease mechanisms are similar to prion diseases, says researcher - Science in Poland",
+    "abstract": " Alzheimer's and Parkinson's disease mechanisms are similar to prion diseases, says researcher \u00a0\u00a0 Science in Poland ",
+    "journal": "Science in Poland",
+    "year": 2026,
+    "authors": "Science in Poland",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVXU1anIyMW45YmpXVWtGbWRhRm5yejVKb2NFUHVKN3RHaXBpR09FQVdtSWJ1QlpzbkdKaDFCdWhDSWFnRE5hM1g2SG4zNUc1TlpxWG1TRzFvVlMwLXBVWW9zMlRvOHBTNG5wdEJXYlAwRnhHZXc1ZmV5UWJqV21ISVhOWjZFZ2VJak05SW5UOG5qS25VWGM3WFZ1R09KNU5ZMVd5OEliSlJ0bkVXNFA0dGVQUTlRYXJ4bUVZdlhXU2g5RjFrS3c?oc=5",
+    "topic": "Disease mechanisms",
+    "top": true,
+    "score": 80,
+    "type": "News / signal",
+    "overview": "Alzheimer's and Parkinson's disease mechanisms are similar to prion diseases, says researcher \u00a0\u00a0 Science in Poland",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Alzheimer's and Parkinson's disease mechanisms are similar to prion diseases, says researcher \u00a0\u00a0 Science in Poland",
+    "context": "Alzheimer's and Parkinson's disease mechanisms are similar to prion diseases, says researcher \u00a0\u00a0 Science in Poland",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
     "title": "Transcriptomic and phenotypic convergence of neurodevelopmental disorder risk genes in vitro and in vivo - Nature",
     "abstract": " Transcriptomic and phenotypic convergence of neurodevelopmental disorder risk genes in vitro and in vivo \u00a0\u00a0 Nature ",
     "journal": "Nature",
@@ -6638,6 +6637,38 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
+    "title": "A surprising brain discovery is forcing scientists to rethink movement disorders - ScienceDaily",
+    "abstract": " A surprising brain discovery is forcing scientists to rethink movement disorders \u00a0\u00a0 ScienceDaily ",
+    "journal": "ScienceDaily",
+    "year": 2026,
+    "authors": "ScienceDaily",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Md3lxRGJiZGdMWndkYlJoeUY3b2pLYTdJZTRfelRvc2UzSVlFUmxNYTE2dWoteHEtVEFQSXRPbGJGbFNQeWVzcUFFS0JkRkdGancwY1JFTzI5NFpEU2twYjh4QlNab0QtMUdwR2VDTQ?oc=5",
+    "topic": "Neurological disorders",
+    "top": true,
+    "score": 80,
+    "type": "News / signal",
+    "overview": "A surprising brain discovery is forcing scientists to rethink movement disorders \u00a0\u00a0 ScienceDaily",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "A surprising brain discovery is forcing scientists to rethink movement disorders \u00a0\u00a0 ScienceDaily",
+    "context": "A surprising brain discovery is forcing scientists to rethink movement disorders \u00a0\u00a0 ScienceDaily",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "c-FLIP as a master regulator of immune homeostasis and disease mechanisms - Nature",
@@ -6876,6 +6907,41 @@
     ],
     "main": "Whole-exome sequencing (WES) identified a homozygous splice site variant, NM_014149.4:c.1395+1G>A, predicted to disrupt the donor site and classified as likely pathogenic (PVS1, PM2).",
     "context": "The variant was absent from population databases and our internal in-house cohort.",
+    "why": "Matched topics: Endosome maturation. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Endosome maturation"
+  },
+  {
+    "title": "Palmitoylation of death receptor p75NTR contributes to Alzheimer's disease progression by regulating APP trafficking and degradation.",
+    "abstract": "Although protein palmitoylation has been associated with Alzheimer\u2019s Disease (AD), it remains unclear whether or how palmitoylation of specific proteins contributes to any of the pathological features of AD. The p75 neurotrophin receptor (p75NTR) contributes to AD progression by regulating the intracellular trafficking and amyloidogenic processing of amyloid precursor protein (APP). p75NTR is palmitoylated at a juxtamembrane cysteine but it is currently unknown whether this has any effect on its role in AD. Here, we report that 5xFAD mice, an animal model of AD, expressing a palmitoylation-deficient mutant of p75NTR (p75C281A) display significantly attenuated neuropathology and cognitive deficits. Mechanistically, p75C281A showed enhanced internalization, trafficking to Rab5/Rab7 endosomes and lysosomal-mediated degradation. In mutant p75C281A neurons, APP displayed accelerated co-internalization with p75NTR, increased trafficking to late endosomes and lysosome, and enhanced degradation, thereby limiting neuronal A\u03b2 production. Interestingly, the brain of 5xFAD mice shows increased levels of p75NTR palmitoylation. These results indicate that palmitoylation of p75NTR enhances its stability and, indirectly, that of APP by reducing their trafficking to the lysosome, resulting in increased A\u03b2 accumulation and neuropathology in the AD brain. Selective inhibitors of p75NTR palmitoylation may find applications in the treatment of AD.",
+    "journal": "Alzheimer's research & therapy",
+    "year": 2026,
+    "authors": "Ma Y, Xie M, Ib\u00e1\u00f1ez CF",
+    "pmid": "41896988",
+    "doi": "10.1186/s13195-026-02032-5",
+    "review": false,
+    "matched_topics": [
+      "Endosome maturation"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41896988/",
+    "topic": "Endosome maturation",
+    "top": false,
+    "score": 78,
+    "type": "Primary research",
+    "overview": "Although protein palmitoylation has been associated with Alzheimer\u2019s Disease (AD), it remains unclear whether or how palmitoylation of specific proteins contributes to any of the pathological features of AD.",
+    "did": [
+      "The p75 neurotrophin receptor (p75NTR) contributes to AD progression by regulating the intracellular trafficking and amyloidogenic processing of amyloid precursor protein (APP).",
+      "p75NTR is palmitoylated at a juxtamembrane cysteine but it is currently unknown whether this has any effect on its role in AD.",
+      "Here, we report that 5xFAD mice, an animal model of AD, expressing a palmitoylation-deficient mutant of p75NTR (p75C281A) display significantly attenuated neuropathology and cognitive deficits.",
+      "Mechanistically, p75C281A showed enhanced internalization, trafficking to Rab5/Rab7 endosomes and lysosomal-mediated degradation."
+    ],
+    "main": "In mutant p75C281A neurons, APP displayed accelerated co-internalization with p75NTR, increased trafficking to late endosomes and lysosome, and enhanced degradation, thereby limiting neuronal A\u03b2 production.",
+    "context": "Interestingly, the brain of 5xFAD mice shows increased levels of p75NTR palmitoylation.",
     "why": "Matched topics: Endosome maturation. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
@@ -7758,41 +7824,6 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
-    "title": "Dynamic protein-polysaccharide hydrogels with spatiotemporal controlled delivery for brain microenvironment remodeling and neural regeneration of intracerebral hemorrhage stroke.",
-    "abstract": "The treatment of intracerebral hemorrhage (ICH) remains highly challenging, primarily due to its dynamic and multifaceted pathologies, which create a hostile microenvironment at the lesion site characterized by a ROS-inflammation-glial scar feedback loop and severely impaired neural regeneration. Herein, a dynamic protein-polysaccharide hydrogel is designed, constructed by a visible light-induced thiol-disulfide exchange reaction as a general strategy, and integrated with a spatiotemporal controlled delivery of chondroitinase ABC (ChABC) and insulin-like growth factor-1 (IGF-1) loaded in mesoporous silica nanoparticles (MSNs). Thiolated gelatin and thiolated hyaluronan were chosen to formulate the hydrogel that mimics brain ECM providing structure support with cell adhesion, infiltration, and tunable degradability, but also presents anti-swelling and pro-coagulant capacities. Importantly, the thiol-disulfide chemistry endowed the hydrogel efficient ROS scavenging and ROS-responsive on-demand release of ChABC, while MSNs loading achieved a sustained release of IGF-1. In vitro studies, the hydrogel is shown to reduce cellular ROS, regulate anti-inflammation polarization of macrophages via the MAPK signaling pathway, and promote neural stem cells (NSCs) proliferation, migration, differentiation and endothelial angiogenesis. Moreover, in an ICH mouse model, the hydrogel is demonstrated not only to enable efficient tissue ROS scavenging, anti-inflammation polarization of microglial/macrophages, and dynamical self-adaptive reduction of glial scar, achieving microenvironment remodeling, but also to regulate behaviors of endogenous NSCs and enhance angiogenesis, providing neural regeneration. Consequently, these effects enhanced neurons and myelin repair, ultimately contributing to synergistic recovery of neurological function. Overall, this dynamic hydrogel represents a promising strategy for simultanously remodeling the lesion site's microenvironment and promoting neural regeneration, thereby improving the treatment efficacy of ICH.",
-    "journal": "Biomaterials",
-    "year": 2026,
-    "authors": "Wan L, Xu J, Wang X, Wei Y, He Z, Xie Y, Cao J, Zhong R",
-    "pmid": "42090834",
-    "doi": "10.1016/j.biomaterials.2026.124274",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42090834/",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "The treatment of intracerebral hemorrhage (ICH) remains highly challenging, primarily due to its dynamic and multifaceted pathologies, which create a hostile microenvironment at the lesion site characterized by a ROS-inflammation-glial scar feedback loop and severely impaired neural regeneration.",
-    "did": [
-      "Herein, a dynamic protein-polysaccharide hydrogel is designed, constructed by a visible light-induced thiol-disulfide exchange reaction as a general strategy, and integrated with a spatiotemporal controlled delivery of chondroitinase ABC (ChABC) and insulin-like growth factor-1 (IGF-1) loaded in mesoporous silica nanoparticles (MSNs).",
-      "Thiolated gelatin and thiolated hyaluronan were chosen to formulate the hydrogel that mimics brain ECM providing structure support with cell adhesion, infiltration, and tunable degradability, but also presents anti-swelling and pro-coagulant capacities.",
-      "Importantly, the thiol-disulfide chemistry endowed the hydrogel efficient ROS scavenging and ROS-responsive on-demand release of ChABC, while MSNs loading achieved a sustained release of IGF-1.",
-      "In vitro studies, the hydrogel is shown to reduce cellular ROS, regulate anti-inflammation polarization of macrophages via the MAPK signaling pathway, and promote neural stem cells (NSCs) proliferation, migration, differentiation and endothelial angiogenesis."
-    ],
-    "main": "Moreover, in an ICH mouse model, the hydrogel is demonstrated not only to enable efficient tissue ROS scavenging, anti-inflammation polarization of microglial/macrophages, and dynamical self-adaptive reduction of glial scar, achieving microenvironment remodeling, but also to regulate behaviors of endogenous NSCs and enhance angiogenesis, providing neural regeneration.",
-    "context": "Consequently, these effects enhanced neurons and myelin repair, ultimately contributing to synergistic recovery of neurological function.",
-    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
     "title": "Focal Polycomb-Mediated Repression of Neuronal Identity and Synaptic Maintenance Genes in Aging Neurons.",
     "abstract": "BACKGROUND: Neuronal aging is accompanied by changes in chromatin regulation, but the gene-level mechanisms that connect epigenetic remodeling to circuit decline remain incompletely defined. METHODS: We performed a secondary, Activity-by-Contact (ABC)-inspired analysis of histone H3 lysine 27 trimethylation (H3K27me3) signal tracks from purified mouse forebrain neurons in GSE190102, focusing on the contrast between young adult neurons at 3 months and old neurons at 24 months, with 12-month samples used to evaluate age trajectories. RESULTS: We identified 1,500 age-associated region-gene assignments, with a strong predominance of H3K27me3 gain. In total, 1,383 assignments, representing 92% of the interpreted set, showed gain, whereas 117, representing 8%, showed loss. The strongest gain module involved clustered protocadherin genes, including multiple Pcdhb genes, Pcdhgb4, Pcdhgc3, and Pcdha7. A second gain module involved synaptic maintenance and neurotransmission genes, including Nlgn3, Cask, Dlg4, Dlg3, Syn1, Chrm2, Chrna5, and Chrnb4. These changes were accompanied by a smaller loss module involving chromatin, transcriptional, lysosomal, and stress-response candidates, including Med14, Med12, Atp6ap2, and Heph. Functional enrichment highlighted calcium-dependent cell-cell adhesion, cell-adhesion molecules, neuroactive ligand-receptor interaction, and cholinergic synapse pathways. CONCLUSIONS: These results support a working model in which aging neurons undergo Polycomb redistribution rather than simple uniform loss of H3K27me3. In this model, focal hyper-repression of neuronal identity and synaptic scaffold programs may reduce circuit precision, while selected loss of repression at stress and transcriptional regulators may permit compensatory or maladaptive rewiring. We propose a compact candidate 14-gene Synaptic Epigenetic Aging Signature as a practical biomarker and screening panel for cognitive aging, neuromodulatory treatment stratification, and future locus-specific epigenome-editing studies.",
     "journal": "Cureus",
@@ -7822,41 +7853,6 @@
     ],
     "main": "A second gain module involved synaptic maintenance and neurotransmission genes, including Nlgn3, Cask, Dlg4, Dlg3, Syn1, Chrm2, Chrna5, and Chrnb4.",
     "context": "These changes were accompanied by a smaller loss module involving chromatin, transcriptional, lysosomal, and stress-response candidates, including Med14, Med12, Atp6ap2, and Heph.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "Efficient pharmacological modulation of autophagy in isolated muscle fibers: impact on excitation-contraction coupling.",
-    "abstract": "Macroautophagy/autophagy is a key regulator of muscle mass and of muscle adaptation to stress and defective autophagy is a feature of many muscle disorders. Still, how changes in autophagic flux influence the integrity and function of differentiated muscle fibers remains under-documented. Specifically, links between autophagy and mechanisms involved in Ca2+ homeostasis and excitation-contraction coupling are largely unexplored. We developed an assay to monitor autophagy modulation in mouse muscle fibers maintained in culture. Exposure to 3-methyladenine, an inhibitor of autophagy initiation, reduced the density of autophagic vesicles. Conversely, hydroxychloroquine, a blocker of autolysosome formation, as well as two MTOR inhibitors that activate autophagy, rapamycin and torin-1, enhanced the vesicle density. The density of lysosomal vesicles was increased by MTOR inhibitors and by hydroxychloroquine, but insensitive to 3-methyladenine. Measurements of Ca2+ signals associated with contractile activation revealed that voltage-activated sarcoplasmic reticulum Ca2+ release was unaffected by torin-1 but was depressed in 3-methyladenine- and in hydroxychloroquine-exposed fibers, suggesting that restraining autophagic flux is detrimental to excitation contraction coupling. The density of the inner plasma membrane network that carries the electrical excitation was depressed by 3-methyladenine and hydroxychloroquine, likely contributing to the function defect. Results establish that autophagic flux is preserved and can be manipulated in cultured muscle fibers, and revealed the power of the approach to tackle the cellular and subcellular consequences of autophagy modulation. They also uncover the possibility that autophagy is a determinant of maintenance and/or function of excitation-contraction coupling, with a potential role in several muscle disease situations.Abbreviations: 3-MA: 3-methyladenine; EC: excitation-contraction; HCQ: hydroxychloroquine; MTM1: myotubularin 1; RYR1: ryanodine receptor 1.",
-    "journal": "Autophagy",
-    "year": 2026,
-    "authors": "Gaillard J, Malleval C, Dauvois C, Gueloua L, Schreiber J, Kretz-Remy C, Gangloff YG, Allard B",
-    "pmid": "42329081",
-    "doi": "10.1080/15548627.2026.2693256",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42329081/",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Macroautophagy/autophagy is a key regulator of muscle mass and of muscle adaptation to stress and defective autophagy is a feature of many muscle disorders.",
-    "did": [
-      "Still, how changes in autophagic flux influence the integrity and function of differentiated muscle fibers remains under-documented.",
-      "Specifically, links between autophagy and mechanisms involved in Ca2+ homeostasis and excitation-contraction coupling are largely unexplored.",
-      "We developed an assay to monitor autophagy modulation in mouse muscle fibers maintained in culture.",
-      "Exposure to 3-methyladenine, an inhibitor of autophagy initiation, reduced the density of autophagic vesicles."
-    ],
-    "main": "Conversely, hydroxychloroquine, a blocker of autolysosome formation, as well as two MTOR inhibitors that activate autophagy, rapamycin and torin-1, enhanced the vesicle density.",
-    "context": "The density of lysosomal vesicles was increased by MTOR inhibitors and by hydroxychloroquine, but insensitive to 3-methyladenine.",
     "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
@@ -8002,6 +7998,41 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neuronal lysosome"
+  },
+  {
+    "title": "MEK-ERK inhibition enhances synaptic input-output coupling and neuronal excitability in the rat dentate gyrus: association with site-specific Kv4.2 phosphorylation.",
+    "abstract": "Synaptic plasticity in the dentate gyrus requires a balance between synaptic transmission and excitability. Although the mitogen-activated protein kinase kinase (MEK)-extracellular signal-regulated kinase (ERK) signaling pathway is well known for its role in long-term plasticity, its function in the regulation of excitatory postsynaptic potential-to-spike (E-S) coupling remains comparatively underexplored. In this study, 40 adult male Wistar albino rats were used to investigate the effects of MEK-ERK inhibition on changes in synaptic transmission, neuronal excitability, and Kv4.2 potassium channel phosphorylation following low-frequency stimulation (LFS) in the in vivo hippocampus. Field potentials were recorded from the dentate gyrus in response to medial perforant pathway stimulation. Inhibition of MEK with PD98059 did not alter basal field excitatory postsynaptic potential (fEPSP) slopes but significantly increased population spike (PS) amplitudes. Under LFS, MEK-ERK inhibition paradoxically increased neuronal output while decreasing excitatory synaptic input, indicating enhanced E-S coupling between synaptic input and output. Western blot analyses confirmed reduced ERK phosphorylation without changes in total ERK levels after PD98059 application. Despite decreased ERK activity, phosphorylation of Kv4.2 increased at specific sites: Thr602 was elevated selectively under LFS, whereas Thr607 increased independently of stimulation. A significant main effect of decreased total Kv4.2 protein levels was also observed. These findings indicate that the MEK-ERK pathway differentially modulates synaptic transmission and neuronal excitability in the dentate gyrus. Site-specific Kv4.2 phosphorylation at Thr602/Thr607, together with reduced total Kv4.2 expression, may contribute to the observed E-S potentiation. This mechanism may underlie hyperexcitability associated with neurological disorders.",
+    "journal": "Cognitive neurodynamics",
+    "year": 2026,
+    "authors": "Ko\u015far B, Yaylal\u0131 O, Ba\u015f D, \u00c7imen A, Dursun N, S\u00fcer C",
+    "pmid": "42389043",
+    "doi": "10.1007/s11571-026-10499-z",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42389043/",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Synaptic plasticity in the dentate gyrus requires a balance between synaptic transmission and excitability.",
+    "did": [
+      "Although the mitogen-activated protein kinase kinase (MEK)-extracellular signal-regulated kinase (ERK) signaling pathway is well known for its role in long-term plasticity, its function in the regulation of excitatory postsynaptic potential-to-spike (E-S) coupling remains comparatively underexplored.",
+      "In this study, 40 adult male Wistar albino rats were used to investigate the effects of MEK-ERK inhibition on changes in synaptic transmission, neuronal excitability, and Kv4.2 potassium channel phosphorylation following low-frequency stimulation (LFS) in the in vivo hippocampus.",
+      "Field potentials were recorded from the dentate gyrus in response to medial perforant pathway stimulation.",
+      "Inhibition of MEK with PD98059 did not alter basal field excitatory postsynaptic potential (fEPSP) slopes but significantly increased population spike (PS) amplitudes."
+    ],
+    "main": "Under LFS, MEK-ERK inhibition paradoxically increased neuronal output while decreasing excitatory synaptic input, indicating enhanced E-S coupling between synaptic input and output.",
+    "context": "Western blot analyses confirmed reduced ERK phosphorylation without changes in total ERK levels after PD98059 application.",
+    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Disrupted Vestibular Nuclei Neuron Development in a Chick Model for Congenital Vestibular Disorders.",
@@ -8177,41 +8208,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "Dual-responsive carbon dot probe utilizing proton exchange and aggregation for correlating biomarker levels with postherpetic neuralgia.",
-    "abstract": "Postherpetic neuralgia (PHN) is a severe complication of varicella-zoster virus (VZV) infection, for which there are currently no reliable objective tools for early prediction. Current post-VZV risk assessment mainly relies on clinical symptoms, which show limited accuracy in identifying individuals who will develop PHN. Biomarker-based strategies that can improve predictive performance are therefore urgently needed. Herein, a dual-responsive nanoprobe is developed for the simultaneous detection of two complementary indicators of neuronal injury (neuron-specific enolase, NSE) and demyelination (myelin basic protein, MBP) in human plasma. Based on the features of NSE and MBP, a carbon dot-based platform with 2-phosphoglyceric acid, paramagnetic Gd3+, and MBP antibody has been designed. On the platform, 2-phosphoglyceric acid and paramagnetic Gd3+ are used to detect NSE via dehydration and proton exchange (producing a nuclear magnetic resonance response), respectively, while the MBP antibody links the platform to MBP, leading to aggregation-induced emission of carbon dots. The limit of detection values of the dual-responsive nanoprobe for NSE and MBP detection are 0.02 and 0.15\u202fpg/mL, respectively, and the cut-off concentrations for differentiating PHN-suffering patients from VZV-infected patients are 21.50 and 10.10\u202fng/mL, respectively. These results demonstrate the feasibility of the dual-responsive nanoprobe for PHN discrimination. Importantly, the NSE and MBP levels after skin rash are reliable to be correlated with PHN due to the significant correlations between biomarker concentration and pain severity after PHN. This work demonstrates a dual-biomarker sensing strategy that improves detection accuracy and provides a potential tool for PHN risk prediction and stratification following VZV infection.",
-    "journal": "Talanta",
-    "year": 2026,
-    "authors": "Kang Y, Zhao Y, Wei Z, Zhu X, Jiang W, Tang S, Zhou Y, Li Y",
-    "pmid": "42134013",
-    "doi": "10.1016/j.talanta.2026.129965",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42134013/",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Postherpetic neuralgia (PHN) is a severe complication of varicella-zoster virus (VZV) infection, for which there are currently no reliable objective tools for early prediction.",
-    "did": [
-      "Current post-VZV risk assessment mainly relies on clinical symptoms, which show limited accuracy in identifying individuals who will develop PHN.",
-      "Biomarker-based strategies that can improve predictive performance are therefore urgently needed.",
-      "Herein, a dual-responsive nanoprobe is developed for the simultaneous detection of two complementary indicators of neuronal injury (neuron-specific enolase, NSE) and demyelination (myelin basic protein, MBP) in human plasma.",
-      "Based on the features of NSE and MBP, a carbon dot-based platform with 2-phosphoglyceric acid, paramagnetic Gd3+, and MBP antibody has been designed."
-    ],
-    "main": "On the platform, 2-phosphoglyceric acid and paramagnetic Gd3+ are used to detect NSE via dehydration and proton exchange (producing a nuclear magnetic resonance response), respectively, while the MBP antibody links the platform to MBP, leading to aggregation-induced emission of carbon dots.",
-    "context": "The limit of detection values of the dual-responsive nanoprobe for NSE and MBP detection are 0.02 and 0.15\u202fpg/mL, respectively, and the cut-off concentrations for differentiating PHN-suffering patients from VZV-infected patients are 21.50 and 10.10\u202fng/mL, respectively.",
-    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Proband-independent noninvasive prenatal diagnosis for spinal muscular atrophy: early detection paving the way for early prenatal treatment.",
@@ -8774,6 +8770,41 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
+    "title": "SGK1-mediated deficits in microglial phagocytosis drive pathological progression in amyotrophic lateral sclerosis.",
+    "abstract": "Alterations in microglial function and transcriptomic profiles are major pathological hallmarks of amyotrophic lateral sclerosis (ALS). However, the dynamics and regulatory mechanisms underlying microglial phagocytic activity during disease progression remain unclear. In this study, we observed stage-dependent alterations in microglial phagocytic activity during disease progression in SOD1G93A mice. Single-cell RNA sequencing suggested that this change was associated with a reduced abundance of microglial subpopulations enriched for phagocytosis-related pathways. Transcriptomic analysis identified serum- and glucocorticoid-regulated kinase 1 (SGK1) as a potential mediator of this process. Notably, sgk1 knockout in SOD1G93A mice was associated with improved microglial clearance of myelin debris and reduced aberrant engulfment of neuronal material after disease onset. Our results further showed that, after disease onset, the accumulation of myelin debris and apoptotic neurons induced SGK1 upregulation in microglia from SOD1G93A mice. Mechanistically, SGK1 appeared to promote lipid accumulation in microglia by suppressing lipophagy, thereby impairing the ability of microglia to clear cellular debris. Moreover, pharmacological inhibition of SGK1 with GSK650394 attenuated motor deficits and prolonged survival in SOD1G93A mice. Together, our findings provide evidence for a previously unrecognized role of SGK1 in regulating microglial phagocytosis in ALS models and support SGK1 as a potential therapeutic target in SOD1 mutation-associated ALS models.",
+    "journal": "Journal of neuroinflammation",
+    "year": 2026,
+    "authors": "He M, Wu C, Hu M, Shi X, Liu R, Tong Y, Wang H, Hu H",
+    "pmid": "42387584",
+    "doi": "10.1186/s12974-026-03925-w",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42387584/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Alterations in microglial function and transcriptomic profiles are major pathological hallmarks of amyotrophic lateral sclerosis (ALS).",
+    "did": [
+      "However, the dynamics and regulatory mechanisms underlying microglial phagocytic activity during disease progression remain unclear.",
+      "In this study, we observed stage-dependent alterations in microglial phagocytic activity during disease progression in SOD1G93A mice.",
+      "Single-cell RNA sequencing suggested that this change was associated with a reduced abundance of microglial subpopulations enriched for phagocytosis-related pathways.",
+      "Transcriptomic analysis identified serum- and glucocorticoid-regulated kinase 1 (SGK1) as a potential mediator of this process."
+    ],
+    "main": "Notably, sgk1 knockout in SOD1G93A mice was associated with improved microglial clearance of myelin debris and reduced aberrant engulfment of neuronal material after disease onset.",
+    "context": "Our results further showed that, after disease onset, the accumulation of myelin debris and apoptotic neurons induced SGK1 upregulation in microglia from SOD1G93A mice.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "Maternal Separation Reduces Hypothalamic Interleukin-6 Expression and Enhances Microglial Activation During Critical Developmental Windows.",
     "abstract": "Early life stress, caused by maternal separation (MS), increases hippocampal inflammatory markers in neonates. However, the effects of MS on hypothalamic neuroimmune development and the peripheral immune response have not yet been assessed. This study examined the effect of MS on neuroimmune and synaptic development by evaluating the expression of pro- and anti-inflammatory cytokines and their association with synaptic plasticity markers in the hypothalamus and hippocampus throughout postnatal development. Microglial activation was analyzed in both brain regions at postnatal day 15 (P15), and the systemic immune response was measured through hemolytic capacity. Cytokine and synaptophysin expression showed dynamic, region-specific changes across postnatal development. MS reduced hypothalamic interleukin 6 expression at P6 and P12, enhanced microglial activation at P15, and blunted the developmental increase in hemolytic capacity seen in controls at P21. While control animals exhibited region-specific associations between cytokines and synaptic markers, these relationships were attenuated in the MS group, including a differential interleukin 6-synaptophysin association. These results suggest that MS alters hypothalamic neuroimmune relationships and systemic immune responses during critical developmental windows. Additionally, increased microglial activation at P15 suggests that MS induced proinflammatory, region-specific changes. These alterations may contribute to heightened vulnerability to mental disease later in life.",
     "journal": "Developmental psychobiology",
@@ -8842,41 +8873,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
-    "title": "Repopulating microglia recapitulate developmental characteristics during a period of auditory circuit recovery.",
-    "abstract": "Precision in auditory brainstem circuitry is essential for sound localization and higher levels of processing. Assembly of this circuitry requires specialized developmental mechanisms, including multipartite signaling between neurons and glia. Microglia populate the developing auditory brainstem nuclei lateromedially, appearing first in the ventral cochlear nucleus, and later in the medial nucleus of the trapezoid body. Microglia increase in number just after hearing onset, then reduce to stable levels following a period of synaptic refinement. We previously showed that early microglia depletion impaired synaptic pruning and auditory brainstem responses. Microglial repopulation, which occurred significantly later than normal development, restored these deficits. This finding suggests that microglia take on developmental roles to reinstate circuit assembly outside of the normal development timeframe. To begin unravelling this phenomenon, we compared morphology and phagocytosis in developing and repopulating microglia. We used CX3CR1+/EGFP mice and characterized individual microglia throughout the postnatal period in control mice and in mice with repopulating microglia. We tested whether repopulating microglia recapitulate developmental qualities by measuring microglial surface area, volume, branching, and lysosomes. We found that infiltrating microglia acquire developmental properties during synaptic refinement, even beyond the normal auditory development timeframe.",
-    "journal": "Hearing research",
-    "year": 2026,
-    "authors": "Chokr SM, Jimenez G, Hoang J, Mai D, Liang HY, Cramer KS",
-    "pmid": "42365748",
-    "doi": "10.1016/j.heares.2026.109715",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42365748/",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Precision in auditory brainstem circuitry is essential for sound localization and higher levels of processing.",
-    "did": [
-      "Assembly of this circuitry requires specialized developmental mechanisms, including multipartite signaling between neurons and glia.",
-      "Microglia populate the developing auditory brainstem nuclei lateromedially, appearing first in the ventral cochlear nucleus, and later in the medial nucleus of the trapezoid body.",
-      "Microglia increase in number just after hearing onset, then reduce to stable levels following a period of synaptic refinement.",
-      "We previously showed that early microglia depletion impaired synaptic pruning and auditory brainstem responses."
-    ],
-    "main": "Microglial repopulation, which occurred significantly later than normal development, restored these deficits.",
-    "context": "This finding suggests that microglia take on developmental roles to reinstate circuit assembly outside of the normal development timeframe.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
   },
   {
     "title": "Foundation models for discovering robust biomarkers of neurological disorders from dynamic functional connectivity",
@@ -9264,6 +9260,41 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
+    "title": "Autophagy and selective autophagy receptors: Key players against Alzheimer's disease.",
+    "abstract": "The devastating neurodegenerative disorder of Alzheimer's disease hallmarks the presence of protein aggregates known as amyloid-\u03b2 plaques and neurofibrillary tangles, composed of amyloid-\u03b2 peptides and aberrantly phosphorylated Tau protein, respectively. The accumulation of these inclusions leads to significant alterations in neuronal homeostasis and overall brain function, resulting in a progressive and rapid cognitive decline. Autophagy, the molecular mechanism of cellular waste removal through the lysosomal pathway, accounts for the degradation of both amyloid-\u03b2 plaques and neurofibrillary tangles in the brain, conferring therefore protection against the pathology. In addition to general autophagy, several lines of evidence have reported the implication of selective autophagy receptors, including sequestosome 1/p62, the neighbor of BRCA1 gene, the nuclear-dot protein 52, and optineurin, in mediating the autophagic clearance of amyloid-\u03b2, phosphorylated Tau, or both. Herein, we have highlighted autophagy and selective autophagy as pivotal mechanisms in Alzheimer's disease, underlining selective autophagy receptors as a potential target for treatments in the future.",
+    "journal": "Neural regeneration research",
+    "year": 2026,
+    "authors": "Bruqi K, Strappazzon F",
+    "pmid": "41467426",
+    "doi": "10.4103/NRR.NRR-D-25-00976",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41467426/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "The devastating neurodegenerative disorder of Alzheimer's disease hallmarks the presence of protein aggregates known as amyloid-\u03b2 plaques and neurofibrillary tangles, composed of amyloid-\u03b2 peptides and aberrantly phosphorylated Tau protein, respectively.",
+    "did": [
+      "The accumulation of these inclusions leads to significant alterations in neuronal homeostasis and overall brain function, resulting in a progressive and rapid cognitive decline.",
+      "Autophagy, the molecular mechanism of cellular waste removal through the lysosomal pathway, accounts for the degradation of both amyloid-\u03b2 plaques and neurofibrillary tangles in the brain, conferring therefore protection against the pathology.",
+      "In addition to general autophagy, several lines of evidence have reported the implication of selective autophagy receptors, including sequestosome 1/p62, the neighbor of BRCA1 gene, the nuclear-dot protein 52, and optineurin, in mediating the autophagic clearance of amyloid-\u03b2, phosphorylated Tau, or both.",
+      "Herein, we have highlighted autophagy and selective autophagy as pivotal mechanisms in Alzheimer's disease, underlining selective autophagy receptors as a potential target for treatments in the future."
+    ],
+    "main": "Herein, we have highlighted autophagy and selective autophagy as pivotal mechanisms in Alzheimer's disease, underlining selective autophagy receptors as a potential target for treatments in the future.",
+    "context": "Herein, we have highlighted autophagy and selective autophagy as pivotal mechanisms in Alzheimer's disease, underlining selective autophagy receptors as a potential target for treatments in the future.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "mTORC2-Nav1.2 signaling drives early hyperexcitability in Alzheimer's disease mouse model.",
     "abstract": "Hyperexcitability is a biomarker of early-stage Alzheimer's Disease (AD) and hastens cognitive decline later in its course. Mechanistic target of rapamycin (mTOR) signaling contributes to the slope of this trajectory, as evidenced by early increased brain expression and the rescue of hyperexcitability by genetic deletion of mTOR complex 2 (mTORC2); however, a molecular mechanism directly linking mTOR signaling to membrane hyperexcitability in early-stage AD remains elusive. Here, we show that hyperactive mTOR signaling stimulates the voltage-gated Na+ channel 1.2 (Nav1.2), a previously identified downstream phosphorylation target of mTORC2 and a key regulator of membrane electrogenesis. Augmented Nav1.2 channel function induced by hyperactive mTOR signaling requires the action of mTORC2 and is selective among major brain Nav channel isoforms. In a murine AD model, neocortical pyramidal neurons display augmented Nav1.2 channel function and hyperexcitability through a mechanism that requires mTORC2 activity. These results highlight the mTORC2-Nav1.2 interaction as a therapeutic target for attenuating pathogenic hyperexcitability in early-stage AD.",
     "journal": "Channels (Austin, Tex.)",
@@ -9363,41 +9394,6 @@
     ],
     "main": "However, the present findings are associative in nature, as pharmacological or genetic rescue experiments were not performed; such experiments will be required to formally establish causality.",
     "context": "Collectively, these findings suggest that targeting the Zn\u00b2\u207a and R3 interaction may represent a potential therapeutic strategy for AD.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "An Activator of Tailless' Repressor Function Stimulates Anti-Neurodegenerative Gene Expression.",
-    "abstract": "The transcription factor tailless (TLX, NR2E1) is expressed in neuronal stem cells and retinal progenitor cells and is thought to maintain their self-renewal by balancing proliferation and differentiation. It is considered as a master regulator of neurogenesis and a promising target in neurodegeneration. Here, we developed highly potent and selective activators of TLX' transcriptional repressor activity by systematic extension of previously optimized fragment TLX ligands and tuning of the substitution pattern. An optimized TLX activator with nanomolar potency and pronounced selectivity was studied for its transcriptomic effects by RNAseq, which demonstrated upregulation of genes associated with ATP production, lysosomal function, and vesicular transport. Moreover, the mitochondrial quality control-associated PTEN-induced kinase 1 (PINK1) was induced, and the amyloidogenic \u03b2-secretase (BACE) was downregulated, supporting anti-neurodegenerative effects of TLX modulation on the transcriptional level.",
-    "journal": "Journal of medicinal chemistry",
-    "year": 2026,
-    "authors": "Hank EC, Busch R, L\u00f3pez-Garc\u00eda \u00da, Kasch T, Kn\u00fcmann L, Morozov V, H\u00f6fner G, Marschner JA",
-    "pmid": "42233775",
-    "doi": "10.1021/acs.jmedchem.6c00734",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42233775/",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "The transcription factor tailless (TLX, NR2E1) is expressed in neuronal stem cells and retinal progenitor cells and is thought to maintain their self-renewal by balancing proliferation and differentiation.",
-    "did": [
-      "It is considered as a master regulator of neurogenesis and a promising target in neurodegeneration.",
-      "Here, we developed highly potent and selective activators of TLX' transcriptional repressor activity by systematic extension of previously optimized fragment TLX ligands and tuning of the substitution pattern.",
-      "An optimized TLX activator with nanomolar potency and pronounced selectivity was studied for its transcriptomic effects by RNAseq, which demonstrated upregulation of genes associated with ATP production, lysosomal function, and vesicular transport.",
-      "Moreover, the mitochondrial quality control-associated PTEN-induced kinase 1 (PINK1) was induced, and the amyloidogenic \u03b2-secretase (BACE) was downregulated, supporting anti-neurodegenerative effects of TLX modulation on the transcriptional level."
-    ],
-    "main": "Moreover, the mitochondrial quality control-associated PTEN-induced kinase 1 (PINK1) was induced, and the amyloidogenic \u03b2-secretase (BACE) was downregulated, supporting anti-neurodegenerative effects of TLX modulation on the transcriptional level.",
-    "context": "Moreover, the mitochondrial quality control-associated PTEN-induced kinase 1 (PINK1) was induced, and the amyloidogenic \u03b2-secretase (BACE) was downregulated, supporting anti-neurodegenerative effects of TLX modulation on the transcriptional level.",
     "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
@@ -9506,6 +9502,38 @@
     "matched_topics_label": "Lysosome transport"
   },
   {
+    "title": "Brain Network Disorders Review Presents Mechanisms of Alzheimer\u2019s Disease Progression - EurekAlert!",
+    "abstract": " Brain Network Disorders Review Presents Mechanisms of Alzheimer\u2019s Disease Progression \u00a0\u00a0 EurekAlert! ",
+    "journal": "EurekAlert!",
+    "year": 2026,
+    "authors": "EurekAlert!",
+    "pmid": "",
+    "doi": "",
+    "review": true,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4welZsQWwyUGtpZ0lCUEYyOXR5UFFaQ213cmR6VnAwVWNaUy1CRmlVVTV4QlctWkVidV9nZ180b09xTm5CWVFUU3g2YWJWTV95SzFXMVJ6NkRXd3Jl?oc=5",
+    "topic": "Disease mechanisms",
+    "top": false,
+    "score": 76,
+    "type": "Review",
+    "overview": "Brain Network Disorders Review Presents Mechanisms of Alzheimer\u2019s Disease Progression \u00a0\u00a0 EurekAlert!",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Brain Network Disorders Review Presents Mechanisms of Alzheimer\u2019s Disease Progression \u00a0\u00a0 EurekAlert!",
+    "context": "Brain Network Disorders Review Presents Mechanisms of Alzheimer\u2019s Disease Progression \u00a0\u00a0 EurekAlert!",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
     "title": "Lysosome trafficking across intracellular and intercellular networks in the brain - Frontiers",
     "abstract": " Lysosome trafficking across intracellular and intercellular networks in the brain \u00a0\u00a0 Frontiers ",
     "journal": "Frontiers",
@@ -9597,6 +9625,38 @@
     ],
     "main": "Molecular basis of Spns1-mediated lysophospholipid transport from the lysosome \u00a0\u00a0 PNAS",
     "context": "Molecular basis of Spns1-mediated lysophospholipid transport from the lysosome \u00a0\u00a0 PNAS",
+    "why": "Matched topics: Lysosome transport. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Lysosome transport"
+  },
+  {
+    "title": "Scientists reveal mechanism of key player in lysosome transport regulation - Phys.org",
+    "abstract": " Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org ",
+    "journal": "Phys.org",
+    "year": 2026,
+    "authors": "Phys.org",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Lysosome transport"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MdXU2dGVDU2RoNWdoUlpQUkcyV3VuZ3A1bVFSWm0yRmVhMmZQdDR0N2lGRkpySmd0QS04S2Nma0x0VmU5S0xfcFp3LXY4dkFyYnlEX3hlMU9qYWszUEZZWHVXYlZCNzFEdVBHSEhld2cxb2RNUFJWQU8zdjNzdw?oc=5",
+    "topic": "Lysosome transport",
+    "top": false,
+    "score": 76,
+    "type": "News / signal",
+    "overview": "Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org",
+    "context": "Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -10775,8 +10835,8 @@
     "matched_topics_label": "Endosome maturation"
   },
   {
-    "title": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 - Rockefeller University Press",
-    "abstract": " TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press ",
+    "title": "An early endosome\u2013derived retrograde trafficking pathway promotes secretory granule maturation - Rockefeller University Press",
+    "abstract": " An early endosome\u2013derived retrograde trafficking pathway promotes secretory granule maturation \u00a0\u00a0 Rockefeller University Press ",
     "journal": "Rockefeller University Press",
     "year": 2026,
     "authors": "Rockefeller University Press",
@@ -10790,17 +10850,17 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPa3oxWGltd0x4SGhqUk5EdnFIdXVfaUx2dFNQWERnd1VkZ3BfQUI0cTYtR0JrOW9YZlJoTWxmTzBfZzhWSnNNM1Vka0ktaGRzbGRkbFZORno4dExpWll1bFNvaTlaelVTZ3NTcmNEN0hFd0ZNSXRSMEtLS1VyeURlem9KQy1TM2pnVnh1Z2t3M0NXdHdLQk8zRi02Nk82VFFpd01BaGRxdw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdnB3M2VhT25TQmZNQmhSMDY0VlJ1amdGbTdJem1qa04tNzZ1SmxBclVpM0Y4Qmk4clBuRmduNWJBdFlVRVUtQ2JJbWNvdFFCUEt3SUhFUVkzSlpNa3pwblpNRHlsUnRHYzRDZjNCYW05YV9UTno2SzVJQ0NCQUU5MmltQWZELWd5WWVPYzFOczhiUjdnWVhZTjNBRzJPOHBoeXNFaGIwcw?oc=5",
     "topic": "Endosome maturation",
     "top": false,
     "score": 72,
     "type": "News / signal",
-    "overview": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
+    "overview": "An early endosome\u2013derived retrograde trafficking pathway promotes secretory granule maturation \u00a0\u00a0 Rockefeller University Press",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
-    "context": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
+    "main": "An early endosome\u2013derived retrograde trafficking pathway promotes secretory granule maturation \u00a0\u00a0 Rockefeller University Press",
+    "context": "An early endosome\u2013derived retrograde trafficking pathway promotes secretory granule maturation \u00a0\u00a0 Rockefeller University Press",
     "why": "Matched topics: Endosome maturation. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11119,38 +11179,6 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy - Haematologica",
-    "abstract": " Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy \u00a0\u00a0 Haematologica ",
-    "journal": "Haematologica",
-    "year": 2026,
-    "authors": "Haematologica",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRzRZRW9SRUhQTGZOSk0xeTdEbFJLeUNCQUttbk1RSzU2ZFZKQjczdl9aZUtwSTlHZEZLM3lWbURCT3NEWnN1NXI0QlZTOHlWWklPUGIxNDdxTlZZM1lqY2c3eVl4R3NpZHlJ?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy \u00a0\u00a0 Haematologica",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy \u00a0\u00a0 Haematologica",
-    "context": "Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy \u00a0\u00a0 Haematologica",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
     "title": "Biological sciences professor receives grant to study cellular mechanisms in diseases such as cancer, Alzheimer\u2019s - Marquette Today",
     "abstract": " Biological sciences professor receives grant to study cellular mechanisms in diseases such as cancer, Alzheimer\u2019s \u00a0\u00a0 Marquette Today ",
     "journal": "Marquette Today",
@@ -11209,38 +11237,6 @@
     ],
     "main": "Jude Children's Research Hospital",
     "context": "Jude Children's Research Hospital",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
-    "title": "Reanalysis of Undiagnosed Neurodevelopmental Disorder Cases: From RNU4-2 Variants to Clinical Phenotypes - Neurology\u00ae Journals",
-    "abstract": " Reanalysis of Undiagnosed Neurodevelopmental Disorder Cases: From RNU4-2 Variants to Clinical Phenotypes \u00a0\u00a0 Neurology\u00ae Journals ",
-    "journal": "Neurology\u00ae Journals",
-    "year": 2026,
-    "authors": "Neurology\u00ae Journals",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9DTUgyMTBTcXUydWpKREp3d2ZLTzRuLTU3U3ZJVHNBWm9rUEV2aWFxUXZNTUExX3NLSUFiOHdIalUzazBYekJTUURkOFZrX1NBLXZ0b0lhaFpfZzA5VlhoWGZMRlJ1bHM0a3c?oc=5",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Reanalysis of Undiagnosed Neurodevelopmental Disorder Cases: From RNU4-2 Variants to Clinical Phenotypes \u00a0\u00a0 Neurology\u00ae Journals",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Reanalysis of Undiagnosed Neurodevelopmental Disorder Cases: From RNU4-2 Variants to Clinical Phenotypes \u00a0\u00a0 Neurology\u00ae Journals",
-    "context": "Reanalysis of Undiagnosed Neurodevelopmental Disorder Cases: From RNU4-2 Variants to Clinical Phenotypes \u00a0\u00a0 Neurology\u00ae Journals",
     "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11661,38 +11657,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
-    "title": "Long COVID Linked to Alzheimer's Disease Mechanisms - PR Newswire",
-    "abstract": " Long COVID Linked to Alzheimer's Disease Mechanisms \u00a0\u00a0 PR Newswire ",
-    "journal": "PR Newswire",
-    "year": 2026,
-    "authors": "PR Newswire",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUUJway1NS01Gb28xM3dvZHBYd1hEeGtCdTM4LVpEZXF3bWZWLU1aQkpuSVF6QUxVZkJ3bklTXzhQLTA4NTQ0b2lQb2lGVlNtQmVHR3drSGdIcklfdUZWbmdVUW5ocTMtcko5X2hicDF3UUFOcWcwM2VIRnVNZnFCWndaNS1fZVVmTm5JLU1tN1VSYndvNXItQkpJc2tNell0S3p6eEQxSDBpQQ?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Long COVID Linked to Alzheimer's Disease Mechanisms \u00a0\u00a0 PR Newswire",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Long COVID Linked to Alzheimer's Disease Mechanisms \u00a0\u00a0 PR Newswire",
-    "context": "Long COVID Linked to Alzheimer's Disease Mechanisms \u00a0\u00a0 PR Newswire",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
   },
   {
     "title": "Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy",
