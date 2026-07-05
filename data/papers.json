@@ -3396,6 +3396,41 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
+    "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+    "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment.",
+    "journal": "BMC medical genomics",
+    "year": 2026,
+    "authors": "R\u0119ka G, Wojciechowska K, Lejman M",
+    "pmid": "42401939",
+    "doi": "10.1186/s12920-026-02424-4",
+    "review": true,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42401939/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 82,
+    "type": "Review",
+    "overview": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior.",
+    "did": [
+      "Global prevalence is estimated as 1-2%, with a predominance of men.",
+      "Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD.",
+      "The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature.",
+      "MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search."
+    ],
+    "main": "Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included.",
+    "context": "RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
     "title": "Persistent PirB cleavage drives Golgi-directed trafficking deficits underlying neurodegeneration.",
     "abstract": "BACKGROUND: Extensive research evidence indicates that neuronal immune receptors play a critical role in Alzheimer's disease (AD). However, it remains unclear how these receptors convert extracellular signals into cellular pathological changes. Proteolytic cleavage of membrane receptors serves as an unconventional pathway for reprogramming cellular functions, and the cleaved fragments often play important roles within the cell. Whether immune receptors mediate their effects in AD through this cleavage-dependent signaling mechanism remains to be clarified. METHODS: We performed proteomic screening of human cerebrospinal fluid to identify cleaved membrane proteins. Cleavage events were validated in postmortem AD brains, primary neurons, and APP/PS1 mice by immunoprecipitation, liquid chromatography-tandem mass spectrometry (LC-MS/MS), and immunofluorescence. Functional impacts were assessed through cathepsin D maturation assays, Retention Using Selective Hooks (RUSH) systems, live imaging of axonal transport, and behavioral tests (e.g., Barnes maze and fear conditioning). Therapeutic potential was evaluated by inhibiting the\u00a0paired immunoglobulin-like receptor B (PirB) cleavage and overexpression of the GAT domain of Golgi-associated, gamma adaptin ear-containing, ARF binding protein 3 (GGA3). RESULTS: This study identified a pathogenic proteolytic pathway in AD patients and mouse models, which cleaves PirB, a mouse ortholog of human leukocyte immunoglobulin-like receptor B2 (LILRB2), upon A\u03b2 exposure, generating a C-terminal fragment (PirB-CTF) that accumulated in the Golgi apparatus via retrograde transport. PirB-CTF bound to the GAT domain of GGA3, disrupting Golgi transport, impairing lysosomal maturation, and compromising anterograde synaptic vesicle transport. Inhibiting PirB cleavage or overexpressing GGA3-GAT restored Golgi function, reduced A\u03b2 plaque burden and tau phosphorylation, and rescued memory deficits. CONCLUSION: Our study revealed a non-canonical pathway in which proteolytic cleavage repurposes PirB into an intracellular disruptor of Golgi trafficking, directly coupling immune receptor activation to organelle dysfunction in AD. The PirB-CTF/GGA3 interface represents a promising therapeutic target for mitigating trafficking deficits and cognitive decline in neurodegenerative disorders.",
     "journal": "Translational neurodegeneration",
@@ -6576,38 +6611,6 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia - Nature",
-    "abstract": " A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature ",
-    "journal": "Nature",
-    "year": 2026,
-    "authors": "Nature",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SLXRxOUtuWTdXbEI3bGNNOENqRGJNNkVFQXlZN3BrcEJqY3BxRDBaM2FUcDZ4aW5QWHAzSnFTSUs1VjBiQmxneUR2bnZsaGNFbmptODZLY19paUZ0NHdF?oc=5",
-    "topic": "Neuronal lysosome",
-    "top": true,
-    "score": 80,
-    "type": "News / signal",
-    "overview": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature",
-    "context": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature",
-    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
     "title": "Tissue Models in Space Will Support Age-Related Disease Studies - National Center for Advancing Translational Sciences (.gov)",
     "abstract": " Tissue Models in Space Will Support Age-Related Disease Studies \u00a0\u00a0 National Center for Advancing Translational Sciences (.gov) ",
     "journal": "National Center for Advancing Translational Sciences (.gov)",
@@ -8412,41 +8415,6 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Maternal granulocyte colony-stimulating factor alters synaptic maturation and social behaviors in offspring.",
-    "abstract": "Neurodevelopmental disorders, including autism spectrum disorder (ASD), arise from complex interactions between genetic and environmental factors. Maternal immune activation (MIA) is a key environmental risk factor that disrupts embryonic neurodevelopment, primarily through inflammatory cytokines. However, the contribution of non-inflammatory cytokines, particularly hematopoietic growth factors, remains poorly understood. Here, we identified granulocyte colony-stimulating factor (G-CSF) as a candidate mediator of MIA-induced neurodevelopmental alterations. Polyinosinic:polycytidylic acid [poly(I:C)] administration to pregnant dams at embryonic day 12.5 (E12.5) significantly increased G-CSF levels in both maternal plasma and embryonic tissue. To assess its contribution to neurodevelopmental alterations, we administered human G-CSF (hG-CSF) to pregnant dams at E12.5. At the structural level, male offspring exposed to prenatal hG-CSF showed increased dendritic spine density and a higher proportion of immature spines in the medial prefrontal cortex. Behaviorally, both male and female offspring exhibited altered social preference. Bulk RNA-seq analysis of the prefrontal cortex revealed altered enrichment of pathways related to synapse organization, translation, and mitochondrial function in both sexes, with opposite directions of enrichment in males and females. In vitro, G-CSF attenuated synapse maturation and enhanced microglial phagocytic activity. These findings suggest that G-CSF may contribute to MIA-associated neurodevelopmental alterations, potentially through disrupted synapse maturation and microglial function. Our results highlight a hematopoietic pathway that may contribute to mechanisms underlying neurodevelopmental disorders, including ASD.",
-    "journal": "Brain, behavior, and immunity",
-    "year": 2026,
-    "authors": "Kirikae H, Kimura K, Fu J, Sun Z, Wang H, Shibuya H, Kasahara Y, Miyazaki H",
-    "pmid": "41825653",
-    "doi": "10.1016/j.bbi.2026.106534",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41825653/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Neurodevelopmental disorders, including autism spectrum disorder (ASD), arise from complex interactions between genetic and environmental factors.",
-    "did": [
-      "Maternal immune activation (MIA) is a key environmental risk factor that disrupts embryonic neurodevelopment, primarily through inflammatory cytokines.",
-      "However, the contribution of non-inflammatory cytokines, particularly hematopoietic growth factors, remains poorly understood.",
-      "Here, we identified granulocyte colony-stimulating factor (G-CSF) as a candidate mediator of MIA-induced neurodevelopmental alterations.",
-      "Polyinosinic:polycytidylic acid [poly(I:C)] administration to pregnant dams at embryonic day 12.5 (E12.5) significantly increased G-CSF levels in both maternal plasma and embryonic tissue."
-    ],
-    "main": "To assess its contribution to neurodevelopmental alterations, we administered human G-CSF (hG-CSF) to pregnant dams at E12.5.",
-    "context": "At the structural level, male offspring exposed to prenatal hG-CSF showed increased dendritic spine density and a higher proportion of immature spines in the medial prefrontal cortex.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "GDAP1 orchestrates redox signaling at membrane contact sites to preserve axonal integrity in Charcot-Marie-Tooth disease.",
     "abstract": "Pathogenic variants in GDAP1 cause Charcot-Marie-Tooth disease (CMT), an inherited peripheral neuropathy characterized by progressive axonal degeneration. Although GDAP1 is an atypical glutathione S-transferase localized to the outer mitochondrial membrane, it has been proposed to function as a redox sensor that likely maintains inter-organelle communication in neurons. However, the mechanisms by which GDAP1 performs these functions remain unclear. To address this question, we here used a robust multi-tier approach that combines high-resolution and live-cell imaging with pH-sensitive probes, membrane contact sites (MCSs) analysis, lipid studies, transcriptomics, and nerve ultrastructural studies in both patient-derived fibroblasts and Gdap1-/- mice. We find that deletion of the GDAP1 gene induces localized pH and redox imbalances at mitochondria-lysosomes contact sites, which propagate to defective mitochondria-peroxisome interactions, impaired peroxisome biogenesis and morphology, leading to altered lipid homeostasis. These defects are accompanied by axonal organelle mislocalization, disruption of nodes of Ranvier, and structural abnormalities in peripheral nerves. Investigations on the potential reversibility of these processes, reveal that restoration of redox balance rescues MCS organization, identifying a therapeutically tractable MCS-peroxisome axis downstream of GDAP1. Together, our findings position GDAP1 as a redox-sensing organizer of mitochondrial membrane contact sites whose dysfunction triggers a cascade of organelle and axonal defects underlying CMT pathogenesis. Thus, this new knowledge should be taken into consideration in the future design of therapeutic interventions that can ameliorate the symptoms of this dismal disease.",
     "journal": "Neurobiology of disease",
@@ -9725,38 +9693,6 @@
     ],
     "main": "Molecular basis of Spns1-mediated lysophospholipid transport from the lysosome \u00a0\u00a0 PNAS",
     "context": "Molecular basis of Spns1-mediated lysophospholipid transport from the lysosome \u00a0\u00a0 PNAS",
-    "why": "Matched topics: Lysosome transport. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Lysosome transport"
-  },
-  {
-    "title": "Scientists reveal mechanism of key player in lysosome transport regulation - Phys.org",
-    "abstract": " Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org ",
-    "journal": "Phys.org",
-    "year": 2026,
-    "authors": "Phys.org",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Lysosome transport"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MdXU2dGVDU2RoNWdoUlpQUkcyV3VuZ3A1bVFSWm0yRmVhMmZQdDR0N2lGRkpySmd0QS04S2Nma0x0VmU5S0xfcFp3LXY4dkFyYnlEX3hlMU9qYWszUEZZWHVXYlZCNzFEdVBHSEhld2cxb2RNUFJWQU8zdjNzdw?oc=5",
-    "topic": "Lysosome transport",
-    "top": false,
-    "score": 76,
-    "type": "News / signal",
-    "overview": "Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org",
-    "context": "Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11311,38 +11247,6 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
-    "title": "Biological sciences professor receives grant to study cellular mechanisms in diseases such as cancer, Alzheimer\u2019s - Marquette Today",
-    "abstract": " Biological sciences professor receives grant to study cellular mechanisms in diseases such as cancer, Alzheimer\u2019s \u00a0\u00a0 Marquette Today ",
-    "journal": "Marquette Today",
-    "year": 2026,
-    "authors": "Marquette Today",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMzFlTnY3N0Nka3dBQ3BuQ2Z4SFU5T0dQRWRzRkQ4aHQxbERsZXRKanh0QXhGUkZoV0ZSdTNpaUl3VzRBdjZVMTd2NDB5ZGpPRW9kUTltcmowTEN5SjhaUzZLaGdpRWFmNVhDUUdQRnBWTzNmbjBsUmliM3Z0Zk1weEdzb01HSzdFXzQzNFB5YU4xcjUzX1BWY3FHYXlGWmt2QnRVM1l0RXVpZ3RUaC1kMjBiSktEcFdrSy1rMm5YRU9mYTI5X1Vyeml6ZnRXMnJ2OHBORFpRMG9mTVVHcWNGZUV3?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Biological sciences professor receives grant to study cellular mechanisms in diseases such as cancer, Alzheimer\u2019s \u00a0\u00a0 Marquette Today",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Biological sciences professor receives grant to study cellular mechanisms in diseases such as cancer, Alzheimer\u2019s \u00a0\u00a0 Marquette Today",
-    "context": "Biological sciences professor receives grant to study cellular mechanisms in diseases such as cancer, Alzheimer\u2019s \u00a0\u00a0 Marquette Today",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
     "title": "Antisense oligonucleotide strategy reverses HNRNPH2-related neurodevelopmental disorder - St. Jude Children's Research Hospital",
     "abstract": " Antisense oligonucleotide strategy reverses HNRNPH2-related neurodevelopmental disorder \u00a0\u00a0 St. Jude Children's Research Hospital ",
     "journal": "St. Jude Children's Research Hospital",
@@ -11503,6 +11407,38 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
+    "title": "Immune Mechanisms of Heart Valve Development, Homeostasis, and Disease - American Heart Association Journals",
+    "abstract": " Immune Mechanisms of Heart Valve Development, Homeostasis, and Disease \u00a0\u00a0 American Heart Association Journals ",
+    "journal": "American Heart Association Journals",
+    "year": 2026,
+    "authors": "American Heart Association Journals",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xbWFmY2pvM0t0RzEtMVB6NzB2WUtYbEN0X3JMZUJpWGs5TFZvaTY4Tk5HWGgwZjlEZFRoZnRlT3ZFaDlrQUJRcjhDWW5tbjBCa3lRZ0tJalN1Q2dKMmxfVGs1c1R1V1hGcmc?oc=5",
+    "topic": "Disease mechanisms",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Immune Mechanisms of Heart Valve Development, Homeostasis, and Disease \u00a0\u00a0 American Heart Association Journals",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Immune Mechanisms of Heart Valve Development, Homeostasis, and Disease \u00a0\u00a0 American Heart Association Journals",
+    "context": "Immune Mechanisms of Heart Valve Development, Homeostasis, and Disease \u00a0\u00a0 American Heart Association Journals",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
     "title": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons - Wiley Online Library",
     "abstract": " Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library ",
     "journal": "Wiley Online Library",
@@ -11529,6 +11465,38 @@
     ],
     "main": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library",
     "context": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library",
+    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
+    "title": "Could targeting neuronal metabolism offer a new path for neurodegenerative disease therapy? - EurekAlert!",
+    "abstract": " Could targeting neuronal metabolism offer a new path for neurodegenerative disease therapy? \u00a0\u00a0 EurekAlert! ",
+    "journal": "EurekAlert!",
+    "year": 2026,
+    "authors": "EurekAlert!",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YcVlTOGJ4V0diM1F4QUVmODd5bkpEc0VJbFp1U1NWWUZlZERXTEJNMThvSU1BWVhEc2FxNkwxU1VBWUtBNVJyMjRTc0kwNXFkQmo0N2JxYUxhV0Jq?oc=5",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Could targeting neuronal metabolism offer a new path for neurodegenerative disease therapy?",
+    "did": [
+      "EurekAlert!"
+    ],
+    "main": "EurekAlert!",
+    "context": "EurekAlert!",
     "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11599,38 +11567,6 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
-    "title": "Microbiome Maturation Influences Neurodevelopmental Disorder Risk - European Medical Journal",
-    "abstract": " Microbiome Maturation Influences Neurodevelopmental Disorder Risk \u00a0\u00a0 European Medical Journal ",
-    "journal": "European Medical Journal",
-    "year": 2026,
-    "authors": "European Medical Journal",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQzJRbGJBYlpfbEVjVFRCZ3NLemxRWC1aMVl1aXpvdS1wVmxVYThsSDhhbGp0X2xpMUd0X2lKLUtNZHpFQ29mYkxIYmxXb2c1MVoyRFpEczVXT2dDa0VPWENrVkVOMllINzcwREpFV1FYOHRtbXoweDhmdkFMTkVoQVlBUTZKNmZkTXBmaldYVTZLTnFOd1NtSXROZ2k1cnNUNFdfdEwyZGRaTGxuWlIxZlJ6NDlVUQ?oc=5",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Microbiome Maturation Influences Neurodevelopmental Disorder Risk \u00a0\u00a0 European Medical Journal",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Microbiome Maturation Influences Neurodevelopmental Disorder Risk \u00a0\u00a0 European Medical Journal",
-    "context": "Microbiome Maturation Influences Neurodevelopmental Disorder Risk \u00a0\u00a0 European Medical Journal",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "New findings explain how lysosomal defects trigger neuronal energy failure - News-Medical",
     "abstract": " New findings explain how lysosomal defects trigger neuronal energy failure \u00a0\u00a0 News-Medical ",
     "journal": "News-Medical",
@@ -11661,6 +11597,38 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neuronal lysosome"
+  },
+  {
+    "title": "Linking Lysosomal Dysfunction to Severe Neurological Disorders - Northwestern University",
+    "abstract": " Linking Lysosomal Dysfunction to Severe Neurological Disorders \u00a0\u00a0 Northwestern University ",
+    "journal": "Northwestern University",
+    "year": 2026,
+    "authors": "Northwestern University",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkZCUnZhM081bDJGYTRsaDlEQmRaaDFfYUtQWDBydnpFRE50U1c5TGljdG9Bdm5DdE5uSVhNM0RMNEZjYnlvb01pQXVzUEUtay11MkpxcngyaUVXWHdqc21oTlEtVW5TZGFmcmNmZFVJX1ZnRjBxd0lzMEZtWDNPemVJMFB3NUtTdWxJMUkxc3FRUmpmNUVmRGFSaW9FZnRaa19rWjlldXc2YnM0VEpzb3Ztaw?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Linking Lysosomal Dysfunction to Severe Neurological Disorders \u00a0\u00a0 Northwestern University",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Linking Lysosomal Dysfunction to Severe Neurological Disorders \u00a0\u00a0 Northwestern University",
+    "context": "Linking Lysosomal Dysfunction to Severe Neurological Disorders \u00a0\u00a0 Northwestern University",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Postdoc Portrait: Mary Cundiff Maps Shared Disease Mechanisms - the-scientist.com",
@@ -11821,6 +11789,38 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "The massive, hidden burden of neurological disorders - YaleNews",
+    "abstract": " The massive, hidden burden of neurological disorders \u00a0\u00a0 YaleNews ",
+    "journal": "YaleNews",
+    "year": 2026,
+    "authors": "YaleNews",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQb1YzcmFsYTNubUkxRUhwaDBPd3FDdFJTdkF2RGN3RTlYeW9TcDAxWEJrdndWSFB4eEp4dTdTbDd1M2JRcmNrdVpBeDVRQ2JpbXpxY29WbWZFeW90X2dveXQ0a2Qxd1hlRUZ5Snp6Nm5WZGswUUdvVEFHMldfNmU3a0x3MA?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "The massive, hidden burden of neurological disorders \u00a0\u00a0 YaleNews",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "The massive, hidden burden of neurological disorders \u00a0\u00a0 YaleNews",
+    "context": "The massive, hidden burden of neurological disorders \u00a0\u00a0 YaleNews",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy",
