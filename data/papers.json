@@ -2294,6 +2294,41 @@
     "matched_topics_label": "JIP3 / MAPK8IP3"
   },
   {
+    "title": "Sodium Butyrate Attenuates Sevoflurane-Induced Impaired Myelination and Neurobehavioral Deficits in Neonatal Mice via the H3K9ac/BDNF/TrkB Pathway.",
+    "abstract": "BACKGROUND: Early-life exposure to sevoflurane is considered an important risk factor for abnormal neurodevelopment and may lead to impaired myelination and neurobehavioral deficits in neonatal mice. Sodium butyrate (NaB), a short-chain fatty acid (SCFA) with epigenetic regulatory activity, has shown neuroprotective effects in various neurological disorders. However, the role of NaB in sevoflurane-induced myelination impairment and the underlying molecular mechanisms remain unclear. METHODS: An in\u00a0vivo neonatal mouse model of sevoflurane exposure was established to investigate its effects on myelination and neurobehavioral function. NaB intervention was then administered to evaluate its potential to ameliorate sevoflurane-induced myelination impairment and neurobehavioral deficits. In\u00a0vitro, human oligodendrocyte precursor cells (HOPCs) were directly treated with different concentrations of NaB to examine its effects on cell proliferation, migration, differentiation, and related molecular signaling pathways. RESULTS: Repeated exposure to sevoflurane during the critical period of brain development in neonatal mice inhibited the proliferation and differentiation of oligodendrocyte precursor cells (OPCs), impaired myelination, and led to neurobehavioral deficits. NaB intervention ameliorated sevoflurane-induced myelination impairment and neurobehavioral dysfunction by regulating histone H3 lysine 9 acetylation (H3K9ac), upregulating brain-derived neurotrophic factor (BDNF) expression, promoting tropomyosin receptor kinase B (TrkB) phosphorylation, and increasing phosphorylated TrkB (p-TrkB) levels. CONCLUSIONS: Repeated sevoflurane exposure in neonatal mice inhibited OPC proliferation and differentiation, impaired myelination, and caused neurobehavioral deficits. NaB ameliorated these impairments by regulating H3K9ac modification and increasing BDNF and p-TrkB levels.",
+    "journal": "CNS neuroscience & therapeutics",
+    "year": 2026,
+    "authors": "Liu C, Bai X, Liu X, Li J, Liu R, Jiang J, Zhao G",
+    "pmid": "42423126",
+    "doi": "10.1002/cns.71026",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42423126/",
+    "topic": "Neurodevelopment disorder",
+    "top": true,
+    "score": 86,
+    "type": "Primary research",
+    "overview": "BACKGROUND: Early-life exposure to sevoflurane is considered an important risk factor for abnormal neurodevelopment and may lead to impaired myelination and neurobehavioral deficits in neonatal mice.",
+    "did": [
+      "Sodium butyrate (NaB), a short-chain fatty acid (SCFA) with epigenetic regulatory activity, has shown neuroprotective effects in various neurological disorders.",
+      "However, the role of NaB in sevoflurane-induced myelination impairment and the underlying molecular mechanisms remain unclear.",
+      "METHODS: An in\u00a0vivo neonatal mouse model of sevoflurane exposure was established to investigate its effects on myelination and neurobehavioral function.",
+      "NaB intervention was then administered to evaluate its potential to ameliorate sevoflurane-induced myelination impairment and neurobehavioral deficits."
+    ],
+    "main": "In\u00a0vitro, human oligodendrocyte precursor cells (HOPCs) were directly treated with different concentrations of NaB to examine its effects on cell proliferation, migration, differentiation, and related molecular signaling pathways.",
+    "context": "RESULTS: Repeated exposure to sevoflurane during the critical period of brain development in neonatal mice inhibited the proliferation and differentiation of oligodendrocyte precursor cells (OPCs), impaired myelination, and led to neurobehavioral deficits.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
     "title": "A human lysosomal storage disorder toolkit for decoding proteome landscapes in cortical-like and dopaminergic-like induced neurons.",
     "abstract": "Lysosomes maintain cellular homeostasis by degrading proteins delivered via endocytosis and autophagy and by recycling building blocks for organelle biogenesis. Lysosomal storage disorders (LSDs) comprise a group of diseases affecting diverse lysosomal functions. To facilitate molecular phenotyping across diverse LSD gene classes, we are developing a library of human embryonic stem cells engineered to lack individual LSD genes as a resource for the field. Here, we report our initial stem cell toolkit lacking one of 23 LSD genes, including the majority of genes associated with sphingolipidoses and neuronal ceroid lipofuscinoses, and its use in the generation of a proteomic resource for induced cortical-like and midbrain dopaminergic-like neurons. In-depth abundance and correlation profiling across organelles and suborganelle components revealed potential vulnerabilities that reflect distinct patterns of proteome alterations across both genotypes and neuronal cell types. We characterize alterations in the mitochondrial proteome associated with GBA1 and ASAH1 deficiency and identify synaptic and mitochondrial defects in ASAH1-/- induced neurons that correlate with defects in neuronal firing rates. Moreover, we developed an informatic pipeline for proteome-wide identification of individual protein-protein interactions and protein complexes that may be disrupted as a result of LSD gene deficiency. Finally, we visualized structural alterations of ASAH1-deficient endolysosomes in situ using cryoelectron tomography, revealing swollen organelles that were largely devoid of dense internal membranes characteristic of wild-type cells, but containing numerous intralumenal vesicle compartments. This toolkit and associated proteomic landscapes provide a resource for defining molecular signatures associated with LSD gene dysfunction and organelle vulnerability.",
     "journal": "Proceedings of the National Academy of Sciences of the United States of America",
@@ -2473,7 +2508,7 @@
     "abstract": "Schizophrenia is a neurodevelopmental disorder associated with alterations in neuronal function and connectivity. It has been extensively modeled using neurons derived from induced pluripotent stem cells (iPSC), where significant differences between patients and healthy controls have been reported. Notably, spontaneous generation of astrocytes in these cultures can influence functional and molecular analyses. This study assesses whether schizophrenia (SZ) and healthy control (HC) iPSC-derived neuronal cultures significantly differ in their cellular composition and determines how these variations impact transcriptomic interpretations. iPSC from three HC and four SZ were differentiated into neuronal cultures and then characterized using immunostaining, RNA sequencing, transcriptomic deconvolution, and flow cytometry. Transcriptomic analysis identified differential gene expression in SZ cultures, enriched gene ontology (GO) pathways related to neurodevelopment and synaptic function. Additionally, SynGO analysis revealed altered expression of genes associated with pre- and postsynaptic compartments. Cell-type deconvolution showed enrichment of immature and postmitotic neuronal populations in SZ cultures, whereas HC cultures displayed higher astrocyte enrichment. The neuronal enrichment was further supported by flow cytometry, which indicated an increased proportion of NeuN-positive nuclei in SZ-derived cultures. Together, our results support a model where a shift in the neuronal-glial balance in schizophrenia neural cell populations may contribute to the disease-associated phenotypes.",
     "journal": "Cells & development",
     "year": 2026,
-    "authors": "Casas BS, Z\u00fa\u00f1iga J, Ariz\u00e1balos S, Maluenda M, Letelier-Naritelli C, Palma V, Montecino M",
+    "authors": "Casas BS, Z\u00fa\u00f1iga-Hern\u00e1ndez JM, Ariz\u00e1balos S, Maluenda M, Letelier-Naritelli C, Palma V, Montecino M",
     "pmid": "42385890",
     "doi": "10.1016/j.cdev.2026.204097",
     "review": false,
@@ -2572,41 +2607,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Itgb3 expression is developmentally regulated in pyramidal neurons of mouse cortex and hippocampus.",
-    "abstract": "Variants in integrin \u03b23 (Itgb3) are associated with autism spectrum disorder and intellectual disability. Itgb3 deletion in mice leads to aberrant development of excitatory pyramidal neurons in the cerebral cortex and hippocampus, as well as aberrant social and repetitive behaviors. However, its expression pattern in the developing brain has not been well studied. Due to its functional importance in the developing forebrain, we hypothesized that Itgb3 expression would be developmentally regulated and localized to cortical and hippocampal pyramidal neurons in the mouse brain. We found that Itgb3 mRNA is strongly expressed throughout the forebrain, especially in layer 5 of cerebral cortex and CA3 of hippocampus. In mouse cortical layer 5 and in hippocampal CA3, Itgb3 mRNA expression is high at postnatal day 6-7 and is downregulated in cortex by postnatal day 20-21. It is expressed preferentially in glutamatergic excitatory pyramidal neurons. Peak Itgb3 expression therefore coincides with the timeframe for peak dendritic formation and synaptogenesis in cortical and hippocampal glutamatergic excitatory pyramidal neurons.",
-    "journal": "Neuroscience letters",
-    "year": 2026,
-    "authors": "Cook HN, Vinson EC, Kalinowski AR, Rodriguez HV, Denzler CJ, Vidal GS",
-    "pmid": "42178018",
-    "doi": "10.1016/j.neulet.2026.138643",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42178018/",
-    "topic": "Neurodevelopment disorder",
-    "top": true,
-    "score": 86,
-    "type": "Primary research",
-    "overview": "Variants in integrin \u03b23 (Itgb3) are associated with autism spectrum disorder and intellectual disability.",
-    "did": [
-      "Itgb3 deletion in mice leads to aberrant development of excitatory pyramidal neurons in the cerebral cortex and hippocampus, as well as aberrant social and repetitive behaviors.",
-      "However, its expression pattern in the developing brain has not been well studied.",
-      "Due to its functional importance in the developing forebrain, we hypothesized that Itgb3 expression would be developmentally regulated and localized to cortical and hippocampal pyramidal neurons in the mouse brain.",
-      "We found that Itgb3 mRNA is strongly expressed throughout the forebrain, especially in layer 5 of cerebral cortex and CA3 of hippocampus."
-    ],
-    "main": "In mouse cortical layer 5 and in hippocampal CA3, Itgb3 mRNA expression is high at postnatal day 6-7 and is downregulated in cortex by postnatal day 20-21.",
-    "context": "It is expressed preferentially in glutamatergic excitatory pyramidal neurons.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Single-cell profiling of DNA methylation in autism spectrum disorder prefrontal cortex reveals distinct regulatory and aging signatures.",
@@ -4556,41 +4556,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Neurodevelopmental Consequences Induced by Early-Life Lead Exposure Through Disruption of Neurotransmitter Pathways and Molecular Mechanisms: A Systematic Review.",
-    "abstract": "Lead is a toxic heavy metal with significant health risks, as maternal lead exposure during pregnancy disrupts fetal neural development through placental transfer, leading to persistent neurological, developmental, and long-term health consequences in the progeny. Lead exposure typically affects the central nervous system, which is especially harmful during fetal development and early infancy. This review emphasizes the impact of early developmental exposure leading to disruption of neurotransmitter mechanisms. Mechanistically, lead disrupts neurodevelopment through various pathways, including alterations in myelin proteins, synaptic function, and neuroinflammatory responses, by interfering with the regulatory action of calcium, as lead mimics and replaces calcium. Alterations caused by lead, particularly in the dopaminergic, cholinergic, glutamatergic, and GABAergic pathways, increase the risk of neurodevelopmental disorders such as attention deficit hyperactivity disorder (ADHD), autism spectrum disorder (ASD), and cognitive disabilities in children. Lead is known to induce cellular, molecular, and epigenetic changes that impair neuronal connectivity, synaptic plasticity, and network functionality, ultimately leading to the disruption of neurodevelopmental pathways. The cumulative evidence highlights various aspects of lead neurotoxicity and emphasizes its role in the etiology of neurodevelopmental impairments. Understanding these pathways is critical for early intervention strategies to mitigate the long-term cognitive and behavioral consequences of lead exposure during sensitive developmental periods.",
-    "journal": "Developmental neurobiology",
-    "year": 2026,
-    "authors": "Harshitha P, Parithathvi A, Mumbrekar KD, Dsouza HS",
-    "pmid": "42204955",
-    "doi": "10.1002/dneu.70043",
-    "review": true,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42204955/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 82,
-    "type": "Review",
-    "overview": "Lead is a toxic heavy metal with significant health risks, as maternal lead exposure during pregnancy disrupts fetal neural development through placental transfer, leading to persistent neurological, developmental, and long-term health consequences in the progeny.",
-    "did": [
-      "Lead exposure typically affects the central nervous system, which is especially harmful during fetal development and early infancy.",
-      "This review emphasizes the impact of early developmental exposure leading to disruption of neurotransmitter mechanisms.",
-      "Mechanistically, lead disrupts neurodevelopment through various pathways, including alterations in myelin proteins, synaptic function, and neuroinflammatory responses, by interfering with the regulatory action of calcium, as lead mimics and replaces calcium.",
-      "Alterations caused by lead, particularly in the dopaminergic, cholinergic, glutamatergic, and GABAergic pathways, increase the risk of neurodevelopmental disorders such as attention deficit hyperactivity disorder (ADHD), autism spectrum disorder (ASD), and cognitive disabilities in children."
-    ],
-    "main": "Lead is known to induce cellular, molecular, and epigenetic changes that impair neuronal connectivity, synaptic plasticity, and network functionality, ultimately leading to the disruption of neurodevelopmental pathways.",
-    "context": "The cumulative evidence highlights various aspects of lead neurotoxicity and emphasizes its role in the etiology of neurodevelopmental impairments.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Loss of the ER-cargo protein CLN8 increases severity of acute pancreatitis and upregulates ER-stress and ER-phagy.",
@@ -6613,38 +6578,6 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "Whole-exome sequencing reveals novel and previously reported variants in genes linked to white matter pathology in neurodevelopmental disorders - Nature",
-    "abstract": " Whole-exome sequencing reveals novel and previously reported variants in genes linked to white matter pathology in neurodevelopmental disorders \u00a0\u00a0 Nature ",
-    "journal": "Nature",
-    "year": 2026,
-    "authors": "Nature",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wOHZiNlRzYkhFYldXZzJBcVg3MW5qem1ZYTBjbUx0MnA2WlhUSjhFUWRhYWJJRko5YnJBYWZrTEl0WXByOUhxY2cxc29iTDB5bEpodHVoU2hYYjdrbHNR?oc=5",
-    "topic": "Neurological disorders",
-    "top": true,
-    "score": 80,
-    "type": "News / signal",
-    "overview": "Whole-exome sequencing reveals novel and previously reported variants in genes linked to white matter pathology in neurodevelopmental disorders \u00a0\u00a0 Nature",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Whole-exome sequencing reveals novel and previously reported variants in genes linked to white matter pathology in neurodevelopmental disorders \u00a0\u00a0 Nature",
-    "context": "Whole-exome sequencing reveals novel and previously reported variants in genes linked to white matter pathology in neurodevelopmental disorders \u00a0\u00a0 Nature",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
     "title": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia - Nature",
     "abstract": " A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature ",
     "journal": "Nature",
@@ -6675,38 +6608,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "Protein lactylation in health and diseases: molecular mechanisms, biological significance, and clinical implications - Nature",
-    "abstract": " Protein lactylation in health and diseases: molecular mechanisms, biological significance, and clinical implications \u00a0\u00a0 Nature ",
-    "journal": "Nature",
-    "year": 2026,
-    "authors": "Nature",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1a2UySjFsc0VZV24tR0Rqa0ctWXVGdTRYalRaS3QwWU0tTXR1UXc2c1pTRVpYYWhmSUlfc1NWazA3WHM5bFNoZUQ1WjFTQjBpelZyR1QzUzZRckZtTW5R?oc=5",
-    "topic": "Disease mechanisms",
-    "top": true,
-    "score": 80,
-    "type": "News / signal",
-    "overview": "Protein lactylation in health and diseases: molecular mechanisms, biological significance, and clinical implications \u00a0\u00a0 Nature",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Protein lactylation in health and diseases: molecular mechanisms, biological significance, and clinical implications \u00a0\u00a0 Nature",
-    "context": "Protein lactylation in health and diseases: molecular mechanisms, biological significance, and clinical implications \u00a0\u00a0 Nature",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
   },
   {
     "title": "\u201cMicro-managing\u201d immune activation and protein turnover: microglial lysosomes in the context of health and disease - Nature",
@@ -6805,6 +6706,38 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
+    "title": "How proteomics and multiomics are revealing autoimmune disease mechanisms with new clarity - SelectScience",
+    "abstract": " How proteomics and multiomics are revealing autoimmune disease mechanisms with new clarity \u00a0\u00a0 SelectScience ",
+    "journal": "SelectScience",
+    "year": 2026,
+    "authors": "SelectScience",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd2tDVE5FSk8wbzMwQ2lkbXJjek0tMkRFQWVqWHNaVGZkT3hLZ2t0YjUyU0dKZ1RFY0FiYU91RjRveDBXdm5VSHJyYUZhYjRlb3Y4SzU0R0k3Y2psUjc5Z0VqQ25qalY3SlYxNi1FWGtHUzNEdV9BQVlOQUlLZXRSR002LU9iMWdvOUFNZXpHVlpMc0NxVTZLYVN2WUIzeTBW?oc=5",
+    "topic": "Disease mechanisms",
+    "top": true,
+    "score": 80,
+    "type": "News / signal",
+    "overview": "How proteomics and multiomics are revealing autoimmune disease mechanisms with new clarity \u00a0\u00a0 SelectScience",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "How proteomics and multiomics are revealing autoimmune disease mechanisms with new clarity \u00a0\u00a0 SelectScience",
+    "context": "How proteomics and multiomics are revealing autoimmune disease mechanisms with new clarity \u00a0\u00a0 SelectScience",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
     "title": "Depression in neurodegenerative disease: neurobiological mechanisms and emerging treatments - Nature",
     "abstract": " Depression in neurodegenerative disease: neurobiological mechanisms and emerging treatments \u00a0\u00a0 Nature ",
     "journal": "Nature",
@@ -6867,6 +6800,38 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
+    "title": "Autoantibodies could trigger neurological symptoms of long COVID - Nature",
+    "abstract": " Autoantibodies could trigger neurological symptoms of long COVID \u00a0\u00a0 Nature ",
+    "journal": "Nature",
+    "year": 2026,
+    "authors": "Nature",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JZVBGeWFaeUVBLWNqMmJkZk5BNTFhS08xZGl0SmxQNng0blpiSWYyUEJwczFtVERrS0h5c280dUdjVThrTDhzcmhIb1J5ektZemllM1VEOGROTk4ycjAw?oc=5",
+    "topic": "Neurological disorders",
+    "top": true,
+    "score": 80,
+    "type": "News / signal",
+    "overview": "Autoantibodies could trigger neurological symptoms of long COVID \u00a0\u00a0 Nature",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Autoantibodies could trigger neurological symptoms of long COVID \u00a0\u00a0 Nature",
+    "context": "Autoantibodies could trigger neurological symptoms of long COVID \u00a0\u00a0 Nature",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "The E193K LRRK2 mutation interferes with the autophagosome processing through the impairment of the LRRK2-Dynein-1 complex.",
@@ -7570,6 +7535,41 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
+    "title": "Exploratory transcriptomic and network-based analysis of methylmercury exposure in human neuronal developmental models using GEO datasets and toxicogenomic resources.",
+    "abstract": "BACKGROUND: Methylmercury (MeHg) is a well-recognized environmental neurotoxicant with a marked impact on neurodevelopment. However, studies integrating stage-specific transcriptomic responses in human neuronal development remain limited. OBJECTIVE: This study aimed, in an exploratory manner, to integrate and compare transcriptomic profiles induced by MeHg across distinct stages of human neuronal development, in order to evaluate shared and differential transcriptional responses among models representing early neuroepithelial differentiation, neural progenitor expansion, and mature neuronal function. METHODS: MeHg-associated genes were retrieved from the Comparative Toxicogenomics Database (CTD), GeneCards, and PubChem. Three human transcriptomic datasets from GEO were analyzed, corresponding to early neuroepithelial differentiation (UKN1), neural progenitor expansion (hNPT), and mature dopaminergic neurons (LUHMES). Differentially expressed genes were identified using GEO2R. Integrated analyses included protein-protein interaction network construction, hub gene identification using centrality algorithms in Cytoscape, and functional enrichment, transcription factor, and disease ontology analyses. RESULTS: Integration of databases identified a set of four genes (CASP3, GPX1, MT2A, and SOD2) consistently present across all resources. Differential expression analysis across the three neuronal models revealed both shared and model-specific transcriptional responses to MeHg exposure. A conserved set of three overexpressed genes (BRD7, HSPH1, and MCM5) was identified across all models, whereas no common repressed gene signature was observed across the three systems, although partial overlaps were detected between pairs of models. Network analysis highlighted central genes associated with general stress-related processes, including apoptosis, oxidative stress, and inflammatory signaling. Functional enrichment analyses indicated activation of broad cellular stress response pathways, with additional enrichment in processes related to cell cycle regulation and genome maintenance. Disease ontology analysis showed enrichment in broad disease categories, without evidence supporting disease-specific mechanistic interpretation. CONCLUSION: This integrative transcriptomic and network-based analysis provides an exploratory framework to prioritize candidate genes and biological processes associated with methylmercury exposure across human neuronal developmental models. The results indicate consistent involvement of general stress-related processes but do not support the identification of specific mechanisms or universal regulatory patterns across models. The absence of a conserved repression signature further highlights transcriptional heterogeneity among developmental stages. Overall, these findings should be interpreted as hypothesis-generating and intended to guide future experimental validation rather than to infer defined molecular mechanisms.",
+    "journal": "Neurotoxicology",
+    "year": 2026,
+    "authors": "Gomez-Caballero D, Olivero-Verbel J",
+    "pmid": "42263869",
+    "doi": "10.1016/j.neuro.2026.103488",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42263869/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "BACKGROUND: Methylmercury (MeHg) is a well-recognized environmental neurotoxicant with a marked impact on neurodevelopment.",
+    "did": [
+      "However, studies integrating stage-specific transcriptomic responses in human neuronal development remain limited.",
+      "OBJECTIVE: This study aimed, in an exploratory manner, to integrate and compare transcriptomic profiles induced by MeHg across distinct stages of human neuronal development, in order to evaluate shared and differential transcriptional responses among models representing early neuroepithelial differentiation, neural progenitor expansion, and mature neuronal function.",
+      "METHODS: MeHg-associated genes were retrieved from the Comparative Toxicogenomics Database (CTD), GeneCards, and PubChem.",
+      "Three human transcriptomic datasets from GEO were analyzed, corresponding to early neuroepithelial differentiation (UKN1), neural progenitor expansion (hNPT), and mature dopaminergic neurons (LUHMES)."
+    ],
+    "main": "Differentially expressed genes were identified using GEO2R.",
+    "context": "Integrated analyses included protein-protein interaction network construction, hub gene identification using centrality algorithms in Cytoscape, and functional enrichment, transcription factor, and disease ontology analyses.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
     "title": "Gastrodin ameliorates cognitive impairment induced by a high-salt diet combined with chronic cerebral hypoperfusion by regulating cerebral blood flow and preserving BBB-related structural integrity.",
     "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Gastrodia elata Blume (G. elata) is a traditional Chinese medicinal herb documented in the Compendium of Materia Medica and has been widely used for dizziness, convulsive disorders, vertigo, and neurological symptoms. Gastrodin (GAS), the principal bioactive constituent of G. elata, is known to exhibit anti-inflammatory, antioxidant, and neuroprotective properties. Nevertheless, whether GAS is beneficial for vascular cognitive impairment associated with dietary risk factors remains unclear. Clarifying this issue may help explain the pharmacological basis of the traditional neurological use of G. elata. AIM OF THE STUDY: This study investigated whether GAS could alleviate cognitive dysfunction aggravated by a high-salt diet (HSD) in chronic cerebral hypoperfusion (CCH) mice, and explored its possible involvement in cerebral blood flow (CBF) regulation, blood-brain barrier (BBB)-related structural preservation, and amyloidogenic processing. MATERIALS AND METHODS: A mouse model of CCH combined with dietary risk was generated using bilateral common carotid artery stenosis (BCAS) and HSD exposure. Cognitive performance was assessed by the novel object recognition test, Y-maze test, and open field test. CBF was monitored using laser speckle imaging. Hippocampal transcriptomic sequencing was conducted to identify GAS-regulated pathways. Nissl staining, immunohistochemistry, Western blotting, and transmission electron microscopy were used to examine neuronal injury, BBB structure, and related protein expression. Serum A\u03b2 and inflammatory cytokines were quantified by ELISA. RESULTS: HSD exposure further worsened BCAS-induced cerebral hypoperfusion and cognitive deficits. GAS administration restored CBF, improved behavioral performance, and showed a tendency toward partial improvement of hippocampal morphology. Transcriptomic analysis indicated that GAS-responsive differentially expressed genes were enriched in pathways associated with extracellular matrix interaction, tight junctions, vascular function, and PI3K-Akt signaling. Further experiments showed that GAS increased ZO-1, Occludin, and eNOS expression, preserved BBB-related ultrastructural features, restored Akt/mTOR pathway-associated phosphorylation, and attenuated BACE1/APP-, sAPP\u03b2-, A\u03b2-, and serum TNF-\u03b1-related changes. CONCLUSION: GAS ameliorates cognitive impairment induced by HSD exposure combined with BCAS, and this effect is associated with improved CBF, restoration of Akt/mTOR pathway-associated phosphorylation, eNOS-related endothelial regulation, preservation of BBB-related structural integrity, and attenuation of amyloidogenic processing-related and serum inflammatory marker changes. These results provide experimental support for the potential role of GAS in treating vascular cognitive impairment associated with dietary risk factors.",
     "journal": "Journal of ethnopharmacology",
@@ -7603,41 +7603,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Neuroprotective activity of mung bean (Vigna radiata) coat extract via AMPK-dependent autophagy in Alzheimer's and Parkinson's models.",
-    "abstract": "OBJECTIVE: Alzheimer's disease (AD) and Parkinson's disease (PD) are major age-related neurodegenerative disorders that currently lack effective disease-modifying therapies. This study investigated the neuroprotective potential and underlying mechanisms of natural products derived from medicine-food homology (MFH) plants, with a focus on autophagy modulation in AD and PD models. METHODS: Twenty MFH plant extracts were screened using the Caenorhabditis elegans amyloid-\u03b2 peptide (A\u03b2) proteotoxicity model CL4176. Mung bean coat extract (MBCE) was identified as a promising candidate and subsequently evaluated in transgenic C. elegans models of AD and PD to assess its effects on pathological protein aggregation, oxidative stress and behavioral impairments. Autophagy activation was assessed using fluorescence microscopy and lysosomal activity assays. MBCE's effects on protein aggregation and apoptosis were further validated in rat pheochromocytoma (PC-12) cells. Mechanistic insights were obtained through pharmacological inhibition of autophagy and AMP-activated protein kinase (AMPK) signaling, as well as AMPK knockdown. A bioactivity-guided analysis was performed to identify the major active constituents of MBCE. RESULTS: MBCE significantly alleviated A\u03b2- and microtubule-associated protein tau (Tau)-induced neurotoxicity in C. elegans by reducing protein aggregation, oxidative stress and locomotor deficits. It also suppressed \u03b1-synuclein accumulation and preserved dopaminergic neuron integrity in PD models. MBCE enhanced stress resistance and activated autophagy, as evidenced by increased autophagosome formation, decreased sequestosome-1 (p62/SQSTM1) levels and elevated lysosomal activity. RNA interference knockdown assays confirmed that MBCE's neuroprotective effects were dependent on autophagy activation. In PC-12 cells, MBCE similarly induced AMPK-mediated autophagy, reduced the accumulation of disease-related proteins and mitigated cytotoxicity. Notably, genetic knockdown or pharmacological inhibition of AMPK or autophagy abolished these effects. Vitexin and isovitexin, the main constituents of MBCE, were identified as key contributors to its autophagy-inducing and neuroprotective activities. CONCLUSION: MBCE mitigates neurodegenerative pathology in AD and PD models by promoting AMPK-dependent autophagy and reducing toxic protein aggregation. These findings support the potential of MBCE as a functional food-based therapeutic strategy for neurodegenerative diseases. Please cite this article as: Chen ZX, Wang FP, Li YP, Wu MT, Chen MY, Huang FH, Wen YP, Wang XH, Yu L, Wu JM, Wu AG, Zhou XG. Neuroprotective activity of mung bean (Vigna radiata) coat extract via AMPK-dependent autophagy in Alzheimer's and Parkinson's models. J Integr Med. 2026; 24(4):600-615.",
-    "journal": "Journal of integrative medicine",
-    "year": 2026,
-    "authors": "Chen ZX, Wang FP, Li YP, Wu MT, Chen MY, Huang FH, Wen YP, Wang XH",
-    "pmid": "41513580",
-    "doi": "10.1016/j.joim.2025.12.003",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41513580/",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "OBJECTIVE: Alzheimer's disease (AD) and Parkinson's disease (PD) are major age-related neurodegenerative disorders that currently lack effective disease-modifying therapies.",
-    "did": [
-      "This study investigated the neuroprotective potential and underlying mechanisms of natural products derived from medicine-food homology (MFH) plants, with a focus on autophagy modulation in AD and PD models.",
-      "METHODS: Twenty MFH plant extracts were screened using the Caenorhabditis elegans amyloid-\u03b2 peptide (A\u03b2) proteotoxicity model CL4176.",
-      "Mung bean coat extract (MBCE) was identified as a promising candidate and subsequently evaluated in transgenic C.",
-      "elegans models of AD and PD to assess its effects on pathological protein aggregation, oxidative stress and behavioral impairments."
-    ],
-    "main": "Autophagy activation was assessed using fluorescence microscopy and lysosomal activity assays.",
-    "context": "MBCE's effects on protein aggregation and apoptosis were further validated in rat pheochromocytoma (PC-12) cells.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
   },
   {
     "title": "MAPT -isoform 0N3R is essential for human brain development: Loss-of-function for novel TAU-associated disease paradigms.",
@@ -7920,41 +7885,6 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
-    "title": "Maternal triclosan exposure impairs female offspring neurodevelopment via MeCP2 hypomethylation and enhanced MeCP2/HDAC3 interaction.",
-    "abstract": "Triclosan (TCS), a broad-spectrum antimicrobial agent widely used in personal care products and medical disinfectants due to its potent antibacterial properties, is an emerging environmental endocrine-disrupting chemical. While its potential neurodevelopmental toxicity to offspring has raised significant concern, the precise epigenetic mechanisms involved remain unclear. Methyl CpG binding protein-2 (MeCP2), a crucial epigenetic regulator in brain development, recognizes DNA methylation marks and recruits co-factors such as Histone Deacetylase 3 (HDAC3) to form transcriptional repressor complexes that precisely control the expression of neuron-related genes. Dysfunction of MeCP2 is implicated in numerous neuropsychiatric disorders. This study employed a murine model of long-term, low-dose TCS exposure during gestation and lactation to investigate its neurotoxicity and epigenetic mechanisms in female offspring. The results demonstrate that gestational and lactational TCS exposure induced anxiety-like behavior and cognitive memory impairments in female offspring, accompanied by neuronal disorganization in the prefrontal cortex (PFC), increased pyknotic neurons, and ultrastructural damage to synapses. Specifically, TCS exposure downregulated the methylation level of the MeCP2 promoter region in the PFC of female offspring, increased the expression of MeCP2 and HDAC3, and enhanced their interaction, consequently repressing the protein expression of PSD95, SYN, BDNF, DCX, and PCNA. Notably, an exposure dose of 8\u202fmg/kg TCS emerged as a critical threshold for these epigenetic alterations. In summary, TCS exposure during pregnancy and lactation may mediate neurodevelopmental impairment in female offspring by downregulating MeCP2 promoter methylation, subsequently enhancing MeCP2 recruitment of HDAC3 and their interaction. These findings provide novel experimental evidence elucidating the epigenetic mechanisms underlying TCS-induced neurodevelopmental toxicity.",
-    "journal": "Ecotoxicology and environmental safety",
-    "year": 2026,
-    "authors": "Hao W, Xianjia L, Mengjun C, Shuangjie Y, Ye L, Lingling Z, Yunyun D, Jin J",
-    "pmid": "42172708",
-    "doi": "10.1016/j.ecoenv.2026.120282",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42172708/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Triclosan (TCS), a broad-spectrum antimicrobial agent widely used in personal care products and medical disinfectants due to its potent antibacterial properties, is an emerging environmental endocrine-disrupting chemical.",
-    "did": [
-      "While its potential neurodevelopmental toxicity to offspring has raised significant concern, the precise epigenetic mechanisms involved remain unclear.",
-      "Methyl CpG binding protein-2 (MeCP2), a crucial epigenetic regulator in brain development, recognizes DNA methylation marks and recruits co-factors such as Histone Deacetylase 3 (HDAC3) to form transcriptional repressor complexes that precisely control the expression of neuron-related genes.",
-      "Dysfunction of MeCP2 is implicated in numerous neuropsychiatric disorders.",
-      "This study employed a murine model of long-term, low-dose TCS exposure during gestation and lactation to investigate its neurotoxicity and epigenetic mechanisms in female offspring."
-    ],
-    "main": "The results demonstrate that gestational and lactational TCS exposure induced anxiety-like behavior and cognitive memory impairments in female offspring, accompanied by neuronal disorganization in the prefrontal cortex (PFC), increased pyknotic neurons, and ultrastructural damage to synapses.",
-    "context": "Specifically, TCS exposure downregulated the methylation level of the MeCP2 promoter region in the PFC of female offspring, increased the expression of MeCP2 and HDAC3, and enhanced their interaction, consequently repressing the protein expression of PSD95, SYN, BDNF, DCX, and PCNA.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "Early-onset neuroinflammation drives neurodegeneration caused by lysosomal PI(3,5)P2 insufficiency.",
     "abstract": "Phosphatidylinositol 3,5-bisphosphate [PI(3,5)P2] is a lysosomal signaling lipid whose deficiency, caused by mutations in the PIKfyve complex subunits FIG4 or VAC14, underlies a spectrum of fatal neurologic diseases including Charcot-Marie-Tooth type 4J (CMT4J) and amyotrophic lateral sclerosis (ALS). To map the molecular consequences of PI(3,5)P2 insufficiency in the brain, we performed quantitative proteomic and transcriptomic analyses of three mouse lines bearing distinct loss-of-function mutations in Fig4 or Vac14, examining the brain at the presymptomatic and end stages. Strikingly, profound neuroinflammation was already present at postnatal day 5 (before significant neurodegeneration), characterized by complement activation, interferon signaling, and parenchymal infiltration of peripheral myeloid cells and T-cells. Isolated mutant microglia exhibited a markedly pro-oxidative transcriptional state with elevated reactive oxygen species, a partly non-cell-autonomous phenotype, being present in microglia from mice with conditional Fig4 inactivation in just neurons and astrocytes. Comparison of early (P5) and late (P25) proteomics data revealed that PI(3,5)P2 insufficiency impairs developmental remodeling of the brain proteome: proteins typically upregulated during postnatal maturation failed to accumulate, implicating lysosomal function in neurodevelopment. We identify coordinated elevation of p53, Fas receptor, inflammatory caspases, Gasdermin D, RIPK1, and ZBP1, consistent with multifactorial inflammatory cell death with features of apoptosis, pyroptosis, and necroptosis. Many of the dysregulated proteins are encoded by genes mutated in lysosomal storage disorders, ALS, CMT, Alzheimer's and Parkinson diseases, extending the pathogenic relevance of PI(3,5)P2 insufficiency. Together, these findings establish that early neuroinflammation is a defining - and likely initiating - feature of neurodegeneration caused by disruption of lysosomal PI(3,5)P2.",
     "journal": "Neurobiology of disease",
@@ -8199,6 +8129,41 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
+    "title": "Human blood-derived neural progenitor cells as a platform for developmental neurotoxicity of micro- and nanoplastics.",
+    "abstract": "Micro- and nanoplastics (MNPs) are increasingly detected in human tissues, including the placenta and brain, raising concerns about their potential impact on early neurodevelopment. However, mechanistic insight is limited by the lack of human-relevant, scalable test systems for developmental neurotoxicity (DNT). Here, we establish and apply a peripheral blood-derived human neural progenitor cell (NPC) platform as a reproducible in vitro model to evaluate MNP-induced DNT under low-dose conditions reflecting currently available estimates of human exposure. Using this system, we systematically investigated the effects of 2\u202f\u00b5m, 100\u202fnm, and 20\u202fnm polystyrene particles and polyester microfibers over a 21-day neuronal differentiation paradigm. The model enables simultaneous assessment of key DNT endpoints, including neuronal differentiation, neurite outgrowth, cell cycle progression, and oxidative stress. MNP exposure impaired neuronal maturation in a size- and shape-dependent manner, reducing neurite outgrowth and \u03b2III-tubulin (TUJ1) expression. Nanoscale particles were efficiently internalized and localized to endo-lysosomal compartments, whereas micron-sized particles remained primarily surface-associated. Mechanistically, MNP exposure induced mitochondrial oxidative stress, decreased superoxide dismutase 2 expression, and disrupted cell cycle exit, resulting in sustained progenitor proliferation. Importantly, pharmacological scavenging of reactive oxygen species with N-acetyl-L-cysteine rescued differentiation deficits and normalized cell cycle dynamics, demonstrating a causal role for redox imbalance. Together, these findings validate peripheral blood-derived human NPCs as a sensitive and scalable platform for DNT assessment and provide mechanistic evidence that MNPs impair early human neurodevelopment through size-dependent uptake and oxidative stress pathways.",
+    "journal": "Neurotoxicology",
+    "year": 2026,
+    "authors": "Vojnits K, Kaj J, Rees K, Algar WR, Bhatia M, Pakpour S",
+    "pmid": "42309187",
+    "doi": "10.1016/j.neuro.2026.103493",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42309187/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Micro- and nanoplastics (MNPs) are increasingly detected in human tissues, including the placenta and brain, raising concerns about their potential impact on early neurodevelopment.",
+    "did": [
+      "However, mechanistic insight is limited by the lack of human-relevant, scalable test systems for developmental neurotoxicity (DNT).",
+      "Here, we establish and apply a peripheral blood-derived human neural progenitor cell (NPC) platform as a reproducible in vitro model to evaluate MNP-induced DNT under low-dose conditions reflecting currently available estimates of human exposure.",
+      "Using this system, we systematically investigated the effects of 2\u202f\u00b5m, 100\u202fnm, and 20\u202fnm polystyrene particles and polyester microfibers over a 21-day neuronal differentiation paradigm.",
+      "The model enables simultaneous assessment of key DNT endpoints, including neuronal differentiation, neurite outgrowth, cell cycle progression, and oxidative stress."
+    ],
+    "main": "MNP exposure impaired neuronal maturation in a size- and shape-dependent manner, reducing neurite outgrowth and \u03b2III-tubulin (TUJ1) expression.",
+    "context": "Nanoscale particles were efficiently internalized and localized to endo-lysosomal compartments, whereas micron-sized particles remained primarily surface-associated.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
   },
   {
     "title": "Fermented Moringa oleifera leaves and Ganoderma lucidum mixtures ameliorate cognitive deficits in scopolamine-induced dementia rats by enhancing brain antioxidant and cholinergic functions.",
@@ -9216,6 +9181,41 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
+    "title": "PEDF peptides rescue defects in neurite morphogenesis and intracellular calcium response in cortical neurons from mice exposed to valproic acid.",
+    "abstract": "Pigment epithelial-derived factor (PEDF) is a multifunctional protein produced predominantly by the retinal pigment epithelium and expressed in many tissues, including the brain, highlighting its participation in crucial processes, such as neuroprotection and angiogenesis. Some neurodevelopmental disorders, such as ASD, are characterized by neurodevelopmental abnormalities, including altered neurite formation, spine formation, and neuronal activities. Many efforts have been made to resolve NDDs, but until now, some symptoms remain untargeted. PEDF is involved in many steps of neurodevelopment. The treatment of PEDF peptide might improve the outcome of NDD symptoms by altering neuronal morphologies. We used PEDF peptides that contain different functional domains to study the effect of administering PEDF peptides on neuronal morphology in a prenatal valproic acid (VPA)-exposed mouse model. We identified that treatment with PEDF peptides rectified the abnormalities in neurite formation and spine formation in VPA-exposed cortical neurons. In vitro calcium imaging showed abnormalities in spontaneous activity in VPA-exposed cortical neurons. Treatment of a short PEDF peptide normalized the intracellular calcium response to the control level. Accordingly, PEDF peptides have the prospect of serving as potential treatments for patients with neurodevelopmental disorders, such as ASD.",
+    "journal": "bioRxiv : the preprint server for biology",
+    "year": 2026,
+    "authors": "Liu X, Toyo-Oka K",
+    "pmid": "42427535",
+    "doi": "10.1101/2025.09.20.677502",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42427535/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Pigment epithelial-derived factor (PEDF) is a multifunctional protein produced predominantly by the retinal pigment epithelium and expressed in many tissues, including the brain, highlighting its participation in crucial processes, such as neuroprotection and angiogenesis.",
+    "did": [
+      "Some neurodevelopmental disorders, such as ASD, are characterized by neurodevelopmental abnormalities, including altered neurite formation, spine formation, and neuronal activities.",
+      "Many efforts have been made to resolve NDDs, but until now, some symptoms remain untargeted.",
+      "PEDF is involved in many steps of neurodevelopment.",
+      "The treatment of PEDF peptide might improve the outcome of NDD symptoms by altering neuronal morphologies."
+    ],
+    "main": "We used PEDF peptides that contain different functional domains to study the effect of administering PEDF peptides on neuronal morphology in a prenatal valproic acid (VPA)-exposed mouse model.",
+    "context": "We identified that treatment with PEDF peptides rectified the abnormalities in neurite formation and spine formation in VPA-exposed cortical neurons.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
     "title": "mmu_circ_0012122/mmu-miR-1843-5p/Sertad2 axis: A novel regulatory pathway in rabies virus infection.",
     "abstract": "Rabies virus (RABV) causes severe central nervous system damage, though the underlying mechanisms remain unclear. Circular RNAs (circRNAs) have been identified in various cells and tissues and are known to regulate gene expression in eukaryotes. Here, we investigated the expression patterns of circRNAs in brain tissues from mice infected with two strains of RABV (CVS-11 and SRV9) and compared them to brain tissues from uninfected mice. Differential expression analysis identified 1,306 circRNAs, primarily derived from coding exons, with functional enrichment implicating synaptic and nervous system pathways. Critically, we identified and validated a novel regulatory axis, mmu_circ_0012122/mmu-miR-1843-5p/Sertad2, where mmu_circ_0012122 acts as a sponge for mmu-miR-1843-5p, leading to Sertad2 upregulation. This axis differentially modulated murine nerve cell fate: mmu_circ_0012122 knockdown reduced necrotic and non-viable apoptotic cells, while mmu-miR-1843-5p overexpression suppressed viable apoptosis and necrosis. Comprehensive characterization further identified Sertad2 as a key mediator promoting both nerve cell apoptosis and neuroinflammatory responses during infection. These findings underscored circRNAs as critical regulators of neuronal survival during RABV infection and highlighted the mmu_circ_0012122-driven network as a potential therapeutic target.",
     "journal": "Virulence",
@@ -9601,70 +9601,6 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
-    "title": "A Systematic Literature Review of Emerging Advances in Neurological Disorders: Diagnostic Innovations, Therapeutic Strategies, and Future Directions - Cureus",
-    "abstract": " A Systematic Literature Review of Emerging Advances in Neurological Disorders: Diagnostic Innovations, Therapeutic Strategies, and Future Directions \u00a0\u00a0 Cureus ",
-    "journal": "Cureus",
-    "year": 2026,
-    "authors": "Cureus",
-    "pmid": "",
-    "doi": "",
-    "review": true,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOLU9vdHcwUFBIU3V3RUUtY3laSnRydGRDXzlrY09UWU5PeDV1QzExNnN0ODJXbEJUd3ZjU25lbmE4a1lPc0k0b1NxZ29tWWJFUzkta3VyRHBGWUEyRlo5UW1pNUdRN2wxbEtRUVNzbXU4NEJQYlh0ejhFX3V3OG1KQkFjaGlpb0xFZWtHZ1g0NXh6YTZhem5lZ3hzSkIteEU0QzZHRFZuaFphSmxFZDN5blRfakZoUHpTZGJvZy1CTDVUU0pKdDFiaVk3d3UwYzdYbHFiN1BqYVhPTmVkN1hpUHM0dURrWmpRTjc2RlRFcVQ0TjFjQ2pOVGdGZHdkVEVXWVhQaU5jWENMT1JGMDY0LWVmb2QzTzdCR0dwSlZ4SkR5X2UzU3VPMUlJZw?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Review",
-    "overview": "A Systematic Literature Review of Emerging Advances in Neurological Disorders: Diagnostic Innovations, Therapeutic Strategies, and Future Directions \u00a0\u00a0 Cureus",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "A Systematic Literature Review of Emerging Advances in Neurological Disorders: Diagnostic Innovations, Therapeutic Strategies, and Future Directions \u00a0\u00a0 Cureus",
-    "context": "A Systematic Literature Review of Emerging Advances in Neurological Disorders: Diagnostic Innovations, Therapeutic Strategies, and Future Directions \u00a0\u00a0 Cureus",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "A new perspective on the regulation of glucose and cholesterol transport by mitochondria-lysosome contact sites - Frontiers",
-    "abstract": " A new perspective on the regulation of glucose and cholesterol transport by mitochondria-lysosome contact sites \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
-    "year": 2026,
-    "authors": "Frontiers",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Lysosome transport"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZFVEZUFYMzVkYTJoZk9OSkt2TGJVVnl0UEprRExfSWNFQ0hUZFk5cmstSUxYWDR6clVQTl9UUWprREVMc29TVTF5WFFaY1R6dXM1UGtZNlpfS253ODEyRWtPVGQ0ZUxORDk5Vko3aXFnS1ltWmlFdE53SFp1MDVfWnVKTFZpdFJ5Y3JCYURhRG1kdw?oc=5",
-    "topic": "Lysosome transport",
-    "top": false,
-    "score": 76,
-    "type": "News / signal",
-    "overview": "A new perspective on the regulation of glucose and cholesterol transport by mitochondria-lysosome contact sites \u00a0\u00a0 Frontiers",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "A new perspective on the regulation of glucose and cholesterol transport by mitochondria-lysosome contact sites \u00a0\u00a0 Frontiers",
-    "context": "A new perspective on the regulation of glucose and cholesterol transport by mitochondria-lysosome contact sites \u00a0\u00a0 Frontiers",
-    "why": "Matched topics: Lysosome transport. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Lysosome transport"
-  },
-  {
     "title": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis - Rockefeller University Press",
     "abstract": " Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press ",
     "journal": "Rockefeller University Press",
@@ -9788,6 +9724,38 @@
     ],
     "main": "Molecular basis of Spns1-mediated lysophospholipid transport from the lysosome \u00a0\u00a0 PNAS",
     "context": "Molecular basis of Spns1-mediated lysophospholipid transport from the lysosome \u00a0\u00a0 PNAS",
+    "why": "Matched topics: Lysosome transport. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Lysosome transport"
+  },
+  {
+    "title": "Lysosomal solute and water transport - Rockefeller University Press",
+    "abstract": " Lysosomal solute and water transport \u00a0\u00a0 Rockefeller University Press ",
+    "journal": "Rockefeller University Press",
+    "year": 2026,
+    "authors": "Rockefeller University Press",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Lysosome transport"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRHlQUzlDeVJXX2NFYzA2ZVlrSDJZTmN3dmlGTmNEMzhjRmNXWHk1VlJDVGI4TmM0ai1QMHFlY2hkTGJsS0ZuVjNkdEp5cm5sWlBIU3FSNDE1ZTZVSEprM2RydGJjVjRJV0hlOG1rdnhfMUQ1aDNKSjR4VWtqeHE3Q0xxT0c5anNqV1VEeTc4bWJKaGJsVld3N0ZQNTU1M1lRRzBnODA4Z2xTdw?oc=5",
+    "topic": "Lysosome transport",
+    "top": false,
+    "score": 76,
+    "type": "News / signal",
+    "overview": "Lysosomal solute and water transport \u00a0\u00a0 Rockefeller University Press",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Lysosomal solute and water transport \u00a0\u00a0 Rockefeller University Press",
+    "context": "Lysosomal solute and water transport \u00a0\u00a0 Rockefeller University Press",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11275,36 +11243,36 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders - Contemporary Pediatrics",
-    "abstract": " Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders \u00a0\u00a0 Contemporary Pediatrics ",
-    "journal": "Contemporary Pediatrics",
+    "title": "Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy - Haematologica",
+    "abstract": " Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy \u00a0\u00a0 Haematologica ",
+    "journal": "Haematologica",
     "year": 2026,
-    "authors": "Contemporary Pediatrics",
+    "authors": "Haematologica",
     "pmid": "",
     "doi": "",
     "review": false,
     "matched_topics": [
-      "Neurodevelopment disorder"
+      "Disease mechanisms"
     ],
     "sources": [
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZ1JoQlZmVmFxR3dOZHMwOVcwZnhRTEo1Qk91RE82YjJQbjVoVElVRkk1dXZkdF9QczZvQThtU2pLRkxwN2d6WEFHV2J4a3pwLWtCWHdZX1dPOHd6Q01BTElQcnMyem9IUHMyazRYcnRNWHNPR1kwX3hOUDVDbEM5U0UyZTRCeGpGVVE4N2RLM1JRY2QyTTBoWlJHSmN2Y29tUDZBU0FPX1ZZWlhHMi1IRlVKN3lmcTM0OXk5bVN3dVdDZVVpUzdfYnNhU1I4S1N2a3lPanJOal9BQkRjTF9XUmdiU05feEJFR2pkRkRLdw?oc=5",
-    "topic": "Neurodevelopment disorder",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRzRZRW9SRUhQTGZOSk0xeTdEbFJLeUNCQUttbk1RSzU2ZFZKQjczdl9aZUtwSTlHZEZLM3lWbURCT3NEWnN1NXI0QlZTOHlWWklPUGIxNDdxTlZZM1lqY2c3eVl4R3NpZHlJ?oc=5",
+    "topic": "Disease mechanisms",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders \u00a0\u00a0 Contemporary Pediatrics",
+    "overview": "Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy \u00a0\u00a0 Haematologica",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders \u00a0\u00a0 Contemporary Pediatrics",
-    "context": "Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders \u00a0\u00a0 Contemporary Pediatrics",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
+    "main": "Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy \u00a0\u00a0 Haematologica",
+    "context": "Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy \u00a0\u00a0 Haematologica",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
-    "matched_topics_label": "Neurodevelopment disorder"
+    "matched_topics_label": "Disease mechanisms"
   },
   {
     "title": "Antisense oligonucleotide strategy reverses HNRNPH2-related neurodevelopmental disorder - St. Jude Children's Research Hospital",
@@ -11499,6 +11467,38 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
+    "title": "Rethinking Movement Disorders: Scientists Uncover a Surprising Disconnect Deep Inside the Brain - SciTechDaily",
+    "abstract": " Rethinking Movement Disorders: Scientists Uncover a Surprising Disconnect Deep Inside the Brain \u00a0\u00a0 SciTechDaily ",
+    "journal": "SciTechDaily",
+    "year": 2026,
+    "authors": "SciTechDaily",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaExnQUl4cnk4My1IMFlteG01bzJ0eU5tdDdSTHNlUGlZVFBYQUtEa0RyejVicFVlV3RSaFhpWm8xU1p6TC1YbkVlRkhxMGRJT29qSHF1Qjl0LXVvM3diN2o4aU55QUU2bVBWRlFmZmJ5TVRYTk5aZmZQdmpnZnU5NHN3a2FUUUZZT0JZS3pVYWtQNmdyb0tlSHVXM2JVdlFkUHhOTFUtbjBLdGRaWTlvYzIwUjlWU2FualU2MA?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Rethinking Movement Disorders: Scientists Uncover a Surprising Disconnect Deep Inside the Brain \u00a0\u00a0 SciTechDaily",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Rethinking Movement Disorders: Scientists Uncover a Surprising Disconnect Deep Inside the Brain \u00a0\u00a0 SciTechDaily",
+    "context": "Rethinking Movement Disorders: Scientists Uncover a Surprising Disconnect Deep Inside the Brain \u00a0\u00a0 SciTechDaily",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
     "title": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons - Wiley Online Library",
     "abstract": " Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library ",
     "journal": "Wiley Online Library",
@@ -11563,38 +11563,6 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
-    "title": "Tears may hold key to monitoring neurological disorders \u2013 and more health headlines - WGN-TV",
-    "abstract": " Tears may hold key to monitoring neurological disorders \u2013 and more health headlines \u00a0\u00a0 WGN-TV ",
-    "journal": "WGN-TV",
-    "year": 2026,
-    "authors": "WGN-TV",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaFAtU0VQbzdjN2hmNlpNbW5nTXJnQ3pnTEp1OFJMSDQyRGg0OXlhdkhfN2owWFNfN29ZTDA1RzFYemE3ODBHWHNSbGE5S1E0OHhrVndsbFI0MUExa0xXTUpPcWNaQ2ppSTZXUkNYZklRdjJsc0FxWi1oU1YyZjNsV243NkExSDZkcDVULW5MRU1tTi1KZ0Rna0h3U05GVUs0TDBDdE9pN3lhdjY0ZGUzdWhMNVFJNWtRQy1v0gHAAUFVX3lxTE5ma2EzdEtkSDR2UGI4U3hNVFpQaklFUmwtRlJ4LWJQUXdRTUFscmI4WU40RDBJcFp1Z2pERUFmQnUzQ0NScW5TQlRoN09VYWRUQVZZTV9ueHRFeHpmQ3VVMHdiQ01QZjhUMjBnZnVaNFdtNTBlQ000MUswLW11QjhjMzMwRHd5eXBDTWpsUzdJOFdKM3oyNUpONHZGZ0tMeFRPR2ZFYWpDYThiRnhNYVZYdXMxRnVVUVhrc0ptOTJITw?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Tears may hold key to monitoring neurological disorders \u2013 and more health headlines \u00a0\u00a0 WGN-TV",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Tears may hold key to monitoring neurological disorders \u2013 and more health headlines \u00a0\u00a0 WGN-TV",
-    "context": "Tears may hold key to monitoring neurological disorders \u2013 and more health headlines \u00a0\u00a0 WGN-TV",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
     "title": "New findings explain how lysosomal defects trigger neuronal energy failure - News-Medical",
     "abstract": " New findings explain how lysosomal defects trigger neuronal energy failure \u00a0\u00a0 News-Medical ",
     "journal": "News-Medical",
@@ -11627,70 +11595,6 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
-    "title": "Hypoxia therapy shows promise for treating mitochondrial brain disorders - News-Medical",
-    "abstract": " Hypoxia therapy shows promise for treating mitochondrial brain disorders \u00a0\u00a0 News-Medical ",
-    "journal": "News-Medical",
-    "year": 2026,
-    "authors": "News-Medical",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYWJuXy1KVGRha0g3bi1pZ240YzBHQnJwYzI5QUV1UTNZTWd2eWgzR1JmSlItczlKTTZZTVBINVQtTDZnQW1nZFZlMHVyTy1qZEdjX21kX3ZjQW1BeFVWVjVWenliQzdCY2JXM1FBQWQ3Y21lb3Ria1p3RTNsekpvMWNxamhkd1E5NXp4UHUtbU9DQktXSXJNdWJ3c2sxb2tpRnBwUVcxZmpKVGdxQmdobzl3MFcwNkJyMDBDaA?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Hypoxia therapy shows promise for treating mitochondrial brain disorders \u00a0\u00a0 News-Medical",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Hypoxia therapy shows promise for treating mitochondrial brain disorders \u00a0\u00a0 News-Medical",
-    "context": "Hypoxia therapy shows promise for treating mitochondrial brain disorders \u00a0\u00a0 News-Medical",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Pathology of Celiac Disease: Diagnosis and Mechanisms - European Society of Medicine",
-    "abstract": " Pathology of Celiac Disease: Diagnosis and Mechanisms \u00a0\u00a0 European Society of Medicine ",
-    "journal": "European Society of Medicine",
-    "year": 2026,
-    "authors": "European Society of Medicine",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KalMwV1RHLW4tNEhZcU1nZzVCdGpCRldPYXI2VkdyT2hwS0hOX2lRaklCYUxtWW1PaVczTU9TX0pXcFV4c0FDdmtsUHlOSHQxTzhPdk1BRlBJUWVFY3lWdUNiWXFJT1Nfb0w0MlhkcEdXVndfLW03T2lwaw?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Pathology of Celiac Disease: Diagnosis and Mechanisms \u00a0\u00a0 European Society of Medicine",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Pathology of Celiac Disease: Diagnosis and Mechanisms \u00a0\u00a0 European Society of Medicine",
-    "context": "Pathology of Celiac Disease: Diagnosis and Mechanisms \u00a0\u00a0 European Society of Medicine",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
     "title": "Postdoc Portrait: Mary Cundiff Maps Shared Disease Mechanisms - the-scientist.com",
     "abstract": " Postdoc Portrait: Mary Cundiff Maps Shared Disease Mechanisms \u00a0\u00a0 the-scientist.com ",
     "journal": "the-scientist.com",
@@ -11721,6 +11625,38 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "Damaged myelin alters sleep brain rhythms in neurological diseases - News-Medical",
+    "abstract": " Damaged myelin alters sleep brain rhythms in neurological diseases \u00a0\u00a0 News-Medical ",
+    "journal": "News-Medical",
+    "year": 2026,
+    "authors": "News-Medical",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWHdfV3dCX1VpVXNiQUNta24wYjNxcDd2RzJXZGluNE80QUFOTTU3UFg0NXFLT1Iwbi1mSVVoMlF5WnFubFp6cjlFY3lPbkRpMGpEOXE0cGUzSVcybDJKRlF1RjdpSUJQMEhHekdMU3c3VEM4NGVfYkxqV0tMTzg0TWp2T3I2Q2xFMTNUaWFCNEJqX3BEVFU5SEpyMnlENnhkam5KU3l5VWtnaGE0WkxGVS1aZ0w?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Damaged myelin alters sleep brain rhythms in neurological diseases \u00a0\u00a0 News-Medical",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Damaged myelin alters sleep brain rhythms in neurological diseases \u00a0\u00a0 News-Medical",
+    "context": "Damaged myelin alters sleep brain rhythms in neurological diseases \u00a0\u00a0 News-Medical",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Editorial: Genetics and mechanisms of neurodevelopmental disorders - Frontiers",
