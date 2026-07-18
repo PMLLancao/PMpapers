@@ -1,5 +1,42 @@
 [
   {
+    "title": "Cellular and Molecular Networks Governing Myelination Dynamics in the Central Nervous System.",
+    "abstract": "Myelin, a multilamellar membranes enwrapping axons, is essential for rapid saltatory conduction, metabolic support, and long-term axonal integrity in the central nervous system (CNS). Myelination by oligodendrocytes (OLs) constitutes a highly dynamic and orchestrated process, encompassing distinct stages: target axon recognition, axonal wrapping, membrane expansion, and compaction. This review comprehensively summarizes recent advances in understanding the dynamics of CNS myelination which is spatiotemporally regulated through a complex interplay of membrane protein interaction, neuronal activity, metabolic checkpoints, and mechanosensory mechanisms. We highlight how adhesive molecules, cytoskeletal dynamics, and polarized membrane trafficking collectively drive the precise spiraling of myelin around axons. Furthermore, we emphasize the indispensable non-cell autonomous roles of astrocytes and microglia, which contribute critically through lipid transfer, phagocytic refinement, and modulation of the extracellular matrix. Beyond development, we discuss mechanisms that sustain myelin homeostasis, such as autophagy-lysosomal clearance. By integrating these mechanistic insights, we not only underscore the exquisite precision of CNS myelination but also illuminate potential therapeutic targets for demyelinating disorders.",
+    "journal": "Neuroscience research",
+    "year": 2026,
+    "authors": "Wang Y, Ge M, Li T, Li Z, Shi X, Guo J, He C, Yang P",
+    "pmid": "42468607",
+    "doi": "10.1016/j.neures.2026.105091",
+    "review": true,
+    "matched_topics": [
+      "Lysosome transport",
+      "Neurodevelopment disorder",
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42468607/",
+    "topic": "Lysosome transport",
+    "top": true,
+    "score": 98,
+    "type": "Review",
+    "overview": "Myelin, a multilamellar membranes enwrapping axons, is essential for rapid saltatory conduction, metabolic support, and long-term axonal integrity in the central nervous system (CNS).",
+    "did": [
+      "Myelination by oligodendrocytes (OLs) constitutes a highly dynamic and orchestrated process, encompassing distinct stages: target axon recognition, axonal wrapping, membrane expansion, and compaction.",
+      "This review comprehensively summarizes recent advances in understanding the dynamics of CNS myelination which is spatiotemporally regulated through a complex interplay of membrane protein interaction, neuronal activity, metabolic checkpoints, and mechanosensory mechanisms.",
+      "We highlight how adhesive molecules, cytoskeletal dynamics, and polarized membrane trafficking collectively drive the precise spiraling of myelin around axons.",
+      "Furthermore, we emphasize the indispensable non-cell autonomous roles of astrocytes and microglia, which contribute critically through lipid transfer, phagocytic refinement, and modulation of the extracellular matrix."
+    ],
+    "main": "Beyond development, we discuss mechanisms that sustain myelin homeostasis, such as autophagy-lysosomal clearance.",
+    "context": "By integrating these mechanistic insights, we not only underscore the exquisite precision of CNS myelination but also illuminate potential therapeutic targets for demyelinating disorders.",
+    "why": "Matched topics: Lysosome transport, Neurodevelopment disorder, Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Lysosome transport, Neurodevelopment disorder, Neuronal lysosome"
+  },
+  {
     "title": "Multifaceted performances of \u03b1-synuclein in health and neurological diseases.",
     "abstract": "The misfolding and accumulating \u03b1-synuclein (\u03b1Syn) is a central pathological hallmark of various neurodegenerative diseases, including Parkinson's disease, dementia with Lewy bodies, and multiple system atrophy. Under physiological conditions, \u03b1Syn essential for normal synaptic functions primarily through its regulation of synaptic vesicle trafficking, clustering, and neurotransmitter release. However, in disease states, the accumulation of pathological \u03b1Syn disrupts intracellular proteostasis, by impairing the ubiquitin-proteasome system, autophagy-lysosomal degradation pathway and endo-lysosomal pathway. This disruption ultimately leads to synaptic dysfunction and neuronal death. Here, we summarize current insights into the physiological and pathological roles of \u03b1Syn, focusing on its post-translational modifications, dysregulation of protein quality control systems, prion-like cell-to-cell propagation, and liquid-liquid phase separation. We also discuss emerging therapeutic strategies that target abnormally aggregated \u03b1Syn. A comprehensive understanding of \u03b1Syn's multifaceted mechanisms is therefore critical for developing novel diagnostic biomarkers and effective therapeutics for \u03b1-synucleinopathies.",
     "journal": "Neuroscience",
@@ -1278,8 +1315,7 @@
     "doi": "10.1186/s12974-026-03924-x",
     "review": true,
     "matched_topics": [
-      "Lysosome transport",
-      "Neuronal lysosome"
+      "Lysosome transport"
     ],
     "sources": [
       "PubMed"
@@ -1299,10 +1335,10 @@
     ],
     "main": "When these controls destabilise, downstream pathology can be organised around three coupled effector axes: a lipid axis centred on APOE-biased cholesterol trafficking, ACSL1/DGAT2-driven lipid-droplet accumulation, and impaired lysosomal flux; an iron/ferroptosis axis involving labile iron, phospholipid peroxidation, and insufficient GPX4/FSP1 defences; and an inflammation/complement axis linking NLRP3 activation, type-I interferon signalling, and C1q/C3-dependent synaptic engulfment to tau pathology and synapse loss.",
     "context": "White-matter injury, astrocyte-microglia crosstalk, and cGAS-STING-linked senescence are integrated as cross-axis amplifiers.",
-    "why": "Matched topics: Lysosome transport, Neuronal lysosome. Sources: PubMed.",
+    "why": "Matched topics: Lysosome transport. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
-    "matched_topics_label": "Lysosome transport, Neuronal lysosome"
+    "matched_topics_label": "Lysosome transport"
   },
   {
     "title": "Alpha-synuclein at the crossroads of host-virus interactions: immunological roles beyond the nervous system.",
@@ -2758,7 +2794,8 @@
     "doi": "",
     "review": false,
     "matched_topics": [
-      "Lysosome transport"
+      "Lysosome transport",
+      "Neuronal lysosome"
     ],
     "sources": [
       "Google News"
@@ -2775,10 +2812,10 @@
     ],
     "main": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature",
     "context": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature",
-    "why": "Matched topics: Lysosome transport. Sources: Google News.",
+    "why": "Matched topics: Lysosome transport, Neuronal lysosome. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
-    "matched_topics_label": "Lysosome transport"
+    "matched_topics_label": "Lysosome transport, Neuronal lysosome"
   },
   {
     "title": "Mechanosensitive dynamics of lysosomes along microtubules regulate leader cell emergence during collective cell migration - Nature",
@@ -3537,41 +3574,6 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
-    "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment.",
-    "journal": "BMC medical genomics",
-    "year": 2026,
-    "authors": "R\u0119ka G, Wojciechowska K, Lejman M",
-    "pmid": "42401939",
-    "doi": "10.1186/s12920-026-02424-4",
-    "review": true,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42401939/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 82,
-    "type": "Review",
-    "overview": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior.",
-    "did": [
-      "Global prevalence is estimated as 1-2%, with a predominance of men.",
-      "Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD.",
-      "The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature.",
-      "MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search."
-    ],
-    "main": "Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included.",
-    "context": "RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "Persistent PirB cleavage drives Golgi-directed trafficking deficits underlying neurodegeneration.",
     "abstract": "BACKGROUND: Extensive research evidence indicates that neuronal immune receptors play a critical role in Alzheimer's disease (AD). However, it remains unclear how these receptors convert extracellular signals into cellular pathological changes. Proteolytic cleavage of membrane receptors serves as an unconventional pathway for reprogramming cellular functions, and the cleaved fragments often play important roles within the cell. Whether immune receptors mediate their effects in AD through this cleavage-dependent signaling mechanism remains to be clarified. METHODS: We performed proteomic screening of human cerebrospinal fluid to identify cleaved membrane proteins. Cleavage events were validated in postmortem AD brains, primary neurons, and APP/PS1 mice by immunoprecipitation, liquid chromatography-tandem mass spectrometry (LC-MS/MS), and immunofluorescence. Functional impacts were assessed through cathepsin D maturation assays, Retention Using Selective Hooks (RUSH) systems, live imaging of axonal transport, and behavioral tests (e.g., Barnes maze and fear conditioning). Therapeutic potential was evaluated by inhibiting the\u00a0paired immunoglobulin-like receptor B (PirB) cleavage and overexpression of the GAT domain of Golgi-associated, gamma adaptin ear-containing, ARF binding protein 3 (GGA3). RESULTS: This study identified a pathogenic proteolytic pathway in AD patients and mouse models, which cleaves PirB, a mouse ortholog of human leukocyte immunoglobulin-like receptor B2 (LILRB2), upon A\u03b2 exposure, generating a C-terminal fragment (PirB-CTF) that accumulated in the Golgi apparatus via retrograde transport. PirB-CTF bound to the GAT domain of GGA3, disrupting Golgi transport, impairing lysosomal maturation, and compromising anterograde synaptic vesicle transport. Inhibiting PirB cleavage or overexpressing GGA3-GAT restored Golgi function, reduced A\u03b2 plaque burden and tau phosphorylation, and rescued memory deficits. CONCLUSION: Our study revealed a non-canonical pathway in which proteolytic cleavage repurposes PirB into an intracellular disruptor of Golgi trafficking, directly coupling immune receptor activation to organelle dysfunction in AD. The PirB-CTF/GGA3 interface represents a promising therapeutic target for mitigating trafficking deficits and cognitive decline in neurodegenerative disorders.",
     "journal": "Translational neurodegeneration",
@@ -4095,42 +4097,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Extracellular amyloid-\u03b242 oligomers alter endo-lysosomal trafficking of Rab7- and Lamp-1-coated vesicles in cultured neuroblastoma cells.",
-    "abstract": "BackgroundThe levels of soluble amyloid-\u03b2 (A\u03b2)42 oligomers in the brains of patients with Alzheimer's disease (AD) are well-known to correlate with the extent of synaptic loss. However, the abnormal role of these oligomers in disrupting the balance of the endo-lysosomal pathways for substance degradation in AD brains and cellular models remains unclear.ObjectiveWe aimed to investigate whether extracellular A\u03b242 oligomers alter the composition, distribution, and identity of vesicular components and impact the processing of substances involved in the endo-lysosomal pathways of protein degradation.MethodsWe overexpressed Rab7, Lamp-1, and \u03b2-1,4-galactosyltransferase-1 proteins in nondifferentiated SH-SY5Y cells. We then incubated these cells with extracellular A\u03b242 oligomers, and evaluated the effects on the morphology, composition, and distribution of vesicular components in the endo-lysosomal pathway using super-resolution confocal microscopy. Additionally, we assessed the effects of A\u03b242 oligomers incubation on the degradation and processing of endocytosed fluorescent transferrin in vivo.ResultsOur findings revealed that A\u03b242 oligomers alter the distribution and identity of Rab7- and Lamp-1-coated vesicles, as well as the Golgi apparatus. This alteration resulted in the formation of disorganized vesicles carrying distinct surface markers of the endo-lysosomal pathway, without evident changes to the cytoskeleton. In vivo evaluation showed a delayed degradation of endocytosed fluorescent transferrin after incubation with A\u03b242 oligomers.ConclusionsA\u03b242 oligomers may contribute to neuronal toxicity by inducing changes in the identity, distribution and balance of vesicular components associated with the endo-lysosomal pathway. This disruption impacts the processing and degradation of various materials that accumulate in the cytoplasm.",
-    "journal": "Journal of Alzheimer's disease : JAD",
-    "year": 2026,
-    "authors": "Mendoza-Franco G, Rodr\u00edguez-Cruz F, Estrada-Modesto SS, H\u00e9rnandez Gonz\u00e1lez EO, Boucard AA, Meraz R\u00edos MA, Basurto-Islas G, Garcia-Sierra F",
-    "pmid": "41837780",
-    "doi": "10.1177/13872877261422415",
-    "review": false,
-    "matched_topics": [
-      "Lysosome transport",
-      "Endosome maturation"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41837780/",
-    "topic": "Lysosome transport",
-    "top": false,
-    "score": 82,
-    "type": "Primary research",
-    "overview": "BackgroundThe levels of soluble amyloid-\u03b2 (A\u03b2)42 oligomers in the brains of patients with Alzheimer's disease (AD) are well-known to correlate with the extent of synaptic loss.",
-    "did": [
-      "However, the abnormal role of these oligomers in disrupting the balance of the endo-lysosomal pathways for substance degradation in AD brains and cellular models remains unclear.ObjectiveWe aimed to investigate whether extracellular A\u03b242 oligomers alter the composition, distribution, and identity of vesicular components and impact the processing of substances involved in the endo-lysosomal pathways of protein degradation.MethodsWe overexpressed Rab7, Lamp-1, and \u03b2-1,4-galactosyltransferase-1 proteins in nondifferentiated SH-SY5Y cells.",
-      "We then incubated these cells with extracellular A\u03b242 oligomers, and evaluated the effects on the morphology, composition, and distribution of vesicular components in the endo-lysosomal pathway using super-resolution confocal microscopy.",
-      "Additionally, we assessed the effects of A\u03b242 oligomers incubation on the degradation and processing of endocytosed fluorescent transferrin in vivo.ResultsOur findings revealed that A\u03b242 oligomers alter the distribution and identity of Rab7- and Lamp-1-coated vesicles, as well as the Golgi apparatus.",
-      "This alteration resulted in the formation of disorganized vesicles carrying distinct surface markers of the endo-lysosomal pathway, without evident changes to the cytoskeleton."
-    ],
-    "main": "In vivo evaluation showed a delayed degradation of endocytosed fluorescent transferrin after incubation with A\u03b242 oligomers.ConclusionsA\u03b242 oligomers may contribute to neuronal toxicity by inducing changes in the identity, distribution and balance of vesicular components associated with the endo-lysosomal pathway.",
-    "context": "This disruption impacts the processing and degradation of various materials that accumulate in the cytoplasm.",
-    "why": "Matched topics: Lysosome transport, Endosome maturation. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Lysosome transport, Endosome maturation"
   },
   {
     "title": "Neuroimmune Regulation of NLRP3 Signalling in Parkinson's Disease.",
@@ -5047,6 +5013,41 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "\"Cytochrome P450-Mediated Vitamin D and Cholesterol Metabolism in the Pathophysiology of Neurodevelopmental Disorders\".",
+    "abstract": "Cytochrome P450 (CYP450) enzymes play critical roles in the pathophysiology of neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD), Rett syndrome (RTT), and attention-deficit/hyperactivity disorder (ADHD). Although traditionally associated with hepatic and intestinal xenobiotic metabolism, several CYP450 isoforms are expressed in the central nervous system, where they regulate essential pathways involving vitamin D and cholesterol-two molecules fundamental to neural development, synaptogenesis, and membrane homeostasis. The cholesterol-CYP27A1-27-hydroxycholesterol (27-OHC)-liver X receptor (LXR) axis has emerged as a critical regulator of neurodevelopment, influencing INSIG proteins, LXRs, and LDL receptors. Additionally, members of the CYP1A, CYP2B, CYP2C, and CYP3A families contribute to neuroendocrine balance and fetal brain maturation. Dysregulation of these pathways may contribute to synaptic dysfunction, neuronal hyperexcitability, and metabolic imbalance observed in NDDs. This review highlights the interplay between CYP450 enzymes, vitamin D metabolism, and cholesterol homeostasis, emphasizing their mechanistic relevance in ASD and related disorders, and discusses the therapeutic potential of targeting CYP450-mediated pathways to restore metabolic and neurodevelopmental equilibrium.",
+    "journal": "The Journal of steroid biochemistry and molecular biology",
+    "year": 2026,
+    "authors": "Vellingiri B, Kinoshita M, Elangovan A, Dahiya B, Kumar N, Uvarajan D, Ohara H, Durairajan SSK",
+    "pmid": "42468881",
+    "doi": "10.1016/j.jsbmb.2026.107087",
+    "review": true,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42468881/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 82,
+    "type": "Review",
+    "overview": "Cytochrome P450 (CYP450) enzymes play critical roles in the pathophysiology of neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD), Rett syndrome (RTT), and attention-deficit/hyperactivity disorder (ADHD).",
+    "did": [
+      "Although traditionally associated with hepatic and intestinal xenobiotic metabolism, several CYP450 isoforms are expressed in the central nervous system, where they regulate essential pathways involving vitamin D and cholesterol-two molecules fundamental to neural development, synaptogenesis, and membrane homeostasis.",
+      "The cholesterol-CYP27A1-27-hydroxycholesterol (27-OHC)-liver X receptor (LXR) axis has emerged as a critical regulator of neurodevelopment, influencing INSIG proteins, LXRs, and LDL receptors.",
+      "Additionally, members of the CYP1A, CYP2B, CYP2C, and CYP3A families contribute to neuroendocrine balance and fetal brain maturation.",
+      "Dysregulation of these pathways may contribute to synaptic dysfunction, neuronal hyperexcitability, and metabolic imbalance observed in NDDs."
+    ],
+    "main": "This review highlights the interplay between CYP450 enzymes, vitamin D metabolism, and cholesterol homeostasis, emphasizing their mechanistic relevance in ASD and related disorders, and discusses the therapeutic potential of targeting CYP450-mediated pathways to restore metabolic and neurodevelopmental equilibrium.",
+    "context": "This review highlights the interplay between CYP450 enzymes, vitamin D metabolism, and cholesterol homeostasis, emphasizing their mechanistic relevance in ASD and related disorders, and discusses the therapeutic potential of targeting CYP450-mediated pathways to restore metabolic and neurodevelopmental equilibrium.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Morphology-robust quantification of subcellular organization in complex cells.",
@@ -6770,38 +6771,6 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Lysosomes and lysosomal dysfunction in ageing biology - Nature",
-    "abstract": " Lysosomes and lysosomal dysfunction in ageing biology \u00a0\u00a0 Nature ",
-    "journal": "Nature",
-    "year": 2026,
-    "authors": "Nature",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11cjUzbUhHekg3NnpId0UxLW9TR2VHQ3dKODd6WExaNUZ4R1dfTkdUaDlHOTBzVE15SUp4enFiR0p6R1dJNGIxOUZLQ3JyaDdxNVFQX0F6bWdJbmxHZ0dJ?oc=5",
-    "topic": "Neuronal lysosome",
-    "top": true,
-    "score": 80,
-    "type": "News / signal",
-    "overview": "Lysosomes and lysosomal dysfunction in ageing biology \u00a0\u00a0 Nature",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Lysosomes and lysosomal dysfunction in ageing biology \u00a0\u00a0 Nature",
-    "context": "Lysosomes and lysosomal dysfunction in ageing biology \u00a0\u00a0 Nature",
-    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
     "title": "The E193K LRRK2 mutation interferes with the autophagosome processing through the impairment of the LRRK2-Dynein-1 complex.",
     "abstract": "Parkinson's disease (PD) is a neurodegenerative pathology characterized by movement-associated symptoms due to the selective loss of dopaminergic neurons in the substantia nigra pars compacta. Autophagy is an essential mechanism that restores homeostasis and promotes cell survival. Mutations in the Leucine-Rich Repeat Kinase 2 (LRRK2) gene are among the most common in the familial cases. The LRRK2 E193K mutation falls in the Armadillo (ARM) domain and modifies LRRK2 interactome. The role of LRRK2 in autophagy has been widely explored, but the impact of E193K mutation on autophagy remains unknown. We found that the E193K variant increases autophagy in primary fibroblasts obtained from an E193K carrier. By cryo-based electron microscopy we observed that E193K fibroblasts present a higher amount of phagophores/autophagosomes. We showed that LRRK2 binds to the Dynein-1 complex, an essential regulator of retrograde transport of autophagosomes. Noteworthy, the E193K mutation jeopardizes this interaction and increases the cellular sensitivity to 1-methyl-4-phenylpyridinium (MPP+) toxin in fibroblasts as well as in a heterologous cell model. Our study reveals that the LRRK2 E193K variant influences the autophagic regulation and suggests that the dysregulation of the LRRK2-Dynein-1 complex causes autophagic defects and, eventually, cell death.",
     "journal": "Scientific reports",
@@ -6936,6 +6905,41 @@
     ],
     "main": "D-GalNAc competitive inhibition assays showed that Clec10a does not rely on the conserved carbohydrate-recognition domain to bind to myelin debris.",
     "context": "FGF4 enhanced the maturation and degradative efficiency of the endolysosomal system, driving internalized myelin debris through Rab5+ early endosomes, Rab7+ late endosomes, and Lamp1+ lysosomes, where CTSD-mediated proteolysis was restored.",
+    "why": "Matched topics: Endosome maturation. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Endosome maturation"
+  },
+  {
+    "title": "Extracellular amyloid-\u03b242 oligomers alter endo-lysosomal trafficking of Rab7- and Lamp-1-coated vesicles in cultured neuroblastoma cells.",
+    "abstract": "BackgroundThe levels of soluble amyloid-\u03b2 (A\u03b2)42 oligomers in the brains of patients with Alzheimer's disease (AD) are well-known to correlate with the extent of synaptic loss. However, the abnormal role of these oligomers in disrupting the balance of the endo-lysosomal pathways for substance degradation in AD brains and cellular models remains unclear.ObjectiveWe aimed to investigate whether extracellular A\u03b242 oligomers alter the composition, distribution, and identity of vesicular components and impact the processing of substances involved in the endo-lysosomal pathways of protein degradation.MethodsWe overexpressed Rab7, Lamp-1, and \u03b2-1,4-galactosyltransferase-1 proteins in nondifferentiated SH-SY5Y cells. We then incubated these cells with extracellular A\u03b242 oligomers, and evaluated the effects on the morphology, composition, and distribution of vesicular components in the endo-lysosomal pathway using super-resolution confocal microscopy. Additionally, we assessed the effects of A\u03b242 oligomers incubation on the degradation and processing of endocytosed fluorescent transferrin in vivo.ResultsOur findings revealed that A\u03b242 oligomers alter the distribution and identity of Rab7- and Lamp-1-coated vesicles, as well as the Golgi apparatus. This alteration resulted in the formation of disorganized vesicles carrying distinct surface markers of the endo-lysosomal pathway, without evident changes to the cytoskeleton. In vivo evaluation showed a delayed degradation of endocytosed fluorescent transferrin after incubation with A\u03b242 oligomers.ConclusionsA\u03b242 oligomers may contribute to neuronal toxicity by inducing changes in the identity, distribution and balance of vesicular components associated with the endo-lysosomal pathway. This disruption impacts the processing and degradation of various materials that accumulate in the cytoplasm.",
+    "journal": "Journal of Alzheimer's disease : JAD",
+    "year": 2026,
+    "authors": "Mendoza-Franco G, Rodr\u00edguez-Cruz F, Estrada-Modesto SS, H\u00e9rnandez Gonz\u00e1lez EO, Boucard AA, Meraz R\u00edos MA, Basurto-Islas G, Garcia-Sierra F",
+    "pmid": "41837780",
+    "doi": "10.1177/13872877261422415",
+    "review": false,
+    "matched_topics": [
+      "Endosome maturation"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41837780/",
+    "topic": "Endosome maturation",
+    "top": false,
+    "score": 78,
+    "type": "Primary research",
+    "overview": "BackgroundThe levels of soluble amyloid-\u03b2 (A\u03b2)42 oligomers in the brains of patients with Alzheimer's disease (AD) are well-known to correlate with the extent of synaptic loss.",
+    "did": [
+      "However, the abnormal role of these oligomers in disrupting the balance of the endo-lysosomal pathways for substance degradation in AD brains and cellular models remains unclear.ObjectiveWe aimed to investigate whether extracellular A\u03b242 oligomers alter the composition, distribution, and identity of vesicular components and impact the processing of substances involved in the endo-lysosomal pathways of protein degradation.MethodsWe overexpressed Rab7, Lamp-1, and \u03b2-1,4-galactosyltransferase-1 proteins in nondifferentiated SH-SY5Y cells.",
+      "We then incubated these cells with extracellular A\u03b242 oligomers, and evaluated the effects on the morphology, composition, and distribution of vesicular components in the endo-lysosomal pathway using super-resolution confocal microscopy.",
+      "Additionally, we assessed the effects of A\u03b242 oligomers incubation on the degradation and processing of endocytosed fluorescent transferrin in vivo.ResultsOur findings revealed that A\u03b242 oligomers alter the distribution and identity of Rab7- and Lamp-1-coated vesicles, as well as the Golgi apparatus.",
+      "This alteration resulted in the formation of disorganized vesicles carrying distinct surface markers of the endo-lysosomal pathway, without evident changes to the cytoskeleton."
+    ],
+    "main": "In vivo evaluation showed a delayed degradation of endocytosed fluorescent transferrin after incubation with A\u03b242 oligomers.ConclusionsA\u03b242 oligomers may contribute to neuronal toxicity by inducing changes in the identity, distribution and balance of vesicular components associated with the endo-lysosomal pathway.",
+    "context": "This disruption impacts the processing and degradation of various materials that accumulate in the cytoplasm.",
     "why": "Matched topics: Endosome maturation. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
@@ -8344,6 +8348,41 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
+    "title": "Late-Onset Tay-Sachs Disease With SMALED-Like Muscle MRI Pattern Despite a Distinct Clinical Phenotype.",
+    "abstract": "BACKGROUND: Late-onset Tay-Sachs disease (LOTS) is a rare lysosomal disorder that contrasts with the classical infantile form by presenting with milder and heterogeneous neurological manifestations, including lower motor neuron phenotypes. While muscle MRI fatty infiltration patterns have been described in selected inherited motor neuron disorders, the corresponding imaging features in LOTS remain poorly defined. CASE: We report two female patients presenting in the second decade of life with slowly progressive, lower limb-predominant flaccid weakness associated with tremor. Hip flexion and arm extension were disproportionately affected. Electromyography demonstrated a neurogenic pattern. Whole-body muscle MRI (wbMRI) revealed selective fatty infiltration on T1-weighted sequences with normal STIR imaging. At the pelvic and thigh levels, this pattern showed marked overlap with the characteristic fatty infiltration described in SMA with lower extremity predominance (SMALED), including relative sparing of the adductor longus and semimembranosus. In contrast, consistent additional involvement of the iliopsoas and triceps brachii muscles was observed. Whole-exome sequencing identified compound heterozygous pathogenic variants in the HEXA gene in each patient, confirmed to be in trans, and enzymatic testing demonstrated reduced \u03b2-hexosaminidase A activity. CONCLUSION: LOTS may reproduce key elements of the SMALED muscle MRI fatty infiltration pattern, particularly at the pelvic and thigh levels, while maintaining a distinct clinical presentation. Recognition of this partial radiological overlap, together with its discriminative features, is important to avoid diagnostic misclassification and to guide appropriate genetic testing.",
+    "journal": "Journal of the peripheral nervous system : JPNS",
+    "year": 2026,
+    "authors": "Frezatti RSS, Gon\u00e7alves TAP, de Albuquerque Bueno MG, Dos Santos ACJ, Wilson LA, Dominik N, Hanna MG, Morrow J",
+    "pmid": "42466981",
+    "doi": "10.1111/jns.70144",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42466981/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "BACKGROUND: Late-onset Tay-Sachs disease (LOTS) is a rare lysosomal disorder that contrasts with the classical infantile form by presenting with milder and heterogeneous neurological manifestations, including lower motor neuron phenotypes.",
+    "did": [
+      "While muscle MRI fatty infiltration patterns have been described in selected inherited motor neuron disorders, the corresponding imaging features in LOTS remain poorly defined.",
+      "CASE: We report two female patients presenting in the second decade of life with slowly progressive, lower limb-predominant flaccid weakness associated with tremor.",
+      "Hip flexion and arm extension were disproportionately affected.",
+      "Electromyography demonstrated a neurogenic pattern."
+    ],
+    "main": "Whole-body muscle MRI (wbMRI) revealed selective fatty infiltration on T1-weighted sequences with normal STIR imaging.",
+    "context": "At the pelvic and thigh levels, this pattern showed marked overlap with the characteristic fatty infiltration described in SMA with lower extremity predominance (SMALED), including relative sparing of the adductor longus and semimembranosus.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "Plaque-type dura mater graft-associated Creutzfeldt-Jakob disease: an autopsied case report.",
     "abstract": "Clinicopathologically, dura mater graft-associated Creutzfeldt-Jakob disease (dCJD) presents as either a non-plaque or plaque type. Here, we report an autopsy case of plaque-type dCJD, supported by genetic and biochemical analyses. A 41-year-old man manifested right-hand paraesthesia. He had received a dural graft in the right parietal region following a traumatic acute subdural haematoma 27\u2009years before symptom onset. The clinical course was slowly progressive. The patient became unable to walk independently 17\u2009months after onset, showed cognitive decline at 22\u2009months, and developed myoclonus and akinetic mutism at 24\u2009months. Periodic sharp-wave complexes were never observed on electroencephalography throughout the disease course. He died 26\u2009months after symptom onset. No mutations were identified in the prion protein (PrP) gene, and the codon 129 polymorphism was homozygous for methionine. Neuropathologically, mild to moderate spongiform changes with fine vacuoles, neuronal loss, and astrogliosis were observed in the brain and spinal cord. Degeneration was relatively severe in the limbic system, striatum, thalamus, and cerebellum, resembling the distribution pattern of VV2 sporadic CJD. Abnormal PrP deposition was broadly distributed consisting of synaptic, perineuronal, and plaque forms. In particular, intense PrP staining was observed throughout the spinal grey matter. Western blotting detected intermediate-type PrP in the brain and cervical cord, but not in systemic organs. Considering the clinical course and PrP staining in the spinal cord, PrP transmission is suggested to occur not directly from the transplanted dura mater to the central nervous system, but rather indirectly via a peripheral route.",
     "journal": "Prion",
@@ -8412,6 +8451,41 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neuronal lysosome"
+  },
+  {
+    "title": "N-acetyl-L-leucine normalizes Transcription Factor EB activity by stereospecific bidirectional modulation in a HeLa cell model of Niemann-Pick disease type C.",
+    "abstract": "Levacetylleucine (Aqneursa\u2122), an acetylated derivative and pro-drug of L-leucine, is the only FDA-approved monotherapy for Niemann-Pick disease type C (NPC). Its acetyl group enables transport via monocarboxylate transporters, supporting blood-brain barrier penetration and efficient cellular uptake. Inside cells, levacetylleucine is metabolised by acylases, generating elevated levels of L-leucine that enhance mitochondrial bioenergetics and is thought to ameliorate lysosomal dysfunction indirectly. Here, we describe a direct effect of levacetylleucine on lysosomal regulation through modulation of TFEB, the master transcription factor for lysosomal and autophagy genes. Levacetylleucine rapidly alters TFEB translocation between the cytoplasm and the nucleus in a biphasic, homeostasis-restoring manner. In wild-type HeLa cells, levacetylleucine promotes TFEB activation and nuclear localisation. However, in NPC1 disease models, where we show that TFEB is over-activated and enriched in the nucleus due to lysosomal stress, levacetylleucine reduces nuclear TFEB and restores a more normal cytoplasmic-to-nuclear balance. These effects occur at clinically relevant concentrations associated with lysosomal storage reduction. The effects of the drug are stereospecific: while the L-enantiomer is active, the D-enantiomer and racemate show no effect, revealing the antagonistic properties of the D-enantiomer. This bidirectional normalisation of TFEB activity highlights a direct mechanism through which levacetylleucine modulates lysosomal and autophagic pathways in the HeLa cell model, giving mechanistic insight into its therapeutic potential in NPC, and also across diverse neurological and neurodevelopmental disorders.",
+    "journal": "PloS one",
+    "year": 2026,
+    "authors": "Davis LC, Annaert W, Braine R, Churchill GC, Factor M, Fields T, Patterson M, Platt F",
+    "pmid": "42467639",
+    "doi": "10.1371/journal.pone.0353834",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42467639/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Levacetylleucine (Aqneursa\u2122), an acetylated derivative and pro-drug of L-leucine, is the only FDA-approved monotherapy for Niemann-Pick disease type C (NPC).",
+    "did": [
+      "Its acetyl group enables transport via monocarboxylate transporters, supporting blood-brain barrier penetration and efficient cellular uptake.",
+      "Inside cells, levacetylleucine is metabolised by acylases, generating elevated levels of L-leucine that enhance mitochondrial bioenergetics and is thought to ameliorate lysosomal dysfunction indirectly.",
+      "Here, we describe a direct effect of levacetylleucine on lysosomal regulation through modulation of TFEB, the master transcription factor for lysosomal and autophagy genes.",
+      "Levacetylleucine rapidly alters TFEB translocation between the cytoplasm and the nucleus in a biphasic, homeostasis-restoring manner."
+    ],
+    "main": "In wild-type HeLa cells, levacetylleucine promotes TFEB activation and nuclear localisation.",
+    "context": "However, in NPC1 disease models, where we show that TFEB is over-activated and enriched in the nucleus due to lysosomal stress, levacetylleucine reduces nuclear TFEB and restores a more normal cytoplasmic-to-nuclear balance.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Brain aging in Type II GM1 gangliosidosis.",
@@ -8869,41 +8943,6 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "SGK1-mediated deficits in microglial phagocytosis drive pathological progression in amyotrophic lateral sclerosis.",
-    "abstract": "Alterations in microglial function and transcriptomic profiles are major pathological hallmarks of amyotrophic lateral sclerosis (ALS). However, the dynamics and regulatory mechanisms underlying microglial phagocytic activity during disease progression remain unclear. In this study, we observed stage-dependent alterations in microglial phagocytic activity during disease progression in SOD1G93A mice. Single-cell RNA sequencing suggested that this change was associated with a reduced abundance of microglial subpopulations enriched for phagocytosis-related pathways. Transcriptomic analysis identified serum- and glucocorticoid-regulated kinase 1 (SGK1) as a potential mediator of this process. Notably, sgk1 knockout in SOD1G93A mice was associated with improved microglial clearance of myelin debris and reduced aberrant engulfment of neuronal material after disease onset. Our results further showed that, after disease onset, the accumulation of myelin debris and apoptotic neurons induced SGK1 upregulation in microglia from SOD1G93A mice. Mechanistically, SGK1 appeared to promote lipid accumulation in microglia by suppressing lipophagy, thereby impairing the ability of microglia to clear cellular debris. Moreover, pharmacological inhibition of SGK1 with GSK650394 attenuated motor deficits and prolonged survival in SOD1G93A mice. Together, our findings provide evidence for a previously unrecognized role of SGK1 in regulating microglial phagocytosis in ALS models and support SGK1 as a potential therapeutic target in SOD1 mutation-associated ALS models.",
-    "journal": "Journal of neuroinflammation",
-    "year": 2026,
-    "authors": "He M, Wu C, Hu M, Shi X, Liu R, Tong Y, Wang H, Hu H",
-    "pmid": "42387584",
-    "doi": "10.1186/s12974-026-03925-w",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42387584/",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Alterations in microglial function and transcriptomic profiles are major pathological hallmarks of amyotrophic lateral sclerosis (ALS).",
-    "did": [
-      "However, the dynamics and regulatory mechanisms underlying microglial phagocytic activity during disease progression remain unclear.",
-      "In this study, we observed stage-dependent alterations in microglial phagocytic activity during disease progression in SOD1G93A mice.",
-      "Single-cell RNA sequencing suggested that this change was associated with a reduced abundance of microglial subpopulations enriched for phagocytosis-related pathways.",
-      "Transcriptomic analysis identified serum- and glucocorticoid-regulated kinase 1 (SGK1) as a potential mediator of this process."
-    ],
-    "main": "Notably, sgk1 knockout in SOD1G93A mice was associated with improved microglial clearance of myelin debris and reduced aberrant engulfment of neuronal material after disease onset.",
-    "context": "Our results further showed that, after disease onset, the accumulation of myelin debris and apoptotic neurons induced SGK1 upregulation in microglia from SOD1G93A mice.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
     "title": "Transplantation of human iPSC-derived microglia ameliorates neuropathology and circuit dysfunction in progranulin-deficient mice.",
     "abstract": "Frontotemporal dementia (FTD) is a major cause of early-onset neurodegeneration characterized by progressive behavioral, emotional, and cognitive decline. Progranulin haploinsufficiency, a leading genetic cause of familial FTD, disrupts lysosomal function, lipid metabolism, autophagy, and neuroimmune signaling across multiple cell types. Increasing evidence indicates that microglia are particularly sensitive to progranulin loss, exhibiting elevated complement activation that contributes to TDP-43 proteinopathy and neuronal dysfunction. Here, we investigate the biological role of restoring progranulin exclusively within microglia by transplanting human induced pluripotent stem cell-derived microglial progenitors into progranulin (Grn)-deficient mice. We find that engraftment of wild-type, but not Grn-deficient, human microglia restore brain-wide progranulin levels, normalize microglial transcriptional states, and ameliorate pathological, functional, and behavioral phenotypes associated with progranulin loss. Because human microglia are the only source of progranulin in this system, these findings demonstrate that microglial progranulin is sufficient to restore key aspects of cellular, circuit, and behavioral homeostasis in a progranulin-deficient FTD model. More broadly, this work highlights a central, microglia-intrinsic role for progranulin in maintaining brain function and provides a framework for dissecting microglia-specific mechanisms across FTD and related neurodegenerative disorders.",
     "journal": "Molecular neurodegeneration",
@@ -8937,41 +8976,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "CRISPR screening identifies TRIM27 as a destabilizer of the Smith-Magenis syndrome protein RAI1.",
-    "abstract": "The nervous system is highly sensitive to alterations in the dosage of genes crucial for neurodevelopment, as exemplified by retinoic acid-induced 1 (RAI1). A 50% change in RAI1 gene copy number, resulting in either reduced or increased protein levels, leads to distinct neurodevelopmental disorders. RAI1 haploinsufficiency causes Smith-Magenis syndrome (SMS), whereas RAI1 duplication underlies Potocki-Lupski syndrome. We recently demonstrated that restoring Rai1 levels can improve SMS-related disease phenotypes in mice. However, despite protein stability being a major determinant of protein abundance, there are currently no therapeutic approaches to modulate RAI1 protein stability. Here, we performed a forward CRISPR screen in human cells to identify post-translational regulators of RAI1 steady-state levels and identified tripartite motif-containing 27 (TRIM27) as a destabilizer of RAI1. We show that RAI1 degradation occurs primarily through the ubiquitin-proteasome system, with TRIM27 interacting with RAI1 and enabling TRIM27-dependent lysine(K)48- and K63-linked RAI1 ubiquitination. Finally, in SMS mouse primary neurons, we demonstrate that knocking down TRIM27 partially rescues SMS-associated morphological phenotypes. Our findings provide the first mechanistic insight into RAI1 proteostasis and highlight TRIM27 as a potential therapeutic target for SMS, highlighting the potential of manipulating ubiquitin-mediated proteostasis to restore gene dosage altered by copy number variations.",
-    "journal": "Genetics",
-    "year": 2026,
-    "authors": "Lin YC, Lee YJ, Li CX, Chang HC, Kowalczyk M, Haque M, Dragoiescu A, Losier TT",
-    "pmid": "42140622",
-    "doi": "10.1093/genetics/iyag121",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42140622/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "The nervous system is highly sensitive to alterations in the dosage of genes crucial for neurodevelopment, as exemplified by retinoic acid-induced 1 (RAI1).",
-    "did": [
-      "A 50% change in RAI1 gene copy number, resulting in either reduced or increased protein levels, leads to distinct neurodevelopmental disorders.",
-      "RAI1 haploinsufficiency causes Smith-Magenis syndrome (SMS), whereas RAI1 duplication underlies Potocki-Lupski syndrome.",
-      "We recently demonstrated that restoring Rai1 levels can improve SMS-related disease phenotypes in mice.",
-      "However, despite protein stability being a major determinant of protein abundance, there are currently no therapeutic approaches to modulate RAI1 protein stability."
-    ],
-    "main": "Here, we performed a forward CRISPR screen in human cells to identify post-translational regulators of RAI1 steady-state levels and identified tripartite motif-containing 27 (TRIM27) as a destabilizer of RAI1.",
-    "context": "We show that RAI1 degradation occurs primarily through the ubiquitin-proteasome system, with TRIM27 interacting with RAI1 and enabling TRIM27-dependent lysine(K)48- and K63-linked RAI1 ubiquitination.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Foundation models for discovering robust biomarkers of neurological disorders from dynamic functional connectivity",
@@ -9147,41 +9151,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Genetic heterogeneity, movement disorders, and white matter abnormalities in pediatric developmental and epileptic encephalopathies: A retrospective cohort study from a National Neurodegenerative and Leukodystrophy Registry.",
-    "abstract": "Developmental and epileptic encephalopathies (DEEs) are severe neurodevelopmental disorders characterized by early-onset seizures, developmental impairment, and heterogeneous neurological features. We retrospectively analyzed 37 children meeting strict DEE criteria from the Iranian Neurodegenerative and Leukodystrophy Registry (2016-2024), focusing on movement disorders and white matter (WM) abnormalities. Seizure onset occurred within the first year in 81% (30/37). Movement disorders were observed in 24.3% (9/37), including dystonia, myoclonus, ataxia, chorea, tremor, and oculomotor apraxia, with patterns observed across different genetic etiologies. WM abnormalities were present in 43.2% (16/37), predominantly demyelinating, with gene-associated imaging patterns observed in metabolic/lysosomal genes (CLN6, MFSD8, ITPA) and in variants involving TNK2, SLC13A5, and PIGU. Pathogenic or likely pathogenic variants were identified in 78.4% (29/37), including 18 novel variants across 23 genes, with predominance of loss-of-function variants (72.4%). Within the limitations of this cohort, recognition of combined movement and WM features may support improved diagnostic evaluation and prioritization of genetic testing, particularly in settings with variable EEG findings. These observations warrant validation in larger cohorts to further clarify genotype-phenotype relationships in DEEs.",
-    "journal": "Epilepsy research",
-    "year": 2026,
-    "authors": "Mohammadi P, Tehrani SF, Badv RS, Pak N, Ashrafi MR, Heidari M, Mohammadi M, Zamani G",
-    "pmid": "42407302",
-    "doi": "10.1016/j.eplepsyres.2026.107868",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42407302/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Developmental and epileptic encephalopathies (DEEs) are severe neurodevelopmental disorders characterized by early-onset seizures, developmental impairment, and heterogeneous neurological features.",
-    "did": [
-      "We retrospectively analyzed 37 children meeting strict DEE criteria from the Iranian Neurodegenerative and Leukodystrophy Registry (2016-2024), focusing on movement disorders and white matter (WM) abnormalities.",
-      "Seizure onset occurred within the first year in 81% (30/37).",
-      "Movement disorders were observed in 24.3% (9/37), including dystonia, myoclonus, ataxia, chorea, tremor, and oculomotor apraxia, with patterns observed across different genetic etiologies.",
-      "WM abnormalities were present in 43.2% (16/37), predominantly demyelinating, with gene-associated imaging patterns observed in metabolic/lysosomal genes (CLN6, MFSD8, ITPA) and in variants involving TNK2, SLC13A5, and PIGU."
-    ],
-    "main": "Pathogenic or likely pathogenic variants were identified in 78.4% (29/37), including 18 novel variants across 23 genes, with predominance of loss-of-function variants (72.4%).",
-    "context": "Within the limitations of this cohort, recognition of combined movement and WM features may support improved diagnostic evaluation and prioritization of genetic testing, particularly in settings with variable EEG findings.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "mmu_circ_0012122/mmu-miR-1843-5p/Sertad2 axis: A novel regulatory pathway in rabies virus infection.",
@@ -10214,8 +10183,8 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway - Rockefeller University Press",
-    "abstract": " Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press ",
+    "title": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes - Rockefeller University Press",
+    "abstract": " Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press ",
     "journal": "Rockefeller University Press",
     "year": 2026,
     "authors": "Rockefeller University Press",
@@ -10229,17 +10198,17 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVlVkdXBNdGZTazhsQ2VRMVVMNTBwVGtEbzRKVDJDdFI1a2V6c21mdTl1YlR2dFUwa2JpcEw4aklyZEMwclliTEN2VkNCYkNPRzl6cXV1dlZfU2pDRU1ILXpwTDlxVV9PS0swYmtfQVRYTXcwVHNZU1Z4UFhoS2VicUlEOFRfd0hZRlM1VjB2WWRSNUoxZGs0cVlONWh2ZWpX?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZVAzN3drb212WkpyZUY1WEhadUl6TDRuVDBQNllpdEctU0Q5UDA3T1hYSHVlWHBiNk5OTTlOR25TT1BCS1dtOWI4QXRDY1ZKTXhaNG5TLWMxT3Z6OVZHckZVTXBaaUhlZTlGUlp0VFBYT3dkcmx5NlVHQnM5TU43Z1c5bXRRTzRIR0c2MC10dGNRQQ?oc=5",
     "topic": "Dynein / autophagosome",
     "top": false,
     "score": 74,
     "type": "News / signal",
-    "overview": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press",
+    "overview": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press",
-    "context": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press",
+    "main": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
+    "context": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
     "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11593,38 +11562,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "Loss of TDP-43 in microglia linked to neurological disease development - BioTechniques",
-    "abstract": " Loss of TDP-43 in microglia linked to neurological disease development \u00a0\u00a0 BioTechniques ",
-    "journal": "BioTechniques",
-    "year": 2026,
-    "authors": "BioTechniques",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcTIwb1B0LTZDR3M0ZU9aRUFXOEhWandYSXM3TDk5RmhteXc5N2c0bVRBUXV5Y0otZ2pHWG95bHRSWnZSR3A5blZ2U3pKVFR2N05aTnE2TjBuS2lGdUZSLTVYcDZZM0x6MkFZYUVuOVVXUWJHTVU2TXdsTXNrelpHRVI2dnJzZDR6MDJDejZQT1ZJNkRfN2F2bnlab25ObVc4S2V4d1BOVFlhWmRtQXhLV2EzTEg?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Loss of TDP-43 in microglia linked to neurological disease development \u00a0\u00a0 BioTechniques",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Loss of TDP-43 in microglia linked to neurological disease development \u00a0\u00a0 BioTechniques",
-    "context": "Loss of TDP-43 in microglia linked to neurological disease development \u00a0\u00a0 BioTechniques",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Postdoc Portrait: Mary Cundiff Maps Shared Disease Mechanisms - the-scientist.com",
