@@ -3817,41 +3817,6 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
-    "title": "GPR3 in neuro-metabolic-immune-reproductive nexus - a potential therapeutic target for Multi-System diseases.",
-    "abstract": "BACKGROUND: GPR3(G-protein-coupled receptor 3), an orphan G-protein-coupled receptor (GPCR) with constitutive Gs activity, is expressed in the brain, liver, ovary, and other tissues, regulating cell proliferation, differentiation, and apoptosis across the nervous, reproductive, immune, and metabolic systems. This review synthesizes evidence on its integrated signaling and physiological functions to address the lack of a comprehensive multisystem pathophysiology overview. METHODS: A systematic literature search was conducted on PubMed and Web of Science, using keywords such as \"GPR3\", \"GPCR\", \"neurodegeneration\", \"metabolism\", \"immune\", \"reproduction\", \"agonist\", \"inhibitor\", and \"therapeutic target\". This search identified GPR3's roles in neurodegenerative diseases, immune inflammation, reproduction, and energy metabolism. The analysis focused on signaling pathways, ligand regulation, and therapeutic potential. RESULTS: The research indicates that GPR3 is involved in neuronal survival, synaptic plasticity, and microglial activity via the cAMP/PKA, PI3K/Akt, and \u03b2 - arrestin pathways. It promotes amyloid - \u03b2 formation in Alzheimer's disease (AD), yet provides neuroprotection in Parkinson's disease (PD) models. It may contribute to anxiety/depression - like states, maintain oocyte meiotic arrest in the ovary, and activate thermogenic genes in adipose tissue. GPR3 modulates immune responses. Using oleic acid (OA) and diphenyleneiodonium (DPI) as activators, and AF64394 and cannabidiol (CBD) as antagonists, it shows potential in disease models. CONCLUSION: GPR3 acts as a central molecular hub integrating neural, metabolic, immune, and reproductive signaling, highlighting its potential as a therapeutic target for chronic multisystem disorders. However, its dual roles in certain pathologies and translation challenges necessitate further research.",
-    "journal": "Annals of medicine",
-    "year": 2026,
-    "authors": "Feng BD, Qin JY, Qin QQ, Xu ZC, Zhang HQ",
-    "pmid": "41574602",
-    "doi": "10.1080/07853890.2026.2619216",
-    "review": true,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41574602/",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 82,
-    "type": "Review",
-    "overview": "BACKGROUND: GPR3(G-protein-coupled receptor 3), an orphan G-protein-coupled receptor (GPCR) with constitutive Gs activity, is expressed in the brain, liver, ovary, and other tissues, regulating cell proliferation, differentiation, and apoptosis across the nervous, reproductive, immune, and metabolic systems.",
-    "did": [
-      "This review synthesizes evidence on its integrated signaling and physiological functions to address the lack of a comprehensive multisystem pathophysiology overview.",
-      "METHODS: A systematic literature search was conducted on PubMed and Web of Science, using keywords such as \"GPR3\", \"GPCR\", \"neurodegeneration\", \"metabolism\", \"immune\", \"reproduction\", \"agonist\", \"inhibitor\", and \"therapeutic target\".",
-      "This search identified GPR3's roles in neurodegenerative diseases, immune inflammation, reproduction, and energy metabolism.",
-      "The analysis focused on signaling pathways, ligand regulation, and therapeutic potential."
-    ],
-    "main": "RESULTS: The research indicates that GPR3 is involved in neuronal survival, synaptic plasticity, and microglial activity via the cAMP/PKA, PI3K/Akt, and \u03b2 - arrestin pathways.",
-    "context": "It promotes amyloid - \u03b2 formation in Alzheimer's disease (AD), yet provides neuroprotection in Parkinson's disease (PD) models.",
-    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
     "title": "Beyond acid-base dyshomeostasis: Dynamic instability of neuronal lysosomal pH as a pathogenic mechanism and therapeutic target in neurological diseases.",
     "abstract": "The precise maintenance of the intra-lysosomal acidic microenvironment is vital for neuronal functions, including protein degradation, metabolic regulation, and organelle quality control. This review systematically elucidates the dynamic regulatory network governing neuronal lysosomal pH homeostasis, transcending the classical proton pump-leak model. We highlight a multifaceted system integrating vacuolar-type H+-ATPase (V-ATPase)-driven active proton pumping, proton leakage mediated by channels such as transmembrane protein 175 (TMEM175) and solute carrier family 7 member 11 (SLC7A11), membrane potential buffering by the Cl-/H+ exchanger ClC-7, and regulatory signaling pathways involving AMP-activated protein kinase (AMPK)-mechanistic target of rapamycin complex 1 (mTORC1)-transcription factor EB (TFEB). Crucially, pH dysregulation-manifesting as hyperacidification, alkalinization, or the increasingly recognized and potentially more deleterious phenomenon of dynamic instability-emerges as a fundamental pathogenic mechanism in neurodegenerative disorders like Alzheimer's disease (AD) and Parkinson's disease (PD). Such disruption impairs autophagic flux and mitochondria-lysosome crosstalk, triggering neuroinflammation and ultimately leading to neuronal dysfunction and death. Building upon these mechanistic insights, we discuss emerging therapeutic strategies, advocating a paradigm shift from merely correcting acid-base imbalance toward restoring intrinsic lysosomal pH homeostatic resilience. Finally, we outline critical challenges for clinical translation, including deciphering neuron subtype-specific mechanisms, identifying dynamic in vivo pH biomarkers, and developing brain-penetrant therapeutics. Overcoming these hurdles through interdisciplinary innovation is essential to advance lysosomal pH-targeted therapies into clinical practice.",
     "journal": "Biochemical pharmacology",
@@ -4377,6 +4342,41 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Targeting the NLRP3 Inflammasome in Alzheimer's Disease: Mechanistic Insights and Therapeutic Advances.",
+    "abstract": "Alzheimer's disease (AD) is the leading cause of dementia, yet current therapies provide limited clinical benefit. Neuroinflammation, as an early and sustained driver of AD, places the NLRP3 inflammasome at the center of pathological and therapeutic focus. In this review, we synthesize recent advances in the structure, assembly, and activation of the NLRP3 inflammasome, and evaluate its contribution to AD using evidence from human brain tissues, cerebrospinal fluid, and diverse AD animal models. Available data consistently support aberrant NLRP3 activation in AD brain, where it is closely associated with amyloid-\u03b2 (A\u03b2) deposition, tau pathology, glial reactivity, and cognitive decline. We further discuss the cell-type-specific roles of microglia and astrocytes, highlighting microglia as the principal effector cells in inflammasome-associated pathology. Mechanistically, A\u03b2 and tau converge on NLRP3 activation through interconnected pathways involving K+ efflux, lysosomal rupture, mitochondrial dysfunction, and impaired autophagy. Downstream IL-1\u03b2, IL-18, and gasdermin D amplify neuroinflammation and neuronal injury. We summarize emerging therapeutic strategies directly targeting its core components or downstream effectors, as well as anti-AD agents with indirect NLRP3 modulation including endogenous molecules, repurposed drugs, and natural products. Collectively, this review regards NLRP3 inflammasome as a critical inflammatory hub and a promising target for disease-modifying therapy in AD, and provide useful perspectives on AD pathogenesis and inform the development of more rational therapeutic strategies.",
+    "journal": "Ageing research reviews",
+    "year": 2026,
+    "authors": "Lian W, Zhou F, Tong Z, Xia C, Yan Y, He J, Xu J, Zhang W",
+    "pmid": "42501950",
+    "doi": "10.1016/j.arr.2026.103273",
+    "review": true,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42501950/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 82,
+    "type": "Review",
+    "overview": "Alzheimer's disease (AD) is the leading cause of dementia, yet current therapies provide limited clinical benefit.",
+    "did": [
+      "Neuroinflammation, as an early and sustained driver of AD, places the NLRP3 inflammasome at the center of pathological and therapeutic focus.",
+      "In this review, we synthesize recent advances in the structure, assembly, and activation of the NLRP3 inflammasome, and evaluate its contribution to AD using evidence from human brain tissues, cerebrospinal fluid, and diverse AD animal models.",
+      "Available data consistently support aberrant NLRP3 activation in AD brain, where it is closely associated with amyloid-\u03b2 (A\u03b2) deposition, tau pathology, glial reactivity, and cognitive decline.",
+      "We further discuss the cell-type-specific roles of microglia and astrocytes, highlighting microglia as the principal effector cells in inflammasome-associated pathology."
+    ],
+    "main": "Mechanistically, A\u03b2 and tau converge on NLRP3 activation through interconnected pathways involving K+ efflux, lysosomal rupture, mitochondrial dysfunction, and impaired autophagy.",
+    "context": "Downstream IL-1\u03b2, IL-18, and gasdermin D amplify neuroinflammation and neuronal injury.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
   },
   {
     "title": "Loss of the ER-cargo protein CLN8 increases severity of acute pancreatitis and upregulates ER-stress and ER-phagy.",
@@ -6435,6 +6435,38 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
+    "title": "Associations of social isolation and loneliness with neurological disorders, psychiatric disorders, brain structures and behavioural phenotypes among UK Biobank participants - Nature",
+    "abstract": " Associations of social isolation and loneliness with neurological disorders, psychiatric disorders, brain structures and behavioural phenotypes among UK Biobank participants \u00a0\u00a0 Nature ",
+    "journal": "Nature",
+    "year": 2026,
+    "authors": "Nature",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBldkR6TEVGR0VVR21ZdTk3YmRmWGZzaE9DT1RxUXVEeENKc2J2RjhsMkZOaDU1OEJubk5JZkNXYV9qQjF6N0I4SkRORnF5VTQybUZ6UVVBSW9WTFh1LXVN?oc=5",
+    "topic": "Neurological disorders",
+    "top": true,
+    "score": 80,
+    "type": "News / signal",
+    "overview": "Associations of social isolation and loneliness with neurological disorders, psychiatric disorders, brain structures and behavioural phenotypes among UK Biobank participants \u00a0\u00a0 Nature",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Associations of social isolation and loneliness with neurological disorders, psychiatric disorders, brain structures and behavioural phenotypes among UK Biobank participants \u00a0\u00a0 Nature",
+    "context": "Associations of social isolation and loneliness with neurological disorders, psychiatric disorders, brain structures and behavioural phenotypes among UK Biobank participants \u00a0\u00a0 Nature",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
     "title": "Tissue Models in Space Will Support Age-Related Disease Studies - National Center for Advancing Translational Sciences (.gov)",
     "abstract": " Tissue Models in Space Will Support Age-Related Disease Studies \u00a0\u00a0 National Center for Advancing Translational Sciences (.gov) ",
     "journal": "National Center for Advancing Translational Sciences (.gov)",
@@ -7401,6 +7433,41 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
+    "title": "Nigral biochemical and structural alterations following subacute exposure to MPTP in mice.",
+    "abstract": "BACKGROUND: The substantia nigra is the critical part of the midbrain responsible for movement-related functions. Nigral alterations have been associated with neurological conditions related to movement disorders, including Parkinson's disease (PD). 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP) is a toxin commonly used as a model of PD due to its selective nature of destroying dopaminergic neurons. However, toxicity varies among different animals and strains. Therefore, this study aimed to assess a comprehensive multi-level profile of early dopaminergic dysfunction by evaluating behavioural, biochemical, mitochondrial, neuroinflammatory, and histological assessments to characterise early nigrostriatal alterations in Swiss mice following subacute MPTP exposure. METHODOLOGY: Twelve (12) adult male mice were randomly divided into two groups of six (6) mice each. Group I (control) was administered normal saline (1\u202fml/kg i.p.), while group II was administered MPTP (30\u202fmg/kg i.p.) daily for 5 consecutive days. Twenty-four (24) hours following the last MPTP administration, the mice were assessed for neurobehavioural performance using the beam walk, pole, and traction test. Assessments of oxidative stress biomarkers [malondialdehyde (MDA), superoxide dismutase (SOD), catalase (CAT) and reduced glutathione (GSH)], mitochondrial complex 1 activity, neuroinflammatory markers (IL-1\u03b2 and TNF-\u03b1), brain-derived neurotrophic factor (BDNF), monoamine oxidase B (MAO-B), dopamine level, and histological examination of the substantia nigra were conducted following subacute MPTP exposure. RESULTS: Exposure to MPTP altered neurobehavioural performance, oxidative stress biomarkers, neuroinflammatory markers (IL-1\u03b2, TNF-\u03b1), and other assessed biochemical parameters, as evidenced by increased beam performance latency, bradykinesia, and a lower traction score. Significant (p\u202f<\u202f0.05) increase in MDA level and decrease in SOD, CAT, and GSH were also observed. A significant (p\u202f<\u202f0.05) increase was observed in IL-1\u03b2 and TNF-\u03b1 levels, and a decrease (p\u202f<\u202f0.05) was observed in mitochondrial complex 1 activity, BDNF and dopamine levels. Nigral histological distortions were observed following MPTP exposure. CONCLUSION: These findings confirm the established alterations in neurobehavioral, physiological and morphological features in the substantia nigra of MPTP-exposed Swiss mice. The study assesses early nigral alterations after subacute MPTP exposure and supports the use of this model for investigating MPTP-induced neurotoxicity.",
+    "journal": "Toxicology reports",
+    "year": 2026,
+    "authors": "Henry R, Agbon AN, Musa SA, Oladele SB",
+    "pmid": "42502326",
+    "doi": "10.1016/j.toxrep.2026.102314",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42502326/",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "BACKGROUND: The substantia nigra is the critical part of the midbrain responsible for movement-related functions.",
+    "did": [
+      "Nigral alterations have been associated with neurological conditions related to movement disorders, including Parkinson's disease (PD).",
+      "1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP) is a toxin commonly used as a model of PD due to its selective nature of destroying dopaminergic neurons.",
+      "However, toxicity varies among different animals and strains.",
+      "Therefore, this study aimed to assess a comprehensive multi-level profile of early dopaminergic dysfunction by evaluating behavioural, biochemical, mitochondrial, neuroinflammatory, and histological assessments to characterise early nigrostriatal alterations in Swiss mice following subacute MPTP exposure."
+    ],
+    "main": "METHODOLOGY: Twelve (12) adult male mice were randomly divided into two groups of six (6) mice each.",
+    "context": "Group I (control) was administered normal saline (1\u202fml/kg i.p.), while group II was administered MPTP (30\u202fmg/kg i.p.) daily for 5 consecutive days.",
+    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
     "title": "Nao-xin-tong capsule attenuates cerebral ischemia/reperfusion injury by modulating the p53/GDF15/NOX4 regulatory network and alleviating mitochondrial dysfunction and ferroptosis-related injury.",
     "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Nao-xin-tong (NXT) is a representative traditional Chinese medicine prescription for replenishing qi and activating blood circulation, and has been widely used in the prevention and treatment of cardio-cerebrovascular diseases. However, the mechanisms underlying its protective effects against cerebral ischemia/reperfusion injury (CIRI) remain incompletely understood. AIM OF THE STUDY: This study aimed to investigate whether NXT alleviates CIRI by regulating the p53/GDF15/NOX4 regulatory network, thereby improving mitochondrial dysfunction and inhibiting neuronal ferroptosis. In particular, the protective effect of growth differentiation factor 15 (GDF15) and its interaction with NXT were explored in both in vitro and in vivo models. MATERIALS AND METHODS: An oxygen-glucose deprivation/reoxygenation (OGD/R) model in PC12\u202fcells and a transient middle cerebral artery occlusion (tMCAO) model in rats were established. The pharmacological effects and mechanisms of NXT were evaluated using CCK-8 assay, transmission electron microscopy, biochemical assays, RT-qPCR, Western blotting, immunofluorescence, and transcriptomic analysis. In addition, recombinant human GDF15 (rhGDF15), and GDF15 knockdown were used for mechanistic validation. RESULTS: UPLC-Q-TOF/MS identified multiple constituents in NXT. Both OGD/R and tMCAO induced marked oxidative stress, mitochondrial injury, and ferroptosis-related alterations. NXT increased cell viability, improved neuronal and mitochondrial ultrastructure, reduced ROS, MDA, and total iron levels, enhanced SOD, GSH-Px, and ATPase activities, upregulated mitochondrial electron transport chain-related targets, and reversed the abnormal expression of ferroptosis-related molecules, including GPX4 and ACSL4. Medium-dose NXT showed the most consistent protection. Mechanistically, NXT inhibited p53 nuclear translocation and downregulated p53, GDF15, and NOX4 expression. rhGDF15 further enhanced the neuroprotective effect, whereas GDF15 knockdown attenuated the therapeutic efficacy of NXT. CONCLUSION: NXT exerts significant protective effects against CIRI by regulating the p53/GDF15/NOX4 regulatory network, reducing oxidative stress, preserving mitochondrial function, and inhibiting neuronal ferroptosis. GDF15 acts as an important endogenous protective factor and may serve as a potential therapeutic target for ischemic stroke.",
     "journal": "Journal of ethnopharmacology",
@@ -7962,41 +8029,6 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
-    "title": "Disruption of Lysosomal Homeostasis Following Combined Exposure to Lead and Amyloid-\u03b2 Peptides (25-35) and (1-40) in SH-SY5Y Cells.",
-    "abstract": "Environmental exposure to heavy metals, specifically to lead (Pb), remains a significant global health concern, as accumulating evidence identifies it as a potent neurotoxicant capable of disrupting neuronal homeostasis. Similarly, endogenous amyloid-\u03b2 peptides (A\u03b2ps) are recognized as neurotoxic species that impair neuronal proteostasis, thereby sensitizing neurons to environmental stressors. Given that neuronal survival critically depends on intact lysosomal homeostasis, the impairment of lysosomal acidification and structural integrity may serve as a key driver for neuronal loss. In this study, we utilized human SH-SY5Y cells to elucidate the mechanisms by which Pb and A\u03b2p (25-35)\u2009+\u2009A\u03b2p (1-40), both individually and in combination, disrupt lysosomal homeostasis. Our results demonstrate that while individual exposures induce moderate stress, the comprehensive co-exposure to Pb\u2009+\u2009A\u03b2p (25-35)\u2009+\u2009A\u03b2p (1-40) triggers a profound loss of lysosomal homeostasis. This is characterized by a marked impairment of lysosomal acidification, alterations in LysoTracker-positive acidic vesicular compartments and increased lysosomal membrane permeabilization. Furthermore, co-exposure also disrupts lysosomal Ca2+ homeostasis and downregulates the TFEB-mediated CLEAR gene network, including TRPML1, LAMP1, LAMP2 and Cathepsin B at both the transcriptional and translational levels. Collectively, these findings demonstrate that the combined treatment of Pb\u2009+\u2009A\u03b2p (25-35)\u2009+\u2009A\u03b2p (1-40) triggers a multifaceted failure of the lysosomal system. This further suggests that the failure of cellular adaptive responses induced by environmental neurotoxicants like Pb exhausts the functional reserve of neurons, sensitizing them to endogenous pathological insults and ultimately driving the progression of neurodegenerative disorders.",
-    "journal": "Journal of applied toxicology : JAT",
-    "year": 2026,
-    "authors": "Das S, Alavala S, Ghosh P, Rajanna A, Dixit PK, Challa S",
-    "pmid": "42459090",
-    "doi": "10.1002/jat.70350",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42459090/",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Environmental exposure to heavy metals, specifically to lead (Pb), remains a significant global health concern, as accumulating evidence identifies it as a potent neurotoxicant capable of disrupting neuronal homeostasis.",
-    "did": [
-      "Similarly, endogenous amyloid-\u03b2 peptides (A\u03b2ps) are recognized as neurotoxic species that impair neuronal proteostasis, thereby sensitizing neurons to environmental stressors.",
-      "Given that neuronal survival critically depends on intact lysosomal homeostasis, the impairment of lysosomal acidification and structural integrity may serve as a key driver for neuronal loss.",
-      "In this study, we utilized human SH-SY5Y cells to elucidate the mechanisms by which Pb and A\u03b2p (25-35)\u2009+\u2009A\u03b2p (1-40), both individually and in combination, disrupt lysosomal homeostasis.",
-      "Our results demonstrate that while individual exposures induce moderate stress, the comprehensive co-exposure to Pb\u2009+\u2009A\u03b2p (25-35)\u2009+\u2009A\u03b2p (1-40) triggers a profound loss of lysosomal homeostasis."
-    ],
-    "main": "This is characterized by a marked impairment of lysosomal acidification, alterations in LysoTracker-positive acidic vesicular compartments and increased lysosomal membrane permeabilization.",
-    "context": "Furthermore, co-exposure also disrupts lysosomal Ca2+ homeostasis and downregulates the TFEB-mediated CLEAR gene network, including TRPML1, LAMP1, LAMP2 and Cathepsin B at both the transcriptional and translational levels.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
     "title": "ADT-OH promotes mitophagy and suppresses the cytosolic mtDNA-cGAS-STING inflammatory cascade in microglia.",
     "abstract": "Mitochondrial dysfunction, driven by genetic susceptibility or environmental insults, contributes to the pathogenesis of neurodegenerative disorders, including Parkinson's disease (PD). Mitophagy is a selective pathway that eliminates dysfunctional mitochondria, and mitophagy inducers hold therapeutic promise for neurodegeneration. However, the arsenal of specific, clinically viable inducers remains limited. ADT-OH, a slow-release H2S compound, was recently reported to induce mitochondrial uncoupling through sulfide-quinone oxidoreductase (SQR)-mediated oxidation of H2S. In this study, we report that ADT-OH elicits mitophagic flux in microglia. This is evidenced by the reduced steady-state levels of mitochondrial marker proteins (TOM20, COXIV, and HSP60), enhanced mitochondrial fission dynamics, and mitochondrial translocation into lysosomes, as visualized by the mt-Keima probe. Mechanistically, its mitophagy-promoting effect is dependent on SQR-mediated mitochondrial uncoupling and subsequent activation of PINK1-PARKIN signaling. Importantly, ADT-OH abrogates the accumulation of dysfunctional mitochondria and the subsequent cytosolic release of mitochondrial DNA in \u03b1-synuclein preformed fibrils (\u03b1-Syn PFF)-challenged microglia, thereby blunting the activation of the cGAS-STING pathway and the downstream production of inflammatory mediators. Furthermore, systemic administration of ADT-OH dampened microglial activation and cGAS expression in \u03b1-Syn-overexpressing PD mice, thereby mitigating the loss of midbrain dopaminergic neurons and ameliorating motor coordination deficits. Collectively, our findings demonstrate that ADT-OH exerts robust neuroprotective effects in PD models, both in vitro and in vivo, by enhancing mitophagy and inhibiting microglia-mediated neuroinflammation.",
     "journal": "Acta pharmacologica Sinica",
@@ -8096,6 +8128,41 @@
     ],
     "main": "METHODS: C57BL/6 mice were injected with collagenase into the right striatum to induce ICH, and were euthanized after 3\u2009days of GPD treatment (4\u2009mg/kg/day).",
     "context": "Brain tissues around the haematoma were collected for Western blot and microscopy analyses.",
+    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Targeted muscle reinnervation surgery modulates apoptosis and synaptic plasticity to improve motor function following tibial nerve injury in rats.",
+    "abstract": "BACKGROUND: Targeted muscle reinnervation (TMR) is represents an advanced neural-machine interface that enhances prosthetic control and facilitates motor recovery in amputees. Although TMR is known to connect residual nerve fibers and supply neurotrophic factors, its impact on spinal cord motor neurons remains understudied. This study investigated the effects and possible mechanisms of TMR on spinal motor neurons in a rat model of tibial nerve transection (TNT). MATERIALS AND METHODS: There were 30 Sprague Dawley rats grouped into control, TNT, and TMR groups. TMR was grafted proximal tibial nerve into the gastrocnemius muscle. Outcome measures included the sciatic functional index, the muscle wet weight ratio, muscle fibrosis via Masson's trichrome staining, and immunohistochemical analysis of caspase-3 and Bcl-2 expression in spinal anterior horn. RT-PCR analysis of synaptic markers' mRNA expression. RESULTS: The TNT group showed a marked SFI reduction, whereas the TMR group exhibited a significantly higher SFI (p\u2009<\u2009.01). Similarly, The operated muscle weight retention was preserved in the TMR relative to the TNT group (p\u2009<\u2009.01), indicating improved limb function and reduced atrophy. Masson trichrome staining demonstrated lower collagen deposition in the TMR group (p\u2009<\u2009.05). PCR analysis showed that TMR significantly downregulated spinal GAP43 mRNA (p\u2009<\u2009.05) while upregulating synapsin (SYN) and PSD-95 transcripts (both p\u2009<\u2009.05) versus TNT. Immunohistochemically, TMR decreased Bcl-2 (p\u2009<\u2009.05) and increased Caspase-3 (p\u2009<\u2009.01) expression relative to TNT. CONCLUSIONS: These findings suggest that TMR promotes the spinal motor neuron recovery and synaptic remodelling, likely contributing to improve muscle morphology and overall post-injury functional outcomes.",
+    "journal": "Annals of medicine",
+    "year": 2026,
+    "authors": "Lu W, Li JP, Li SY, Long LH, Yang L",
+    "pmid": "42501321",
+    "doi": "10.1080/07853890.2026.2704964",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42501321/",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "BACKGROUND: Targeted muscle reinnervation (TMR) is represents an advanced neural-machine interface that enhances prosthetic control and facilitates motor recovery in amputees.",
+    "did": [
+      "Although TMR is known to connect residual nerve fibers and supply neurotrophic factors, its impact on spinal cord motor neurons remains understudied.",
+      "This study investigated the effects and possible mechanisms of TMR on spinal motor neurons in a rat model of tibial nerve transection (TNT).",
+      "MATERIALS AND METHODS: There were 30 Sprague Dawley rats grouped into control, TNT, and TMR groups.",
+      "TMR was grafted proximal tibial nerve into the gastrocnemius muscle."
+    ],
+    "main": "Outcome measures included the sciatic functional index, the muscle wet weight ratio, muscle fibrosis via Masson's trichrome staining, and immunohistochemical analysis of caspase-3 and Bcl-2 expression in spinal anterior horn.",
+    "context": "RT-PCR analysis of synaptic markers' mRNA expression.",
     "why": "Matched topics: Neurological disorders. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
@@ -8380,41 +8447,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
-    "title": "Nanoscale magnesium hydride alleviates hypoxia-induced myelination deficits in zebrafish.",
-    "abstract": "JOURNAL/mgres/04.03/01612956-202612000-00001/figure1/v/2026-07-23T200825Z/r/image-tiff Defects in myelination impair nerve impulse conduction and functional connectivity, which could lead to cognitive, behavioral and motor deficits in various neurological disorders. Adequate oxygen delivery is vital for brain development, while hypoxia in newborns tends to result in developmental deficiencies in myelination of the brain. The disruption of oligodendrocytes and their progenitor cells caused by hypoxia has been well researched. Nonetheless, the impairing dynamic myelination process is still unclear. Utilizing zebrafish as a model, we established hypoxia via cobalt chloride exposure or low oxygen (8%) incubation. Hypoxia significantly reduced oligodendrocyte progenitor cell numbers in the dorsal spinal cord, impaired migration velocity and suppressed proliferation. Myelination deficits were evident through decreased myelin sheath segment intensity in Tg(MBP:eGFP-CAAX) larvae. Time-lapse imaging revealed compromised dynamic myelination by individual oligodendrocytes under hypoxia, with fewer sheaths and reduced extension rates. Mechanistically, hypoxia elevated reactive oxygen species levels and disrupted mitochondrial membrane potential in cultured rat oligodendrocyte progenitor cells. Nanoscale magnesium hydride, a hydrogen-releasing agent, attenuated these effects. In vivo , magnesium hydride treatment rescued oligodendrocyte progenitor cell numbers and enhanced myelinogenesis capacity in hypoxic zebrafish. These findings demonstrate that magnesium hydride mitigates hypoxia-induced oxidative stress and mitochondrial dysfunction, thereby alleviating myelination deficits.",
-    "journal": "Medical gas research",
-    "year": 2026,
-    "authors": "Li JL, Chen Q, Li ZH, Xu DJ, He C, Liu P",
-    "pmid": "41575007",
-    "doi": "10.4103/mgr.MEDGASRES-D-25-00104",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41575007/",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "JOURNAL/mgres/04.03/01612956-202612000-00001/figure1/v/2026-07-23T200825Z/r/image-tiff Defects in myelination impair nerve impulse conduction and functional connectivity, which could lead to cognitive, behavioral and motor deficits in various neurological disorders.",
-    "did": [
-      "Adequate oxygen delivery is vital for brain development, while hypoxia in newborns tends to result in developmental deficiencies in myelination of the brain.",
-      "The disruption of oligodendrocytes and their progenitor cells caused by hypoxia has been well researched.",
-      "Nonetheless, the impairing dynamic myelination process is still unclear.",
-      "Utilizing zebrafish as a model, we established hypoxia via cobalt chloride exposure or low oxygen (8%) incubation."
-    ],
-    "main": "Hypoxia significantly reduced oligodendrocyte progenitor cell numbers in the dorsal spinal cord, impaired migration velocity and suppressed proliferation.",
-    "context": "Myelination deficits were evident through decreased myelin sheath segment intensity in Tg(MBP:eGFP-CAAX) larvae.",
-    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Continuous Energy Landscape Model for Analyzing Brain State Transitions",
@@ -9673,11 +9705,11 @@
     "matched_topics_label": "Lysosome transport, Neuronal lysosome"
   },
   {
-    "title": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium - Wiley Publishing",
-    "abstract": " Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley Publishing ",
-    "journal": "Wiley Publishing",
+    "title": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium - Wiley & Sons",
+    "abstract": " Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons ",
+    "journal": "Wiley & Sons",
     "year": 2026,
-    "authors": "Wiley Publishing",
+    "authors": "Wiley & Sons",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -9693,12 +9725,12 @@
     "top": false,
     "score": 76,
     "type": "News / signal",
-    "overview": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley Publishing",
+    "overview": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley Publishing",
-    "context": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley Publishing",
+    "main": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons",
+    "context": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -10221,8 +10253,8 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway - Rockefeller University Press",
-    "abstract": " Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press ",
+    "title": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes - Rockefeller University Press",
+    "abstract": " Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press ",
     "journal": "Rockefeller University Press",
     "year": 2026,
     "authors": "Rockefeller University Press",
@@ -10236,17 +10268,17 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVlVkdXBNdGZTazhsQ2VRMVVMNTBwVGtEbzRKVDJDdFI1a2V6c21mdTl1YlR2dFUwa2JpcEw4aklyZEMwclliTEN2VkNCYkNPRzl6cXV1dlZfU2pDRU1ILXpwTDlxVV9PS0swYmtfQVRYTXcwVHNZU1Z4UFhoS2VicUlEOFRfd0hZRlM1VjB2WWRSNUoxZGs0cVlONWh2ZWpX?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZVAzN3drb212WkpyZUY1WEhadUl6TDRuVDBQNllpdEctU0Q5UDA3T1hYSHVlWHBiNk5OTTlOR25TT1BCS1dtOWI4QXRDY1ZKTXhaNG5TLWMxT3Z6OVZHckZVTXBaaUhlZTlGUlp0VFBYT3dkcmx5NlVHQnM5TU43Z1c5bXRRTzRIR0c2MC10dGNRQQ?oc=5",
     "topic": "Dynein / autophagosome",
     "top": false,
     "score": 74,
     "type": "News / signal",
-    "overview": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press",
+    "overview": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press",
-    "context": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press",
+    "main": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
+    "context": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
     "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -10906,8 +10938,8 @@
     "matched_topics_label": "Endosome maturation"
   },
   {
-    "title": "Cullin-3 regulates late endosome maturation - PNAS",
-    "abstract": " Cullin-3 regulates late endosome maturation \u00a0\u00a0 PNAS ",
+    "title": "Rubicon controls endosome maturation as a Rab7 effector - PNAS",
+    "abstract": " Rubicon controls endosome maturation as a Rab7 effector \u00a0\u00a0 PNAS ",
     "journal": "PNAS",
     "year": 2026,
     "authors": "PNAS",
@@ -10921,17 +10953,17 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJWVhiYXRocE9PLVBqc0VHTFJvM1FpemRYWDcxcW9lTnYwT3pfQUNtYkVCSkRzZmpoQlY1YVpnd0NyQnNsNFMxZ2FHUmhyekk3d3JMZjZjQkctWGpL?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YWW5WVnAtTENFanE0cmpUdVMzOUpwdFFRYkNoa016WDlPdzhDNGl0b2JWcGFVaWk3XzdhRmJvblhtbTVtMDBoQkxDZC1PR2lGajEyZzRRV1c4a3ZU?oc=5",
     "topic": "Endosome maturation",
     "top": false,
     "score": 72,
     "type": "News / signal",
-    "overview": "Cullin-3 regulates late endosome maturation \u00a0\u00a0 PNAS",
+    "overview": "Rubicon controls endosome maturation as a Rab7 effector \u00a0\u00a0 PNAS",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Cullin-3 regulates late endosome maturation \u00a0\u00a0 PNAS",
-    "context": "Cullin-3 regulates late endosome maturation \u00a0\u00a0 PNAS",
+    "main": "Rubicon controls endosome maturation as a Rab7 effector \u00a0\u00a0 PNAS",
+    "context": "Rubicon controls endosome maturation as a Rab7 effector \u00a0\u00a0 PNAS",
     "why": "Matched topics: Endosome maturation. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11218,38 +11250,6 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "Sleep disorders in children/adolescents with neurodevelopmental and neurological disorders: what evidences do we have with the use of non-pharmacological interventions? - Frontiers",
-    "abstract": " Sleep disorders in children/adolescents with neurodevelopmental and neurological disorders: what evidences do we have with the use of non-pharmacological interventions? \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
-    "year": 2026,
-    "authors": "Frontiers",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMU95SHBZbXF2X0F5QW41RWdSMGhIS2otbWREMWlNcG0wNVNEMlFIRlRDOUZ3TmZwalQ2bDBIS2txSlh3Q0dQb3hZWkFuNkdhb1dsRUY3SE5wY0xIUlhaS0REUkJFRDBGZWc1MkZqdTZJVnAzRzlLVE1hZnhCUzJaeW1obVV4TU1rR2Q0?oc=5",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Sleep disorders in children/adolescents with neurodevelopmental and neurological disorders: what evidences do we have with the use of non-pharmacological interventions?",
-    "did": [
-      "Frontiers"
-    ],
-    "main": "Frontiers",
-    "context": "Frontiers",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy - Haematologica",
     "abstract": " Histiocyte Society blueprint for hemophagocytic lymphohistiocytosis research: deciphering underlying disease mechanisms to optimize diagnosis and therapy \u00a0\u00a0 Haematologica ",
     "journal": "Haematologica",
@@ -11280,6 +11280,70 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "Gut microbiota-derived metabolites in cardiovascular disease: mechanisms, disease-specific roles, and translational opportunities - Frontiers",
+    "abstract": " Gut microbiota-derived metabolites in cardiovascular disease: mechanisms, disease-specific roles, and translational opportunities \u00a0\u00a0 Frontiers ",
+    "journal": "Frontiers",
+    "year": 2026,
+    "authors": "Frontiers",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQW1SUUc3dmhSdlBSSnpteUtnWDc5ZFN0UnF4M2ZDVnhEYVdPSzJYeFAzNmg5bkxkcUxJbTVLZUozVkM3NFhGYkxpTGU4RVNWcFRyTTlraHdMN1FQa0RNc3B3blJIUkpoUzMySGVOQ3ExRk1KNmdCb0xMQ1Z6bmN1clZPNmp1Q0VYbDFGU0dSUm1mLTB4MU1ya19EQjZFU2I5NXc?oc=5",
+    "topic": "Disease mechanisms",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Gut microbiota-derived metabolites in cardiovascular disease: mechanisms, disease-specific roles, and translational opportunities \u00a0\u00a0 Frontiers",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Gut microbiota-derived metabolites in cardiovascular disease: mechanisms, disease-specific roles, and translational opportunities \u00a0\u00a0 Frontiers",
+    "context": "Gut microbiota-derived metabolites in cardiovascular disease: mechanisms, disease-specific roles, and translational opportunities \u00a0\u00a0 Frontiers",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders - Contemporary Pediatrics",
+    "abstract": " Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders \u00a0\u00a0 Contemporary Pediatrics ",
+    "journal": "Contemporary Pediatrics",
+    "year": 2026,
+    "authors": "Contemporary Pediatrics",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZ1JoQlZmVmFxR3dOZHMwOVcwZnhRTEo1Qk91RE82YjJQbjVoVElVRkk1dXZkdF9QczZvQThtU2pLRkxwN2d6WEFHV2J4a3pwLWtCWHdZX1dPOHd6Q01BTElQcnMyem9IUHMyazRYcnRNWHNPR1kwX3hOUDVDbEM5U0UyZTRCeGpGVVE4N2RLM1JRY2QyTTBoWlJHSmN2Y29tUDZBU0FPX1ZZWlhHMi1IRlVKN3lmcTM0OXk5bVN3dVdDZVVpUzdfYnNhU1I4S1N2a3lPanJOal9BQkRjTF9XUmdiU05feEJFR2pkRkRLdw?oc=5",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders \u00a0\u00a0 Contemporary Pediatrics",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders \u00a0\u00a0 Contemporary Pediatrics",
+    "context": "Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders \u00a0\u00a0 Contemporary Pediatrics",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Antisense oligonucleotide strategy reverses HNRNPH2-related neurodevelopmental disorder - St. Jude Children's Research Hospital",
@@ -11314,38 +11378,6 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas - UN News",
-    "abstract": " World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas \u00a0\u00a0 UN News ",
-    "journal": "UN News",
-    "year": 2026,
-    "authors": "UN News",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TcEc1STdhNFdPaFNaX1JRSXg1N0RGbnhReXA3dzdkMDNsSUM2Skt3NzZXQ0hTM3AxREoyaUVPYXBTb1E1dzU1SmJBWDFyY2U5Um4ybGRtMA?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas \u00a0\u00a0 UN News",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas \u00a0\u00a0 UN News",
-    "context": "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas \u00a0\u00a0 UN News",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
     "title": "Two in five people in the Americas live with a neurological disorder, new study finds - Pan American Health Organization (PAHO)",
     "abstract": " Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 Pan American Health Organization (PAHO) ",
     "journal": "Pan American Health Organization (PAHO)",
@@ -11372,6 +11404,38 @@
     ],
     "main": "Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 Pan American Health Organization (PAHO)",
     "context": "Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 Pan American Health Organization (PAHO)",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas - UN News",
+    "abstract": " World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas \u00a0\u00a0 UN News ",
+    "journal": "UN News",
+    "year": 2026,
+    "authors": "UN News",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TcEc1STdhNFdPaFNaX1JRSXg1N0RGbnhReXA3dzdkMDNsSUM2Skt3NzZXQ0hTM3AxREoyaUVPYXBTb1E1dzU1SmJBWDFyY2U5Um4ybGRtMA?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas \u00a0\u00a0 UN News",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas \u00a0\u00a0 UN News",
+    "context": "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas \u00a0\u00a0 UN News",
     "why": "Matched topics: Neurological disorders. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11442,70 +11506,6 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms - Wiley Publishing",
-    "abstract": " Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley Publishing ",
-    "journal": "Wiley Publishing",
-    "year": 2026,
-    "authors": "Wiley Publishing",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9uQTRJSlBYb2xkUFBmQW1sdDVCanA0dmdhY1RsdkNtaVA3QTZmbFdrdlVoVXJObEVZYkR1b0plRWIzQ25jNlJOU1ZOMTE1ZmZqMGJyREZydXJmcEVCUjlCYW9TR05BdXA2Tzg3OEsxSmhaMW9pN3c?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley Publishing",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley Publishing",
-    "context": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley Publishing",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches - Frontiers",
-    "abstract": " Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
-    "year": 2026,
-    "authors": "Frontiers",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMFBZd3MwR3ptY19NdHJFTmtteGx2M0FjLU5SR0s5eHQxa1pTU1hKc3l1NkU3akZ3Q0R6emZSWk9QRi1HTHFleHp3YklOcW04UzVNUFNDT3Y5SXlQR1FXSWNSRGN0TWl4YjM1aGhsajhrRXBNaUo0cm5tOTVZRk13OW1LdDlOUWJ3WVh1clMzbmtJdw?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches \u00a0\u00a0 Frontiers",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches \u00a0\u00a0 Frontiers",
-    "context": "Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches \u00a0\u00a0 Frontiers",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
     "title": "Researchers explain differences in brain tissue vulnerability in neurological disease - Baylor College of Medicine | BCM",
     "abstract": " Researchers explain differences in brain tissue vulnerability in neurological disease \u00a0\u00a0 Baylor College of Medicine | BCM ",
     "journal": "Baylor College of Medicine | BCM",
@@ -11532,6 +11532,102 @@
     ],
     "main": "Researchers explain differences in brain tissue vulnerability in neurological disease \u00a0\u00a0 Baylor College of Medicine | BCM",
     "context": "Researchers explain differences in brain tissue vulnerability in neurological disease \u00a0\u00a0 Baylor College of Medicine | BCM",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms - Wiley & Sons",
+    "abstract": " Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons ",
+    "journal": "Wiley & Sons",
+    "year": 2026,
+    "authors": "Wiley & Sons",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9uQTRJSlBYb2xkUFBmQW1sdDVCanA0dmdhY1RsdkNtaVA3QTZmbFdrdlVoVXJObEVZYkR1b0plRWIzQ25jNlJOU1ZOMTE1ZmZqMGJyREZydXJmcEVCUjlCYW9TR05BdXA2Tzg3OEsxSmhaMW9pN3c?oc=5",
+    "topic": "Disease mechanisms",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
+    "context": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "Neurodevelopmental disorders in children: the role of MRI in early detection and intervention planning - Frontiers",
+    "abstract": " Neurodevelopmental disorders in children: the role of MRI in early detection and intervention planning \u00a0\u00a0 Frontiers ",
+    "journal": "Frontiers",
+    "year": 2026,
+    "authors": "Frontiers",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZWhXLUwtdGV3c3JxR2lJMm1CbEYteDdZZklteF9INmhaenhvZVFmX3ctWWtudXBlMDlCemU3WVQ3WGlWb2NqUEF5YzluWk95RDNGSExBT3FEZFFnOGI1T3dieTZKVGJhZTk1aDVmNlRuR01zeVJnSjRLMlk3bm1sdjJ4US1qWElxdno3ZmNVc29JT3R5?oc=5",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Neurodevelopmental disorders in children: the role of MRI in early detection and intervention planning \u00a0\u00a0 Frontiers",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Neurodevelopmental disorders in children: the role of MRI in early detection and intervention planning \u00a0\u00a0 Frontiers",
+    "context": "Neurodevelopmental disorders in children: the role of MRI in early detection and intervention planning \u00a0\u00a0 Frontiers",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
+    "title": "Dementia addiction and psychiatric disorders show distinct patterns of accelerated brain aging - News-Medical",
+    "abstract": " Dementia addiction and psychiatric disorders show distinct patterns of accelerated brain aging \u00a0\u00a0 News-Medical ",
+    "journal": "News-Medical",
+    "year": 2026,
+    "authors": "News-Medical",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcHRBNFRhd0M4cktnUnc0bzh6RjMyTnlzeU56eHQtN21aSHhrTmFWeGVZU3dHN1ZKNUlzT0R1VjBOUE1qY2lXSF9fek5rN0VaUzdjeHZ4T1lKMF84RlQ2T0hkbVpzblN1Q0hpN21lVnZOa3hNNkozRldaaXptdWp1UVdYbEdVNWMxaHlmQVhkM3RkX1Biay0xMFBzeHBucXN3QUdvQ2t3MnUyUVlOUTlHLWRYZ0RROW5mU2JuaW4zb1VQRGozMFNvN20xVmpWdkR6UmN2Z1NiWS1kUQ?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Dementia addiction and psychiatric disorders show distinct patterns of accelerated brain aging \u00a0\u00a0 News-Medical",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Dementia addiction and psychiatric disorders show distinct patterns of accelerated brain aging \u00a0\u00a0 News-Medical",
+    "context": "Dementia addiction and psychiatric disorders show distinct patterns of accelerated brain aging \u00a0\u00a0 News-Medical",
     "why": "Matched topics: Neurological disorders. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11664,38 +11760,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "2 In 5 People In The Americas Live With Neurological Disorders: Study - RTTNews",
-    "abstract": " 2 In 5 People In The Americas Live With Neurological Disorders: Study \u00a0\u00a0 RTTNews ",
-    "journal": "RTTNews",
-    "year": 2026,
-    "authors": "RTTNews",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaWVySEJCOHBPV0lLMnhLcHd2cHFPczF6LWdpU1FNQVFmU2N4ZFZNX2x6bGV0YjV2a2wzMERVejhaZUtxVkQwUTB1THdJdnRqWkJWNHk4T3N1d1RjV0hwekUxeTdsR1VLRW13NnRHUlRtWXRJVXZQNF9FdUw5Y3pyU3dIVFlKR1g5cDBPem40YnhCenB5OERSdFExMW0xZl83NjlXNV9lSWU?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "2 In 5 People In The Americas Live With Neurological Disorders: Study \u00a0\u00a0 RTTNews",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "2 In 5 People In The Americas Live With Neurological Disorders: Study \u00a0\u00a0 RTTNews",
-    "context": "2 In 5 People In The Americas Live With Neurological Disorders: Study \u00a0\u00a0 RTTNews",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Mercy Kids Center for Neurodevelopment Celebrates Grand Opening - mercy.net",
