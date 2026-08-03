@@ -2114,41 +2114,6 @@
     "matched_topics_label": "JIP3 / MAPK8IP3"
   },
   {
-    "title": "Modeling Tay-Sachs Disease in Astrocyte-like Cells Reveals Significant Changes in the Transcriptomic Profile.",
-    "abstract": "Tay-Sachs disease is a rare genetic disorder characterized by the accumulation of GM2 ganglioside in neuronal lysosomes due to deficient \u03b2-hexosaminidase A (HexA) activity. Progressive GM2 storage leads to severe neurodegeneration, including developmental delay, motor weakness, seizures, ataxia, and early death, typically by five years of age. Previous studies have elucidated several neuronal mechanisms, including apoptosis, endoplasmic reticulum stress, neuroinflammation, and demyelination, these investigations have focused almost exclusively on neurons. However, other components of the central nervous system, particularly astroglia, may play a critical role in disease pathophysiology as suggested by studies in related lysosomal storage disorders. To address this gap, we generated an astrocyte-like model deficient in HexA by targeted knockdown of the HEXA gene in U87MG astrocytoma cells. The resulting cell line recapitulates key pathological features, including lysosomal accumulation, increased neutral lipid content, reduced mitochondrial mass, and elevated reactive oxygen species production. Transcriptomic analysis revealed significant alterations in pathways associated with neuronal degeneration, synaptic organization, mitochondrial dysfunction, and ganglioside metabolism. In summary, this model reproduces some classical cellular alterations reported in Tay-Sachs disease and could potentially provide novel insight into astrocyte involvement in its pathophysiology. These findings support the relevance of non-neuronal cells in disease pathophysiology and establish this system as a valuable platform for screening potential novel mechanisms and therapeutic approaches. Furthermore, this approach highlights the importance of integrating cell type specific models to better understand disease heterogeneity and providing insights into the progressive neurodegeneration of Tay-Sachs disease, positioning this model as a valuable tool for studying its underlying pathophysiology.",
-    "journal": "International journal of molecular sciences",
-    "year": 2026,
-    "authors": "Su\u00e1rez-Garc\u00eda DA, Espejo-Mojica AJ, Alm\u00e9ciga-D\u00edaz CJ",
-    "pmid": "42511849",
-    "doi": "10.3390/ijms27146503",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42511849/",
-    "topic": "Neuronal lysosome",
-    "top": true,
-    "score": 86,
-    "type": "Primary research",
-    "overview": "Tay-Sachs disease is a rare genetic disorder characterized by the accumulation of GM2 ganglioside in neuronal lysosomes due to deficient \u03b2-hexosaminidase A (HexA) activity.",
-    "did": [
-      "Progressive GM2 storage leads to severe neurodegeneration, including developmental delay, motor weakness, seizures, ataxia, and early death, typically by five years of age.",
-      "Previous studies have elucidated several neuronal mechanisms, including apoptosis, endoplasmic reticulum stress, neuroinflammation, and demyelination, these investigations have focused almost exclusively on neurons.",
-      "However, other components of the central nervous system, particularly astroglia, may play a critical role in disease pathophysiology as suggested by studies in related lysosomal storage disorders.",
-      "To address this gap, we generated an astrocyte-like model deficient in HexA by targeted knockdown of the HEXA gene in U87MG astrocytoma cells."
-    ],
-    "main": "The resulting cell line recapitulates key pathological features, including lysosomal accumulation, increased neutral lipid content, reduced mitochondrial mass, and elevated reactive oxygen species production.",
-    "context": "Transcriptomic analysis revealed significant alterations in pathways associated with neuronal degeneration, synaptic organization, mitochondrial dysfunction, and ganglioside metabolism.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
     "title": "Evaluation of chromatin accessibility in cultured fetal hypothalamic neuroprogenitors following maternal protein restriction in rats.",
     "abstract": "Maternal protein restriction (PR) is a risk factor for altered fetal neurodevelopment and increased susceptibility to neurometabolic disorders later in life. Although structural and transcriptomic changes in the developing hypothalamus have been reported in PR-exposed offspring, the underlying regulatory mechanisms remain unclear. We hypothesized that maternal PR alters chromatin accessibility in hypothalamic neuroprogenitor cells, potentially disrupting gene regulation critical for cell fate specification. We performed ATAC-seq on hypothalamic neuroprogenitors isolated at gestational day 17 from rat fetuses that were exposed to an isocaloric PR diet. We identified 312 chromatin regions with different accessibility, including regions with reduced accessibility near genes encoding Major Histocompatibility Complex class I (MHC-I) proteins, amino acid transporters and proteins involved in neuronal differentiation, and synaptic signaling. Motif enrichment analysis revealed reduced accessibility at FOS/JUN and DBP binding sites in PR samples, alongside enrichment of Kr\u00fcppel-like transcription factor motifs in more accessible regions. RNA-seq on neurospheres generated from these progenitors identified 91 candidate genes with altered expression patterns, enriched in pathways related to cell proliferation, protein-lipid metabolism, and apoptosis. Integration with previously generated single-cell RNA-seq data associated several of these genes with specific neuroprogenitor subpopulations. Except for two genes (RT1-A2 and Nav2), differences in chromatin accessibility were not associated with significant changes in neighboring gene expression. These findings provide an initial resource for exploring chromatin regulation in fetal rat hypothalamic progenitors. They suggest that maternal PR may influence developmental trajectories by altering chromatin accessibility and, consequently, be a mechanism underlying fetal programming of metabolic dysfunction.",
     "journal": "Cells & development",
@@ -5002,41 +4967,6 @@
     "matched_topics_label": "Lysosome transport"
   },
   {
-    "title": "PTBP1: A master regulator of neural development and transdifferentiation-promise and pitfalls.",
-    "abstract": "The polypyrimidine tract-binding protein 1 (PTBP1), a pivotal RNA-binding protein and splicing regulator, is emerging as a master orchestrator of neuronal fate determination, neurodevelopment, and neural function through its central role in alternative splicing. We synthesize current knowledge on PTBP1's multifaceted roles in orchestrating neural tube formation, neuronal migration, and synaptic circuit assembly through precise control of alternative splicing programs. We critically examine the rapidly evolving field of PTBP1-mediated cellular reprogramming, analyzing both supportive evidence and significant controversies surrounding glia-to-neuron conversion across species. We further integrate molecular mechanisms with pathophysiological relevance, highlighting how PTBP1 dysregulation contributes to neurodevelopmental disorders and neurodegenerative conditions including Alzheimer's and Parkinson's diseases. We evaluate emerging therapeutic strategies targeting PTBP1, assessing their mechanistic foundations, technical limitations, and translational potential. Crucially, we highlight key methodological considerations and species-specific regulatory differences that must be addressed to realize PTBP1's therapeutic promise. This synthesis provides a critical framework for future research directions at the intersection of RNA biology, neural development, and regenerative neuroscience.",
-    "journal": "Biochemical and biophysical research communications",
-    "year": 2026,
-    "authors": "Liu Y, Huang Y, Wang Y, Mao M, Huang M",
-    "pmid": "42139766",
-    "doi": "10.1016/j.bbrc.2026.153948",
-    "review": true,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42139766/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 82,
-    "type": "Review",
-    "overview": "The polypyrimidine tract-binding protein 1 (PTBP1), a pivotal RNA-binding protein and splicing regulator, is emerging as a master orchestrator of neuronal fate determination, neurodevelopment, and neural function through its central role in alternative splicing.",
-    "did": [
-      "We synthesize current knowledge on PTBP1's multifaceted roles in orchestrating neural tube formation, neuronal migration, and synaptic circuit assembly through precise control of alternative splicing programs.",
-      "We critically examine the rapidly evolving field of PTBP1-mediated cellular reprogramming, analyzing both supportive evidence and significant controversies surrounding glia-to-neuron conversion across species.",
-      "We further integrate molecular mechanisms with pathophysiological relevance, highlighting how PTBP1 dysregulation contributes to neurodevelopmental disorders and neurodegenerative conditions including Alzheimer's and Parkinson's diseases.",
-      "We evaluate emerging therapeutic strategies targeting PTBP1, assessing their mechanistic foundations, technical limitations, and translational potential."
-    ],
-    "main": "Crucially, we highlight key methodological considerations and species-specific regulatory differences that must be addressed to realize PTBP1's therapeutic promise.",
-    "context": "This synthesis provides a critical framework for future research directions at the intersection of RNA biology, neural development, and regenerative neuroscience.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "Retrograde axonal transport of autophagic vesicles and dynein-dynactin protein interaction are attenuated during aging in the rat optic nerve in vivo.",
     "abstract": "Aging is characterized by a decreased autophagic activity contributing to the intracellular deposition of damaged organelles and macromolecules. Autophagy is particularly challenging in neurons since autophagic vesicles are formed at the axonal tip and must be transported to the soma where final degradation occurs. Here, we examined if axonal transport of autophagic vesicles is altered during aging. We employed two-photon microscopy for in vivo imaging in the optic nerve of young and aged rats. In old animals (> 18 months old), retrograde autophagic vesicle transport was significantly reduced with regard to motility and velocity. While activation of autophagy was decreased, expression of key proteins of the autophagy-lysosomal pathway including p62 and procathepsin D and the number of autophagolysosomes was increased. Maturation of autophagic vesicles was shifted to more distal regions of the axon and axonal lysosomal clearing was impaired. In a pull-down assay, the protein binding between dynein and dynactin was decreased by half, which could explain the retrograde axonal transport effects. Taken together, retrograde axonal autophagic vesicle transport in vivo is diminished during aging accompanied by decreased autophagy activation, alterations of the lysosomal pathway, and a reduced dynein-dynactin binding.",
     "journal": "Neural regeneration research",
@@ -5459,6 +5389,41 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Dysregulated metabolism in neurodevelopmental disorders: From glycolytic gene variants to metabolic reprogramming and therapeutic perspectives.",
+    "abstract": "Proper neurodevelopment requires precisely coordinated energy metabolism, with glycolysis serving as a central pathway in supporting neuronal growth, differentiation, and synaptic connectivity. While an increasing number of mutations in glycolysis-related genes to neurodevelopmental disorders (NDDs), the precise pathogenic mechanisms remain largely elusive. This review systematically summarizes the clinical phenotypes associated with glycolytic gene variants and dissect their impact on brain metabolism. We further highlight cell type-specific metabolic reprogramming in neurons, astrocytes, microglia and oligodendrocytes, emphasizing how these cells adapt glycolysis flux under pathological conditions. Current and emerging therapeutic strategies targeting glycolysis-targeted therapies, including metabolic supplementation, enzyme stabilization, and gene therapy. By integrating genetic, metabolic, and therapeutic insights, this review provides a comprehensive framework to understand how glycolysis governs brain development and presents new avenues for treating NDDs through metabolic intervention.",
+    "journal": "Neurobiology of disease",
+    "year": 2026,
+    "authors": "Liao M, Pan Y, Zhao Y, Wang B",
+    "pmid": "42543119",
+    "doi": "10.1016/j.nbd.2026.107557",
+    "review": true,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42543119/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 82,
+    "type": "Review",
+    "overview": "Proper neurodevelopment requires precisely coordinated energy metabolism, with glycolysis serving as a central pathway in supporting neuronal growth, differentiation, and synaptic connectivity.",
+    "did": [
+      "While an increasing number of mutations in glycolysis-related genes to neurodevelopmental disorders (NDDs), the precise pathogenic mechanisms remain largely elusive.",
+      "This review systematically summarizes the clinical phenotypes associated with glycolytic gene variants and dissect their impact on brain metabolism.",
+      "We further highlight cell type-specific metabolic reprogramming in neurons, astrocytes, microglia and oligodendrocytes, emphasizing how these cells adapt glycolysis flux under pathological conditions.",
+      "Current and emerging therapeutic strategies targeting glycolysis-targeted therapies, including metabolic supplementation, enzyme stabilization, and gene therapy."
+    ],
+    "main": "By integrating genetic, metabolic, and therapeutic insights, this review provides a comprehensive framework to understand how glycolysis governs brain development and presents new avenues for treating NDDs through metabolic intervention.",
+    "context": "By integrating genetic, metabolic, and therapeutic insights, this review provides a comprehensive framework to understand how glycolysis governs brain development and presents new avenues for treating NDDs through metabolic intervention.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "When tau stalls the lysosome: decoupling trafficking and degradation in autophagy.",
@@ -6664,6 +6629,38 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
+    "title": "\u201cMicro-managing\u201d immune activation and protein turnover: microglial lysosomes in the context of health and disease - Nature",
+    "abstract": " \u201cMicro-managing\u201d immune activation and protein turnover: microglial lysosomes in the context of health and disease \u00a0\u00a0 Nature ",
+    "journal": "Nature",
+    "year": 2026,
+    "authors": "Nature",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VZ0l0RFhseVI3ZHJKWTNGeGItaThzNlM3NGg0dTZDLW51djN5TUpRMmdHamdPS0toSTMwYTJvVmhscTBXTnhHSkdXeGdEYTItdEQ0b05tWUh4aFZ0bzBF?oc=5",
+    "topic": "Neuronal lysosome",
+    "top": true,
+    "score": 80,
+    "type": "News / signal",
+    "overview": "\u201cMicro-managing\u201d immune activation and protein turnover: microglial lysosomes in the context of health and disease \u00a0\u00a0 Nature",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "\u201cMicro-managing\u201d immune activation and protein turnover: microglial lysosomes in the context of health and disease \u00a0\u00a0 Nature",
+    "context": "\u201cMicro-managing\u201d immune activation and protein turnover: microglial lysosomes in the context of health and disease \u00a0\u00a0 Nature",
+    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "Mitochondrial quality control in health and disease: mechanisms and therapeutic targets - Nature",
     "abstract": " Mitochondrial quality control in health and disease: mechanisms and therapeutic targets \u00a0\u00a0 Nature ",
     "journal": "Nature",
@@ -7846,6 +7843,41 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
+    "title": "The DNA/RNA autophagy protein SIDT2 as a novel neuropathological hallmark in Huntington disease.",
+    "abstract": "The pathogenic mechanisms leading to neurodegeneration in Huntington disease (HD) are not fully understood but involve accumulation of toxic mRNA and protein products in the brain. Recent studies described an unconventional autophagic pathway involving DNA and RNA degradation through DNautophagy and RNautophagy that is regulated by the lysosomal protein SID1 transmembrane family member 2 (SIDT2). Interestingly, SIDT2 has been shown to bind to the expanded CAG repeat in the mutant huntingtin (mHTT) transcript and lower mHTT in vitro. The aim of the present study was to determine whether SIDT2 levels are altered in HD and whether manipulation of SIDT2-mediated RNautophagy can alter HD pathology. We demonstrate a significant reduction of SIDT2 protein levels in the striatum and in the lateral hypothalamic area in postmortem HD brains compared to control cases without effects on SIDT2 mRNA levels. In frontal cortical postmortem HD tissue, we show a CAG-repeat-length-dependent increase in the frequency of SIDT2-immunoreactive intranuclear inclusions. In postmortem tissue of an HD case with Vonsattel grade 0, we demonstrate SIDT2- and mHTT-immunoreactive inclusions not only in the frontal cortex, but also in the striatum and the lateral hypothalamic area. In the R6/2 mouse model of HD, we show that SIDT2 inclusions form at later stages than mHTT inclusions. Overexpression of SIDT2 using adeno-associated viral vectors injected into the hypothalamus of R6/2 mice led to a reduction of mHTT inclusions in the lateral hypothalamic area. Similarly, in a neuronal cell model, overexpression of SIDT2 reduced soluble and insoluble mHTT exon 1 protein levels. Taken together, our results reveal novel pathology in clinical HD cases and in experimental models, characterized by the accumulation of SIDT2-immunoreactive inclusions, while demonstrating the efficacy of overexpressing SIDT2 for lowering detrimental mHTT species. Targeting SIDT2-mediated RNautophagy may offer a potential strategy to ameliorate the molecular pathology in HD.",
+    "journal": "Brain pathology (Zurich, Switzerland)",
+    "year": 2026,
+    "authors": "Gabery S, Bergh S, Huridou C, Cheong RY, Baldo B, Scheunemann PG, Schoebel ML, Mengelbier LH",
+    "pmid": "41736445",
+    "doi": "10.1111/bpa.70088",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41736445/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "The pathogenic mechanisms leading to neurodegeneration in Huntington disease (HD) are not fully understood but involve accumulation of toxic mRNA and protein products in the brain.",
+    "did": [
+      "Recent studies described an unconventional autophagic pathway involving DNA and RNA degradation through DNautophagy and RNautophagy that is regulated by the lysosomal protein SID1 transmembrane family member 2 (SIDT2).",
+      "Interestingly, SIDT2 has been shown to bind to the expanded CAG repeat in the mutant huntingtin (mHTT) transcript and lower mHTT in vitro.",
+      "The aim of the present study was to determine whether SIDT2 levels are altered in HD and whether manipulation of SIDT2-mediated RNautophagy can alter HD pathology.",
+      "We demonstrate a significant reduction of SIDT2 protein levels in the striatum and in the lateral hypothalamic area in postmortem HD brains compared to control cases without effects on SIDT2 mRNA levels."
+    ],
+    "main": "In frontal cortical postmortem HD tissue, we show a CAG-repeat-length-dependent increase in the frequency of SIDT2-immunoreactive intranuclear inclusions.",
+    "context": "In postmortem tissue of an HD case with Vonsattel grade 0, we demonstrate SIDT2- and mHTT-immunoreactive inclusions not only in the frontal cortex, but also in the striatum and the lateral hypothalamic area.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "Mestranol induces a reversible lysosomal storage-like state in zebrafish microglia.",
     "abstract": "Environmental estrogenic compounds are increasingly recognized as neurotoxicants, yet their effects on microglia intracellular homeostasis in vivo remain poorly understood. Using zebrafish larvae as a live imaging model, we identify the synthetic estrogen mestranol as a potent inducer of a reversible lysosomal storage-like state in microglia. Mestranol exposure causes pronounced microglia hypertrophy and reduces neutral red staining, without affecting microglia number or neuronal apoptosis. Functional analyses show that mestranol-treated microglia retain phagocytic capacity toward apoptotic neurons and bacterial particles but fail to efficiently digest internalized cargo, leading to intracellular accumulation. Although acidic vesicles and protease\u2011associated compartments expand and disperse throughout the cytoplasm, lysosomal degradative efficiency is markedly impaired, suggesting that cargo digestion is compromised despite the formation of acidic phagolysosomal compartments. Transcriptomic profiling of flow\u2011sorted macrophage/microglia populations reveals coordinated down\u2011regulation of lysosomal-phagosomal and immune gene networks, including MIT/TFE family transcription factors (TFEB/TFEC) and immune master regulators such as SPI1, IRFs, BATF, MAFB, and RUNX3. Overexpression of TFEC partially rescues both estradiol and mestranol-induced microglia hypertrophy and neutral red loss, although the rescue is only partial, indicating a more complex mechanism involving additional TFEC-independent pathways. Notably, microglia lysosomal dysfunction and hypertrophy are reversible upon drug withdrawal. Together, our findings demonstrate that mestranol induces an acquired and regulatable lysosomal stress state in microglia, characterized by immune transcriptional suppression and impaired intracellular digestion. This work establishes a live, reversible in vivo model for studying estrogen\u2011associated neuroimmunotoxicity and microglia vulnerability to lysosomal stress.",
     "journal": "Aquatic toxicology (Amsterdam, Netherlands)",
@@ -8195,6 +8227,41 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Associations between TMEM106B C-terminal fragment aggregation, age, and TDP-43 or tau pathology.",
+    "abstract": "Transmembrane protein 106B (TMEM106B) is a lysosomal glycoprotein whose genetic polymorphisms contribute to the severity of neurodegenerative disorders associated with TDP-43 pathology. Recent studies have revealed that TMEM106B can form amyloid filaments composed of C-terminal fragments (CTFs) in the human brain. In the present study, we explored the relationships between TMEM106B, age, TDP-43, and tau aggregates, and their roles in neurodegeneration. We used immunohistochemistry with an antibody against CTFs of TMEM106B on postmortem human brain fragments (amygdala, hippocampus, temporal cortex, frontal cortex, and basal ganglia) from patients with and without TDP-43/tau pathology at different ages (6-94\u2009years) and with different neurological conditions (subacute sclerosing panencephalitis, Alzheimer's disease, frontotemporal lobar degeneration, and neurologically healthy subjects). Our results revealed that TMEM106B CTF fibrillization is a common, nonspecific, diffuse, and age-dependent phenomenon (appearing after >52\u2009years of age) that affects neurons and neuroglia (most numerous in astrocytes and oligodendrocytes) and broad neuroanatomical regions (most severe in the temporal cortex). We did not find TMEM106B CTF aggregates in young subjects with TDP-43/tau pathology (with subacute sclerosing panencephalitis), but we revealed differences in TMEM106B CTF fibrillization between Alzheimer's disease without TDP-43 pathology, frontotemporal lobar degeneration with TDP-43 pathology, and older healthy subjects without TDP-43/tau pathology. Our results suggest that TMEM106B CTF aggregation is an age-dependent phenomenon and may have a weak association with TDP-43 or tau pathology, shedding new light on the complex relationships among TMEM106B, TDP-43, and tau and the unclear role of TMEM106B fibril formation in the neurodegeneration process.",
+    "journal": "Brain pathology (Zurich, Switzerland)",
+    "year": 2026,
+    "authors": "Acewicz A, Tarka S, Grzegorczyk M, Rzepli\u0144ski R, Wierzba-Bobrowicz T, St\u0119pie\u0144 T",
+    "pmid": "41943532",
+    "doi": "10.1111/bpa.70090",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41943532/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Transmembrane protein 106B (TMEM106B) is a lysosomal glycoprotein whose genetic polymorphisms contribute to the severity of neurodegenerative disorders associated with TDP-43 pathology.",
+    "did": [
+      "Recent studies have revealed that TMEM106B can form amyloid filaments composed of C-terminal fragments (CTFs) in the human brain.",
+      "In the present study, we explored the relationships between TMEM106B, age, TDP-43, and tau aggregates, and their roles in neurodegeneration.",
+      "We used immunohistochemistry with an antibody against CTFs of TMEM106B on postmortem human brain fragments (amygdala, hippocampus, temporal cortex, frontal cortex, and basal ganglia) from patients with and without TDP-43/tau pathology at different ages (6-94\u2009years) and with different neurological conditions (subacute sclerosing panencephalitis, Alzheimer's disease, frontotemporal lobar degeneration, and neurologically healthy subjects).",
+      "Our results revealed that TMEM106B CTF fibrillization is a common, nonspecific, diffuse, and age-dependent phenomenon (appearing after >52\u2009years of age) that affects neurons and neuroglia (most numerous in astrocytes and oligodendrocytes) and broad neuroanatomical regions (most severe in the temporal cortex)."
+    ],
+    "main": "We did not find TMEM106B CTF aggregates in young subjects with TDP-43/tau pathology (with subacute sclerosing panencephalitis), but we revealed differences in TMEM106B CTF fibrillization between Alzheimer's disease without TDP-43 pathology, frontotemporal lobar degeneration with TDP-43 pathology, and older healthy subjects without TDP-43/tau pathology.",
+    "context": "Our results suggest that TMEM106B CTF aggregation is an age-dependent phenomenon and may have a weak association with TDP-43 or tau pathology, shedding new light on the complex relationships among TMEM106B, TDP-43, and tau and the unclear role of TMEM106B fibril formation in the neurodegeneration process.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
   },
   {
     "title": "Uric acid alleviates the inflammatory response in LPS-induced BV2 cells and MPTP-induced PD mice by resisting ferroptosis through the Nrf2 signalling pathway.",
@@ -9556,41 +9623,6 @@
     ],
     "main": "Collectively, this work establishes that AI-powered screening to identify mTORC1-independent TFEB agonists is a valuable paradigm for the discovery and development of therapeutic agents against ALS and other neurodegenerative diseases.",
     "context": "Collectively, this work establishes that AI-powered screening to identify mTORC1-independent TFEB agonists is a valuable paradigm for the discovery and development of therapeutic agents against ALS and other neurodegenerative diseases.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "APOE4 disrupts the central dogma by arresting neuronal proteome dynamics.",
-    "abstract": "Apolipoprotein E4 (APOE4) is the strongest genetic risk factor for late-onset Alzheimer's disease and promotes neuronal dysfunction through incompletely understood mechanisms. Here, we integrated transcriptomic, translatomic, and proteomic profiling of isogenic APOE3 and APOE4 human iPSC-derived neurons and found that APOE4 fundamentally impairs neuronal proteome renewal. Although transcriptional changes were modest, APOE4 disrupted ribosome occupancy, altered translational dynamics, and uncoupled protein abundance from transcript levels. Proteome-wide turnover measurements revealed a global extension of protein half-lives and widespread accumulation of long-lived proteins. Functional proteomic analyses demonstrated concurrent lysosomal and proteasomal impairments associated with reduced proteasome activity and increased association of APOE with neuronal proteasomes. Longitudinal proteomics further showed that protein accumulation emerges during neuronal maturation and precedes a senescence-like cellular stress state. Together, these findings identify impaired proteome renewal as a central mechanism underlying neuronal vulnerability to APOE4 and establish defective proteostasis as an early pathogenic event in Alzheimer's disease.",
-    "journal": "bioRxiv : the preprint server for biology",
-    "year": 2026,
-    "authors": "Krogsaeter EK, McKetney J, Li L, Liu I, Richards AL, Subramanyam V, Yin K, Gordon M",
-    "pmid": "42539043",
-    "doi": "10.64898/2026.07.15.738801",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42539043/",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Apolipoprotein E4 (APOE4) is the strongest genetic risk factor for late-onset Alzheimer's disease and promotes neuronal dysfunction through incompletely understood mechanisms.",
-    "did": [
-      "Here, we integrated transcriptomic, translatomic, and proteomic profiling of isogenic APOE3 and APOE4 human iPSC-derived neurons and found that APOE4 fundamentally impairs neuronal proteome renewal.",
-      "Although transcriptional changes were modest, APOE4 disrupted ribosome occupancy, altered translational dynamics, and uncoupled protein abundance from transcript levels.",
-      "Proteome-wide turnover measurements revealed a global extension of protein half-lives and widespread accumulation of long-lived proteins.",
-      "Functional proteomic analyses demonstrated concurrent lysosomal and proteasomal impairments associated with reduced proteasome activity and increased association of APOE with neuronal proteasomes."
-    ],
-    "main": "Longitudinal proteomics further showed that protein accumulation emerges during neuronal maturation and precedes a senescence-like cellular stress state.",
-    "context": "Together, these findings identify impaired proteome renewal as a central mechanism underlying neuronal vulnerability to APOE4 and establish defective proteostasis as an early pathogenic event in Alzheimer's disease.",
     "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
@@ -11513,11 +11545,11 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Largest-ever genetic study of fibromyalgia points to a neurological origin of the disorder and opens the door to new treatments - Fred Hutchinson Cancer Center",
-    "abstract": " Largest-ever genetic study of fibromyalgia points to a neurological origin of the disorder and opens the door to new treatments \u00a0\u00a0 Fred Hutchinson Cancer Center ",
-    "journal": "Fred Hutchinson Cancer Center",
+    "title": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration - consultqd.clevelandclinic.org",
+    "abstract": " Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 consultqd.clevelandclinic.org ",
+    "journal": "consultqd.clevelandclinic.org",
     "year": 2026,
-    "authors": "Fred Hutchinson Cancer Center",
+    "authors": "consultqd.clevelandclinic.org",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -11528,17 +11560,17 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSDdjLVMwZWR0WkNRYnJqZS0wUWg1X2o5anJLT1V3ck5oeS1UWXRVSktqRWg1N0RiSEVjWmJSY3dETFBxdHlKbTVYQlhOZWhSZndkbVZuY29sNjZMVzlXSUF6TjgxdGVLRUlkaHdvWjBPVndIN3pqYXdNMkZKeTF5NHloUGFRUU44TjZ6Y2Z1ZDhsQm9Y?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdEd3YVhUZ0Y0amhzWWY2OWdRdG5udEk1NFVnR2ctaWRtc1BLMUI0YmNlOXlSMWJVZ0lzNjlvZk00ajNrSnFwZ25zalZZOUx6WlpxU1hfVVpOUjdCdVhEaldONWx1M3lqdzJzakZkZ1pMSnlSRFpuZmkwTTIyWGQxeXFPaFdIanJaUDRsWndLYWdrRV9ETmRvaVJEZllPN0YxMl84ZFpWOGdVM3ZFa1pNdnVVQUg4UFIzOEpfbXZoZHoxVDdXUHpSZkJPdlNzekNpOGdqb3pMd1ppc3hDRUNPaHdRbw?oc=5",
     "topic": "Neurological disorders",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Largest-ever genetic study of fibromyalgia points to a neurological origin of the disorder and opens the door to new treatments \u00a0\u00a0 Fred Hutchinson Cancer Center",
+    "overview": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 consultqd.clevelandclinic.org",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Largest-ever genetic study of fibromyalgia points to a neurological origin of the disorder and opens the door to new treatments \u00a0\u00a0 Fred Hutchinson Cancer Center",
-    "context": "Largest-ever genetic study of fibromyalgia points to a neurological origin of the disorder and opens the door to new treatments \u00a0\u00a0 Fred Hutchinson Cancer Center",
+    "main": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 consultqd.clevelandclinic.org",
+    "context": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 consultqd.clevelandclinic.org",
     "why": "Matched topics: Neurological disorders. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11607,38 +11639,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
-    "title": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration - Cleveland Clinic",
-    "abstract": " Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 Cleveland Clinic ",
-    "journal": "Cleveland Clinic",
-    "year": 2026,
-    "authors": "Cleveland Clinic",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdEd3YVhUZ0Y0amhzWWY2OWdRdG5udEk1NFVnR2ctaWRtc1BLMUI0YmNlOXlSMWJVZ0lzNjlvZk00ajNrSnFwZ25zalZZOUx6WlpxU1hfVVpOUjdCdVhEaldONWx1M3lqdzJzakZkZ1pMSnlSRFpuZmkwTTIyWGQxeXFPaFdIanJaUDRsWndLYWdrRV9ETmRvaVJEZllPN0YxMl84ZFpWOGdVM3ZFa1pNdnVVQUg4UFIzOEpfbXZoZHoxVDdXUHpSZkJPdlNzekNpOGdqb3pMd1ppc3hDRUNPaHdRbw?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 Cleveland Clinic",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 Cleveland Clinic",
-    "context": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 Cleveland Clinic",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Antisense oligonucleotide strategy reverses HNRNPH2-related neurodevelopmental disorder - St. Jude Children's Research Hospital",
@@ -11801,38 +11801,6 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons - onlinelibrary.wiley.com",
-    "abstract": " Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 onlinelibrary.wiley.com ",
-    "journal": "onlinelibrary.wiley.com",
-    "year": 2026,
-    "authors": "onlinelibrary.wiley.com",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YdlZoX2gxTE1WdTV5R1lpRk1SdnVsc2JKSHJqa2ItZzZ2aXRncVpnRWxfX3NWdmdkTF9OQVNBODcxQmFaMGJhQ0huRXN1UVg4MUJDVnFxa2I0OEx6b05yZUR1WDV6QUFMdUE?oc=5",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 onlinelibrary.wiley.com",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 onlinelibrary.wiley.com",
-    "context": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 onlinelibrary.wiley.com",
-    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
     "title": "A closer look at brain tissue vulnerability in neurological disease - Baylor College of Medicine Blog Network -",
     "abstract": " A closer look at brain tissue vulnerability in neurological disease \u00a0\u00a0 Baylor College of Medicine Blog Network - ",
     "journal": "Baylor College of Medicine Blog Network -",
@@ -11865,6 +11833,38 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
+    "title": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons - Wiley Online Library",
+    "abstract": " Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library ",
+    "journal": "Wiley Online Library",
+    "year": 2026,
+    "authors": "Wiley Online Library",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YdlZoX2gxTE1WdTV5R1lpRk1SdnVsc2JKSHJqa2ItZzZ2aXRncVpnRWxfX3NWdmdkTF9OQVNBODcxQmFaMGJhQ0huRXN1UVg4MUJDVnFxa2I0OEx6b05yZUR1WDV6QUFMdUE?oc=5",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library",
+    "context": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library",
+    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "Could targeting neuronal metabolism offer a new path for neurodegenerative disease therapy? - EurekAlert!",
     "abstract": " Could targeting neuronal metabolism offer a new path for neurodegenerative disease therapy? \u00a0\u00a0 EurekAlert! ",
     "journal": "EurekAlert!",
@@ -11895,38 +11895,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "Disease Mechanisms and Repair of Neural and Skeletal Tissue - UCL | University College London",
-    "abstract": " Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 UCL | University College London ",
-    "journal": "UCL | University College London",
-    "year": 2026,
-    "authors": "UCL | University College London",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMHp0UnpJWlpDaTRTWUVGVjFqb1puOW5rQV9jRlVabDN0VEoyVnRwWGgwR0RhRUdjZlZHVkFRNTdKZWtFYWhlRGNKQU9OX0QtOU5ocmljWDluSGJNTlJNV09vdUVVanN2eTV1ZURCd3dmbVVGQnl4WHJJY2I4cno2NzB3emgzSkZYdXZpZ1JqcWxLNW1sRGl4VXhaVGNTaUZWai0zWWpyRWpDRUNXbWItelZ3bVZzNk9jbDhUb2dlRE1XWW54Znh4REJHV1c4MGJoVDBNMzRTdGpJSUxCMEZ3dG1GVXdUcmwwT2pJNUZMRmpVQQ?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 UCL | University College London",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 UCL | University College London",
-    "context": "Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 UCL | University College London",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
   },
   {
     "title": "New findings explain how lysosomal defects trigger neuronal energy failure - News-Medical",
@@ -11991,6 +11959,102 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "Disease Mechanisms and Repair of Neural and Skeletal Tissue - ucl.ac.uk",
+    "abstract": " Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 ucl.ac.uk ",
+    "journal": "ucl.ac.uk",
+    "year": 2026,
+    "authors": "ucl.ac.uk",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMHp0UnpJWlpDaTRTWUVGVjFqb1puOW5rQV9jRlVabDN0VEoyVnRwWGgwR0RhRUdjZlZHVkFRNTdKZWtFYWhlRGNKQU9OX0QtOU5ocmljWDluSGJNTlJNV09vdUVVanN2eTV1ZURCd3dmbVVGQnl4WHJJY2I4cno2NzB3emgzSkZYdXZpZ1JqcWxLNW1sRGl4VXhaVGNTaUZWai0zWWpyRWpDRUNXbWItelZ3bVZzNk9jbDhUb2dlRE1XWW54Znh4REJHV1c4MGJoVDBNMzRTdGpJSUxCMEZ3dG1GVXdUcmwwT2pJNUZMRmpVQQ?oc=5",
+    "topic": "Disease mechanisms",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 ucl.ac.uk",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 ucl.ac.uk",
+    "context": "Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 ucl.ac.uk",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "Autism Spectrum Disorder (ASD) Symptoms & Causes - Cleveland Clinic",
+    "abstract": " Autism Spectrum Disorder (ASD) Symptoms & Causes \u00a0\u00a0 Cleveland Clinic ",
+    "journal": "Cleveland Clinic",
+    "year": 2026,
+    "authors": "Cleveland Clinic",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YdF8zazBlU091VlRUajFkWmZtd3Y4SVYzRW9fMWZ4QTYwUURVSkRZV3RqT08wX2g0ZDl6ckNSdDVZdHJDaXcwMGs0OHA3SmtMMnNxbi1QejI2aHVwSVdHNzlUcw?oc=5",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Autism Spectrum Disorder (ASD) Symptoms & Causes \u00a0\u00a0 Cleveland Clinic",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Autism Spectrum Disorder (ASD) Symptoms & Causes \u00a0\u00a0 Cleveland Clinic",
+    "context": "Autism Spectrum Disorder (ASD) Symptoms & Causes \u00a0\u00a0 Cleveland Clinic",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
+    "title": "The massive, hidden burden of neurological disorders - YaleNews",
+    "abstract": " The massive, hidden burden of neurological disorders \u00a0\u00a0 YaleNews ",
+    "journal": "YaleNews",
+    "year": 2026,
+    "authors": "YaleNews",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQb1YzcmFsYTNubUkxRUhwaDBPd3FDdFJTdkF2RGN3RTlYeW9TcDAxWEJrdndWSFB4eEp4dTdTbDd1M2JRcmNrdVpBeDVRQ2JpbXpxY29WbWZFeW90X2dveXQ0a2Qxd1hlRUZ5Snp6Nm5WZGswUUdvVEFHMldfNmU3a0x3MA?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "The massive, hidden burden of neurological disorders \u00a0\u00a0 YaleNews",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "The massive, hidden burden of neurological disorders \u00a0\u00a0 YaleNews",
+    "context": "The massive, hidden burden of neurological disorders \u00a0\u00a0 YaleNews",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy",
