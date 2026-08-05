@@ -317,6 +317,41 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
+    "title": "The Role of the IL-33/ST2 Axis in Nervous System Development and Diseases.",
+    "abstract": "Interleukin (IL)-33, a cytokine belonging to the IL-1 family, is produced in various tissues, including the nervous system. As a nuclear-stored alarmin protein, IL-33 is released under cell stress or damage, triggering immune responses through its receptor complex, composed of ST2L and the IL-1 receptor accessory protein (IL-1RAcP). The receptors for IL-33 are expressed in various cell types within the nervous system, including neurons, astrocytes, and microglia, and play a crucial role in neurodevelopment and the pathogenesis of neurological diseases. In neurodevelopment, IL-33 promotes microglial metabolic adaptation and phagocytosis via the IL-33/ST2/Akt axis, modulates glial function to affect neural circuit maturation, and influences oligodendrocyte differentiation. In neurological disorders, IL-33 exerts context-dependent regulatory effects in the nervous system through modulation of myeloid and T-cell responses, maintenance of barrier integrity, promotion of tissue repair, and regulation of neuroimmune homeostasis. In acute CNS injuries such as ischemic stroke and traumatic brain injury, IL-33 is generally associated with anti-inflammatory polarization and enhanced repair, although circulating levels may also reflect injury severity. In chronic neurodegenerative diseases including Alzheimer's and Parkinson's disease, IL-33 is implicated in amyloid-\u03b2 clearance, remyelination, glymphatic function, and neuroprotection, while dysregulation of the IL-33/sST2 axis correlates with disease progression. In contrast, IL-33 may facilitate tumor progression in glioma. Emerging evidence also supports IL-33 and sST2 as potential biomarkers for diagnosis and prognosis in CNS disorders.",
+    "journal": "Immunology and cell biology",
+    "year": 2026,
+    "authors": "Luo Z, Yang J",
+    "pmid": "42281255",
+    "doi": "10.1111/imcb.70138",
+    "review": true,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42281255/",
+    "topic": "Neurodevelopment disorder",
+    "top": true,
+    "score": 92,
+    "type": "Review",
+    "overview": "Interleukin (IL)-33, a cytokine belonging to the IL-1 family, is produced in various tissues, including the nervous system.",
+    "did": [
+      "As a nuclear-stored alarmin protein, IL-33 is released under cell stress or damage, triggering immune responses through its receptor complex, composed of ST2L and the IL-1 receptor accessory protein (IL-1RAcP).",
+      "The receptors for IL-33 are expressed in various cell types within the nervous system, including neurons, astrocytes, and microglia, and play a crucial role in neurodevelopment and the pathogenesis of neurological diseases.",
+      "In neurodevelopment, IL-33 promotes microglial metabolic adaptation and phagocytosis via the IL-33/ST2/Akt axis, modulates glial function to affect neural circuit maturation, and influences oligodendrocyte differentiation.",
+      "In neurological disorders, IL-33 exerts context-dependent regulatory effects in the nervous system through modulation of myeloid and T-cell responses, maintenance of barrier integrity, promotion of tissue repair, and regulation of neuroimmune homeostasis."
+    ],
+    "main": "In acute CNS injuries such as ischemic stroke and traumatic brain injury, IL-33 is generally associated with anti-inflammatory polarization and enhanced repair, although circulating levels may also reflect injury severity.",
+    "context": "In chronic neurodegenerative diseases including Alzheimer's and Parkinson's disease, IL-33 is implicated in amyloid-\u03b2 clearance, remyelination, glymphatic function, and neuroprotection, while dysregulation of the IL-33/sST2 axis correlates with disease progression.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
     "title": "Albumin fusion of the rVWF fragment rD'D3 reduces internalisation by clearance receptor Stabilin-2.",
     "abstract": "A recombinant VWF D'D3 albumin fusion protein (rD'D3-FP) has been developed to extend the half-life of co-administered coagulation factor VIII (FVIII) for the treatment of haemophilia A. We examined the impact of albumin fusion of rD'D3 on the Stabilin-2 (STAB2) clearance receptor pathway and rD'D3-FP recycling via engagement of the neonatal Fc receptor FcRn as two potential mechanisms for rD'D3-FP half-life extension. Binding and intracellular trafficking of fluorescently labelled rD'D3-FP was examined using human 293-F cells overexpressing STAB2 or in combination with FcRn by flow cytometry and confocal microscopy. Pharmacokinetics of rD'D3-FP in FVIII knock out (KO), FcRn KO and hFcRn Tg32 transgenic mice was also assessed. We show that the interaction of rD'D3-FP and his-tagged rD'D3 with STAB2 is optimal at neutral pH but dissociates under acidic conditions. Whilst albumin fusion appears to hinder interaction of rD'D3-FP with STAB2, STAB2-mediated internalisation and lysosomal degradation of rD'D3-FP could be observed in an in vitro system. Rescue of rD'D3-FP via diversion into Rab11+ recycling endosomes was achieved with the co-expression of STAB2 and FcRn. A significant improvement in rD'D3-FP pharmacokinetics was observed compared to his-tagged rD'D3, however, only a modest improvement in rD'D3-FP half-life extension was observed in hFcRn Tg32 mice compared to FcRn KO and wild-type mice. Whilst FcRn may play a minor role in rD'D3-FP half-life extension in mice, albumin fusion may potentially reduce other rD'D3-FP clearance mechanisms. We thus hypothesise several independent mechanisms that may contribute to rD'D3-FP half-life extension in higher order species.",
     "journal": "Blood cells, molecules & diseases",
@@ -2661,38 +2696,6 @@
     ],
     "main": "Mechanosensitive dynamics of lysosomes along microtubules regulate leader cell emergence during collective cell migration \u00a0\u00a0 Nature",
     "context": "Mechanosensitive dynamics of lysosomes along microtubules regulate leader cell emergence during collective cell migration \u00a0\u00a0 Nature",
-    "why": "Matched topics: Lysosome transport. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Lysosome transport"
-  },
-  {
-    "title": "An SPNS1-dependent lysosomal lipid transport pathway that enables cell survival under choline limitation - Science | AAAS",
-    "abstract": " An SPNS1-dependent lysosomal lipid transport pathway that enables cell survival under choline limitation \u00a0\u00a0 Science | AAAS ",
-    "journal": "Science | AAAS",
-    "year": 2026,
-    "authors": "Science | AAAS",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Lysosome transport"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0eDA4cmRHTHhnWF93eTR2NXRyRnFvVmpuTzhPd0c0bWRxRkczTTg2QnNRazNwT1hNQU9RUkJ5VDNmVGRZbW45RUYwSURIbWZKM2F2Q05wUFJocy1HYlJ3?oc=5",
-    "topic": "Lysosome transport",
-    "top": true,
-    "score": 86,
-    "type": "News / signal",
-    "overview": "An SPNS1-dependent lysosomal lipid transport pathway that enables cell survival under choline limitation \u00a0\u00a0 Science | AAAS",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "An SPNS1-dependent lysosomal lipid transport pathway that enables cell survival under choline limitation \u00a0\u00a0 Science | AAAS",
-    "context": "An SPNS1-dependent lysosomal lipid transport pathway that enables cell survival under choline limitation \u00a0\u00a0 Science | AAAS",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -5400,7 +5403,6 @@
     "review": false,
     "matched_topics": [
       "Lysosome transport",
-      "Neurodevelopment disorder",
       "Neuronal lysosome"
     ],
     "sources": [
@@ -5421,10 +5423,10 @@
     ],
     "main": "This deficit significantly reduced autophagosome biogenesis and the density of axonal autophagosomes.",
     "context": "KIF1A loss also depleted lysosomes from the axon, inhibiting autophagosome maturation.",
-    "why": "Matched topics: Lysosome transport, Neurodevelopment disorder, Neuronal lysosome. Sources: PubMed.",
+    "why": "Matched topics: Lysosome transport, Neuronal lysosome. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
-    "matched_topics_label": "Lysosome transport, Neurodevelopment disorder, Neuronal lysosome"
+    "matched_topics_label": "Lysosome transport, Neuronal lysosome"
   },
   {
     "title": "Nusinersen: the antisense oligonucleotide at the forefront of spinal muscular atrophy treatment.",
@@ -8968,41 +8970,6 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
-    "title": "Assessing vision and autism spectrum disorder-relevant social interaction phenotypes in Dscam mice.",
-    "abstract": "Down syndrome cell adhesion molecule (DSCAM) is an immunoglobulin-superfamily cell-adhesion molecule important for neuronal survival, morphogenesis, synaptic specificity, and particularly retinal organization. Pathogenic variants in Dscam have been linked to developmental disorders including Autism Spectrum Disorder (ASD), Down Syndrome (DS), developmental delays and intellectual disabilities. Here we work to better understand the link between morphology and function in the nervous system by assessing the effects of Dscam mutations on both visual and ASD-relevant social interaction behaviors. While it is known that Dscam deficiency leads to perturbations in retinal organization, the subsequent effect on vision is not well studied. We found that homozygous conditional deletion of Dscam in the retina impacted optokinetic response and visual acuity; however, mice were still capable of image discrimination. In addition, Dscam heterozygous mice were used to test ASD-relevant social interaction and other phenotypes, matching the monoallelic human genetics of DSCAM variants in association studies. The Dscam heterozygous mice performed normally in the open field test, rotarod assay, forced swim test, and both the three chamber and dyadic social interaction assays. Overall, we found that our Dscam deficient mice provide a good model for exploring the relationship between retinal anatomy and visual behavior. However, heterozygous mice did not provide a good behavioral model for ASD. To fully understand the role of Dscam in neurodevelopment, additional functional and physiological studies will be necessary.",
-    "journal": "Behavioural brain research",
-    "year": 2026,
-    "authors": "Tadenev ALD, Pratt SL, Lopez G, Mexicotte A, Wray A, Burgess RW",
-    "pmid": "42119898",
-    "doi": "10.1016/j.bbr.2026.116271",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42119898/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Down syndrome cell adhesion molecule (DSCAM) is an immunoglobulin-superfamily cell-adhesion molecule important for neuronal survival, morphogenesis, synaptic specificity, and particularly retinal organization.",
-    "did": [
-      "Pathogenic variants in Dscam have been linked to developmental disorders including Autism Spectrum Disorder (ASD), Down Syndrome (DS), developmental delays and intellectual disabilities.",
-      "Here we work to better understand the link between morphology and function in the nervous system by assessing the effects of Dscam mutations on both visual and ASD-relevant social interaction behaviors.",
-      "While it is known that Dscam deficiency leads to perturbations in retinal organization, the subsequent effect on vision is not well studied.",
-      "We found that homozygous conditional deletion of Dscam in the retina impacted optokinetic response and visual acuity; however, mice were still capable of image discrimination."
-    ],
-    "main": "In addition, Dscam heterozygous mice were used to test ASD-relevant social interaction and other phenotypes, matching the monoallelic human genetics of DSCAM variants in association studies.",
-    "context": "The Dscam heterozygous mice performed normally in the open field test, rotarod assay, forced swim test, and both the three chamber and dyadic social interaction assays.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "Machine learning combined with WGCNA reveals potential calcium uptake-associated biomarkers in Parkinson's disease.",
     "abstract": "BACKGROUND: Parkinson's disease (PD) is the second most common neurodegenerative disease, characterised by progressive loss of dopaminergic neurons in the substantia nigra pars compacta. Although previous studies have suggested a correlation between calcium signal disruption and the development of PD, the role of genes associated with store-operated calcium entry (SOCE) in PD remains unclear. AIM: To combine machine learning methods with Weighted Gene Co-expression Network Analysis (WGCNA) to systematically screen and identify SOCE-associated candidate genes and evaluate their potential for assisting in discrimination. SUBJECTS AND METHODS: This study is based on the GSE6613 dataset, using ssGSEA and Weighted Gene Co-expression Network Analysis (WGCNA) to screen for co-expression modules related to SOCE, and combining LASSO, SVM-RFE, and random forest algorithm to identify feature genes. Subsequently, validation was conducted in GSE20163 and GSE22491, and in vitro experiments were carried out in 6-OHDA and MPP+ models of dopaminergic neurons derived from LUHMES. RESULTS: A total of 5 SOCE-associated feature genes (LPCAT3, CLCNKB, TXLNA, etc.) were identified, and their combined model showed moderate discriminative ability in external validation. Immune analysis showed immune dysfunction in PD patients, and in vitro experiments also observed consistent expression trends with patient samples. CONCLUSIONS: In summary, this study identified potential PD feature genes associated with SOCE, providing clues for further exploration of the molecular mechanisms of SOCE-associated calcium signalling in PD.",
     "journal": "Annals of human biology",
@@ -9423,6 +9390,41 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
+    "title": "RAI1 safeguards fidelity and tempo of human neurodevelopmental gene expression.",
+    "abstract": "Human brain development proceeds on an unusually long timeline relative to other species, a feature that is thought to foster advanced cognitive abilities. The Retinoic Acid Induced 1 (RAI1) gene encodes a nucleosome-binding protein, and its haploinsufficiency is responsible for Smith-Magenis Syndrome (SMS), a neurodevelopmental disorder characterized by cognitive impairment with autistic features. However, the role of RAI1 in human neurodevelopment remains unexplored experimentally. Here, we generated isogenic heterozygous and homozygous RAI1 loss-of-function human embryonic stem cell lines and interrogated the roles of RAI1 in neurodevelopmental gene regulation. A longitudinal transcriptome analysis during in vitro cortical development revealed that RAI1 deficiency accelerates the progression of developmental gene expression. Single-cell RNA-seq analysis revealed that RAI1- deficient neuroprogenitors acquire a transient mesoderm-like gene expression signature, followed by a pro-neuronal maturation signature in postmitotic neurons. Unexpectedly, the developmental acceleration signature was exacerbated during NGN2-induced excitatory neuron differentiation, isolating the roles of RAI1 in neuronal differentiation from non-neuronal functions. Together, these results identify RAI1 as a suppressor of the mesodermal lineage program and as a brake that slows the tempo of human neurodevelopmental gene expression.",
+    "journal": "bioRxiv : the preprint server for biology",
+    "year": 2026,
+    "authors": "Zhou B, Mohanty S, Riggle P, Tsukahara T, Lin G, Dang LT, Sutton MA, Iwase S",
+    "pmid": "42327261",
+    "doi": "10.64898/2026.06.11.731717",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42327261/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Human brain development proceeds on an unusually long timeline relative to other species, a feature that is thought to foster advanced cognitive abilities.",
+    "did": [
+      "The Retinoic Acid Induced 1 (RAI1) gene encodes a nucleosome-binding protein, and its haploinsufficiency is responsible for Smith-Magenis Syndrome (SMS), a neurodevelopmental disorder characterized by cognitive impairment with autistic features.",
+      "However, the role of RAI1 in human neurodevelopment remains unexplored experimentally.",
+      "Here, we generated isogenic heterozygous and homozygous RAI1 loss-of-function human embryonic stem cell lines and interrogated the roles of RAI1 in neurodevelopmental gene regulation.",
+      "A longitudinal transcriptome analysis during in vitro cortical development revealed that RAI1 deficiency accelerates the progression of developmental gene expression."
+    ],
+    "main": "Single-cell RNA-seq analysis revealed that RAI1- deficient neuroprogenitors acquire a transient mesoderm-like gene expression signature, followed by a pro-neuronal maturation signature in postmitotic neurons.",
+    "context": "Unexpectedly, the developmental acceleration signature was exacerbated during NGN2-induced excitatory neuron differentiation, isolating the roles of RAI1 in neuronal differentiation from non-neuronal functions.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
     "title": "mmu_circ_0012122/mmu-miR-1843-5p/Sertad2 axis: A novel regulatory pathway in rabies virus infection.",
     "abstract": "Rabies virus (RABV) causes severe central nervous system damage, though the underlying mechanisms remain unclear. Circular RNAs (circRNAs) have been identified in various cells and tissues and are known to regulate gene expression in eukaryotes. Here, we investigated the expression patterns of circRNAs in brain tissues from mice infected with two strains of RABV (CVS-11 and SRV9) and compared them to brain tissues from uninfected mice. Differential expression analysis identified 1,306 circRNAs, primarily derived from coding exons, with functional enrichment implicating synaptic and nervous system pathways. Critically, we identified and validated a novel regulatory axis, mmu_circ_0012122/mmu-miR-1843-5p/Sertad2, where mmu_circ_0012122 acts as a sponge for mmu-miR-1843-5p, leading to Sertad2 upregulation. This axis differentially modulated murine nerve cell fate: mmu_circ_0012122 knockdown reduced necrotic and non-viable apoptotic cells, while mmu-miR-1843-5p overexpression suppressed viable apoptosis and necrosis. Comprehensive characterization further identified Sertad2 as a key mediator promoting both nerve cell apoptosis and neuroinflammatory responses during infection. These findings underscored circRNAs as critical regulators of neuronal survival during RABV infection and highlighted the mmu_circ_0012122-driven network as a potential therapeutic target.",
     "journal": "Virulence",
@@ -9773,11 +9775,11 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
-    "title": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis - Rockefeller University Press",
-    "abstract": " Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press ",
-    "journal": "Rockefeller University Press",
+    "title": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis - rupress.org",
+    "abstract": " Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 rupress.org ",
+    "journal": "rupress.org",
     "year": 2026,
-    "authors": "Rockefeller University Press",
+    "authors": "rupress.org",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -9793,12 +9795,12 @@
     "top": false,
     "score": 76,
     "type": "News / signal",
-    "overview": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
+    "overview": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 rupress.org",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
-    "context": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
+    "main": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 rupress.org",
+    "context": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 rupress.org",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -9960,6 +9962,38 @@
     ],
     "main": "Molecular basis of Spns1-mediated lysophospholipid transport from the lysosome \u00a0\u00a0 PNAS",
     "context": "Molecular basis of Spns1-mediated lysophospholipid transport from the lysosome \u00a0\u00a0 PNAS",
+    "why": "Matched topics: Lysosome transport. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Lysosome transport"
+  },
+  {
+    "title": "Scientists reveal mechanism of key player in lysosome transport regulation - Phys.org",
+    "abstract": " Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org ",
+    "journal": "Phys.org",
+    "year": 2026,
+    "authors": "Phys.org",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Lysosome transport"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MdXU2dGVDU2RoNWdoUlpQUkcyV3VuZ3A1bVFSWm0yRmVhMmZQdDR0N2lGRkpySmd0QS04S2Nma0x0VmU5S0xfcFp3LXY4dkFyYnlEX3hlMU9qYWszUEZZWHVXYlZCNzFEdVBHSEhld2cxb2RNUFJWQU8zdjNzdw?oc=5",
+    "topic": "Lysosome transport",
+    "top": false,
+    "score": 76,
+    "type": "News / signal",
+    "overview": "Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org",
+    "context": "Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -10450,11 +10484,11 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes - Rockefeller University Press",
-    "abstract": " Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press ",
-    "journal": "Rockefeller University Press",
+    "title": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway - rupress.org",
+    "abstract": " Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 rupress.org ",
+    "journal": "rupress.org",
     "year": 2026,
-    "authors": "Rockefeller University Press",
+    "authors": "rupress.org",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -10465,17 +10499,17 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZVAzN3drb212WkpyZUY1WEhadUl6TDRuVDBQNllpdEctU0Q5UDA3T1hYSHVlWHBiNk5OTTlOR25TT1BCS1dtOWI4QXRDY1ZKTXhaNG5TLWMxT3Z6OVZHckZVTXBaaUhlZTlGUlp0VFBYT3dkcmx5NlVHQnM5TU43Z1c5bXRRTzRIR0c2MC10dGNRQQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVlVkdXBNdGZTazhsQ2VRMVVMNTBwVGtEbzRKVDJDdFI1a2V6c21mdTl1YlR2dFUwa2JpcEw4aklyZEMwclliTEN2VkNCYkNPRzl6cXV1dlZfU2pDRU1ILXpwTDlxVV9PS0swYmtfQVRYTXcwVHNZU1Z4UFhoS2VicUlEOFRfd0hZRlM1VjB2WWRSNUoxZGs0cVlONWh2ZWpX?oc=5",
     "topic": "Dynein / autophagosome",
     "top": false,
     "score": 74,
     "type": "News / signal",
-    "overview": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
+    "overview": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 rupress.org",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
-    "context": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
+    "main": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 rupress.org",
+    "context": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 rupress.org",
     "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11103,11 +11137,11 @@
     "matched_topics_label": "Endosome maturation"
   },
   {
-    "title": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 - Rockefeller University Press",
-    "abstract": " TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press ",
-    "journal": "Rockefeller University Press",
+    "title": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 - rupress.org",
+    "abstract": " TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org ",
+    "journal": "rupress.org",
     "year": 2026,
-    "authors": "Rockefeller University Press",
+    "authors": "rupress.org",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -11123,12 +11157,12 @@
     "top": false,
     "score": 72,
     "type": "News / signal",
-    "overview": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
+    "overview": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
-    "context": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
+    "main": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org",
+    "context": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org",
     "why": "Matched topics: Endosome maturation. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11511,38 +11545,6 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II - Genetic Engineering and Biotechnology News",
-    "abstract": " Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 Genetic Engineering and Biotechnology News ",
-    "journal": "Genetic Engineering and Biotechnology News",
-    "year": 2026,
-    "authors": "Genetic Engineering and Biotechnology News",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWjNFTnlNekZrSVhoX2g0MkZqWnJZaXptNGJPcjd2bVVDWk9XSXNJby14Y0xGdk1WaUJjYUNQbzhKU1pLMkJYTEVMX1NFT000cUdyRlhTWFRpbEg1M1huaHFkSURncFRzb2ZnNU9sTy00MmxGMlk1aGZNQVh4SXByTkQzTUpaZnhESDk5cEMxdW1tTHdCSG5iOXpVN2w2MF8xaGxfdTFzek9hMGpyX3VoZzhBSWVoZ2lPOERzNU5wZ21LNkNTakt5OWZZNDlRYnJEVGQwcXRyakw?oc=5",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 Genetic Engineering and Biotechnology News",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 Genetic Engineering and Biotechnology News",
-    "context": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 Genetic Engineering and Biotechnology News",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration - Cleveland Clinic",
     "abstract": " Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 Cleveland Clinic ",
     "journal": "Cleveland Clinic",
@@ -11639,6 +11641,38 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
+    "title": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release - ASM Journals",
+    "abstract": " Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals ",
+    "journal": "ASM Journals",
+    "year": 2026,
+    "authors": "ASM Journals",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1emQwdmd0NkhPcTJ6c3ZvNkxyaXRDYzlSOUMxRDhGQmlSaXlZQ0FQcmlvcllXVTZWZTNFcS1JQUpfbkdmTzZLWDIwdzQyV0FfWTB3aVl3czZGTy1IX3JB?oc=5",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals",
+    "context": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals",
+    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "Meta-analysis: No causal link between antidepressant use in pregnancy and neurodevelopmental disorders - Contemporary OB/GYN",
     "abstract": " Meta-analysis: No causal link between antidepressant use in pregnancy and neurodevelopmental disorders \u00a0\u00a0 Contemporary OB/GYN ",
     "journal": "Contemporary OB/GYN",
@@ -11671,11 +11705,11 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells - Genetic Engineering and Biotechnology News",
-    "abstract": " Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 Genetic Engineering and Biotechnology News ",
-    "journal": "Genetic Engineering and Biotechnology News",
+    "title": "Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches - Frontiers",
+    "abstract": " Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches \u00a0\u00a0 Frontiers ",
+    "journal": "Frontiers",
     "year": 2026,
-    "authors": "Genetic Engineering and Biotechnology News",
+    "authors": "Frontiers",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -11686,17 +11720,17 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ044SWdLelNTaS0zQWx5clMxWWRSYy1ZWV9lTVRsd1VFNVRVSmpFLVlFeVBkblphUDlKU2lGQlY0RXNVb3B3Y3VPbDIydzFZcURPZF9WM1o0Q09paUJpT3dNdHBPQ3lWNkxJdTVTbE02S0JjOC1heVhPMGc4Tko3WTNlMTVpTVhpdkFwU0xqeUVrV1ZVeDN5YlZqbktEVDNkR0dSa3djS1NmRUVoMk5wbFVpOWg0SW81UHc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMFBZd3MwR3ptY19NdHJFTmtteGx2M0FjLU5SR0s5eHQxa1pTU1hKc3l1NkU3akZ3Q0R6emZSWk9QRi1HTHFleHp3YklOcW04UzVNUFNDT3Y5SXlQR1FXSWNSRGN0TWl4YjM1aGhsajhrRXBNaUo0cm5tOTVZRk13OW1LdDlOUWJ3WVh1clMzbmtJdw?oc=5",
     "topic": "Disease mechanisms",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 Genetic Engineering and Biotechnology News",
+    "overview": "Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches \u00a0\u00a0 Frontiers",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 Genetic Engineering and Biotechnology News",
-    "context": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 Genetic Engineering and Biotechnology News",
+    "main": "Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches \u00a0\u00a0 Frontiers",
+    "context": "Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches \u00a0\u00a0 Frontiers",
     "why": "Matched topics: Disease mechanisms. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11733,6 +11767,38 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II - genengnews.com",
+    "abstract": " Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 genengnews.com ",
+    "journal": "genengnews.com",
+    "year": 2026,
+    "authors": "genengnews.com",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWjNFTnlNekZrSVhoX2g0MkZqWnJZaXptNGJPcjd2bVVDWk9XSXNJby14Y0xGdk1WaUJjYUNQbzhKU1pLMkJYTEVMX1NFT000cUdyRlhTWFRpbEg1M1huaHFkSURncFRzb2ZnNU9sTy00MmxGMlk1aGZNQVh4SXByTkQzTUpaZnhESDk5cEMxdW1tTHdCSG5iOXpVN2w2MF8xaGxfdTFzek9hMGpyX3VoZzhBSWVoZ2lPOERzNU5wZ21LNkNTakt5OWZZNDlRYnJEVGQwcXRyakw?oc=5",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 genengnews.com",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 genengnews.com",
+    "context": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 genengnews.com",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons - Wiley Online Library",
@@ -11799,11 +11865,11 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
-    "title": "Disease Mechanisms and Repair of Neural and Skeletal Tissue - UCL | University College London",
-    "abstract": " Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 UCL | University College London ",
-    "journal": "UCL | University College London",
+    "title": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells - genengnews.com",
+    "abstract": " Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 genengnews.com ",
+    "journal": "genengnews.com",
     "year": 2026,
-    "authors": "UCL | University College London",
+    "authors": "genengnews.com",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -11814,85 +11880,21 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMHp0UnpJWlpDaTRTWUVGVjFqb1puOW5rQV9jRlVabDN0VEoyVnRwWGgwR0RhRUdjZlZHVkFRNTdKZWtFYWhlRGNKQU9OX0QtOU5ocmljWDluSGJNTlJNV09vdUVVanN2eTV1ZURCd3dmbVVGQnl4WHJJY2I4cno2NzB3emgzSkZYdXZpZ1JqcWxLNW1sRGl4VXhaVGNTaUZWai0zWWpyRWpDRUNXbWItelZ3bVZzNk9jbDhUb2dlRE1XWW54Znh4REJHV1c4MGJoVDBNMzRTdGpJSUxCMEZ3dG1GVXdUcmwwT2pJNUZMRmpVQQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ044SWdLelNTaS0zQWx5clMxWWRSYy1ZWV9lTVRsd1VFNVRVSmpFLVlFeVBkblphUDlKU2lGQlY0RXNVb3B3Y3VPbDIydzFZcURPZF9WM1o0Q09paUJpT3dNdHBPQ3lWNkxJdTVTbE02S0JjOC1heVhPMGc4Tko3WTNlMTVpTVhpdkFwU0xqeUVrV1ZVeDN5YlZqbktEVDNkR0dSa3djS1NmRUVoMk5wbFVpOWg0SW81UHc?oc=5",
     "topic": "Disease mechanisms",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 UCL | University College London",
+    "overview": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 genengnews.com",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 UCL | University College London",
-    "context": "Disease Mechanisms and Repair of Neural and Skeletal Tissue \u00a0\u00a0 UCL | University College London",
+    "main": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 genengnews.com",
+    "context": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 genengnews.com",
     "why": "Matched topics: Disease mechanisms. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "3D Genome Mapping of Rare Immune Cells Uncovers New Crohn\u2019s Disease Genes - Bioengineer.org",
-    "abstract": " 3D Genome Mapping of Rare Immune Cells Uncovers New Crohn\u2019s Disease Genes \u00a0\u00a0 Bioengineer.org ",
-    "journal": "Bioengineer.org",
-    "year": 2026,
-    "authors": "Bioengineer.org",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUEhySUhreFpsX3QxX2M0b0dUY2lWRmtLMzg2b0RBdDBqUUp3VjlLaEFVWVFNZVA2aTZTbUVnc3RiWGhwZXpWUDNvcjVEcFFSaHhyOVFOek9OTFdwR1RDUllZUlRtdUJ0dXBhSFMwRHpzeXhOblJnQlFTdmM0YjZJYmtnNERHYkp6THZ0ZThLTUo1R0tyS1lMMUNRM1RBUQ?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "3D Genome Mapping of Rare Immune Cells Uncovers New Crohn\u2019s Disease Genes \u00a0\u00a0 Bioengineer.org",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "3D Genome Mapping of Rare Immune Cells Uncovers New Crohn\u2019s Disease Genes \u00a0\u00a0 Bioengineer.org",
-    "context": "3D Genome Mapping of Rare Immune Cells Uncovers New Crohn\u2019s Disease Genes \u00a0\u00a0 Bioengineer.org",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "New findings explain how lysosomal defects trigger neuronal energy failure - News-Medical",
-    "abstract": " New findings explain how lysosomal defects trigger neuronal energy failure \u00a0\u00a0 News-Medical ",
-    "journal": "News-Medical",
-    "year": 2026,
-    "authors": "News-Medical",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVjRQZjVMNkZndmNndkhDcEdMdjB3Sml0T0lFOHo4YzBuVW5yX1k2TGo5em5GUktvWEdIamhDdkpyV1JkM3lUZ2JYVExlZVFISzF1b3ZkcTYtYjJZdzdjWW9BWFBEVW9mRWFjTWdGTkZvYnFYbTNxY2ZsYWppVmVndzhqN1E5akNaYUN2ZlVDQmo2ZE10UlNuTW43YWVaVGJWYmFfVndNUW4ySHozekk0VXR3ZzFhdzh2ZGVrMGpZZw?oc=5",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "New findings explain how lysosomal defects trigger neuronal energy failure \u00a0\u00a0 News-Medical",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "New findings explain how lysosomal defects trigger neuronal energy failure \u00a0\u00a0 News-Medical",
-    "context": "New findings explain how lysosomal defects trigger neuronal energy failure \u00a0\u00a0 News-Medical",
-    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neuronal lysosome"
   },
   {
     "title": "Autism Spectrum Disorder (ASD) Symptoms & Causes - Cleveland Clinic",
@@ -11925,6 +11927,38 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
+    "title": "Hidden Mechanism Behind Heart Disease Unveiled - Mirage News",
+    "abstract": " Hidden Mechanism Behind Heart Disease Unveiled \u00a0\u00a0 Mirage News ",
+    "journal": "Mirage News",
+    "year": 2026,
+    "authors": "Mirage News",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPY041TWdaU0diTVlzRzdnYXJxaUxncFhLYllsZUJCaEs5blZGbExHUFluZ2FMUEp5QWpmWHNxSUFqU1lCSnowWDZpeTJDY2pHTzdWS1RNUDJOYzF0QnQ3VkdWbzItdVlqVnc0YVRvRl9ZOWVfb0xEWjFaM2gxQ0VtOVlCOXl1Tll3ZEE?oc=5",
+    "topic": "Disease mechanisms",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Hidden Mechanism Behind Heart Disease Unveiled \u00a0\u00a0 Mirage News",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Hidden Mechanism Behind Heart Disease Unveiled \u00a0\u00a0 Mirage News",
+    "context": "Hidden Mechanism Behind Heart Disease Unveiled \u00a0\u00a0 Mirage News",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
   },
   {
     "title": "Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy",
