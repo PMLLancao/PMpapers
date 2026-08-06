@@ -4267,41 +4267,6 @@
     "matched_topics_label": "Lysosome transport, Neuronal lysosome"
   },
   {
-    "title": "Novel ALG13 Variants and an Expanded Neurodevelopmental Spectrum: Genotype-Phenotype Correlations.",
-    "abstract": "BACKGROUND: The ALG13 gene is implicated in congenital disorders of glycosylation (CDG) and developmental and epileptic encephalopathy (DEE), yet genotype-phenotype correlations remain incompletely understood. METHODS: Whole-exome sequencing (WES) was performed in unrelated families, and we systematically reviewed existing patient data on ALG13 variants and investigated the expression patterns of ALG13 using organoid models. RESULTS: This study reports five patients with ALG13 variants, including two novel variants. Four patients presented with epilepsy accompanied by neurodevelopmental impairment, including infantile epileptic spasms syndrome (IESS) and drug-resistant epilepsy, whereas one patient showed developmental delay without seizures. Further analysis revealed that variants identified in patients with isolated developmental delay were primarily located outside the key glycosylation functional domain. Statistical analysis of patients with epileptic encephalopathy showed that infantile-onset seizures were the predominant feature, with most cases being refractory to treatment. Additionally, in organoids, the highest ALG13 expression was observed at 1 month in ectodermal-derived neurons (EN). At 5 months, peak expression shifted to deep-layer cortical neurons (EN-CTX-Deep). CONCLUSIONS: ALG13 variants are associated with a broad phenotypic spectrum ranging from DEE to neurodevelopmental impairment without seizures. Our findings support a possible domain-related genotype-phenotype association and provide additional developmental context for the role of ALG13 in neurodevelopmental disorders. Further functional studies are required to clarify the pathogenic mechanisms of different ALG13 variants.",
-    "journal": "Human mutation",
-    "year": 2026,
-    "authors": "Su S, Hu W, Ren Y, Zhang T, Yu C, Zhang H",
-    "pmid": "42516310",
-    "doi": "10.1155/humu/6800099",
-    "review": true,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42516310/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 82,
-    "type": "Review",
-    "overview": "BACKGROUND: The ALG13 gene is implicated in congenital disorders of glycosylation (CDG) and developmental and epileptic encephalopathy (DEE), yet genotype-phenotype correlations remain incompletely understood.",
-    "did": [
-      "METHODS: Whole-exome sequencing (WES) was performed in unrelated families, and we systematically reviewed existing patient data on ALG13 variants and investigated the expression patterns of ALG13 using organoid models.",
-      "RESULTS: This study reports five patients with ALG13 variants, including two novel variants.",
-      "Four patients presented with epilepsy accompanied by neurodevelopmental impairment, including infantile epileptic spasms syndrome (IESS) and drug-resistant epilepsy, whereas one patient showed developmental delay without seizures.",
-      "Further analysis revealed that variants identified in patients with isolated developmental delay were primarily located outside the key glycosylation functional domain."
-    ],
-    "main": "Statistical analysis of patients with epileptic encephalopathy showed that infantile-onset seizures were the predominant feature, with most cases being refractory to treatment.",
-    "context": "Additionally, in organoids, the highest ALG13 expression was observed at 1 month in ectodermal-derived neurons (EN).",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "Recent Advances in Molecular Engineering of Organelle-Targeted Viscosity Probes for Fluorescence and Biological Applications.",
     "abstract": "Eukaryotic cell function relies on tightly regulated organelle microenvironments, where local viscosity-a key biophysical parameter reflecting molecular crowding-directly governs processes like molecular diffusion, enzymatic reactions, and metabolite transport. The dynamic balance of viscosity is essential for cellular homeostasis, while dysregulation of organellar viscosity is a critical hallmark of diseases such as lysosomal storage disorders, neurodegeneration, and cancer. However, conventional imaging lacks the spatiotemporal resolution for dynamic, subcellular viscosity monitoring. This gap has been addressed by advanced fluorescent probes, which integrate organelle-targeting units (e.g., triphenylphosphonium for mitochondria, morpholine for lysosomes) with viscosity-sensitive fluorophores, often based on molecular rotors. These tools accumulate selectively within organelles, converting viscosity changes into quantifiable fluorescence signals and enabling real-time, high-resolution imaging. This review systematically examines the design principles, targeting mechanisms, and biological applications of viscosity-responsive probes for lysosomes, mitochondria, the endoplasmic reticulum, and the Golgi apparatus while exploring mechanistic links between aberrant viscosity and disease. These probes serve as powerful tools for fundamental cell biology and for establishing a technical foundation in early diagnosis, mechanistic elucidation, and targeted therapy. The next generation of probes, integrating multiparameter detection, improved tissue penetration, and enhanced biocompatibility, holds strong promise for transforming the field and delivering deeper insights into cellular function and disease.",
     "journal": "ACS sensors",
@@ -9145,6 +9110,41 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
+    "title": "CCDC149: a novel gene associated with hypopituitarism and neurodevelopmental impairment.",
+    "abstract": "OBJECTIVE & DESIGN: Congenital Hypopituitarism (CH) is a complex developmental disorder characterized by variable pituitary dysfunction that is often associated with midline structural abnormalities that affect the brain, eyes and face. To date, only \u223c10-15% of patients have an underlying molecular basis. METHODS: Next generation sequencing was conducted on a subset of CH patients with no known genetic aetiology. Human embryonic brain tissue sections were used to generate an expression profile, and a knock-out mouse model was generated using CRISPR-Cas9 gene editing and phenotypically analysed. RESULTS: Two novel homozygous frameshifts in CCDC149, p.Gly278* and p.Leu222*, were identified in two unrelated CH pedigrees (three patients), respectively. Patient phenotypes included growth hormone deficiency (GHD), hypogonadotropic hypogonadism, and developmental delay/autism. Severe scoliosis was present in one pedigree, with a small anterior pituitary on MRI in the other. Human embryonic CCDC149 was localised to the developing hypothalamo-pituitary region at Carnegie stages 16-23, and Ccdc149-null mice recapitulated patient phenotypes, including growth impairment and reduced fertility compared to wild-type littermates. CONCLUSIONS: Our study is the first to report CCDC149 variants in association with CH. Previous studies in C.elegans report CCDC149 orthologue expression in the basal bodies of ciliated neurons, supporting the possibility of impaired ciliary function as an underlying mechanism in this complex disorder.",
+    "journal": "European journal of endocrinology",
+    "year": 2026,
+    "authors": "Gregory LC, Rath S, Mandel H, Assad GE, Samra NN, Iqbal A, Pirosca S, Lam MHY",
+    "pmid": "42554577",
+    "doi": "10.1093/ejendo/lvag140",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42554577/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "OBJECTIVE & DESIGN: Congenital Hypopituitarism (CH) is a complex developmental disorder characterized by variable pituitary dysfunction that is often associated with midline structural abnormalities that affect the brain, eyes and face.",
+    "did": [
+      "To date, only \u223c10-15% of patients have an underlying molecular basis.",
+      "METHODS: Next generation sequencing was conducted on a subset of CH patients with no known genetic aetiology.",
+      "Human embryonic brain tissue sections were used to generate an expression profile, and a knock-out mouse model was generated using CRISPR-Cas9 gene editing and phenotypically analysed.",
+      "RESULTS: Two novel homozygous frameshifts in CCDC149, p.Gly278* and p.Leu222*, were identified in two unrelated CH pedigrees (three patients), respectively."
+    ],
+    "main": "Patient phenotypes included growth hormone deficiency (GHD), hypogonadotropic hypogonadism, and developmental delay/autism.",
+    "context": "Severe scoliosis was present in one pedigree, with a small anterior pituitary on MRI in the other.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
     "title": "KIAA0319 Plays a Critical Role in Cortical Neuronal Maturation and Synaptic Development Through a Dyslexia-Associated Gene Network.",
     "abstract": "BACKGROUND: Dyslexia is a common learning disorder characterized by difficulty processing written language despite normal intelligence and adequate educational resources. KIAA0319 is one of nine genes reproducibly associated with reading performance, but the molecular basis of its function remains unclear. METHODS: To investigate the role of KIAA0319 in neurodevelopment, we used CRISPR (clustered regularly interspaced short palindromic repeats)-Cas9 to generate KIAA0319 knockout (KIAA0319-/-) human embryonic stem cells, which were then differentiated into human cortical organoids (hCOs). We assessed developmental and transcriptomic changes using morphological analysis, immunostaining, EdU assays, calcium imaging, and single-cell RNA sequencing (scRNA-seq). RESULTS: KIAA0319-/- hCOs were smaller, displayed morphological abnormalities, and showed disrupted neurogenesis and impaired neuronal maturation. scRNA-seq showed that KIAA0319-/- neural progenitor cells favored a truncated radial glia fate over neuronal maturation. Transcriptomic analysis showed coordinated dysregulation across multiple dyslexia-associated genes, implicating KIAA0319 in a broader regulatory network involved in primary cilia formation, cortical organization, and neural network connectivity. CONCLUSIONS: These findings suggest that dyslexia-associated genes, including KIAA0319, may regulate core neurodevelopmental processes beyond reading and language, pointing to a broader biological framework for understanding the etiology of dyslexia.",
     "journal": "Biological psychiatry",
@@ -9775,11 +9775,11 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
-    "title": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis - rupress.org",
-    "abstract": " Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 rupress.org ",
-    "journal": "rupress.org",
+    "title": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis - Rockefeller University Press",
+    "abstract": " Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press ",
+    "journal": "Rockefeller University Press",
     "year": 2026,
-    "authors": "rupress.org",
+    "authors": "Rockefeller University Press",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -9795,12 +9795,12 @@
     "top": false,
     "score": 76,
     "type": "News / signal",
-    "overview": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 rupress.org",
+    "overview": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 rupress.org",
-    "context": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 rupress.org",
+    "main": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
+    "context": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -9838,70 +9838,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Lysosome transport, Neuronal lysosome"
-  },
-  {
-    "title": "Why inherited retinal disease treatment requires more than gene therapy - Drug Target Review",
-    "abstract": " Why inherited retinal disease treatment requires more than gene therapy \u00a0\u00a0 Drug Target Review ",
-    "journal": "Drug Target Review",
-    "year": 2026,
-    "authors": "Drug Target Review",
-    "pmid": "",
-    "doi": "",
-    "review": true,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYTk0Q2hEUElYbjNLRHQ5V0tfcndVOHBvR05NYTRWdUpBa29jWG5NZXZfT2NXX1VqT3ZpY2F0c0VRSVh5NmlhR0hHaVYwVGdTOHRoSGUweHRyU201WDhtSGt5eXB4VDlmS2NfLWdKQl9QQ1NBeGRxVF96LUNjSVN2ZlNCajRRSEp5aDRLZ1cwVlJqeDNFM3l0N2FrZi1KZC10WHpKUHB6NWZwdXpkRGhtczhTbUx1dVp3cS1vUXQ2Vk1ac3c?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 76,
-    "type": "Review",
-    "overview": "Why inherited retinal disease treatment requires more than gene therapy \u00a0\u00a0 Drug Target Review",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Why inherited retinal disease treatment requires more than gene therapy \u00a0\u00a0 Drug Target Review",
-    "context": "Why inherited retinal disease treatment requires more than gene therapy \u00a0\u00a0 Drug Target Review",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Review explores mechanisms driving cardiovascular aging and disease risk - News-Medical",
-    "abstract": " Review explores mechanisms driving cardiovascular aging and disease risk \u00a0\u00a0 News-Medical ",
-    "journal": "News-Medical",
-    "year": 2026,
-    "authors": "News-Medical",
-    "pmid": "",
-    "doi": "",
-    "review": true,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVU1yU0JvN19fajBPcUJIaEZRYXRfQXdLb3dXTGd1clpFMXFsRjZUYWlaa0RNSlktdzRqcU51TzdGTzBRWDMzcUJMaGdJX3lFLTNkQXlPdkJrVW9oQTlWaTRpcW9Hd1hHYnpLbG5tc2JHbDlCcGtRQjdrVVVHZjNPMzhzT3dtaEVSYlRTdklMQnM0M3VONV9VRzMwb0tCem5GNzd6aXlzNnNYWUFQbWZQTl9kUmpRUUR1QVNIbQ?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 76,
-    "type": "Review",
-    "overview": "Review explores mechanisms driving cardiovascular aging and disease risk \u00a0\u00a0 News-Medical",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Review explores mechanisms driving cardiovascular aging and disease risk \u00a0\u00a0 News-Medical",
-    "context": "Review explores mechanisms driving cardiovascular aging and disease risk \u00a0\u00a0 News-Medical",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
   },
   {
     "title": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium - Wiley & Sons",
@@ -10484,11 +10420,11 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway - rupress.org",
-    "abstract": " Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 rupress.org ",
-    "journal": "rupress.org",
+    "title": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway - Rockefeller University Press",
+    "abstract": " Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press ",
+    "journal": "Rockefeller University Press",
     "year": 2026,
-    "authors": "rupress.org",
+    "authors": "Rockefeller University Press",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -10504,12 +10440,12 @@
     "top": false,
     "score": 74,
     "type": "News / signal",
-    "overview": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 rupress.org",
+    "overview": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 rupress.org",
-    "context": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 rupress.org",
+    "main": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press",
+    "context": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press",
     "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11137,11 +11073,11 @@
     "matched_topics_label": "Endosome maturation"
   },
   {
-    "title": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 - rupress.org",
-    "abstract": " TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org ",
-    "journal": "rupress.org",
+    "title": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 - Rockefeller University Press",
+    "abstract": " TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press ",
+    "journal": "Rockefeller University Press",
     "year": 2026,
-    "authors": "rupress.org",
+    "authors": "Rockefeller University Press",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -11157,12 +11093,12 @@
     "top": false,
     "score": 72,
     "type": "News / signal",
-    "overview": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org",
+    "overview": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org",
-    "context": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org",
+    "main": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
+    "context": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
     "why": "Matched topics: Endosome maturation. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11481,38 +11417,6 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "Exploring atypical spatial-functional coupling in adolescent autism spectrum disorder: insights from neurodevelopment and transcriptomic architecture - Frontiers",
-    "abstract": " Exploring atypical spatial-functional coupling in adolescent autism spectrum disorder: insights from neurodevelopment and transcriptomic architecture \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
-    "year": 2026,
-    "authors": "Frontiers",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUllNSmYtSmlEWmx6bHhKd204THRxTEtVS2xHZTdPcWZWTjB4MWhjdHZVZWdsUjE1TFdRUnNwbnNfTjc5RmVESTRnVGhFak9FWmNEMFk2ak5FZ3RxY2lFUnhEb09ITVdHU0pIb1o0R0Z2YWs1U2tFYk14T2FYa2xmb2ttUExKTDZvYTNmUVctX2k5TUFR?oc=5",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Exploring atypical spatial-functional coupling in adolescent autism spectrum disorder: insights from neurodevelopment and transcriptomic architecture \u00a0\u00a0 Frontiers",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Exploring atypical spatial-functional coupling in adolescent autism spectrum disorder: insights from neurodevelopment and transcriptomic architecture \u00a0\u00a0 Frontiers",
-    "context": "Exploring atypical spatial-functional coupling in adolescent autism spectrum disorder: insights from neurodevelopment and transcriptomic architecture \u00a0\u00a0 Frontiers",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders - Contemporary Pediatrics",
     "abstract": " Meta-analysis finds no causal association between antidepressant use in pregnancy and neurodevelopmental disorders \u00a0\u00a0 Contemporary Pediatrics ",
     "journal": "Contemporary Pediatrics",
@@ -11545,36 +11449,36 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration - Cleveland Clinic",
-    "abstract": " Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 Cleveland Clinic ",
-    "journal": "Cleveland Clinic",
+    "title": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II - Genetic Engineering and Biotechnology News",
+    "abstract": " Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 Genetic Engineering and Biotechnology News ",
+    "journal": "Genetic Engineering and Biotechnology News",
     "year": 2026,
-    "authors": "Cleveland Clinic",
+    "authors": "Genetic Engineering and Biotechnology News",
     "pmid": "",
     "doi": "",
     "review": false,
     "matched_topics": [
-      "Neurological disorders"
+      "Neurodevelopment disorder"
     ],
     "sources": [
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdEd3YVhUZ0Y0amhzWWY2OWdRdG5udEk1NFVnR2ctaWRtc1BLMUI0YmNlOXlSMWJVZ0lzNjlvZk00ajNrSnFwZ25zalZZOUx6WlpxU1hfVVpOUjdCdVhEaldONWx1M3lqdzJzakZkZ1pMSnlSRFpuZmkwTTIyWGQxeXFPaFdIanJaUDRsWndLYWdrRV9ETmRvaVJEZllPN0YxMl84ZFpWOGdVM3ZFa1pNdnVVQUg4UFIzOEpfbXZoZHoxVDdXUHpSZkJPdlNzekNpOGdqb3pMd1ppc3hDRUNPaHdRbw?oc=5",
-    "topic": "Neurological disorders",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWjNFTnlNekZrSVhoX2g0MkZqWnJZaXptNGJPcjd2bVVDWk9XSXNJby14Y0xGdk1WaUJjYUNQbzhKU1pLMkJYTEVMX1NFT000cUdyRlhTWFRpbEg1M1huaHFkSURncFRzb2ZnNU9sTy00MmxGMlk1aGZNQVh4SXByTkQzTUpaZnhESDk5cEMxdW1tTHdCSG5iOXpVN2w2MF8xaGxfdTFzek9hMGpyX3VoZzhBSWVoZ2lPOERzNU5wZ21LNkNTakt5OWZZNDlRYnJEVGQwcXRyakw?oc=5",
+    "topic": "Neurodevelopment disorder",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 Cleveland Clinic",
+    "overview": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 Genetic Engineering and Biotechnology News",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 Cleveland Clinic",
-    "context": "Cleveland Clinic in Florida Expands Subspecialty Neurological Care with New Center for Neurological Restoration \u00a0\u00a0 Cleveland Clinic",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "main": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 Genetic Engineering and Biotechnology News",
+    "context": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 Genetic Engineering and Biotechnology News",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
+    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Antisense oligonucleotide strategy reverses HNRNPH2-related neurodevelopmental disorder - St. Jude Children's Research Hospital",
@@ -11607,38 +11511,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
-    "title": "Two in five people in the Americas live with a neurological disorder, new study finds - Pan American Health Organization (PAHO)",
-    "abstract": " Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 Pan American Health Organization (PAHO) ",
-    "journal": "Pan American Health Organization (PAHO)",
-    "year": 2026,
-    "authors": "Pan American Health Organization (PAHO)",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSEttaHJpYXBOdllGSTAwQ3RVbkdpQUdidG8yLWowaGhJRUhXUGV5RDZhUmlIT3hCT0FmaVZuQVJqczB0Q0t3YkFGQ29kMHp6R1pFMXZEVGRiNlBBY3BLLTZ1TjE2OXpPb2pDZGJTWXl4YWtkMWt6SzUwbW5ZRTlPUXpTUHBQaDR1VmV4SEp1LVprd18wTy1aNGx4Ni1TNEN5VTA5VDhNSDRYQQ?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 Pan American Health Organization (PAHO)",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 Pan American Health Organization (PAHO)",
-    "context": "Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 Pan American Health Organization (PAHO)",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release - ASM Journals",
@@ -11705,6 +11577,38 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
+    "title": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells - Genetic Engineering and Biotechnology News",
+    "abstract": " Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 Genetic Engineering and Biotechnology News ",
+    "journal": "Genetic Engineering and Biotechnology News",
+    "year": 2026,
+    "authors": "Genetic Engineering and Biotechnology News",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ044SWdLelNTaS0zQWx5clMxWWRSYy1ZWV9lTVRsd1VFNVRVSmpFLVlFeVBkblphUDlKU2lGQlY0RXNVb3B3Y3VPbDIydzFZcURPZF9WM1o0Q09paUJpT3dNdHBPQ3lWNkxJdTVTbE02S0JjOC1heVhPMGc4Tko3WTNlMTVpTVhpdkFwU0xqeUVrV1ZVeDN5YlZqbktEVDNkR0dSa3djS1NmRUVoMk5wbFVpOWg0SW81UHc?oc=5",
+    "topic": "Disease mechanisms",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 Genetic Engineering and Biotechnology News",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 Genetic Engineering and Biotechnology News",
+    "context": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 Genetic Engineering and Biotechnology News",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
     "title": "Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches - Frontiers",
     "abstract": " Targeting microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and therapeutic approaches \u00a0\u00a0 Frontiers ",
     "journal": "Frontiers",
@@ -11737,68 +11641,36 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "A closer look at brain tissue vulnerability in neurological disease - Baylor College of Medicine Blog Network -",
-    "abstract": " A closer look at brain tissue vulnerability in neurological disease \u00a0\u00a0 Baylor College of Medicine Blog Network - ",
-    "journal": "Baylor College of Medicine Blog Network -",
+    "title": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms - Wiley & Sons",
+    "abstract": " Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons ",
+    "journal": "Wiley & Sons",
     "year": 2026,
-    "authors": "Baylor College of Medicine Blog Network -",
+    "authors": "Wiley & Sons",
     "pmid": "",
     "doi": "",
     "review": false,
     "matched_topics": [
-      "Neurological disorders"
+      "Disease mechanisms"
     ],
     "sources": [
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU01FWlU5S19KQUE1dDhzY0xZbFBaWjQtZUNuMk1HaFVlazl3ZHBnUmVHRFlPTUNzQl9ZNVNKWDhPSXJlUVNyR08wTFZHQkxqQmF3N0pCWnUxVjNMdTlJRjduTGpwMlNjZ3g1aUIwSnpoN3VRbWk5VEg0MVp6ejhwbWJmWVUtTnJ4UXF2SU5pdzhfNmI0LTB5cWJsdUFNOUwyS2o4?oc=5",
-    "topic": "Neurological disorders",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9uQTRJSlBYb2xkUFBmQW1sdDVCanA0dmdhY1RsdkNtaVA3QTZmbFdrdlVoVXJObEVZYkR1b0plRWIzQ25jNlJOU1ZOMTE1ZmZqMGJyREZydXJmcEVCUjlCYW9TR05BdXA2Tzg3OEsxSmhaMW9pN3c?oc=5",
+    "topic": "Disease mechanisms",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "A closer look at brain tissue vulnerability in neurological disease \u00a0\u00a0 Baylor College of Medicine Blog Network -",
+    "overview": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "A closer look at brain tissue vulnerability in neurological disease \u00a0\u00a0 Baylor College of Medicine Blog Network -",
-    "context": "A closer look at brain tissue vulnerability in neurological disease \u00a0\u00a0 Baylor College of Medicine Blog Network -",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "main": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
+    "context": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II - genengnews.com",
-    "abstract": " Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 genengnews.com ",
-    "journal": "genengnews.com",
-    "year": 2026,
-    "authors": "genengnews.com",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWjNFTnlNekZrSVhoX2g0MkZqWnJZaXptNGJPcjd2bVVDWk9XSXNJby14Y0xGdk1WaUJjYUNQbzhKU1pLMkJYTEVMX1NFT000cUdyRlhTWFRpbEg1M1huaHFkSURncFRzb2ZnNU9sTy00MmxGMlk1aGZNQVh4SXByTkQzTUpaZnhESDk5cEMxdW1tTHdCSG5iOXpVN2w2MF8xaGxfdTFzek9hMGpyX3VoZzhBSWVoZ2lPOERzNU5wZ21LNkNTakt5OWZZNDlRYnJEVGQwcXRyakw?oc=5",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 genengnews.com",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 genengnews.com",
-    "context": "Gene Therapy ETX101 Improves Seizures and Neurodevelopment in Dravet Syndrome in Phase I/II \u00a0\u00a0 genengnews.com",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurodevelopment disorder"
+    "matched_topics_label": "Disease mechanisms"
   },
   {
     "title": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons - Wiley Online Library",
@@ -11865,11 +11737,75 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
-    "title": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells - genengnews.com",
-    "abstract": " Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 genengnews.com ",
-    "journal": "genengnews.com",
+    "title": "Epigenetic equilibrium in chromatinopathies: network instability in neurodevelopment - Frontiers",
+    "abstract": " Epigenetic equilibrium in chromatinopathies: network instability in neurodevelopment \u00a0\u00a0 Frontiers ",
+    "journal": "Frontiers",
     "year": 2026,
-    "authors": "genengnews.com",
+    "authors": "Frontiers",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONWc2MDU3YmtVUUQ1TVh1cFYyMHRCdUpLZUZSeHpFLTZHSnJSRTNHN2FwMFhVN18tZDRjNmFZRXFuUVJPZ1hzV0F2czdZLUNrVFFrMnByTHQyUDl4RmVEOGRBVDc0bnMtR1hxdzFuTzhMMlo5MGVaUFdFaGg4NkhqZjNFUHNDb2ZiSFpjeVRQNEw?oc=5",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Epigenetic equilibrium in chromatinopathies: network instability in neurodevelopment \u00a0\u00a0 Frontiers",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Epigenetic equilibrium in chromatinopathies: network instability in neurodevelopment \u00a0\u00a0 Frontiers",
+    "context": "Epigenetic equilibrium in chromatinopathies: network instability in neurodevelopment \u00a0\u00a0 Frontiers",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
+    "title": "2026 NINDS Nonprofit Forum - National Institute of Neurological Disorders and Stroke (.gov)",
+    "abstract": " 2026 NINDS Nonprofit Forum \u00a0\u00a0 National Institute of Neurological Disorders and Stroke (.gov) ",
+    "journal": "National Institute of Neurological Disorders and Stroke (.gov)",
+    "year": 2026,
+    "authors": "National Institute of Neurological Disorders and Stroke (.gov)",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14U2lwTEhsWjNoSS1qQm0tVzRSMWJZN1pOY0t0M3hScjhGZ3RGUnNNUE5TWGF0dkI0aHR4UlRXMjdEdXd6dmUxb0s1ck1BTUFxa2JMdzNwQzE1TWVZSVRHaEt1bUlERV9Cd0g0cENLSWx1bnNub3ZmMlI2SQ?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "2026 NINDS Nonprofit Forum \u00a0\u00a0 National Institute of Neurological Disorders and Stroke (.gov)",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "2026 NINDS Nonprofit Forum \u00a0\u00a0 National Institute of Neurological Disorders and Stroke (.gov)",
+    "context": "2026 NINDS Nonprofit Forum \u00a0\u00a0 National Institute of Neurological Disorders and Stroke (.gov)",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Researchers uncover hidden mechanism behind congenital heart disease - Medical Xpress",
+    "abstract": " Researchers uncover hidden mechanism behind congenital heart disease \u00a0\u00a0 Medical Xpress ",
+    "journal": "Medical Xpress",
+    "year": 2026,
+    "authors": "Medical Xpress",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -11880,21 +11816,85 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ044SWdLelNTaS0zQWx5clMxWWRSYy1ZWV9lTVRsd1VFNVRVSmpFLVlFeVBkblphUDlKU2lGQlY0RXNVb3B3Y3VPbDIydzFZcURPZF9WM1o0Q09paUJpT3dNdHBPQ3lWNkxJdTVTbE02S0JjOC1heVhPMGc4Tko3WTNlMTVpTVhpdkFwU0xqeUVrV1ZVeDN5YlZqbktEVDNkR0dSa3djS1NmRUVoMk5wbFVpOWg0SW81UHc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcEZaR1k4MkZxalRWSWkxMWtPdE9WbzZXV3BkYk1SclV6UDZMYnNPX190OTJtZ0JGTlpENDRFbUhYSkJoYXRqVWZoN1pzTGlPWVhMMVhMSWJNNTdYNy1uZGV0b2RXY3J5MFZmMnh3S21hTnZJYm9uel9zVV8ycVJTN2ZWQ2w2X2c1aUJsTGh3?oc=5",
     "topic": "Disease mechanisms",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 genengnews.com",
+    "overview": "Researchers uncover hidden mechanism behind congenital heart disease \u00a0\u00a0 Medical Xpress",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 genengnews.com",
-    "context": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells \u00a0\u00a0 genengnews.com",
+    "main": "Researchers uncover hidden mechanism behind congenital heart disease \u00a0\u00a0 Medical Xpress",
+    "context": "Researchers uncover hidden mechanism behind congenital heart disease \u00a0\u00a0 Medical Xpress",
     "why": "Matched topics: Disease mechanisms. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "New insights highlight Megalin's expanding role in disease management - News-Medical",
+    "abstract": " New insights highlight Megalin's expanding role in disease management \u00a0\u00a0 News-Medical ",
+    "journal": "News-Medical",
+    "year": 2026,
+    "authors": "News-Medical",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOd0YzVkhETVk2VnBSMGRmY2FUTUN4UGFtUDA2OTdLdnYyaHZsUnVFMlBrd285MkhOb01tSGplTFdoQWdRN09CdnBEYXk4V2hkRTQ3TTh3RTEtQjhyNHBzUlZYemdnMVJyamFfNm1WVVJxcTVhbVhOeGd5RjRKc3cyYXN0bkR4TzVtZEV2WjZMcDY0MjBybS1vZjgwM1J5U25MdkJFWHNlR2t6QzhaZ3dhbUQtNkU4N3c?oc=5",
+    "topic": "Disease mechanisms",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "New insights highlight Megalin's expanding role in disease management \u00a0\u00a0 News-Medical",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "New insights highlight Megalin's expanding role in disease management \u00a0\u00a0 News-Medical",
+    "context": "New insights highlight Megalin's expanding role in disease management \u00a0\u00a0 News-Medical",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "Barrow launches clinical study of ibogaine for neurological recovery - News-Medical",
+    "abstract": " Barrow launches clinical study of ibogaine for neurological recovery \u00a0\u00a0 News-Medical ",
+    "journal": "News-Medical",
+    "year": 2026,
+    "authors": "News-Medical",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdm0wdVBTXzBKb05VWXlPQjVwdTg3dUY1UWxKNWFlallXUVpGR2lmUGVrd0FTbHpPVjNIVTJNODgwTTl0MlRvS1lLT0w0RDZtVmZqRkppbXYxZU1LQ012WEpYWFM0ak9TNm9sdmRNWi1FM2hITjRqMnVnSnpFYWJyOGRnd0VVMks1MWl4QU5wYTVaRWp5YmVlM0M3SmJGS2xhUUlCa2NvbVZ1WFlUTURLdXZmMlVfTk0?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Barrow launches clinical study of ibogaine for neurological recovery \u00a0\u00a0 News-Medical",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Barrow launches clinical study of ibogaine for neurological recovery \u00a0\u00a0 News-Medical",
+    "context": "Barrow launches clinical study of ibogaine for neurological recovery \u00a0\u00a0 News-Medical",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Autism Spectrum Disorder (ASD) Symptoms & Causes - Cleveland Clinic",
@@ -11927,38 +11927,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
-    "title": "Hidden Mechanism Behind Heart Disease Unveiled - Mirage News",
-    "abstract": " Hidden Mechanism Behind Heart Disease Unveiled \u00a0\u00a0 Mirage News ",
-    "journal": "Mirage News",
-    "year": 2026,
-    "authors": "Mirage News",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPY041TWdaU0diTVlzRzdnYXJxaUxncFhLYllsZUJCaEs5blZGbExHUFluZ2FMUEp5QWpmWHNxSUFqU1lCSnowWDZpeTJDY2pHTzdWS1RNUDJOYzF0QnQ3VkdWbzItdVlqVnc0YVRvRl9ZOWVfb0xEWjFaM2gxQ0VtOVlCOXl1Tll3ZEE?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Hidden Mechanism Behind Heart Disease Unveiled \u00a0\u00a0 Mirage News",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Hidden Mechanism Behind Heart Disease Unveiled \u00a0\u00a0 Mirage News",
-    "context": "Hidden Mechanism Behind Heart Disease Unveiled \u00a0\u00a0 Mirage News",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
   },
   {
     "title": "Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy",
