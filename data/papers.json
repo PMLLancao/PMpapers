@@ -1702,8 +1702,7 @@
     "doi": "10.1016/j.isci.2026.116866",
     "review": false,
     "matched_topics": [
-      "Endosome maturation",
-      "Neuronal lysosome"
+      "Endosome maturation"
     ],
     "sources": [
       "PubMed"
@@ -1723,10 +1722,10 @@
     ],
     "main": "By contrast, the phosphoinositide-initiated membrane tethering and lipid transport (PITT) pathway, mediating lipid transfer between the endoplasmic reticulum (ER) and damaged lysosomes, was engaged in both cell types.",
     "context": "Our data reveal a divergence in how neurons and astrocytes mobilize repair pathways to manage lysosomal damage.",
-    "why": "Matched topics: Endosome maturation, Neuronal lysosome. Sources: PubMed.",
+    "why": "Matched topics: Endosome maturation. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
-    "matched_topics_label": "Endosome maturation, Neuronal lysosome"
+    "matched_topics_label": "Endosome maturation"
   },
   {
     "title": "TBK1 activity regulates the directionality of axonal transport of signalling endosomes.",
@@ -2255,6 +2254,41 @@
     "matched_topics_label": "JIP3 / MAPK8IP3"
   },
   {
+    "title": "A brain-targeted biomimetic iron-porphyrin covalent organic framework nanoplatform for Alzheimer's disease: synergistic intervention via antioxidant, A\u03b2-regulating and immunomodulatory effects.",
+    "abstract": "The pathological progression of Alzheimer's disease (AD) involves multiple interconnected pathways, including \u03b2-amyloid (A\u03b2) deposition, oxidative stress, and microglial dysfunction, which together form a self-reinforcing vicious cycle. This complexity poses a major challenge to conventional single-target therapeutic strategies. To address this limitation, we developed a biomimetic nanoplatform integrating active brain targeting, multiple therapeutic bioactivities, and immunomodulatory function. The core of this platform was an iron-porphyrin-based covalent organic framework (COF) that possesses enzyme-mimetic antioxidant activity, metal-ion-chelating capability, and A\u03b2-modulating properties. The COF core was cloaked with a BV2 microglial membrane (BM) to enhance biocompatibility and further functionalized with Angiopep-2 peptide to enable efficient blood brain barrier (BBB) penetration. In vitro studies demonstrated that the platform effectively scavenged various reactive oxygen species, achieved a copper-ion chelation rate of 41.78%, inhibited A\u03b2 aggregation, and depolymerized pre-formed fibrils. At the cellular level, the nanoplatform not only protected neurons from \u03b2-amyloid-induced toxicity but also improved the redox status and mitochondrial function of microglia. Furthermore, it promoted the polarization of microglia from the pro-inflammatory M1 phenotype toward the neuroprotective M2 phenotype, which was correlated with enhanced \u03b2-amyloid phagocytic capacity. In APP/PS1 (APPswe/PSEN1dE9) transgenic mice, treatment with this nanoplatform markedly reduced cerebral A\u03b2 plaque deposition, attenuated neuroinflammation and oxidative stress, and improved BBB integrity, ultimately leading to the remarkable recovery of spatial learning, memory, and spontaneous exploration abilities in mice. In summary, this integrated nano-strategy, which combines delivery, clearance, and modulation, represents an effective multi-target approach for intervening in the complex pathological network of AD.",
+    "journal": "Journal of colloid and interface science",
+    "year": 2026,
+    "authors": "Yan Y, Tian D, Yang F, Zhao R, Deng L, Wang Q, Xie M",
+    "pmid": "42570437",
+    "doi": "10.1016/j.jcis.2026.141264",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42570437/",
+    "topic": "Neurological disorders",
+    "top": true,
+    "score": 86,
+    "type": "Primary research",
+    "overview": "The pathological progression of Alzheimer's disease (AD) involves multiple interconnected pathways, including \u03b2-amyloid (A\u03b2) deposition, oxidative stress, and microglial dysfunction, which together form a self-reinforcing vicious cycle.",
+    "did": [
+      "This complexity poses a major challenge to conventional single-target therapeutic strategies.",
+      "To address this limitation, we developed a biomimetic nanoplatform integrating active brain targeting, multiple therapeutic bioactivities, and immunomodulatory function.",
+      "The core of this platform was an iron-porphyrin-based covalent organic framework (COF) that possesses enzyme-mimetic antioxidant activity, metal-ion-chelating capability, and A\u03b2-modulating properties.",
+      "The COF core was cloaked with a BV2 microglial membrane (BM) to enhance biocompatibility and further functionalized with Angiopep-2 peptide to enable efficient blood brain barrier (BBB) penetration."
+    ],
+    "main": "In vitro studies demonstrated that the platform effectively scavenged various reactive oxygen species, achieved a copper-ion chelation rate of 41.78%, inhibited A\u03b2 aggregation, and depolymerized pre-formed fibrils.",
+    "context": "At the cellular level, the nanoplatform not only protected neurons from \u03b2-amyloid-induced toxicity but also improved the redox status and mitochondrial function of microglia.",
+    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
     "title": "A 3D human retina model reveals a non-cell-autonomous and non-neuronal mechanism of photoreceptor loss in a lysosomal storage disorder.",
     "abstract": "Disruption of the photoreceptor-retinal pigment epithelium (RPE) interface, with loss of photoreceptor outer segments (POSs) in the retina, is a pathological hallmark of several neurodegenerative and retinal diseases, including lysosomal storage disorders like juvenile neuronal ceroid lipofuscinosis (CLN3) disease. However, in vitro stem cell models that enable investigation of the photoreceptor-RPE interface are lacking. Here, we developed a 3D human pluripotent stem cell-derived retina organoid-RPE (hPSC-RO-RPE) model to investigate the photoreceptor-RPE interface in healthy and diseased tissues. Using this 3D hPSC-RO-RPE retina model, we showed that the most common disease-causing CLN3 mutation (CLN3\u0394ex7-8) leads to reduced levels of acid ceramidase (AC), sphingosine 1 phosphate, and POS loss. Furthermore, by analyzing control versus CLN3 mutant (CLN3\u0394ex7-8) hPSC-derived RPE monoculture and hPSC-RO-RPE model, (i) we identified a pathogenic role of AC-mediated lysosomal sphingolipid metabolism in promoting CLN3 disease pathobiology, and (ii) we showed a cell autonomous role of the RPE dysfunction in promoting POS loss/retina degeneration in CLN3 disease. We validated the molecular and structural changes observed in the CLN3\u0394ex7-8 hPSC-RO-RPE model in the CLN3 miniswine model (CLN3\u0394ex7-8) and donor eyes from two patients with CLN3 disease. High-resolution retinal imaging of the living eye in two patients with CLN3 disease suggested decreased RPE autofluorescence in early-stage CLN3 disease. Treatment with recombinant human acid ceramidase (rhAC) ameliorated photoreceptor degeneration in both the CLN3 disease RO-RPE model and CLN3 miniswine eyes. These findings suggest that rhAC could be a therapeutic approach for retinal degeneration in CLN3 disease.",
     "journal": "Science translational medicine",
@@ -2360,6 +2394,41 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
+    "title": "A sequential photodynamic-antioxidation therapy against Alzheimer's \u03b2-amyloid enabled by a dual\u2011carbon dots nanomotor.",
+    "abstract": "Abnormal accumulation of \u03b2-amyloid protein (A\u03b2) in the brain is considered as the primary hallmark of Alzheimer's disease (AD). Beyond inducing neuronal metabolic disorders and apoptosis, A\u03b2 activates oxidative stress pathways, thereby exacerbating reactive oxygen species (ROS) toxicity. Therefore, the design of effective multi-target synergistic therapeutics targeting A\u03b2 and excessive ROS has emerged as a critical strategy for AD prevention and treatment. Herein, we propose a \"Sequential Photodynamic-Antioxidation Therapy (SPAT)\" against Alzheimer's A\u03b2, and the SPAT strategy is enabled by the design of a sub-10nm dual\u2011carbon dots Janus composite (SeRCD) composed of a newly designed and synthesized selenium-doped high-efficiency antioxidant carbon dot (SeCD) and a previously reported near-infrared (NIR) carbon dot (RCD) possessing both thermogenic and photodynamic functionalities. The thermogenic property of RCD in SeRCD endows the Janus composite with photo-propelled autonomous motion powered by \"self-thermophoretic force\" under NIR irradiation. Thus, SeRCD shows potent inhibition of A\u03b2 fibrillization at low concentrations (0.5 to 5\u00a0\u03bcg/mL) via photooxygenation and the nanomotor effect under NIR irradiation for only 10\u00a0min. Under the subsequent NIR-off condition, SeCD in SeRCD effectively mitigates the oxidative damage to cells by scavenging ROS. Thus, the lifespan of AD nematodes is prolonged by the SPAT strategy from 12 to 19 d at 2\u00a0\u03bcg/mL. The results collectively demonstrate the effectiveness of the dual-CDs composite design and great potential of the SPAT strategy for application in fighting against AD.",
+    "journal": "Journal of colloid and interface science",
+    "year": 2026,
+    "authors": "Lin X, Wei Z, Dong X, Sun Y",
+    "pmid": "42574828",
+    "doi": "10.1016/j.jcis.2026.141317",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42574828/",
+    "topic": "Neurological disorders",
+    "top": true,
+    "score": 86,
+    "type": "Primary research",
+    "overview": "Abnormal accumulation of \u03b2-amyloid protein (A\u03b2) in the brain is considered as the primary hallmark of Alzheimer's disease (AD).",
+    "did": [
+      "Beyond inducing neuronal metabolic disorders and apoptosis, A\u03b2 activates oxidative stress pathways, thereby exacerbating reactive oxygen species (ROS) toxicity.",
+      "Therefore, the design of effective multi-target synergistic therapeutics targeting A\u03b2 and excessive ROS has emerged as a critical strategy for AD prevention and treatment.",
+      "Herein, we propose a \"Sequential Photodynamic-Antioxidation Therapy (SPAT)\" against Alzheimer's A\u03b2, and the SPAT strategy is enabled by the design of a sub-10nm dual\u2011carbon dots Janus composite (SeRCD) composed of a newly designed and synthesized selenium-doped high-efficiency antioxidant carbon dot (SeCD) and a previously reported near-infrared (NIR) carbon dot (RCD) possessing both thermogenic and photodynamic functionalities.",
+      "The thermogenic property of RCD in SeRCD endows the Janus composite with photo-propelled autonomous motion powered by \"self-thermophoretic force\" under NIR irradiation."
+    ],
+    "main": "Thus, SeRCD shows potent inhibition of A\u03b2 fibrillization at low concentrations (0.5 to 5\u00a0\u03bcg/mL) via photooxygenation and the nanomotor effect under NIR irradiation for only 10\u00a0min.",
+    "context": "Under the subsequent NIR-off condition, SeCD in SeRCD effectively mitigates the oxidative damage to cells by scavenging ROS.",
+    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
     "title": "The effects of Saccharomyces boulardii on TLR4/NF-\u03baB neuroinflammatory pathway in the hippocampus of LPS-induced rats.",
     "abstract": "Saccharomyces boulardii (Sb), a probiotic yeast, is known for its positive effects on gastrointestinal and metabolic health. Recent research has explored its potential to influence neurological conditions by modulating neuroinflammatory responses via the gut-brain axis. Toll-like receptor 4 (TLR4) is recognized as a key molecular target in regulating neuroinflammation, particularly in disorders like Alzheimer's disease (AD). This study investigated whether Sb could alleviate downstream elements of the TLR4 neuroinflammatory pathway in a lipopolysaccharide (LPS)-induced rat model relevant to AD. Rats were randomly assigned to four groups: 1) control, 2) LPS, 3) Sb\u202f+\u202fLPS, and 4) Sb alone. All groups received either normal saline or Sb (a volume of 1\u202fml containing 10\u202f\u00b9\u2070 CFU) by oral gavage for four weeks. From day 14, LPS (250\u202f\u03bcg/kg/day) or saline was administered intraperitoneally for nine days. Researchers assessed spatial memory, levels of TLR4 pathway-associated proteins in the hippocampus, pro-inflammatory cytokine expression, and neuronal survival using Nissl staining. The results showed that pre-treatment with Sb partially ameliorated spatial learning deficits, significantly reducing the LPS-induced elevation of nuclear factor kappa B (NF-\u03baB) and interleukin-1\u03b2 (IL-1\u03b2) in the hippocampus and protecting against neuronal loss in the hippocampal CA1 region. Sb mitigates LPS-induced neuroinflammation by modulating downstream elements of the TLR4 pathway-specifically NF-\u03baB and IL-1\u03b2-rather than acting directly on the TLR4 receptor, likely through mechanisms involving the gut-brain axis.",
     "journal": "IBRO neuroscience reports",
@@ -2395,39 +2464,39 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
-    "title": "Nano Proton Scavengers Modulate Endosomal pH to Inhibit Microglial Activation and Enhance Stroke Recovery.",
-    "abstract": "Endosomes play a crucial role in immune regulation, yet their effect on microglial behavior in ischemic stroke is not well-documented. While drug-loaded nanoparticles can modulate microglial inflammation, their intrinsic biological effects on microglial activation are underexplored. We demonstrate that inhibiting endosomal acidification reduces pro-inflammatory microglial polarization, limits pathological engulfment of neurons, and reduces neuronal apoptosis. To achieve the same effects in vivo, building on a validated dual-site buffering mechanism of sulfonated chitosan, we develop sulfonated Nano Proton Scavengers (sNPS) as a materials-based strategy to modulate endo/lysosomal pH. After cerebral ischemia, sNPS showed greater fluorescence-associated enrichment in the ipsilateral than in the contralateral hemisphere and was associated with brain-resident and infiltrating immune-cell populations. In the injured brain, sNPS alleviated endo/lysosomal acid stress, suppressed TLR3/4-linked inflammatory signaling, and normalized inflammation-driven endo/lysosomal remodeling and proton-loading machinery, thereby restraining maladaptive microglial activation. This immunomodulation was accompanied by improved neural structural preservation and post-stroke survival and functional outcomes. These findings identify endosomal pH homeostasis as a tractable intracellular cue for material-driven immunoregulation and suggest that sNPS offers a complementary therapeutic direction for ischemic stroke.",
-    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "title": "RVG-functionalized microglial membrane-coated cerium-gallic acid metal-organic frameworks for multi-target Alzheimer's therapy.",
+    "abstract": "Alzheimer's disease (AD) is a multifactorial neurodegenerative disorder characterized by aberrant \u03b2-amyloid (A\u03b2) aggregation, oxidative stress, neuroinflammation, and disrupted metal ion homeostasis, which limit the efficacy of conventional single-target therapies. To address these intertwined pathological processes, we developed a multifunctional nanotherapeutic platform based on a cerium-gallic acid bio-metal-organic framework (CeGA-MOF). Reversible Ce3+/Ce4+ redox cycling enables efficient reactive oxygen species (ROS) scavenging, while gallic acid serves as both an organic ligand and metal chelator, inhibiting metal ion-mediated A\u03b2 aggregation and alleviating oxidative stress-associated neurotoxicity, along with its intrinsic anti-inflammatory activity. To enhance in vivo stability and brain delivery, CeGA-MOF was coated with microglial membranes and functionalized with rabies virus glycoprotein (RVG) peptide, yielding a biomimetic nanosystem, CeGA-MOF/B/R. The microglial membrane provides immune evasion and inflammation-guided targeting, while RVG facilitates blood-brain barrier penetration. In vitro, CeGA-MOF/B/R effectively chelates Cu2+, Zn2+, and Fe3+, suppresses metal ion-induced A\u03b2 aggregation, and protects neurons. In APP/PS1 transgenic mice, it reduced cerebral A\u03b2, promoted anti-inflammatory microglial polarization, and improved learning and memory, highlighting its potential as a biomimetic nanoplatform for synergistic AD therapy.",
+    "journal": "Journal of colloid and interface science",
     "year": 2026,
-    "authors": "Wang X, Shi Y, Gao Z, Wang J, Liu C",
-    "pmid": "42627642",
-    "doi": "10.1002/advs.77311",
+    "authors": "Yang F, Chen Y, Yan Y, Zhao R, Deng L, Tian D, Wang Q, Xie M",
+    "pmid": "42462667",
+    "doi": "10.1016/j.jcis.2026.141133",
     "review": false,
     "matched_topics": [
-      "Neuronal lysosome"
+      "Neurological disorders"
     ],
     "sources": [
       "PubMed"
     ],
     "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42627642/",
-    "topic": "Neuronal lysosome",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42462667/",
+    "topic": "Neurological disorders",
     "top": true,
     "score": 86,
     "type": "Primary research",
-    "overview": "Endosomes play a crucial role in immune regulation, yet their effect on microglial behavior in ischemic stroke is not well-documented.",
+    "overview": "Alzheimer's disease (AD) is a multifactorial neurodegenerative disorder characterized by aberrant \u03b2-amyloid (A\u03b2) aggregation, oxidative stress, neuroinflammation, and disrupted metal ion homeostasis, which limit the efficacy of conventional single-target therapies.",
     "did": [
-      "While drug-loaded nanoparticles can modulate microglial inflammation, their intrinsic biological effects on microglial activation are underexplored.",
-      "We demonstrate that inhibiting endosomal acidification reduces pro-inflammatory microglial polarization, limits pathological engulfment of neurons, and reduces neuronal apoptosis.",
-      "To achieve the same effects in vivo, building on a validated dual-site buffering mechanism of sulfonated chitosan, we develop sulfonated Nano Proton Scavengers (sNPS) as a materials-based strategy to modulate endo/lysosomal pH.",
-      "After cerebral ischemia, sNPS showed greater fluorescence-associated enrichment in the ipsilateral than in the contralateral hemisphere and was associated with brain-resident and infiltrating immune-cell populations."
+      "To address these intertwined pathological processes, we developed a multifunctional nanotherapeutic platform based on a cerium-gallic acid bio-metal-organic framework (CeGA-MOF).",
+      "Reversible Ce3+/Ce4+ redox cycling enables efficient reactive oxygen species (ROS) scavenging, while gallic acid serves as both an organic ligand and metal chelator, inhibiting metal ion-mediated A\u03b2 aggregation and alleviating oxidative stress-associated neurotoxicity, along with its intrinsic anti-inflammatory activity.",
+      "To enhance in vivo stability and brain delivery, CeGA-MOF was coated with microglial membranes and functionalized with rabies virus glycoprotein (RVG) peptide, yielding a biomimetic nanosystem, CeGA-MOF/B/R.",
+      "The microglial membrane provides immune evasion and inflammation-guided targeting, while RVG facilitates blood-brain barrier penetration."
     ],
-    "main": "In the injured brain, sNPS alleviated endo/lysosomal acid stress, suppressed TLR3/4-linked inflammatory signaling, and normalized inflammation-driven endo/lysosomal remodeling and proton-loading machinery, thereby restraining maladaptive microglial activation.",
-    "context": "This immunomodulation was accompanied by improved neural structural preservation and post-stroke survival and functional outcomes.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "main": "In vitro, CeGA-MOF/B/R effectively chelates Cu2+, Zn2+, and Fe3+, suppresses metal ion-induced A\u03b2 aggregation, and protects neurons.",
+    "context": "In APP/PS1 transgenic mice, it reduced cerebral A\u03b2, promoted anti-inflammatory microglial polarization, and improved learning and memory, highlighting its potential as a biomimetic nanoplatform for synergistic AD therapy.",
+    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Human iPSC-Derived Spinal Cord Organoids - The First Electrophysiological Assessment of Neuronal Maturation.",
@@ -4441,6 +4510,41 @@
     "matched_topics_label": "Disease mechanisms, Neurological disorders"
   },
   {
+    "title": "Exploring shared genetic pathways and gene interplay in major neurodegenerative diseases: a comprehensive review.",
+    "abstract": "Neurodegenerative diseases are progressive disorders that involve the loss and dysfunction of neurons. Alzheimer's disease, Parkinson's disease, Amyotrophic lateral sclerosis, Huntington's disease, Frontotemporal dementia are examples of diseases. While different clinically, these disorders have a common genetic, molecular and cellular basis. This review examines the common genetic pathways, along with the interactions between genes of major neurodegenerative diseases, with a focus on the key genes, such as APOE, SNCA, MAPT, TARDBP, LRRK2 and HTT. The common pathogenic mechanisms considered to play a major role in disease progression include protein misfolding and aggregation, mitochondrial dysfunction, oxidative stress, neuroinflammation, diminished autophagy, and impaired lysosomal function, as well as synaptic degeneration. The review also emphasizes the role of systems biology strategies, such as genome-wide association studies, transcriptomics, proteomics, metabolomics, interactome analysis, and multi-omics integration, to unveiling complex molecular networks in neurodegeneration. Furthermore, the emerging biomarker strategies and therapeutic strategies targeting convergence signaling pathways including NF-\u03baB, PI3K-Akt-mTOR, MAPK and Wnt/\u03b2-catenin are summarized. The common genetic basis and the cross-connecting molecular mechanisms of the various neurodegenerative diseases could help in the discovery of new biomarkers and pan-therapeutic targets. Further advances in molecular genetics, computational biology and precision medicine are needed to enhance early detection and the creation of effective disease-modifying treatments.",
+    "journal": "Gene",
+    "year": 2026,
+    "authors": "Pattnaik PP, Prusty SK, Pati S, Jew KA, Bora AK, Sahoo J, Sahu PK",
+    "pmid": "42476327",
+    "doi": "10.1016/j.gene.2026.150318",
+    "review": true,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42476327/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 82,
+    "type": "Review",
+    "overview": "Neurodegenerative diseases are progressive disorders that involve the loss and dysfunction of neurons.",
+    "did": [
+      "Alzheimer's disease, Parkinson's disease, Amyotrophic lateral sclerosis, Huntington's disease, Frontotemporal dementia are examples of diseases.",
+      "While different clinically, these disorders have a common genetic, molecular and cellular basis.",
+      "This review examines the common genetic pathways, along with the interactions between genes of major neurodegenerative diseases, with a focus on the key genes, such as APOE, SNCA, MAPT, TARDBP, LRRK2 and HTT.",
+      "The common pathogenic mechanisms considered to play a major role in disease progression include protein misfolding and aggregation, mitochondrial dysfunction, oxidative stress, neuroinflammation, diminished autophagy, and impaired lysosomal function, as well as synaptic degeneration."
+    ],
+    "main": "The review also emphasizes the role of systems biology strategies, such as genome-wide association studies, transcriptomics, proteomics, metabolomics, interactome analysis, and multi-omics integration, to unveiling complex molecular networks in neurodegeneration.",
+    "context": "Furthermore, the emerging biomarker strategies and therapeutic strategies targeting convergence signaling pathways including NF-\u03baB, PI3K-Akt-mTOR, MAPK and Wnt/\u03b2-catenin are summarized.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "Cell Death in Neurodegenerative Diseases: Molecular Mechanisms and Therapeutic Targets.",
     "abstract": "Neurodegenerative diseases (NDs) are marked by selective neuronal vulnerability and progressive failure of neural circuits. Increasing evidence indicates that neuronal loss is not driven by a single terminal event, but emerges from interacting regulated cell death (RCD) programs. These programs are closely coupled to mitochondrial injury, proteostatic collapse, lysosomal stress, metabolic imbalance, glial state transitions, and chronic neuroinflammation. Yet, how distinct death pathways are organized across cell types, disease stages, and disease-specific microenvironments remains unresolved. This review examines RCD as an integrated pathogenic network in major NDs. Caspase and B-cell lymphoma 2 (BCL2) family signaling, receptor-interacting protein kinase 1 (RIPK1), RIPK3, and mixed lineage kinase domain-like protein activation, NOD-like receptor family pyrin domain containing 3 and gasdermin signaling, GPX4-linked lipid peroxidation control, and autophagy lysosomal failure are discussed as convergent stress response modules rather than isolated pathways. Across Alzheimer's disease, Parkinson's disease, amyotrophic lateral sclerosis, and Huntington's disease, these modules shape neuronal fate through disease-specific interactions with mitochondrial dysfunction, iron dyshomeostasis, inflammasome activation, and microglial metabolic remodeling. We further evaluate emerging therapeutic strategies that target cell death crosstalk, restore autophagy lysosomal competence, or improve delivery to the central nervous system, highlighting the importance of molecular selectivity, cellular context, disease stage, and translational feasibility.",
     "journal": "MedComm",
@@ -5388,41 +5492,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Lysosome transport"
-  },
-  {
-    "title": "Nusinersen: the antisense oligonucleotide at the forefront of spinal muscular atrophy treatment.",
-    "abstract": "Spinal muscular atrophy (SMA) is the first human disease to be treated with an antisense oligonucleotide (ASO) that restores the full coding sequence of a mRNA through splicing modulation. The therapeutic ASO nusinersen (marketed as SpinrazaTM) targets intronic splicing silencer N1 (ISS-N1) located downstream of the predominantly skipped exon 7 of Survival Motor Neuron 2 (SMN2) gene. The full-length transcript of SMN2 codes for SMN, an essential housekeeping protein with a prominent role in RNA metabolism. The success of nusinersen could be attributed at least in part to the accessibility of ISS-N1 that was found to have a strong inhibitory effect on splicing of SMN2 exon 7. Nusinersen has saved thousands of lives affected by SMA. However, limitations of an ASO-based therapy continue to emerge. Here we describe lessons learned from ASO-mediated splicing corrections in general and nusinersen in particular. Specific focus of this review is to discuss how information gleaned from the off-target effects of nusinersen could be utilized to develop next generation of ASO-based therapies with improved efficacies.",
-    "journal": "RNA biology",
-    "year": 2026,
-    "authors": "Singh NN, Ottesen EW, Singh RN",
-    "pmid": "42149739",
-    "doi": "10.1080/15476286.2026.2675858",
-    "review": true,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42149739/",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 82,
-    "type": "Review",
-    "overview": "Spinal muscular atrophy (SMA) is the first human disease to be treated with an antisense oligonucleotide (ASO) that restores the full coding sequence of a mRNA through splicing modulation.",
-    "did": [
-      "The therapeutic ASO nusinersen (marketed as SpinrazaTM) targets intronic splicing silencer N1 (ISS-N1) located downstream of the predominantly skipped exon 7 of Survival Motor Neuron 2 (SMN2) gene.",
-      "The full-length transcript of SMN2 codes for SMN, an essential housekeeping protein with a prominent role in RNA metabolism.",
-      "The success of nusinersen could be attributed at least in part to the accessibility of ISS-N1 that was found to have a strong inhibitory effect on splicing of SMN2 exon 7.",
-      "Nusinersen has saved thousands of lives affected by SMA."
-    ],
-    "main": "However, limitations of an ASO-based therapy continue to emerge.",
-    "context": "Here we describe lessons learned from ASO-mediated splicing corrections in general and nusinersen in particular.",
-    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Ca2+ Fluxes across Membrane Contact Sites.",
@@ -7906,41 +7975,6 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Sequalae and reversal of age-dependent alterations in mitochondrial dynamics via autophagy enhancement in reprogrammed human neurons.",
-    "abstract": "How aging of human neurons affects dynamics of essential organelle such as mitochondria and autophagosomes remains largely unknown. MicroRNA-induced directly reprogrammed neurons (miNs) derived from adult fibroblasts retain age-associated signatures of the donor, enabling the study of age-dependent features in human neurons, including longitudinal isogenic samples. Transcriptomic analysis revealed that neurons derived from elderly individuals are characterized by gene expression changes associated with the regulation of autophagosomes, lysosomes, and mitochondria, compared to young counterparts. To clarify these changes at the cellular level, we performed live-cell imaging of cellular organelles in miNs from donors of different ages. Older donor miNs exhibit decreased mitochondrial membrane potential, which surprisingly co-occurs with a significant increase in mitochondrial fission and fusion events. We posit that the increased fission and fusion of mitochondria may reflect age-dependent compensation for impaired mitochondrial turnover, perhaps due to changes in macroautophagy/autophagy. We subsequently identified a significant decrease in autophagosome acidification in neurons derived from individuals\u2009>\u200965\u2009years compared to younger donors, and a corresponding age-dependent reduction in neuritic lysosomes resulting in fewer lysosomes available to acidify autophagosomes. This age-dependent deficit in autolysosome flux was rescued by promoting autophagosome generation through TFEB, which also reversed the age-dependent increase in mitochondrial fission and fusion and improved mitochondrial health. Partial organelle recovery occurred after inducing mitophagy or inhibiting mitochondrial fission. Together, this work reveals a mechanism by which aging reduces autophagic flux secondary to a loss of neuritic lysosomes, resulting in mitochondria-intrinsic mechanisms to avoid loss of energy production.Abbreviations: DEG: differentially expressed gene; DMSO: dimethyl sulfoxide; Dox: doxycycline; iPSC: induced pluripotent stem cell; LAMP1: lysosome associated membrane protein 1; MAP1LC3/LC3: microtubule associated protein 1 light chain 3; MAPT/tau: microtubule associated protein tau; miNs: microRNA induced neurons; miRNA: microRNA; MMP: mitochondrial membrane potential; PID: post-infection day; RCAN1: regulator of calcineurin 1; TFEB: transcription factor EB; TUBB3: tubulin beta 3 class III; UA: urolithin A.",
-    "journal": "Autophagy",
-    "year": 2026,
-    "authors": "Klinman E, Kwon JS, Dolle RE, Pak SC, Silverman GA, Perlmutter DH, Yoo AS",
-    "pmid": "42604495",
-    "doi": "10.1080/15548627.2026.2719435",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42604495/",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "How aging of human neurons affects dynamics of essential organelle such as mitochondria and autophagosomes remains largely unknown.",
-    "did": [
-      "MicroRNA-induced directly reprogrammed neurons (miNs) derived from adult fibroblasts retain age-associated signatures of the donor, enabling the study of age-dependent features in human neurons, including longitudinal isogenic samples.",
-      "Transcriptomic analysis revealed that neurons derived from elderly individuals are characterized by gene expression changes associated with the regulation of autophagosomes, lysosomes, and mitochondria, compared to young counterparts.",
-      "To clarify these changes at the cellular level, we performed live-cell imaging of cellular organelles in miNs from donors of different ages.",
-      "Older donor miNs exhibit decreased mitochondrial membrane potential, which surprisingly co-occurs with a significant increase in mitochondrial fission and fusion events."
-    ],
-    "main": "We posit that the increased fission and fusion of mitochondria may reflect age-dependent compensation for impaired mitochondrial turnover, perhaps due to changes in macroautophagy/autophagy.",
-    "context": "We subsequently identified a significant decrease in autophagosome acidification in neurons derived from individuals\u2009>\u200965\u2009years compared to younger donors, and a corresponding age-dependent reduction in neuritic lysosomes resulting in fewer lysosomes available to acidify autophagosomes.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
     "title": "Nao-xin-tong capsule attenuates cerebral ischemia/reperfusion injury by modulating the p53/GDF15/NOX4 regulatory network and alleviating mitochondrial dysfunction and ferroptosis-related injury.",
     "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Nao-xin-tong (NXT) is a representative traditional Chinese medicine prescription for replenishing qi and activating blood circulation, and has been widely used in the prevention and treatment of cardio-cerebrovascular diseases. However, the mechanisms underlying its protective effects against cerebral ischemia/reperfusion injury (CIRI) remain incompletely understood. AIM OF THE STUDY: This study aimed to investigate whether NXT alleviates CIRI by regulating the p53/GDF15/NOX4 regulatory network, thereby improving mitochondrial dysfunction and inhibiting neuronal ferroptosis. In particular, the protective effect of growth differentiation factor 15 (GDF15) and its interaction with NXT were explored in both in vitro and in vivo models. MATERIALS AND METHODS: An oxygen-glucose deprivation/reoxygenation (OGD/R) model in PC12\u202fcells and a transient middle cerebral artery occlusion (tMCAO) model in rats were established. The pharmacological effects and mechanisms of NXT were evaluated using CCK-8 assay, transmission electron microscopy, biochemical assays, RT-qPCR, Western blotting, immunofluorescence, and transcriptomic analysis. In addition, recombinant human GDF15 (rhGDF15), and GDF15 knockdown were used for mechanistic validation. RESULTS: UPLC-Q-TOF/MS identified multiple constituents in NXT. Both OGD/R and tMCAO induced marked oxidative stress, mitochondrial injury, and ferroptosis-related alterations. NXT increased cell viability, improved neuronal and mitochondrial ultrastructure, reduced ROS, MDA, and total iron levels, enhanced SOD, GSH-Px, and ATPase activities, upregulated mitochondrial electron transport chain-related targets, and reversed the abnormal expression of ferroptosis-related molecules, including GPX4 and ACSL4. Medium-dose NXT showed the most consistent protection. Mechanistically, NXT inhibited p53 nuclear translocation and downregulated p53, GDF15, and NOX4 expression. rhGDF15 further enhanced the neuroprotective effect, whereas GDF15 knockdown attenuated the therapeutic efficacy of NXT. CONCLUSION: NXT exerts significant protective effects against CIRI by regulating the p53/GDF15/NOX4 regulatory network, reducing oxidative stress, preserving mitochondrial function, and inhibiting neuronal ferroptosis. GDF15 acts as an important endogenous protective factor and may serve as a potential therapeutic target for ischemic stroke.",
     "journal": "Journal of ethnopharmacology",
@@ -8320,41 +8354,6 @@
     ],
     "main": "The effects of THF and its active compound GsRg1 on hypothalamic insulin signaling, oxidative stress and autophagy were then examined in diet-induced obese (DIO) rats and in GT1-7 neurons and BV2 microglia treated with palmitic acid or an autophagy inhibitor.",
     "context": "RESULTS: THF's potential targets in pathways like PI3K/Akt relevant to neuronal activity and insulin resistance were identified through network pharmacology, highlighting GsRg1 as a key active component.",
-    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Pioglitazone mitigates early brain injury by suppressing neuroinflammation and oxidative stress after subarachnoid hemorrhage: a rodent model study.",
-    "abstract": "OBJECTIVE: Subarachnoid haemorrhage (SAH) is a devastating neurovascular emergency where outcomes are largely driven by early brain injury (EBI). Neuroinflammation and oxidative stress are central to EBI pathogenesis. This study experimentally evaluated whether pioglitazone attenuates inflammatory and oxidative responses in the early phase after SAH. MATERIALS AND METHODS: Thirty-two adult male Sprague-Dawley rats were randomly allocated to four groups (n\u2009=\u20098/group): Sham, SAH, SAH+pioglitazone (PIO), and SAH+vehicle (VEH). SAH was induced by autologous blood injection into the cisterna magna. Pioglitazone (10\u2009mg/kg, intraperitoneally) was administered 1\u2009h post-SAH. Serum interleukin-6 (IL-6), interleukin-1\u03b2 (IL-1\u03b2), and malondialdehyde (MDA) levels were quantified by Enzyme-Linked Immunosorbent Assay (ELISA) at 24\u2009h. Hippocampal neuronal injury was assessed using semi-quantitative histopathological analysis of haematoxylin-eosin-stained sections. Acute-phase biochemical and histopathological effects were evaluated; long-term functional outcomes were not assessed. RESULTS: IL-6, IL-1\u03b2, and MDA levels were significantly elevated in all SAH groups compared with sham (p\u2009<\u20090.001). Pioglitazone significantly reduced IL-6 compared with SAH (p\u2009=\u20090.032) and VEH (p\u2009=\u20090.049), though levels remained higher than sham. Conversely, IL-1\u03b2 and MDA levels in the PIO group were significantly lower than in SAH and VEH (p\u2009=\u20090.001 and p\u2009=\u20090.002, respectively) and were comparable to sham. Histopathological analysis demonstrated significantly lower hippocampal neuronal degeneration scores in the pioglitazone-treated group (p\u2009<\u20090.05). CONCLUSION: Early post-SAH administration of pioglitazone suppresses systemic inflammation and lipid peroxidation while mitigating hippocampal neuronal injury. These findings support a potential neuroprotective role of pioglitazone in EBI after SAH, likely mediated via peroxisome proliferator-activated receptor-\u03b3 (PPAR-\u03b3) activation.",
-    "journal": "Annals of medicine",
-    "year": 2026,
-    "authors": "Cetinkaya K, \u00d6zates M\u00d6, Kulluk\u00e7u H, \u00dcnsal Y, Kazanc\u0131 A, G\u00fcrcan O, \u00d6nder E, Deveci Bulut TS",
-    "pmid": "42124404",
-    "doi": "10.1080/07853890.2026.2670780",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42124404/",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "OBJECTIVE: Subarachnoid haemorrhage (SAH) is a devastating neurovascular emergency where outcomes are largely driven by early brain injury (EBI).",
-    "did": [
-      "Neuroinflammation and oxidative stress are central to EBI pathogenesis.",
-      "This study experimentally evaluated whether pioglitazone attenuates inflammatory and oxidative responses in the early phase after SAH.",
-      "MATERIALS AND METHODS: Thirty-two adult male Sprague-Dawley rats were randomly allocated to four groups (n\u2009=\u20098/group): Sham, SAH, SAH+pioglitazone (PIO), and SAH+vehicle (VEH).",
-      "SAH was induced by autologous blood injection into the cisterna magna."
-    ],
-    "main": "Pioglitazone (10\u2009mg/kg, intraperitoneally) was administered 1\u2009h post-SAH.",
-    "context": "Serum interleukin-6 (IL-6), interleukin-1\u03b2 (IL-1\u03b2), and malondialdehyde (MDA) levels were quantified by Enzyme-Linked Immunosorbent Assay (ELISA) at 24\u2009h.",
     "why": "Matched topics: Neurological disorders. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
@@ -8887,6 +8886,41 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
+    "title": "Early reduction of myelin-associated glycoprotein at myelin membranes in Huntington's disease.",
+    "abstract": "Huntington's disease (HD) is marked by progressive neuronal loss and atrophy of grey matter structures, particularly the caudate and putamen. Brain imaging studies reveal that the white matter starts to decay in the brain of individuals bearing the HD mutation many years before symptomatic onset. However, the mechanism by which the HD mutation causes white matter loss remains to be further defined. In this study, we examined white matter pathology and explored the underlying mechanism in the HDQ140 knock-in mouse model of HD. Western blot analysis of proteins localized at different layers of the myelin sheath showed that myelin-associated glycoprotein (MAG), which is localized at the innermost myelin layer, was decreased earlier than proteins localized at outer layers of the myelin. The loss of MAG occurred at fully myelinated axons and was progressive with age. In postmortem symptomatic human HD brains, the level of MAG as well as other myelin proteins was also decreased. In HD mouse brains, MAG labeling was reduced at fiber bundles but accumulated in perinuclear structures of cells that expressed breast carcinoma amplified sequence 1, a marker for new oligodendrocytes. While their abundance was normal, new oligodendrocytes in HD brains were impeded in acquiring the expression of MAG. Compared with those in wild-type mouse brains, oligodendrocytes in HD mouse brains had a reduced frequency of MAG-bearing small vesicles and an increased abundance and enlargement of MAG-containing perinuclear structures. Further studies suggest that the MAG-accumulating perinuclear structures were derived from the late endosomal lysosomal compartment. Our study suggests that white matter decay in HD brains involves an early progressive loss of MAG in myelin membranes.",
+    "journal": "Experimental neurology",
+    "year": 2026,
+    "authors": "Boudi A, Sapp E, Li YY, Shing K, Kegel-Gleason K, Petrozziello T, Sadri-Vakili G, Aronin N",
+    "pmid": "42660267",
+    "doi": "10.1016/j.expneurol.2026.115995",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42660267/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Huntington's disease (HD) is marked by progressive neuronal loss and atrophy of grey matter structures, particularly the caudate and putamen.",
+    "did": [
+      "Brain imaging studies reveal that the white matter starts to decay in the brain of individuals bearing the HD mutation many years before symptomatic onset.",
+      "However, the mechanism by which the HD mutation causes white matter loss remains to be further defined.",
+      "In this study, we examined white matter pathology and explored the underlying mechanism in the HDQ140 knock-in mouse model of HD.",
+      "Western blot analysis of proteins localized at different layers of the myelin sheath showed that myelin-associated glycoprotein (MAG), which is localized at the innermost myelin layer, was decreased earlier than proteins localized at outer layers of the myelin."
+    ],
+    "main": "The loss of MAG occurred at fully myelinated axons and was progressive with age.",
+    "context": "In postmortem symptomatic human HD brains, the level of MAG as well as other myelin proteins was also decreased.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "High reelin expression may explain why a subgroup of entorhinal cortex neurons functions as an initial nucleation site of Alzheimer's disease.",
     "abstract": "The entorhinal cortex (EC) plays a crucial role in memory functions. Long before the clinical symptoms of Alzheimer's disease (AD) emerge, it has already undergone significant degeneration, making it a primary site for the onset of the disease. The reasons for this remain elusive. Layer II (LII) neurons of the anterolateral EC are especially prone to display a very early increase in intracellular amounts of amyloid-\u03b2 peptide (A\u03b2) and hyperphosphorylated tau protein (p-tau). The expression of the large glycoprotein reelin is extraordinarily high in ECLII neurons compared to most other cortical neurons and proximity ligation assay data and other immunohistochemical data strongly support the notion that reelin binds to A\u03b2 in these neurons. Here, based on the premise that reelin may function as a sink for intracellular A\u03b2, we show by computational modeling that, in a senescent physiology predisposing to frequent inflammation-driven A\u03b242 production bursts over a decades-long period, the intracellular amount of A\u03b242-reelin complexes can accumulate to extraordinarily high levels in anterolaterally positioned LII neurons compared to the vast majority of cortical neurons. This is consistent with experimental data showing that intracellular accumulations of A\u03b242 positive material ranged from 20 to 80% of total soma volume in EC neurons from patients with idiopathic AD. Based on known tau protein biology, we also show that this extreme intracellular aggregation that overloads the lysosomal degradation machinery, manifesting chronic homeostatic dysregulation, can lead to the production of p-tau fragments prone to aggregation. Together, our findings may contribute to the resolution of why the EC is so strongly associated with the very early etiology of AD.",
     "journal": "PLoS computational biology",
@@ -9062,6 +9096,41 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
+    "title": "Intraperitoneal Administration of Adenosine A2A Receptor Antagonist Reduces Neuroinflammatory and Antioxidant Responses in GM2 Gangliosidosis Mouse Model.",
+    "abstract": "Tay-Sachs disease (TSD) is a fatal lysosomal storage disorder characterized by neuronal GM2 ganglioside accumulation and progressive neurodegeneration. Neuroinflammation and oxidative stress are increasingly seen as key factors in disease progression. In this study, we evaluated the effects of istradefylline, a selective adenosine A2A receptor antagonist, in the Hexa-/-Neu3-/- mouse model, which closely recapitulates the neuropathological features of human TSD. Istradefylline treatment reduced the expression of several proinflammatory markers, including Ccl2, Ccl3, Ccl5, Cxcl10, Il1b, and Gfap, particularly in the cortex. Immunohistochemical analysis indicated reduced astrogliosis and microgliosis and increased CNPase-positive oligodendrocytes following treatment. The two-phase regimen also modulated antioxidant-response gene expression, including Sod2, Catalase, and Ttase1, and increased cortical APE1 protein abundance. Behavioral assessment demonstrated improved rotarod performance, particularly following two-stage treatment, whereas the open-field findings did not support a significant effect on anxiety-like behavior or locomotor activity. Istradefylline did not substantially reduce GM2 accumulation or restore neuronal density, indicating that it did not correct the primary storage pathology or prevent associated neuronal loss. Overall, istradefylline attenuated selected neuroinflammatory and glial alterations and modulated antioxidant-response markers in Hexa-/-Neu3-/- mice. These findings support further investigation of A2A receptor antagonism as an adjunctive symptomatic and anti-inflammatory strategy, potentially in combination with treatments that directly target the underlying enzymatic deficiency.",
+    "journal": "Neuropharmacology",
+    "year": 2026,
+    "authors": "Ates N, Seyrantepe V",
+    "pmid": "42660282",
+    "doi": "10.1016/j.neuropharm.2026.111161",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42660282/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Tay-Sachs disease (TSD) is a fatal lysosomal storage disorder characterized by neuronal GM2 ganglioside accumulation and progressive neurodegeneration.",
+    "did": [
+      "Neuroinflammation and oxidative stress are increasingly seen as key factors in disease progression.",
+      "In this study, we evaluated the effects of istradefylline, a selective adenosine A2A receptor antagonist, in the Hexa-/-Neu3-/- mouse model, which closely recapitulates the neuropathological features of human TSD.",
+      "Istradefylline treatment reduced the expression of several proinflammatory markers, including Ccl2, Ccl3, Ccl5, Cxcl10, Il1b, and Gfap, particularly in the cortex.",
+      "Immunohistochemical analysis indicated reduced astrogliosis and microgliosis and increased CNPase-positive oligodendrocytes following treatment."
+    ],
+    "main": "The two-phase regimen also modulated antioxidant-response gene expression, including Sod2, Catalase, and Ttase1, and increased cortical APE1 protein abundance.",
+    "context": "Behavioral assessment demonstrated improved rotarod performance, particularly following two-stage treatment, whereas the open-field findings did not support a significant effect on anxiety-like behavior or locomotor activity.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "Continuous Energy Landscape Model for Analyzing Brain State Transitions",
     "abstract": "Energy landscape models characterize neural dynamics by assigning energy values to each brain state that reflect their stability or probability of occurrence. The conventional energy landscape models rely on binary brain state representation, where each region is considered either active or inactive based on some signal threshold. However, this binarization leads to significant information loss and an exponential increase in the number of possible brain states, making the calculation of energy values infeasible for large numbers of brain regions. To overcome these limitations, we propose a novel continuous energy landscape framework that employs Graph Neural Networks (GNNs) to learn a continuous precision matrix directly from functional MRI (fMRI) signals, preserving the full range of signal values during energy landscape computation. We validated our approach using both synthetic data and real-world fMRI datasets from brain tumor patients. Our results on synthetic data generated from a switching linear dynamical system (SLDS) and a Kuramoto model show that the continuous energy model achieved higher likelihood and more accurate recovery of basin geometry, state occupancy, and transition dynamics than conventional binary energy landscape models. In addition, results from the fMRI dataset indicate a 0.27 increase in AUC for predicting working memory and executive function, along with a 0.35 improvement in explained variance (R2) for predicting reaction time. These findings highlight the advantages of utilizing the full signal values in energy landscape models for capturing neuronal dynamics, with strong implications for diagnosing and monitoring neurological disorders.",
     "journal": "arXiv q-bio.NC",
@@ -9165,41 +9234,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
-    "title": "Machine learning combined with WGCNA reveals potential calcium uptake-associated biomarkers in Parkinson's disease.",
-    "abstract": "BACKGROUND: Parkinson's disease (PD) is the second most common neurodegenerative disease, characterised by progressive loss of dopaminergic neurons in the substantia nigra pars compacta. Although previous studies have suggested a correlation between calcium signal disruption and the development of PD, the role of genes associated with store-operated calcium entry (SOCE) in PD remains unclear. AIM: To combine machine learning methods with Weighted Gene Co-expression Network Analysis (WGCNA) to systematically screen and identify SOCE-associated candidate genes and evaluate their potential for assisting in discrimination. SUBJECTS AND METHODS: This study is based on the GSE6613 dataset, using ssGSEA and Weighted Gene Co-expression Network Analysis (WGCNA) to screen for co-expression modules related to SOCE, and combining LASSO, SVM-RFE, and random forest algorithm to identify feature genes. Subsequently, validation was conducted in GSE20163 and GSE22491, and in vitro experiments were carried out in 6-OHDA and MPP+ models of dopaminergic neurons derived from LUHMES. RESULTS: A total of 5 SOCE-associated feature genes (LPCAT3, CLCNKB, TXLNA, etc.) were identified, and their combined model showed moderate discriminative ability in external validation. Immune analysis showed immune dysfunction in PD patients, and in vitro experiments also observed consistent expression trends with patient samples. CONCLUSIONS: In summary, this study identified potential PD feature genes associated with SOCE, providing clues for further exploration of the molecular mechanisms of SOCE-associated calcium signalling in PD.",
-    "journal": "Annals of human biology",
-    "year": 2026,
-    "authors": "Lou W, Wu J",
-    "pmid": "42126032",
-    "doi": "10.1080/03014460.2026.2661601",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42126032/",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "BACKGROUND: Parkinson's disease (PD) is the second most common neurodegenerative disease, characterised by progressive loss of dopaminergic neurons in the substantia nigra pars compacta.",
-    "did": [
-      "Although previous studies have suggested a correlation between calcium signal disruption and the development of PD, the role of genes associated with store-operated calcium entry (SOCE) in PD remains unclear.",
-      "AIM: To combine machine learning methods with Weighted Gene Co-expression Network Analysis (WGCNA) to systematically screen and identify SOCE-associated candidate genes and evaluate their potential for assisting in discrimination.",
-      "SUBJECTS AND METHODS: This study is based on the GSE6613 dataset, using ssGSEA and Weighted Gene Co-expression Network Analysis (WGCNA) to screen for co-expression modules related to SOCE, and combining LASSO, SVM-RFE, and random forest algorithm to identify feature genes.",
-      "Subsequently, validation was conducted in GSE20163 and GSE22491, and in vitro experiments were carried out in 6-OHDA and MPP+ models of dopaminergic neurons derived from LUHMES."
-    ],
-    "main": "RESULTS: A total of 5 SOCE-associated feature genes (LPCAT3, CLCNKB, TXLNA, etc.) were identified, and their combined model showed moderate discriminative ability in external validation.",
-    "context": "Immune analysis showed immune dysfunction in PD patients, and in vitro experiments also observed consistent expression trends with patient samples.",
-    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Targeting DYNC1I1 attenuates Parkinsonian neurodegeneration and \u03b1-synuclein accumulation in cellular and mouse models.",
@@ -11681,38 +11715,6 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Two in five people in the Americas live with a neurological disorder, new study finds - Pan American Health Organization (PAHO)",
-    "abstract": " Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 Pan American Health Organization (PAHO) ",
-    "journal": "Pan American Health Organization (PAHO)",
-    "year": 2026,
-    "authors": "Pan American Health Organization (PAHO)",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSEttaHJpYXBOdllGSTAwQ3RVbkdpQUdidG8yLWowaGhJRUhXUGV5RDZhUmlIT3hCT0FmaVZuQVJqczB0Q0t3YkFGQ29kMHp6R1pFMXZEVGRiNlBBY3BLLTZ1TjE2OXpPb2pDZGJTWXl4YWtkMWt6SzUwbW5ZRTlPUXpTUHBQaDR1VmV4SEp1LVprd18wTy1aNGx4Ni1TNEN5VTA5VDhNSDRYQQ?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 Pan American Health Organization (PAHO)",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 Pan American Health Organization (PAHO)",
-    "context": "Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 Pan American Health Organization (PAHO)",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
     "title": "Patrizia Casaccia Earns Third Major National Institute of Neurological Disorders and Stroke Award - CUNY Graduate Center",
     "abstract": " Patrizia Casaccia Earns Third Major National Institute of Neurological Disorders and Stroke Award \u00a0\u00a0 CUNY Graduate Center ",
     "journal": "CUNY Graduate Center",
@@ -11777,6 +11779,38 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
+    "title": "Reactive Oxygen Species in Cardiovascular and Hematological Diseases: Mechanisms and Therapeutic Strategies - Cureus",
+    "abstract": " Reactive Oxygen Species in Cardiovascular and Hematological Diseases: Mechanisms and Therapeutic Strategies \u00a0\u00a0 Cureus ",
+    "journal": "Cureus",
+    "year": 2026,
+    "authors": "Cureus",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRzk0cEwzc21YSE91MHBLb29EdU9xOGVCRzRFWTVzQUN0d29mYlk3bm5QZURtUWdXaE9aQWJ3cGQ0R2ZmTDUwXzhqa0p4alRvUU9mTVk3SVBoQzZEWGxLV3dOWEd6UzNUSGZCMnF2LUVnT012SWZrSHVxaE45M1IzVUkyS0dPUGpua1Fqc0dIaW40UkMxeEQyWGFzMjJ5aXgxZWRTTF9ZTUdDanlQME9fVWNYaWdIc0hUX2M5ZVJxTzh0NUtCazBmbU5iMVFSM3JnbWpYd193Ui1Xbm1GMVE?oc=5",
+    "topic": "Disease mechanisms",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Reactive Oxygen Species in Cardiovascular and Hematological Diseases: Mechanisms and Therapeutic Strategies \u00a0\u00a0 Cureus",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Reactive Oxygen Species in Cardiovascular and Hematological Diseases: Mechanisms and Therapeutic Strategies \u00a0\u00a0 Cureus",
+    "context": "Reactive Oxygen Species in Cardiovascular and Hematological Diseases: Mechanisms and Therapeutic Strategies \u00a0\u00a0 Cureus",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
     "title": "Microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and emerging therapeutic targets - Frontiers",
     "abstract": " Microglia-mediated neuroinflammation in Alzheimer\u2019s disease: mechanisms and emerging therapeutic targets \u00a0\u00a0 Frontiers ",
     "journal": "Frontiers",
@@ -11809,36 +11843,36 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Immune Cell Profiles Reveal Disease Mechanisms in Children With IgA Vasculitis, Thrombocytopenia - Bioengineer.org",
-    "abstract": " Immune Cell Profiles Reveal Disease Mechanisms in Children With IgA Vasculitis, Thrombocytopenia \u00a0\u00a0 Bioengineer.org ",
-    "journal": "Bioengineer.org",
+    "title": "Neurodevelopmental disorders in children: the role of MRI in early detection and intervention planning - Frontiers",
+    "abstract": " Neurodevelopmental disorders in children: the role of MRI in early detection and intervention planning \u00a0\u00a0 Frontiers ",
+    "journal": "Frontiers",
     "year": 2026,
-    "authors": "Bioengineer.org",
+    "authors": "Frontiers",
     "pmid": "",
     "doi": "",
     "review": false,
     "matched_topics": [
-      "Disease mechanisms"
+      "Neurodevelopment disorder"
     ],
     "sources": [
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWGlFei1oV1JhRXl0eHh4cUZMdUc3ZTNEbE5XTmZRa25iNnRJWnZEYW9tM0M0R19SMzdZNGE2ZHRsUU5LWFQtU0NIMHE2V0dYc2U5RnFuSDhqNmV5bk1hOEtPb0g4TEZqNTd3ZzJMMEwxMWYxSDNUNVZ3QjMwSmRnTENRUEdKcjV0aHJCbG5OY3dsUmZqR2N5R3Y5cG5Kelp1TWp6NjNoN3NCOXluV0VOWTdIdFpsZmF2RmI1Yw?oc=5",
-    "topic": "Disease mechanisms",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZWhXLUwtdGV3c3JxR2lJMm1CbEYteDdZZklteF9INmhaenhvZVFmX3ctWWtudXBlMDlCemU3WVQ3WGlWb2NqUEF5YzluWk95RDNGSExBT3FEZFFnOGI1T3dieTZKVGJhZTk1aDVmNlRuR01zeVJnSjRLMlk3bm1sdjJ4US1qWElxdno3ZmNVc29JT3R5?oc=5",
+    "topic": "Neurodevelopment disorder",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Immune Cell Profiles Reveal Disease Mechanisms in Children With IgA Vasculitis, Thrombocytopenia \u00a0\u00a0 Bioengineer.org",
+    "overview": "Neurodevelopmental disorders in children: the role of MRI in early detection and intervention planning \u00a0\u00a0 Frontiers",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Immune Cell Profiles Reveal Disease Mechanisms in Children With IgA Vasculitis, Thrombocytopenia \u00a0\u00a0 Bioengineer.org",
-    "context": "Immune Cell Profiles Reveal Disease Mechanisms in Children With IgA Vasculitis, Thrombocytopenia \u00a0\u00a0 Bioengineer.org",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "main": "Neurodevelopmental disorders in children: the role of MRI in early detection and intervention planning \u00a0\u00a0 Frontiers",
+    "context": "Neurodevelopmental disorders in children: the role of MRI in early detection and intervention planning \u00a0\u00a0 Frontiers",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
+    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "NMSU researcher leads $1 million project to advance neurological rehabilitation - New Mexico State University",
@@ -12063,38 +12097,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Editorial: Genetics and mechanisms of neurodevelopmental disorders - Frontiers",
-    "abstract": " Editorial: Genetics and mechanisms of neurodevelopmental disorders \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
-    "year": 2026,
-    "authors": "Frontiers",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZGx4aG5pWldwdU1qdmVIeEdDTjVla0hyLXlZWHdwbTZ3TlhWbDBWZk1ZcDNVWGUzT3l0UE4weW56MVhYRnM3alBMOUMzRmt6bkV6RnVQYnBiMG1EMEVDTTBnclhPUV9Ybl9lUDJlRXVNOWVpdDgtb2FjNzNVMmlRM0FvOGVvMjltQmhORGM2TUVzNFkwaEZjU3I5cWs?oc=5",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Editorial: Genetics and mechanisms of neurodevelopmental disorders \u00a0\u00a0 Frontiers",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Editorial: Genetics and mechanisms of neurodevelopmental disorders \u00a0\u00a0 Frontiers",
-    "context": "Editorial: Genetics and mechanisms of neurodevelopmental disorders \u00a0\u00a0 Frontiers",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy",
