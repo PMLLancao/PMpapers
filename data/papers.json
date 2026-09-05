@@ -80,8 +80,7 @@
     "review": true,
     "matched_topics": [
       "Lysosome transport",
-      "Disease mechanisms",
-      "Neurodevelopment disorder"
+      "Disease mechanisms"
     ],
     "sources": [
       "PubMed"
@@ -101,10 +100,10 @@
     ],
     "main": "We examine the increasing evidence of dysfunctional autophagy that contributes to neurodevelopmental disorders, neurodegenerative diseases and psychiatric conditions.",
     "context": "Recent insights into the dysregulation of autophagy provide valuable avenues for biomarker identification and therapeutic development, particularly targeting autophagy-lysosome pathways for neurological disorders.",
-    "why": "Matched topics: Lysosome transport, Disease mechanisms, Neurodevelopment disorder. Sources: PubMed.",
+    "why": "Matched topics: Lysosome transport, Disease mechanisms. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
-    "matched_topics_label": "Lysosome transport, Disease mechanisms, Neurodevelopment disorder"
+    "matched_topics_label": "Lysosome transport, Disease mechanisms"
   },
   {
     "title": "Disruptions in axonal lysosome transport and its contribution to neurological disease.",
@@ -1207,8 +1206,7 @@
     "review": true,
     "matched_topics": [
       "Lysosome transport",
-      "Disease mechanisms",
-      "Neurodevelopment disorder"
+      "Disease mechanisms"
     ],
     "sources": [
       "PubMed"
@@ -1228,10 +1226,10 @@
     ],
     "main": "The prototypic disorder is EPG5-related Vici syndrome, in which defective autophagosome-lysosome fusion causes severe neurodevelopmental and multisystem disease.",
     "context": "Other disorders may affect any step of the pathway, from phosphatidylinositol 3-phosphate effector biology and ATG conjugation/lipidation to autophagosome maturation, ATG9 trafficking, HOPS/CORVET-related vesicle trafficking (including VPS16 and VPS33A), autophagosome-lysosome fusion, autolysosome reformation and lysosome-mTOR signaling.",
-    "why": "Matched topics: Lysosome transport, Disease mechanisms, Neurodevelopment disorder. Sources: PubMed.",
+    "why": "Matched topics: Lysosome transport, Disease mechanisms. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
-    "matched_topics_label": "Lysosome transport, Disease mechanisms, Neurodevelopment disorder"
+    "matched_topics_label": "Lysosome transport, Disease mechanisms"
   },
   {
     "title": "Organelles storing Ca 2+ in the brain cells: New druggable targets in neurodegenerative diseases.",
@@ -2292,6 +2290,41 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
+    "title": "Monoallelic loss-of-function variants in ZNF536 are associated with a neurodevelopmental disorder with prominent behavioral features.",
+    "abstract": "ZNF536 encodes a C2H2 zinc-finger transcription factor that functions as a transcriptional repressor. While common noncoding variants at the ZNF536 locus have been reported to be associated with schizophrenia in a genome-wide association study (GWAS), the contribution of rare, protein-altering variants to human disease has not been systematically investigated. Through an international collaboration, we assembled a cohort of 21 affected individuals carrying 18 unique, rare, heterozygous, protein-altering ZNF536 variants. Most variants (15/18) were predicted loss-of-function (LoF) alleles, with the remainder being missense variants. Among families with available inheritance data (17/20), most variants arose de novo (12/17), while others were inherited from mosaic or mildly affected parents (5/17). Clinically, affected individuals presented with developmental delay along with high rates of autism spectrum disorder, intellectual disability, hyperactivity, aggressive behavior, anxiety, and hyperphagia; epilepsy and sleep disturbances were also frequently observed. To assess functional consequences of a proband-associated ZNF536 variant, we generated a Zfp536p.Gln169Ter knock-in mouse model. Homozygous mutants were non-viable, while heterozygotes survived but displayed autism-like behaviors, increased anxiety, and impaired recognition memory. Embryonic brain analysis revealed reduced cortical size, cortical thickness, and decreased deep-layer neuronal density. These features are consistent with phenotypes of a publicly available mouse knockout model and support our clinical cohort findings that rare monoallelic LoF variants in ZNF536 underlie a genetic neurodevelopmental disorder characterized by developmental delay, autism, and behavioral dysregulation. The pathogenicity of missense variants in disease remains to be determined. These results support a role for ZNF536 as a dosage-sensitive regulator of cortical development.",
+    "journal": "American journal of human genetics",
+    "year": 2026,
+    "authors": "Hiatt SM, Zhao W, Wang Z, Wan Y, Chen K, Wang K, Tan S, Barth M",
+    "pmid": "42697193",
+    "doi": "10.1016/j.ajhg.2026.08.013",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42697193/",
+    "topic": "Neurodevelopment disorder",
+    "top": true,
+    "score": 86,
+    "type": "Primary research",
+    "overview": "ZNF536 encodes a C2H2 zinc-finger transcription factor that functions as a transcriptional repressor.",
+    "did": [
+      "While common noncoding variants at the ZNF536 locus have been reported to be associated with schizophrenia in a genome-wide association study (GWAS), the contribution of rare, protein-altering variants to human disease has not been systematically investigated.",
+      "Through an international collaboration, we assembled a cohort of 21 affected individuals carrying 18 unique, rare, heterozygous, protein-altering ZNF536 variants.",
+      "Most variants (15/18) were predicted loss-of-function (LoF) alleles, with the remainder being missense variants.",
+      "Among families with available inheritance data (17/20), most variants arose de novo (12/17), while others were inherited from mosaic or mildly affected parents (5/17)."
+    ],
+    "main": "Clinically, affected individuals presented with developmental delay along with high rates of autism spectrum disorder, intellectual disability, hyperactivity, aggressive behavior, anxiety, and hyperphagia; epilepsy and sleep disturbances were also frequently observed.",
+    "context": "To assess functional consequences of a proband-associated ZNF536 variant, we generated a Zfp536p.Gln169Ter knock-in mouse model.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
     "title": "USP15 mutation associated with autism spectrum disorder alters progenitor fate and neuronal maturation in human brain organoids.",
     "abstract": "De novo variants in the ubiquitin-proteasome pathway are linked to autism spectrum disorder (ASD), yet their functional impact on neurodevelopment remains poorly understood. We investigated USP15, a deubiquitinating enzyme with rare damaging variants identified in individuals with ASD, using isogenic human iPSC-derived brain organoids and single-cell transcriptomics. USP15 mutant organoids showed genotype-dependent, progenitor-centered alterations during corticogenesis. Heterozygous organoids modeling haploinsufficiency displayed a shift toward later pseudotime states together with altered maturation and synaptic organization of deep-layer neurons. In contrast, homozygous organoids showed broader phenotypes, including mitotic suppression, aberrant HOX gene expression, and stress-response activation. Regulon analysis showed reduced activity of progenitor-associated regulons, including SOX2, NR2F1, and NR2F2, in heterozygous organoids, whereas homozygous organoids exhibited broader changes in transcriptional regulatory networks. Furthermore, USP15 mutant-associated gene expression patterns were significantly enriched for established ASD risk genes. Comparison with the mouse brain perturbation atlas showed that the transcriptional signature of the USP15 mutant showed notable overlap with those of Fezf2 and Foxp1 mutants, key regulators of deep-layer projection neuron identity. These findings characterize genotype-dependent neurodevelopmental phenotypes associated with reduced USP15 dosage and provide a human neural framework for investigating ASD-relevant developmental mechanisms in the context of a rare ubiquitin-pathway variant.",
     "journal": "Molecules and cells",
@@ -2500,41 +2533,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Developing a Neuronal Differentiation Score for quantitative assessment of glutamatergic differentiation in human neuroblastoma cells.",
-    "abstract": "Reliable in vitro neuronal models are essential for studying neuronal development and neurological diseases. Although SH-SY5Y cells, derived from human neuroblastoma, are widely used for neuronal differentiation, their efficiency varies markedly with experimental conditions, and standardized quantitative evaluation methods remain lacking. Here, we systematically optimized glutamatergic differentiation of SH-SY5Y cells by modulating serum concentration, extracellular matrix growth factors, induction duration, and basal medium composition. Reduced serum levels promoted neurite outgrowth, while growth factor-enriched Matrigel and nutrient-rich media enhanced neurite complexity and expression of neuronal markers. Prolonged induction further augmented glutamatergic differentiation. To enable objective and quantitative assessment, we developed a Neuronal Differentiation Score (NDS) by integrating morphological and molecular features via principal component analysis. The NDS strongly correlated with neuronal architecture and marker expression, allowing reliable classification of differentiation grades (high-grade defined as NDS > -0.0967). These findings provide an optimized protocol for reproducible glutamatergic differentiation of SH-SY5Y cells and a validated, quantitative tool for assessing neuronal maturation, facilitating more reliable in vitro modeling of neurodevelopment and disease.",
-    "journal": "Tissue & cell",
-    "year": 2026,
-    "authors": "Lin L, Yan W, Zhang E, Xu W, Sui X, Zheng H, Xiao T, Ni C",
-    "pmid": "42648259",
-    "doi": "10.1016/j.tice.2026.103891",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42648259/",
-    "topic": "Neurodevelopment disorder",
-    "top": true,
-    "score": 86,
-    "type": "Primary research",
-    "overview": "Reliable in vitro neuronal models are essential for studying neuronal development and neurological diseases.",
-    "did": [
-      "Although SH-SY5Y cells, derived from human neuroblastoma, are widely used for neuronal differentiation, their efficiency varies markedly with experimental conditions, and standardized quantitative evaluation methods remain lacking.",
-      "Here, we systematically optimized glutamatergic differentiation of SH-SY5Y cells by modulating serum concentration, extracellular matrix growth factors, induction duration, and basal medium composition.",
-      "Reduced serum levels promoted neurite outgrowth, while growth factor-enriched Matrigel and nutrient-rich media enhanced neurite complexity and expression of neuronal markers.",
-      "Prolonged induction further augmented glutamatergic differentiation."
-    ],
-    "main": "To enable objective and quantitative assessment, we developed a Neuronal Differentiation Score (NDS) by integrating morphological and molecular features via principal component analysis.",
-    "context": "The NDS strongly correlated with neuronal architecture and marker expression, allowing reliable classification of differentiation grades (high-grade defined as NDS > -0.0967).",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Exploratory multi-omics links CCL2/TIMP1 axis to immunosuppressive TME in glioblastoma.",
@@ -2779,6 +2777,38 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
+    "title": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia - Nature",
+    "abstract": " A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature ",
+    "journal": "Nature",
+    "year": 2026,
+    "authors": "Nature",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Lysosome transport"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SLXRxOUtuWTdXbEI3bGNNOENqRGJNNkVFQXlZN3BrcEJqY3BxRDBaM2FUcDZ4aW5QWHAzSnFTSUs1VjBiQmxneUR2bnZsaGNFbmptODZLY19paUZ0NHdF?oc=5",
+    "topic": "Lysosome transport",
+    "top": true,
+    "score": 86,
+    "type": "News / signal",
+    "overview": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature",
+    "context": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature",
+    "why": "Matched topics: Lysosome transport. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Lysosome transport"
+  },
+  {
     "title": "Mechanosensitive dynamics of lysosomes along microtubules regulate leader cell emergence during collective cell migration - Nature",
     "abstract": " Mechanosensitive dynamics of lysosomes along microtubules regulate leader cell emergence during collective cell migration \u00a0\u00a0 Nature ",
     "journal": "Nature",
@@ -2811,11 +2841,11 @@
     "matched_topics_label": "Lysosome transport"
   },
   {
-    "title": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection - science.org",
-    "abstract": " The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 science.org ",
-    "journal": "science.org",
+    "title": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection - Science | AAAS",
+    "abstract": " The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 Science | AAAS ",
+    "journal": "Science | AAAS",
     "year": 2026,
-    "authors": "science.org",
+    "authors": "Science | AAAS",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -2831,12 +2861,12 @@
     "top": true,
     "score": 86,
     "type": "News / signal",
-    "overview": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 science.org",
+    "overview": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 Science | AAAS",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 science.org",
-    "context": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 science.org",
+    "main": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 Science | AAAS",
+    "context": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 Science | AAAS",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -3117,6 +3147,38 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
+    "title": "KIF1C facilitates retrograde transport of lysosomes through Hook3 and dynein - Nature",
+    "abstract": " KIF1C facilitates retrograde transport of lysosomes through Hook3 and dynein \u00a0\u00a0 Nature ",
+    "journal": "Nature",
+    "year": 2026,
+    "authors": "Nature",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Dynein / autophagosome"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4TXk1c3B2Skc3cmJLdTltZmpPYjNYRnBCZTY4ZGoyUkd5eUZLQTYtcEFlOW5pNmVFVnlLUzFKNmF2U3JDdm9aTTBSRkJ2cG45aW5XcUxjZnhFZUg0SUtz?oc=5",
+    "topic": "Dynein / autophagosome",
+    "top": true,
+    "score": 84,
+    "type": "News / signal",
+    "overview": "KIF1C facilitates retrograde transport of lysosomes through Hook3 and dynein \u00a0\u00a0 Nature",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "KIF1C facilitates retrograde transport of lysosomes through Hook3 and dynein \u00a0\u00a0 Nature",
+    "context": "KIF1C facilitates retrograde transport of lysosomes through Hook3 and dynein \u00a0\u00a0 Nature",
+    "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Dynein / autophagosome"
+  },
+  {
     "title": "tsCRISPR based identification of Rab proteins required for the recycling of Drosophila TRPL ion channel.",
     "abstract": "In polarized cells, the precise regulation of protein transport to and from the plasma membrane is crucial to maintain cellular function. Dysregulation of intracellular protein transport in neurons can lead to neurodegenerative diseases such as Retinitis Pigmentosa, Alzheimer's and Parkinson's disease. Here we used the light-dependent transport of the TRPL (transient receptor potential-like) ion channel in Drosophila photoreceptor cells to study the role of Rab proteins in TRPL recycling. TRPL is located in the rhabdomeric membrane of dark-adapted flies, but it is transported out of the rhabdomere upon light exposure and localizes at the Endoplasmatic Reticulum within 12\u00a0h. Upon subsequent dark adaptation, TRPL is recycled back to the rhabdomeric membrane within 90\u00a0min. To screen for Rab proteins involved in TRPL recycling, we established a tissue specific (ts) CRISPR/Cas9-mediated knock-out of individual Rab genes in Drosophila photoreceptors and assessed TRPL localization using an eGFP tagged TRPL protein in the intact eyes of these mutants. We observed severe TRPL recycling defects in the knockouts of Rab3, Rab4, Rab7, Rab32, and RabX2. Using immunohistochemistry, we further showed that Rab3 and RabX2 each play a significant role in TRPL recycling and also influence TRPL transport. We localized Rab3 to the late endosome in Drosophila photoreceptors and observed disruption of TRPL transport to the ER in Rab3 knock-out mutants. TRPL transport from the ER to the rhabdomere ensues from the trans-Golgi where RabX2 is located. We observed accumulated TRPL at the trans-Golgi in RabX2 knock-out mutants. In summary, our study reveals the requirement of specific Rab proteins for different steps of TRPL transport in photoreceptor cells and provides evidence for a unique retrograde recycling pathway of TRPL from the ER via the trans-Golgi.",
     "journal": "Frontiers in cell and developmental biology",
@@ -3362,41 +3424,6 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
-    "title": "Shielding the First 24 Postnatal Months of Life: A Proposal for a Prospective Cohort Study of Early-Life Electromagnetic Exposure and Autism Risk.",
-    "abstract": "BACKGROUND: Autism Spectrum Disorder (ASD) involves Mirror Neuron System (MNS) dysfunction, driving core social and imitative impairments. Systemic physiological alterations such as autonomic dysregulation, mitochondrial dysfunction and neuroinflammation are known to impair synchronization and plasticity of neuronal clusters. A less-evident environmental cofactor, coinciding with rising ASD prevalence, is the considerable world-wide increase in electromagnetic radiation (EMR) overall exposure among children. Experimental evidence shows how low-intensity EMR influences cellular processes, via voltage-gated calcium channels (VGCCs), oxidative stress, and mitochondrial metabolism. The Resonant Convergence framework, allow to predict how chronic EMR exposure during the first 24 postnatal months of life can act as a factor in ASD pathogenesis. The best candidate mechanism is chronic Ion Cyclotron Resonance (ICR) detuning the Ca2+-calmodulin pathway, thus disrupting MNS synchronization. METHODS AND ANALYSIS: A prospective observational pilot cohort study (24-month follow-up) proposes to enroll 1000 full-term newborns into two arms: an EMR-reduced cohort (n = 500, rest and sleep-phase Faraday shielding) and a standard exposure cohort (n = 500). Exposure is quantified via radiofrequency (RF)/extremely low frequency(ELF) measurements, proximity analysis, device inventories and wearable dosimetry. The primary endpoint is a continuous neurodevelopmental trajectory score (joint attention, language, electroencephalogram (EEG) mu-rhythm); binary ASD diagnosis (Autism Diagnostic Observation Schedule, Second Edition (ADOS-2), Autism Diagnostic Interview-Revised (ADI-R)) is a secondary, exploratory endpoint. Moreover, an optional genomic screening will evaluate gene-environment interactions within extremely low-frequency electromagnetic field (ELF-EMF) vulnerable pathways, including ASD-associated genes upregulated by RF via bromodomain and extraterminal protein (BET)-mediated epigenetic mechanisms. Analyses will employ risk ratios, Fisher's exact tests and logistic regression adjusted for confounders; mixed-effects and Bayesian modeling will evaluate longitudinal outcomes and exposure reduction effects. Given a 2-3% baseline prevalence, approximately 20-30 ASD cases are expected. The study is therefore powered for exploratory signal detection rather than definitive causal inference, providing the critical baseline data required to justify and design future confirmatory trials. Sex-stratified modeling will address the 4:1 male-to-female prevalence ratio. ETHICS AND DISSEMINATION: Ethics committee approval is not yet sought; full protocol review and approval will be obtained prior to the study initiation, in strict accordance with the Declaration of Helsinki. Written parental informed consent will be mandatory for all participants prior to enrollment. Study findings and methodological milestones will be disseminated through peer-reviewed international scientific publications. This protocol provides a structured methodological framework for the first prospective investigation of sleep-phase EMR reduction as a potential modulator of ASD incidence during early neurodevelopment. Results will inform adequately powered confirmatory trials in electromagnetic neurodevelopmental epidemiology.",
-    "journal": "Alpha psychiatry",
-    "year": 2026,
-    "authors": "Garoli A, Greco A",
-    "pmid": "42694580",
-    "doi": "10.31083/AP53282",
-    "review": true,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42694580/",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 82,
-    "type": "Review",
-    "overview": "BACKGROUND: Autism Spectrum Disorder (ASD) involves Mirror Neuron System (MNS) dysfunction, driving core social and imitative impairments.",
-    "did": [
-      "Systemic physiological alterations such as autonomic dysregulation, mitochondrial dysfunction and neuroinflammation are known to impair synchronization and plasticity of neuronal clusters.",
-      "A less-evident environmental cofactor, coinciding with rising ASD prevalence, is the considerable world-wide increase in electromagnetic radiation (EMR) overall exposure among children.",
-      "Experimental evidence shows how low-intensity EMR influences cellular processes, via voltage-gated calcium channels (VGCCs), oxidative stress, and mitochondrial metabolism.",
-      "The Resonant Convergence framework, allow to predict how chronic EMR exposure during the first 24 postnatal months of life can act as a factor in ASD pathogenesis."
-    ],
-    "main": "The best candidate mechanism is chronic Ion Cyclotron Resonance (ICR) detuning the Ca2+-calmodulin pathway, thus disrupting MNS synchronization.",
-    "context": "METHODS AND ANALYSIS: A prospective observational pilot cohort study (24-month follow-up) proposes to enroll 1000 full-term newborns into two arms: an EMR-reduced cohort (n = 500, rest and sleep-phase Faraday shielding) and a standard exposure cohort (n = 500).",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "CTSS regulates macrophage lipid metabolic reprogramming and white matter repair after intracerebral hemorrhage.",
     "abstract": "BACKGROUND: Intracerebral hemorrhage (ICH) causes secondary white matter injury, which contributes substantially to long-term neurological disability. Although macrophages accumulate in the perihematomal region and participate in tissue remodeling after ICH, the molecular programs that link macrophage responses to white matter repair remain poorly understood, and no current strategies specifically target macrophage\u2011mediated white matter restoration. Cathepsin S (CTSS), a lysosomal cysteine protease involved in immune regulation and tissue remodeling, is strongly induced after brain injury; however, its role in post\u2011ICH white matter pathology has not been defined. METHODS: A collagenase-induced mouse model of intracerebral hemorrhage (ICH) was established, followed by pharmacological inhibition of Cathepsin S (CTSS) using LY3000328. Single-cell RNA sequencing was performed on perihematomal tissues from Vehicle- and CTSS inhibitor-treated mice to explore CTSS-responsive cell populations and transcriptional programs. Macrophage lipid handling was assessed using flow cytometry, immunofluorescence, and fluorescent myelin debris-based uptake and lipid-transfer assays. A bone marrow-derived macrophage (BMDM)-oligodendrocyte precursor cell (OPC) co-culture system was used to determine whether CTSS inhibition alters macrophage-derived lipid support for OPC differentiation. The LXR agonist GW3965 was applied as a rescue intervention. White matter repair and neurological recovery were evaluated by myelin-associated protein analysis, immunofluorescence, behavioral testing, and transmission electron microscopy. RESULTS: Single-cell analysis identified infiltrating macrophages, particularly adaptive lipid-associated macrophages (aLAMs), as a major CTSS-expressing population after ICH, displaying a transcriptional state related to lipid metabolism and tissue repair. CTSS inhibition attenuated this lipid-associated macrophage program and reduced ApoE, ABCA1, and ABCG1 expression. Mechanistically, CTSS inhibition reduced Npc1/Npc2 expression and disrupted lysosomal cholesterol trafficking, leading to lysosomal cholesterol retention. These changes suggest impaired Npc1/Npc2-associated cholesterol mobilization and attenuation of the LXR-associated macrophage lipid efflux program. In BMDM-OPC co-cultures, CTSS inhibition reduced the transfer of fluorescent macrophage-processed myelin-derived lipids to OPCs and limited OPC differentiation, whereas GW3965 partially restored Npc1/Npc2 expression, macrophage-derived lipid support, and OPC differentiation. Consistently, in vivo CTSS inhibition reduced MBP expression and MBP\u207a axonal wrapping, increased g-ratio values, aggravated myelin ultrastructural abnormalities, and delayed neurological recovery after ICH. CONCLUSIONS: CTSS in macrophages supports white matter repair after ICH by maintaining lysosomal cholesterol trafficking and macrophage lipid efflux. CTSS inhibition limits macrophage-derived lipid support for OPCs and impairs remyelination, whereas LXR activation partially restores these reparative responses.",
     "journal": "Journal of translational medicine",
@@ -3571,6 +3598,41 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neuronal lysosome"
+  },
+  {
+    "title": "MRI Pattern with a Distinctive Cerebellar Signature in VPS11-Related Hypomyelinating Leukodystrophy: A Comparative Cohort Study.",
+    "abstract": "BACKGROUND AND PURPOSE: VPS11-related Hypomyelinating Leukodystrophy (VPS11-HLD), also named HLD12, is an ultrarare lysosomal-autophagic disorder characterized by severe, early-onset neurodevelopmental disability and diffuse hypomyelination. The neuroimaging spectrum of VPS11-HLD had not been systematically studied. We aimed to characterize the MRI phenotype of VPS11-HLD and identify reproducible imaging features that may aid in distinguishing it from other hypomyelinating leukodystrophies. MATERIALS AND METHODS: Patients with VPS11-HLD from two tertiary centers were retrospectively identified between 2019 and 2025. Clinical and genetic data were retrieved from medical records. Brain MRIs were independently reviewed by two pediatric neuroradiologists, and inter-rater agreement was assessed. Imaging features and biometric measurements were compared with those of 21 individuals with other genetically confirmed HLDs using Mann-Whitney U and Fisher's exact tests. A systematic literature review was conducted to identify previously reported cases and provide clinical and neuroimaging data. RESULTS: Six patients (four unrelated boys and two sisters; age range 8 months to 10 years) diagnosed with a homozygous VPS11 c.2536T>G (p.Cys846Gly) variant were identified. The first MRI, obtained at a median age of 9 months (IQR 7.5,13.75), demonstrated the following findings in all patients: 1) a distinct cerebellar signature characterized by focal absence of the cerebellar cortex in the middle-anterior hemispheric portions; 2) diffuse hypomyelination; 3) a periventricular leukomalacia (PVL)-like pattern; 4) short corpus callosum with marked thinning of the posterior portion, 5) hypoplasia of the anterior commissure and 6) mild pontine volume reduction. Inter-rater agreement for MRI feature assessment was high. In a comparative analysis with 21 patients with other HLDs, the cerebellar signature was observed exclusively in VPS11-HLD (6/6 vs. 0/21, respectively, p < .001). CONCLUSION: VPS11-HLD demonstrates a reproducible MRI pattern combining a novel, peculiar cerebellar anomaly, hypomyelination with PVL-like pattern, and extremely thin and short corpus callosum.In the context of an ultra-rare disorder, this pattern may represent a candidate neuroradiologic phenotype that could support diagnostic stratification, guide targeted genetic evaluation, and provide insight into the role of autophagy-lysosome dysfunction in myelin and cerebellar development.",
+    "journal": "AJNR. American journal of neuroradiology",
+    "year": 2026,
+    "authors": "Libzon S, Ben Sira L, Hacohen Y, Hausman-Kedem M, Heimer G, Severino M, Zerem A",
+    "pmid": "42697725",
+    "doi": "10.3174/ajnr.A9624",
+    "review": true,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42697725/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 82,
+    "type": "Review",
+    "overview": "BACKGROUND AND PURPOSE: VPS11-related Hypomyelinating Leukodystrophy (VPS11-HLD), also named HLD12, is an ultrarare lysosomal-autophagic disorder characterized by severe, early-onset neurodevelopmental disability and diffuse hypomyelination.",
+    "did": [
+      "The neuroimaging spectrum of VPS11-HLD had not been systematically studied.",
+      "We aimed to characterize the MRI phenotype of VPS11-HLD and identify reproducible imaging features that may aid in distinguishing it from other hypomyelinating leukodystrophies.",
+      "MATERIALS AND METHODS: Patients with VPS11-HLD from two tertiary centers were retrospectively identified between 2019 and 2025.",
+      "Clinical and genetic data were retrieved from medical records."
+    ],
+    "main": "Brain MRIs were independently reviewed by two pediatric neuroradiologists, and inter-rater agreement was assessed.",
+    "context": "Imaging features and biometric measurements were compared with those of 21 individuals with other genetically confirmed HLDs using Mann-Whitney U and Fisher's exact tests.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "Expanding the genotypic landscape of the neuronal ceroid lipofuscinoses: clinical and molecular findings from a tertiary-care center in Argentina.",
@@ -5257,6 +5319,41 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
+    "title": "Nutritional regulation of gut-brain immune crosstalk across the lifespan.",
+    "abstract": "The gut-brain immune axis integrates microbial, immune, and neural signals to regulate neurodevelopment, homeostasis, and disease susceptibility. Early-life nutrition, particularly human milk oligosaccharides, shapes beneficial microbiota composition, enhances hippocampal plasticity, promotes anti-inflammatory microglia polarization, and fosters immune tolerance. Gut microbiota-derived metabolites, including short-chain fatty acids, tryptophan derivatives and secondary bile acids, regulate microglia maturation, astrocyte function, T cell differentiation, neurotransmitter production, and vagus nerve signaling. These processes influence synaptic pruning, neurogenesis, and neuroinflammation. Adaptive immune cells in the central nervous system, notably meningeal and infiltrating CD4 T cells, further connect peripheral immunity to neuronal responses through cytokines, such as IL-4, IFN\u03b3, and IL-17A. Nutritional imbalances may exacerbate disease-associated microglia and pathogenic T cell activity in Multiple Sclerosis, Alzheimer's disease, and autism spectrum disorders. In aging, diet helps mitigate \"inflammaging\" by countering metabolic shifts in microglia and lymphocytes. This review examines how nutrition modulates bidirectional gut-brain immune crosstalk across the lifespan.",
+    "journal": "Gut microbes",
+    "year": 2026,
+    "authors": "Zhou Y, Del Toro S, Zeng MY",
+    "pmid": "42696146",
+    "doi": "10.1080/19490976.2026.2725371",
+    "review": true,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42696146/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 82,
+    "type": "Review",
+    "overview": "The gut-brain immune axis integrates microbial, immune, and neural signals to regulate neurodevelopment, homeostasis, and disease susceptibility.",
+    "did": [
+      "Early-life nutrition, particularly human milk oligosaccharides, shapes beneficial microbiota composition, enhances hippocampal plasticity, promotes anti-inflammatory microglia polarization, and fosters immune tolerance.",
+      "Gut microbiota-derived metabolites, including short-chain fatty acids, tryptophan derivatives and secondary bile acids, regulate microglia maturation, astrocyte function, T cell differentiation, neurotransmitter production, and vagus nerve signaling.",
+      "These processes influence synaptic pruning, neurogenesis, and neuroinflammation.",
+      "Adaptive immune cells in the central nervous system, notably meningeal and infiltrating CD4 T cells, further connect peripheral immunity to neuronal responses through cytokines, such as IL-4, IFN\u03b3, and IL-17A."
+    ],
+    "main": "Nutritional imbalances may exacerbate disease-associated microglia and pathogenic T cell activity in Multiple Sclerosis, Alzheimer's disease, and autism spectrum disorders.",
+    "context": "In aging, diet helps mitigate \"inflammaging\" by countering metabolic shifts in microglia and lymphocytes.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
     "title": "Spermidine in the aging brain: mechanisms, preclinical evidence, and clinical perspectives.",
     "abstract": "Spermidine, a naturally occurring polyamine, has emerged as a candidate modulator of brain aging because it regulates autophagy, mitochondrial function, oxidative balance, and neuroinflammatory signaling. This review summarizes current knowledge on spermidine biology, including its synthesis, catabolism, transport, and cell-specific handling in neurons and glia, with emphasis on ATP13A2/ATP13A4-dependent trafficking and EP300-linked autophagy. Preclinical studies consistently show that spermidine enhances proteostasis, reduces soluble amyloid-beta, improves microglial phagocytic activity, preserves mitochondrial fitness, and attenuates inflammatory responses in models of aging and neurodegeneration. Human evidence is encouraging but still limited: observational studies associate higher dietary spermidine intake with better cognitive outcomes, whereas interventional trials suggest possible benefits in subjective cognitive decline and mild dementia, with variable dose-dependent effects. Overall, spermidine is a biologically plausible nutraceutical for healthy brain aging, but larger, well-designed clinical trials are needed to define efficacy, bioavailability, safety, and optimal therapeutic use across prodromal, early-stage, and disease-specific patient populations.",
     "journal": "Molecular biology reports",
@@ -5607,6 +5704,38 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
+    "title": "Reversible control of post-Golgi transport by brefeldin A reveals recycling endosome maturation during glycosylphosphatidylinositol-anchored protein transport - Nature",
+    "abstract": " Reversible control of post-Golgi transport by brefeldin A reveals recycling endosome maturation during glycosylphosphatidylinositol-anchored protein transport \u00a0\u00a0 Nature ",
+    "journal": "Nature",
+    "year": 2026,
+    "authors": "Nature",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Endosome maturation"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lUGtsUllyemx3V3JXUHUweW9PTWpZT25LR29OOW5fVVpHZFhidkpPS1hwbUp3WEVFZ3BTUHpRM0xadWVzM0h1YUZRam8wdnR5TUJPTnRlQjVtMks1YjBr?oc=5",
+    "topic": "Endosome maturation",
+    "top": true,
+    "score": 82,
+    "type": "News / signal",
+    "overview": "Reversible control of post-Golgi transport by brefeldin A reveals recycling endosome maturation during glycosylphosphatidylinositol-anchored protein transport \u00a0\u00a0 Nature",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Reversible control of post-Golgi transport by brefeldin A reveals recycling endosome maturation during glycosylphosphatidylinositol-anchored protein transport \u00a0\u00a0 Nature",
+    "context": "Reversible control of post-Golgi transport by brefeldin A reveals recycling endosome maturation during glycosylphosphatidylinositol-anchored protein transport \u00a0\u00a0 Nature",
+    "why": "Matched topics: Endosome maturation. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Endosome maturation"
+  },
+  {
     "title": "Amphotericin B promotes respiratory viral entry by enhancing late endosomal maturation and fusion via glucocerebrosidase-mediated ceramide remodeling - Nature",
     "abstract": " Amphotericin B promotes respiratory viral entry by enhancing late endosomal maturation and fusion via glucocerebrosidase-mediated ceramide remodeling \u00a0\u00a0 Nature ",
     "journal": "Nature",
@@ -5639,11 +5768,11 @@
     "matched_topics_label": "Endosome maturation"
   },
   {
-    "title": "Endoplasmic reticulum junctions serve as a platform for endosome-lysosome interactions through their stop-and-go motion switching - science.org",
-    "abstract": " Endoplasmic reticulum junctions serve as a platform for endosome-lysosome interactions through their stop-and-go motion switching \u00a0\u00a0 science.org ",
-    "journal": "science.org",
+    "title": "Endoplasmic reticulum junctions serve as a platform for endosome-lysosome interactions through their stop-and-go motion switching - Science | AAAS",
+    "abstract": " Endoplasmic reticulum junctions serve as a platform for endosome-lysosome interactions through their stop-and-go motion switching \u00a0\u00a0 Science | AAAS ",
+    "journal": "Science | AAAS",
     "year": 2026,
-    "authors": "science.org",
+    "authors": "Science | AAAS",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -5659,12 +5788,44 @@
     "top": true,
     "score": 82,
     "type": "News / signal",
-    "overview": "Endoplasmic reticulum junctions serve as a platform for endosome-lysosome interactions through their stop-and-go motion switching \u00a0\u00a0 science.org",
+    "overview": "Endoplasmic reticulum junctions serve as a platform for endosome-lysosome interactions through their stop-and-go motion switching \u00a0\u00a0 Science | AAAS",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Endoplasmic reticulum junctions serve as a platform for endosome-lysosome interactions through their stop-and-go motion switching \u00a0\u00a0 science.org",
-    "context": "Endoplasmic reticulum junctions serve as a platform for endosome-lysosome interactions through their stop-and-go motion switching \u00a0\u00a0 science.org",
+    "main": "Endoplasmic reticulum junctions serve as a platform for endosome-lysosome interactions through their stop-and-go motion switching \u00a0\u00a0 Science | AAAS",
+    "context": "Endoplasmic reticulum junctions serve as a platform for endosome-lysosome interactions through their stop-and-go motion switching \u00a0\u00a0 Science | AAAS",
+    "why": "Matched topics: Endosome maturation. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Endosome maturation"
+  },
+  {
+    "title": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation - Journal of Neuroscience",
+    "abstract": " Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 Journal of Neuroscience ",
+    "journal": "Journal of Neuroscience",
+    "year": 2026,
+    "authors": "Journal of Neuroscience",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Endosome maturation"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02c3dIRzNKZmxPcWNqS2JuREdxdmFKTEg5bElMdjZLWkJzaGVWbkxTOExOdER5cGJHeUNNZEI5ZG9KbUl6NDNGVS0yYjVkTHc4aHZYZDUxQjlBbmJpWGhKUUYzSFN3dVdfVHp5M193?oc=5",
+    "topic": "Endosome maturation",
+    "top": true,
+    "score": 82,
+    "type": "News / signal",
+    "overview": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 Journal of Neuroscience",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 Journal of Neuroscience",
+    "context": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 Journal of Neuroscience",
     "why": "Matched topics: Endosome maturation. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -6569,6 +6730,38 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
+    "title": "Role of complement and complement-targeted therapeutics in neurological diseases - Nature",
+    "abstract": " Role of complement and complement-targeted therapeutics in neurological diseases \u00a0\u00a0 Nature ",
+    "journal": "Nature",
+    "year": 2026,
+    "authors": "Nature",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aT3Q3cTJ1N085TDd2TDM2ci1iVldGUTV4LVFnWHU1aUpFWGlibU85cl9WeTloczRVdkg5RUZibm9MNHU5alhJOWhfdzNscVpiQWZ4RkIxeVRlem0xRnkw?oc=5",
+    "topic": "Neurological disorders",
+    "top": true,
+    "score": 80,
+    "type": "News / signal",
+    "overview": "Role of complement and complement-targeted therapeutics in neurological diseases \u00a0\u00a0 Nature",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Role of complement and complement-targeted therapeutics in neurological diseases \u00a0\u00a0 Nature",
+    "context": "Role of complement and complement-targeted therapeutics in neurological diseases \u00a0\u00a0 Nature",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
     "title": "Mitochondrial dynamics in neurodevelopment and neurodevelopmental disorders - Nature",
     "abstract": " Mitochondrial dynamics in neurodevelopment and neurodevelopmental disorders \u00a0\u00a0 Nature ",
     "journal": "Nature",
@@ -6631,38 +6824,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Menopause and neurological disorders: a roadmap for research - Nature",
-    "abstract": " Menopause and neurological disorders: a roadmap for research \u00a0\u00a0 Nature ",
-    "journal": "Nature",
-    "year": 2026,
-    "authors": "Nature",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPQ0VZdlVYOWw3bEdDaVlhODlhdnJ3ZkdFeDZ3RTd1c3l6RG5hQndXTXF2d1VYYkZtWkx4RVRERGE5RzROMHlFSkxHOUtCS0RTR1VEamJoQVM4VjJvZFc0?oc=5",
-    "topic": "Neurological disorders",
-    "top": true,
-    "score": 80,
-    "type": "News / signal",
-    "overview": "Menopause and neurological disorders: a roadmap for research \u00a0\u00a0 Nature",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Menopause and neurological disorders: a roadmap for research \u00a0\u00a0 Nature",
-    "context": "Menopause and neurological disorders: a roadmap for research \u00a0\u00a0 Nature",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Molecular mechanisms and pathogenesis of MASH - Nature",
@@ -7114,41 +7275,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Endosome maturation"
-  },
-  {
-    "title": "Brain Network Dynamics and Multiscale Modelling of Neurodegenerative Disorders: A Review",
-    "abstract": "It is essential to understand the complex structure of the human brain to develop new treatment approaches for neurodegenerative disorders (NDDs). This review paper comprehensively discusses the challenges associated with modelling the complex brain networks and dynamic processes involved in NDDs, particularly Alzheimer's disease (AD), Parkinson's disease (PD), and cortical spreading depression (CSD). We investigate how the brain's biological processes and associated multiphysics interact and how this influences the structure and functionality of the brain. We review the literature on brain network models and dynamic processes, highlighting the need for sophisticated mathematical and statistical modelling techniques. Specifically, we go through large-scale brain network models relevant to AD and PD, highlighting the pathological mechanisms and potential therapeutic strategies investigated in the literature. Additionally, we investigate the propagation of CSD in the brain and its implications for neurological disorders. Furthermore, we discuss how data-driven approaches and artificial neural networks refine and validate models related to NDDs. Overall, this review underscores the significance of coupled multiscale models in deciphering disease mechanisms, offering potential avenues for therapeutic development and advancing our understanding of pathological brain dynamics.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2024,
-    "authors": "Hina Shaheen, Roderick Melnik",
-    "pmid": "",
-    "doi": "",
-    "review": true,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2410.23445v1",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 78,
-    "type": "Review",
-    "overview": "It is essential to understand the complex structure of the human brain to develop new treatment approaches for neurodegenerative disorders (NDDs).",
-    "did": [
-      "This review paper comprehensively discusses the challenges associated with modelling the complex brain networks and dynamic processes involved in NDDs, particularly Alzheimer's disease (AD), Parkinson's disease (PD), and cortical spreading depression (CSD).",
-      "We investigate how the brain's biological processes and associated multiphysics interact and how this influences the structure and functionality of the brain.",
-      "We review the literature on brain network models and dynamic processes, highlighting the need for sophisticated mathematical and statistical modelling techniques.",
-      "Specifically, we go through large-scale brain network models relevant to AD and PD, highlighting the pathological mechanisms and potential therapeutic strategies investigated in the literature."
-    ],
-    "main": "Additionally, we investigate the propagation of CSD in the brain and its implications for neurological disorders.",
-    "context": "Furthermore, we discuss how data-driven approaches and artificial neural networks refine and validate models related to NDDs.",
-    "why": "Matched topics: Disease mechanisms. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Disease mechanisms"
   },
   {
     "title": "Retrograde Ret signaling controls sensory pioneer axon outgrowth.",
@@ -8133,41 +8259,6 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Novel HEXB variant and first evidence of urinary Gb4 isoforms in Sandhoff disease: Biochemical and bioinformatic characterization in two Moroccan families.",
-    "abstract": "Sandhoff disease is a rare autosomal recessive lysosomal storage disorder caused by a deficiency of \u03b2-hexosaminidases A and B. These enzymes play a key role in the degradation of ganglioside GM2, GA2, globoside Gb4, and other glycolipids in neuronal and visceral tissues. Clinically, it is almost indistinguishable from Tay-Sachs disease, another disorder affecting hexosaminidase activity. We investigated two Moroccan families affected by Sandhoff disease through a multidisciplinary approach combining biochemical, chromatographic, bio-informatic, and genetic analyses. Urinary sphingolipids were characterized as potential biomarkers using thin-layer chromatography (TLC), high-performance liquid chromatography coupled to mass spectrometry (HPLC-MS/MS), and molecular networking. Enzyme activity of \u03b2-hexosaminidase A and total \u03b2-hexosaminidase were measured, and next-generation sequencing (NGS) was performed to identify disease-causing mutations in the HEXB gene. Lipidomic profiling of urinary extracts demonstrated accumulation of Gb4 and lactosylceramides. This is the first report showing that Gb4 isoforms are excreted in the urine of Sandhoff patients, highlighting their value as reliable, accessible and non-invasive biomarkers for resource-limited settings. Representative Gb4 isoforms were structurally assigned, and their exact molecular formulas were determined in patient urine. Enzyme essay revealed a marked reduction of \u03b2-hexosaminidase activity, consistent with Sandhoff disease. Molecular networking confirmed the abnormal sphingolipid signature. Genetic analysis identified a novel homozygous variant in the HEXB gene (c.1543A\u202f>\u202fC; p.Ser515Arg), associated with a severe clinical phenotype and early mortality. Our study expands the mutation spectrum of HEXB and provides first evidence of urinary Gb4 isoform excretion as potential biomarkers, demonstrating the utility of integrating urinary sphingolipid profiling with NGS.",
-    "journal": "Analytical biochemistry",
-    "year": 2026,
-    "authors": "Hammoud M, Rodrigues AMS, Assiri I, Najeh S, Jakani M, Berrachid A, Sabir ES, Lafhal K",
-    "pmid": "42167572",
-    "doi": "10.1016/j.ab.2026.116157",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42167572/",
-    "topic": "Neuronal lysosome",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Sandhoff disease is a rare autosomal recessive lysosomal storage disorder caused by a deficiency of \u03b2-hexosaminidases A and B.",
-    "did": [
-      "These enzymes play a key role in the degradation of ganglioside GM2, GA2, globoside Gb4, and other glycolipids in neuronal and visceral tissues.",
-      "Clinically, it is almost indistinguishable from Tay-Sachs disease, another disorder affecting hexosaminidase activity.",
-      "We investigated two Moroccan families affected by Sandhoff disease through a multidisciplinary approach combining biochemical, chromatographic, bio-informatic, and genetic analyses.",
-      "Urinary sphingolipids were characterized as potential biomarkers using thin-layer chromatography (TLC), high-performance liquid chromatography coupled to mass spectrometry (HPLC-MS/MS), and molecular networking."
-    ],
-    "main": "Enzyme activity of \u03b2-hexosaminidase A and total \u03b2-hexosaminidase were measured, and next-generation sequencing (NGS) was performed to identify disease-causing mutations in the HEXB gene.",
-    "context": "Lipidomic profiling of urinary extracts demonstrated accumulation of Gb4 and lactosylceramides.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
     "title": "Dual MDM2 and PPARG regulatory axes mediate the antiepileptic effects of Gouteng: An integration of bioinformatics, network pharmacology, machine learning, molecular docking, and MD simulations.",
     "abstract": "Gouteng is a traditional Chinese medicine widely used for the clinical treatment of epilepsy, yet the specific mechanism underlying its antiepileptic has not been elucidated. Network pharmacology, bioinformatics, machine learning, molecular docking, MD simulation, and ADMET druggability analysis were performed to systematically elucidate the molecular regulatory mechanism of Gouteng against epilepsy. The results showed that 29 active components of Gouteng collectively regulated 661 potential antiepileptic targets. Through screening with machine learning-based disease diagnostic model, MDM2 and PPARG as the core target genes mediating the antiepileptic effect of Gouteng were finally identified. Immune infiltration analysis confirmed that MDM2 and PPARG synergistically reshape the immune microenvironment of epileptic lesions, restrain excessive inflammatory responses, and maintain immune homeostasis and tolerance. Molecular docking and MD simulation revealed that the four core active components, namely Angustidine, Rhynchophylline A, vincoside lactam_qt, and coryincine, target the hydrophobic pocket of MDM2, with non-polar interactions serving as the primary driving factor for their interactions. ADMET analysis indicated that vincoside lactam_qt and coryincine exhibit favorable oral bioavailability, excellent blood-brain barrier permeability, and low hepatotoxicity, which make them potential antiepileptic candidate drugs with clinical translational potential. Most importantly, Gouteng exerts antiepileptic effects by targeting and regulating the dual MDM2-MDM4/TP53 and PPARG-NCOA1/RXRA regulatory axes, thereby mediating neuroinflammation inhibition and neuronal protection. Furthermore, TFAP2C as a common upstream transcription factor of both MDM2 and PPARG was identified. This study provides theoretical basis for the development of novel MDM2/PPARG-targeted antiepileptic drugs and for the clinical application of Gouteng.",
     "journal": "Neuropharmacology",
@@ -8799,41 +8890,6 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Continuous Energy Landscape Model for Analyzing Brain State Transitions",
-    "abstract": "Energy landscape models characterize neural dynamics by assigning energy values to each brain state that reflect their stability or probability of occurrence. The conventional energy landscape models rely on binary brain state representation, where each region is considered either active or inactive based on some signal threshold. However, this binarization leads to significant information loss and an exponential increase in the number of possible brain states, making the calculation of energy values infeasible for large numbers of brain regions. To overcome these limitations, we propose a novel continuous energy landscape framework that employs Graph Neural Networks (GNNs) to learn a continuous precision matrix directly from functional MRI (fMRI) signals, preserving the full range of signal values during energy landscape computation. We validated our approach using both synthetic data and real-world fMRI datasets from brain tumor patients. Our results on synthetic data generated from a switching linear dynamical system (SLDS) and a Kuramoto model show that the continuous energy model achieved higher likelihood and more accurate recovery of basin geometry, state occupancy, and transition dynamics than conventional binary energy landscape models. In addition, results from the fMRI dataset indicate a 0.27 increase in AUC for predicting working memory and executive function, along with a 0.35 improvement in explained variance (R2) for predicting reaction time. These findings highlight the advantages of utilizing the full signal values in energy landscape models for capturing neuronal dynamics, with strong implications for diagnosing and monitoring neurological disorders.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2026,
-    "authors": "Triet M. Tran, Seyed Majid Razavi, Dee H. Wu, Sina Khanmohammadi",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2601.06991v1",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Energy landscape models characterize neural dynamics by assigning energy values to each brain state that reflect their stability or probability of occurrence.",
-    "did": [
-      "The conventional energy landscape models rely on binary brain state representation, where each region is considered either active or inactive based on some signal threshold.",
-      "However, this binarization leads to significant information loss and an exponential increase in the number of possible brain states, making the calculation of energy values infeasible for large numbers of brain regions.",
-      "To overcome these limitations, we propose a novel continuous energy landscape framework that employs Graph Neural Networks (GNNs) to learn a continuous precision matrix directly from functional MRI (fMRI) signals, preserving the full range of signal values during energy landscape computation.",
-      "We validated our approach using both synthetic data and real-world fMRI datasets from brain tumor patients."
-    ],
-    "main": "Our results on synthetic data generated from a switching linear dynamical system (SLDS) and a Kuramoto model show that the continuous energy model achieved higher likelihood and more accurate recovery of basin geometry, state occupancy, and transition dynamics than conventional binary energy landscape models.",
-    "context": "In addition, results from the fMRI dataset indicate a 0.27 increase in AUC for predicting working memory and executive function, along with a 0.35 improvement in explained variance (R2) for predicting reaction time.",
-    "why": "Matched topics: Neurological disorders. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
     "title": "Essential function of Nr4a2 in subicular development and social novelty.",
     "abstract": "INTRODUCTION: The subicular regions are a major output hub of the hippocampus. Recent studies have shown that subicular neurons are highly diverse in their gene expression patterns, neural circuitry, and electrophysiological properties. However, the developmental transcriptional program underlying their specification remains poorly understood. OBJECTIVES: To delineate how the orphan nuclear receptor Nr4a2 orchestrates both the developmental specification and functional maintenance of subicular neurons, and to uncover the underlying molecular mechanisms. METHODS: Nr4a2 conditional knockout (CKO) mice and adult subicular-specific AAV-Nr4a2 CKO mice were comprehensively profiled using RNA-seq, CUT&Tag, immunohistochemistry, slice electrophysiology, and behavioural assays to elucidate the developmental and functional sequelae of Nr4a2 ablation. RESULTS: In this study, using conditional genetic models targeting the orphan nuclear receptor Nr4a2, we demonstrate that Nr4a2 is essential for both the acquisition and maintenance of the molecular identity of subiculum proper (Sub) neurons, as well as for establishing its connectivity with the retrosplenial cortex (Rsp) during embryonic development and adulthood. Loss of Nr4a2 in subicular regions results in deficits in social novelty in mice. Furthermore, we show that Nr4a2 can directly bind to the promoters of Sub-enriched genes and promote their transcription in vivo. CONCLUSION: Together, these findings reveal a pivotal role for Nr4a2 in establishing the genetic identity and connectivity of Sub neurons and suggest that its dysfunction may contribute to hippocampus-related neurodevelopmental disorders.",
     "journal": "Journal of advanced research",
@@ -9184,6 +9240,41 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
+    "title": "Gain-of-function mutation of type 2 ryanodine receptor attenuates dopaminergic neuron development associated with Ca2+ overload-triggered oxidative damage in mitochondria.",
+    "abstract": "Type 2 ryanodine receptor (RyR2), a Ca2+ release channel located in the endoplasmic reticulum (ER) membrane, expresses catecholamine-induced polymorphic ventricular tachycardia (CPVT), and is a potential risk factor of autism spectrum disorder (ASD). However, the pathological relationship between RyR2 mutation-induced Ca2+ dysregulation and ASD pathology remains unclear. This study examined the association between CPVT-related RyR2 mutations and ASD pathology to determine its dopaminergic pathological role in ASD. Patient-derived stem cells from human exfoliated deciduous teeth were obtained from a boy with comorbid CPVT and ASD, and differentiated to dopaminergic neurons (RyR2-DNs). Two heterozygous missense mutations were identified in RyR2: c.9910C\u202f>\u202fG, p.Q3304E in exon 69 and c.14222C\u202f>\u202fT, p.A4741V in exon 99 (RyR269/99). RyR2-DNs showed cytosolic and mitochondrial Ca2+ accumulation, and impaired neurite outgrowth, suggesting that RyR269/99 is a gain-of-function mutation that promotes Ca2+ release from the ER and attenuates neurite development. RyR2-DNs also exhibited increased mitochondrial reactive oxygen species along with impaired mitochondrial oxidative phosphorylation. These mitochondrial abnormalities and neurite outgrowth were managed by pharmacological intervention of mitochondrial Ca2+ accumulation. Thus, RyR2 hyper-activation-induced mitochondrial Ca2+ overload may cause oxidative stress-related mitochondrial dysfunction, impairing DN development and dopaminergic dysregulation in ASD.",
+    "journal": "Biochemical and biophysical research communications",
+    "year": 2026,
+    "authors": "Ito Y, Dong S, Kato H, Zhou Z, Wang L, Hirofuji Y, Sato H, Chong PF",
+    "pmid": "42574940",
+    "doi": "10.1016/j.bbrc.2026.154416",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42574940/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Type 2 ryanodine receptor (RyR2), a Ca2+ release channel located in the endoplasmic reticulum (ER) membrane, expresses catecholamine-induced polymorphic ventricular tachycardia (CPVT), and is a potential risk factor of autism spectrum disorder (ASD).",
+    "did": [
+      "However, the pathological relationship between RyR2 mutation-induced Ca2+ dysregulation and ASD pathology remains unclear.",
+      "This study examined the association between CPVT-related RyR2 mutations and ASD pathology to determine its dopaminergic pathological role in ASD.",
+      "Patient-derived stem cells from human exfoliated deciduous teeth were obtained from a boy with comorbid CPVT and ASD, and differentiated to dopaminergic neurons (RyR2-DNs).",
+      "Two heterozygous missense mutations were identified in RyR2: c.9910C\u202f>\u202fG, p.Q3304E in exon 69 and c.14222C\u202f>\u202fT, p.A4741V in exon 99 (RyR269/99)."
+    ],
+    "main": "RyR2-DNs showed cytosolic and mitochondrial Ca2+ accumulation, and impaired neurite outgrowth, suggesting that RyR269/99 is a gain-of-function mutation that promotes Ca2+ release from the ER and attenuates neurite development.",
+    "context": "RyR2-DNs also exhibited increased mitochondrial reactive oxygen species along with impaired mitochondrial oxidative phosphorylation.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
     "title": "Repopulating microglia recapitulate developmental characteristics during a period of auditory circuit recovery.",
     "abstract": "Precision in auditory brainstem circuitry is essential for sound localization and higher levels of processing. Assembly of this circuitry requires specialized developmental mechanisms, including multipartite signaling between neurons and glia. Microglia populate the developing auditory brainstem nuclei lateromedially, appearing first in the ventral cochlear nucleus, and later in the medial nucleus of the trapezoid body. Microglia increase in number just after hearing onset, then reduce to stable levels following a period of synaptic refinement. We previously showed that early microglia depletion impaired synaptic pruning and auditory brainstem responses. Microglial repopulation, which occurred significantly later than normal development, restored these deficits. This finding suggests that microglia take on developmental roles to reinstate circuit assembly outside of the normal development timeframe. To begin unravelling this phenomenon, we compared morphology and phagocytosis in developing and repopulating microglia. We used CX3CR1+/EGFP mice and characterized individual microglia throughout the postnatal period in control mice and in mice with repopulating microglia. We tested whether repopulating microglia recapitulate developmental qualities by measuring microglial surface area, volume, branching, and lysosomes. We found that infiltrating microglia acquire developmental properties during synaptic refinement, even beyond the normal auditory development timeframe.",
     "journal": "Hearing research",
@@ -9217,41 +9308,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "Foundation models for discovering robust biomarkers of neurological disorders from dynamic functional connectivity",
-    "abstract": "Several brain foundation models (FM) have recently been proposed to predict brain disorders by modelling dynamic functional connectivity (FC). While they demonstrate remarkable model performance and zero- or few-shot generalization, the salient features identified as potential biomarkers are yet to be thoroughly evaluated. We propose RE-CONFIRM, a framework for evaluating the robustness of potential biomarker candidates elucidated by deep learning (DL) models including FMs. From experiments on five large datasets of Autism Spectrum Disorder (ASD), Attention-deficit Hyperactivity Disorder (ADHD), and Alzheimer's Disease (AD), we found that although commonly used performance metrics provide an intuitive assessment of model predictions, they are insufficient for evaluating the robustness of biomarkers identified by these models. RE-CONFIRM metrics revealed that simply finetuning FMs leads to models that fail to capture regional hubs effectively, even in disorders where hubs are known to be implicated, such as ASD and ADHD. In view of this, we propose Hub-LoRA (Low-Rank Adaptation) as a fine-tuning technique that enables FMs to not only outperform customised DL models but also produce neurobiologically faithful biomarkers supported by meta-analyses. RE-CONFIRM is generalizable and can be easily applied to ascertain the robustness of DL models trained on functional MRI datasets. Code is available at: https://github.com/SCSE-Biomedical-Computing-Group/RE-CONFIRM.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2026,
-    "authors": "Deepank Girish, Yi Hao Chan, Sukrit Gupta, Jing Xia, Jagath C. Rajapakse",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2604.22018v1",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Several brain foundation models (FM) have recently been proposed to predict brain disorders by modelling dynamic functional connectivity (FC).",
-    "did": [
-      "While they demonstrate remarkable model performance and zero- or few-shot generalization, the salient features identified as potential biomarkers are yet to be thoroughly evaluated.",
-      "We propose RE-CONFIRM, a framework for evaluating the robustness of potential biomarker candidates elucidated by deep learning (DL) models including FMs.",
-      "From experiments on five large datasets of Autism Spectrum Disorder (ASD), Attention-deficit Hyperactivity Disorder (ADHD), and Alzheimer's Disease (AD), we found that although commonly used performance metrics provide an intuitive assessment of model predictions, they are insufficient for evaluating the robustness of biomarkers identified by these models.",
-      "RE-CONFIRM metrics revealed that simply finetuning FMs leads to models that fail to capture regional hubs effectively, even in disorders where hubs are known to be implicated, such as ASD and ADHD."
-    ],
-    "main": "In view of this, we propose Hub-LoRA (Low-Rank Adaptation) as a fine-tuning technique that enables FMs to not only outperform customised DL models but also produce neurobiologically faithful biomarkers supported by meta-analyses.",
-    "context": "RE-CONFIRM is generalizable and can be easily applied to ascertain the robustness of DL models trained on functional MRI datasets.",
-    "why": "Matched topics: Neurological disorders. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Maternal diet shapes neonatal microbiome ontogenesis and neurometabolic resilience.",
@@ -9318,6 +9374,41 @@
     ],
     "main": "Conversely, hippocampal GPR55 overexpression rescued cognitive deficits, neuroinflammation, and impairment of synaptic plasticity in APP/PS1 mice.",
     "context": "Moreover, GPR55 activation reduced neuronal death and memory impairments in APP/PS1 mice.",
+    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Dual-engineered imDC-exosome-IKVAV nanovesicles spatiotemporally remodel the neuro-immune microenvironment for spinal cord repair.",
+    "abstract": "Spinal cord injury (SCI) leads to long-term neurological deficits, largely because secondary inflammation and poor intrinsic regeneration prevent effective tissue repair. Existing treatments, including drugs, cell transplantation, and conventional biomaterials, remain limited by insufficient efficacy, safety concerns, and weak coordination between immune regulation and neural reconstruction. Here, we developed an engineered extracellular vesicle platform by decorating immature dendritic cell-derived exosomes with the laminin-mimetic IKVAV peptide via bioorthogonal click chemistry. The resulting imDC-Exo-IKVAV preserved typical exosomal characteristics while integrating the tolerogenic features of imDC-Exo with IKVAV-mediated regenerative cues. In vitro, imDC-Exo-IKVAV reduced macrophage inflammatory activation, promoted an anti-inflammatory phenotype, and enhanced neural stem cell neuronal differentiation. After administration in SCI mice, imDC-Exo-IKVAV accumulated at the injured spinal cord and improved locomotor recovery. Mechanistically, this platform alleviated macrophage infiltration and inflammatory cytokine production, promoted M2-like polarization, enhanced axonal regeneration and remyelination, and restored electrophysiological conduction. These findings suggest that imDC-Exo-IKVAV offers a cell-free therapeutic strategy for SCI by coordinating immune microenvironment remodeling with neural repair.",
+    "journal": "Colloids and surfaces. B, Biointerfaces",
+    "year": 2026,
+    "authors": "Huakun Z, Hao W, Rongyao Y",
+    "pmid": "42462380",
+    "doi": "10.1016/j.colsurfb.2026.115982",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42462380/",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Spinal cord injury (SCI) leads to long-term neurological deficits, largely because secondary inflammation and poor intrinsic regeneration prevent effective tissue repair.",
+    "did": [
+      "Existing treatments, including drugs, cell transplantation, and conventional biomaterials, remain limited by insufficient efficacy, safety concerns, and weak coordination between immune regulation and neural reconstruction.",
+      "Here, we developed an engineered extracellular vesicle platform by decorating immature dendritic cell-derived exosomes with the laminin-mimetic IKVAV peptide via bioorthogonal click chemistry.",
+      "The resulting imDC-Exo-IKVAV preserved typical exosomal characteristics while integrating the tolerogenic features of imDC-Exo with IKVAV-mediated regenerative cues.",
+      "In vitro, imDC-Exo-IKVAV reduced macrophage inflammatory activation, promoted an anti-inflammatory phenotype, and enhanced neural stem cell neuronal differentiation."
+    ],
+    "main": "After administration in SCI mice, imDC-Exo-IKVAV accumulated at the injured spinal cord and improved locomotor recovery.",
+    "context": "Mechanistically, this platform alleviated macrophage infiltration and inflammatory cytokine production, promoted M2-like polarization, enhanced axonal regeneration and remyelination, and restored electrophysiological conduction.",
     "why": "Matched topics: Neurological disorders. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
@@ -9744,73 +9835,6 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Discovery of a mutation-containing circRNA in polyglutamine disease through systematic analysis of RNAs with CAG repeats.",
-    "abstract": "CAG repeat tracts occur in both non-coding and translated RNAs, have tended to lengthen throughout evolution, and are thought to enhance neuronal function. We identified over 600\u00a0human RNAs (including mRNAs, lncRNAs, and circRNAs) with at least 10 CAG repeats, originating from 58 genomic loci, which vary, e.g. in the rate of CAG length polymorphism. Several circRNAs originate from the ATXN7 locus, where CAG expansion causes spinocerebellar ataxia type 7 (SCA7). For selected circATXN7(3,4).1 (circ1), we demonstrated its cytoplasmic localization, as well as its presence in 40S, monosome and polysome fractions. We showed that circ1 is expressed in human fibroblasts, blood and cerebellum, and, importantly, we identified a mutation-containing circRNA with potential implications in SCA7.",
-    "journal": "RNA biology",
-    "year": 2026,
-    "authors": "Pawlik W, Wo\u017ana-Wysocka M, Jazurek-Ciesio\u0142ka M, Dulski J, Witko\u015b TM, Cio\u0142ak A, Koz\u0142owska E, Ko\u015bcia\u0144ska E",
-    "pmid": "42340810",
-    "doi": "10.1080/15476286.2026.2684791",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42340810/",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "CAG repeat tracts occur in both non-coding and translated RNAs, have tended to lengthen throughout evolution, and are thought to enhance neuronal function.",
-    "did": [
-      "We identified over 600\u00a0human RNAs (including mRNAs, lncRNAs, and circRNAs) with at least 10 CAG repeats, originating from 58 genomic loci, which vary, e.g.",
-      "in the rate of CAG length polymorphism.",
-      "Several circRNAs originate from the ATXN7 locus, where CAG expansion causes spinocerebellar ataxia type 7 (SCA7).",
-      "For selected circATXN7(3,4).1 (circ1), we demonstrated its cytoplasmic localization, as well as its presence in 40S, monosome and polysome fractions."
-    ],
-    "main": "We showed that circ1 is expressed in human fibroblasts, blood and cerebellum, and, importantly, we identified a mutation-containing circRNA with potential implications in SCA7.",
-    "context": "We showed that circ1 is expressed in human fibroblasts, blood and cerebellum, and, importantly, we identified a mutation-containing circRNA with potential implications in SCA7.",
-    "why": "Matched topics: Neurological disorders. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "A new perspective on the regulation of glucose and cholesterol transport by mitochondria-lysosome contact sites - Frontiers",
-    "abstract": " A new perspective on the regulation of glucose and cholesterol transport by mitochondria-lysosome contact sites \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
-    "year": 2026,
-    "authors": "Frontiers",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Lysosome transport"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZFVEZUFYMzVkYTJoZk9OSkt2TGJVVnl0UEprRExfSWNFQ0hUZFk5cmstSUxYWDR6clVQTl9UUWprREVMc29TVTF5WFFaY1R6dXM1UGtZNlpfS253ODEyRWtPVGQ0ZUxORDk5Vko3aXFnS1ltWmlFdE53SFp1MDVfWnVKTFZpdFJ5Y3JCYURhRG1kdw?oc=5",
-    "topic": "Lysosome transport",
-    "top": false,
-    "score": 76,
-    "type": "News / signal",
-    "overview": "A new perspective on the regulation of glucose and cholesterol transport by mitochondria-lysosome contact sites \u00a0\u00a0 Frontiers",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "A new perspective on the regulation of glucose and cholesterol transport by mitochondria-lysosome contact sites \u00a0\u00a0 Frontiers",
-    "context": "A new perspective on the regulation of glucose and cholesterol transport by mitochondria-lysosome contact sites \u00a0\u00a0 Frontiers",
-    "why": "Matched topics: Lysosome transport. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Lysosome transport"
-  },
-  {
     "title": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis - Rockefeller University Press",
     "abstract": " Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press ",
     "journal": "Rockefeller University Press",
@@ -9837,38 +9861,6 @@
     ],
     "main": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
     "context": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
-    "why": "Matched topics: Lysosome transport. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Lysosome transport"
-  },
-  {
-    "title": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium - advanced.onlinelibrary.wiley.com",
-    "abstract": " Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 advanced.onlinelibrary.wiley.com ",
-    "journal": "advanced.onlinelibrary.wiley.com",
-    "year": 2026,
-    "authors": "advanced.onlinelibrary.wiley.com",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Lysosome transport"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RcV9tMnRZaUlkOUROemo5UzJaQTFLOGROX2pNOWZ3UjBGUDhZeFRNSEZaNURMd2l5am9pZHI3VlJnV01ZOUdZY2FCRGFGTm5fRzNvUkJQdjNmZUVvazBRZ3hpZmdZbWkwbi1La0JYbnNBeXpIbGc?oc=5",
-    "topic": "Lysosome transport",
-    "top": false,
-    "score": 76,
-    "type": "News / signal",
-    "overview": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 advanced.onlinelibrary.wiley.com",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 advanced.onlinelibrary.wiley.com",
-    "context": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 advanced.onlinelibrary.wiley.com",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -9905,6 +9897,71 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "Lysosome trafficking across intracellular and intercellular networks in the brain - Frontiers",
+    "abstract": " Lysosome trafficking across intracellular and intercellular networks in the brain \u00a0\u00a0 Frontiers ",
+    "journal": "Frontiers",
+    "year": 2026,
+    "authors": "Frontiers",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Lysosome transport",
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORS1vN2dWZHZhb2JvU3dULWxuS0JITFdOMHFrUTZDSGUyX2hBZlBtQThzYW9Gc1pyanNHV19sa19CQkhuSDEtMms1YlRxNkR0WkhFSVhJa0E3ejJrdjJQUDdRN1ZoeFNvSVlPRjdDeDVnWWdOd3p4V2NBeDFVbV9pc3NKcGNrdWEtcllFZjRhM2F2ZHRrWnpJeGVlcEdsdVNyM2c?oc=5",
+    "topic": "Lysosome transport",
+    "top": false,
+    "score": 76,
+    "type": "News / signal",
+    "overview": "Lysosome trafficking across intracellular and intercellular networks in the brain \u00a0\u00a0 Frontiers",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Lysosome trafficking across intracellular and intercellular networks in the brain \u00a0\u00a0 Frontiers",
+    "context": "Lysosome trafficking across intracellular and intercellular networks in the brain \u00a0\u00a0 Frontiers",
+    "why": "Matched topics: Lysosome transport, Neuronal lysosome. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Lysosome transport, Neuronal lysosome"
+  },
+  {
+    "title": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium - Wiley & Sons",
+    "abstract": " Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons ",
+    "journal": "Wiley & Sons",
+    "year": 2026,
+    "authors": "Wiley & Sons",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Lysosome transport"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RcV9tMnRZaUlkOUROemo5UzJaQTFLOGROX2pNOWZ3UjBGUDhZeFRNSEZaNURMd2l5am9pZHI3VlJnV01ZOUdZY2FCRGFGTm5fRzNvUkJQdjNmZUVvazBRZ3hpZmdZbWkwbi1La0JYbnNBeXpIbGc?oc=5",
+    "topic": "Lysosome transport",
+    "top": false,
+    "score": 76,
+    "type": "News / signal",
+    "overview": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons",
+    "context": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons",
+    "why": "Matched topics: Lysosome transport. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Lysosome transport"
   },
   {
     "title": "Molecular basis of Spns1-mediated lysophospholipid transport from the lysosome - PNAS",
@@ -10003,249 +10060,36 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Comparing and Scaling fMRI Features for Brain-Behavior Prediction",
-    "abstract": "Predicting behavioral variables from neuroimaging modalities such as magnetic resonance imaging (MRI) has the potential to allow the development of neuroimaging biomarkers of mental and neurological disorders. A crucial processing step to this aim is the extraction of suitable features. These can differ in how well they predict the target of interest, and how this prediction scales with sample size and scan time. Here, we compare nine feature subtypes extracted from resting-state functional MRI recordings for behavior prediction, ranging from regional measures of functional activity to functional connectivity (FC) and metrics derived with graph signal processing (GSP), a principled approach for the extraction of structure-informed functional features. We study 979 subjects from the Human Connectome Project Young Adult dataset, predicting summary scores for mental health, cognition, processing speed, and substance use, as well as age and sex. The scaling properties of the features are investigated for different combinations of sample size and scan time. FC comes out as the best feature for predicting cognition, age, and sex. Graph power spectral density is the second best for predicting cognition and age, while for sex, variability-based features show potential as well. When predicting sex, the low-pass graph filtered coupled FC slightly outperforms the simple FC variant. None of the other targets were predicted significantly. The scaling results point to higher performance reserves for the better-performing features. They also indicate that it is important to balance sample size and scan time when acquiring data for prediction studies. The results confirm FC as a robust feature for behavior prediction, but also show the potential of GSP and variability-based measures. We discuss the implications for future prediction studies in terms of strategies for acquisition and sample composition.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2025,
-    "authors": "Mikkel Sch\u00f6ttner Sieler, Thomas A. W. Bolton, Jagruti Patel, Patric Hagmann",
-    "pmid": "",
-    "doi": "",
+    "title": "Diagnostic odyssey in type B Kufs disease: From autoimmune encephalitis mimicry to a frontotemporal dementia phenotype.",
+    "abstract": "",
+    "journal": "Parkinsonism & related disorders",
+    "year": 2026,
+    "authors": "Sachithanandan S, Koshy K, Krishnan S, Vijayaraghavan A",
+    "pmid": "42567023",
+    "doi": "10.1016/j.parkreldis.2026.108908",
     "review": false,
     "matched_topics": [
-      "Neurological disorders"
+      "Neuronal lysosome"
     ],
     "sources": [
-      "arXiv"
+      "PubMed"
     ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2507.20601v1",
-    "topic": "Neurological disorders",
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42567023/",
+    "topic": "Neuronal lysosome",
     "top": false,
     "score": 76,
     "type": "Primary research",
-    "overview": "Predicting behavioral variables from neuroimaging modalities such as magnetic resonance imaging (MRI) has the potential to allow the development of neuroimaging biomarkers of mental and neurological disorders.",
+    "overview": "Summary not available from the current record.",
     "did": [
-      "A crucial processing step to this aim is the extraction of suitable features.",
-      "These can differ in how well they predict the target of interest, and how this prediction scales with sample size and scan time.",
-      "Here, we compare nine feature subtypes extracted from resting-state functional MRI recordings for behavior prediction, ranging from regional measures of functional activity to functional connectivity (FC) and metrics derived with graph signal processing (GSP), a principled approach for the extraction of structure-informed functional features.",
-      "We study 979 subjects from the Human Connectome Project Young Adult dataset, predicting summary scores for mental health, cognition, processing speed, and substance use, as well as age and sex."
+      "Detailed abstract text is not available for this record yet."
     ],
-    "main": "The scaling properties of the features are investigated for different combinations of sample size and scan time.",
-    "context": "FC comes out as the best feature for predicting cognition, age, and sex.",
-    "why": "Matched topics: Neurological disorders. Sources: arXiv.",
+    "main": "Main message requires fuller source text.",
+    "context": "Context not available from the current metadata.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "ROIsGAN: A Region Guided Generative Adversarial Framework for Murine Hippocampal Subregion Segmentation",
-    "abstract": "The hippocampus, a critical brain structure involved in memory processing and various neurodegenerative and psychiatric disorders, comprises three key subregions: the dentate gyrus (DG), Cornu Ammonis 1 (CA1), and Cornu Ammonis 3 (CA3). Accurate segmentation of these subregions from histological tissue images is essential for advancing our understanding of disease mechanisms, developmental dynamics, and therapeutic interventions. However, no existing methods address the automated segmentation of hippocampal subregions from tissue images, particularly from immunohistochemistry (IHC) images. To bridge this gap, we introduce a novel set of four comprehensive murine hippocampal IHC datasets featuring distinct staining modalities: cFos, NeuN, and multiplexed stains combining cFos, NeuN, and either \u0394FosB or GAD67, capturing structural, neuronal activity, and plasticity associated information. Additionally, we propose ROIsGAN, a region-guided U-Net-based generative adversarial network tailored for hippocampal subregion segmentation. By leveraging adversarial learning, ROIsGAN enhances boundary delineation and structural detail refinement through a novel region-guided discriminator loss combining Dice and binary cross-entropy loss. Evaluated across DG, CA1, and CA3 subregions, ROIsGAN consistently outperforms conventional segmentation models, achieving performance gains ranging from 1-10% in Dice score and up to 11% in Intersection over Union (IoU), particularly under challenging staining conditions. Our work establishes foundational datasets and methods for automated hippocampal segmentation, enabling scalable, high-precision analysis of tissue images in neuroscience research. Our generated datasets, proposed model as a standalone tool, and its corresponding source code are publicly available at: https://github.com/MehediAzim/ROIsGAN",
-    "journal": "arXiv q-bio.NC",
-    "year": 2025,
-    "authors": "Sayed Mehedi Azim, Brian Corbett, Iman Dehzangi",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2505.10687v1",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "The hippocampus, a critical brain structure involved in memory processing and various neurodegenerative and psychiatric disorders, comprises three key subregions: the dentate gyrus (DG), Cornu Ammonis 1 (CA1), and Cornu Ammonis 3 (CA3).",
-    "did": [
-      "Accurate segmentation of these subregions from histological tissue images is essential for advancing our understanding of disease mechanisms, developmental dynamics, and therapeutic interventions.",
-      "However, no existing methods address the automated segmentation of hippocampal subregions from tissue images, particularly from immunohistochemistry (IHC) images.",
-      "To bridge this gap, we introduce a novel set of four comprehensive murine hippocampal IHC datasets featuring distinct staining modalities: cFos, NeuN, and multiplexed stains combining cFos, NeuN, and either \u0394FosB or GAD67, capturing structural, neuronal activity, and plasticity associated information.",
-      "Additionally, we propose ROIsGAN, a region-guided U-Net-based generative adversarial network tailored for hippocampal subregion segmentation."
-    ],
-    "main": "By leveraging adversarial learning, ROIsGAN enhances boundary delineation and structural detail refinement through a novel region-guided discriminator loss combining Dice and binary cross-entropy loss.",
-    "context": "Evaluated across DG, CA1, and CA3 subregions, ROIsGAN consistently outperforms conventional segmentation models, achieving performance gains ranging from 1-10% in Dice score and up to 11% in Intersection over Union (IoU), particularly under challenging staining conditions.",
-    "why": "Matched topics: Disease mechanisms. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "ConnectomeDiffuser: Generative AI Enables Brain Network Construction from Diffusion Tensor Imaging",
-    "abstract": "Brain network analysis plays a crucial role in diagnosing and monitoring neurodegenerative disorders such as Alzheimer's disease (AD). Existing approaches for constructing structural brain networks from diffusion tensor imaging (DTI) often rely on specialized toolkits that suffer from inherent limitations: operator subjectivity, labor-intensive workflows, and restricted capacity to capture complex topological features and disease-specific biomarkers. To overcome these challenges and advance computational neuroimaging instrumentation, ConnectomeDiffuser is proposed as a novel diffusion-based framework for automated end-to-end brain network construction from DTI. The proposed model combines three key components: (1) a Template Network that extracts topological features from 3D DTI scans using Riemannian geometric principles, (2) a diffusion model that generates comprehensive brain networks with enhanced topological fidelity, and (3) a Graph Convolutional Network classifier that incorporates disease-specific markers to improve diagnostic accuracy. ConnectomeDiffuser demonstrates superior performance by capturing a broader range of structural connectivity and pathology-related information, enabling more sensitive analysis of individual variations in brain networks. Experimental validation on datasets representing two distinct neurodegenerative conditions demonstrates significant performance improvements over other brain network methods. This work contributes to the advancement of instrumentation in the context of neurological disorders, providing clinicians and researchers with a robust, generalizable measurement framework that facilitates more accurate diagnosis, deeper mechanistic understanding, and improved therapeutic monitoring of neurodegenerative diseases such as AD.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2025,
-    "authors": "Xuhang Chen, Michael Kwok-Po Ng, Kim-Fung Tsang, Chi-Man Pun, Shuqiang Wang",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2505.22683v1",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Brain network analysis plays a crucial role in diagnosing and monitoring neurodegenerative disorders such as Alzheimer's disease (AD).",
-    "did": [
-      "Existing approaches for constructing structural brain networks from diffusion tensor imaging (DTI) often rely on specialized toolkits that suffer from inherent limitations: operator subjectivity, labor-intensive workflows, and restricted capacity to capture complex topological features and disease-specific biomarkers.",
-      "To overcome these challenges and advance computational neuroimaging instrumentation, ConnectomeDiffuser is proposed as a novel diffusion-based framework for automated end-to-end brain network construction from DTI.",
-      "The proposed model combines three key components: (1) a Template Network that extracts topological features from 3D DTI scans using Riemannian geometric principles, (2) a diffusion model that generates comprehensive brain networks with enhanced topological fidelity, and (3) a Graph Convolutional Network classifier that incorporates disease-specific markers to improve diagnostic accuracy.",
-      "ConnectomeDiffuser demonstrates superior performance by capturing a broader range of structural connectivity and pathology-related information, enabling more sensitive analysis of individual variations in brain networks."
-    ],
-    "main": "Experimental validation on datasets representing two distinct neurodegenerative conditions demonstrates significant performance improvements over other brain network methods.",
-    "context": "This work contributes to the advancement of instrumentation in the context of neurological disorders, providing clinicians and researchers with a robust, generalizable measurement framework that facilitates more accurate diagnosis, deeper mechanistic understanding, and improved therapeutic monitoring of neurodegenerative diseases such as AD.",
-    "why": "Matched topics: Neurological disorders. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Automatic detection of abnormal clinical EEG: comparison of a finetuned foundation model with two deep learning models",
-    "abstract": "Electroencephalography (EEG) is commonly used by physicians for the diagnosis of numerous neurological disorders. Due to the large volume of EEGs requiring interpretation and the specific expertise involved, artificial intelligence-based tools are being developed to assist in their visual analysis. In this paper, we compare two deep learning models (CNN-LSTM and Transformer-based) with BioSerenity-E1, a recently proposed foundation model, in the task of classifying entire EEG recordings as normal or abnormal. The three models were trained or finetuned on 2,500 EEG recordings and their performances were evaluated on two private and one public datasets: a large multicenter dataset annotated by a single specialist (dataset A composed of n = 4,480 recordings), a small multicenter dataset annotated by three specialists (dataset B, n = 198), and the Temple University Abnormal (TUAB) EEG corpus evaluation dataset (n = 276). On dataset A, the three models achieved at least 86% balanced accuracy, with BioSerenity-E1 finetuned achieving the highest balanced accuracy (89.19% [88.36-90.41]). BioSerenity-E1 finetuned also achieved the best performance on dataset B, with 94.63% [92.32-98.12] balanced accuracy. The models were then validated on TUAB evaluation dataset, whose corresponding training set was not used during training, where they achieved at least 76% accuracy. Specifically, BioSerenity-E1 finetuned outperformed the other two models, reaching an accuracy of 82.25% [78.27-87.48]. Our results highlight the usefulness of leveraging pre-trained models for automatic EEG classification: enabling robust and efficient interpretation of EEG data with fewer resources and broader applicability.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2025,
-    "authors": "Aurore Bussalb, Fran\u00e7ois Le Gac, Guillaume Jubien, Mohamed Rahmouni, Ruggero G. Bettinardi, Pedro Marinho R. de Oliveira, Phillipe Derambure, Nicolas Gaspard, Jacques Jonas, Louis Maillard, Laurent Vercueil, Herv\u00e9 Vespignani, Philippe Laval, Laurent Koessler, Ulysse Gimenez",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2505.21507v1",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Electroencephalography (EEG) is commonly used by physicians for the diagnosis of numerous neurological disorders.",
-    "did": [
-      "Due to the large volume of EEGs requiring interpretation and the specific expertise involved, artificial intelligence-based tools are being developed to assist in their visual analysis.",
-      "In this paper, we compare two deep learning models (CNN-LSTM and Transformer-based) with BioSerenity-E1, a recently proposed foundation model, in the task of classifying entire EEG recordings as normal or abnormal.",
-      "The three models were trained or finetuned on 2,500 EEG recordings and their performances were evaluated on two private and one public datasets: a large multicenter dataset annotated by a single specialist (dataset A composed of n = 4,480 recordings), a small multicenter dataset annotated by three specialists (dataset B, n = 198), and the Temple University Abnormal (TUAB) EEG corpus evaluation dataset (n = 276).",
-      "On dataset A, the three models achieved at least 86% balanced accuracy, with BioSerenity-E1 finetuned achieving the highest balanced accuracy (89.19% [88.36-90.41])."
-    ],
-    "main": "BioSerenity-E1 finetuned also achieved the best performance on dataset B, with 94.63% [92.32-98.12] balanced accuracy.",
-    "context": "The models were then validated on TUAB evaluation dataset, whose corresponding training set was not used during training, where they achieved at least 76% accuracy.",
-    "why": "Matched topics: Neurological disorders. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "BrainPrompt: Multi-Level Brain Prompt Enhancement for Neurological Condition Identification",
-    "abstract": "Neurological conditions, such as Alzheimer's Disease, are challenging to diagnose, particularly in the early stages where symptoms closely resemble healthy controls. Existing brain network analysis methods primarily focus on graph-based models that rely solely on imaging data, which may overlook important non-imaging factors and limit the model's predictive power and interpretability. In this paper, we present BrainPrompt, an innovative framework that enhances Graph Neural Networks (GNNs) by integrating Large Language Models (LLMs) with knowledge-driven prompts, enabling more effective capture of complex, non-imaging information and external knowledge for neurological disease identification. BrainPrompt integrates three types of knowledge-driven prompts: (1) ROI-level prompts to encode the identity and function of each brain region, (2) subject-level prompts that incorporate demographic information, and (3) disease-level prompts to capture the temporal progression of disease. By leveraging these multi-level prompts, BrainPrompt effectively harnesses knowledge-enhanced multi-modal information from LLMs, enhancing the model's capability to predict neurological disease stages and meanwhile offers more interpretable results. We evaluate BrainPrompt on two resting-state functional Magnetic Resonance Imaging (fMRI) datasets from neurological disorders, showing its superiority over state-of-the-art methods. Additionally, a biomarker study demonstrates the framework's ability to extract valuable and interpretable information aligned with domain knowledge in neuroscience. The code is available at https://github.com/AngusMonroe/BrainPrompt",
-    "journal": "arXiv q-bio.NC",
-    "year": 2025,
-    "authors": "Jiaxing Xu, Kai He, Yue Tang, Wei Li, Mengcheng Lan, Xia Dong, Yiping Ke, Mengling Feng",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2504.16096v2",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Neurological conditions, such as Alzheimer's Disease, are challenging to diagnose, particularly in the early stages where symptoms closely resemble healthy controls.",
-    "did": [
-      "Existing brain network analysis methods primarily focus on graph-based models that rely solely on imaging data, which may overlook important non-imaging factors and limit the model's predictive power and interpretability.",
-      "In this paper, we present BrainPrompt, an innovative framework that enhances Graph Neural Networks (GNNs) by integrating Large Language Models (LLMs) with knowledge-driven prompts, enabling more effective capture of complex, non-imaging information and external knowledge for neurological disease identification.",
-      "BrainPrompt integrates three types of knowledge-driven prompts: (1) ROI-level prompts to encode the identity and function of each brain region, (2) subject-level prompts that incorporate demographic information, and (3) disease-level prompts to capture the temporal progression of disease.",
-      "By leveraging these multi-level prompts, BrainPrompt effectively harnesses knowledge-enhanced multi-modal information from LLMs, enhancing the model's capability to predict neurological disease stages and meanwhile offers more interpretable results."
-    ],
-    "main": "We evaluate BrainPrompt on two resting-state functional Magnetic Resonance Imaging (fMRI) datasets from neurological disorders, showing its superiority over state-of-the-art methods.",
-    "context": "Additionally, a biomarker study demonstrates the framework's ability to extract valuable and interpretable information aligned with domain knowledge in neuroscience.",
-    "why": "Matched topics: Neurological disorders. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Core-Periphery Principle Guided State Space Model for Functional Connectome Classification",
-    "abstract": "Understanding the organization of human brain networks has become a central focus in neuroscience, particularly in the study of functional connectivity, which plays a crucial role in diagnosing neurological disorders. Advances in functional magnetic resonance imaging and machine learning techniques have significantly improved brain network analysis. However, traditional machine learning approaches struggle to capture the complex relationships between brain regions, while deep learning methods, particularly Transformer-based models, face computational challenges due to their quadratic complexity in long-sequence modeling. To address these limitations, we propose a Core-Periphery State-Space Model (CP-SSM), an innovative framework for functional connectome classification. Specifically, we introduce Mamba, a selective state-space model with linear complexity, to effectively capture long-range dependencies in functional brain networks. Furthermore, inspired by the core-periphery (CP) organization, a fundamental characteristic of brain networks that enhances efficient information transmission, we design CP-MoE, a CP-guided Mixture-of-Experts that improves the representation learning of brain connectivity patterns. We evaluate CP-SSM on two benchmark fMRI datasets: ABIDE and ADNI. Experimental results demonstrate that CP-SSM surpasses Transformer-based models in classification performance while significantly reducing computational complexity. These findings highlight the effectiveness and efficiency of CP-SSM in modeling brain functional connectivity, offering a promising direction for neuroimaging-based neurological disease diagnosis.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2025,
-    "authors": "Minheng Chen, Xiaowei Yu, Jing Zhang, Tong Chen, Chao Cao, Yan Zhuang, Yanjun Lyu, Lu Zhang, Tianming Liu, Dajiang Zhu",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2503.14655v1",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "Understanding the organization of human brain networks has become a central focus in neuroscience, particularly in the study of functional connectivity, which plays a crucial role in diagnosing neurological disorders.",
-    "did": [
-      "Advances in functional magnetic resonance imaging and machine learning techniques have significantly improved brain network analysis.",
-      "However, traditional machine learning approaches struggle to capture the complex relationships between brain regions, while deep learning methods, particularly Transformer-based models, face computational challenges due to their quadratic complexity in long-sequence modeling.",
-      "To address these limitations, we propose a Core-Periphery State-Space Model (CP-SSM), an innovative framework for functional connectome classification.",
-      "Specifically, we introduce Mamba, a selective state-space model with linear complexity, to effectively capture long-range dependencies in functional brain networks."
-    ],
-    "main": "Furthermore, inspired by the core-periphery (CP) organization, a fundamental characteristic of brain networks that enhances efficient information transmission, we design CP-MoE, a CP-guided Mixture-of-Experts that improves the representation learning of brain connectivity patterns.",
-    "context": "We evaluate CP-SSM on two benchmark fMRI datasets: ABIDE and ADNI.",
-    "why": "Matched topics: Neurological disorders. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Mentality: A Mamba-based Approach towards Foundation Models for EEG",
-    "abstract": "This work explores the potential of foundation models, specifically a Mamba-based selective state space model, for enhancing EEG analysis in neurological disorder diagnosis. EEG, crucial for diagnosing conditions like epilepsy, presents significant challenges due to its noisy, high-dimensional, and nonlinear nature. Traditional machine learning methods have made advances in automating EEG analysis but often fail to capture its complex spatio-temporal dynamics. Recent advances in deep learning, particularly in sequence modeling, offer new avenues for creating more generalized and expressive models capable of handling such complexities. By training a Mamba-based model on a large dataset containing seizure and non-seizure EEG recordings through a self-supervised reconstruction task followed by a seizure detection task, we demonstrate the model's effectiveness, achieving an AUROC of 0.72 on a held-out test set. This approach marks a significant step toward developing large-scale, clinically applicable foundation models for EEG data analysis.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2025,
-    "authors": "Saarang Panchavati, Corey Arnold, William Speier",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2509.02746v1",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 76,
-    "type": "Primary research",
-    "overview": "This work explores the potential of foundation models, specifically a Mamba-based selective state space model, for enhancing EEG analysis in neurological disorder diagnosis.",
-    "did": [
-      "EEG, crucial for diagnosing conditions like epilepsy, presents significant challenges due to its noisy, high-dimensional, and nonlinear nature.",
-      "Traditional machine learning methods have made advances in automating EEG analysis but often fail to capture its complex spatio-temporal dynamics.",
-      "Recent advances in deep learning, particularly in sequence modeling, offer new avenues for creating more generalized and expressive models capable of handling such complexities.",
-      "By training a Mamba-based model on a large dataset containing seizure and non-seizure EEG recordings through a self-supervised reconstruction task followed by a seizure detection task, we demonstrate the model's effectiveness, achieving an AUROC of 0.72 on a held-out test set."
-    ],
-    "main": "This approach marks a significant step toward developing large-scale, clinically applicable foundation models for EEG data analysis.",
-    "context": "This approach marks a significant step toward developing large-scale, clinically applicable foundation models for EEG data analysis.",
-    "why": "Matched topics: Neurological disorders. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Neurological disorders"
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
   },
   {
     "title": "Dync1li1 is required for the survival of mammalian cochlear hair cells by regulating the transportation of autophagosomes.",
@@ -10449,38 +10293,6 @@
     ],
     "main": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press",
     "context": "Sequential dynein effectors regulate axonal autophagosome motility in a maturation-dependent pathway \u00a0\u00a0 Rockefeller University Press",
-    "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Dynein / autophagosome"
-  },
-  {
-    "title": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes - Rockefeller University Press",
-    "abstract": " Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press ",
-    "journal": "Rockefeller University Press",
-    "year": 2026,
-    "authors": "Rockefeller University Press",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Dynein / autophagosome"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvREppRUdHbGphMVhsU3V6VUpPbjJqcVFpT0JPQ2hJenZ6Qm4xYUFuWW95LTVqM1FJMXlmY0gtVmpEdVhaMGxJTExPQnJmdm12NTJDQnVzWmpTeEo1R1YxN09VU0JsTW8?oc=5",
-    "topic": "Dynein / autophagosome",
-    "top": false,
-    "score": 74,
-    "type": "News / signal",
-    "overview": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
-    "context": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
     "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -10872,111 +10684,6 @@
     "matched_topics_label": "Endosome maturation"
   },
   {
-    "title": "Resting-state functional connectivity-based biomarkers and functional MRI-based neurofeedback for psychiatric disorders: a challenge for developing theranostic biomarkers",
-    "abstract": "Psychiatric research has been hampered by an explanatory gap between psychiatric symptoms and their neural underpinnings, which has resulted in poor treatment outcomes. This situation has prompted us to shift from symptom-based diagnosis to data-driven diagnosis, aiming to redefine psychiatric disorders as disorders of neural circuitry. Promising candidates for data-driven diagnosis include resting-state functional connectivity MRI (rs-fcMRI)-based biomarkers. Although biomarkers have been developed with the aim of diagnosing patients and predicting the efficacy of therapy, the focus has shifted to the identification of biomarkers that represent therapeutic targets, which would allow for more personalized treatment approaches. This type of biomarker (i.e., theranostic biomarker) is expected to elucidate the disease mechanism of psychiatric conditions and to offer an individualized neural circuit-based therapeutic target based on the neural cause of a condition. To this end, researchers have developed rs-fcMRI-based biomarkers and investigated a causal relationship between potential biomarkers and disease-specific behavior using functional MRI (fMRI)-based neurofeedback on functional connectivity. In this review, we introduce recent approach for creating a theranostic biomarker, which consists mainly of two parts: (i) developing an rs-fcMRI-based biomarker that can predict diagnosis and/or symptoms with high accuracy, and (ii) the introduction of a proof-of-concept study investigating the relationship between normalizing the biomarker and symptom changes using fMRI-based neurofeedback. In parallel with the introduction of recent studies, we review rs-fcMRI-based biomarker and fMRI-based neurofeedback, focusing on the technological improvements and limitations associated with clinical use.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2017,
-    "authors": "Takashi Yamada, Ryu-ichiro Hashimoto, Noriaki Yahata, Naho Ichikawa, Yujiro Yoshihara, Yasumasa Okamoto, Nobumasa Kato, Hidehiko Takahashi, Mitsuo Kawato",
-    "pmid": "",
-    "doi": "",
-    "review": true,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/1704.01350v4",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 74,
-    "type": "Review",
-    "overview": "Psychiatric research has been hampered by an explanatory gap between psychiatric symptoms and their neural underpinnings, which has resulted in poor treatment outcomes.",
-    "did": [
-      "This situation has prompted us to shift from symptom-based diagnosis to data-driven diagnosis, aiming to redefine psychiatric disorders as disorders of neural circuitry.",
-      "Promising candidates for data-driven diagnosis include resting-state functional connectivity MRI (rs-fcMRI)-based biomarkers.",
-      "Although biomarkers have been developed with the aim of diagnosing patients and predicting the efficacy of therapy, the focus has shifted to the identification of biomarkers that represent therapeutic targets, which would allow for more personalized treatment approaches.",
-      "This type of biomarker (i.e., theranostic biomarker) is expected to elucidate the disease mechanism of psychiatric conditions and to offer an individualized neural circuit-based therapeutic target based on the neural cause of a condition."
-    ],
-    "main": "To this end, researchers have developed rs-fcMRI-based biomarkers and investigated a causal relationship between potential biomarkers and disease-specific behavior using functional MRI (fMRI)-based neurofeedback on functional connectivity.",
-    "context": "In this review, we introduce recent approach for creating a theranostic biomarker, which consists mainly of two parts: (i) developing an rs-fcMRI-based biomarker that can predict diagnosis and/or symptoms with high accuracy, and (ii) the introduction of a proof-of-concept study investigating the relationship between normalizing the biomarker and symptom changes using fMRI-based neurofeedback.",
-    "why": "Matched topics: Disease mechanisms. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Stem Cell Therapy for Alzheimer's Disease",
-    "abstract": "The loss of neuronal cells in the central nervous system may happen in numerous neurodegenerative illnesses. Alzheimer's Disease (AD) is an intricate, irreversible, dynamic neurodegenerative sickness. It is the main source of age-related dementia, influencing roughly 5.3 million individuals in the United States alone. Promotion is a typical feeble ailment in individuals more than 65 years, bringing on disability described by decrease in memory, failure to learn and do every day exercises, intellectual weakness and influences the personal satisfaction of patients. Pathologic qualities of AD are an irregular development of specific proteins called Beta-amyloid \"plaques\" and Tau \"Tangles\" in the mind. Notwithstanding, current treatments against AD are just to calm manifestations and palliative yet are not the cure and a few promising medications competitors have fizzled in late clinical trials. There is consequently a critical need to enhance our comprehension for pathogenesis of this sickness, making new and creative prescient models with powerful treatments. As of late, stem cell treatment has been appeared to have a potential way to deal with different illnesses, including neurodegenerative disorders. In light of the far reaching nature of AD pathology, stem cell substitution procedures have been seen as an extraordinarily difficult and impossible treatment approach. Stem Cell may likewise offer an effective new way to deal with model and concentrate AD. Patient derived induced Pluripotent Stem Cells (iPSCs), for instance, may propel our comprehension of disease mechanism. In this review we will examine the capability of stem cells to help in these testing tries.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2016,
-    "authors": "Ankur Patel, Grishma joshi, Rupali Ugile",
-    "pmid": "",
-    "doi": "",
-    "review": true,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/1608.07499v1",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 74,
-    "type": "Review",
-    "overview": "The loss of neuronal cells in the central nervous system may happen in numerous neurodegenerative illnesses.",
-    "did": [
-      "Alzheimer's Disease (AD) is an intricate, irreversible, dynamic neurodegenerative sickness.",
-      "It is the main source of age-related dementia, influencing roughly 5.3 million individuals in the United States alone.",
-      "Promotion is a typical feeble ailment in individuals more than 65 years, bringing on disability described by decrease in memory, failure to learn and do every day exercises, intellectual weakness and influences the personal satisfaction of patients.",
-      "Pathologic qualities of AD are an irregular development of specific proteins called Beta-amyloid \"plaques\" and Tau \"Tangles\" in the mind."
-    ],
-    "main": "Notwithstanding, current treatments against AD are just to calm manifestations and palliative yet are not the cure and a few promising medications competitors have fizzled in late clinical trials.",
-    "context": "There is consequently a critical need to enhance our comprehension for pathogenesis of this sickness, making new and creative prescient models with powerful treatments.",
-    "why": "Matched topics: Disease mechanisms. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "A review of heterogeneous data mining for brain disorders",
-    "abstract": "With rapid advances in neuroimaging techniques, the research on brain disorder identification has become an emerging area in the data mining community. Brain disorder data poses many unique challenges for data mining research. For example, the raw data generated by neuroimaging experiments is in tensor representations, with typical characteristics of high dimensionality, structural complexity and nonlinear separability. Furthermore, brain connectivity networks can be constructed from the tensor data, embedding subtle interactions between brain regions. Other clinical measures are usually available reflecting the disease status from different perspectives. It is expected that integrating complementary information in the tensor data and the brain network data, and incorporating other clinical parameters will be potentially transformative for investigating disease mechanisms and for informing therapeutic interventions. Many research efforts have been devoted to this area. They have achieved great success in various applications, such as tensor-based modeling, subgraph pattern mining, multi-view feature analysis. In this paper, we review some recent data mining methods that are used for analyzing brain disorders.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2015,
-    "authors": "Bokai Cao, Xiangnan Kong, Philip S. Yu",
-    "pmid": "",
-    "doi": "",
-    "review": true,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/1508.01023v1",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 74,
-    "type": "Review",
-    "overview": "With rapid advances in neuroimaging techniques, the research on brain disorder identification has become an emerging area in the data mining community.",
-    "did": [
-      "Brain disorder data poses many unique challenges for data mining research.",
-      "For example, the raw data generated by neuroimaging experiments is in tensor representations, with typical characteristics of high dimensionality, structural complexity and nonlinear separability.",
-      "Furthermore, brain connectivity networks can be constructed from the tensor data, embedding subtle interactions between brain regions.",
-      "Other clinical measures are usually available reflecting the disease status from different perspectives."
-    ],
-    "main": "It is expected that integrating complementary information in the tensor data and the brain network data, and incorporating other clinical parameters will be potentially transformative for investigating disease mechanisms and for informing therapeutic interventions.",
-    "context": "Many research efforts have been devoted to this area.",
-    "why": "Matched topics: Disease mechanisms. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
     "title": "Biallelic WDR91 variants cause a neurodevelopmental disorder through impaired endosomal maturation and autophagy dysregulation - medRxiv",
     "abstract": " Biallelic WDR91 variants cause a neurodevelopmental disorder through impaired endosomal maturation and autophagy dysregulation \u00a0\u00a0 medRxiv ",
     "journal": "medRxiv",
@@ -11003,70 +10710,6 @@
     ],
     "main": "Biallelic WDR91 variants cause a neurodevelopmental disorder through impaired endosomal maturation and autophagy dysregulation \u00a0\u00a0 medRxiv",
     "context": "Biallelic WDR91 variants cause a neurodevelopmental disorder through impaired endosomal maturation and autophagy dysregulation \u00a0\u00a0 medRxiv",
-    "why": "Matched topics: Endosome maturation. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Endosome maturation"
-  },
-  {
-    "title": "Transport mechanisms between the endocytic, recycling, and biosynthetic pathways via endosomes and the trans-Golgi network - Frontiers",
-    "abstract": " Transport mechanisms between the endocytic, recycling, and biosynthetic pathways via endosomes and the trans-Golgi network \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
-    "year": 2026,
-    "authors": "Frontiers",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Endosome maturation"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdVBMT2wwNmk2RmZMZkZVOVRiSHRJM2hnMlZ3Mmh0S05lcFpiX3VGYnF1bXZtODVNa2RxYmFDbi1Zb0ZHZW5CS3JvWE8ya3QwQmZQMTBDLWwyQURzSUw4YkRycDhWMEQ1VGtWYWxZWEtrY0dPSWhoc0VZaXkwZHVTQlRMdGp6RmpBRHYyaDNsc1BrVThLTEZaQVE2LXhsVFd1WldvT1R3OXJQU3I5?oc=5",
-    "topic": "Endosome maturation",
-    "top": false,
-    "score": 72,
-    "type": "News / signal",
-    "overview": "Transport mechanisms between the endocytic, recycling, and biosynthetic pathways via endosomes and the trans-Golgi network \u00a0\u00a0 Frontiers",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Transport mechanisms between the endocytic, recycling, and biosynthetic pathways via endosomes and the trans-Golgi network \u00a0\u00a0 Frontiers",
-    "context": "Transport mechanisms between the endocytic, recycling, and biosynthetic pathways via endosomes and the trans-Golgi network \u00a0\u00a0 Frontiers",
-    "why": "Matched topics: Endosome maturation. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Endosome maturation"
-  },
-  {
-    "title": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation - jneurosci.org",
-    "abstract": " Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 jneurosci.org ",
-    "journal": "jneurosci.org",
-    "year": 2026,
-    "authors": "jneurosci.org",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Endosome maturation"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02c3dIRzNKZmxPcWNqS2JuREdxdmFKTEg5bElMdjZLWkJzaGVWbkxTOExOdER5cGJHeUNNZEI5ZG9KbUl6NDNGVS0yYjVkTHc4aHZYZDUxQjlBbmJpWGhKUUYzSFN3dVdfVHp5M193?oc=5",
-    "topic": "Endosome maturation",
-    "top": false,
-    "score": 72,
-    "type": "News / signal",
-    "overview": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 jneurosci.org",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 jneurosci.org",
-    "context": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 jneurosci.org",
     "why": "Matched topics: Endosome maturation. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11135,76 +10778,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Endosome maturation"
-  },
-  {
-    "title": "A New Brain Network Construction Paradigm for Brain Disorder via Diffusion-based Graph Contrastive Learning",
-    "abstract": "Brain network analysis plays an increasingly important role in studying brain function and the exploring of disease mechanisms. However, existing brain network construction tools have some limitations, including dependency on empirical users, weak consistency in repeated experiments and time-consuming processes. In this work, a diffusion-based brain network pipeline, DGCL is designed for end-to-end construction of brain networks. Initially, the brain region-aware module (BRAM) precisely determines the spatial locations of brain regions by the diffusion process, avoiding subjective parameter selection. Subsequently, DGCL employs graph contrastive learning to optimize brain connections by eliminating individual differences in redundant connections unrelated to diseases, thereby enhancing the consistency of brain networks within the same group. Finally, the node-graph contrastive loss and classification loss jointly constrain the learning process of the model to obtain the reconstructed brain network, which is then used to analyze important brain connections. Validation on two datasets, ADNI and ABIDE, demonstrates that DGCL surpasses traditional methods and other deep learning models in predicting disease development stages. Significantly, the proposed model improves the efficiency and generalization of brain network construction. In summary, the proposed DGCL can be served as a universal brain network construction scheme, which can effectively identify important brain connections through generative paradigms and has the potential to provide disease interpretability support for neuroscience research.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2024,
-    "authors": "Yongcheng Zong, Shuqiang Wang",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2407.18329v1",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 72,
-    "type": "Primary research",
-    "overview": "Brain network analysis plays an increasingly important role in studying brain function and the exploring of disease mechanisms.",
-    "did": [
-      "However, existing brain network construction tools have some limitations, including dependency on empirical users, weak consistency in repeated experiments and time-consuming processes.",
-      "In this work, a diffusion-based brain network pipeline, DGCL is designed for end-to-end construction of brain networks.",
-      "Initially, the brain region-aware module (BRAM) precisely determines the spatial locations of brain regions by the diffusion process, avoiding subjective parameter selection.",
-      "Subsequently, DGCL employs graph contrastive learning to optimize brain connections by eliminating individual differences in redundant connections unrelated to diseases, thereby enhancing the consistency of brain networks within the same group."
-    ],
-    "main": "Finally, the node-graph contrastive loss and classification loss jointly constrain the learning process of the model to obtain the reconstructed brain network, which is then used to analyze important brain connections.",
-    "context": "Validation on two datasets, ADNI and ABIDE, demonstrates that DGCL surpasses traditional methods and other deep learning models in predicting disease development stages.",
-    "why": "Matched topics: Disease mechanisms. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Unveiling interpretable development-specific gene signatures in the developing human prefrontal cortex with ICGS",
-    "abstract": "In this paper, to unveil interpretable development-specific gene signatures in human PFC, we propose a novel gene selection method, named Interpretable Causality Gene Selection (ICGS), which adopts a Bayesian Network (BN) to represent causality between multiple gene variables and a development variable. The proposed ICGS method combines the positive instances-based contrastive learning with a Variational AutoEncoder (VAE) to obtain this optimal BN structure and use a Markov Blanket (MB) to identify gene signatures causally related to the development variable. Moreover, the differential expression genes (DEGs) are used to filter redundant genes before gene selection. In order to identify gene signatures, we apply the proposed ICGS to the human PFC single-cell transcriptomics data. The experimental results demonstrate that the proposed method can effectively identify interpretable development-specific gene signatures in human PFC. Gene ontology enrichment analysis and ASD-related gene analysis show that these identified gene signatures reveal the key biological processes and pathways in human PFC and have more potential for neurodevelopment disorder cure. These gene signatures are expected to bring important implications for understanding PFC development heterogeneity and function in humans.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2022,
-    "authors": "Meng Huang, Xiucai Ye, Tetsuya Sakurai",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2211.08096v1",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 72,
-    "type": "Primary research",
-    "overview": "In this paper, to unveil interpretable development-specific gene signatures in human PFC, we propose a novel gene selection method, named Interpretable Causality Gene Selection (ICGS), which adopts a Bayesian Network (BN) to represent causality between multiple gene variables and a development variable.",
-    "did": [
-      "The proposed ICGS method combines the positive instances-based contrastive learning with a Variational AutoEncoder (VAE) to obtain this optimal BN structure and use a Markov Blanket (MB) to identify gene signatures causally related to the development variable.",
-      "Moreover, the differential expression genes (DEGs) are used to filter redundant genes before gene selection.",
-      "In order to identify gene signatures, we apply the proposed ICGS to the human PFC single-cell transcriptomics data.",
-      "The experimental results demonstrate that the proposed method can effectively identify interpretable development-specific gene signatures in human PFC."
-    ],
-    "main": "Gene ontology enrichment analysis and ASD-related gene analysis show that these identified gene signatures reveal the key biological processes and pathways in human PFC and have more potential for neurodevelopment disorder cure.",
-    "context": "These gene signatures are expected to bring important implications for understanding PFC development heterogeneity and function in humans.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "A RILP-regulated pathway coordinating autophagosome biogenesis with transport.",
@@ -11417,11 +10990,107 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms - advanced.onlinelibrary.wiley.com",
-    "abstract": " Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 advanced.onlinelibrary.wiley.com ",
-    "journal": "advanced.onlinelibrary.wiley.com",
+    "title": "Exploring atypical spatial-functional coupling in adolescent autism spectrum disorder: insights from neurodevelopment and transcriptomic architecture - Frontiers",
+    "abstract": " Exploring atypical spatial-functional coupling in adolescent autism spectrum disorder: insights from neurodevelopment and transcriptomic architecture \u00a0\u00a0 Frontiers ",
+    "journal": "Frontiers",
     "year": 2026,
-    "authors": "advanced.onlinelibrary.wiley.com",
+    "authors": "Frontiers",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUllNSmYtSmlEWmx6bHhKd204THRxTEtVS2xHZTdPcWZWTjB4MWhjdHZVZWdsUjE1TFdRUnNwbnNfTjc5RmVESTRnVGhFak9FWmNEMFk2ak5FZ3RxY2lFUnhEb09ITVdHU0pIb1o0R0Z2YWs1U2tFYk14T2FYa2xmb2ttUExKTDZvYTNmUVctX2k5TUFR?oc=5",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Exploring atypical spatial-functional coupling in adolescent autism spectrum disorder: insights from neurodevelopment and transcriptomic architecture \u00a0\u00a0 Frontiers",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Exploring atypical spatial-functional coupling in adolescent autism spectrum disorder: insights from neurodevelopment and transcriptomic architecture \u00a0\u00a0 Frontiers",
+    "context": "Exploring atypical spatial-functional coupling in adolescent autism spectrum disorder: insights from neurodevelopment and transcriptomic architecture \u00a0\u00a0 Frontiers",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
+    "title": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release - ASM Journals",
+    "abstract": " Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals ",
+    "journal": "ASM Journals",
+    "year": 2026,
+    "authors": "ASM Journals",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1emQwdmd0NkhPcTJ6c3ZvNkxyaXRDYzlSOUMxRDhGQmlSaXlZQ0FQcmlvcllXVTZWZTNFcS1JQUpfbkdmTzZLWDIwdzQyV0FfWTB3aVl3czZGTy1IX3JB?oc=5",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals",
+    "context": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals",
+    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
+    "title": "Patrizia Casaccia Earns Third Major National Institute of Neurological Disorders and Stroke Award - CUNY Graduate Center",
+    "abstract": " Patrizia Casaccia Earns Third Major National Institute of Neurological Disorders and Stroke Award \u00a0\u00a0 CUNY Graduate Center ",
+    "journal": "CUNY Graduate Center",
+    "year": 2026,
+    "authors": "CUNY Graduate Center",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTjVXRGdiUmhoWEJaZTRHSmlzSGp5Vzg5WnFhUEZmVTF2bERHRXhzNlNUejZXdENZNGNnd19PVDFGc1dycDFOeVhSb2VoVHJoSkpjWFB4NUM5VFJqVV9LT015cjg5VU1yS3dRZzlFOXhSQlFtcGdWcDU0QmxteUktOXZYOG5JSndTdExnaGRNa29ZMDYwOFRsX1pWanR5dnRjLTlpT0F0TW9lV2s5WkJoanc5dFg3cEZxZ1A2ZXVLQjg?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Patrizia Casaccia Earns Third Major National Institute of Neurological Disorders and Stroke Award \u00a0\u00a0 CUNY Graduate Center",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Patrizia Casaccia Earns Third Major National Institute of Neurological Disorders and Stroke Award \u00a0\u00a0 CUNY Graduate Center",
+    "context": "Patrizia Casaccia Earns Third Major National Institute of Neurological Disorders and Stroke Award \u00a0\u00a0 CUNY Graduate Center",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms - Wiley & Sons",
+    "abstract": " Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons ",
+    "journal": "Wiley & Sons",
+    "year": 2026,
+    "authors": "Wiley & Sons",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -11437,80 +11106,16 @@
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 advanced.onlinelibrary.wiley.com",
+    "overview": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 advanced.onlinelibrary.wiley.com",
-    "context": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 advanced.onlinelibrary.wiley.com",
+    "main": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
+    "context": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
     "why": "Matched topics: Disease mechanisms. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Japan's Ono Pharma enters into drug discovery partnership with Aitia for neurological diseases treatment - BioSpectrum Asia",
-    "abstract": " Japan's Ono Pharma enters into drug discovery partnership with Aitia for neurological diseases treatment \u00a0\u00a0 BioSpectrum Asia ",
-    "journal": "BioSpectrum Asia",
-    "year": 2026,
-    "authors": "BioSpectrum Asia",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX2k3NnM1eUpEYmZySDkza3E2allaVy1wZXhGWmItYUJNY0Z0ZkdtSFlhUGcydHhueFNxalFEc0czVWduSkFIZGZNR3hMMzBiV3RFYUpkdnhCczJXeElZVEctQktPZm9TWXZpT2lZaXBZZTFPRmZiaVRLUkJVQzhKZU9faUxobWZlLUluQ0V3TVBQOERGNTZIaDBKMzJfSWNqQThWMm4xRFZGUnJiMVdaSEhTelNEMG1pbEowaUQzMlpYRndmSDlHMGpJVFp0emN2MUxnclkxSFNLcmo4Nkcxb2ZNSEYtN3k2SXc?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Japan's Ono Pharma enters into drug discovery partnership with Aitia for neurological diseases treatment \u00a0\u00a0 BioSpectrum Asia",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Japan's Ono Pharma enters into drug discovery partnership with Aitia for neurological diseases treatment \u00a0\u00a0 BioSpectrum Asia",
-    "context": "Japan's Ono Pharma enters into drug discovery partnership with Aitia for neurological diseases treatment \u00a0\u00a0 BioSpectrum Asia",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Single-Cell Striatum Atlas Reveals Neurological Disorder Vulnerabilities - Genetic Engineering and Biotechnology News",
-    "abstract": " Single-Cell Striatum Atlas Reveals Neurological Disorder Vulnerabilities \u00a0\u00a0 Genetic Engineering and Biotechnology News ",
-    "journal": "Genetic Engineering and Biotechnology News",
-    "year": 2026,
-    "authors": "Genetic Engineering and Biotechnology News",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOUpYME0yV1JaWlo5MEdJZmFoRUV1aVQwdVhJNlpDdnRaNnZkdzZkWDNuV20tc2IxTEJSdDNxbnpDTTdiRk9FTzV5SjRscGlmbU5rSFU2REhsakc5VllUNzZuU2lXdWlBM1NJYTBNaWxOc3QxOWtHYXFXUDM3dzR5c2N1RE5wRnJweDBqWHd4U19Ya2RnY2hibVpXT3Q3eXowalplUjVYZ1l1aUhOQ05wTmNGYVQ5d2o3UmhlZDBoNUkxZmhjei1rbWFB?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Single-Cell Striatum Atlas Reveals Neurological Disorder Vulnerabilities \u00a0\u00a0 Genetic Engineering and Biotechnology News",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Single-Cell Striatum Atlas Reveals Neurological Disorder Vulnerabilities \u00a0\u00a0 Genetic Engineering and Biotechnology News",
-    "context": "Single-Cell Striatum Atlas Reveals Neurological Disorder Vulnerabilities \u00a0\u00a0 Genetic Engineering and Biotechnology News",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Current and emerging drugs for Parkinson\u2019s disease: mechanisms, clinical evidence, and future directions - Frontiers",
@@ -11545,8 +11150,8 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Editorial: Neurodevelopment: parental influences, in utero exposures, and genetics, volume II - Frontiers",
-    "abstract": " Editorial: Neurodevelopment: parental influences, in utero exposures, and genetics, volume II \u00a0\u00a0 Frontiers ",
+    "title": "Macrophage-driven inflammation in inflammatory bowel disease: mechanisms and therapeutic opportunities - Frontiers",
+    "abstract": " Macrophage-driven inflammation in inflammatory bowel disease: mechanisms and therapeutic opportunities \u00a0\u00a0 Frontiers ",
     "journal": "Frontiers",
     "year": 2026,
     "authors": "Frontiers",
@@ -11554,34 +11159,98 @@
     "doi": "",
     "review": false,
     "matched_topics": [
-      "Neurodevelopment disorder"
+      "Disease mechanisms"
     ],
     "sources": [
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPM3NlZ0plQlJBTlVHWmFRSXg5MHhsVmdoS2JDLV92VVBvSWNGQXJ1S0FIY0NtdDFxQ3kzNHNCY1BBQkJiRFp3X2lEZmxjUEZrS0gtQnU0WklmWTd5X0hLUXY0UGVsc0dPeTVMaERYY25wNE9qX2ozdHJRbm1iYXBGMVNZbGZ5NHlseUlRb1JFc2ZjNXJV?oc=5",
-    "topic": "Neurodevelopment disorder",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObWVTVEtmV2IxbEctNHhlOC1tdUJCWUJONF9uUHdGWEVDa0YtMW5YYmhrZzFqZ2V3Mi1vTllKVUlGbnljbTdWMEtsMFFFSGsxWEVIUWtkWUxUM2pKYXRJY2ZTallWRkNjbGFGSjducGFlRDczWkFkZ1d0ZEFGTWtyb1liT0NYdHk1a2ZqdjA2RDNDeDVzT2R3VURxb0NiOEh0SXNoQ19pcUhVYmI0QV9F?oc=5",
+    "topic": "Disease mechanisms",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Editorial: Neurodevelopment: parental influences, in utero exposures, and genetics, volume II \u00a0\u00a0 Frontiers",
+    "overview": "Macrophage-driven inflammation in inflammatory bowel disease: mechanisms and therapeutic opportunities \u00a0\u00a0 Frontiers",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Editorial: Neurodevelopment: parental influences, in utero exposures, and genetics, volume II \u00a0\u00a0 Frontiers",
-    "context": "Editorial: Neurodevelopment: parental influences, in utero exposures, and genetics, volume II \u00a0\u00a0 Frontiers",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
+    "main": "Macrophage-driven inflammation in inflammatory bowel disease: mechanisms and therapeutic opportunities \u00a0\u00a0 Frontiers",
+    "context": "Macrophage-driven inflammation in inflammatory bowel disease: mechanisms and therapeutic opportunities \u00a0\u00a0 Frontiers",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
-    "matched_topics_label": "Neurodevelopment disorder"
+    "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Noncoding DNA Regions Drive Development of Neurodevelopmental Disorders - news.feinberg.northwestern.edu",
-    "abstract": " Noncoding DNA Regions Drive Development of Neurodevelopmental Disorders \u00a0\u00a0 news.feinberg.northwestern.edu ",
-    "journal": "news.feinberg.northwestern.edu",
+    "title": "Sergiu Pasca receives $14 million grant to uncover mechanisms of neurodevelopmental disorders - Stanford Medicine",
+    "abstract": " Sergiu Pasca receives $14 million grant to uncover mechanisms of neurodevelopmental disorders \u00a0\u00a0 Stanford Medicine ",
+    "journal": "Stanford Medicine",
     "year": 2026,
-    "authors": "news.feinberg.northwestern.edu",
+    "authors": "Stanford Medicine",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR0lUQWpTbkpTcVlfUjRBWHRWcVFndXJTNHc2djZTOWM3SHRyU0hVWDNGemxtNjlESFIwaUNYMEFfbmlNZmN6TDVkSHhYUkQ1V2RVN0praTFVZk9QUU9oMzJGWmtUc1ZuRVZTSjJONmxSZTJ4RGsxcEpCQkc0S3ZyNA?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Sergiu Pasca receives $14 million grant to uncover mechanisms of neurodevelopmental disorders \u00a0\u00a0 Stanford Medicine",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Sergiu Pasca receives $14 million grant to uncover mechanisms of neurodevelopmental disorders \u00a0\u00a0 Stanford Medicine",
+    "context": "Sergiu Pasca receives $14 million grant to uncover mechanisms of neurodevelopmental disorders \u00a0\u00a0 Stanford Medicine",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons - Wiley Online Library",
+    "abstract": " Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library ",
+    "journal": "Wiley Online Library",
+    "year": 2026,
+    "authors": "Wiley Online Library",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YdlZoX2gxTE1WdTV5R1lpRk1SdnVsc2JKSHJqa2ItZzZ2aXRncVpnRWxfX3NWdmdkTF9OQVNBODcxQmFaMGJhQ0huRXN1UVg4MUJDVnFxa2I0OEx6b05yZUR1WDV6QUFMdUE?oc=5",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library",
+    "context": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library",
+    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
+    "title": "Noncoding DNA Regions Drive Development of Neurodevelopmental Disorders - Northwestern University",
+    "abstract": " Noncoding DNA Regions Drive Development of Neurodevelopmental Disorders \u00a0\u00a0 Northwestern University ",
+    "journal": "Northwestern University",
+    "year": 2026,
+    "authors": "Northwestern University",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -11597,48 +11266,80 @@
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Noncoding DNA Regions Drive Development of Neurodevelopmental Disorders \u00a0\u00a0 news.feinberg.northwestern.edu",
+    "overview": "Noncoding DNA Regions Drive Development of Neurodevelopmental Disorders \u00a0\u00a0 Northwestern University",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Noncoding DNA Regions Drive Development of Neurodevelopmental Disorders \u00a0\u00a0 news.feinberg.northwestern.edu",
-    "context": "Noncoding DNA Regions Drive Development of Neurodevelopmental Disorders \u00a0\u00a0 news.feinberg.northwestern.edu",
+    "main": "Noncoding DNA Regions Drive Development of Neurodevelopmental Disorders \u00a0\u00a0 Northwestern University",
+    "context": "Noncoding DNA Regions Drive Development of Neurodevelopmental Disorders \u00a0\u00a0 Northwestern University",
     "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Autophagy-lysosome networks in oligodendrocytes: a dynamic framework for myelin integrity - Frontiers",
-    "abstract": " Autophagy-lysosome networks in oligodendrocytes: a dynamic framework for myelin integrity \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
+    "title": "Two in five people in the Americas live with a neurological disorder, new study finds - paho.org",
+    "abstract": " Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 paho.org ",
+    "journal": "paho.org",
     "year": 2026,
-    "authors": "Frontiers",
+    "authors": "paho.org",
     "pmid": "",
     "doi": "",
     "review": false,
     "matched_topics": [
-      "Neuronal lysosome"
+      "Neurological disorders"
     ],
     "sources": [
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV1pNN3h6ZV82X2dqSXpXQl9BanNvSkxVTUVTeXN4QUpxaVN3TkY1bGVuN3JKR0xsRll5MUZEcE9sX1piNHJHZ01BcHdVLUdQSFpZR2N2cE5yYno3WndFQm40eElYcU5tTTBiS2FxLVZWSGl0LUI1TDdJWWpVX1JsV05velZxanpqbTk1aFVKcnVTaUs5T09MbW5xX2FwWEo2YWhNajc3T0JfNGFW?oc=5",
-    "topic": "Neuronal lysosome",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSEttaHJpYXBOdllGSTAwQ3RVbkdpQUdidG8yLWowaGhJRUhXUGV5RDZhUmlIT3hCT0FmaVZuQVJqczB0Q0t3YkFGQ29kMHp6R1pFMXZEVGRiNlBBY3BLLTZ1TjE2OXpPb2pDZGJTWXl4YWtkMWt6SzUwbW5ZRTlPUXpTUHBQaDR1VmV4SEp1LVprd18wTy1aNGx4Ni1TNEN5VTA5VDhNSDRYQQ?oc=5",
+    "topic": "Neurological disorders",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Autophagy-lysosome networks in oligodendrocytes: a dynamic framework for myelin integrity \u00a0\u00a0 Frontiers",
+    "overview": "Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 paho.org",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Autophagy-lysosome networks in oligodendrocytes: a dynamic framework for myelin integrity \u00a0\u00a0 Frontiers",
-    "context": "Autophagy-lysosome networks in oligodendrocytes: a dynamic framework for myelin integrity \u00a0\u00a0 Frontiers",
-    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
+    "main": "Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 paho.org",
+    "context": "Two in five people in the Americas live with a neurological disorder, new study finds \u00a0\u00a0 paho.org",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
-    "matched_topics_label": "Neuronal lysosome"
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Why does severe illness during pregnancy sometimes harm neurodevelopment? - Salk Institute",
+    "abstract": " Why does severe illness during pregnancy sometimes harm neurodevelopment? \u00a0\u00a0 Salk Institute ",
+    "journal": "Salk Institute",
+    "year": 2026,
+    "authors": "Salk Institute",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTGtVeWFEQWYtYWt1UVAtN2NJWGt4a3ZGaElhZk5VbTA1ajRHcGhwMnZvV0FjQV9wMEZGd1ZxQjNqbVNVcWVpVU42RGQtc1lyeHh2UFhXY1BIRk5qa2VYNU9XYUtmVGFUektyOHBKdFZJamdLT1c5R3N4aFlXOWNCbkl6aUFPWTVCUDhTaU9JS2xYakNkYWpWZm5Lc3hITDkxMERJM2lkdWdBWEE?oc=5",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Why does severe illness during pregnancy sometimes harm neurodevelopment?",
+    "did": [
+      "Salk Institute"
+    ],
+    "main": "Salk Institute",
+    "context": "Salk Institute",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "New findings explain how lysosomal defects trigger neuronal energy failure - News-Medical",
@@ -11673,100 +11374,36 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
-    "title": "2026 Horwitz Prize awarded for work on epigenetics in neurological diseases - EurekAlert!",
-    "abstract": " 2026 Horwitz Prize awarded for work on epigenetics in neurological diseases \u00a0\u00a0 EurekAlert! ",
-    "journal": "EurekAlert!",
+    "title": "New MFCAMNet predicts miRNA-disease links via cascade attention - Bioengineer.org",
+    "abstract": " New MFCAMNet predicts miRNA-disease links via cascade attention \u00a0\u00a0 Bioengineer.org ",
+    "journal": "Bioengineer.org",
     "year": 2026,
-    "authors": "EurekAlert!",
+    "authors": "Bioengineer.org",
     "pmid": "",
     "doi": "",
     "review": false,
     "matched_topics": [
-      "Neurological disorders"
+      "Disease mechanisms"
     ],
     "sources": [
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QeF9yUTJ3WlRHZk1abjgzSjl3Q0VINDFnYmJybHN4RThVeTJRRnVtd3NOSVUtSGxIYkZmbXdyZVlFSDAzRWZDYV9JQ3NBZllrT2FDQ3h1ZDJlVk9B?oc=5",
-    "topic": "Neurological disorders",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZTNDVDI3amxaWHpNbTV3YlV0MW54WE5WcGIyMHBSclozYV84dGJNVTFNVV9BNldfTnZWdDhRZVVlTmFCeFNOVzE4MXh3emFBMGxpU1B0cml3TzNyRzd0RG0zT3BPWDRWd2NVM1Z6aVBiM0NlY0hhRmlJZHAtVENiT1BnSTNaYzFodWJ2T25hM09DZw?oc=5",
+    "topic": "Disease mechanisms",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "2026 Horwitz Prize awarded for work on epigenetics in neurological diseases \u00a0\u00a0 EurekAlert!",
+    "overview": "New MFCAMNet predicts miRNA-disease links via cascade attention \u00a0\u00a0 Bioengineer.org",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "2026 Horwitz Prize awarded for work on epigenetics in neurological diseases \u00a0\u00a0 EurekAlert!",
-    "context": "2026 Horwitz Prize awarded for work on epigenetics in neurological diseases \u00a0\u00a0 EurekAlert!",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "main": "New MFCAMNet predicts miRNA-disease links via cascade attention \u00a0\u00a0 Bioengineer.org",
+    "context": "New MFCAMNet predicts miRNA-disease links via cascade attention \u00a0\u00a0 Bioengineer.org",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
-    "title": "Why does severe illness during pregnancy sometimes harm neurodevelopment? - salk.edu",
-    "abstract": " Why does severe illness during pregnancy sometimes harm neurodevelopment? \u00a0\u00a0 salk.edu ",
-    "journal": "salk.edu",
-    "year": 2026,
-    "authors": "salk.edu",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTGtVeWFEQWYtYWt1UVAtN2NJWGt4a3ZGaElhZk5VbTA1ajRHcGhwMnZvV0FjQV9wMEZGd1ZxQjNqbVNVcWVpVU42RGQtc1lyeHh2UFhXY1BIRk5qa2VYNU9XYUtmVGFUektyOHBKdFZJamdLT1c5R3N4aFlXOWNCbkl6aUFPWTVCUDhTaU9JS2xYakNkYWpWZm5Lc3hITDkxMERJM2lkdWdBWEE?oc=5",
-    "topic": "Neurodevelopment disorder",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Why does severe illness during pregnancy sometimes harm neurodevelopment?",
-    "did": [
-      "salk.edu"
-    ],
-    "main": "salk.edu",
-    "context": "salk.edu",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
-    "title": "Zoghbi, Bird Honored for Work on Epigenetics in Neurological Diseases - PR Newswire",
-    "abstract": " Zoghbi, Bird Honored for Work on Epigenetics in Neurological Diseases \u00a0\u00a0 PR Newswire ",
-    "journal": "PR Newswire",
-    "year": 2026,
-    "authors": "PR Newswire",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMHBYM2ltVHZDbFczX0RzT2JPM2hwWHNMdE1VM3VhNlhfVHBnQ0NiWjN5bkgxWU9idHVjZUtKQTJnbC1rNkx6amR1NmlISGgtZHd3cnNZTGc5WWc4LVNyOXdFX3BnR3hIOG5rMWFzYktSVlJJaGtnU0dQd01TXzgwaGZ3SjEzR0hsWUUtbEZlVXprV2VHNC1jRDltTDh5RDJWTFdzMDhMYkYyUzhNMWctMFJJTVVVWW8xbnRlSzhUOHhYdw?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Zoghbi, Bird Honored for Work on Epigenetics in Neurological Diseases \u00a0\u00a0 PR Newswire",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Zoghbi, Bird Honored for Work on Epigenetics in Neurological Diseases \u00a0\u00a0 PR Newswire",
-    "context": "Zoghbi, Bird Honored for Work on Epigenetics in Neurological Diseases \u00a0\u00a0 PR Newswire",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
+    "matched_topics_label": "Disease mechanisms"
   },
   {
     "title": "Postdoc Portrait: Mary Cundiff Maps Shared Disease Mechanisms - the-scientist.com",
@@ -11801,11 +11438,11 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Editorial: Genetics and mechanisms of neurodevelopmental disorders - Frontiers",
-    "abstract": " Editorial: Genetics and mechanisms of neurodevelopmental disorders \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
+    "title": "Mercy Kids Center for Neurodevelopment Celebrates Grand Opening - mercy.net",
+    "abstract": " Mercy Kids Center for Neurodevelopment Celebrates Grand Opening \u00a0\u00a0 mercy.net ",
+    "journal": "mercy.net",
     "year": 2026,
-    "authors": "Frontiers",
+    "authors": "mercy.net",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -11816,122 +11453,20 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZGx4aG5pWldwdU1qdmVIeEdDTjVla0hyLXlZWHdwbTZ3TlhWbDBWZk1ZcDNVWGUzT3l0UE4weW56MVhYRnM3alBMOUMzRmt6bkV6RnVQYnBiMG1EMEVDTTBnclhPUV9Ybl9lUDJlRXVNOWVpdDgtb2FjNzNVMmlRM0FvOGVvMjltQmhORGM2TUVzNFkwaEZjU3I5cWs?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQlhSM3hORE1ZNzV1elE4dzFQM1VKcGEwOEUzS1pmYmRQSXB5eG9wOGZBVXVsYmxlZzU2bmtEQl9yN0haMHBsODRiVkhYVTRmMFRkUUlXU3hlU1JTLWpMZURyRUV0cVRLdHphelZDZzZpVkdwZndMbHJHc0pqd2RkeERON3hoalphclpJTUM1d0tXZzNkQTB6dUU2Q3NtdW9HSkFybGRXekRlUQ?oc=5",
     "topic": "Neurodevelopment disorder",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Editorial: Genetics and mechanisms of neurodevelopmental disorders \u00a0\u00a0 Frontiers",
+    "overview": "Mercy Kids Center for Neurodevelopment Celebrates Grand Opening \u00a0\u00a0 mercy.net",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Editorial: Genetics and mechanisms of neurodevelopmental disorders \u00a0\u00a0 Frontiers",
-    "context": "Editorial: Genetics and mechanisms of neurodevelopmental disorders \u00a0\u00a0 Frontiers",
+    "main": "Mercy Kids Center for Neurodevelopment Celebrates Grand Opening \u00a0\u00a0 mercy.net",
+    "context": "Mercy Kids Center for Neurodevelopment Celebrates Grand Opening \u00a0\u00a0 mercy.net",
     "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
-    "title": "Long COVID Linked to Alzheimer\u2019s Disease Mechanisms - NYU Langone Health",
-    "abstract": " Long COVID Linked to Alzheimer\u2019s Disease Mechanisms \u00a0\u00a0 NYU Langone Health ",
-    "journal": "NYU Langone Health",
-    "year": 2026,
-    "authors": "NYU Langone Health",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0xfTVdVZE9NOVAxaG1UVFdNbHF0dGt4SnRrZ3RQUjBCRzFjTUFiQ2JJS2wyRHA3eHpmS0FaZmdfaDF2Q2FzckZQM1ExeHpXVUsxQUpHMGpvSmJfR3VNWll5dnh5LUVFV1J3RkU1engwV0FkUHJSWWZQd1ZtUDdqYQ?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Long COVID Linked to Alzheimer\u2019s Disease Mechanisms \u00a0\u00a0 NYU Langone Health",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Long COVID Linked to Alzheimer\u2019s Disease Mechanisms \u00a0\u00a0 NYU Langone Health",
-    "context": "Long COVID Linked to Alzheimer\u2019s Disease Mechanisms \u00a0\u00a0 NYU Langone Health",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Modelling the Neuroanatomical Progression of Alzheimer's Disease and Posterior Cortical Atrophy",
-    "abstract": "In order to find effective treatments for Alzheimer's disease (AD), we need to identify subjects at risk of AD as early as possible. To this end, recently developed disease progression models can be used to perform early diagnosis, as well as predict the subjects' disease stages and future evolution. However, these models have not yet been applied to rare neurodegenerative diseases, are not suitable to understand the complex dynamics of biomarkers, work only on large multimodal datasets, and their predictive performance has not been objectively validated. In this work I developed novel models of disease progression and applied them to estimate the progression of Alzheimer's disease and Posterior Cortical atrophy, a rare neurodegenerative syndrome causing visual deficits. My first contribution is a study on the progression of Posterior Cortical Atrophy, using models already developed: the Event-based Model (EBM) and the Differential Equation Model (DEM). My second contribution is the development of DIVE, a novel spatio-temporal model of disease progression that estimates fine-grained spatial patterns of pathology, potentially enabling us to understand complex disease mechanisms relating to pathology propagation along brain networks. My third contribution is the development of Disease Knowledge Transfer (DKT), a novel disease progression model that estimates the multimodal progression of rare neurodegenerative diseases from limited, unimodal datasets, by transferring information from larger, multimodal datasets of typical neurodegenerative diseases. My fourth contribution is the development of novel extensions for the EBM and the DEM, and the development of novel measures for performance evaluation of such models. My last contribution is the organization of the TADPOLE challenge, a competition which aims to identify algorithms and features that best predict the evolution of AD.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2020,
-    "authors": "Razvan V. Marinescu",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2003.04805v1",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 68,
-    "type": "Primary research",
-    "overview": "In order to find effective treatments for Alzheimer's disease (AD), we need to identify subjects at risk of AD as early as possible.",
-    "did": [
-      "To this end, recently developed disease progression models can be used to perform early diagnosis, as well as predict the subjects' disease stages and future evolution.",
-      "However, these models have not yet been applied to rare neurodegenerative diseases, are not suitable to understand the complex dynamics of biomarkers, work only on large multimodal datasets, and their predictive performance has not been objectively validated.",
-      "In this work I developed novel models of disease progression and applied them to estimate the progression of Alzheimer's disease and Posterior Cortical atrophy, a rare neurodegenerative syndrome causing visual deficits.",
-      "My first contribution is a study on the progression of Posterior Cortical Atrophy, using models already developed: the Event-based Model (EBM) and the Differential Equation Model (DEM)."
-    ],
-    "main": "My second contribution is the development of DIVE, a novel spatio-temporal model of disease progression that estimates fine-grained spatial patterns of pathology, potentially enabling us to understand complex disease mechanisms relating to pathology propagation along brain networks.",
-    "context": "My third contribution is the development of Disease Knowledge Transfer (DKT), a novel disease progression model that estimates the multimodal progression of rare neurodegenerative diseases from limited, unimodal datasets, by transferring information from larger, multimodal datasets of typical neurodegenerative diseases.",
-    "why": "Matched topics: Disease mechanisms. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Interpretable multimodal fusion networks reveal mechanisms of brain cognition",
-    "abstract": "Multimodal fusion benefits disease diagnosis by providing a more comprehensive perspective. Developing algorithms is challenging due to data heterogeneity and the complex within- and between-modality associations. Deep-network-based data-fusion models have been developed to capture the complex associations and the performance in diagnosis has been improved accordingly. Moving beyond diagnosis prediction, evaluation of disease mechanisms is critically important for biomedical research. Deep-network-based data-fusion models, however, are difficult to interpret, bringing about difficulties for studying biological mechanisms. In this work, we develop an interpretable multimodal fusion model, namely gCAM-CCL, which can perform automated diagnosis and result interpretation simultaneously. The gCAM-CCL model can generate interpretable activation maps, which quantify pixel-level contributions of the input features. This is achieved by combining intermediate feature maps using gradient-based weights. Moreover, the estimated activation maps are class-specific, and the captured cross-data associations are interest/label related, which further facilitates class-specific analysis and biological mechanism analysis. We validate the gCAM-CCL model on a brain imaging-genetic study, and show gCAM-CCL's performed well for both classification and mechanism analysis. Mechanism analysis suggests that during task-fMRI scans, several object recognition related regions of interests (ROIs) are first activated and then several downstream encoding ROIs get involved. Results also suggest that the higher cognition performing group may have stronger neurotransmission signaling while the lower cognition performing group may have problem in brain/neuron development, resulting from genetic variations.",
-    "journal": "arXiv q-bio.NC",
-    "year": 2020,
-    "authors": "Wenxing Hu, Xianghe Meng, Yuntong Bai, Aiying Zhang, Biao Cai, Gemeng Zhang, Tony W. Wilson, Julia M. Stephen, Vince D. Calhoun, Yu-Ping Wang",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "arXiv"
-    ],
-    "source_type": "preprint",
-    "url": "http://arxiv.org/abs/2006.09454v1",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 68,
-    "type": "Primary research",
-    "overview": "Multimodal fusion benefits disease diagnosis by providing a more comprehensive perspective.",
-    "did": [
-      "Developing algorithms is challenging due to data heterogeneity and the complex within- and between-modality associations.",
-      "Deep-network-based data-fusion models have been developed to capture the complex associations and the performance in diagnosis has been improved accordingly.",
-      "Moving beyond diagnosis prediction, evaluation of disease mechanisms is critically important for biomedical research.",
-      "Deep-network-based data-fusion models, however, are difficult to interpret, bringing about difficulties for studying biological mechanisms."
-    ],
-    "main": "In this work, we develop an interpretable multimodal fusion model, namely gCAM-CCL, which can perform automated diagnosis and result interpretation simultaneously.",
-    "context": "The gCAM-CCL model can generate interpretable activation maps, which quantify pixel-level contributions of the input features.",
-    "why": "Matched topics: Disease mechanisms. Sources: arXiv.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "arXiv",
-    "matched_topics_label": "Disease mechanisms"
   }
 ]
