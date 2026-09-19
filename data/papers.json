@@ -10,8 +10,7 @@
     "review": true,
     "matched_topics": [
       "Lysosome transport",
-      "Dynein / autophagosome",
-      "Neuronal lysosome"
+      "Dynein / autophagosome"
     ],
     "sources": [
       "PubMed"
@@ -31,10 +30,10 @@
     ],
     "main": "We propose microtubule-dependent trafficking congestion as a testable framework in which persistent NP-containing cargo progressively reduces intracellular transport efficiency, while distinguishing this state from simple particle retention or generalized organelle dysfunction.",
     "context": "Potential mechanisms include increased cargo loading, altered kinesin-dynein balance, perinuclear lysosomal retention, changes in cytoplasmic crowding or viscosity, and dysregulation of tubulin-modifying enzymes.",
-    "why": "Matched topics: Lysosome transport, Dynein / autophagosome, Neuronal lysosome. Sources: PubMed.",
+    "why": "Matched topics: Lysosome transport, Dynein / autophagosome. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
-    "matched_topics_label": "Lysosome transport, Dynein / autophagosome, Neuronal lysosome"
+    "matched_topics_label": "Lysosome transport, Dynein / autophagosome"
   },
   {
     "title": "LRRK2: Molecular Mechanisms in Parkinson's Disease.",
@@ -634,6 +633,41 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Lysosome transport"
+  },
+  {
+    "title": "Somatic Mosaicism of the Brain: The Functional Implications of Post-Zygotic Mutations to Neural Circuits.",
+    "abstract": "The human brain is a genomic mosaic shaped by post-zygotic mutations that accumulate from the earliest embryonic divisions through aging. This review synthesizes current evidence on the origins, detection, functional consequences and disease relevance of neural somatic mosaicism. We find that somatic variants-including single-nucleotide variants, copy-number variations, mobile element insertions, structural rearrangements and aneuploidies-arise through distinct molecular mechanisms such as replication errors, oxidative stress, defective DNA repair and transposable element activity, each leaving characteristic mutational signatures. The developmental timing of mutations is the primary determinant of their clonal distribution and functional impact: early mutations generate widespread clones, whereas later events produce localized or single-cell mosaics. We demonstrate that even small populations of mutant neurons can disrupt network dynamics when key signalling pathways are affected, as shown in mTOR-related cortical malformations where non-cell-autonomous mechanisms drive epileptogenesis. Our analysis reveals that somatic mosaicism provides a unifying explanation for diverse neurological conditions, from focal epilepsies and neurodevelopmental disorders to late-onset neurodegenerative diseases, including mechanisms invisible to conventional blood-based genetic testing. We conclude that understanding the brain as a dynamic mosaic of billions of distinct genomes-rather than a single-genome organ-is essential for accurate disease modelling, diagnostics and the development of targeted therapies.",
+    "journal": "The European journal of neuroscience",
+    "year": 2026,
+    "authors": "Al-Hakeem MA, Almajidi YQ, Alshkarchy SS, Kareem AK, Rangaswamy R, Al-Khafaji ZK, Nayak PP, Chennakesavulu K",
+    "pmid": "42759945",
+    "doi": "10.1111/ejn.70689",
+    "review": true,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42759945/",
+    "topic": "Neurodevelopment disorder",
+    "top": true,
+    "score": 92,
+    "type": "Review",
+    "overview": "The human brain is a genomic mosaic shaped by post-zygotic mutations that accumulate from the earliest embryonic divisions through aging.",
+    "did": [
+      "This review synthesizes current evidence on the origins, detection, functional consequences and disease relevance of neural somatic mosaicism.",
+      "We find that somatic variants-including single-nucleotide variants, copy-number variations, mobile element insertions, structural rearrangements and aneuploidies-arise through distinct molecular mechanisms such as replication errors, oxidative stress, defective DNA repair and transposable element activity, each leaving characteristic mutational signatures.",
+      "The developmental timing of mutations is the primary determinant of their clonal distribution and functional impact: early mutations generate widespread clones, whereas later events produce localized or single-cell mosaics.",
+      "We demonstrate that even small populations of mutant neurons can disrupt network dynamics when key signalling pathways are affected, as shown in mTOR-related cortical malformations where non-cell-autonomous mechanisms drive epileptogenesis."
+    ],
+    "main": "Our analysis reveals that somatic mosaicism provides a unifying explanation for diverse neurological conditions, from focal epilepsies and neurodevelopmental disorders to late-onset neurodegenerative diseases, including mechanisms invisible to conventional blood-based genetic testing.",
+    "context": "We conclude that understanding the brain as a dynamic mosaic of billions of distinct genomes-rather than a single-genome organ-is essential for accurate disease modelling, diagnostics and the development of targeted therapies.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
   },
   {
     "title": "C-low threshold mechanoreceptors: a novel target for health-tech in an increasingly touch-deprived world.",
@@ -2641,41 +2675,6 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Neurodevelopmental Alterations in Inhibitory Interneurons of Cortex, Hippocampus, and Striatum of Genetic Absence Epilepsy Rats.",
-    "abstract": "AIMS: Absence seizures, characterized by spike-and-wave discharges (SWDs), are mediated by reciprocal thalamocortical interactions; however, the contribution of developing inhibitory networks to SWDs remains unclear. We investigated the developmental trajectory of inhibitory interneurons in Genetic Absence Epilepsy Rats from Strasbourg (GAERS) by analyzing their distribution across postnatal development in the somatosensory (S1) and motor (M1) cortices, the hippocampus, and striatum. METHODS: The neurodevelopmental trajectory of parvalbumin-positive (PV+) and somatostatin-positive (SST+) interneurons was quantified at three critical stages: postnatal day 14 (P14), when SWDs were not yet observed, P21 when immature SWDs appear, and adulthood (P90), when mature SWDs are established. Wistar rats served as controls. Brain sections were processed immunohistochemically to quantify interneuron density. RESULTS: PV+ interneuron density across S1 and M1 was significantly higher in GAERS at P14 than control. However, this difference was not maintained at P21 and adults. Conversely, SST+ interneurons exhibited a delayed increase in M1. GAERS displayed higher PV+ interneuron density in the dentate gyrus and CA1 at P14, whereas SST+ interneuron density remained unchanged across hippocampal subfields. Striatal PV+ and SST+ interneurons increased at later developmental stages, suggesting altered inhibition in basal ganglia. CONCLUSION: These findings demonstrate a temporally dynamic and region-specific reorganization of interneurons in GAERS that may underlie absence epileptogenesis.",
-    "journal": "CNS neuroscience & therapeutics",
-    "year": 2026,
-    "authors": "\u00c7ar\u00e7ak N, Erdeve ET, Wright CJ, Keskin\u00f6z E, Andersson M, Onat F, K\u0131r\u0131k D",
-    "pmid": "42690681",
-    "doi": "10.1002/cns.71110",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42690681/",
-    "topic": "Neurodevelopment disorder",
-    "top": true,
-    "score": 86,
-    "type": "Primary research",
-    "overview": "AIMS: Absence seizures, characterized by spike-and-wave discharges (SWDs), are mediated by reciprocal thalamocortical interactions; however, the contribution of developing inhibitory networks to SWDs remains unclear.",
-    "did": [
-      "We investigated the developmental trajectory of inhibitory interneurons in Genetic Absence Epilepsy Rats from Strasbourg (GAERS) by analyzing their distribution across postnatal development in the somatosensory (S1) and motor (M1) cortices, the hippocampus, and striatum.",
-      "METHODS: The neurodevelopmental trajectory of parvalbumin-positive (PV+) and somatostatin-positive (SST+) interneurons was quantified at three critical stages: postnatal day 14 (P14), when SWDs were not yet observed, P21 when immature SWDs appear, and adulthood (P90), when mature SWDs are established.",
-      "Wistar rats served as controls.",
-      "Brain sections were processed immunohistochemically to quantify interneuron density."
-    ],
-    "main": "RESULTS: PV+ interneuron density across S1 and M1 was significantly higher in GAERS at P14 than control.",
-    "context": "However, this difference was not maintained at P21 and adults.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "RVG-functionalized microglial membrane-coated cerium-gallic acid metal-organic frameworks for multi-target Alzheimer's therapy.",
     "abstract": "Alzheimer's disease (AD) is a multifactorial neurodegenerative disorder characterized by aberrant \u03b2-amyloid (A\u03b2) aggregation, oxidative stress, neuroinflammation, and disrupted metal ion homeostasis, which limit the efficacy of conventional single-target therapies. To address these intertwined pathological processes, we developed a multifunctional nanotherapeutic platform based on a cerium-gallic acid bio-metal-organic framework (CeGA-MOF). Reversible Ce3+/Ce4+ redox cycling enables efficient reactive oxygen species (ROS) scavenging, while gallic acid serves as both an organic ligand and metal chelator, inhibiting metal ion-mediated A\u03b2 aggregation and alleviating oxidative stress-associated neurotoxicity, along with its intrinsic anti-inflammatory activity. To enhance in vivo stability and brain delivery, CeGA-MOF was coated with microglial membranes and functionalized with rabies virus glycoprotein (RVG) peptide, yielding a biomimetic nanosystem, CeGA-MOF/B/R. The microglial membrane provides immune evasion and inflammation-guided targeting, while RVG facilitates blood-brain barrier penetration. In vitro, CeGA-MOF/B/R effectively chelates Cu2+, Zn2+, and Fe3+, suppresses metal ion-induced A\u03b2 aggregation, and protects neurons. In APP/PS1 transgenic mice, it reduced cerebral A\u03b2, promoted anti-inflammatory microglial polarization, and improved learning and memory, highlighting its potential as a biomimetic nanoplatform for synergistic AD therapy.",
     "journal": "Journal of colloid and interface science",
@@ -2956,8 +2955,8 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Mechanosensitive dynamics of lysosomes along microtubules regulate leader cell emergence during collective cell migration - Nature",
-    "abstract": " Mechanosensitive dynamics of lysosomes along microtubules regulate leader cell emergence during collective cell migration \u00a0\u00a0 Nature ",
+    "title": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia - Nature",
+    "abstract": " A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature ",
     "journal": "Nature",
     "year": 2026,
     "authors": "Nature",
@@ -2971,17 +2970,17 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZYlgtMmpjeHlBbld6OVEwaEhNdlJ3d1hKeUJtTXZpVVZQSExCd0VYNkxrUEVucEZwdTN2bjN6dkdVbG1HZzctQ1hScnpwcHBXOEUwYXNrVXFDS0NTZ3Fz?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SLXRxOUtuWTdXbEI3bGNNOENqRGJNNkVFQXlZN3BrcEJqY3BxRDBaM2FUcDZ4aW5QWHAzSnFTSUs1VjBiQmxneUR2bnZsaGNFbmptODZLY19paUZ0NHdF?oc=5",
     "topic": "Lysosome transport",
     "top": true,
     "score": 86,
     "type": "News / signal",
-    "overview": "Mechanosensitive dynamics of lysosomes along microtubules regulate leader cell emergence during collective cell migration \u00a0\u00a0 Nature",
+    "overview": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Mechanosensitive dynamics of lysosomes along microtubules regulate leader cell emergence during collective cell migration \u00a0\u00a0 Nature",
-    "context": "Mechanosensitive dynamics of lysosomes along microtubules regulate leader cell emergence during collective cell migration \u00a0\u00a0 Nature",
+    "main": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature",
+    "context": "A pathogenic Tau mutation drives autophagy-lysosome dysfunction that limits Tau degradation in a model of frontotemporal dementia \u00a0\u00a0 Nature",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -3260,70 +3259,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Endosome maturation"
-  },
-  {
-    "title": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation - Journal of Neuroscience",
-    "abstract": " The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 Journal of Neuroscience ",
-    "journal": "Journal of Neuroscience",
-    "year": 2026,
-    "authors": "Journal of Neuroscience",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Dynein / autophagosome"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xNzQ2cVlxRDhZTERTdmNYUUNzaFV0eTBXaXpjdEZOZjY1S1cwZEdLMmZKTHZnNXNwQlM5SEdPQlBSb1gzT1k5U2VGZy1ZVmZweGo3Undn?oc=5",
-    "topic": "Dynein / autophagosome",
-    "top": true,
-    "score": 84,
-    "type": "News / signal",
-    "overview": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 Journal of Neuroscience",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 Journal of Neuroscience",
-    "context": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 Journal of Neuroscience",
-    "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Dynein / autophagosome"
-  },
-  {
-    "title": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation - Journal of Neuroscience",
-    "abstract": " The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 Journal of Neuroscience ",
-    "journal": "Journal of Neuroscience",
-    "year": 2026,
-    "authors": "Journal of Neuroscience",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Dynein / autophagosome"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UTG5LMGVzbE83SHQ0SUV6aEdQdDlUOThQVG9OdkgxVHhEc1VfMFJuM01vREQ4MGdndnJqRVVBUnp5aHlRY2FkVmEydHl3bURKTk5ITko4akswTTJiZXc?oc=5",
-    "topic": "Dynein / autophagosome",
-    "top": true,
-    "score": 84,
-    "type": "News / signal",
-    "overview": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 Journal of Neuroscience",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 Journal of Neuroscience",
-    "context": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 Journal of Neuroscience",
-    "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Dynein / autophagosome"
   },
   {
     "title": "The E193K LRRK2 mutation interferes with the autophagosome processing through the impairment of the LRRK2-Dynein-1 complex - Nature",
@@ -5939,40 +5874,8 @@
     "matched_topics_label": "Endosome maturation"
   },
   {
-    "title": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation - Journal of Neuroscience",
-    "abstract": " Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 Journal of Neuroscience ",
-    "journal": "Journal of Neuroscience",
-    "year": 2026,
-    "authors": "Journal of Neuroscience",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Endosome maturation"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JQkJRWGhDYjFkQkw5aVhIdkkxS0NhSjVLeDNOYXdNRjI3VUJmOEJpTWdGZlotMlVBNGFCU0xpYmY4bWFGckl2RVliTTd6NDB5cVg4MDVtWQ?oc=5",
-    "topic": "Endosome maturation",
-    "top": true,
-    "score": 82,
-    "type": "News / signal",
-    "overview": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 Journal of Neuroscience",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 Journal of Neuroscience",
-    "context": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 Journal of Neuroscience",
-    "why": "Matched topics: Endosome maturation. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Endosome maturation"
-  },
-  {
-    "title": "Deterministic early endosomal maturations emerge from a stochastic trigger-and-convert mechanism - Nature",
-    "abstract": " Deterministic early endosomal maturations emerge from a stochastic trigger-and-convert mechanism \u00a0\u00a0 Nature ",
+    "title": "Endosome maturation is orchestrated by inside-out proton signaling through a Na - Nature",
+    "abstract": " Endosome maturation is orchestrated by inside-out proton signaling through a Na \u00a0\u00a0 Nature ",
     "journal": "Nature",
     "year": 2026,
     "authors": "Nature",
@@ -5986,17 +5889,17 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9IbjFkd0lsZWZOLVpwY1YzQ3V2WURIcHE0TTJ1SGxPdTFDR0dJaVhNNG1RbmxaRHZTdU9scG9qWGNQbnRtWmxjN21MRkdGSkw3STFtRnN0bWhBaEZqMGxj?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PNVVjRWx2cVRDVHFHenV2MldpT3FBeHNHRWdsVFdJdEQ0V1VKWjA2M3RMcU1FTjJ6ZVNsRzZqWTVHSXBDVkRCcXEzMUVIOVRHS3BISUpZbC1GQWpXQVdn?oc=5",
     "topic": "Endosome maturation",
     "top": true,
     "score": 82,
     "type": "News / signal",
-    "overview": "Deterministic early endosomal maturations emerge from a stochastic trigger-and-convert mechanism \u00a0\u00a0 Nature",
+    "overview": "Endosome maturation is orchestrated by inside-out proton signaling through a Na \u00a0\u00a0 Nature",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Deterministic early endosomal maturations emerge from a stochastic trigger-and-convert mechanism \u00a0\u00a0 Nature",
-    "context": "Deterministic early endosomal maturations emerge from a stochastic trigger-and-convert mechanism \u00a0\u00a0 Nature",
+    "main": "Endosome maturation is orchestrated by inside-out proton signaling through a Na \u00a0\u00a0 Nature",
+    "context": "Endosome maturation is orchestrated by inside-out proton signaling through a Na \u00a0\u00a0 Nature",
     "why": "Matched topics: Endosome maturation. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -6997,8 +6900,8 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "The biological clock in parkinson\u2019s disease: mechanisms and chronotherapy - Nature",
-    "abstract": " The biological clock in parkinson\u2019s disease: mechanisms and chronotherapy \u00a0\u00a0 Nature ",
+    "title": "Mechanisms and disease relevance of DNA break repair pathway choice - Nature",
+    "abstract": " Mechanisms and disease relevance of DNA break repair pathway choice \u00a0\u00a0 Nature ",
     "journal": "Nature",
     "year": 2026,
     "authors": "Nature",
@@ -7012,17 +6915,17 @@
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pSG1faGdYd0pBbVFWQWR4U3dETVFlZ0x0d0MxanRzbjFoQ3RNYTlkUC1TWnVmdFBvNmNQNUFZSENIUWExRkctenpBSFVtcDRRdWoyQkpWc3kwUGUyaG1N?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaYXZyb01JOHpPdjkwcEVzSTE1bmNITmJ3YmFVTkVVc3JMd0FudThiSDlvZHdlLU9nU08tQ2RtYXVXNnh3ekJ6TUlxRVBhR3I0dHAxVC1NVTV4M1hKWU1Z?oc=5",
     "topic": "Disease mechanisms",
     "top": true,
     "score": 80,
     "type": "News / signal",
-    "overview": "The biological clock in parkinson\u2019s disease: mechanisms and chronotherapy \u00a0\u00a0 Nature",
+    "overview": "Mechanisms and disease relevance of DNA break repair pathway choice \u00a0\u00a0 Nature",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "The biological clock in parkinson\u2019s disease: mechanisms and chronotherapy \u00a0\u00a0 Nature",
-    "context": "The biological clock in parkinson\u2019s disease: mechanisms and chronotherapy \u00a0\u00a0 Nature",
+    "main": "Mechanisms and disease relevance of DNA break repair pathway choice \u00a0\u00a0 Nature",
+    "context": "Mechanisms and disease relevance of DNA break repair pathway choice \u00a0\u00a0 Nature",
     "why": "Matched topics: Disease mechanisms. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -8394,7 +8297,7 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
-    "title": "\u03b2-Amyloid and Glutathione Dysregulation Cooperatively Drive Lipid Peroxidation and Ferroptosis in Neuron-Like Cells.",
+    "title": "\u03b2-Amyloid and glutathione dysregulation cooperatively drive lipid peroxidation and ferroptosis in neuron-like cells.",
     "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterized by \u03b2-amyloid (A\u03b2) accumulation and oxidative stress, with aging being its greatest risk factor. Age-related glutathione (GSH) depletion may increase neuronal vulnerability to A\u03b2 toxicity, but the underlying mechanisms remain unclear. Here, we investigated how impaired GSH homeostasis influences A\u03b2-associated neuronal injury. Human SH-SY5Y cells expressing either wild-type APP695 or the familial AD-associated APPSwe/Ind mutant were subjected to GSH depletion using complementary pharmacological (buthionine sulfoximine and dimethyl fumarate) and genetic (GCLC knockout) approaches. GSH depletion markedly sensitized APPSwe/Ind-expressing cells to ferroptotic cell death, characterized by increased lipid peroxidation, elevated malondialdehyde and 4-hydroxynonenal levels, enhanced lactate dehydrogenase release, increased transferrin receptor-1 expression, and intracellular iron accumulation. Cell death was prevented by ferrostatin-1, liproxstatin-1, and the iron chelator deferoxamine, but not by the pan-caspase inhibitor Z-VAD-FMK, confirming an iron-dependent ferroptotic mechanism. Similar findings were observed following co-treatment with A\u03b2 oligomers and GSH depletion. Mechanistically, combined A\u03b2 stress and GSH depletion were associated with increased chaperone-mediated autophagy (CMA) activity and reduced GPX4 protein levels. A photoactivatable CMA reporter demonstrated enhanced CMA activity and increased colocalization of GPX4 with CMA-associated puncta. Pharmacological inhibition of lysosomal function with bafilomycin A1 or treatment with the CMA inhibitor polyphyllin D rescued cell viability under these conditions. Collectively, these findings suggest a potential association among CMA activation, reduced GPX4 abundance, and increased susceptibility to ferroptotic cell death, providing new insight into how age-related redox imbalance may contribute to neuronal vulnerability in AD.",
     "journal": "Free radical biology & medicine",
     "year": 2026,
@@ -8567,6 +8470,41 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
     "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
+    "title": "Gomisin N ameliorates autophagy-neuroinflammation imbalance in Parkinson's disease models via modulating the ATG16L1/NLRP3 axis.",
+    "abstract": "BACKGROUND: Parkinson's disease (PD) is characterized by dopaminergic neuron loss, \u03b1-synuclein accumulation, and sustained neuroinflammation. Autophagy can remove pathogenic \u03b1-synuclein and restrain NLR family pyrin domain containing 3 (NLRP3) inflammasome activation. Gomisin N (GN), a lignan from Schisandra chinensis, is neuroprotective, but its mechanism in PD remains incompletely defined. PURPOSE: To determine whether GN protects against PD-like pathology by coordinating autophagy and neuroinflammation through autophagy related 16 like 1 (ATG16L1). METHODS: Neuronal and microglial cell models, as well as 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP)-induced mice with ATG16L1 knockdown, were assessed through pharmacological, behavioral, biochemical, and immunohistochemical analyses. RESULTS: GN crossed the blood-brain barrier, improved motor performance, preserved dopaminergic neurons, reduced \u03b1-synuclein oligomers, and suppressed NLRP3/caspase-1/interleukin-1\u03b2 signaling in MPTP-treated mice. Mechanistically, GN increased the mRNA and protein levels of ATG16L1, enhanced ATG16L1-ATG5 complex formation, and promoted autophagic flux and lysosomal function without canonical mTORC1 inhibition Notably, we uncovered a vicious cycle where \u03b1-synuclein overexpression suppressed ATG16L1, impairing autophagy; GN effectively rescued this compromised ATG16L1 expression, facilitating targeted \u03b1-synuclein degradation. In microglia, GN blunted NLRP3 inflammasome activation by promoting the ATG16L1-dependent autophagic degradation of essential inflammasome components. Crucially, ATG16L1 knockdown completely abrogated the neuroprotective and anti-inflammatory effects of GN both in vitro and in vivo. CONCLUSION: GN is a brain-penetrant preclinical candidate that links ATG16L1-dependent autophagy with \u03b1-synuclein clearance and NLRP3 inflammasome suppression in PD models.",
+    "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+    "year": 2026,
+    "authors": "Su C, Deng Z, Ying KY, Liu J, Guan X, Kan Y, Xu X, Iyaswamy A",
+    "pmid": "42759327",
+    "doi": "10.1016/j.phymed.2026.158795",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42759327/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "BACKGROUND: Parkinson's disease (PD) is characterized by dopaminergic neuron loss, \u03b1-synuclein accumulation, and sustained neuroinflammation.",
+    "did": [
+      "Autophagy can remove pathogenic \u03b1-synuclein and restrain NLR family pyrin domain containing 3 (NLRP3) inflammasome activation.",
+      "Gomisin N (GN), a lignan from Schisandra chinensis, is neuroprotective, but its mechanism in PD remains incompletely defined.",
+      "PURPOSE: To determine whether GN protects against PD-like pathology by coordinating autophagy and neuroinflammation through autophagy related 16 like 1 (ATG16L1).",
+      "METHODS: Neuronal and microglial cell models, as well as 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP)-induced mice with ATG16L1 knockdown, were assessed through pharmacological, behavioral, biochemical, and immunohistochemical analyses."
+    ],
+    "main": "RESULTS: GN crossed the blood-brain barrier, improved motor performance, preserved dopaminergic neurons, reduced \u03b1-synuclein oligomers, and suppressed NLRP3/caspase-1/interleukin-1\u03b2 signaling in MPTP-treated mice.",
+    "context": "Mechanistically, GN increased the mRNA and protein levels of ATG16L1, enhanced ATG16L1-ATG5 complex formation, and promoted autophagic flux and lysosomal function without canonical mTORC1 inhibition Notably, we uncovered a vicious cycle where \u03b1-synuclein overexpression suppressed ATG16L1, impairing autophagy; GN effectively rescued this compromised ATG16L1 expression, facilitating targeted \u03b1-synuclein degradation.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
   },
   {
     "title": "Uric acid alleviates the inflammatory response in LPS-induced BV2 cells and MPTP-induced PD mice by resisting ferroptosis through the Nrf2 signalling pathway.",
@@ -9334,6 +9272,41 @@
     ],
     "main": "Two independent adult NHP studies evaluated AAV9-GBA1 brain delivery via intracisterna magna (ICM) and intraparenchymal (IPa) administration.",
     "context": "ICM delivery produced considerable transgene expression in the spinal cord and dorsal root ganglia (DRG) neurons along with adverse microscopic findings, but limited brain expression and activity.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
+    "title": "Direct Visualization of Anesthesia-Induced Subcellular Dysfunction in Caenorhabditis elegans.",
+    "abstract": "The volatile anesthetic isoflurane is extensively utilized for reversible induction of unconsciousness, exhibiting well-defined impacts on neural networks. However, its influence on the whole body in developing tissues remains inadequately understood. To rectify this deficiency, we examined the subcellular impacts of anesthetics utilizing Caenorhabditis elegans as a comprehensive in vivo organismal model. Our results demonstrated that isoflurane induced mitochondrial fragmentation, loss of branching, and disruption of tubular lysosomes. These observations suggested compromised energy metabolism and organellar stress. We further observed a selective reduction in GFP reporter fluorescence driven by neuron- and immune-related promoters, while core transcriptional machinery reporter signal from RPOA-2::GFP levels and nucleolar localization remained largely unchanged. This suggests that important transcriptional factors, such as RNA polymerase I, are maintained. Functionally, anesthesia-exposed worms exhibited increased mortality when challenged with the pathogens Pseudomonas aeruginosa, and while a similar trend was observed following Staphylococcus aureus challenge, it did not reach statistical significance, indicating compromised immune resilience. Systemic oxidative stress was validated by the H2DCFDA assay and lipofuscin accumulation. Our findings provide comprehensive insights into the organism-wide cellular stress induced by acute anesthetic exposure, laying the foundation for the development of safer anesthetic strategies.",
+    "journal": "ACS omega",
+    "year": 2026,
+    "authors": "Mukherjee B, Chandra S, Salam A, Behera L, Nandi CK",
+    "pmid": "42757147",
+    "doi": "10.1021/acsomega.6c07499",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42757147/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "The volatile anesthetic isoflurane is extensively utilized for reversible induction of unconsciousness, exhibiting well-defined impacts on neural networks.",
+    "did": [
+      "However, its influence on the whole body in developing tissues remains inadequately understood.",
+      "To rectify this deficiency, we examined the subcellular impacts of anesthetics utilizing Caenorhabditis elegans as a comprehensive in vivo organismal model.",
+      "Our results demonstrated that isoflurane induced mitochondrial fragmentation, loss of branching, and disruption of tubular lysosomes.",
+      "These observations suggested compromised energy metabolism and organellar stress."
+    ],
+    "main": "We further observed a selective reduction in GFP reporter fluorescence driven by neuron- and immune-related promoters, while core transcriptional machinery reporter signal from RPOA-2::GFP levels and nucleolar localization remained largely unchanged.",
+    "context": "This suggests that important transcriptional factors, such as RNA polymerase I, are maintained.",
     "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "PubMed",
@@ -10145,36 +10118,69 @@
     "matched_topics_label": "Neurological disorders"
   },
   {
-    "title": "Characterizing enteric pathology in MPS IIIA mice suggests disease-specific vulnerability among lysosomal storage disorders.",
-    "abstract": "The gastrointestinal symptoms that impair quality of life in childhood neurodegenerative disorders, may be because bowel enteric neurons are also affected.",
-    "journal": "JCI insight",
+    "title": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis - Rockefeller University Press",
+    "abstract": " Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press ",
+    "journal": "Rockefeller University Press",
     "year": 2026,
-    "authors": "Zi\u00f3\u0142kowska EA, Williams L, Eultgen E, Kick GR, Ding X, Sorensen A, Le S, Doray B",
-    "pmid": "42490157",
-    "doi": "10.1172/jci.insight.202780",
+    "authors": "Rockefeller University Press",
+    "pmid": "",
+    "doi": "",
     "review": false,
     "matched_topics": [
+      "Lysosome transport",
       "Neuronal lysosome"
     ],
     "sources": [
-      "PubMed"
+      "Google News"
     ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42490157/",
-    "topic": "Neuronal lysosome",
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU0VtRV84bjlkd2RxdWRjdmJ3UmlWeUJnSXE3LWtOYjFwYkRFMkl3a1hZek50cVRRbXJXY0g1cDJDeVVtNWNCV0dEUlJfTW9yZVNtSm4xX2R1Skd0LTBjR0IzRlVPUU8xbkpiM2xPSkQtUEQzVkcyUmZ4N1BFM1hNUGxSOUkyU1plX1c3Y25xNGlwSUZEcVhvbzNCZE1yaXZyTHllMA?oc=5",
+    "topic": "Lysosome transport",
     "top": false,
     "score": 76,
-    "type": "Primary research",
-    "overview": "The gastrointestinal symptoms that impair quality of life in childhood neurodegenerative disorders, may be because bowel enteric neurons are also affected.",
+    "type": "News / signal",
+    "overview": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "The gastrointestinal symptoms that impair quality of life in childhood neurodegenerative disorders, may be because bowel enteric neurons are also affected.",
-    "context": "The gastrointestinal symptoms that impair quality of life in childhood neurodegenerative disorders, may be because bowel enteric neurons are also affected.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "main": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
+    "context": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
+    "why": "Matched topics: Lysosome transport, Neuronal lysosome. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
+    "sources_label": "Google News",
+    "matched_topics_label": "Lysosome transport, Neuronal lysosome"
+  },
+  {
+    "title": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium - advanced.onlinelibrary.wiley.com",
+    "abstract": " Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 advanced.onlinelibrary.wiley.com ",
+    "journal": "advanced.onlinelibrary.wiley.com",
+    "year": 2026,
+    "authors": "advanced.onlinelibrary.wiley.com",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Lysosome transport"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RcV9tMnRZaUlkOUROemo5UzJaQTFLOGROX2pNOWZ3UjBGUDhZeFRNSEZaNURMd2l5am9pZHI3VlJnV01ZOUdZY2FCRGFGTm5fRzNvUkJQdjNmZUVvazBRZ3hpZmdZbWkwbi1La0JYbnNBeXpIbGc?oc=5",
+    "topic": "Lysosome transport",
+    "top": false,
+    "score": 76,
+    "type": "News / signal",
+    "overview": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 advanced.onlinelibrary.wiley.com",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 advanced.onlinelibrary.wiley.com",
+    "context": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 advanced.onlinelibrary.wiley.com",
+    "why": "Matched topics: Lysosome transport. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Lysosome transport"
   },
   {
     "title": "Lysosome trafficking across intracellular and intercellular networks in the brain - Frontiers",
@@ -10208,38 +10214,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Lysosome transport, Neuronal lysosome"
-  },
-  {
-    "title": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium - Wiley & Sons",
-    "abstract": " Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons ",
-    "journal": "Wiley & Sons",
-    "year": 2026,
-    "authors": "Wiley & Sons",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Lysosome transport"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RcV9tMnRZaUlkOUROemo5UzJaQTFLOGROX2pNOWZ3UjBGUDhZeFRNSEZaNURMd2l5am9pZHI3VlJnV01ZOUdZY2FCRGFGTm5fRzNvUkJQdjNmZUVvazBRZ3hpZmdZbWkwbi1La0JYbnNBeXpIbGc?oc=5",
-    "topic": "Lysosome transport",
-    "top": false,
-    "score": 76,
-    "type": "News / signal",
-    "overview": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons",
-    "context": "Crosstalk at Lysosome-ER MCSs Leading to Lethal Depleting of ER Calcium \u00a0\u00a0 Wiley & Sons",
-    "why": "Matched topics: Lysosome transport. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Lysosome transport"
   },
   {
     "title": "Molecular basis of Spns1-mediated lysophospholipid transport from the lysosome - PNAS",
@@ -10300,38 +10274,6 @@
     ],
     "main": "Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org",
     "context": "Scientists reveal mechanism of key player in lysosome transport regulation \u00a0\u00a0 Phys.org",
-    "why": "Matched topics: Lysosome transport. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Lysosome transport"
-  },
-  {
-    "title": "Lysosomal solute and water transport | Journal of Cell Biology - rupress.org",
-    "abstract": " Lysosomal solute and water transport | Journal of Cell Biology \u00a0\u00a0 rupress.org ",
-    "journal": "rupress.org",
-    "year": 2026,
-    "authors": "rupress.org",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Lysosome transport"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxTU9BSXpicWtWeDhKamx5QmZaWDdkSDBzNXRhZnVnRXpMdGNReHhMN19UVmZ1WVkxcnRENUZlQlNVeFdLTVpJNlVqYmJ5OWVFT0NCNmVxbjFFQnNadmJkUC0tZXI3ZDlRQW9MYkJTNmJOcHM?oc=5",
-    "topic": "Lysosome transport",
-    "top": false,
-    "score": 76,
-    "type": "News / signal",
-    "overview": "Lysosomal solute and water transport | Journal of Cell Biology \u00a0\u00a0 rupress.org",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Lysosomal solute and water transport | Journal of Cell Biology \u00a0\u00a0 rupress.org",
-    "context": "Lysosomal solute and water transport | Journal of Cell Biology \u00a0\u00a0 rupress.org",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -10723,11 +10665,75 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
-    "title": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes - rupress.org",
-    "abstract": " Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 rupress.org ",
-    "journal": "rupress.org",
+    "title": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation - jneurosci.org",
+    "abstract": " The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 jneurosci.org ",
+    "journal": "jneurosci.org",
     "year": 2026,
-    "authors": "rupress.org",
+    "authors": "jneurosci.org",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Dynein / autophagosome"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xNzQ2cVlxRDhZTERTdmNYUUNzaFV0eTBXaXpjdEZOZjY1S1cwZEdLMmZKTHZnNXNwQlM5SEdPQlBSb1gzT1k5U2VGZy1ZVmZweGo3Undn?oc=5",
+    "topic": "Dynein / autophagosome",
+    "top": false,
+    "score": 74,
+    "type": "News / signal",
+    "overview": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 jneurosci.org",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 jneurosci.org",
+    "context": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 jneurosci.org",
+    "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Dynein / autophagosome"
+  },
+  {
+    "title": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation - jneurosci.org",
+    "abstract": " The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 jneurosci.org ",
+    "journal": "jneurosci.org",
+    "year": 2026,
+    "authors": "jneurosci.org",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Dynein / autophagosome"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UTG5LMGVzbE83SHQ0SUV6aEdQdDlUOThQVG9OdkgxVHhEc1VfMFJuM01vREQ4MGdndnJqRVVBUnp5aHlRY2FkVmEydHl3bURKTk5ITko4akswTTJiZXc?oc=5",
+    "topic": "Dynein / autophagosome",
+    "top": false,
+    "score": 74,
+    "type": "News / signal",
+    "overview": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 jneurosci.org",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 jneurosci.org",
+    "context": "The Regulation of Autophagosome Dynamics by Huntingtin and HAP1 Is Disrupted by Expression of Mutant Huntingtin, Leading to Defective Cargo Degradation \u00a0\u00a0 jneurosci.org",
+    "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Dynein / autophagosome"
+  },
+  {
+    "title": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes - Rockefeller University Press",
+    "abstract": " Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press ",
+    "journal": "Rockefeller University Press",
+    "year": 2026,
+    "authors": "Rockefeller University Press",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -10743,12 +10749,12 @@
     "top": false,
     "score": 74,
     "type": "News / signal",
-    "overview": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 rupress.org",
+    "overview": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 rupress.org",
-    "context": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 rupress.org",
+    "main": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
+    "context": "Axonal autophagosomes recruit dynein for retrograde transport through fusion with late endosomes \u00a0\u00a0 Rockefeller University Press",
     "why": "Matched topics: Dynein / autophagosome. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11277,11 +11283,43 @@
     "matched_topics_label": "Endosome maturation"
   },
   {
-    "title": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 - rupress.org",
-    "abstract": " TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org ",
-    "journal": "rupress.org",
+    "title": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation - jneurosci.org",
+    "abstract": " Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 jneurosci.org ",
+    "journal": "jneurosci.org",
     "year": 2026,
-    "authors": "rupress.org",
+    "authors": "jneurosci.org",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Endosome maturation"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JQkJRWGhDYjFkQkw5aVhIdkkxS0NhSjVLeDNOYXdNRjI3VUJmOEJpTWdGZlotMlVBNGFCU0xpYmY4bWFGckl2RVliTTd6NDB5cVg4MDVtWQ?oc=5",
+    "topic": "Endosome maturation",
+    "top": false,
+    "score": 72,
+    "type": "News / signal",
+    "overview": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 jneurosci.org",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 jneurosci.org",
+    "context": "Dynein Is Required for Rab7-Dependent Endosome Maturation, Retrograde Dendritic Transport, and Degradation \u00a0\u00a0 jneurosci.org",
+    "why": "Matched topics: Endosome maturation. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Endosome maturation"
+  },
+  {
+    "title": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 - Rockefeller University Press",
+    "abstract": " TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press ",
+    "journal": "Rockefeller University Press",
+    "year": 2026,
+    "authors": "Rockefeller University Press",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -11297,12 +11335,12 @@
     "top": false,
     "score": 72,
     "type": "News / signal",
-    "overview": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org",
+    "overview": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org",
-    "context": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 rupress.org",
+    "main": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
+    "context": "TBC1D18 is a Rab5-GAP that coordinates endosome maturation together with Mon1 \u00a0\u00a0 Rockefeller University Press",
     "why": "Matched topics: Endosome maturation. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11682,43 +11720,11 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Pain and sensory abnormalities in prodromal and early Parkinson's disease: mechanisms, assessment, and clinical implications - Frontiers",
-    "abstract": " Pain and sensory abnormalities in prodromal and early Parkinson's disease: mechanisms, assessment, and clinical implications \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
+    "title": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release - journals.asm.org",
+    "abstract": " Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 journals.asm.org ",
+    "journal": "journals.asm.org",
     "year": 2026,
-    "authors": "Frontiers",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeGZVUHVORVdCblU3VFZiaDJEbm1sZ0dLc0FfSWxkT0VuWURvbzZoN3dtZ2FabVNWbl9jb3Jtb1lpMktZdWFDWi00d1dONnY1WFZPczNKUzBXcFJUQm1PdDFEVUdDSEVuTHdtTmF2YnVWR2pjeTR1YW9wT09sYXpXdXpjU3NRWV9ISHM2cDNTTjBQZmcxU2c?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Pain and sensory abnormalities in prodromal and early Parkinson's disease: mechanisms, assessment, and clinical implications \u00a0\u00a0 Frontiers",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Pain and sensory abnormalities in prodromal and early Parkinson's disease: mechanisms, assessment, and clinical implications \u00a0\u00a0 Frontiers",
-    "context": "Pain and sensory abnormalities in prodromal and early Parkinson's disease: mechanisms, assessment, and clinical implications \u00a0\u00a0 Frontiers",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
-  },
-  {
-    "title": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release - ASM Journals",
-    "abstract": " Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals ",
-    "journal": "ASM Journals",
-    "year": 2026,
-    "authors": "ASM Journals",
+    "authors": "journals.asm.org",
     "pmid": "",
     "doi": "",
     "review": false,
@@ -11734,12 +11740,12 @@
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals",
+    "overview": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 journals.asm.org",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals",
-    "context": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 ASM Journals",
+    "main": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 journals.asm.org",
+    "context": "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release \u00a0\u00a0 journals.asm.org",
     "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -11810,36 +11816,100 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons - Wiley Online Library",
-    "abstract": " Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library ",
-    "journal": "Wiley Online Library",
+    "title": "Alzheimer\u2019s & Related Dementias: Risk Factors, Genetics, Disease Mechanisms - National Institute on Aging (.gov)",
+    "abstract": " Alzheimer\u2019s & Related Dementias: Risk Factors, Genetics, Disease Mechanisms \u00a0\u00a0 National Institute on Aging (.gov) ",
+    "journal": "National Institute on Aging (.gov)",
     "year": 2026,
-    "authors": "Wiley Online Library",
+    "authors": "National Institute on Aging (.gov)",
     "pmid": "",
     "doi": "",
     "review": false,
     "matched_topics": [
-      "Neuronal lysosome"
+      "Disease mechanisms"
     ],
     "sources": [
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YdlZoX2gxTE1WdTV5R1lpRk1SdnVsc2JKSHJqa2ItZzZ2aXRncVpnRWxfX3NWdmdkTF9OQVNBODcxQmFaMGJhQ0huRXN1UVg4MUJDVnFxa2I0OEx6b05yZUR1WDV6QUFMdUE?oc=5",
-    "topic": "Neuronal lysosome",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQmZ0SFdwNm42ZFNrT1NJejlkS1lib044SVdxWVptcUprTTNScWQtdlc2MVVJZ0xHU2xiZEtybnZDQWJ5SXp1RmlSbkstOGpaYWg4QWJwTnRSQWozM2x4WUFiSDBDWmZFVnQxMkk2Mjg5c3FXMTFjY18tQzlZd1N5a2ExMmd3dkg4MjU3eU1tYmRyQVlPdy1abTNNZjBnb2MyNTlza2V6NE9yQjN1THdaQnlpWHExLXMzbTFz?oc=5",
+    "topic": "Disease mechanisms",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library",
+    "overview": "Alzheimer\u2019s & Related Dementias: Risk Factors, Genetics, Disease Mechanisms \u00a0\u00a0 National Institute on Aging (.gov)",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library",
-    "context": "Delivering Progranulin to Astrocytic Lysosomes Promotes Growth of Co\u2010Cultured Neurons \u00a0\u00a0 Wiley Online Library",
-    "why": "Matched topics: Neuronal lysosome. Sources: Google News.",
+    "main": "Alzheimer\u2019s & Related Dementias: Risk Factors, Genetics, Disease Mechanisms \u00a0\u00a0 National Institute on Aging (.gov)",
+    "context": "Alzheimer\u2019s & Related Dementias: Risk Factors, Genetics, Disease Mechanisms \u00a0\u00a0 National Institute on Aging (.gov)",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
-    "matched_topics_label": "Neuronal lysosome"
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "Stanford Medicine team creates advanced model for studying brain development, disorders - Stanford Medicine",
+    "abstract": " Stanford Medicine team creates advanced model for studying brain development, disorders \u00a0\u00a0 Stanford Medicine ",
+    "journal": "Stanford Medicine",
+    "year": 2026,
+    "authors": "Stanford Medicine",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORUNTZF9uY1loT29GOVc1NUZtUnl5bEF1TC1qZnQzeGJWWmZJZGtuNllUR2t1OVRWLVR1RVZtRGV5c3A4LU5qYnJWeXktangtYllMY0N5cDJkQWFNLWE5QnFsanV5ZGtYSFVic0NHQld0b2FIVWc5Y2x2dUFTLUNFTUZrRmJXcW0zeHNxUw?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Stanford Medicine team creates advanced model for studying brain development, disorders \u00a0\u00a0 Stanford Medicine",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Stanford Medicine team creates advanced model for studying brain development, disorders \u00a0\u00a0 Stanford Medicine",
+    "context": "Stanford Medicine team creates advanced model for studying brain development, disorders \u00a0\u00a0 Stanford Medicine",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Scientists grow half-human brains in living mice to study neurological disorders - Interesting Engineering",
+    "abstract": " Scientists grow half-human brains in living mice to study neurological disorders \u00a0\u00a0 Interesting Engineering ",
+    "journal": "Interesting Engineering",
+    "year": 2026,
+    "authors": "Interesting Engineering",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNejVYWHFmTEVBWE1Ha3hqSzRDTks0Mm5FNVNYdzQ4dWxXVEZaVGRQTWdibnc1LVBzNUNubXdNbjRLZTBqU1lFMTBPQmFtdThkS2pwemFBLUV2R0o1NUFmTFNNSDRMa3VEXy1vaWZQa1Jid2RVdHVZc1NpNVF0ZE1sVmZ5NXBlcE1a?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Scientists grow half-human brains in living mice to study neurological disorders \u00a0\u00a0 Interesting Engineering",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Scientists grow half-human brains in living mice to study neurological disorders \u00a0\u00a0 Interesting Engineering",
+    "context": "Scientists grow half-human brains in living mice to study neurological disorders \u00a0\u00a0 Interesting Engineering",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Could targeting neuronal metabolism offer a new path for neurodegenerative disease therapy? - EurekAlert!",
@@ -11874,36 +11944,36 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
-    "title": "Diagnosis in neurodevelopmental disorders: time, dynamics, and response to intervention - Frontiers",
-    "abstract": " Diagnosis in neurodevelopmental disorders: time, dynamics, and response to intervention \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
+    "title": "Mice With Mostly Human Cortical Tissue Could Help Reveal How Brain Disorders Develop - Discover Magazine",
+    "abstract": " Mice With Mostly Human Cortical Tissue Could Help Reveal How Brain Disorders Develop \u00a0\u00a0 Discover Magazine ",
+    "journal": "Discover Magazine",
     "year": 2026,
-    "authors": "Frontiers",
+    "authors": "Discover Magazine",
     "pmid": "",
     "doi": "",
     "review": false,
     "matched_topics": [
-      "Neurodevelopment disorder"
+      "Neurological disorders"
     ],
     "sources": [
       "Google News"
     ],
     "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR3ZCUE1fdUVaWWtRck8wX09sRm5ONy1jczlBMjlQMDZHOUxxWFBtdkN4ZXo4NW1yUWM0b0Z0U2pVY1hXaDE0emx5UDgwVVI2b1AtSV9xSWdhZ1hsakZIV2tEZzhvVzZGU0pWN2hDcGJXblU2N3BlUVR1WF9lQlAxX0E5eV9lUlhxVWlUNXdjdXZZalNK?oc=5",
-    "topic": "Neurodevelopment disorder",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ3hmN3BzQzV2Q0s0ZVBXcEhwakVCbEpYcl9ZRldETE8wbFByN1hmcldKSkZoenJaWXhJTjRyQkx3WnJnWGZ1RVI2dm5wZ2ZfZWdJX0lESnJScDVSTmREaU0yejF3X2dJNVMycWJOWTdhcHVNQ0lacEh1UC1kZ3RzMHpYT2FHeENYNzBuYjFrQl9jVmloeDZkd3doQzYxcWJ6cDNFOEF3TE9MenlseWRZdWhud1p1cU9RaC1rZ1duQ2o?oc=5",
+    "topic": "Neurological disorders",
     "top": false,
     "score": 70,
     "type": "News / signal",
-    "overview": "Diagnosis in neurodevelopmental disorders: time, dynamics, and response to intervention \u00a0\u00a0 Frontiers",
+    "overview": "Mice With Mostly Human Cortical Tissue Could Help Reveal How Brain Disorders Develop \u00a0\u00a0 Discover Magazine",
     "did": [
       "Detailed abstract text is not available for this record yet."
     ],
-    "main": "Diagnosis in neurodevelopmental disorders: time, dynamics, and response to intervention \u00a0\u00a0 Frontiers",
-    "context": "Diagnosis in neurodevelopmental disorders: time, dynamics, and response to intervention \u00a0\u00a0 Frontiers",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
+    "main": "Mice With Mostly Human Cortical Tissue Could Help Reveal How Brain Disorders Develop \u00a0\u00a0 Discover Magazine",
+    "context": "Mice With Mostly Human Cortical Tissue Could Help Reveal How Brain Disorders Develop \u00a0\u00a0 Discover Magazine",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
-    "matched_topics_label": "Neurodevelopment disorder"
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Noncoding DNA Regions Drive Development of Neurodevelopmental Disorders - Northwestern University",
@@ -11970,6 +12040,38 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
+    "title": "Celine Dion overcomes rare neurological disorder to perform first concert in 6 years - CBS News",
+    "abstract": " Celine Dion overcomes rare neurological disorder to perform first concert in 6 years \u00a0\u00a0 CBS News ",
+    "journal": "CBS News",
+    "year": 2026,
+    "authors": "CBS News",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ0pRWjVTM0xGeS1rLTlpQVlZYW5JYXpEOG5aczdwaTJ5Q2Q1aFhmcmwyNnJFcHNKWnlrVE9nUGUzTHdUcDNhS1RqNi1qdS1CRER1QXI2RUhWeDlieU9STUhMNEhIVUFUQTFfUVhCc25uV3ZIYU5GTWdERG9QQ1lfSnBqa25HYmJPSE92aVFONTNpOGNyN1RoZUNCeTZpWFdKRGFkcEpoVkIwX2NRdlN1TmJ3QTAyQQ?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Celine Dion overcomes rare neurological disorder to perform first concert in 6 years \u00a0\u00a0 CBS News",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Celine Dion overcomes rare neurological disorder to perform first concert in 6 years \u00a0\u00a0 CBS News",
+    "context": "Celine Dion overcomes rare neurological disorder to perform first concert in 6 years \u00a0\u00a0 CBS News",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
     "title": "Why does severe illness during pregnancy sometimes harm neurodevelopment? - Salk Institute",
     "abstract": " Why does severe illness during pregnancy sometimes harm neurodevelopment? \u00a0\u00a0 Salk Institute ",
     "journal": "Salk Institute",
@@ -12000,38 +12102,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
-    "title": "New structural insights could improve treatments for neurological disorders - News-Medical",
-    "abstract": " New structural insights could improve treatments for neurological disorders \u00a0\u00a0 News-Medical ",
-    "journal": "News-Medical",
-    "year": 2026,
-    "authors": "News-Medical",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTTlYWURqY3RjbWd5Rkl6dndaT183bkptQ1FENkVxRUxoZUpaVVoxREU2U0RFSl9sQjcxWF9SOTJIMjFEekc3WWYteFhWVlVETHFoYldrQU8zQTlzcEpvLW55dk42QlViTlM0Y1hncHZHX1loV25IYnAtYUZPak9NZ2ZzYWg0N0VPUVhBS1lzbThXTTNHSGxfdFBuY2VxX3A0NGpHQ0pLdVFZQ3NrUFNGdVk4TExWbzVyMkVyTU8za0k?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "New structural insights could improve treatments for neurological disorders \u00a0\u00a0 News-Medical",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "New structural insights could improve treatments for neurological disorders \u00a0\u00a0 News-Medical",
-    "context": "New structural insights could improve treatments for neurological disorders \u00a0\u00a0 News-Medical",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "New findings explain how lysosomal defects trigger neuronal energy failure - News-Medical",
@@ -12098,38 +12168,6 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
-    "title": "Editorial: Precision neuroimaging for MRgFUS in neurological disorders - Frontiers",
-    "abstract": " Editorial: Precision neuroimaging for MRgFUS in neurological disorders \u00a0\u00a0 Frontiers ",
-    "journal": "Frontiers",
-    "year": 2026,
-    "authors": "Frontiers",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Neurological disorders"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbjZtMjhoQ1VqQ1FMTWxCT2hkM2x6Wmo1ZFlncWZKRG4xSTh6MEZQX3dDRjRmbldiTnN0ZFgzYXdwRktnaTRQMmptaEVBYzlTMWxIZjRvOUN3OXdPNldGX3hWTGtWNm1CaHNabFVINUlWd3dnWWMwVVlzQkMtX2otci1NR2pIMXVuQkpnQ3pDTHI?oc=5",
-    "topic": "Neurological disorders",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Editorial: Precision neuroimaging for MRgFUS in neurological disorders \u00a0\u00a0 Frontiers",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Editorial: Precision neuroimaging for MRgFUS in neurological disorders \u00a0\u00a0 Frontiers",
-    "context": "Editorial: Precision neuroimaging for MRgFUS in neurological disorders \u00a0\u00a0 Frontiers",
-    "why": "Matched topics: Neurological disorders. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Neurological disorders"
-  },
-  {
     "title": "Editorial: Genetics and mechanisms of neurodevelopmental disorders - Frontiers",
     "abstract": " Editorial: Genetics and mechanisms of neurodevelopmental disorders \u00a0\u00a0 Frontiers ",
     "journal": "Frontiers",
@@ -12156,6 +12194,70 @@
     ],
     "main": "Editorial: Genetics and mechanisms of neurodevelopmental disorders \u00a0\u00a0 Frontiers",
     "context": "Editorial: Genetics and mechanisms of neurodevelopmental disorders \u00a0\u00a0 Frontiers",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
+    "title": "Human brain tissue grows in mice in study of related disorders - Daily Sabah",
+    "abstract": " Human brain tissue grows in mice in study of related disorders \u00a0\u00a0 Daily Sabah ",
+    "journal": "Daily Sabah",
+    "year": 2026,
+    "authors": "Daily Sabah",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ0J5cWh3NVMtN0JKbDhvUThIQjVyUnRQbC1PVnhFd240Y2ZJWUxOVVJXSVBkRzdOM1NBdlhvT1FpSHNmSHhjYTBCSWRteDBTZGpLX1ZKRnBySldKMmJrLV9SV3MyLW5keWZwS2pxQlZRMHdBMmUzT0lzeHZ5ZlB5LUdrQTBONzBvdmE5blhqcl83MWdCUEZlQzhKOUh2TnRNbVcyQg?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Human brain tissue grows in mice in study of related disorders \u00a0\u00a0 Daily Sabah",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Human brain tissue grows in mice in study of related disorders \u00a0\u00a0 Daily Sabah",
+    "context": "Human brain tissue grows in mice in study of related disorders \u00a0\u00a0 Daily Sabah",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
+    "title": "Mercy Kids Center for Neurodevelopment Celebrates Grand Opening - mercy.net",
+    "abstract": " Mercy Kids Center for Neurodevelopment Celebrates Grand Opening \u00a0\u00a0 mercy.net ",
+    "journal": "mercy.net",
+    "year": 2026,
+    "authors": "mercy.net",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQlhSM3hORE1ZNzV1elE4dzFQM1VKcGEwOEUzS1pmYmRQSXB5eG9wOGZBVXVsYmxlZzU2bmtEQl9yN0haMHBsODRiVkhYVTRmMFRkUUlXU3hlU1JTLWpMZURyRUV0cVRLdHphelZDZzZpVkdwZndMbHJHc0pqd2RkeERON3hoalphclpJTUM1d0tXZzNkQTB6dUU2Q3NtdW9HSkFybGRXekRlUQ?oc=5",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "Mercy Kids Center for Neurodevelopment Celebrates Grand Opening \u00a0\u00a0 mercy.net",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Mercy Kids Center for Neurodevelopment Celebrates Grand Opening \u00a0\u00a0 mercy.net",
+    "context": "Mercy Kids Center for Neurodevelopment Celebrates Grand Opening \u00a0\u00a0 mercy.net",
     "why": "Matched topics: Neurodevelopment disorder. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
