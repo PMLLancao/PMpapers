@@ -2429,76 +2429,6 @@
     "matched_topics_label": "Neurodevelopment disorder"
   },
   {
-    "title": "Human microglia clear intraneuronal \u03b1-synuclein aggregates by GPNMB-mediated trogocytosis.",
-    "abstract": "Microglia are the primary immune cells of the brain, but their role in Parkinson's disease is not fully understood. Chronic microglial activation is toxic to neurons, but in the early stages of pathology, microglia also exert beneficial functions. We used induced pluripotent stem cell (iPSC)-derived coculture models to investigate how human microglia respond to \u03b1-synuclein aggregates that form de novo inside human dopaminergic neurons with \u03b1-synuclein gene triplication or are triggered by fibrils. We found that microglia cleared Ser129-phosphorylated \u03b1-synuclein aggregates through a contact-dependent mechanism. This process was fine-tuned by sensing (P2RY12) and inhibitory (CD22) signals and involved selective phagocytosis of neuronal subcompartments (trogocytosis), independently of TREM2 or phosphatidylserine. In the presence of intraneuronal \u03b1-synuclein aggregates, microglia exhibited morphological and transcriptional changes indicative of activation. Using single-cell sequencing, we identified a cluster of disease-associated microglia (DAM) responsible for this beneficial phenotype and the Parkinson's disease GWAS candidate glycoprotein nonmetastatic melanoma protein B (GPNMB) as a key effector of aggregate clearance by microglial lysosomes. GPNMB interacted with Ser129-phosphorylated \u03b1-synuclein in iPSC-derived microglia exposed to aggregate-laden dopaminergic neurons and was up-regulated in substantia nigra microglia of individuals with incidental Lewy bodies or Parkinson's disease. Microglia-specific GPNMB knockdown using CRISPRi reduced intraneuronal aggregate clearance. GPNMB-mediated trogocytosis was negatively regulated by an autocrine IL-10 signaling loop, whereas IL-10 receptor blockade enhanced the phagocytic response. Together, our study identifies a subtype of human microglia capable of removing intraneuronal aggregates and potential therapeutic targets.",
-    "journal": "Science translational medicine",
-    "year": 2026,
-    "authors": "Chueh HJ, Katsikoudi A, Arag\u00f3n-Gonz\u00e1lez A, Lam CL, Tamon L, Jainarayanan A, Agarwal D, Cowley SA",
-    "pmid": "42842725",
-    "doi": "10.1126/scitranslmed.adz9258",
-    "review": false,
-    "matched_topics": [
-      "Neuronal lysosome"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42842725/",
-    "topic": "Neuronal lysosome",
-    "top": true,
-    "score": 86,
-    "type": "Primary research",
-    "overview": "Microglia are the primary immune cells of the brain, but their role in Parkinson's disease is not fully understood.",
-    "did": [
-      "Chronic microglial activation is toxic to neurons, but in the early stages of pathology, microglia also exert beneficial functions.",
-      "We used induced pluripotent stem cell (iPSC)-derived coculture models to investigate how human microglia respond to \u03b1-synuclein aggregates that form de novo inside human dopaminergic neurons with \u03b1-synuclein gene triplication or are triggered by fibrils.",
-      "We found that microglia cleared Ser129-phosphorylated \u03b1-synuclein aggregates through a contact-dependent mechanism.",
-      "This process was fine-tuned by sensing (P2RY12) and inhibitory (CD22) signals and involved selective phagocytosis of neuronal subcompartments (trogocytosis), independently of TREM2 or phosphatidylserine."
-    ],
-    "main": "In the presence of intraneuronal \u03b1-synuclein aggregates, microglia exhibited morphological and transcriptional changes indicative of activation.",
-    "context": "Using single-cell sequencing, we identified a cluster of disease-associated microglia (DAM) responsible for this beneficial phenotype and the Parkinson's disease GWAS candidate glycoprotein nonmetastatic melanoma protein B (GPNMB) as a key effector of aggregate clearance by microglial lysosomes.",
-    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "Identification of a Ste20-like kinase-dependent signaling network orchestrating cytoskeletal and synaptic development of cortical neurons.",
-    "abstract": "BACKGROUND: The Ste20-like kinase (SLK) is a serine/threonine kinase that regulates cytoskeletal organization, apoptosis, and cell polarity in non-neuronal cells. In neurons, SLK guides dendrite morphogenesis and the stability of inhibitory synapses, thereby controlling excitation-inhibition balance through parvalbumin interneuron function. Almost complete loss of SLK in dysmorphic neurons of epileptogenic cortical dysplasias implicates a function of this kinase in neurodevelopmental disorders. However, its neuronal signaling mechanisms remain poorly understood. METHODS: To address this knowledge gap, we combined an affinity purification-mass spectrometry screen for candidate SLK-interacting proteins with quantitative phosphoproteomics after SLK knockdown to identify potential SLK interactors and the SLK-dependent phosphorylation landscape in cortical neurons. RESULTS: Across the two datasets, we identified hundreds of candidate SLK-binding proteins and more than 1,000 regulated phosphosites after SLK knockdown. The datasets converged on cytoskeletal, synaptic, and signaling proteins involved in actin and microtubule regulation, cell adhesion, and synaptic stability. We identified two germinal center (GCK)-family kinases, MINK1 and TNIK, as direct SLK substrates at the activation-loop threonine (T181), suggesting that SLK may act upstream of a GCK kinase pathway implicated in dendritic development. Functionally, SLK knockdown also altered spontaneous network activity, changed the phosphorylation pattern of KCNQ2, and increased the sensitivity of neuronal networks to KCNQ2 blockade. CONCLUSIONS: These data position SLK within a broad neuronal signaling network that links cytoskeletal and synaptic regulation to kinase signaling and neuronal excitability. While the effects on KCNQ2 appear to be indirect, MINK1 and TNIK emerge as direct SLK substrates.",
-    "journal": "Cell communication and signaling : CCS",
-    "year": 2026,
-    "authors": "Quatraccioni A, Graham ME, Sylvester M, Hardt R, van Waardenberg AJ, Becker AJ, Schoch S",
-    "pmid": "42827256",
-    "doi": "10.1186/s12964-026-03250-y",
-    "review": false,
-    "matched_topics": [
-      "Neurodevelopment disorder"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42827256/",
-    "topic": "Neurodevelopment disorder",
-    "top": true,
-    "score": 86,
-    "type": "Primary research",
-    "overview": "BACKGROUND: The Ste20-like kinase (SLK) is a serine/threonine kinase that regulates cytoskeletal organization, apoptosis, and cell polarity in non-neuronal cells.",
-    "did": [
-      "In neurons, SLK guides dendrite morphogenesis and the stability of inhibitory synapses, thereby controlling excitation-inhibition balance through parvalbumin interneuron function.",
-      "Almost complete loss of SLK in dysmorphic neurons of epileptogenic cortical dysplasias implicates a function of this kinase in neurodevelopmental disorders.",
-      "However, its neuronal signaling mechanisms remain poorly understood.",
-      "METHODS: To address this knowledge gap, we combined an affinity purification-mass spectrometry screen for candidate SLK-interacting proteins with quantitative phosphoproteomics after SLK knockdown to identify potential SLK interactors and the SLK-dependent phosphorylation landscape in cortical neurons."
-    ],
-    "main": "RESULTS: Across the two datasets, we identified hundreds of candidate SLK-binding proteins and more than 1,000 regulated phosphosites after SLK knockdown.",
-    "context": "The datasets converged on cytoskeletal, synaptic, and signaling proteins involved in actin and microtubule regulation, cell adhesion, and synaptic stability.",
-    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopment disorder"
-  },
-  {
     "title": "Corticothalamic assembloids recapitulate human fetal brain morphologies and enhance neuronal complexity.",
     "abstract": "Neuronal morphology governs how neurons connect, integrate, and process information, offering critical insights into the functional architecture of the brain. Characterizing the three-dimensional (3D) morphology of individual neurons is key not only for mapping circuit connectivity but also for understanding the cellular diversity that emerges during development. Neural organoids are valuable models of human brain development and disease, yet their morphological complexity remains poorly characterized despite advances in single-cell transcriptomics. Here, we use 3D confocal imaging and manual reconstruction of 735 neurons to analyze forebrain (dorsal and ventral) and thalamic (dorsal and ventral) organoids, as well as forebrain, thalamic, and corticothalamic assembloids. We find that organoids and assembloids exhibit distinct morphologies resembling fetal brain neurons, including immature pyramidal-like, double-bouquet, and bushy-like neurons. Interregional assembloids show greater neuronal morphological complexity than individual organoids, with more extensive dendritic branching, longer projections, and diverse soma shapes. Corticothalamic assembloids further display features of emerging connectivity. Complementary transcriptomic profiling supports regional identity and reveals expression of genes involved in projection guidance. We observe dendritic spines with excitatory and inhibitory profiles and varicosities, indicative of maturing synaptic architecture. Together, our work makes an initial effort in describing the diversity of neuronal morphology in human neural organoids and assembloids. It further establishes structural phenotyping as a critical dimension for validating human neural models and underscores their value for modeling morphofunctional disorders.",
     "journal": "Neuroscience",
@@ -2942,6 +2872,38 @@
     ],
     "main": "SLC26A11 is an atypical solute carrier with dual transport-channel function mediating lysosomal sulfate transport \u00a0\u00a0 Nature",
     "context": "SLC26A11 is an atypical solute carrier with dual transport-channel function mediating lysosomal sulfate transport \u00a0\u00a0 Nature",
+    "why": "Matched topics: Lysosome transport. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Lysosome transport"
+  },
+  {
+    "title": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection - Science | AAAS",
+    "abstract": " The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 Science | AAAS ",
+    "journal": "Science | AAAS",
+    "year": 2026,
+    "authors": "Science | AAAS",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Lysosome transport"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WRzVYQkUzRW5EVDBoY2M1TGRxQktLcldxSHNzMVF5c3pmUU05RmczX3dWTXNxcmZrRUNEM2NSVVVydGFKRTRBOWNqcUN6dnpITnhWTFBwT3hmWndqUkNPQg?oc=5",
+    "topic": "Lysosome transport",
+    "top": true,
+    "score": 86,
+    "type": "News / signal",
+    "overview": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 Science | AAAS",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 Science | AAAS",
+    "context": "The human disease gene LYSET is essential for lysosomal enzyme transport and viral infection \u00a0\u00a0 Science | AAAS",
     "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
@@ -6666,6 +6628,38 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
+    "title": "Epigenetic regulation of humoral immunity: molecular mechanisms, diseases and therapeutic targets - Nature",
+    "abstract": " Epigenetic regulation of humoral immunity: molecular mechanisms, diseases and therapeutic targets \u00a0\u00a0 Nature ",
+    "journal": "Nature",
+    "year": 2026,
+    "authors": "Nature",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Disease mechanisms"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyci02a28xcXdtWVZDbjFDMVV5SW5FWVJTYzlzRUk2UV8wT1RaQ2d0WDVLMWJ3VEtFMVRyRTRaZWZlWHMyM3hvNWZxRi1FOWtHczVoNm9hTzdFNUk0dzA4?oc=5",
+    "topic": "Disease mechanisms",
+    "top": true,
+    "score": 80,
+    "type": "News / signal",
+    "overview": "Epigenetic regulation of humoral immunity: molecular mechanisms, diseases and therapeutic targets \u00a0\u00a0 Nature",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "Epigenetic regulation of humoral immunity: molecular mechanisms, diseases and therapeutic targets \u00a0\u00a0 Nature",
+    "context": "Epigenetic regulation of humoral immunity: molecular mechanisms, diseases and therapeutic targets \u00a0\u00a0 Nature",
+    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Disease mechanisms"
+  },
+  {
     "title": "Population-scale immune multiome atlas reveals regulatory disease mechanisms - Nature",
     "abstract": " Population-scale immune multiome atlas reveals regulatory disease mechanisms \u00a0\u00a0 Nature ",
     "journal": "Nature",
@@ -8509,6 +8503,41 @@
     "matched_topics_label": "Neuronal lysosome"
   },
   {
+    "title": "Developmental Convergence Across Diverse Genetic Architectures in Childhood Apraxia of Speech.",
+    "abstract": "Childhood apraxia of speech (CAS) is a neurodevelopmental disorder of speech-motor planning and programming, associated with literacy, academic, and psychosocial difficulties. We performed whole-exome sequencing in 11 families comprising 21 affected and 15 unaffected individuals with phenotyping spanning speech, language, cognition, literacy, and motor function. We identified 60 prioritized variant observations representing 22 unique variants across 20 genes with family-based segregation analysis assessed in informative relatives; 5 arose de novo. Our cohort included multiple affected siblings and extended relatives, with several families carrying multiple prioritized variants, suggesting cumulative or oligogenic susceptibility. Speech and literacy impairment co-occurred with oral-motor, feeding, and fine-motor difficulties. BrainSpan co-expression analysis identified MECP2 and ANK2 as the genes with the highest observed connectivity in the sampled postnatal network. Exploratory analysis of the KOLF2.1J perturbation atlas in undifferentiated human induced pluripotent stem cells identified a positive LMO3 expression-response score following NIPBL repression and opposing LMO3 and ANK2 response directions within a cohesin-associated perturbation cluster. These observations motivate testing in human neural cells. Functional enrichment, protein-association, and developmental-expression analyses supported shared biological themes involving chromatin regulation, neuronal signaling, and extracellular-matrix organization. Among six families, multiple affected relatives shared prioritized variants across a unique set of several genes, demonstrating multilocus candidate profiles whose individual and combined effects may contribute to CAS susceptibility. We propose four novel CAS candidate genes-LMO3 and PCDH10, previously linked to human accelerated regions, as well as MYCBP2 and PTPRS. Our work provides multiple testable hypotheses for future variant-specific functional validation in speech-motor development.",
+    "journal": "bioRxiv : the preprint server for biology",
+    "year": 2026,
+    "authors": "White T, Chapi M, Raaz C, Bruce L, Modi A, Dinu V, Liu L, Klein-Seetharaman J",
+    "pmid": "42856324",
+    "doi": "10.64898/2026.10.03.756424",
+    "review": false,
+    "matched_topics": [
+      "Neurodevelopment disorder"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42856324/",
+    "topic": "Neurodevelopment disorder",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Childhood apraxia of speech (CAS) is a neurodevelopmental disorder of speech-motor planning and programming, associated with literacy, academic, and psychosocial difficulties.",
+    "did": [
+      "We performed whole-exome sequencing in 11 families comprising 21 affected and 15 unaffected individuals with phenotyping spanning speech, language, cognition, literacy, and motor function.",
+      "We identified 60 prioritized variant observations representing 22 unique variants across 20 genes with family-based segregation analysis assessed in informative relatives; 5 arose de novo.",
+      "Our cohort included multiple affected siblings and extended relatives, with several families carrying multiple prioritized variants, suggesting cumulative or oligogenic susceptibility.",
+      "Speech and literacy impairment co-occurred with oral-motor, feeding, and fine-motor difficulties."
+    ],
+    "main": "BrainSpan co-expression analysis identified MECP2 and ANK2 as the genes with the highest observed connectivity in the sampled postnatal network.",
+    "context": "Exploratory analysis of the KOLF2.1J perturbation atlas in undifferentiated human induced pluripotent stem cells identified a positive LMO3 expression-response score following NIPBL repression and opposing LMO3 and ANK2 response directions within a cohesin-associated perturbation cluster.",
+    "why": "Matched topics: Neurodevelopment disorder. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neurodevelopment disorder"
+  },
+  {
     "title": "Genetic risk for dystonia reprograms host-microbiome interactions and gut-brain communication.",
     "abstract": "Dystonia is a neurological movement disorder characterized by involuntary, sustained, or intermittent muscle contractions that result in twisting movements, repetitive motor patterns, or abnormal postures. While genetic mutations such as TOR1A+/\u2206GAG are known contributors, the environmental and peripheral factors influencing disease onset and progression remain poorly understood. Emerging evidence implicates the gut microbiome in shaping neurodevelopment and host behavioral function, yet its contribution to dystonia pathobiology is largely unexplored. Here, we longitudinally profiled the gut microbiome of a Tor1a+/\u2206GAG mouse model using 16S rRNA gene sequencing and uncovered early emerging, persistent disruptions in microbial diversity and community composition that coincided with progressive motor impairment. Mutant mice exhibited alterations in key commensal taxa, and molecular signatures indicative of compromised gut-barrier integrity. Parallel transcriptomic profiling of colonic tissues revealed coordinated dysregulation of pathways governing epithelial stress responses, endoplasmic reticulum homeostasis, lipid signaling, autophagy, and DNA damage and repair, suggesting a previously unrecognized epithelial stress state in Tor1a+/\u2206GAG mouse model. Integrative microbial-host interaction correlation analyses uncovered associations between specific dysbiotic taxa and host signaling pathways. These peripheral perturbations coincided with longitudinal motor deficits, identifying an age-dependent association between gut dysbiosis and neurobehavioral dysfunction. Together, our findings provide an experimental framework for investigating the relationship among microbiome perturbations, gut-barrier disruption, and neuronal vulnerability in a genetic model of dystonia. These findings reveal a previously underexplored peripheral dimension of DYT1 dystonia and provide a foundation for future studies to determine whether microbiome and intestinal alterations functionally contribute to disease pathobiology.",
     "journal": "Experimental neurology",
@@ -10189,6 +10218,41 @@
     "matched_topics_label": "Disease mechanisms"
   },
   {
+    "title": "A microglial basis for fragile X syndrome via impairment of FMRP-regulated lysosomal function.",
+    "abstract": "Silencing of the FMRP-encoding FMR1 gene results in fragile X syndrome (FXS), the most common inheritable intellectual disability and autism. FMRP regulates various neuronal functions but clinical trials targeting neurons have failed, suggesting unrecognized disease mechanisms. We find that mice with selective Fmr1 deletion in microglia exhibit audiogenic seizures (AGS) and parvalbumin (PV) neuron loss, recapitulating two key phenotypes observed in FXS (Fmr1-/y) mice. By combining snRNA-Seq and RNA immunoprecipitation, we identify several lysosomal mRNAs as FMRP binding targets. FMRP promotes lysosomal protein expression and its deficiency disrupts lysosomal function in microglia. Notably, FMRP depletion reduces Grn-encoded secretory progranulin and increases PV neuron apoptosis in immature brains. PV neuron density is decreased similarly in Grn+/-, Fmr1-/y, and Grn+/-;Fmr1-/y mice, and progranulin overexpression rescues AGS and PV neuron loss in Fmr1-/y mice. Thus, our study identifies microglia and progranulin as critical regulators of FXS pathogenesis and potential targets for FXS therapy.",
+    "journal": "Molecular psychiatry",
+    "year": 2026,
+    "authors": "Li H, Choi JJ, Huang EJ, Xu B",
+    "pmid": "42892634",
+    "doi": "10.1038/s41380-026-03927-3",
+    "review": false,
+    "matched_topics": [
+      "Neuronal lysosome"
+    ],
+    "sources": [
+      "PubMed"
+    ],
+    "source_type": "paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42892634/",
+    "topic": "Neuronal lysosome",
+    "top": false,
+    "score": 76,
+    "type": "Primary research",
+    "overview": "Silencing of the FMRP-encoding FMR1 gene results in fragile X syndrome (FXS), the most common inheritable intellectual disability and autism.",
+    "did": [
+      "FMRP regulates various neuronal functions but clinical trials targeting neurons have failed, suggesting unrecognized disease mechanisms.",
+      "We find that mice with selective Fmr1 deletion in microglia exhibit audiogenic seizures (AGS) and parvalbumin (PV) neuron loss, recapitulating two key phenotypes observed in FXS (Fmr1-/y) mice.",
+      "By combining snRNA-Seq and RNA immunoprecipitation, we identify several lysosomal mRNAs as FMRP binding targets.",
+      "FMRP promotes lysosomal protein expression and its deficiency disrupts lysosomal function in microglia."
+    ],
+    "main": "Notably, FMRP depletion reduces Grn-encoded secretory progranulin and increases PV neuron apoptosis in immature brains.",
+    "context": "PV neuron density is decreased similarly in Grn+/-, Fmr1-/y, and Grn+/-;Fmr1-/y mice, and progranulin overexpression rescues AGS and PV neuron loss in Fmr1-/y mice.",
+    "why": "Matched topics: Neuronal lysosome. Sources: PubMed.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "PubMed",
+    "matched_topics_label": "Neuronal lysosome"
+  },
+  {
     "title": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis - Rockefeller University Press",
     "abstract": " Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press ",
     "journal": "Rockefeller University Press",
@@ -10198,8 +10262,7 @@
     "doi": "",
     "review": false,
     "matched_topics": [
-      "Lysosome transport",
-      "Neuronal lysosome"
+      "Lysosome transport"
     ],
     "sources": [
       "Google News"
@@ -10216,10 +10279,10 @@
     ],
     "main": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
     "context": "Neuronal endolysosomal transport and lysosomal functionality in maintaining axonostasis \u00a0\u00a0 Rockefeller University Press",
-    "why": "Matched topics: Lysosome transport, Neuronal lysosome. Sources: Google News.",
+    "why": "Matched topics: Lysosome transport. Sources: Google News.",
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
-    "matched_topics_label": "Lysosome transport, Neuronal lysosome"
+    "matched_topics_label": "Lysosome transport"
   },
   {
     "title": "Lysosome trafficking across intracellular and intercellular networks in the brain - Frontiers",
@@ -11526,6 +11589,38 @@
     "matched_topics_label": "Dynein / autophagosome"
   },
   {
+    "title": "One of the most common brain disorders is one of the most misunderstood \u2013 how functional neurological disorder is both \u2018all in your head\u2019 and beyond it - The Conversation",
+    "abstract": " One of the most common brain disorders is one of the most misunderstood \u2013 how functional neurological disorder is both \u2018all in your head\u2019 and beyond it \u00a0\u00a0 The Conversation ",
+    "journal": "The Conversation",
+    "year": 2026,
+    "authors": "The Conversation",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPN080bXhyYmlGQmdpVFl5TnF5RkNBcmVnaHNFcm1wdGFNeFpiYTBtMDBhbzFZUHYwX3ZHQmt3R3U0LTYtR0hkWW52MlhPZ3FkMmRkZ1JxYmoyZmNlVGdkRmZUaHc4dUQ5Sk83NUdFMXlnZDhCY1BZd044T3F1bklydTVmY1dySlU1eGJnUzh2Wnp1Q3RDWWM5OTVnNm5wQXNHQnRrM3RtaTRQelJGWU01Ty0zQlZvVlNYcW1FdGJEV3VtVHgzeV9SRWV0a2pIbnExNFBNNWE2LXBocGdUaUF1RGhlOU14bXJDWVNZYk5UUzFabzA3eFotd01CWlFqR2ZQblI5SFdrNWd3QW1kb1J3?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "One of the most common brain disorders is one of the most misunderstood \u2013 how functional neurological disorder is both \u2018all in your head\u2019 and beyond it \u00a0\u00a0 The Conversation",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "One of the most common brain disorders is one of the most misunderstood \u2013 how functional neurological disorder is both \u2018all in your head\u2019 and beyond it \u00a0\u00a0 The Conversation",
+    "context": "One of the most common brain disorders is one of the most misunderstood \u2013 how functional neurological disorder is both \u2018all in your head\u2019 and beyond it \u00a0\u00a0 The Conversation",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
+  },
+  {
     "title": "Novo Nordisk Foundation renews commitment to investigate genomic mechanisms of disease at Broad Institute in collaboration with Danish scientists - Novo Nordisk Fonden",
     "abstract": " Novo Nordisk Foundation renews commitment to investigate genomic mechanisms of disease at Broad Institute in collaboration with Danish scientists \u00a0\u00a0 Novo Nordisk Fonden ",
     "journal": "Novo Nordisk Fonden",
@@ -11588,6 +11683,38 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Disease mechanisms"
+  },
+  {
+    "title": "American Neurological Association Announces Winners of 2026 Awards for Outstanding Accomplishments in Academic Neurology and Neuroscience | Newswise - Newswise",
+    "abstract": " American Neurological Association Announces Winners of 2026 Awards for Outstanding Accomplishments in Academic Neurology and Neuroscience | Newswise \u00a0\u00a0 Newswise ",
+    "journal": "Newswise",
+    "year": 2026,
+    "authors": "Newswise",
+    "pmid": "",
+    "doi": "",
+    "review": false,
+    "matched_topics": [
+      "Neurological disorders"
+    ],
+    "sources": [
+      "Google News"
+    ],
+    "source_type": "news",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPcTRPYnpEUUNjWlZraEdqQ0lqbWpBSEQwRWNJWnNvT2IyQjdxaHBRYXFjNUU4LUk4NlljOEt4d0pJOXRwOUt1bWg5MUN2SV9hVE5oTVBvTTFCZ2JOaGk0NGlCZjZ0Ql9xYjg0cGN3UHNLN3BYTUtRMFBDelY2d2FaZ2UxaXFieHp0ZHhKMXFNT0NVSUhlSXVKZEJtVUdiS244bmsxbWxZUDEwSTRKZDMyQjBiY3dpUVZ4TWRSV0pOUHRTQUNXN01mQ3hRQ3FpSENlSmZqWlp2LXhEUTI3c3lQT2pRNnd0ODVkNDd2d1hYVGdtVnlUb3Y5VzZtV1lRMjNn0gGAAkFVX3lxTE9xNE9iekRRQ2NaVmtoR2pDSWptakFIRDBFY0lac29PYjJCN3FocFFhcWM1RTgtSTg2WWM4S3h3Skk5dHA5S3VtaDkxQ3ZJX2FUTmhNUG9NMUJnYk5oaTQ0aUJmNnRCX3FiODRwY3dQc0s3cFhNS1EwUEN6VjZ3YVpnZTFpcWJ4enRkeEoxcU1PQ1VJSGVJdUpkQm1VR2JLbjhuazFtbFlQMTBJNEpkMzJCMGJjd2lRVnhNZFJXSk5QdFNBQ1c3TWZDeFFDcWlIQ2VKZmpaWnYteERRMjdzeVBPalE2d3Q4NWQ0N3Z3WFhUZ21WeVRvdjlXNm1XWVEyM2c?oc=5",
+    "topic": "Neurological disorders",
+    "top": false,
+    "score": 70,
+    "type": "News / signal",
+    "overview": "American Neurological Association Announces Winners of 2026 Awards for Outstanding Accomplishments in Academic Neurology and Neuroscience | Newswise \u00a0\u00a0 Newswise",
+    "did": [
+      "Detailed abstract text is not available for this record yet."
+    ],
+    "main": "American Neurological Association Announces Winners of 2026 Awards for Outstanding Accomplishments in Academic Neurology and Neuroscience | Newswise \u00a0\u00a0 Newswise",
+    "context": "American Neurological Association Announces Winners of 2026 Awards for Outstanding Accomplishments in Academic Neurology and Neuroscience | Newswise \u00a0\u00a0 Newswise",
+    "why": "Matched topics: Neurological disorders. Sources: Google News.",
+    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
+    "sources_label": "Google News",
+    "matched_topics_label": "Neurological disorders"
   },
   {
     "title": "Gut microbiota-derived metabolites in cardiovascular disease: mechanisms, disease-specific roles, and translational opportunities - Frontiers",
@@ -11748,38 +11875,6 @@
     "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
     "sources_label": "Google News",
     "matched_topics_label": "Neuronal lysosome"
-  },
-  {
-    "title": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms - Wiley & Sons",
-    "abstract": " Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons ",
-    "journal": "Wiley & Sons",
-    "year": 2026,
-    "authors": "Wiley & Sons",
-    "pmid": "",
-    "doi": "",
-    "review": false,
-    "matched_topics": [
-      "Disease mechanisms"
-    ],
-    "sources": [
-      "Google News"
-    ],
-    "source_type": "news",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9uQTRJSlBYb2xkUFBmQW1sdDVCanA0dmdhY1RsdkNtaVA3QTZmbFdrdlVoVXJObEVZYkR1b0plRWIzQ25jNlJOU1ZOMTE1ZmZqMGJyREZydXJmcEVCUjlCYW9TR05BdXA2Tzg3OEsxSmhaMW9pN3c?oc=5",
-    "topic": "Disease mechanisms",
-    "top": false,
-    "score": 70,
-    "type": "News / signal",
-    "overview": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
-    "did": [
-      "Detailed abstract text is not available for this record yet."
-    ],
-    "main": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
-    "context": "Predicting Macrophage Spatial Localization from Single-Cell Transcriptomes to Uncover Disease Mechanisms \u00a0\u00a0 Wiley & Sons",
-    "why": "Matched topics: Disease mechanisms. Sources: Google News.",
-    "limits": "This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.",
-    "sources_label": "Google News",
-    "matched_topics_label": "Disease mechanisms"
   },
   {
     "title": "Memory processing in neurodevelopmental disorders: linking behavioral, circuits, and molecular scales - Frontiers",
