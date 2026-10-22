@@ -437,7 +437,10 @@ def global_reject(p):
     if m(b, HERBAL) or BINOMIAL_DERIVED_RX.search(t) or m(t, PHYTOCHEMICAL): return "herbal/natural-product"
     # Only papers ABOUT JIP3/MAPK8IP3 (in the title) skip the organism/organ/cancer rules;
     # a passing abstract mention (e.g. a cardiac injury paper citing JIP3/JNK) does not.
-    if m(t, KEYS["focus"]): return ""
+    if m(t, KEYS["focus"]):
+        # Even a JIP3-titled paper is off-profile if it is about an unrelated organ (heart, kidney...).
+        neuro_t = m(t, NEURAL + KEYS["neurodegeneration"] + KEYS["neurodevelopment"])
+        return "unrelated organ (title)" if (m(t, UNRELATED_ORGAN + ["ischemia reperfusion"]) and not neuro_t) else ""
     if m(t, NONMODEL): return "non-preferred organism (title)"
     if m(b, NONMODEL) and not m(b, MAMMAL): return "non-preferred organism, no mammalian context"
     if m(t, CANCER) and not m(t, KEYS["organelle"] + KEYS["trafficking"]): return "cancer focus"

@@ -61,6 +61,11 @@ check("medRxiv record is a preprint", u.is_preprint(P("MAPK8IP3 variants in OCD"
 check("Focus: cardiac paper citing JIP3/JNK in abstract fails", rejects(P(
       "Knockdown of Long Noncoding RNA IPCRL1 Mitigates Myocardial Ischemia/Reperfusion Injury",
       "IPCRL1 regulates cardiomyocyte apoptosis via the JIP3/JNK pathway in heart.", "Journal of inflammation research"), "focus"))
+check("Focus: JIP3-titled cardiac paper fails", rejects(P(
+      "Knockdown of Long Noncoding RNA IPCRL1 Mitigates Myocardial Ischemia/Reperfusion Injury via miR-185-3p/JIP3 Axis and JNK Pathway.",
+      "Myocardial injury in cardiomyocytes.", "Journal of inflammation research"), "focus"))
+check("Focus: JIP3-titled neuronal paper still passes", accepts(P(
+      "JIP3 deficiency impairs axonal lysosome transport in human neurons", "JIP3 neurons", "Neuron"), "focus"))
 check("Neurodevelopment: hospital communication study fails", rejects(P(
       "Why clinicians in acute hospitals may fail to engage in direct communication with people with intellectual disability",
       "Intellectual disability; brain; clinicians interviewed; children and adults.", "Journal of intellectual disability research"),
