@@ -1,383 +1,424 @@
 import os, json, re, time, html as htmlmod, xml.etree.ElementTree as ET
 from pathlib import Path
-from datetime import datetime, timezone
-from urllib.parse import quote_plus
+from datetime import datetime, timedelta, timezone
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-config = json.loads((ROOT / 'config' / 'search_config.json').read_text())
-DATA_DIR = ROOT / 'data'
-DATA_DIR.mkdir(exist_ok=True)
+CFG = json.loads((ROOT / "config" / "search_config.json").read_text())
+DATA = ROOT / "data"
+DATA.mkdir(exist_ok=True)
+
+NOW = datetime.now(timezone.utc)
+WEEK = int(CFG.get("weekly_days", 7))
+RECENT = int(CFG.get("recent_days", 180))
+FOCUS_BACKFILL = int(CFG.get("focus_backfill_days", 730))
+REVIEW_DAYS = int(CFG.get("review_days", 1095))
+PREPRINT_DAYS = int(CFG.get("preprint_days", 30))
 
 session = requests.Session()
-email = os.getenv('USER_EMAIL', 'user@example.com')
-api_key = os.getenv('NCBI_API_KEY')
-session.headers.update({'User-Agent': f"PMpapers/2.1 ({email})"})
+email = os.getenv("USER_EMAIL", "user@example.com")
+api_key = os.getenv("NCBI_API_KEY")
+session.headers.update({"User-Agent": f"PaperScope/0.30 ({email})"})
+EUTIL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
+EPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 
-BASE_EUTIL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/'
-EUROPE_PMC = 'https://www.ebi.ac.uk/europepmc/webservices/rest/search'
-ARXIV_API = 'https://export.arxiv.org/api/query'
-GOOGLE_NEWS_RSS = 'https://news.google.com/rss/search?q='
-BIORXIV_RSS = 'https://www.biorxiv.org/rss.xml'
-NS = {'atom': 'http://www.w3.org/2005/Atom'}
+TOPIC_SECTION = {
+    "JIP3 / MAPK8IP3":"focus",
+    "Neurodevelopment":"neurodevelopment",
+    "Lysosome":"organelle",
+    "Trafficking":"trafficking",
+    "Cytoskeleton":"cytoskeleton",
+    "iPSC":"ipsc",
+    "Omics / Imaging":"omics-imaging",
+    "Signaling":"signaling",
+    "Extracellular":"extracellular",
+    "Neurodegeneration":"neurodegeneration"
+}
+TITLES = {
+    "focus":"Your Research Focus",
+    "neurodevelopment":"Neurodevelopmental Disorders & Rare Diseases",
+    "organelle":"Lysosomes, Endosomes & Lysosomal Stress/Repair",
+    "trafficking":"Intracellular Trafficking & Organelle Transport",
+    "cytoskeleton":"Cytoskeleton in Neurons & Organelle Biology",
+    "ipsc":"Human iPSC Neural Models",
+    "omics-imaging":"Omics, Imaging & Analysis Tools",
+    "signaling":"Signaling, Small GTPases & Regulatory Proteins",
+    "extracellular":"Extracellular Vesicles & Lysosomal Secretion",
+    "neurodegeneration":"Neurodegeneration"
+}
+VISIBLE = {k:(10 if k=="signaling" else 5) for k in TITLES}
+PRIMARY = CFG.get("primary_journals", CFG.get("top_journals", []))
+SECONDARY = CFG.get("secondary_journals", [])
+EXCLUDED = CFG.get("excluded_journals", [])
 
+HIGH_REVIEW = [
+    "Nature Reviews Neuroscience","Nature Reviews Molecular Cell Biology",
+    "Nature Reviews Neurology","Annual Review of Neuroscience",
+    "Annual Review of Cell and Developmental Biology","Trends in Neurosciences",
+    "Trends in Cell Biology","Current Opinion in Neurobiology",
+    "Current Opinion in Cell Biology","Neuron","Molecular Cell","Autophagy","Traffic",
+    "Brain","Molecular Neurodegeneration"
+]
+GLOBAL_EXCLUDE = [
+    "traditional chinese medicine","chinese herbal medicine","herbal medicine",
+    "ethnopharmacology","phytotherapy","acupuncture","homeopathy","ayurvedic",
+    "aquaculture","plant disease","crop","veterinary","dog bite"
+]
+NONPREFERRED = ["drosophila","zebrafish","caenorhabditis","c. elegans","yeast","arabidopsis","sea cucumber","hamster"]
+UNRELATED = ["kidney","renal","hepatic","liver","cardiac","myocard","skin disease","dermat","pulmonary fibrosis","bone disease","intestinal","gut microbi"]
+NEURAL = ["neuron","neuronal","brain","axon","dendrite","microglia","astrocyte","glia","ipsc","organoid","hippocamp","cortex","motor neuron","neural progenitor","oligodendrocyte","synapse","synaptic"]
+CELLBIO = ["hela","hek293","u2os","fibroblast","mef","raw 264.7","macrophage"]
+KEYS = {
+    "focus":["mapk8ip3","jip3","jip4"],
+    "neurodevelopment":["neurodevelopment","intellectual disability","autism","rare disease","axon guidance","commissure","corpus callosum","cc2d1a","cc2d1b"],
+    "organelle":["lysosome","lysosomal","endosome","endosomal","lysophagy","lysosomal damage","lysosomal membrane","lysosomal repair","lysosomal exocytosis"],
+    "trafficking":["retromer","retriever","wash complex","commander","exocyst","escrt","hops","corvet","intracellular trafficking","membrane trafficking","axonal transport","organelle transport","rab7","rab10","rab12","rab36"],
+    "cytoskeleton":["cytoskeleton","microtubule","actin","dynein","dynactin","kinesin","myosin","neuronal polarity","growth cone"],
+    "ipsc":["ipsc","induced pluripotent stem cell","patient-derived"],
+    "omics-imaging":["proteomics","phosphoproteomics","interactomics","lipidomics","metabolomics","rna-seq","rna sequencing","single-cell","spatial transcriptomics","atac-seq","flim","fret","live-cell imaging","super-resolution","imagej","fiji","napari","segmentation","tracking"],
+    "signaling":["camp","cyclic amp","epac","pka","akap","akt","pi3k","mtor","cc2d1a","cc2d1b","rab7","rab10","rab12","rab36","rab gtpase","rhoa","rhob","rhoc","rac1","rac2","rac3","cdc42","rho gtpase","tmem55b","rilpl1","tbk1","sting","chmp4b","spag9"],
+    "extracellular":["extracellular vesicle","exosome","lysosomal exocytosis","lysosomal secretion"],
+    "neurodegeneration":["parkinson","lrrk2","amyotrophic lateral sclerosis","frontotemporal dementia","alzheimer","neurodegeneration"]
+}
 
-def norm_text(x):
-    return re.sub(r'\s+', ' ', (x or '')).strip()
+def norm(x):
+    return re.sub(r"[^a-z0-9]+"," ",str(x or "").lower()).strip()
 
+def exact(text, term):
+    return re.search(r"(?<![A-Za-z0-9])"+re.escape(term)+r"(?![A-Za-z0-9])",text or "",re.I) is not None
 
-def norm_title(x):
-    return re.sub(r'\W+', ' ', (x or '').lower()).strip()
+def has(text, arr):
+    t=(text or "").lower()
+    return any(x.lower() in t for x in arr)
 
-
-def first_sentences(text, n=8):
-    s = [i.strip() for i in re.split(r'(?<=[.!?])\s+', text or '') if i.strip()]
-    return s[:n]
-
-
-def key_for(p):
-    return p.get('pmid') or p.get('doi') or p.get('url') or norm_title(p.get('title'))
-
-
-def contains_query_terms(text, raw_query):
-    text = (text or '').lower()
-    toks = re.findall(r'[A-Za-z0-9\-]{4,}', raw_query)
-    toks = [t.lower() for t in toks if t.lower() not in {'and', 'with', 'from', 'that', 'this', 'or', 'neuron'}]
-    if not toks:
-        return True
-    return sum(t in text for t in toks[:8]) >= 1
-
-
-def safe_get(url, params=None, timeout=45):
-    last_err = None
-    for _ in range(3):
+def safe_get(url, params=None, timeout=60):
+    err=None
+    for attempt in range(3):
         try:
-            r = session.get(url, params=params, timeout=timeout)
+            r=session.get(url,params=params,timeout=timeout)
             r.raise_for_status()
             return r
         except requests.RequestException as e:
-            last_err = e
-            time.sleep(2)
-    raise last_err
+            err=e
+            time.sleep(1.5*(attempt+1))
+    raise err
 
+def pause():
+    time.sleep(0.12 if api_key else 0.36)
 
-def pubmed_search(term, retmax):
-    params = {'db': 'pubmed', 'term': term, 'retmax': retmax, 'retmode': 'json', 'sort': 'pub date'}
-    if api_key:
-        params['api_key'] = api_key
-    r = safe_get(BASE_EUTIL + 'esearch.fcgi', params=params, timeout=45)
-    return r.json().get('esearchresult', {}).get('idlist', [])
+def pubmed_search(term, retmax, reldate):
+    p={"db":"pubmed","term":term,"retmax":retmax,"retmode":"json","sort":"pub date","reldate":reldate,"datetype":"pdat"}
+    if api_key:p["api_key"]=api_key
+    ids=safe_get(EUTIL+"esearch.fcgi",p).json().get("esearchresult",{}).get("idlist",[])
+    pause()
+    return ids
 
+def month_num(v):
+    if not v:return 1
+    s=str(v).strip()
+    if s.isdigit():return max(1,min(12,int(s)))
+    names={m.lower():i for i,m in enumerate(["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],1)}
+    return names.get(s[:3].lower(),1)
 
-def pubmed_fetch(ids, topic):
-    if not ids:
-        return []
-    params = {'db': 'pubmed', 'id': ','.join(ids), 'retmode': 'xml'}
-    if api_key:
-        params['api_key'] = api_key
-    r = safe_get(BASE_EUTIL + 'efetch.fcgi', params=params, timeout=60)
-    root = ET.fromstring(r.text)
-    out = []
-    for art in root.findall('.//PubmedArticle'):
-        title_el = art.find('.//ArticleTitle')
-        title = ''.join(title_el.itertext()).strip() if title_el is not None else ''
-        if not title:
-            continue
-        abstract_parts = []
-        for ab in art.findall('.//Abstract/AbstractText'):
-            txt = ''.join(ab.itertext()).strip()
-            if txt:
-                label = ab.attrib.get('Label')
-                abstract_parts.append((label + ': ' if label else '') + txt)
-        abstract = ' '.join(abstract_parts)
-        journal = art.findtext('.//Journal/Title') or ''
-        pmid = art.findtext('.//PMID') or ''
-        doi = ''
-        for aid in art.findall('.//ArticleId'):
-            if aid.attrib.get('IdType') == 'doi':
-                doi = (aid.text or '').strip()
-                break
-        year = 0
-        for path in ['.//PubDate/Year', './/ArticleDate/Year']:
-            y = art.findtext(path)
-            if y and y.isdigit():
-                year = int(y)
-                break
-        if not year:
-            md = art.findtext('.//PubDate/MedlineDate') or ''
-            m = re.search(r'(19|20)\d{2}', md)
-            if m:
-                year = int(m.group(0))
-        authors = []
-        for a in art.findall('.//Author')[:8]:
-            ln = a.findtext('LastName') or ''
-            ini = a.findtext('Initials') or ''
-            cn = a.findtext('CollectiveName') or ''
-            name = (ln + ' ' + ini).strip() if ln else cn
-            if name:
-                authors.append(name)
-        pubtypes = [pt.text for pt in art.findall('.//PublicationType') if pt.text]
-        out.append({
-            'title': htmlmod.unescape(title),
-            'abstract': abstract,
-            'journal': journal,
-            'year': year,
-            'authors': ', '.join(authors),
-            'pmid': pmid,
-            'doi': doi,
-            'review': 'Review' in pubtypes or 'Systematic Review' in pubtypes,
-            'matched_topics': [topic],
-            'sources': ['PubMed'],
-            'source_type': 'paper',
-            'url': f'https://pubmed.ncbi.nlm.nih.gov/{pmid}/' if pmid else 'https://pubmed.ncbi.nlm.nih.gov/'
-        })
+def pub_date(art):
+    for node in [art.find(".//Article/ArticleDate"),art.find(".//Journal/JournalIssue/PubDate"),art.find(".//DateCompleted")]:
+        if node is None:continue
+        y=node.findtext("Year")
+        if y and y.isdigit():
+            m=month_num(node.findtext("Month"))
+            d=node.findtext("Day")
+            d=int(d) if d and d.isdigit() else 1
+            try:return datetime(int(y),m,d,tzinfo=timezone.utc).date().isoformat()
+            except ValueError:pass
+        med=node.findtext("MedlineDate") or ""
+        ma=re.search(r"((?:19|20)\d{2})(?:\s+([A-Za-z]{3}))?(?:\s+(\d{1,2}))?",med)
+        if ma:
+            y=int(ma.group(1));m=month_num(ma.group(2));d=int(ma.group(3) or 1)
+            try:return datetime(y,m,d,tzinfo=timezone.utc).date().isoformat()
+            except ValueError:return f"{y:04d}-{m:02d}-01"
+    return ""
+
+def fetch_pubmed(ids, section, lane):
+    if not ids:return []
+    out=[]
+    for start in range(0,len(ids),150):
+        chunk=ids[start:start+150]
+        p={"db":"pubmed","id":",".join(chunk),"retmode":"xml"}
+        if api_key:p["api_key"]=api_key
+        root=ET.fromstring(safe_get(EUTIL+"efetch.fcgi",p,90).text);pause()
+        for art in root.findall(".//PubmedArticle"):
+            te=art.find(".//ArticleTitle")
+            title="".join(te.itertext()).strip() if te is not None else ""
+            if not title:continue
+            absx=[]
+            for ab in art.findall(".//Abstract/AbstractText"):
+                x="".join(ab.itertext()).strip()
+                if x:absx.append(((ab.attrib.get("Label") or "")+": " if ab.attrib.get("Label") else "")+x)
+            pmid=art.findtext(".//PMID") or "";doi="";pmcid=""
+            for aid in art.findall(".//ArticleId"):
+                if aid.attrib.get("IdType")=="doi":doi=(aid.text or "").strip()
+                if aid.attrib.get("IdType")=="pmc":pmcid=(aid.text or "").strip()
+            date=pub_date(art); year=int(date[:4]) if date[:4].isdigit() else 0
+            auth=[]
+            for a in art.findall(".//Author")[:10]:
+                ln=a.findtext("LastName") or "";ini=a.findtext("Initials") or "";cn=a.findtext("CollectiveName") or ""
+                n=(ln+" "+ini).strip() if ln else cn
+                if n:auth.append(n)
+            pts=[(pt.text or "").strip() for pt in art.findall(".//PublicationType") if pt.text]
+            rev=any(x in {"Review","Systematic Review","Meta-Analysis"} for x in pts)
+            out.append({
+                "title":htmlmod.unescape(title),"abstract":" ".join(absx),
+                "journal":art.findtext(".//Journal/Title") or "","date":date,"year":year,
+                "authors":", ".join(auth),"pmid":pmid,"pmcid":pmcid,"doi":doi,
+                "review":rev,"publication_types":pts,"sections":[section],
+                "matched_topics":[TITLES[section]],"retrieval_lanes":[lane],
+                "sources":["PubMed"],"source_type":"paper",
+                "url":f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/" if pmid else ""
+            })
     return out
 
+def tier(journal):
+    j=norm(journal)
+    if any(j==norm(x) for x in EXCLUDED):return "Excluded"
+    if any(j==norm(x) for x in SECONDARY):return "Secondary"
+    if any(j==norm(x) for x in PRIMARY):return "Primary / trusted"
+    return "Uncurated"
 
-def europe_pmc_search(term, topic, page_size):
-    params = {'query': term, 'format': 'json', 'pageSize': page_size, 'resultType': 'core', 'sort': 'DATE_DESC'}
-    r = safe_get(EUROPE_PMC, params=params, timeout=45)
-    data = r.json()
-    out = []
-    for item in data.get('resultList', {}).get('result', []):
-        title = norm_text(item.get('title'))
-        if not title:
-            continue
-        pmid = item.get('pmid') or ''
-        url = f'https://pubmed.ncbi.nlm.nih.gov/{pmid}/' if pmid else 'https://europepmc.org'
-        out.append({
-            'title': title,
-            'abstract': item.get('abstractText') or '',
-            'journal': item.get('journalTitle') or item.get('journalInfo', {}).get('journal', {}).get('title', ''),
-            'year': int(item.get('pubYear') or 0),
-            'authors': item.get('authorString') or '',
-            'pmid': pmid,
-            'doi': item.get('doi') or '',
-            'review': 'review' in ((item.get('title') or '') + ' ' + (item.get('abstractText') or '')).lower(),
-            'matched_topics': [topic],
-            'sources': ['Europe PMC'],
-            'source_type': 'paper',
-            'url': url
-        })
-    return out
+def blob(p):
+    return f"{p.get('title','')} {p.get('abstract','')}"
 
+def global_reject(p):
+    b=blob(p).lower()
+    if any(x in b for x in GLOBAL_EXCLUDE):return True
+    if tier(p.get("journal"))=="Excluded":return True
+    if has(b,UNRELATED) and not has(b,NEURAL):return True
+    if re.search(r"\b(cancer|carcinoma|tumou?r|glioblastoma)\b",b,re.I) and has(b,["therapy","metastasis","survival","prognosis","chemoresistance","tumor growth"]):return True
+    return False
 
-def google_news_search(term, topic, limit=8):
-    q = quote_plus(term)
-    url = GOOGLE_NEWS_RSS + q + '&hl=en-US&gl=US&ceid=US:en'
-    r = safe_get(url, timeout=45)
-    root = ET.fromstring(r.text)
-    out = []
-    items = root.findall('.//item')[:limit]
-    year = datetime.now(timezone.utc).year
-    for item in items:
-        title = norm_text(item.findtext('title') or '')
-        desc = htmlmod.unescape(item.findtext('description') or '')
-        link = item.findtext('link') or 'https://news.google.com/'
-        source = ''
-        src_el = item.find('source')
-        if src_el is not None and src_el.text:
-            source = src_el.text.strip()
-        if not contains_query_terms(title + ' ' + desc, term):
-            continue
-        out.append({
-            'title': title,
-            'abstract': re.sub(r'<[^>]+>', ' ', desc),
-            'journal': source or 'Google News',
-            'year': year,
-            'authors': source or 'News source',
-            'pmid': '',
-            'doi': '',
-            'review': False,
-            'matched_topics': [topic],
-            'sources': ['Google News'],
-            'source_type': 'news',
-            'url': link
-        })
-    return out
+def signaling_central(p):
+    title=p.get("title","");abstract=p.get("abstract","")
+    for t in KEYS["signaling"]:
+        if exact(title,t) or (len(t)>5 and t in title.lower()):return True
+        if len(re.findall(r"(?<![A-Za-z0-9])"+re.escape(t)+r"(?![A-Za-z0-9])",abstract,re.I))>=2:return True
+    return False
 
+def gate(p, section):
+    b=blob(p).lower()
+    if global_reject(p):return False
+    if section!="focus" and has(b,NONPREFERRED):return False
+    neural=has(b,NEURAL); cellbio=has(b,CELLBIO)
+    if section=="focus":
+        return exact(b,"MAPK8IP3") or exact(b,"JIP3") or (exact(b,"JIP4") and has(b,["neuron","axon","lysosome","endosome","transport"]))
+    if section=="neurodevelopment":return neural and has(b,KEYS[section])
+    if section=="organelle":return (neural or cellbio) and has(b,KEYS[section])
+    if section=="trafficking":return (neural or cellbio) and has(b,KEYS[section])
+    if section=="cytoskeleton":return neural and has(b,KEYS[section])
+    if section=="ipsc":return has(b,KEYS[section]) and has(b,["neuron","microglia","astrocyte","oligodendrocyte","glia","organoid","motor neuron","neural progenitor"])
+    if section=="omics-imaging":
+        method=has(b,KEYS[section]);relevant=neural or has(b,["lysosome","endosome","trafficking","jip3","mapk8ip3"])
+        tool=has(b,["imagej","fiji","napari","segmentation","tracking","software","workflow","tool","resource","pipeline"])
+        return method and (tool or relevant)
+    if section=="signaling":
+        return signaling_central(p) and (neural or cellbio or has(b,["lysosome","endosome","trafficking","autophagy"]))
+    if section=="extracellular":return neural and has(b,KEYS[section])
+    if section=="neurodegeneration":
+        return has(b,KEYS[section]) and neural and has(b,["lysosome","endosome","autophagy","trafficking","axon","cytoskeleton","microtubule","rab","rho","iron","ferroptosis","microglia","astrocyte","mitochond"])
+    return False
 
-def biorxiv_search(term, topic, limit=8):
-    r = safe_get(BIORXIV_RSS, timeout=45)
-    root = ET.fromstring(r.text)
-    out = []
-    for item in root.findall('.//item'):
-        title = norm_text(item.findtext('title') or '')
-        desc = htmlmod.unescape(item.findtext('description') or '')
-        link = item.findtext('link') or 'https://www.biorxiv.org/'
-        pub = item.findtext('pubDate') or ''
-        year_match = re.search(r'(20\d{2})', pub)
-        year = int(year_match.group(1)) if year_match else datetime.now(timezone.utc).year
-        blob = (title + ' ' + desc).lower()
-        if not contains_query_terms(blob, term):
-            continue
-        out.append({
-            'title': title,
-            'abstract': re.sub(r'<[^>]+>', ' ', desc),
-            'journal': 'bioRxiv',
-            'year': year,
-            'authors': 'bioRxiv preprint',
-            'pmid': '',
-            'doi': '',
-            'review': 'review' in blob,
-            'matched_topics': [topic],
-            'sources': ['bioRxiv'],
-            'source_type': 'preprint',
-            'url': link
-        })
-        if len(out) >= limit:
-            break
-    return out
+def age_days(p):
+    try:return max(0,(NOW.date()-datetime.fromisoformat(p.get("date","")).date()).days)
+    except:return 99999
 
+def centrality(p, section):
+    t=p.get("title","");a=p.get("abstract","");n=0
+    for term in KEYS[section]:
+        if exact(t,term) or (len(term)>5 and term in t.lower()):n+=8
+        elif exact(a,term) or (len(term)>5 and term in a.lower()):n+=2
+    return min(24,n)
 
-def arxiv_search(term, topic, limit=8):
-    query = f'(cat:q-bio.NC) AND all:"{term}"'
-    params = {'search_query': query, 'start': 0, 'max_results': limit, 'sortBy': 'submittedDate', 'sortOrder': 'descending'}
-    r = safe_get(ARXIV_API, params=params, timeout=45)
-    root = ET.fromstring(r.text)
-    out = []
-    for entry in root.findall('atom:entry', NS):
-        title = norm_text(entry.findtext('atom:title', default='', namespaces=NS))
-        summary = norm_text(entry.findtext('atom:summary', default='', namespaces=NS))
-        link = entry.findtext('atom:id', default='https://arxiv.org', namespaces=NS)
-        published = entry.findtext('atom:published', default='', namespaces=NS)
-        year_match = re.search(r'(20\d{2})', published)
-        year = int(year_match.group(1)) if year_match else datetime.now(timezone.utc).year
-        authors = ', '.join(norm_text(a.findtext('atom:name', default='', namespaces=NS)) for a in entry.findall('atom:author', NS))
-        if not contains_query_terms(title + ' ' + summary, term):
-            continue
-        out.append({
-            'title': title,
-            'abstract': summary,
-            'journal': 'arXiv q-bio.NC',
-            'year': year,
-            'authors': authors,
-            'pmid': '',
-            'doi': '',
-            'review': 'review' in (title + ' ' + summary).lower(),
-            'matched_topics': [topic],
-            'sources': ['arXiv'],
-            'source_type': 'preprint',
-            'url': link
-        })
-    return out
-
-
-def try_source(label, fn, *args, **kwargs):
-    try:
-        return fn(*args, **kwargs)
-    except Exception as e:
-        print(f"Skipping {label}: {e}")
-        return []
-
-
-def classify_and_score(p):
-    txt = f"{p.get('title','')} {p.get('abstract','')} {p.get('journal','')} {' '.join(p.get('matched_topics', []))}".lower()
-    primary_topic = p.get('matched_topics', ['General'])[0]
-    top = any(j.lower() == (p.get('journal') or '').lower() for j in config.get('top_journals', [])) or any(j.lower() in (p.get('journal') or '').lower() for j in config.get('top_journals', []))
-    review = p.get('review') or (' review' in txt)
-    year = p.get('year') or 0
-    score = 60
-    if primary_topic == 'JIP3 / MAPK8IP3':
-        score += 18
-    elif primary_topic == 'Lysosome transport':
-        score += 14
-    elif primary_topic == 'Dynein / autophagosome':
-        score += 12
-    elif primary_topic == 'Endosome maturation':
-        score += 10
-    else:
-        score += 8
-    if top:
-        score += 10
+def score(p, section, review=False):
+    age=age_days(p);s=40+centrality(p,section)
+    if section=="focus":s+=18
+    if age<=7:s+=30
+    elif age<=30:s+=22
+    elif age<=90:s+=14
+    elif age<=180:s+=7
+    elif age<=365:s+=2
+    else:s-=min(15,((age-365)//180)*2)
+    t=tier(p.get("journal"))
+    if t=="Primary / trusted":s+=10
+    elif t=="Secondary":s+=3
+    else:s-=2
     if review:
-        score += 6
-    if year >= datetime.now().year - 1:
-        score += 8
-    elif year >= datetime.now().year - 5:
-        score += 4
-    if 'Google News' in p.get('sources', []):
-        score -= 6
-    sents = first_sentences(p.get('abstract') or '', 8)
-    overview = sents[0] if sents else 'Summary not available from the current record.'
-    did = sents[1:5] if len(sents) > 1 else ['Detailed abstract text is not available for this record yet.']
-    main = sents[5] if len(sents) > 5 else (sents[-1] if sents else 'Main message requires fuller source text.')
-    context = sents[6] if len(sents) > 6 else (sents[-1] if sents else 'Context not available from the current metadata.')
-    p.update({
-        'topic': primary_topic,
-        'top': top,
-        'review': review,
-        'score': max(min(score, 99), 1),
-        'type': 'Review' if review else ('News / signal' if p.get('source_type') == 'news' else 'Primary research'),
-        'overview': overview,
-        'did': did,
-        'main': main,
-        'context': context,
-        'why': f"Matched topics: {', '.join(p.get('matched_topics', []))}. Sources: {', '.join(p.get('sources', []))}.",
-        'limits': 'This explanation is generated from titles, abstracts, feeds, or snippets and may need manual verification before deep interpretation.'
-    })
+        if any(norm(p.get("journal"))==norm(x) for x in HIGH_REVIEW):s+=16
+        if age<=180:s+=8
+    return int(s)
+
+def first_sentences(x,n=8):
+    return [s.strip() for s in re.split(r"(?<=[.!?])\s+",x or "") if s.strip()][:n]
+
+def enrich(p):
+    ss=first_sentences(p.get("abstract"),8)
+    p["overview"]=ss[0] if ss else "Abstract not available from the current source."
+    result=next((s for s in ss[1:] if re.search(r"\b(we found|we show|we demonstrate|results|revealed|increased|decreased|impair|promot|required|drives|regulates)\b",s,re.I)),None)
+    p["main"]=(ss[-1] if p.get("review") and ss else result or (ss[-1] if ss else "Open the paper for details."))
+    p["journal_tier"]=tier(p.get("journal"));p["age_days"]=age_days(p);p["weekly"]=p["age_days"]<=WEEK
+    p["sources_label"]=", ".join(p.get("sources",[]));p["matched_topics_label"]=", ".join(p.get("matched_topics",[]))
     return p
 
+def pkey(p):
+    return p.get("pmid") or p.get("doi") or norm(p.get("title"))
 
-pool = []
-max_results = int(config.get('max_results_per_query', 20))
-for q in config['queries']:
-    ids = try_source('PubMed search', pubmed_search, q['pubmed'], max_results)
-    pool.extend(try_source('PubMed fetch', pubmed_fetch, ids, q['topic']))
-    time.sleep(0.34)
-    pool.extend(try_source('Europe PMC', europe_pmc_search, q['europepmc'], q['topic'], max(10, max_results // 2)))
-    time.sleep(0.34)
-    pool.extend(try_source('Google News', google_news_search, q['topic'], q['topic'], 8))
-    time.sleep(0.34)
-    pool.extend(try_source('arXiv', arxiv_search, q['topic'], q['topic'], 8))
-    time.sleep(0.34)
-    pool.extend(try_source('bioRxiv', biorxiv_search, q['topic'], q['topic'], 8))
-    time.sleep(0.34)
+def merge(store,p):
+    k=pkey(p)
+    if not k:return
+    if k not in store:store[k]=p;return
+    o=store[k]
+    for f in ["sections","matched_topics","retrieval_lanes","sources"]:
+        o[f]=list(dict.fromkeys(o.get(f,[])+p.get(f,[])))
+    if len(p.get("abstract",""))>len(o.get("abstract","")):o["abstract"]=p["abstract"]
+    for f in ["doi","pmid","pmcid","journal","authors","url","date"]:
+        if not o.get(f) and p.get(f):o[f]=p[f]
+    o["review"]=o.get("review") or p.get("review")
 
-merged = {}
-for p in pool:
-    k = key_for(p)
-    if not k:
-        continue
-    if k not in merged:
-        merged[k] = p
-    else:
-        old = merged[k]
-        old['sources'] = sorted(set(old.get('sources', [])) | set(p.get('sources', [])))
-        old['matched_topics'] = list(dict.fromkeys(old.get('matched_topics', []) + p.get('matched_topics', [])))
-        if len(p.get('abstract', '')) > len(old.get('abstract', '')):
-            old['abstract'] = p.get('abstract', '')
-        for field in ['doi', 'pmid', 'journal', 'authors', 'url']:
-            if not old.get(field) and p.get(field):
-                old[field] = p[field]
-        if p.get('year', 0) > old.get('year', 0):
-            old['year'] = p['year']
+def retrieve_research():
+    store={}
+    for q in CFG["queries"]:
+        sec=TOPIC_SECTION.get(q["topic"])
+        if not sec:continue
+        days=FOCUS_BACKFILL if sec=="focus" else RECENT
+        ids=list(dict.fromkeys(pubmed_search(q["pubmed"],35,WEEK)+pubmed_search(q["pubmed"],70,days)))
+        for p in fetch_pubmed(ids,sec,"weekly+recent"):
+            if not p.get("review") and gate(p,sec):merge(store,p)
+    return store
 
-papers = [classify_and_score(p) for p in merged.values()]
-papers.sort(key=lambda x: (x['score'], x.get('year', 0), len(x.get('abstract', ''))), reverse=True)
+def retrieve_reviews():
+    store={}
+    for q in CFG["queries"]:
+        sec=TOPIC_SECTION.get(q["topic"])
+        if not sec:continue
+        term=f"({q['pubmed']}) AND (review[Publication Type] OR systematic review[Publication Type] OR meta-analysis[Publication Type])"
+        ids=pubmed_search(term,28,REVIEW_DAYS)
+        for p in fetch_pubmed(ids,sec,"independent-review"):
+            p["review"]=True
+            if gate(p,sec):merge(store,p)
+    return store
 
-now = datetime.now(timezone.utc)
-for p in papers:
-    p['sources_label'] = ', '.join(p.get('sources', []))
-    p['matched_topics_label'] = ', '.join(p.get('matched_topics', []))
+def retrieve_preprints():
+    store={}
+    start=(NOW-timedelta(days=PREPRINT_DAYS)).date().isoformat();end=NOW.date().isoformat()
+    for q in CFG["queries"]:
+        sec=TOPIC_SECTION.get(q["topic"])
+        if not sec:continue
+        # Europe PMC indexes bioRxiv/medRxiv preprints and lets us enforce dates.
+        query=f'SRC:PPR AND FIRST_PDATE:[{start} TO {end}] AND ({q["europepmc"]})'
+        params={"query":query,"format":"json","pageSize":30,"resultType":"core","sort":"FIRST_PDATE_D desc"}
+        try:data=safe_get(EPMC,params).json()
+        except Exception as e:
+            print("preprint search skipped",sec,e);continue
+        for it in data.get("resultList",{}).get("result",[]):
+            d=(it.get("firstPublicationDate") or it.get("firstIndexDate") or "")[:10]
+            p={"title":it.get("title") or "","abstract":it.get("abstractText") or "",
+               "journal":it.get("journalTitle") or "bioRxiv / preprint","date":d,
+               "year":int(d[:4]) if d[:4].isdigit() else 0,"authors":it.get("authorString") or "",
+               "pmid":it.get("pmid") or "","pmcid":it.get("pmcid") or "","doi":it.get("doi") or "",
+               "review":False,"sections":[sec],"matched_topics":[TITLES[sec]],"retrieval_lanes":["preprint"],
+               "sources":["Europe PMC preprint"],"source_type":"preprint",
+               "url":("https://doi.org/"+it["doi"]) if it.get("doi") else "https://europepmc.org/"}
+            if p["title"] and gate(p,sec):merge(store,p)
+        pause()
+    return store
 
-meta = {
-    'project_name': config.get('project_name', 'PMpapers'),
-    'last_updated_utc': now.isoformat(),
-    'configured_topics': [q['topic'] for q in config['queries']],
-    'total_papers': len(papers),
-    'weekly_days': config.get('weekly_days', 30),
-    'source_counts': {
-        'PubMed': sum('PubMed' in p.get('sources', []) for p in papers),
-        'Europe PMC': sum('Europe PMC' in p.get('sources', []) for p in papers),
-        'Google News': sum('Google News' in p.get('sources', []) for p in papers),
-        'bioRxiv': sum('bioRxiv' in p.get('sources', []) for p in papers),
-        'arXiv': sum('arXiv' in p.get('sources', []) for p in papers)
-    },
-    'top_journals_count': sum(bool(p.get('top')) for p in papers),
-    'reviews_count': sum(bool(p.get('review')) for p in papers)
-}
+def dedupe(items):
+    seen=set();out=[]
+    for p in items:
+        k=norm(p.get("title"))
+        if k and k not in seen:seen.add(k);out.append(p)
+    return out
 
-(DATA_DIR / 'papers.json').write_text(json.dumps(papers, indent=2))
-(DATA_DIR / 'meta.json').write_text(json.dumps(meta, indent=2))
-print(f"Wrote {len(papers)} papers")
+def ranked(allp, sec, review=False, preprint=False):
+    out=[]
+    for p in allp:
+        if sec not in p.get("sections",[]):continue
+        if bool(p.get("review"))!=bool(review):continue
+        if (p.get("source_type")=="preprint")!=bool(preprint):continue
+        if not gate(p,sec):continue
+        q=dict(p);q["section_id"]=sec;q["section_score"]=score(q,sec,review);out.append(q)
+    out.sort(key=lambda x:(x["section_score"],x.get("date","")),reverse=True)
+    return dedupe(out)
+
+def split_tiers(items):
+    pri=[];sec=[]
+    for p in items:
+        if p["journal_tier"]=="Primary / trusted":pri.append(p)
+        elif p["journal_tier"] in {"Secondary","Uncurated"}:sec.append(p)
+    return pri,sec
+
+def weekly_top10(section_lists):
+    c=[]
+    for sec,items in section_lists.items():
+        for p in items:
+            if p.get("weekly"):
+                q=dict(p);q["weekly_section"]=sec;q["weekly_score"]=q["section_score"]+(8 if q["journal_tier"]=="Primary / trusted" else 2 if q["journal_tier"]=="Secondary" else 0);c.append(q)
+    c.sort(key=lambda x:(x["weekly_score"],x.get("date","")),reverse=True)
+    out=[];seen=set();sc={};jc={}
+    for p in c:
+        k=norm(p["title"]);sec=p["weekly_section"];j=norm(p.get("journal"))
+        if k in seen or sc.get(sec,0)>=2 or jc.get(j,0)>=2:continue
+        out.append(p);seen.add(k);sc[sec]=sc.get(sec,0)+1;jc[j]=jc.get(j,0)+1
+        if len(out)==10:break
+    if len(out)<10:
+        for p in c:
+            k=norm(p["title"])
+            if k in seen:continue
+            out.append(p);seen.add(k)
+            if len(out)==10:break
+    return out[:10]
+
+def main():
+    print("PaperScope: recent peer-reviewed research")
+    research=retrieve_research()
+    print("PaperScope: independent review retrieval")
+    reviews=retrieve_reviews()
+    print("PaperScope: recent preprints")
+    preprints=retrieve_preprints()
+    merged={}
+    for st in [research,reviews,preprints]:
+        for p in st.values():merge(merged,p)
+    allp=[enrich(p) for p in merged.values()]
+    sections={};weekly_source={}
+    for sec in TITLES:
+        items=ranked(allp,sec);weekly_source[sec]=items
+        maxage=FOCUS_BACKFILL if sec=="focus" else RECENT
+        items=[p for p in items if p["age_days"]<=maxage]
+        pri,seco=split_tiers(items)
+        sections[sec]={"id":sec,"title":TITLES[sec],"visible_count":VISIBLE[sec],
+                       "weekly_count":sum(p["weekly"] for p in items),
+                       "primary":pri[:30],"secondary":seco[:30]}
+    rv=[]
+    for sec in TITLES:rv.extend(ranked(allp,sec,review=True))
+    rv=dedupe(sorted(rv,key=lambda x:(x["section_score"],x.get("date","")),reverse=True))
+    rpri,rsec=split_tiers(rv)
+    pp=[]
+    for sec in TITLES:pp.extend(ranked(allp,sec,preprint=True))
+    pp=dedupe(sorted(pp,key=lambda x:(x["section_score"],x.get("date","")),reverse=True))
+    top10=weekly_top10(weekly_source)
+    briefing={"version":"0.30-weekly-structured","generated_at_utc":NOW.isoformat(),
+              "weekly_days":WEEK,"weekly_start":(NOW-timedelta(days=WEEK)).date().isoformat(),
+              "weekly_end":NOW.date().isoformat(),"top10_weekly":top10,"sections":sections,
+              "reviews":{"window_days":REVIEW_DAYS,"primary":rpri[:40],"secondary":rsec[:40]},
+              "preprints":{"window_days":PREPRINT_DAYS,"papers":pp[:50]},
+              "meta":{"total_unique_papers":len(allp),"weekly_highlight_count":len(top10),
+                      "review_count":len(rv),"preprint_count":len(pp),
+                      "section_counts":{s:{"primary":len(sections[s]["primary"]),"secondary":len(sections[s]["secondary"]),"weekly":sections[s]["weekly_count"]} for s in sections}}}
+    legacy=sorted([p for p in allp if p.get("source_type")!="preprint"],key=lambda x:x.get("date",""),reverse=True)
+    meta={"project_name":"PaperScope","last_updated_utc":NOW.isoformat(),"weekly_days":WEEK,
+          "total_papers":len(allp),"weekly_highlight_count":len(top10),"reviews_count":len(rv),
+          "preprints_count":len(pp),"section_counts":briefing["meta"]["section_counts"]}
+    (DATA/"briefing.json").write_text(json.dumps(briefing,indent=2,ensure_ascii=False))
+    (DATA/"papers.json").write_text(json.dumps(legacy,indent=2,ensure_ascii=False))
+    (DATA/"meta.json").write_text(json.dumps(meta,indent=2,ensure_ascii=False))
+    print(f"Wrote {len(allp)} unique papers; {len(top10)} weekly highlights; {len(rv)} reviews; {len(pp)} preprints")
+
+if __name__=="__main__":
+    main()
