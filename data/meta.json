@@ -1,25 +1,27 @@
 {
-  "project_name": "PMpapers",
-  "last_updated_utc": "2026-10-21T16:34:09.131633+00:00",
+  "project_name": "PaperScope",
+  "last_updated_utc": "2026-10-22T02:43:56.976184+00:00",
   "configured_topics": [
     "JIP3 / MAPK8IP3",
-    "Lysosome transport",
-    "Dynein / autophagosome",
-    "Endosome maturation",
-    "Disease mechanisms",
-    "Neurodevelopment disorder",
-    "Neuronal lysosome",
-    "Neurological disorders"
+    "Neurodevelopment",
+    "Lysosome",
+    "Trafficking",
+    "Cytoskeleton",
+    "iPSC",
+    "Omics / Imaging",
+    "Signaling",
+    "Neurodegeneration",
+    "Extracellular"
   ],
-  "total_papers": 344,
-  "weekly_days": 30,
+  "total_papers": 524,
+  "weekly_days": 7,
   "source_counts": {
-    "PubMed": 286,
+    "PubMed": 422,
     "Europe PMC": 0,
-    "Google News": 41,
+    "Google News": 63,
     "bioRxiv": 0,
-    "arXiv": 17
+    "arXiv": 39
   },
-  "top_journals_count": 106,
-  "reviews_count": 89
+  "top_journals_count": 153,
+  "reviews_count": 93
 }
