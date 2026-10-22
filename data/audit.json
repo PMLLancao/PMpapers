@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-22T20:15:28.625404+00:00",
+  "generated_at_utc": "2026-10-22T20:25:57.719249+00:00",
   "weekly_top10": [
     {
       "title": "Gαi2 promotes microtubule-driven incorporation of neurofilaments to stabilise nascent axons in vivo.",
@@ -116,8 +116,8 @@
     "neurodevelopment": {
       "title": "Neurodevelopmental Disorders & Rare Diseases",
       "primary_count": 10,
-      "secondary_count": 9,
-      "weekly_count": 10,
+      "secondary_count": 8,
+      "weekly_count": 9,
       "top_primary": [
         {
           "title": "A microglial basis for fragile X syndrome via impairment of FMRP-regulated lysosomal function.",
@@ -182,11 +182,6 @@
           "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
         },
         {
-          "title": "Why clinicians in acute hospitals may fail to engage in direct communication with people with intellectual disability.",
-          "date": "2026-10-21",
-          "journal": "Journal of intellectual disabilities : JOID"
-        },
-        {
           "title": "Comprehensive evaluation of volumetric and microstructural alterations of corpus callosum in migraine patients and subtypes using diffusion tensor imaging (DTI).",
           "date": "2026-09-04",
           "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia"
@@ -200,6 +195,11 @@
           "title": "Hippocampal Cc2d1a/Freud-1 knockdown alters serotonin and dopamine systems and depressive-like behavior in ASC (Antidepressants Sensitive Catalepsy) male mice.",
           "date": "2026-08-14",
           "journal": "Behavioural brain research"
+        },
+        {
+          "title": "Identification of EIF4A1 as a candidate molecular indicator of autism spectrum disorder using integrative bioinformatic and biological methods.",
+          "date": "2026-08-06",
+          "journal": "Brain research"
         }
       ]
     },
@@ -843,7 +843,7 @@
     "count": 101,
     "top": [
       {
-        "title": "Pathogenic  MAPK8IP3  variants drive distinct motor and behavioral phenotypes in humans and mice",
+        "title": "Pathogenic MAPK8IP3 variants drive distinct motor and behavioral phenotypes in humans and mice",
         "date": "2026-07-24",
         "journal": "bioRxiv / preprint",
         "sections": [
@@ -931,7 +931,7 @@
         ]
       },
       {
-        "title": "Lysosomal lipidomics identifies glycosylated bis(monoacylglycero)phosphate as a novel biomarker of mutant  GBA1",
+        "title": "Lysosomal lipidomics identifies glycosylated bis(monoacylglycero)phosphate as a novel biomarker of mutant GBA1",
         "date": "2026-10-15",
         "journal": "bioRxiv / preprint",
         "sections": [
@@ -962,6 +962,19 @@
           "Differential expression analysis of lncRNA and mRNA in ovarian tissues of Pishan Red Sheep and Hu Sheep with distinct genotypes during estru"
         ]
       },
+      "unrelated organ, no neural context": {
+        "count": 1,
+        "examples": [
+          "Melanin Deposition and Screening of Melanogenesis-Related Differential RNAs and Construction of ceRNA Regulatory Network in Liancheng White "
+        ]
+      },
+      "non-preferred organism, no mammalian context": {
+        "count": 2,
+        "examples": [
+          "Endosomal catabolism of phosphatidylinositol 4,5-bisphosphate is fundamental in building resilience against pathogens.",
+          "Microtubule curling as an efficient readout to uncover fundamental concepts of axonal cell biology and neurodegeneration"
+        ]
+      },
       "notice/correction/retraction": {
         "count": 1,
         "examples": [
@@ -982,12 +995,6 @@
           "Multiomics profiling of zebrafish embryonic cell line PAC2 across growth phases to assess its relevance for toxicological studies"
         ]
       },
-      "non-preferred organism, no mammalian context": {
-        "count": 1,
-        "examples": [
-          "Microtubule curling as an efficient readout to uncover fundamental concepts of axonal cell biology and neurodegeneration"
-        ]
-      },
       "cancer therapy": {
         "count": 1,
         "examples": [
@@ -1002,20 +1009,20 @@
       }
     },
     "neurodevelopment": {
+      "clinical/neuroimaging only, no molecular question": {
+        "count": 20,
+        "examples": [
+          "Why clinicians in acute hospitals may fail to engage in direct communication with people with intellectual disability.",
+          "Two clusters of brain regions with distinct age-related profiles of functional connectivity in autism spectrum disorder.",
+          "Predictive factors associated with interval changes in STN-DBS lead-tip position between immediate and delayed postoperative CT."
+        ]
+      },
       "no developmental/disease context": {
         "count": 4,
         "examples": [
           "Sex-divergent neurovascular and cognitive effects of chronic cerebral hypoperfusion.",
           "Longitudinal magnetic resonance imaging and spectroscopy in a mouse model of cuprizone-induced demyelination.",
           "Reelin promotes cerebral angiogenesis via mTOR/HIF-1α-mediated transcriptional upregulation of Netrin-4."
-        ]
-      },
-      "clinical/neuroimaging only, no molecular question": {
-        "count": 19,
-        "examples": [
-          "Two clusters of brain regions with distinct age-related profiles of functional connectivity in autism spectrum disorder.",
-          "Predictive factors associated with interval changes in STN-DBS lead-tip position between immediate and delayed postoperative CT.",
-          "The Importance of Translational Research for Neurodevelopmental Disorders and Autism Spectrum Disorders."
         ]
       },
       "topic not central": {
@@ -1154,7 +1161,7 @@
       "pathogen/infection focus": {
         "count": 1,
         "examples": [
-          "Pathogenic variants in myoferlin (  MYOF)  cause arrhythmogenic cardiomyopathy"
+          "Pathogenic variants in myoferlin ( MYOF) cause arrhythmogenic cardiomyopathy"
         ]
       }
     },
