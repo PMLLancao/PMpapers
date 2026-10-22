@@ -143,9 +143,19 @@
       "europepmc": "(\"induced pluripotent stem cell\" OR iPSC OR \"iPSC-derived\" OR \"patient-derived\") AND (neuron OR microglia OR astrocyte OR oligodendrocyte OR glia OR organoid OR \"motor neuron\" OR \"neural progenitor\")"
     },
     {
-      "topic": "Omics / Imaging",
-      "pubmed": "((proteomics[Title/Abstract] OR phosphoproteomics[Title/Abstract] OR interactomics[Title/Abstract] OR lipidomics[Title/Abstract] OR metabolomics[Title/Abstract] OR \"RNA-seq\"[Title/Abstract] OR \"single-cell\"[Title/Abstract] OR \"spatial transcriptomics\"[Title/Abstract] OR FLIM[Title/Abstract] OR FRET[Title/Abstract] OR \"live-cell imaging\"[Title/Abstract] OR \"super-resolution\"[Title/Abstract] OR ImageJ[Title/Abstract] OR Fiji[Title/Abstract] OR napari[Title/Abstract] OR segmentation[Title/Abstract] OR tracking[Title/Abstract]) AND (neuron*[Title/Abstract] OR brain[Title/Abstract] OR microglia[Title/Abstract] OR astrocyte*[Title/Abstract] OR lysosome*[Title/Abstract] OR endosome*[Title/Abstract] OR trafficking[Title/Abstract] OR JIP3[Title/Abstract] OR MAPK8IP3[Title/Abstract])) OR ((ImageJ[Title/Abstract] OR Fiji[Title/Abstract] OR napari[Title/Abstract] OR segmentation[Title/Abstract] OR tracking[Title/Abstract]) AND (software[Title/Abstract] OR workflow[Title/Abstract] OR tool[Title/Abstract] OR resource[Title/Abstract]))",
-      "europepmc": "((proteomics OR phosphoproteomics OR interactomics OR lipidomics OR metabolomics OR \"RNA-seq\" OR \"single-cell\" OR \"spatial transcriptomics\" OR FLIM OR FRET OR \"live-cell imaging\" OR \"super-resolution\" OR ImageJ OR Fiji OR napari OR segmentation OR tracking) AND (neuron OR brain OR microglia OR astrocyte OR lysosome OR endosome OR trafficking OR JIP3 OR MAPK8IP3)) OR ((ImageJ OR Fiji OR napari OR segmentation OR tracking) AND (software OR workflow OR tool OR resource))"
+      "topic": "Omics",
+      "pubmed": "(proteomics[Title/Abstract] OR phosphoproteomics[Title/Abstract] OR interactomics[Title/Abstract] OR lipidomics[Title/Abstract] OR metabolomics[Title/Abstract] OR \"RNA-seq\"[Title/Abstract] OR transcriptomics[Title/Abstract] OR \"single-cell\"[Title/Abstract] OR \"single cell\"[Title/Abstract] OR \"spatial transcriptomics\"[Title/Abstract] OR \"spatial omics\"[Title/Abstract] OR \"ATAC-seq\"[Title/Abstract] OR \"CRISPR screen\"[Title/Abstract]) AND (neuron*[Title/Abstract] OR brain[Title/Abstract] OR axon*[Title/Abstract] OR microglia[Title/Abstract] OR astrocyte*[Title/Abstract] OR glia[Title/Abstract] OR iPSC[Title/Abstract] OR lysosome*[Title/Abstract] OR endosome*[Title/Abstract] OR trafficking[Title/Abstract] OR cytoskeleton[Title/Abstract] OR neurodevelopment*[Title/Abstract] OR neurodegener*[Title/Abstract] OR JIP3[Title/Abstract] OR MAPK8IP3[Title/Abstract] OR LRRK2[Title/Abstract])",
+      "europepmc": "(proteomics OR phosphoproteomics OR interactomics OR lipidomics OR metabolomics OR \"RNA-seq\" OR transcriptomics OR \"single-cell\" OR \"single cell\" OR \"spatial transcriptomics\" OR \"spatial omics\" OR \"ATAC-seq\" OR \"CRISPR screen\") AND (neuron OR brain OR axon OR microglia OR astrocyte OR glia OR iPSC OR lysosome OR endosome OR trafficking OR cytoskeleton OR neurodevelopment OR neurodegeneration OR JIP3 OR MAPK8IP3 OR LRRK2)"
+    },
+    {
+      "topic": "Imaging",
+      "pubmed": "(microscopy[Title/Abstract] OR confocal[Title/Abstract] OR \"live-cell imaging\"[Title/Abstract] OR \"live cell imaging\"[Title/Abstract] OR \"super-resolution\"[Title/Abstract] OR STED[Title/Abstract] OR SIM[Title/Abstract] OR PALM[Title/Abstract] OR STORM[Title/Abstract] OR FLIM[Title/Abstract] OR FRET[Title/Abstract] OR \"electron microscopy\"[Title/Abstract] OR \"correlative microscopy\"[Title/Abstract] OR \"light-sheet\"[Title/Abstract] OR \"high-content imaging\"[Title/Abstract]) AND ((neuron*[Title/Abstract] OR brain[Title/Abstract] OR axon*[Title/Abstract] OR microglia[Title/Abstract] OR astrocyte*[Title/Abstract] OR iPSC[Title/Abstract] OR lysosome*[Title/Abstract] OR endosome*[Title/Abstract] OR trafficking[Title/Abstract] OR organelle*[Title/Abstract] OR JIP3[Title/Abstract] OR MAPK8IP3[Title/Abstract]) OR (method*[Title/Abstract] OR protocol[Title/Abstract] OR workflow[Title/Abstract] OR platform[Title/Abstract] OR technique[Title/Abstract]))",
+      "europepmc": "(microscopy OR confocal OR \"live-cell imaging\" OR \"live cell imaging\" OR \"super-resolution\" OR STED OR SIM OR PALM OR STORM OR FLIM OR FRET OR \"electron microscopy\" OR \"correlative microscopy\" OR \"light-sheet\" OR \"high-content imaging\") AND ((neuron OR brain OR axon OR microglia OR astrocyte OR iPSC OR lysosome OR endosome OR trafficking OR organelle OR JIP3 OR MAPK8IP3) OR (method OR protocol OR workflow OR platform OR technique))"
+    },
+    {
+      "topic": "Analysis Tools",
+      "pubmed": "((ImageJ[Title/Abstract] OR Fiji[Title/Abstract] OR napari[Title/Abstract] OR CellProfiler[Title/Abstract] OR QuPath[Title/Abstract] OR segmentation[Title/Abstract] OR tracking[Title/Abstract] OR \"particle tracking\"[Title/Abstract] OR kymograph*[Title/Abstract] OR \"neurite tracing\"[Title/Abstract] OR Sholl[Title/Abstract] OR colocalization[Title/Abstract] OR puncta[Title/Abstract] OR \"image analysis\"[Title/Abstract] OR \"single-cell analysis\"[Title/Abstract] OR \"spatial transcriptomics analysis\"[Title/Abstract]) AND (software[Title/Abstract] OR tool[Title/Abstract] OR plugin[Title/Abstract] OR package[Title/Abstract] OR workflow[Title/Abstract] OR pipeline[Title/Abstract] OR algorithm[Title/Abstract] OR framework[Title/Abstract] OR resource[Title/Abstract] OR benchmark[Title/Abstract]))",
+      "europepmc": "((ImageJ OR Fiji OR napari OR CellProfiler OR QuPath OR segmentation OR tracking OR \"particle tracking\" OR kymograph OR \"neurite tracing\" OR Sholl OR colocalization OR puncta OR \"image analysis\" OR \"single-cell analysis\" OR \"spatial transcriptomics analysis\") AND (software OR tool OR plugin OR package OR workflow OR pipeline OR algorithm OR framework OR resource OR benchmark))"
     },
     {
       "topic": "Signaling",
@@ -159,8 +169,8 @@
     },
     {
       "topic": "Extracellular",
-      "pubmed": "(\"extracellular vesicle\"[Title/Abstract] OR exosome*[Title/Abstract] OR \"lysosomal exocytosis\"[Title/Abstract] OR \"lysosomal secretion\"[Title/Abstract]) AND (neuron*[Title/Abstract] OR brain[Title/Abstract] OR microglia[Title/Abstract] OR astrocyte*[Title/Abstract] OR glia[Title/Abstract] OR lysosome*[Title/Abstract])",
-      "europepmc": "(\"extracellular vesicle\" OR exosome OR \"lysosomal exocytosis\" OR \"lysosomal secretion\") AND (neuron OR brain OR microglia OR astrocyte OR glia OR lysosome)"
+      "pubmed": "(((\"extracellular vesicle\"[Title/Abstract] OR \"extracellular vesicles\"[Title/Abstract] OR exosome*[Title/Abstract] OR ectosome*[Title/Abstract] OR microvesicle*[Title/Abstract]) AND (neuron*[Title/Abstract] OR brain[Title/Abstract] OR microglia[Title/Abstract] OR astrocyte*[Title/Abstract] OR glia[Title/Abstract] OR synap*[Title/Abstract])) OR (\"lysosomal exocytosis\"[Title/Abstract] OR \"lysosome exocytosis\"[Title/Abstract] OR \"lysosomal secretion\"[Title/Abstract] OR \"lysosome secretion\"[Title/Abstract] OR \"secretory lysosome\"[Title/Abstract] OR \"secretory lysosomes\"[Title/Abstract] OR \"secretory autophagy\"[Title/Abstract] OR \"unconventional secretion\"[Title/Abstract]))",
+      "europepmc": "(((\"extracellular vesicle\" OR \"extracellular vesicles\" OR exosome OR ectosome OR microvesicle) AND (neuron OR brain OR microglia OR astrocyte OR glia OR synapse)) OR (\"lysosomal exocytosis\" OR \"lysosome exocytosis\" OR \"lysosomal secretion\" OR \"lysosome secretion\" OR \"secretory lysosome\" OR \"secretory lysosomes\" OR \"secretory autophagy\" OR \"unconventional secretion\"))"
     }
   ],
   "recent_days": 180,
@@ -301,5 +311,11 @@
     "Membranes",
     "Cureus"
   ],
-  "config_version": "2026-10-22.1"
+  "config_version": "2026-10-22.2",
+  "section_recent_days": {
+    "omics": 180,
+    "imaging": 365,
+    "analysis-tools": 365,
+    "extracellular": 365
+  }
 }
