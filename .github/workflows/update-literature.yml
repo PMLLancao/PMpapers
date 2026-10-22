@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: update-literature
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
