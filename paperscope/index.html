@@ -19,7 +19,7 @@
 <div class="sheet" id="installSheet"><div class="box"><h3>Install PaperScope</h3><p id="installText"></p><div class="actions"><button class="btn primary" id="nativeInstall" style="display:none">Install now</button><button class="btn" id="closeInstall">Close</button></div></div></div>
 <div class="toast" id="toast"></div>
 <script>
-const DATA='../data/papers.json', META='../data/meta.json', KEY='paperscope-v1';
+const DATA='https://raw.githubusercontent.com/PMLLancao/PMpapers/main/data/papers.json', META='https://raw.githubusercontent.com/PMLLancao/PMpapers/main/data/meta.json', KEY='paperscope-v1';
 const S=[['latest','Latest','Newest prepared papers'],['focus','Research Focus','MAPK8IP3/JIP3 and directly relevant JIP4'],['lysosome','Lysosome','Lysosome, damage, repair and endolysosomal biology'],['traffic','Trafficking','Intracellular and axonal transport'],['signaling','Signaling','cAMP/EPAC/PKA, AKT, Rabs, Rho-family and regulators'],['neurodeg','Neurodegeneration','Parkinson/LRRK2, ALS/FTD and Alzheimer mechanisms'],['reviews','Reviews','Review and synthesis papers'],['preprints','Preprints','bioRxiv and arXiv'],['saved','Saved','Your reading shortlist']];
 const REASONS=['Wrong section','Not relevant','Wrong protein/pathway match','Wrong model/tissue','Bad summary','Duplicate','Bad journal/source','Other'];
 const st=JSON.parse(localStorage.getItem(KEY)||'{"tab":"latest","q":"","saved":[],"likes":[],"dislikes":[],"reports":[]}');
