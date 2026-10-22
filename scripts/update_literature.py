@@ -93,6 +93,19 @@ def norm(x):
 def exact(text, term):
     return re.search(r"(?<![A-Za-z0-9])"+re.escape(term)+r"(?![A-Za-z0-9])",text or "",re.I) is not None
 
+def term_hit(text, term):
+    text=text or ""
+    t=str(term or "").strip()
+    if not t:return False
+    # Token/phrase-aware matching prevents cAMP/actin-style substring leaks.
+    pat=re.escape(t).replace(r"\ ",r"\s+")
+    # Controlled plural for ordinary alphabetic biological nouns.
+    plural=r"(?:s|es)?" if re.fullmatch(r"[A-Za-z]{5,}",t) else ""
+    return re.search(r"(?<![A-Za-z0-9])"+pat+plural+r"(?![A-Za-z0-9])",text,re.I) is not None
+
+def hit_any(text, arr):
+    return any(term_hit(text,x) for x in arr)
+
 def has(text, arr):
     t=(text or "").lower()
     return any(x.lower() in t for x in arr)
@@ -215,26 +228,29 @@ def gate(p, section):
     neural=has(b,NEURAL); cellbio=has(b,CELLBIO)
     if section=="focus":
         return exact(b,"MAPK8IP3") or exact(b,"JIP3") or (exact(b,"JIP4") and has(b,["neuron","axon","lysosome","endosome","transport"]))
-    if section=="neurodevelopment":return neural and has(b,KEYS[section])
-    if section=="organelle":return (neural or cellbio) and has(b,KEYS[section])
-    if section=="trafficking":return (neural or cellbio) and has(b,KEYS[section])
-    if section=="cytoskeleton":return neural and has(b,KEYS[section])
-    if section=="ipsc":return has(b,KEYS[section]) and has(b,["neuron","microglia","astrocyte","oligodendrocyte","glia","organoid","motor neuron","neural progenitor"])
+    if section=="neurodevelopment":return neural and hit_any(b,KEYS[section])
+    if section=="organelle":return (neural or cellbio) and hit_any(b,KEYS[section])
+    if section=="trafficking":return (neural or cellbio) and hit_any(b,KEYS[section])
+    if section=="cytoskeleton":return neural and hit_any(b,KEYS[section])
+    if section=="ipsc":return hit_any(b,KEYS[section]) and has(b,["neuron","microglia","astrocyte","oligodendrocyte","glia","organoid","motor neuron","neural progenitor"])
     if section=="omics":
-        method=has(b,KEYS[section]); relevant=neural or has(b,["lysosome","endosome","trafficking","cytoskeleton","neurodevelopment","neurodegeneration","jip3","mapk8ip3","lrrk2"])
+        method=hit_any(b,KEYS[section]); relevant=neural or has(b,["lysosome","endosome","trafficking","cytoskeleton","neurodevelopment","neurodegeneration","jip3","mapk8ip3","lrrk2"])
         return method and relevant
     if section=="imaging":
-        method=has(b,KEYS[section]); relevant=neural or has(b,["lysosome","endosome","trafficking","organelle","jip3","mapk8ip3"])
+        method=hit_any(b,KEYS[section]); relevant=neural or has(b,["lysosome","endosome","trafficking","organelle","jip3","mapk8ip3"])
         methodpaper=has(b,["method","protocol","workflow","platform","technique"])
         return method and (relevant or methodpaper)
     if section=="analysis-tools":
-        method=has(b,KEYS[section]); tool=has(b,["software","tool","plugin","package","workflow","pipeline","algorithm","framework","resource","benchmark"])
+        method=hit_any(b,KEYS[section]); tool=has(b,["software","tool","plugin","package","workflow","pipeline","algorithm","framework","resource","benchmark"])
         return method and tool
     if section=="signaling":
         return signaling_central(p) and (neural or cellbio or has(b,["lysosome","endosome","trafficking","autophagy"]))
-    if section=="extracellular":return neural and has(b,KEYS[section])
+    if section=="extracellular":
+        ev=hit_any(b,["extracellular vesicle","extracellular vesicles","exosome","ectosome","microvesicle"])
+        lysosec=hit_any(b,["lysosomal exocytosis","lysosome exocytosis","lysosomal secretion","lysosome secretion","secretory lysosome","secretory lysosomes","secretory autophagy","unconventional secretion"])
+        return (ev and neural) or lysosec
     if section=="neurodegeneration":
-        return has(b,KEYS[section]) and neural and has(b,["lysosome","endosome","autophagy","trafficking","axon","cytoskeleton","microtubule","rab","rho","iron","ferroptosis","microglia","astrocyte","mitochond"])
+        return hit_any(b,KEYS[section]) and neural and hit_any(b,["lysosome","endosome","autophagy","trafficking","axon","cytoskeleton","microtubule","rab","rho","iron","ferroptosis","microglia","astrocyte","mitochond"])
     return False
 
 def age_days(p):
@@ -427,6 +443,15 @@ def main():
     meta={"project_name":"PaperScope","last_updated_utc":NOW.isoformat(),"weekly_days":WEEK,
           "total_papers":len(allp),"weekly_highlight_count":len(top10),"reviews_count":len(rv),
           "preprints_count":len(pp),"section_counts":briefing["meta"]["section_counts"]}
+    audit={"generated_at_utc":NOW.isoformat(),"weekly_top10":[{"title":p.get("title"),"date":p.get("date"),"journal":p.get("journal"),"section":p.get("weekly_section")} for p in top10],
+           "sections":{},"reviews":{"primary_count":len(rpri),"secondary_count":len(rsec),"top_primary":[{"title":p.get("title"),"date":p.get("date"),"journal":p.get("journal")} for p in rpri[:10]]},
+           "preprints":{"count":len(pp),"top":[{"title":p.get("title"),"date":p.get("date"),"journal":p.get("journal"),"sections":p.get("sections",[])} for p in pp[:12]]}}
+    for sec in TITLES:
+        x=sections[sec]
+        audit["sections"][sec]={"title":TITLES[sec],"primary_count":len(x["primary"]),"secondary_count":len(x["secondary"]),"weekly_count":x["weekly_count"],
+            "top_primary":[{"title":p.get("title"),"date":p.get("date"),"journal":p.get("journal")} for p in x["primary"][:8]],
+            "top_secondary":[{"title":p.get("title"),"date":p.get("date"),"journal":p.get("journal")} for p in x["secondary"][:8]]}
+    (DATA/"audit.json").write_text(json.dumps(audit,indent=2,ensure_ascii=False))
     (DATA/"briefing.json").write_text(json.dumps(briefing,indent=2,ensure_ascii=False))
     (DATA/"papers.json").write_text(json.dumps(legacy,indent=2,ensure_ascii=False))
     (DATA/"meta.json").write_text(json.dumps(meta,indent=2,ensure_ascii=False))
