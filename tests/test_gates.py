@@ -58,6 +58,14 @@ check("Journal paper with bioRxiv DOI is not a preprint", not u.is_preprint(P(
 check("medRxiv record is a preprint", u.is_preprint(P("MAPK8IP3 variants in OCD", "",
       "medRxiv : the preprint server for health sciences")))
 
+check("Focus: cardiac paper citing JIP3/JNK in abstract fails", rejects(P(
+      "Knockdown of Long Noncoding RNA IPCRL1 Mitigates Myocardial Ischemia/Reperfusion Injury",
+      "IPCRL1 regulates cardiomyocyte apoptosis via the JIP3/JNK pathway in heart.", "Journal of inflammation research"), "focus"))
+check("Neurodevelopment: hospital communication study fails", rejects(P(
+      "Why clinicians in acute hospitals may fail to engage in direct communication with people with intellectual disability",
+      "Intellectual disability; brain; clinicians interviewed; children and adults.", "Journal of intellectual disability research"),
+      "neurodevelopment"))
+
 # --- Section false positives from the audit (handoff 10) -----------------------------------
 check("Trafficking: Doberman genomics fails (retriever = dog breed)", rejects(P(
       "Genomic inbreeding and selection signatures analyses in the Doberman Pinscher breed.",

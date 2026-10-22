@@ -268,7 +268,9 @@ CLINICAL = ["mri", "fmri", "functional connectivity", "functional network*", "co
             "prevalence", "cohort", "survey*", "registry", "diagnostic codes", "nationwide",
             "retrospective", "randomized", "trial", "informed consent", "ethic*",
             "translational research", "geographic", "epidemiolog*", "post mortem mri",
-            "bibliometric*", "knowledge structure", "emerging trends", "associations between"]
+            "bibliometric*", "knowledge structure", "emerging trends", "associations between",
+            "clinician*", "hospital*", "caregiver*", "healthcare", "health care", "quality of life",
+            "communication with", "service use", "nurs*"]
 MOLECULAR = ["gene", "genes", "genetic*", "genom*", "variant*", "mutation*", "mutant*", "protein*",
              "cell", "cells", "cellular", "molecular", "mouse", "mice", "rat", "rats", "ipsc*",
              "organoid*", "lysosom*", "endosom*", "synap*", "transcript*", "proteom*",
@@ -433,8 +435,9 @@ def global_reject(p):
     if m(t, NON_RESEARCH_TITLE): return "ethics/bibliometric/policy"
     if tier(j) == "Excluded" or EXCLUDED_JOURNAL_RX.search(j): return "excluded journal/domain"
     if m(b, HERBAL) or BINOMIAL_DERIVED_RX.search(t) or m(t, PHYTOCHEMICAL): return "herbal/natural-product"
-    focus = m(b, KEYS["focus"])
-    if focus: return ""
+    # Only papers ABOUT JIP3/MAPK8IP3 (in the title) skip the organism/organ/cancer rules;
+    # a passing abstract mention (e.g. a cardiac injury paper citing JIP3/JNK) does not.
+    if m(t, KEYS["focus"]): return ""
     if m(t, NONMODEL): return "non-preferred organism (title)"
     if m(b, NONMODEL) and not m(b, MAMMAL): return "non-preferred organism, no mammalian context"
     if m(t, CANCER) and not m(t, KEYS["organelle"] + KEYS["trafficking"]): return "cancer focus"
@@ -682,7 +685,7 @@ def retrieve_preprints():
             print("preprint search skipped", sec, e); continue
         for it in data.get("resultList", {}).get("result", []):
             d = (it.get("firstPublicationDate") or it.get("firstIndexDate") or "")[:10]
-            clean = lambda x: htmlmod.unescape(re.sub(r"<[^>]+>", "", x or "")).strip()
+            clean = lambda x: re.sub(r"\s+", " ", htmlmod.unescape(re.sub(r"<[^>]+>", "", x or ""))).strip()
             p = {"title": clean(it.get("title")), "abstract": clean(it.get("abstractText")),
                  "journal": it.get("journalTitle") or "bioRxiv / preprint", "date": d,
                  "year": int(d[:4]) if d[:4].isdigit() else 0, "authors": it.get("authorString") or "",
