@@ -1,27 +1,61 @@
 {
   "project_name": "PaperScope",
-  "last_updated_utc": "2026-10-22T02:43:56.976184+00:00",
-  "configured_topics": [
-    "JIP3 / MAPK8IP3",
-    "Neurodevelopment",
-    "Lysosome",
-    "Trafficking",
-    "Cytoskeleton",
-    "iPSC",
-    "Omics / Imaging",
-    "Signaling",
-    "Neurodegeneration",
-    "Extracellular"
-  ],
-  "total_papers": 524,
+  "last_updated_utc": "2026-10-22T03:03:30.177354+00:00",
   "weekly_days": 7,
-  "source_counts": {
-    "PubMed": 422,
-    "Europe PMC": 0,
-    "Google News": 63,
-    "bioRxiv": 0,
-    "arXiv": 39
-  },
-  "top_journals_count": 153,
-  "reviews_count": 93
+  "total_papers": 596,
+  "weekly_highlight_count": 10,
+  "reviews_count": 138,
+  "preprints_count": 114,
+  "section_counts": {
+    "focus": {
+      "primary": 4,
+      "secondary": 12,
+      "weekly": 0
+    },
+    "neurodevelopment": {
+      "primary": 13,
+      "secondary": 30,
+      "weekly": 23
+    },
+    "organelle": {
+      "primary": 12,
+      "secondary": 30,
+      "weekly": 1
+    },
+    "trafficking": {
+      "primary": 7,
+      "secondary": 12,
+      "weekly": 0
+    },
+    "cytoskeleton": {
+      "primary": 9,
+      "secondary": 28,
+      "weekly": 4
+    },
+    "ipsc": {
+      "primary": 11,
+      "secondary": 29,
+      "weekly": 13
+    },
+    "omics-imaging": {
+      "primary": 4,
+      "secondary": 30,
+      "weekly": 20
+    },
+    "signaling": {
+      "primary": 4,
+      "secondary": 19,
+      "weekly": 9
+    },
+    "extracellular": {
+      "primary": 1,
+      "secondary": 30,
+      "weekly": 2
+    },
+    "neurodegeneration": {
+      "primary": 7,
+      "secondary": 28,
+      "weekly": 12
+    }
+  }
 }
