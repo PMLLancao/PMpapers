@@ -10,6 +10,7 @@ on:
     paths:
       - "scripts/update_literature.py"
       - "config/search_config.json"
+      - "tests/test_gates.py"
 
 permissions:
   contents: write
@@ -36,6 +37,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests
+
+      - name: Relevance regression tests (block publishing if any fail)
+        run: python tests/test_gates.py
 
       - name: Run updater
         env:

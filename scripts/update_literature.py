@@ -18,7 +18,7 @@ PREPRINT_DAYS = int(CFG.get("preprint_days", 30))
 session = requests.Session()
 email = os.getenv("USER_EMAIL", "user@example.com")
 api_key = os.getenv("NCBI_API_KEY")
-session.headers.update({"User-Agent": f"PaperScope/0.30 ({email})"})
+session.headers.update({"User-Agent": f"PaperScope/0.31 ({email})"})
 EUTIL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 EPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 
@@ -63,52 +63,8 @@ HIGH_REVIEW = [
     "Current Opinion in Cell Biology","Neuron","Molecular Cell","Autophagy","Traffic",
     "Brain","Molecular Neurodegeneration"
 ]
-GLOBAL_EXCLUDE = [
-    "traditional chinese medicine","chinese herbal medicine","herbal medicine",
-    "ethnopharmacology","phytotherapy","acupuncture","homeopathy","ayurvedic",
-    "aquaculture","plant disease","crop","veterinary","dog bite"
-]
-NONPREFERRED = ["drosophila","zebrafish","caenorhabditis","c. elegans","yeast","arabidopsis","sea cucumber","hamster"]
-UNRELATED = ["kidney","renal","hepatic","liver","cardiac","myocard","skin disease","dermat","pulmonary fibrosis","bone disease","intestinal","gut microbi"]
-NEURAL = ["neuron","neuronal","brain","axon","dendrite","microglia","astrocyte","glia","ipsc","organoid","hippocamp","cortex","motor neuron","neural progenitor","oligodendrocyte","synapse","synaptic"]
-CELLBIO = ["hela","hek293","u2os","fibroblast","mef","raw 264.7","macrophage"]
-KEYS = {
-    "focus":["mapk8ip3","jip3","jip4"],
-    "neurodevelopment":["neurodevelopment","intellectual disability","autism","rare disease","axon guidance","commissure","corpus callosum","cc2d1a","cc2d1b"],
-    "organelle":["lysosome","lysosomal","endosome","endosomal","lysophagy","lysosomal damage","lysosomal membrane","lysosomal repair","lysosomal exocytosis"],
-    "trafficking":["retromer","retriever","wash complex","commander","exocyst","escrt","hops","corvet","intracellular trafficking","membrane trafficking","axonal transport","organelle transport","rab7","rab10","rab12","rab36"],
-    "cytoskeleton":["cytoskeleton","microtubule","actin","dynein","dynactin","kinesin","myosin","neuronal polarity","growth cone"],
-    "ipsc":["ipsc","induced pluripotent stem cell","patient-derived"],
-    "omics":["proteomics","phosphoproteomics","interactomics","lipidomics","metabolomics","rna-seq","rna sequencing","transcriptomics","single-cell","single cell","spatial transcriptomics","spatial omics","atac-seq","crispr screen"],
-    "imaging":["microscopy","confocal","live-cell imaging","live cell imaging","super-resolution","sted","sim","palm","storm","flim","fret","electron microscopy","correlative microscopy","light-sheet","high-content imaging"],
-    "analysis-tools":["imagej","fiji","napari","cellprofiler","qupath","segmentation","tracking","particle tracking","kymograph","neurite tracing","sholl","colocalization","puncta","image analysis","single-cell analysis","spatial transcriptomics analysis"],
-    "signaling":["camp","cyclic amp","epac","pka","akap","akt","pi3k","mtor","cc2d1a","cc2d1b","rab7","rab10","rab12","rab36","rab gtpase","rhoa","rhob","rhoc","rac1","rac2","rac3","cdc42","rho gtpase","tmem55b","rilpl1","tbk1","sting","chmp4b","spag9"],
-    "extracellular":["extracellular vesicle","exosome","lysosomal exocytosis","lysosomal secretion"],
-    "neurodegeneration":["parkinson","lrrk2","amyotrophic lateral sclerosis","frontotemporal dementia","alzheimer","neurodegeneration"]
-}
-
 def norm(x):
     return re.sub(r"[^a-z0-9]+"," ",str(x or "").lower()).strip()
-
-def exact(text, term):
-    return re.search(r"(?<![A-Za-z0-9])"+re.escape(term)+r"(?![A-Za-z0-9])",text or "",re.I) is not None
-
-def term_hit(text, term):
-    text=text or ""
-    t=str(term or "").strip()
-    if not t:return False
-    # Token/phrase-aware matching prevents cAMP/actin-style substring leaks.
-    pat=re.escape(t).replace(r"\ ",r"\s+")
-    # Controlled plural for ordinary alphabetic biological nouns.
-    plural=r"(?:s|es)?" if re.fullmatch(r"[A-Za-z]{5,}",t) else ""
-    return re.search(r"(?<![A-Za-z0-9])"+pat+plural+r"(?![A-Za-z0-9])",text,re.I) is not None
-
-def hit_any(text, arr):
-    return any(term_hit(text,x) for x in arr)
-
-def has(text, arr):
-    t=(text or "").lower()
-    return any(x.lower() in t for x in arr)
 
 def safe_get(url, params=None, timeout=60):
     err=None
@@ -173,10 +129,17 @@ def fetch_pubmed(ids, section, lane):
             for ab in art.findall(".//Abstract/AbstractText"):
                 x="".join(ab.itertext()).strip()
                 if x:absx.append(((ab.attrib.get("Label") or "")+": " if ab.attrib.get("Label") else "")+x)
-            pmid=art.findtext(".//PMID") or "";doi="";pmcid=""
-            for aid in art.findall(".//ArticleId"):
-                if aid.attrib.get("IdType")=="doi":doi=(aid.text or "").strip()
+            pmid=art.findtext(".//PMID") or "";pmcid=""
+            dois=[(e.text or "").strip() for e in art.findall(".//ELocationID") if e.attrib.get("EIdType")=="doi"]
+            for aid in art.findall(".//PubmedData/ArticleIdList/ArticleId"):
+                if aid.attrib.get("IdType")=="doi":dois.append((aid.text or "").strip())
                 if aid.attrib.get("IdType")=="pmc":pmcid=(aid.text or "").strip()
+            dois=[d for d in dict.fromkeys(dois) if d]
+            # PubMed sometimes lists the bioRxiv DOI of the earlier preprint; never let it
+            # stand in for the journal DOI (that misfiled a JBC JIP3/JIP4 paper as a preprint).
+            journal_dois=[d for d in dois if not d.startswith("10.1101/")]
+            doi=(journal_dois or dois or [""])[0]
+            preprint_doi=next((d for d in dois if d.startswith("10.1101/")),"")
             date=pub_date(art); year=int(date[:4]) if date[:4].isdigit() else 0
             auth=[]
             for a in art.findall(".//Author")[:10]:
@@ -188,7 +151,7 @@ def fetch_pubmed(ids, section, lane):
             out.append({
                 "title":htmlmod.unescape(title),"abstract":" ".join(absx),
                 "journal":art.findtext(".//Journal/Title") or "","date":date,"year":year,
-                "authors":", ".join(auth),"pmid":pmid,"pmcid":pmcid,"doi":doi,
+                "authors":", ".join(auth),"pmid":pmid,"pmcid":pmcid,"doi":doi,"preprint_doi":preprint_doi,
                 "review":rev,"publication_types":pts,"sections":[section],
                 "matched_topics":[TITLES[section]],"retrieval_lanes":[lane],
                 "sources":["PubMed"],"source_type":"paper",
@@ -196,266 +159,678 @@ def fetch_pubmed(ids, section, lane):
             })
     return out
 
-def tier(journal):
-    j=norm(journal)
-    if any(j==norm(x) for x in EXCLUDED):return "Excluded"
-    if any(j==norm(x) for x in SECONDARY):return "Secondary"
-    if any(j==norm(x) for x in PRIMARY):return "Primary / trusted"
-    return "Uncurated"
+# ---------------------------------------------------------------------------
+# Relevance layer (v0.31)
+#
+# Matching syntax used by every term list below:
+#   "lysosome"   exact token/phrase, plus a controlled plural for alphabetic
+#                words of 5+ letters (lysosome, lysosomes). Never a substring.
+#   "astrocyt*"  word-START prefix (astrocyte, astrocytes, astrocytic).
+#                Never matches inside a word ("glia*" does not match "ganglia").
+# Spaces in a phrase also match hyphens ("live cell" == "live-cell").
+#
+# Design rule from the handoff: prefer general gates over one-title blacklists.
+# Each rule below exists because a whole class of false positives got through.
+# ---------------------------------------------------------------------------
+from functools import lru_cache
+
+def _term_rx(term):
+    t = term.strip()
+    prefix = t.endswith("*")
+    if prefix:
+        t = t[:-1]
+    body = re.escape(t).replace(r"\ ", r"[\s\-]+")
+    if prefix:
+        return r"(?<![A-Za-z0-9])" + body
+    plural = r"(?:s|es)?" if re.fullmatch(r"[A-Za-z]{5,}", t) else ""
+    return r"(?<![A-Za-z0-9])" + body + plural + r"(?![A-Za-z0-9])"
+
+@lru_cache(maxsize=None)
+def _rx(terms, case_sensitive=False):
+    return re.compile("|".join(_term_rx(x) for x in terms), 0 if case_sensitive else re.I)
+
+def m(text, terms):
+    """True if any term (token/prefix-aware) occurs in text."""
+    return bool(text) and _rx(tuple(terms)).search(text) is not None
+
+def count(text, terms):
+    return len(_rx(tuple(terms)).findall(text or "")) if text else 0
+
+def acro(text, terms):
+    """Case-sensitive match for acronyms that are also English words (PALM, STORM, SIM)."""
+    return bool(text) and _rx(tuple(terms), True).search(text) is not None
+
+# Backwards-compatible helpers (old code paths and tests use these names).
+def exact(text, term): return m(text, [term])
+def term_hit(text, term): return m(text, [term])
+def hit_any(text, arr): return m(text, arr)
+def has(text, arr): return m(text, arr)
+
+# --- Context vocabularies ---------------------------------------------------
+NEURAL = ["neuron*", "neural", "neurite*", "brain*", "axon*", "dendrit*", "microglia*",
+          "astrocyt*", "glia", "glial", "oligodendrocyt*", "synap*", "hippocamp*", "cerebral cortex",
+          "neocort*", "prefrontal", "cortical neuron*", "cortical organoid*", "cerebell*", "striat*", "spinal cord", "motor neuron*", "organoid*",
+          "assembloid*", "ipsc*", "hipsc*", "nervous system", "cns", "neurodevelop*",
+          "neurodegenerat*", "neurogenesis", "cognit*", "retina*", "dopaminergic"]
+MAMMAL = ["human*", "patient*", "mouse", "mice", "murine", "rat", "rats", "primate*",
+          "macaque*", "marmoset*", "mammal*", "ipsc*", "hipsc*", "induced pluripotent",
+          "embryonic stem", "organoid*", "assembloid*", "hela", "hek293*", "hek 293", "u2os",
+          "sh sy5y", "cos 7", "n2a", "neuro 2a", "pc12", "arpe 19", "fibroblast*", "cell line*",
+          "knockout", "knock in", "transgenic"]
+CELL_CONTEXT = MAMMAL + ["cell", "cells", "cellular", "tissue*", "in vivo", "live cell*", "living cell*"]
+NONMODEL = ["plant", "plants", "arabidopsis", "rice", "maize", "tobacco", "tomato", "wheat",
+            "crop", "crops", "yeast*", "saccharomyces", "pombe", "drosophila", "zebrafish",
+            "c elegans", "caenorhabditis", "nematode*", "amoeba*", "amoeboid", "protist*",
+            "trypanosom*", "plasmodium", "toxoplasma", "cyanobacteri*", "diazotroph*", "avian",
+            "bird", "birds", "chicken*", "dog", "dogs", "canine", "breed", "breeds", "cattle",
+            "bovine", "porcine", "pig", "pigs", "sheep", "sea cucumber*", "aquaculture",
+            "hamster*", "veterinar*", "livestock", "turtle*", "reptil*", "amphibian*", "frog*",
+            "xenopus", "lizard*", "snake*", "fish", "teleost*"]
+PATHOGEN = ["virus*", "viral", "bacteri*", "infection*", "pathogen*", "xenophagy", "sars cov 2",
+            "hiv", "hsv", "escherichia", "salmonella", "mycobacteri*", "tuberculosis"]
+CANCER = ["cancer*", "carcinoma*", "tumor*", "tumour*", "glioma*", "glioblastoma*",
+          "astrocytoma*", "oligodendroglioma*", "leukemi*", "leukaemi*", "lymphoma*",
+          "melanoma*", "sarcoma*", "neoplas*", "metasta*", "oncogen*", "b all"]
+UNRELATED_ORGAN = ["kidney*", "renal", "liver*", "hepat*", "cardiac", "cardiomyocyt*", "heart",
+                   "myocard*", "skin", "dermal", "dermat*", "pancrea*", "intestin*", "gut",
+                   "colitis", "bone", "osteo*", "cartilage", "lung*", "pulmonary", "endoderm*",
+                   "dental", "denture*", "tooth", "teeth", "endotox*",
+                   "oocyte*", "sperm*", "testis", "testic*", "ovar*", "uter*", "endometri*"]
+HERBAL = ["herbal", "herb", "herbs", "traditional chinese medicine", "chinese medicine",
+          "ethnopharmacolog*", "phytotherap*", "acupuncture", "homeopath*", "ayurved*",
+          "essential oil*", "decoction*", "saponin*", "flavonoid*", "polysaccharide*",
+          "plant derived", "root extract*", "leaf extract*", "seed extract*", "fruit extract*",
+          "plant extract*", "senolytic ingredient*", "nutraceutical*", "leaf derived", "root derived",
+          "herb derived", "exosome like nanovesicle*", "exosome like vesicle*"]
+# Common phytochemicals: rejected only when they are the subject of the TITLE, so mechanistic
+# papers that merely use one as a tool compound are unaffected.
+PHYTOCHEMICAL = ["resveratrol", "curcumin", "quercetin", "baicalein", "baicalin", "berberine",
+                 "ginsenoside*", "naringenin", "luteolin", "apigenin", "kaempferol", "icariin",
+                 "astragaloside*", "ginkgo*", "imperatorin", "stigmasterol", "schaftoside"]
+BINOMIAL_DERIVED_RX = re.compile(r"\b[A-Z][a-z]{3,} [a-z]{4,}[- ]derived\b")
+# Product-curation exclusion by journal DOMAIN (generalizes the MDPI list):
+EXCLUDED_JOURNAL_RX = re.compile(
+    r"phyto|ethnopharm|complementary|alternative med|herbal|chinese medicine|\bfood\b|"
+    r"nutri|veterinar|aquacult|agricultur|\bplant|dermatol|dental|dentistry|oral investig|"
+    r"explosive|forensic|chemical physics|catalys|remote sensing|geosci|environmental science|"
+    r"ecolog|marine|fisheries|poultry|animal science|virolog|microb|infect|parasit|"
+    r"drug deliv|biomaterial|colloid|\bmaterials\b|\bnano|biosensor|bioelectron|ultrasonic", re.I)
+PREPRINT_JOURNAL_RX = re.compile(r"biorxiv|medrxiv|arxiv|research square|preprints?\b|ssrn|chemrxiv", re.I)
+NOTICE_TITLE_RX = re.compile(
+    r"^\s*(corrigendum|correction|erratum|retraction|retracted|statement of retraction|"
+    r"expression of concern|notice of|withdrawn|withdrawal)\b", re.I)
+NOTICE_TYPES = {"Published Erratum", "Retraction of Publication", "Retracted Publication",
+                "Expression of Concern", "Editorial", "Comment"}
+# Clinical / neuroimaging / population work with no molecular or cellular question.
+CLINICAL = ["mri", "fmri", "functional connectivity", "functional network*", "connectom*",
+            "eeg", "morphometr*", "diagnos*", "prognos*", "predict*", "machine learning",
+            "deep learning", "ensemble learning", "classification", "questionnaire*",
+            "prevalence", "cohort", "survey*", "registry", "diagnostic codes", "nationwide",
+            "retrospective", "randomized", "trial", "informed consent", "ethic*",
+            "translational research", "geographic", "epidemiolog*", "post mortem mri",
+            "bibliometric*", "knowledge structure", "emerging trends", "associations between"]
+MOLECULAR = ["gene", "genes", "genetic*", "genom*", "variant*", "mutation*", "mutant*", "protein*",
+             "cell", "cells", "cellular", "molecular", "mouse", "mice", "rat", "rats", "ipsc*",
+             "organoid*", "lysosom*", "endosom*", "synap*", "transcript*", "proteom*",
+             "microglia*", "astrocyt*", "neuron*", "axon*", "knockout", "pathway*", "kinase*"]
+GENE_SYMBOL_RX = re.compile(r"\b(?=[A-Z0-9-]*[A-Z])(?=[A-Z0-9-]*\d)[A-Z][A-Z0-9-]{1,9}\b|\b[A-Z]{4,6}\b")
+NON_GENE_CAPS = {"MRI", "FMRI", "EEG", "ASD", "ADHD", "AI", "CNS", "DNA", "RNA", "USA", "NDD",
+                 "MCI", "OCD", "SPS", "PET", "CBCT", "BBB", "TBI", "IED", "QOL", "COVID", "SARS",
+                 "MAPK", "DTI", "GWAS", "CT", "PD", "AD", "ALS", "FTD", "UK", "HIV", "LPS"}
+# Treatment / pharmacology / toxicology framing: on-topic words, but rarely the mechanistic
+# cell biology this profile wants. Demoted (not removed) so strong cases can still surface.
+TREATMENT = ["alleviat*", "ameliorat*", "attenuat*", "mitigat*", "neuroprotect*", "therapeutic*",
+             "treatment*", "therapy", "therapies", "nanoparticle*", "nanoplatform*", "neurotoxic*",
+             "toxicity", "exposure", "deep brain stimulation", "exercise", "diet", "dietary",
+             "supplement*", "drug*", "repurpos*", "engineered", "loaded"]
+NON_RESEARCH_TITLE = ["informed consent", "ethic*", "bibliometric*", "knowledge structure",
+                      "emerging trends", "content analysis", "policy", "perspective on"]
+QUALITY_FLOOR = 62          # minimum section score for anything shown
+UNCURATED_FLOOR = 70        # uncurated journals must clear a higher bar
+THERAPEUTIC_EV_RX = re.compile(r"(mesenchymal|stem cell|msc)[\w\s-]*(exosome|vesicle)|"
+                               r"(loaded|engineered|enriched)[\w\s-]*(exosome|vesicle)", re.I)
+REVIEW_TYPES = {"Review", "Systematic Review", "Meta-Analysis", "Scoping Review"}
+
+# --- Section vocabularies (controlled variants; no substrings) --------------
+KEYS = {
+    "focus": ["mapk8ip3", "jip3", "jip4"],
+    "neurodevelopment": ["neurodevelopment", "neurodevelopmental", "intellectual disability",
+                         "autism", "autistic", "rare disease", "rare genetic", "axon guidance",
+                         "commissure*", "corpus callosum", "cc2d1a", "cc2d1b", "brain development",
+                         "cortical development", "neuronal migration", "microcephaly",
+                         "developmental delay", "fragile x", "developmental and epileptic"],
+    "organelle": ["lysosome", "lysosomal", "endosome", "endosomal", "endolysosom*",
+                  "lysophagy", "lysosomal damage", "lysosomal membrane", "lysosomal repair",
+                  "lysosomal exocytosis", "autolysosom*", "cathepsin*", "tfeb"],
+    "trafficking": ["retromer", "retriever complex", "wash complex", "commander complex",
+                    "ccc complex", "exocyst", "escrt", "hops complex", "corvet",
+                    "intracellular trafficking", "membrane trafficking", "vesicle trafficking",
+                    "endosomal sorting", "endocytic recycling", "axonal transport",
+                    "organelle transport", "vps35", "vps26", "snx27", "snx17", "rab7", "rab10",
+                    "rab12", "rab36", "rab5", "rab11"],
+    "cytoskeleton": ["cytoskeleton", "cytoskeletal", "microtubule", "actin", "f actin",
+                     "dynein", "dynactin", "kinesin", "myosin", "neurofilament",
+                     "neuronal polarity", "growth cone", "axon initial segment", "tubulin",
+                     "spectrin", "ankyrin*"],
+    "ipsc": ["ipsc", "ipscs", "hipsc", "hipscs", "induced pluripotent stem cell",
+             "patient derived", "isogenic", "brain organoid", "cortical organoid",
+             "forebrain organoid", "assembloid*"],
+    "omics": ["proteomics", "proteomic", "phosphoproteomic*", "interactom*", "lipidomic*",
+              "metabolomic*", "rna seq", "rna sequencing", "transcriptomic*", "single cell",
+              "single nucleus", "snrna seq", "scrna seq", "spatial transcriptomics",
+              "spatial omics", "spatial transcriptom*", "stereo seq", "visium", "merfish", "slide seq",
+              "snrna seq", "scrna seq", "multiomic*", "multi omic*", "atac seq", "multiome", "crispr screen*"],
+    "imaging": ["microscopy", "microscope*", "confocal", "live cell imaging", "super resolution",
+                "fluorescence lifetime", "electron microscopy", "cryo et", "cryo em", "cryo electron", "correlative",
+                "light sheet", "expansion microscopy", "high content imaging", "two photon",
+                "intravital", "nanoscopy"],
+    "analysis-tools": ["imagej", "fiji", "napari", "cellprofiler", "qupath", "ilastik",
+                       "cellpose", "stardist", "segmentation", "particle tracking",
+                       "kymograph*", "neurite tracing", "sholl", "colocalization", "puncta",
+                       "image analysis", "single cell analysis", "spatial transcriptomics analysis"],
+    "signaling": ["camp", "cyclic amp", "epac", "pka", "akap*", "akt", "pi3k", "mtor",
+                  "mtorc1", "cc2d1a", "cc2d1b", "rab7", "rab10", "rab12", "rab36", "rab gtpase*",
+                  "rhoa", "rhob", "rhoc", "rac1", "rac2", "rac3", "cdc42", "rho gtpase*",
+                  "tmem55b", "rilpl1", "tbk1", "sting", "chmp4b", "spag9"],
+    "extracellular": ["extracellular vesicle", "exosome", "ectosome", "microvesicle",
+                      "lysosomal exocytosis", "lysosome exocytosis", "lysosomal secretion",
+                      "secretory lysosome", "secretory autophagy", "unconventional secretion"],
+    "neurodegeneration": ["parkinson*", "lrrk2", "amyotrophic lateral sclerosis", "als",
+                          "frontotemporal", "ftd", "alzheimer*", "neurodegenerat*",
+                          "huntington*", "tauopath*", "synucleinopath*", "lewy"],
+}
+IMAGING_ACRO = ["STED", "SIM", "PALM", "STORM", "dSTORM", "FLIM", "FRET", "CLEM", "MINFLUX", "SMLM", "TIRF"]
+SOFTWARE = ["software", "plugin*", "package*", "toolbox*", "toolkit*", "open source", "pipeline*",
+            "workflow*", "algorithm*", "python", "r package", "github", "web server", "web app*",
+            "graphical user interface", "gui", "benchmark*", "napari", "imagej", "fiji",
+            "cellprofiler", "qupath", "ilastik", "cellpose", "stardist", "database", "atlas",
+            "resource"]
+BIO_DATA = ["cell", "cells", "cellular", "neuron*", "microscop*", "fluorescen*", "histolog*",
+            "immunofluorescen*", "tissue section*", "single cell", "proteom*", "transcriptom*",
+            "rna seq", "organoid*", "live imaging", "time lapse", "puncta", "organelle*",
+            "lysosom*", "mitochondri*", "synap*", "axon*", "dendrit*"]
+NON_BIO_TOOLS = ["remote sensing", "satellite", "ct", "cbct", "mri", "radiograph*", "radiolog*",
+                 "x ray", "ultrasound", "electronic health record*", "documentation", "catalyst*",
+                 "electrochemical", "cyanobacterial bloom", "dixon", "mandibular", "odontogenic",
+                 "vision language", "stroke patients", "tuberculosis"]
+IMAGING_METHOD_TITLE = ["method*", "probe*", "sensor*", "biosensor*", "reporter*", "technique*",
+                        "approach*", "platform*", "microscop*", "resolution", "imaging",
+                        "nanoscopy", "label*"]
+PROFILE_BIOLOGY = sorted(set(KEYS["organelle"] + KEYS["trafficking"] + KEYS["cytoskeleton"] +
+                             KEYS["neurodegeneration"] + KEYS["focus"] + KEYS["signaling"] +
+                             KEYS["neurodevelopment"] + ["autophag*", "mitochondri*", "organelle*",
+                                                         "golgi", "endoplasmic reticulum"]))
+LIVE_BIO = ["live cell*", "living cell*", "cultured cell*", "in cellulo", "cell membrane*",
+            "plasma membrane", "membrane tension", "membrane*", "lipid*", "organelle*", "in vivo",
+            "tissue*", "mammalian"]
+RESOURCE_TITLE = ["atlas", "resource", "database", "dataset*", "reference map*", "browser", "explorer"]
+DEGEN_MECHANISM = ["lysosom*", "endosom*", "autophag*", "trafficking", "axon*", "cytoskelet*",
+                   "microtubule*", "rab gtpase*", "rab7", "rab8a", "rab10", "rab12", "rab29",
+                   "rab32", "rhoa", "rac1", "cdc42", "rho gtpase*", "iron", "ferroptosis", "microglia*",
+                   "astrocyt*", "mitochondri*", "synap*", "proteostasis", "aggregat*",
+                   "lrrk2", "vps35", "gba*", "tau", "synuclein", "tdp 43", "c9orf72"]
 
 def blob(p):
     return f"{p.get('title','')} {p.get('abstract','')}"
 
-def global_reject(p):
-    b=blob(p).lower()
-    if any(x in b for x in GLOBAL_EXCLUDE):return True
-    if tier(p.get("journal"))=="Excluded":return True
-    if has(b,UNRELATED) and not has(b,NEURAL):return True
-    if re.search(r"\b(cancer|carcinoma|tumou?r|glioblastoma)\b",b,re.I) and has(b,["therapy","metastasis","survival","prognosis","chemoresistance","tumor growth"]):return True
-    return False
+DEVELOPMENTAL = ["neurodevelop*", "developing", "embryo*", "fetal", "foetal", "prenatal", "postnatal",
+                 "perinatal", "congenital", "de novo", "syndrome*", "autis*", "intellectual disability",
+                 "child*", "infant*", "pediatric", "paediatric", "juvenile", "early life"]
 
-def signaling_central(p):
-    title=p.get("title","");abstract=p.get("abstract","")
-    for t in KEYS["signaling"]:
-        if exact(title,t) or (len(t)>5 and t in title.lower()):return True
-        if len(re.findall(r"(?<![A-Za-z0-9])"+re.escape(t)+r"(?![A-Za-z0-9])",abstract,re.I))>=2:return True
-    return False
+def first_sentences(x, n=8):
+    return [s.strip() for s in re.split(r"(?<=[.!?])\s+", x or "") if s.strip()][:n]
+
+def journal_variants(journal):
+    """PubMed full titles carry subtitles/places: 'Brain : a journal of neurology',
+    'Bioinformatics (Oxford, England)', 'Current biology : CB'. Compare the short form too."""
+    j = journal or ""
+    short = re.sub(r"\s*\([^)]*\)", "", j.split(" : ")[0]).strip()
+    return {norm(j), norm(short), norm(re.sub(r"^the\s+", "", short, flags=re.I))}
+
+_TIER_SETS = None
+def tier(journal):
+    global _TIER_SETS
+    if _TIER_SETS is None:
+        mk = lambda L: set().union(*[journal_variants(x) for x in L]) if L else set()
+        _TIER_SETS = (mk(EXCLUDED), mk(SECONDARY), mk(PRIMARY))
+    v = journal_variants(journal)
+    if v & _TIER_SETS[0]: return "Excluded"
+    if v & _TIER_SETS[1]: return "Secondary"
+    if v & _TIER_SETS[2]: return "Primary / trusted"
+    return "Uncurated"
+
+def is_preprint(p):
+    return (p.get("source_type") == "preprint" or "Preprint" in (p.get("publication_types") or [])
+            or bool(PREPRINT_JOURNAL_RX.search(p.get("journal") or ""))
+            or (str(p.get("doi") or "").startswith("10.1101/") and not (p.get("journal") or "").strip()))
+
+def is_notice(p):
+    return bool(NOTICE_TITLE_RX.search(p.get("title") or "")) or \
+        bool(NOTICE_TYPES & set(p.get("publication_types") or []))
+
+def gene_symbol_in(title):
+    return any(s not in NON_GENE_CAPS for s in GENE_SYMBOL_RX.findall(title or ""))
+
+def title_hit(p, sec):
+    return m(p.get("title", ""), KEYS[sec])
+
+def central(p, sec):
+    """A topic is central if it is in the title or mentioned at least twice in the abstract."""
+    if sec == "imaging":
+        t = p.get("title", ""); a = p.get("abstract", "")
+        return title_hit(p, sec) or acro(t, IMAGING_ACRO) or \
+            count(a, KEYS[sec]) + len(_rx(tuple(IMAGING_ACRO), True).findall(a)) >= 2
+    return title_hit(p, sec) or count(p.get("abstract", ""), KEYS[sec]) >= 2
+
+def clinical_only(p):
+    t = p.get("title", "")
+    return m(t, CLINICAL) and not (m(t, MOLECULAR) or gene_symbol_in(t))
+
+def global_reject(p):
+    """Rules that apply to every section, with the reason (useful for the audit)."""
+    t = p.get("title", ""); b = blob(p); j = p.get("journal") or ""
+    if is_notice(p): return "notice/correction/retraction"
+    if m(t, NON_RESEARCH_TITLE): return "ethics/bibliometric/policy"
+    if tier(j) == "Excluded" or EXCLUDED_JOURNAL_RX.search(j): return "excluded journal/domain"
+    if m(b, HERBAL) or BINOMIAL_DERIVED_RX.search(t) or m(t, PHYTOCHEMICAL): return "herbal/natural-product"
+    focus = m(b, KEYS["focus"])
+    if focus: return ""
+    if m(t, NONMODEL): return "non-preferred organism (title)"
+    if m(b, NONMODEL) and not m(b, MAMMAL): return "non-preferred organism, no mammalian context"
+    if m(t, CANCER) and not m(t, KEYS["organelle"] + KEYS["trafficking"]): return "cancer focus"
+    if m(b, CANCER) and m(b, ["therapy", "metastasis", "survival", "prognosis", "chemoresistance",
+                              "tumor growth", "tumour growth"]) and not m(t, NEURAL): return "cancer therapy"
+    neuro_title = m(t, NEURAL + KEYS["neurodegeneration"] + KEYS["neurodevelopment"])
+    if m(t, PATHOGEN) and not (neuro_title or m(t, KEYS["signaling"])): return "pathogen/infection focus"
+    if m(t, UNRELATED_ORGAN) and not neuro_title: return "unrelated organ (title)"
+    if m(b, UNRELATED_ORGAN) and not m(b, NEURAL): return "unrelated organ, no neural context"
+    return ""
+
+def gate_reason(p, section):
+    """Return '' if the paper belongs in `section`, else the reason it was rejected."""
+    r = global_reject(p)
+    if r: return r
+    t = p.get("title", ""); a = p.get("abstract", ""); b = blob(p)
+    neural = m(b, NEURAL); mammal = m(b, MAMMAL); cellctx = m(b, CELL_CONTEXT)
+    if section == "focus":
+        if m(b, ["mapk8ip3", "jip3"]): return ""
+        if m(b, ["jip4"]) and m(b, ["neuron*", "axon*", "lysosom*", "endosom*", "transport"]): return ""
+        return "no direct JIP3/MAPK8IP3 (or relevant JIP4)"
+    if not central(p, section): return "topic not central"
+    if section in ("neurodevelopment", "neurodegeneration", "ipsc") and clinical_only(p):
+        return "clinical/neuroimaging only, no molecular question"
+    if section == "neurodevelopment":
+        if not neural: return "no neural context"
+        # corpus callosum / commissure mentions in adult injury papers are not neurodevelopment
+        return "" if (title_hit(p, section) or m(b, DEVELOPMENTAL)) else "no developmental/disease context"
+    if section in ("organelle", "trafficking"):
+        return "" if (neural or mammal) else "no neural/mammalian context"
+    if section == "cytoskeleton":
+        return "" if neural else "no neural context"
+    if section == "ipsc":
+        return "" if m(b, ["neuron*", "microglia*", "astrocyt*", "oligodendrocyt*", "glia*",
+                           "organoid*", "assembloid*", "motor neuron*", "neural progenitor*",
+                           "neural stem"]) else "iPSC without neural context"
+    if section == "omics":
+        if not (mammal or neural): return "no mammalian/human or neural context"
+        if m(t, ["diagnos*", "biomarker*", "prognos*", "machine learning"]) and not m(b, PROFILE_BIOLOGY):
+            return "diagnostic/biomarker omics, off-profile biology"
+        relevant = neural or m(b, PROFILE_BIOLOGY) or m(t, RESOURCE_TITLE)
+        return "" if relevant else "omics used, biology off-profile"
+    if section == "imaging":
+        # "cells" alone is not enough ("terrorist cells" let an explosives paper in)
+        if m(t, ["atomic force", "scanning tunneling", "scanning electrochemical", "raman"]) and not neural:
+            return "non-optical/materials microscopy"
+        method_paper = (m(t, KEYS["imaging"]) or acro(t, IMAGING_ACRO)) and m(t, IMAGING_METHOD_TITLE)
+        bio_sample = neural or mammal or m(b, PROFILE_BIOLOGY) or (method_paper and m(b, LIVE_BIO))
+        if not bio_sample: return "no biological/cellular context"
+        relevant = neural or central(p, "organelle") or central(p, "trafficking") or central(p, "focus")
+        return "" if (relevant or method_paper) else "imaging used, biology off-profile"
+    if section == "analysis-tools":
+        if m(b, NON_BIO_TOOLS) and not m(b, ["microscop*", "fluorescen*", "neuron*", "proteom*",
+                                              "single cell", "organoid*"]):
+            return "clinical/non-biological tool"
+        if not m(b, SOFTWARE): return "no software/tool signal"
+        return "" if m(b, BIO_DATA) else "tool not for cell/molecular data"
+    if section == "signaling":
+        # targets must be central: in the title, or the subject of the whole abstract
+        if not (title_hit(p, section) or count(a, KEYS[section]) >= 4 and m(" ".join(first_sentences(a, 2)), KEYS[section])):
+            return "signaling target only incidental"
+        return "" if (neural or mammal or m(b, ["lysosom*", "endosom*", "trafficking", "autophag*"])) \
+            else "no relevant context"
+    if section == "extracellular":
+        ev = m(b, ["extracellular vesicle", "exosome", "ectosome", "microvesicle"])
+        lysosec = m(b, KEYS["extracellular"][4:])
+        return "" if ((ev and neural) or lysosec) else "EV without neural context"
+    if section == "neurodegeneration":
+        if not neural: return "no neural context"
+        return "" if m(b, DEGEN_MECHANISM) else "no mechanistic intersection"
+    return "unknown section"
 
 def gate(p, section):
-    b=blob(p).lower()
-    if global_reject(p):return False
-    if section!="focus" and has(b,NONPREFERRED):return False
-    neural=has(b,NEURAL); cellbio=has(b,CELLBIO)
-    if section=="focus":
-        return exact(b,"MAPK8IP3") or exact(b,"JIP3") or (exact(b,"JIP4") and has(b,["neuron","axon","lysosome","endosome","transport"]))
-    if section=="neurodevelopment":return neural and hit_any(b,KEYS[section])
-    if section=="organelle":return (neural or cellbio) and hit_any(b,KEYS[section])
-    if section=="trafficking":return (neural or cellbio) and hit_any(b,KEYS[section])
-    if section=="cytoskeleton":return neural and hit_any(b,KEYS[section])
-    if section=="ipsc":return hit_any(b,KEYS[section]) and has(b,["neuron","microglia","astrocyte","oligodendrocyte","glia","organoid","motor neuron","neural progenitor"])
-    if section=="omics":
-        method=hit_any(b,KEYS[section]); relevant=neural or has(b,["lysosome","endosome","trafficking","cytoskeleton","neurodevelopment","neurodegeneration","jip3","mapk8ip3","lrrk2"])
-        return method and relevant
-    if section=="imaging":
-        method=hit_any(b,KEYS[section]); relevant=neural or has(b,["lysosome","endosome","trafficking","organelle","jip3","mapk8ip3"])
-        methodpaper=has(b,["method","protocol","workflow","platform","technique"])
-        return method and (relevant or methodpaper)
-    if section=="analysis-tools":
-        method=hit_any(b,KEYS[section]); tool=has(b,["software","tool","plugin","package","workflow","pipeline","algorithm","framework","resource","benchmark"])
-        return method and tool
-    if section=="signaling":
-        return signaling_central(p) and (neural or cellbio or has(b,["lysosome","endosome","trafficking","autophagy"]))
-    if section=="extracellular":
-        ev=hit_any(b,["extracellular vesicle","extracellular vesicles","exosome","ectosome","microvesicle"])
-        lysosec=hit_any(b,["lysosomal exocytosis","lysosome exocytosis","lysosomal secretion","lysosome secretion","secretory lysosome","secretory lysosomes","secretory autophagy","unconventional secretion"])
-        return (ev and neural) or lysosec
-    if section=="neurodegeneration":
-        return hit_any(b,KEYS[section]) and neural and hit_any(b,["lysosome","endosome","autophagy","trafficking","axon","cytoskeleton","microtubule","rab","rho","iron","ferroptosis","microglia","astrocyte","mitochond"])
-    return False
+    return gate_reason(p, section) == ""
+
+# Kept for compatibility with older callers.
+def signaling_central(p): return central(p, "signaling")
+
+def strong_for_uncurated(p, sec):
+    """Uncurated journals need a title-level topic hit to be shown at all."""
+    if sec == "focus": return m(p.get("title", ""), KEYS["focus"])
+    if sec == "imaging": return title_hit(p, sec) or acro(p.get("title", ""), IMAGING_ACRO)
+    if sec == "analysis-tools": return m(p.get("title", ""), SOFTWARE + KEYS[sec])
+    return title_hit(p, sec)
 
 def age_days(p):
-    try:return max(0,(NOW.date()-datetime.fromisoformat(p.get("date","")).date()).days)
-    except:return 99999
+    """Days since publication. Future-dated records (issue dates ahead of today) return -1."""
+    try:
+        d = (NOW.date() - datetime.fromisoformat(p.get("date", "")).date()).days
+        return d if d >= 0 else -1
+    except Exception:
+        return 99999
 
 def centrality(p, section):
-    t=p.get("title","");a=p.get("abstract","");n=0
-    for term in KEYS[section]:
-        if exact(t,term) or (len(term)>5 and term in t.lower()):n+=8
-        elif exact(a,term) or (len(term)>5 and term in a.lower()):n+=2
-    return min(24,n)
+    t = p.get("title", ""); a = p.get("abstract", "")
+    n = 8 * len(set(x.lower() for x in _rx(tuple(KEYS[section])).findall(t)))
+    n += 2 * min(6, count(a, KEYS[section]))
+    return min(24, n)
 
 def score(p, section, review=False):
-    age=age_days(p);s=40+centrality(p,section)
-    if section=="focus":s+=18
-    if age<=7:s+=30
-    elif age<=30:s+=22
-    elif age<=90:s+=14
-    elif age<=180:s+=7
-    elif age<=365:s+=2
-    else:s-=min(15,((age-365)//180)*2)
-    t=tier(p.get("journal"))
-    if t=="Primary / trusted":s+=10
-    elif t=="Secondary":s+=3
-    else:s-=2
+    age = age_days(p); s = 40 + centrality(p, section)
+    if section == "focus":
+        t = p.get("title", "")
+        if m(t, ["mapk8ip3", "jip3"]): s += 30          # direct JIP3 work leads the section
+        elif m(t, ["jip4"]): s += 18
+        elif count(p.get("abstract", ""), KEYS["focus"]) <= 1: s -= 10   # single passing mention
+        else: s += 8
+    if age < 0: s += 4                                  # date uncertain: no recency boost
+    elif age <= 7: s += 30
+    elif age <= 30: s += 22
+    elif age <= 90: s += 14
+    elif age <= 180: s += 7
+    elif age <= 365: s += 2
+    else: s -= min(15, ((age - 365) // 180) * 2)
+    t = tier(p.get("journal"))
+    if t == "Primary / trusted": s += 10
+    elif t == "Secondary": s += 3
+    else: s -= 2
+    b = blob(p)
+    if m(b, NONMODEL): s -= 10                           # deprioritized model organisms
+    if section != "focus" and m(p.get("title", ""), TREATMENT):
+        s -= 12                                         # "compound X alleviates Y via pathway Z"
+    if section == "extracellular" and THERAPEUTIC_EV_RX.search(b): s -= 10
     if review:
-        if any(norm(p.get("journal"))==norm(x) for x in HIGH_REVIEW):s+=16
-        if age<=180:s+=8
+        if any(norm(p.get("journal")) == norm(x) for x in HIGH_REVIEW): s += 16
+        if 0 <= age <= 180: s += 8
     return int(s)
 
-def first_sentences(x,n=8):
-    return [s.strip() for s in re.split(r"(?<=[.!?])\s+",x or "") if s.strip()][:n]
+def first_sentences(x, n=8):
+    return [s.strip() for s in re.split(r"(?<=[.!?])\s+", x or "") if s.strip()][:n]
 
 def enrich(p):
-    ss=first_sentences(p.get("abstract"),8)
-    p["overview"]=ss[0] if ss else "Abstract not available from the current source."
-    result=next((s for s in ss[1:] if re.search(r"\b(we found|we show|we demonstrate|results|revealed|increased|decreased|impair|promot|required|drives|regulates)\b",s,re.I)),None)
-    p["main"]=(ss[-1] if p.get("review") and ss else result or (ss[-1] if ss else "Open the paper for details."))
-    p["journal_tier"]=tier(p.get("journal"));p["age_days"]=age_days(p);p["weekly"]=p["age_days"]<=WEEK
-    p["sources_label"]=", ".join(p.get("sources",[]));p["matched_topics_label"]=", ".join(p.get("matched_topics",[]))
+    ss = first_sentences(p.get("abstract"), 8)
+    p["overview"] = ss[0] if ss else "Abstract not available from the current source."
+    result = next((s for s in ss[1:] if re.search(r"\b(we found|we show|we demonstrate|results|revealed|increased|decreased|impair|promot|required|drives|regulates)\b", s, re.I)), None)
+    p["main"] = (ss[-1] if p.get("review") and ss else result or (ss[-1] if ss else "Open the paper for details."))
+    if is_preprint(p): p["source_type"] = "preprint"
+    # Reviews that PubMed has not (yet) typed as Review: "...: A review", "A narrative review of..."
+    if re.search(r"(?:[:.]\s*|^)(?:an?\s+)?(?:systematic|narrative|scoping|critical|comprehensive|mini)?\s*review\b",
+                 p.get("title", ""), re.I):
+        p["review"] = True
+    p["journal_tier"] = tier(p.get("journal"))
+    p["age_days"] = age_days(p)
+    p["date_uncertain"] = p["age_days"] < 0
+    p["weekly"] = 0 <= p["age_days"] <= WEEK
+    # Honest labelling until full-text enrichment exists (handoff section 6).
+    p["analysis_depth"] = "abstract-only" if p.get("abstract") else "title-only"
+    p["full_text_available"] = bool(p.get("pmcid"))
+    p["sources_label"] = ", ".join(p.get("sources", [])); p["matched_topics_label"] = ", ".join(p.get("matched_topics", []))
     return p
 
 def pkey(p):
     return p.get("pmid") or p.get("doi") or norm(p.get("title"))
 
-def merge(store,p):
-    k=pkey(p)
-    if not k:return
-    if k not in store:store[k]=p;return
-    o=store[k]
-    for f in ["sections","matched_topics","retrieval_lanes","sources"]:
-        o[f]=list(dict.fromkeys(o.get(f,[])+p.get(f,[])))
-    if len(p.get("abstract",""))>len(o.get("abstract","")):o["abstract"]=p["abstract"]
-    for f in ["doi","pmid","pmcid","journal","authors","url","date"]:
-        if not o.get(f) and p.get(f):o[f]=p[f]
-    o["review"]=o.get("review") or p.get("review")
+def merge(store, p):
+    k = pkey(p)
+    if not k: return
+    if k not in store: store[k] = p; return
+    o = store[k]
+    for f in ["sections", "matched_topics", "retrieval_lanes", "sources"]:
+        o[f] = list(dict.fromkeys(o.get(f, []) + p.get(f, [])))
+    if len(p.get("abstract", "")) > len(o.get("abstract", "")): o["abstract"] = p["abstract"]
+    for f in ["doi", "pmid", "pmcid", "journal", "authors", "url", "date"]:
+        if not o.get(f) and p.get(f): o[f] = p[f]
+    o["review"] = o.get("review") or p.get("review")
+
+def _similar(a, b):
+    from difflib import SequenceMatcher
+    a, b = norm(a), norm(b)
+    return a == b or (min(len(a), len(b)) > 40 and SequenceMatcher(None, a, b).ratio() >= 0.88)
+
+def fold_preprints(allp):
+    """A preprint that has since been published is shown once, as the journal paper,
+    with the preprint kept as a link. Prevents the RILPL1/TMEM55B double entry."""
+    pubs = [p for p in allp if not is_preprint(p)]
+    keep = []
+    for p in allp:
+        if is_preprint(p):
+            twin = next((q for q in pubs if _similar(q.get("title"), p.get("title"))), None)
+            if twin:
+                twin["preprint_url"] = p.get("url") or (("https://doi.org/" + p["doi"]) if p.get("doi") else "")
+                twin["sections"] = list(dict.fromkeys(twin.get("sections", []) + p.get("sections", [])))
+                continue
+        keep.append(p)
+    return keep
+
+REJECTIONS = {}
+
+def note_rejection(sec, p, reason):
+    r = REJECTIONS.setdefault(sec, {})
+    e = r.setdefault(reason, {"count": 0, "examples": []})
+    e["count"] += 1
+    if len(e["examples"]) < 3: e["examples"].append(p.get("title", "")[:140])
+
+def admit(store, p, sec):
+    reason = gate_reason(p, sec)
+    if reason: note_rejection(sec, p, reason)
+    else: merge(store, p)
+
+def section_days(sec):
+    if sec == "focus": return FOCUS_BACKFILL
+    return int((CFG.get("section_recent_days") or {}).get(sec, RECENT))
+
+PER_QUERY = int(CFG.get("max_results_per_query", 45))
 
 def retrieve_research():
-    store={}
+    store = {}
     for q in CFG["queries"]:
-        sec=TOPIC_SECTION.get(q["topic"])
-        if not sec:continue
-        days=FOCUS_BACKFILL if sec=="focus" else RECENT
-        ids=list(dict.fromkeys(pubmed_search(q["pubmed"],35,WEEK)+pubmed_search(q["pubmed"],70,days)))
-        for p in fetch_pubmed(ids,sec,"weekly+recent"):
-            if not p.get("review") and gate(p,sec):merge(store,p)
+        sec = TOPIC_SECTION.get(q["topic"])
+        if not sec: continue
+        ids = list(dict.fromkeys(pubmed_search(q["pubmed"], PER_QUERY, WEEK) +
+                                 pubmed_search(q["pubmed"], PER_QUERY * 2, section_days(sec))))
+        for p in fetch_pubmed(ids, sec, "weekly+recent"):
+            if p.get("review"): continue
+            admit(store, p, sec)
     return store
 
 def retrieve_reviews():
-    store={}
+    store = {}
     for q in CFG["queries"]:
-        sec=TOPIC_SECTION.get(q["topic"])
-        if not sec:continue
-        term=f"({q['pubmed']}) AND (review[Publication Type] OR systematic review[Publication Type] OR meta-analysis[Publication Type])"
-        ids=pubmed_search(term,28,REVIEW_DAYS)
-        for p in fetch_pubmed(ids,sec,"independent-review"):
-            p["review"]=True
-            if gate(p,sec):merge(store,p)
+        sec = TOPIC_SECTION.get(q["topic"])
+        if not sec: continue
+        term = f"({q['pubmed']}) AND (review[Publication Type] OR systematic review[Publication Type] OR meta-analysis[Publication Type])"
+        ids = pubmed_search(term, 28, REVIEW_DAYS)
+        for p in fetch_pubmed(ids, sec, "independent-review"):
+            p["review"] = True
+            admit(store, p, sec)
     return store
 
 def retrieve_preprints():
-    store={}
-    start=(NOW-timedelta(days=PREPRINT_DAYS)).date().isoformat();end=NOW.date().isoformat()
+    store = {}
+    end = NOW.date().isoformat()
     for q in CFG["queries"]:
-        sec=TOPIC_SECTION.get(q["topic"])
-        if not sec:continue
+        sec = TOPIC_SECTION.get(q["topic"])
+        if not sec: continue
+        # Research Focus is narrow, so its preprints use the same long backfill as its papers
+        # (the 24 Jul 2026 pathogenic MAPK8IP3 variants preprint fell outside a 30-day window).
+        days = FOCUS_BACKFILL if sec == "focus" else PREPRINT_DAYS
+        start = (NOW - timedelta(days=days)).date().isoformat()
         # Europe PMC indexes bioRxiv/medRxiv preprints and lets us enforce dates.
-        query=f'SRC:PPR AND FIRST_PDATE:[{start} TO {end}] AND ({q["europepmc"]})'
-        params={"query":query,"format":"json","pageSize":30,"resultType":"core","sort":"FIRST_PDATE_D desc"}
-        try:data=safe_get(EPMC,params).json()
+        query = f'SRC:PPR AND FIRST_PDATE:[{start} TO {end}] AND ({q["europepmc"]})'
+        params = {"query": query, "format": "json", "pageSize": 30, "resultType": "core", "sort": "FIRST_PDATE_D desc"}
+        try: data = safe_get(EPMC, params).json()
         except Exception as e:
-            print("preprint search skipped",sec,e);continue
-        for it in data.get("resultList",{}).get("result",[]):
-            d=(it.get("firstPublicationDate") or it.get("firstIndexDate") or "")[:10]
-            p={"title":it.get("title") or "","abstract":it.get("abstractText") or "",
-               "journal":it.get("journalTitle") or "bioRxiv / preprint","date":d,
-               "year":int(d[:4]) if d[:4].isdigit() else 0,"authors":it.get("authorString") or "",
-               "pmid":it.get("pmid") or "","pmcid":it.get("pmcid") or "","doi":it.get("doi") or "",
-               "review":False,"sections":[sec],"matched_topics":[TITLES[sec]],"retrieval_lanes":["preprint"],
-               "sources":["Europe PMC preprint"],"source_type":"preprint",
-               "url":("https://doi.org/"+it["doi"]) if it.get("doi") else "https://europepmc.org/"}
-            if p["title"] and gate(p,sec):merge(store,p)
+            print("preprint search skipped", sec, e); continue
+        for it in data.get("resultList", {}).get("result", []):
+            d = (it.get("firstPublicationDate") or it.get("firstIndexDate") or "")[:10]
+            clean = lambda x: htmlmod.unescape(re.sub(r"<[^>]+>", "", x or "")).strip()
+            p = {"title": clean(it.get("title")), "abstract": clean(it.get("abstractText")),
+                 "journal": it.get("journalTitle") or "bioRxiv / preprint", "date": d,
+                 "year": int(d[:4]) if d[:4].isdigit() else 0, "authors": it.get("authorString") or "",
+                 "pmid": it.get("pmid") or "", "pmcid": it.get("pmcid") or "", "doi": it.get("doi") or "",
+                 "review": False, "sections": [sec], "matched_topics": [TITLES[sec]], "retrieval_lanes": ["preprint"],
+                 "sources": ["Europe PMC preprint"], "source_type": "preprint", "publication_types": ["Preprint"],
+                 "url": ("https://doi.org/" + it["doi"]) if it.get("doi") else "https://europepmc.org/"}
+            if p["title"]: admit(store, p, sec)
         pause()
     return store
 
 def dedupe(items):
-    seen=set();out=[]
+    seen = set(); out = []
     for p in items:
-        k=norm(p.get("title"))
-        if k and k not in seen:seen.add(k);out.append(p)
+        k = norm(p.get("title"))
+        if k and k not in seen: seen.add(k); out.append(p)
     return out
 
 def ranked(allp, sec, review=False, preprint=False):
-    out=[]
+    out = []
     for p in allp:
-        if sec not in p.get("sections",[]):continue
-        if bool(p.get("review"))!=bool(review):continue
-        if (p.get("source_type")=="preprint")!=bool(preprint):continue
-        if not gate(p,sec):continue
-        q=dict(p);q["section_id"]=sec;q["section_score"]=score(q,sec,review);out.append(q)
-    out.sort(key=lambda x:(x["section_score"],x.get("date","")),reverse=True)
+        if sec not in p.get("sections", []): continue
+        if bool(p.get("review")) != bool(review): continue
+        if is_preprint(p) != bool(preprint): continue
+        if not gate(p, sec): continue
+        if not preprint and tier(p.get("journal")) == "Uncurated" and not strong_for_uncurated(p, sec): continue
+        q = dict(p); q["section_id"] = sec; q["section_score"] = score(q, sec, review)
+        if not preprint and sec != "focus":
+            unc = tier(p.get("journal")) == "Uncurated"
+            # Reviews use a 3-year window, so age alone must not push curated reviews out.
+            floor = (60 if unc else 0) if review else (UNCURATED_FLOOR if unc else QUALITY_FLOOR)
+            if q["section_score"] < floor: continue
+        out.append(q)
+    out.sort(key=lambda x: (x["section_score"], x.get("date", "")), reverse=True)
     return dedupe(out)
 
 def split_tiers(items):
-    pri=[];sec=[]
+    pri = []; sec = []
     for p in items:
-        if p["journal_tier"]=="Primary / trusted":pri.append(p)
-        elif p["journal_tier"] in {"Secondary","Uncurated"}:sec.append(p)
-    return pri,sec
+        if p["journal_tier"] == "Primary / trusted": pri.append(p)
+        elif p["journal_tier"] in {"Secondary", "Uncurated"}: sec.append(p)
+    return pri, sec
+
+def best_mix(pri, seco, n=30):
+    """Default 'best papers' view (handoff priority 4): Primary first, plus strong
+    Secondary papers when the Primary slice is sparse. Primary/Secondary stay disjoint."""
+    floor = 70
+    pool = pri + [p for p in seco if p["section_score"] >= floor]
+    pool.sort(key=lambda x: (x["section_score"], x.get("date", "")), reverse=True)
+    return pool[:n]
 
 def weekly_top10(section_lists):
-    c=[]
-    for sec,items in section_lists.items():
+    c = []
+    for sec, items in section_lists.items():
         for p in items:
             if p.get("weekly"):
-                q=dict(p);q["weekly_section"]=sec;q["weekly_score"]=q["section_score"]+(8 if q["journal_tier"]=="Primary / trusted" else 2 if q["journal_tier"]=="Secondary" else 0);c.append(q)
-    c.sort(key=lambda x:(x["weekly_score"],x.get("date","")),reverse=True)
-    out=[];seen=set();sc={};jc={}
+                q = dict(p); q["weekly_section"] = sec
+                q["weekly_score"] = q["section_score"] + (8 if q["journal_tier"] == "Primary / trusted" else 2 if q["journal_tier"] == "Secondary" else 0)
+                c.append(q)
+    c.sort(key=lambda x: (x["weekly_score"], x.get("date", "")), reverse=True)
+    out = []; seen = set(); sc = {}; jc = {}
     for p in c:
-        k=norm(p["title"]);sec=p["weekly_section"];j=norm(p.get("journal"))
-        if k in seen or sc.get(sec,0)>=2 or jc.get(j,0)>=2:continue
-        out.append(p);seen.add(k);sc[sec]=sc.get(sec,0)+1;jc[j]=jc.get(j,0)+1
-        if len(out)==10:break
-    if len(out)<10:
+        k = norm(p["title"]); sec = p["weekly_section"]; j = norm(p.get("journal"))
+        if k in seen or sc.get(sec, 0) >= 2 or jc.get(j, 0) >= 2: continue
+        out.append(p); seen.add(k); sc[sec] = sc.get(sec, 0) + 1; jc[j] = jc.get(j, 0) + 1
+        if len(out) == 10: break
+    if len(out) < 10:
         for p in c:
-            k=norm(p["title"])
-            if k in seen:continue
-            out.append(p);seen.add(k)
-            if len(out)==10:break
+            k = norm(p["title"])
+            if k in seen: continue
+            out.append(p); seen.add(k)
+            if len(out) == 10: break
     return out[:10]
+
+def _brief(p, extra=()):
+    d = {"title": p.get("title"), "date": p.get("date"), "journal": p.get("journal")}
+    for f in extra: d[f] = p.get(f)
+    return d
+
+def build_outputs(allp):
+    allp = fold_preprints([enrich(p) for p in allp])
+    # A paper found by one query also belongs to any other section its TITLE is about
+    # (e.g. an axon-initial-segment paper found by the imaging query -> Cytoskeleton).
+    for p in allp:
+        for sec in TITLES:
+            if sec not in p.get("sections", []) and m(p.get("title", ""), KEYS[sec]) and gate(p, sec):
+                p["sections"] = p.get("sections", []) + [sec]
+                p["matched_topics"] = p.get("matched_topics", []) + [TITLES[sec]]
+    sections = {}; weekly_source = {}
+    for sec in TITLES:
+        items = ranked(allp, sec); weekly_source[sec] = items
+        items = [p for p in items if p["age_days"] <= section_days(sec)]
+        pri, seco = split_tiers(items)
+        sections[sec] = {"id": sec, "title": TITLES[sec], "visible_count": VISIBLE[sec],
+                         "weekly_count": sum(p["weekly"] for p in items),
+                         "primary": pri[:30], "secondary": seco[:30], "best": best_mix(pri, seco)}
+    rv = []
+    for sec in TITLES: rv.extend(ranked(allp, sec, review=True))
+    rv = dedupe(sorted(rv, key=lambda x: (x["section_score"], x.get("date", "")), reverse=True))
+    rpri, rsec = split_tiers(rv)
+    pp = []
+    for sec in TITLES: pp.extend(ranked(allp, sec, preprint=True))
+    pp = dedupe(sorted(pp, key=lambda x: (x["section_score"], x.get("date", "")), reverse=True))
+    top10 = weekly_top10(weekly_source)
+    counts = {s: {"primary": len(sections[s]["primary"]), "secondary": len(sections[s]["secondary"]),
+                  "weekly": sections[s]["weekly_count"]} for s in sections}
+    briefing = {"version": "0.31-relevance-gates", "generated_at_utc": NOW.isoformat(),
+                "weekly_days": WEEK, "weekly_start": (NOW - timedelta(days=WEEK)).date().isoformat(),
+                "weekly_end": NOW.date().isoformat(), "top10_weekly": top10, "sections": sections,
+                "reviews": {"window_days": REVIEW_DAYS, "primary": rpri[:40], "secondary": rsec[:40]},
+                "preprints": {"window_days": PREPRINT_DAYS, "papers": pp[:50]},
+                "meta": {"total_unique_papers": len(allp), "weekly_highlight_count": len(top10),
+                         "review_count": len(rv), "preprint_count": len(pp), "section_counts": counts}}
+    legacy = sorted([p for p in allp if not is_preprint(p)], key=lambda x: x.get("date", ""), reverse=True)
+    meta = {"project_name": "PaperScope", "last_updated_utc": NOW.isoformat(), "weekly_days": WEEK,
+            "total_papers": len(allp), "weekly_highlight_count": len(top10), "reviews_count": len(rv),
+            "preprints_count": len(pp), "section_counts": counts}
+    audit = {"generated_at_utc": NOW.isoformat(),
+             "weekly_top10": [dict(_brief(p), section=p.get("weekly_section")) for p in top10],
+             "sections": {},
+             "reviews": {"primary_count": len(rpri), "secondary_count": len(rsec), "top_primary": [_brief(p) for p in rpri[:10]]},
+             "preprints": {"count": len(pp), "top": [_brief(p, ("sections",)) for p in pp[:12]]},
+             "rejections_by_section": REJECTIONS}
+    for sec in TITLES:
+        x = sections[sec]
+        audit["sections"][sec] = {"title": TITLES[sec], "primary_count": len(x["primary"]),
+                                  "secondary_count": len(x["secondary"]), "weekly_count": x["weekly_count"],
+                                  "top_primary": [_brief(p) for p in x["primary"][:8]],
+                                  "top_secondary": [_brief(p) for p in x["secondary"][:8]]}
+    return briefing, legacy, meta, audit
 
 def main():
     print("PaperScope: recent peer-reviewed research")
-    research=retrieve_research()
+    research = retrieve_research()
     print("PaperScope: independent review retrieval")
-    reviews=retrieve_reviews()
+    reviews = retrieve_reviews()
     print("PaperScope: recent preprints")
-    preprints=retrieve_preprints()
-    merged={}
-    for st in [research,reviews,preprints]:
-        for p in st.values():merge(merged,p)
-    allp=[enrich(p) for p in merged.values()]
-    sections={};weekly_source={}
-    for sec in TITLES:
-        items=ranked(allp,sec);weekly_source[sec]=items
-        maxage=FOCUS_BACKFILL if sec=="focus" else RECENT
-        items=[p for p in items if p["age_days"]<=maxage]
-        pri,seco=split_tiers(items)
-        sections[sec]={"id":sec,"title":TITLES[sec],"visible_count":VISIBLE[sec],
-                       "weekly_count":sum(p["weekly"] for p in items),
-                       "primary":pri[:30],"secondary":seco[:30]}
-    rv=[]
-    for sec in TITLES:rv.extend(ranked(allp,sec,review=True))
-    rv=dedupe(sorted(rv,key=lambda x:(x["section_score"],x.get("date","")),reverse=True))
-    rpri,rsec=split_tiers(rv)
-    pp=[]
-    for sec in TITLES:pp.extend(ranked(allp,sec,preprint=True))
-    pp=dedupe(sorted(pp,key=lambda x:(x["section_score"],x.get("date","")),reverse=True))
-    top10=weekly_top10(weekly_source)
-    briefing={"version":"0.30-weekly-structured","generated_at_utc":NOW.isoformat(),
-              "weekly_days":WEEK,"weekly_start":(NOW-timedelta(days=WEEK)).date().isoformat(),
-              "weekly_end":NOW.date().isoformat(),"top10_weekly":top10,"sections":sections,
-              "reviews":{"window_days":REVIEW_DAYS,"primary":rpri[:40],"secondary":rsec[:40]},
-              "preprints":{"window_days":PREPRINT_DAYS,"papers":pp[:50]},
-              "meta":{"total_unique_papers":len(allp),"weekly_highlight_count":len(top10),
-                      "review_count":len(rv),"preprint_count":len(pp),
-                      "section_counts":{s:{"primary":len(sections[s]["primary"]),"secondary":len(sections[s]["secondary"]),"weekly":sections[s]["weekly_count"]} for s in sections}}}
-    legacy=sorted([p for p in allp if p.get("source_type")!="preprint"],key=lambda x:x.get("date",""),reverse=True)
-    meta={"project_name":"PaperScope","last_updated_utc":NOW.isoformat(),"weekly_days":WEEK,
-          "total_papers":len(allp),"weekly_highlight_count":len(top10),"reviews_count":len(rv),
-          "preprints_count":len(pp),"section_counts":briefing["meta"]["section_counts"]}
-    audit={"generated_at_utc":NOW.isoformat(),"weekly_top10":[{"title":p.get("title"),"date":p.get("date"),"journal":p.get("journal"),"section":p.get("weekly_section")} for p in top10],
-           "sections":{},"reviews":{"primary_count":len(rpri),"secondary_count":len(rsec),"top_primary":[{"title":p.get("title"),"date":p.get("date"),"journal":p.get("journal")} for p in rpri[:10]]},
-           "preprints":{"count":len(pp),"top":[{"title":p.get("title"),"date":p.get("date"),"journal":p.get("journal"),"sections":p.get("sections",[])} for p in pp[:12]]}}
-    for sec in TITLES:
-        x=sections[sec]
-        audit["sections"][sec]={"title":TITLES[sec],"primary_count":len(x["primary"]),"secondary_count":len(x["secondary"]),"weekly_count":x["weekly_count"],
-            "top_primary":[{"title":p.get("title"),"date":p.get("date"),"journal":p.get("journal")} for p in x["primary"][:8]],
-            "top_secondary":[{"title":p.get("title"),"date":p.get("date"),"journal":p.get("journal")} for p in x["secondary"][:8]]}
-    (DATA/"audit.json").write_text(json.dumps(audit,indent=2,ensure_ascii=False))
-    (DATA/"briefing.json").write_text(json.dumps(briefing,indent=2,ensure_ascii=False))
-    (DATA/"papers.json").write_text(json.dumps(legacy,indent=2,ensure_ascii=False))
-    (DATA/"meta.json").write_text(json.dumps(meta,indent=2,ensure_ascii=False))
-    print(f"Wrote {len(allp)} unique papers; {len(top10)} weekly highlights; {len(rv)} reviews; {len(pp)} preprints")
+    preprints = retrieve_preprints()
+    merged = {}
+    for st in [research, reviews, preprints]:
+        for p in st.values(): merge(merged, p)
+    briefing, legacy, meta, audit = build_outputs(list(merged.values()))
+    (DATA / "audit.json").write_text(json.dumps(audit, indent=2, ensure_ascii=False))
+    (DATA / "briefing.json").write_text(json.dumps(briefing, indent=2, ensure_ascii=False))
+    (DATA / "papers.json").write_text(json.dumps(legacy, indent=2, ensure_ascii=False))
+    (DATA / "meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
+    print(f"Wrote {meta['total_papers']} unique papers; {meta['weekly_highlight_count']} weekly highlights; "
+          f"{meta['reviews_count']} reviews; {meta['preprints_count']} preprints")
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
