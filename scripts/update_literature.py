@@ -29,7 +29,9 @@ TOPIC_SECTION = {
     "Trafficking":"trafficking",
     "Cytoskeleton":"cytoskeleton",
     "iPSC":"ipsc",
-    "Omics / Imaging":"omics-imaging",
+    "Omics":"omics",
+    "Imaging":"imaging",
+    "Analysis Tools":"analysis-tools",
     "Signaling":"signaling",
     "Extracellular":"extracellular",
     "Neurodegeneration":"neurodegeneration"
@@ -41,7 +43,9 @@ TITLES = {
     "trafficking":"Intracellular Trafficking & Organelle Transport",
     "cytoskeleton":"Cytoskeleton in Neurons & Organelle Biology",
     "ipsc":"Human iPSC Neural Models",
-    "omics-imaging":"Omics, Imaging & Analysis Tools",
+    "omics":"Omics & Datasets",
+    "imaging":"Microscopy & Imaging",
+    "analysis-tools":"Analysis Software & Tools",
     "signaling":"Signaling, Small GTPases & Regulatory Proteins",
     "extracellular":"Extracellular Vesicles & Lysosomal Secretion",
     "neurodegeneration":"Neurodegeneration"
@@ -75,7 +79,9 @@ KEYS = {
     "trafficking":["retromer","retriever","wash complex","commander","exocyst","escrt","hops","corvet","intracellular trafficking","membrane trafficking","axonal transport","organelle transport","rab7","rab10","rab12","rab36"],
     "cytoskeleton":["cytoskeleton","microtubule","actin","dynein","dynactin","kinesin","myosin","neuronal polarity","growth cone"],
     "ipsc":["ipsc","induced pluripotent stem cell","patient-derived"],
-    "omics-imaging":["proteomics","phosphoproteomics","interactomics","lipidomics","metabolomics","rna-seq","rna sequencing","single-cell","spatial transcriptomics","atac-seq","flim","fret","live-cell imaging","super-resolution","imagej","fiji","napari","segmentation","tracking"],
+    "omics":["proteomics","phosphoproteomics","interactomics","lipidomics","metabolomics","rna-seq","rna sequencing","transcriptomics","single-cell","single cell","spatial transcriptomics","spatial omics","atac-seq","crispr screen"],
+    "imaging":["microscopy","confocal","live-cell imaging","live cell imaging","super-resolution","sted","sim","palm","storm","flim","fret","electron microscopy","correlative microscopy","light-sheet","high-content imaging"],
+    "analysis-tools":["imagej","fiji","napari","cellprofiler","qupath","segmentation","tracking","particle tracking","kymograph","neurite tracing","sholl","colocalization","puncta","image analysis","single-cell analysis","spatial transcriptomics analysis"],
     "signaling":["camp","cyclic amp","epac","pka","akap","akt","pi3k","mtor","cc2d1a","cc2d1b","rab7","rab10","rab12","rab36","rab gtpase","rhoa","rhob","rhoc","rac1","rac2","rac3","cdc42","rho gtpase","tmem55b","rilpl1","tbk1","sting","chmp4b","spag9"],
     "extracellular":["extracellular vesicle","exosome","lysosomal exocytosis","lysosomal secretion"],
     "neurodegeneration":["parkinson","lrrk2","amyotrophic lateral sclerosis","frontotemporal dementia","alzheimer","neurodegeneration"]
@@ -214,10 +220,16 @@ def gate(p, section):
     if section=="trafficking":return (neural or cellbio) and has(b,KEYS[section])
     if section=="cytoskeleton":return neural and has(b,KEYS[section])
     if section=="ipsc":return has(b,KEYS[section]) and has(b,["neuron","microglia","astrocyte","oligodendrocyte","glia","organoid","motor neuron","neural progenitor"])
-    if section=="omics-imaging":
-        method=has(b,KEYS[section]);relevant=neural or has(b,["lysosome","endosome","trafficking","jip3","mapk8ip3"])
-        tool=has(b,["imagej","fiji","napari","segmentation","tracking","software","workflow","tool","resource","pipeline"])
-        return method and (tool or relevant)
+    if section=="omics":
+        method=has(b,KEYS[section]); relevant=neural or has(b,["lysosome","endosome","trafficking","cytoskeleton","neurodevelopment","neurodegeneration","jip3","mapk8ip3","lrrk2"])
+        return method and relevant
+    if section=="imaging":
+        method=has(b,KEYS[section]); relevant=neural or has(b,["lysosome","endosome","trafficking","organelle","jip3","mapk8ip3"])
+        methodpaper=has(b,["method","protocol","workflow","platform","technique"])
+        return method and (relevant or methodpaper)
+    if section=="analysis-tools":
+        method=has(b,KEYS[section]); tool=has(b,["software","tool","plugin","package","workflow","pipeline","algorithm","framework","resource","benchmark"])
+        return method and tool
     if section=="signaling":
         return signaling_central(p) and (neural or cellbio or has(b,["lysosome","endosome","trafficking","autophagy"]))
     if section=="extracellular":return neural and has(b,KEYS[section])
