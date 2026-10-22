@@ -1,11 +1,11 @@
 {
   "project_name": "PaperScope",
-  "last_updated_utc": "2026-10-22T03:03:30.177354+00:00",
+  "last_updated_utc": "2026-10-22T03:20:44.394484+00:00",
   "weekly_days": 7,
-  "total_papers": 596,
+  "total_papers": 519,
   "weekly_highlight_count": 10,
-  "reviews_count": 138,
-  "preprints_count": 114,
+  "reviews_count": 123,
+  "preprints_count": 101,
   "section_counts": {
     "focus": {
       "primary": 4,
@@ -38,9 +38,9 @@
       "weekly": 13
     },
     "omics-imaging": {
-      "primary": 4,
-      "secondary": 30,
-      "weekly": 20
+      "primary": 0,
+      "secondary": 0,
+      "weekly": 0
     },
     "signaling": {
       "primary": 4,
@@ -48,9 +48,9 @@
       "weekly": 9
     },
     "extracellular": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 30,
-      "weekly": 2
+      "weekly": 6
     },
     "neurodegeneration": {
       "primary": 7,
