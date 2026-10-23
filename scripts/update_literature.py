@@ -566,6 +566,7 @@ def strong_for_uncurated(p, sec):
 # statements and the global "not" list. Keyword gates remain the hard filter.
 # ---------------------------------------------------------------------------
 SEMANTIC_ENABLED = os.environ.get("PAPERSCOPE_SEMANTIC", "1") == "1"
+SEMANTIC_STATUS = {"enabled": False, "model": None, "reason": "not run"}
 SEM_STATS = {}
 
 def load_embedder():
@@ -585,15 +586,21 @@ def _unit_rows(vs):
 
 def semantic_scores(allp, embedder):
     defs = CFG.get("topic_definitions") or {}
-    if embedder is None or not defs or not allp: return
+    if embedder is None or not defs or not allp:
+        SEMANTIC_STATUS.update(enabled=False, reason="model unavailable" if embedder is None else "no definitions")
+        return
+    SEMANTIC_STATUS.update(enabled=True, model=CFG.get("semantic_model"), reason="ok")
     secs = [x for x in TITLES if isinstance(defs.get(x), dict)]
     texts, idx = [], {}
     for x in secs:
         nots = defs[x].get("not", [])
         idx[x] = (len(texts), len(nots)); texts += [defs[x]["about"]] + nots
     g0 = len(texts); texts += defs.get("_global_not", [])
-    T = _unit_rows(embedder.embed(texts))
-    P = _unit_rows(embedder.embed([(p.get("title", "") + ". " + (p.get("abstract") or ""))[:2000] for p in allp]))
+    # bge models are asymmetric: definitions are "queries", papers are "passages".
+    q_embed = getattr(embedder, "query_embed", embedder.embed)
+    p_embed = getattr(embedder, "passage_embed", embedder.embed)
+    T = _unit_rows(q_embed(texts))
+    P = _unit_rows(p_embed([(p.get("title", "") + ". " + (p.get("abstract") or ""))[:2000] for p in allp]))
     S = P @ T.T
     for i, p in enumerate(allp):
         out = {}
@@ -1089,7 +1096,7 @@ def build_outputs(allp):
     for q in rpri[:40] + rsec[:40] + pp[:50]: analyse_card(q, q.get("section_id"))
     counts = {s: {"primary": len(sections[s]["primary"]), "secondary": len(sections[s]["secondary"]),
                   "weekly": sections[s]["weekly_count"]} for s in sections}
-    briefing = {"version": "0.33-topic-definitions", "generated_at_utc": NOW.isoformat(),
+    briefing = {"version": "0.34-guards", "generated_at_utc": NOW.isoformat(),
                 "weekly_days": WEEK, "weekly_start": (NOW - timedelta(days=WEEK)).date().isoformat(),
                 "weekly_end": NOW.date().isoformat(), "top10_weekly": top10, "sections": sections,
                 "reviews": {"window_days": REVIEW_DAYS, "primary": rpri[:40], "secondary": rsec[:40]},
@@ -1098,6 +1105,9 @@ def build_outputs(allp):
                          "review_count": len(rv), "preprint_count": len(pp), "section_counts": counts}}
     legacy = sorted([p for p in allp if not is_preprint(p)], key=lambda x: x.get("date", ""), reverse=True)
     meta = {"project_name": "PaperScope", "last_updated_utc": NOW.isoformat(), "weekly_days": WEEK,
+            "semantic": dict(SEMANTIC_STATUS),
+            "full_text_analysed": sum(1 for x in sections.values() for q in x["best"][:10]
+                                      if str(q.get("analysis_depth", "")).startswith("full")),
             "total_papers": len(allp), "weekly_highlight_count": len(top10), "reviews_count": len(rv),
             "preprints_count": len(pp), "section_counts": counts}
     audit = {"generated_at_utc": NOW.isoformat(),
@@ -1150,6 +1160,31 @@ def write_feeds(briefing):
     for slug, (title, items) in feeds.items():
         (d / f"{slug}.xml").write_text(_rss(title, items, slug), encoding="utf-8")
 
+REQUIRED_CARD = ["title", "journal", "date", "section_score", "decision", "why_shown", "analysis_depth",
+                 "targets", "models", "methods", "journal_tier"]
+
+def validate_outputs(briefing, meta):
+    """Structural + scientific checks on what is about to be published. Returns a list of problems."""
+    probs = []
+    for sec, x in briefing["sections"].items():
+        for view in ("primary", "secondary", "best"):
+            for q in x.get(view, [])[:10]:
+                miss = [f for f in REQUIRED_CARD if f not in q]
+                if miss: probs.append(f"{sec}/{view}: missing {miss} in '{q.get('title','')[:60]}'")
+        ids = lambda L: {pkey(q) for q in L}
+        if ids(x["primary"]) & ids(x["secondary"]): probs.append(f"{sec}: primary and secondary overlap")
+    # Canary: confirmed false positives must never reappear anywhere in the output.
+    try:
+        bad = [t.lower() for t in json.loads((ROOT / "tests" / "known_bad_titles.json").read_text())["titles"]]
+    except Exception:
+        bad = []
+    shown = [q.get("title", "") for x in briefing["sections"].values() for v in ("primary", "secondary", "best")
+             for q in x.get(v, [])] + [q.get("title", "") for q in briefing["top10_weekly"]]
+    for t in shown:
+        hit = next((b for b in bad if b in t.lower()), None)
+        if hit: probs.append(f"canary: known false positive reappeared: '{t[:80]}'")
+    return sorted(set(probs))
+
 def publish_guard(meta):
     """Refuse to overwrite good data with a broken run (e.g. PubMed outage returns nothing)."""
     try: prev = json.loads((DATA / "meta.json").read_text())
@@ -1159,6 +1194,9 @@ def publish_guard(meta):
                  if v.get("primary", 0) + v.get("secondary", 0) == 0
                  and (prev.get("section_counts", {}).get(k, {}).get("primary", 0) +
                       prev.get("section_counts", {}).get(k, {}).get("secondary", 0)) >= 3]
+    if not meta.get("semantic", {}).get("enabled") and not prev.get("semantic", {}).get("enabled", True):
+        raise SystemExit("PUBLISH GUARD: topic-definition scoring has been unavailable for two runs in a row "
+                         f"({meta.get('semantic')}). Previous data kept.")
     if (old >= 100 and new < old * 0.4) or len(empty_now) >= 3:
         raise SystemExit(f"PUBLISH GUARD: refusing to publish ({old} -> {new} papers; newly empty sections: "
                          f"{empty_now}). Previous data kept. Check the run log for source outages.")
@@ -1175,6 +1213,9 @@ def main():
         for p in st.values(): merge(merged, p)
     briefing, legacy, meta, audit = build_outputs(list(merged.values()))
     publish_guard(meta)
+    problems = validate_outputs(briefing, meta)
+    if problems:
+        raise SystemExit("PUBLISH GUARD: output checks failed; previous data kept.\n  " + "\n  ".join(problems[:30]))
     (DATA / "audit.json").write_text(json.dumps(audit, indent=2, ensure_ascii=False))
     (DATA / "briefing.json").write_text(json.dumps(briefing, indent=2, ensure_ascii=False))
     (DATA / "papers.json").write_text(json.dumps(legacy, indent=2, ensure_ascii=False))

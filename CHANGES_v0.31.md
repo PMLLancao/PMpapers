@@ -57,3 +57,11 @@ Full-text enrichment (PMC/Europe PMC), review-specific card fields, UI toggle fo
 - **RSS feeds** for every section, Top 10, Reviews and Preprints: `https://pmllancao.github.io/PMpapers/data/feeds/<section>.xml`.
 - **App:** "New since last visit" marker and count; per-paper and per-section **Zotero export (RIS)**; RSS link per section; removed the unused browser-side filters and journal lists (the updater is the single source of truth).
 - 73 regression checks.
+
+# PaperScope v0.34 — publish guards (23 Oct 2026)
+- Definitions embedded as *queries* and papers as *passages* (bge is asymmetric); margins will shift, thresholds to be recalibrated from the next audit.
+- `fastembed==0.9.0` pinned; model cache key includes the version.
+- `meta.json` records `semantic` status and `full_text_analysed`. Run is refused if topic scoring is unavailable two runs in a row.
+- `validate_outputs`: required card fields, Primary∩Secondary = ∅, and a **canary** (`tests/known_bad_titles.json`): any confirmed false positive reappearing in the output blocks publishing.
+- App shows a warning banner if data is >48 h old or topic scoring was off.
+- `docs/claude_review_issue1.md`: Claude's answers to issue #1 (token lacks Issues permission).

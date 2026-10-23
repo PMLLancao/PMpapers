@@ -42,10 +42,10 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/fastembed
-          key: fastembed-bge-small-en-v1.5
+          key: fastembed-0.9.0-bge-small-en-v1.5
 
       - name: Install dependencies
-        run: pip install requests fastembed numpy fastembed
+        run: pip install requests "fastembed==0.9.0" numpy
 
       - name: Relevance regression tests (block publishing if any fail)
         run: python tests/test_gates.py
