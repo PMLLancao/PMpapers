@@ -38,7 +38,7 @@ It already runs after ranking, only on shown lists, capped at 260 per run. Missi
 
 ### 7. Design flaws in the small-embedding approach
 - bge-small is general-domain: weak on entity distinctions (JIP3 vs JIP4, PKA vs pKa, gene symbols). Keep **entities in rules and semantics for topic fit** only. Never let semantics admit a paper that the rules rejected.
-- **bge is asymmetric**: the definitions should be embedded as queries (`query_embed`, or the documented instruction prefix) and papers as passages. Today both are embedded as passages, which compresses margins.
+- ~~bge is asymmetric; embedding definitions as passages compresses margins.~~ **Correction (verified after v0.34 ran):** fastembed 0.9.0's `query_embed` for bge-small adds no instruction prefix, so switching to it changed no scores. BAAI documents the prefix as optional for v1.5, and our definitions are full sentences rather than short queries. I could not demonstrate any margin compression, so I withdraw the claim. Adding the prefix should only happen if it improves results on the labelled examples.
 - Margins are **not comparable across sections**; thresholds must be per section, from audit percentiles.
 - **Definitions are now code.** Wording changes shift rankings, so definition edits should run the regression set and report the margin shift.
 - 512-token limit: title + abstract (truncated at 2000 chars) is fine; don't embed full text.
@@ -49,3 +49,9 @@ It already runs after ranking, only on shown lists, capped at 260 per run. Missi
 - Feedback stays **private by default**: export file → user decides what becomes a public example. Nothing is posted automatically from the app, because the repo is public.
 
 **Proposed split** to avoid collisions: I'll take Q6 guards + version pinning + the query-embedding fix, then the Q1 tiered ranking. ChatGPT could take Q2 subtopic queries + Q3 subtopic definitions/MMR. Both of us: re-read HEAD before every write, and post here before starting a block.
+
+
+## Status after v0.34 (01:42 UTC run)
+Done from my proposed share: version pinning, semantic on/off status in `meta.json` (+ refusal after two runs off), output validation (required card fields, Primary∩Secondary = ∅), canary on `tests/known_bad_titles.json`, staleness banner in the app, RSS feeds now committed by the workflow, and runs no longer cancel each other.
+Live check: semantic enabled, 38 visible cards from full text, 15 feeds, canary clean.
+Next on my side: Q1 tiered ranking (relevance tier first, then recency), calibrated from the per-section margins now in `audit.json → semantic`.
