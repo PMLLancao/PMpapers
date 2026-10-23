@@ -225,7 +225,12 @@ NONMODEL = ["plant", "plants", "arabidopsis", "rice", "maize", "tobacco", "tomat
             "bird", "birds", "chicken*", "dog", "dogs", "canine", "breed", "breeds", "cattle",
             "bovine", "porcine", "pig", "pigs", "sheep", "sea cucumber*", "aquaculture",
             "hamster*", "veterinar*", "livestock", "turtle*", "reptil*", "amphibian*", "frog*",
-            "xenopus", "lizard*", "snake*", "fish", "teleost*", "diatom*", "algae", "algal"]
+            "xenopus", "lizard*", "snake*", "fish", "teleost*", "diatom*", "algae", "algal",
+            # filamentous fungi are classic endosome-transport models, so they leak into
+            # Cytoskeleton/Organelle/Trafficking unless named here
+            "fungus", "fungi", "fungal", "aspergillus", "ustilago", "neurospora", "candida",
+            "fusarium", "magnaporthe", "hypha", "hyphae", "hyphal", "conidia*", "filamentous fung*",
+            "octopus", "cephalopod*"]
 PATHOGEN = ["virus*", "viral", "bacteri*", "infection*", "pathogen*", "xenophagy", "sars cov 2",
             "hiv", "hsv", "escherichia", "salmonella", "mycobacteri*", "tuberculosis"]
 CANCER = ["cancer*", "carcinoma*", "tumor*", "tumour*", "glioma*", "glioblastoma*",
@@ -392,12 +397,16 @@ NDD_DEVELOPMENT = ["brain development", "cortical development", "neuronal migrat
 GENERIC_NEUROIMAGING = ["functional connectivity", "diffusion tensor", "dti", "resting state",
                         "resting-state", "fmri", "volumetric", "mri"]
 
+IMMUNE_SYNAPSE_RX = re.compile(r"\b(immune|immunological|cytotoxic|car[\s-]?t|t[\s-]?cell|nk[\s-]?cell|b[\s-]?cell)"
+                               r"[\s-]+(cell[\s-]+)?synaps\w*", re.I)
+
 def neural_context(text):
-    """Strict neural context; prevents immune dendritic cells from counting as dendrites."""
-    text = text or ""
+    """Strict neural context; prevents immune dendritic cells from counting as dendrites,
+    and immune synapses / cell-cortex ("cortical actin") from counting as neural synapses."""
+    text = IMMUNE_SYNAPSE_RX.sub(" ", text or "")
     if m(text, NEURAL_STRICT): return True
     if m(text, ["dendrit*"]) and not re.search(r"\bdendritic\s+cells?\b", text, re.I): return True
-    if m(text, ["synap*"]) and m(text, ["neuron*", "brain*", "axon*", "hippocamp*", "cortical",
+    if m(text, ["synap*"]) and m(text, ["neuron*", "brain*", "axon*", "hippocamp*", "cortical neuron*",
                                        "glia*", "microglia*", "astrocyt*"]): return True
     return False
 
@@ -519,6 +528,10 @@ def gate_reason(p, section):
         if m(t, ["atomic force", "scanning tunneling", "scanning electrochemical", "raman"]) and not neural:
             return "non-optical/materials microscopy"
         method_paper = (m(t, KEYS["imaging"]) or acro(t, IMAGING_ACRO)) and m(t, IMAGING_METHOD_TITLE)
+        # "X imaging reveals/uncovers/shows <biology>" is an application of imaging, not a new
+        # method: it must then be about profile biology (e.g. CAR-T immune-synapse actin fails).
+        if method_paper and re.search(r"\b(reveal|uncover|show|demonstrat|identif|highlight)\w*", t, re.I):
+            method_paper = False
         bio_sample = neural or mammal or m(b, PROFILE_BIOLOGY) or (method_paper and m(b, LIVE_BIO))
         if not bio_sample: return "no biological/cellular context"
         relevant = neural or central(p, "organelle") or central(p, "trafficking") or central(p, "focus")
@@ -619,6 +632,10 @@ def semantic_label(m_):
     if m_ is None: return ""
     return "strong" if m_ >= 0.06 else "moderate" if m_ >= 0.0 else "weak"
 
+DATA_MINING_RX = re.compile(r"\bhub genes?\b|integrated bioinformatic|bioinformatics analysis|"
+                            r"(transcriptional|gene|prognostic|diagnostic)\s+signatures?\b|"
+                            r"weighted gene co-?expression|\bwgcna\b", re.I)
+
 def age_days(p):
     """Days since publication. Future-dated records (issue dates ahead of today) return -1."""
     try:
@@ -659,6 +676,9 @@ def score(p, section, review=False):
     if section != "focus" and m(p.get("title", ""), TREATMENT):
         s -= 12                                         # "compound X alleviates Y via pathway Z"
     if section == "extracellular" and THERAPEUTIC_EV_RX.search(b): s -= 10
+    # Re-mining public datasets for "hub genes"/"signatures": no new data, weak replication.
+    if DATA_MINING_RX.search(p.get("title", "")) or (DATA_MINING_RX.search(b) and m(b, ["geo", "gse*", "public dataset*", "publicly available dataset*"])):
+        s -= 12
     if review:
         if any(norm(p.get("journal")) == norm(x) for x in HIGH_REVIEW): s += 16
         if 0 <= age <= 180: s += 8

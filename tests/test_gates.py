@@ -233,6 +233,42 @@ check("Tools: diatom EM segmentation fails", rejects(P("A morphology-driven work
 check("Tools: corneal thickness tool fails", rejects(P("Automated quantification of central corneal epithelial thickness",
       "Software pipeline for OCT images of the cornea in patients.", "PloS one"), "analysis-tools"))
 
+check("Cytoskeleton/Imaging: T-cell immune synapse with cortical actin is not neural", not u.neural_context(
+      "Rearrangements of the cortical actin cytoskeleton in Jurkat T cells at the immune synapse; immunological synapse formation."))
+check("Neural: real synapse with neurons still neural", u.neural_context("Synapse formation in hippocampal neurons."))
+check("Cytoskeleton: CAR-T immune synapse imaging fails", rejects(P(
+      "Super-resolution imaging reveals altered actin architecture at CAR-T cell immune synapses.",
+      "CAR-T cell immune synapses; actin cytoskeleton; STED microscopy of T cells.", "Nature communications"), "cytoskeleton"))
+check("Cytoskeleton: Aspergillus endosome motility fails", rejects(P(
+      "Endosome motility controls light-responsive reproductive development and secondary metabolism",
+      "In the filamentous fungus Aspergillus nidulans, early endosome motility along microtubules in hyphae requires dynein.",
+      "PNAS"), "cytoskeleton"))
+check("Trafficking: fungal Hook1 cargo paper fails", rejects(P(
+      "Kinesin-3 and the cargo adaptor Hook1 regulate early endosome and peroxisome motility",
+      "In Ustilago maydis hyphae, Hook1 links endosomes to dynein; similar mechanisms exist in neurons.",
+      "Journal of Cell Biology"), "trafficking"))
+check("Cytoskeleton: mammalian neuronal Hook1 paper still passes", accepts(P(
+      "Hook1 regulates dynein-driven endosome transport in axons of mouse hippocampal neurons",
+      "Hook1 dynein endosomes microtubules axons mice neurons.", "Journal of Cell Biology"), "cytoskeleton"))
+
+check("Imaging: CAR-T immune-synapse application paper fails", rejects(P(
+      "Super-resolution imaging reveals altered actin architecture at CAR-T cell immune synapses.",
+      "CAR-T cell immune synapses; actin; STED microscopy of human T cells.", "Nature communications"), "imaging"))
+check("Imaging: new nanoscopy method paper still passes", accepts(P(
+      "Photonic waveguide chip-based nanoscopy for live-cell super-resolution imaging",
+      "A chip-based nanoscopy method for live cell super-resolution microscopy of human cells.", "Nature methods"), "imaging"))
+check("Imaging: application paper about neurons passes", accepts(P(
+      "Expansion microscopy reveals nanoscale organization of the axon initial segment in neurons",
+      "Expansion microscopy of mouse hippocampal neurons; axon initial segment.", "Neuron"), "imaging"))
+
+check("Omics: octopus brain development fails", rejects(P("Dynamic roles of embryonic glial cells in octopus brain development",
+      "Single-cell RNA-seq of octopus embryonic glia and neurons.", "Current biology : CB"), "omics"))
+_mine = P("Identification of Succinylation-Related Transcriptional Signatures in Alzheimer's Disease: Integrated Bioinformatics",
+          "We analysed GEO datasets (GSE5281) to find hub genes in Alzheimer brain; neurons; transcriptomics.", "Frontiers in aging neuroscience")
+_real = P("Single-nucleus transcriptomics of Alzheimer's disease brain reveals microglial lysosomal states",
+          "We generated snRNA-seq from 40 human brains; microglia; lysosome; transcriptomics.", "Frontiers in aging neuroscience")
+check("Omics: dataset re-mining ranks below new-data study", u.score(_mine, "omics") < u.score(_real, "omics") - 8)
+
 # --- Publish guard -------------------------------------------------------------------------
 import tempfile, json as _json
 _d = Path(tempfile.mkdtemp()); _orig = u.DATA; u.DATA = _d
