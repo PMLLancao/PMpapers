@@ -276,6 +276,7 @@ CLINICAL = ["mri", "fmri", "functional connectivity", "functional network*", "co
             "retrospective", "randomized", "trial", "informed consent", "ethic*",
             "translational research", "geographic", "epidemiolog*", "post mortem mri",
             "bibliometric*", "knowledge structure", "emerging trends", "associations between",
+            "brain behavior", "replication study",
             "clinician*", "hospital*", "caregiver*", "healthcare", "health care", "quality of life",
             "communication with", "service use", "nurs*"]
 MOLECULAR = ["gene", "genes", "genetic*", "genom*", "variant*", "mutation*", "mutant*", "protein*",
@@ -285,18 +286,21 @@ MOLECULAR = ["gene", "genes", "genetic*", "genom*", "variant*", "mutation*", "mu
 GENE_SYMBOL_RX = re.compile(r"\b(?=[A-Z0-9-]*[A-Z])(?=[A-Z0-9-]*\d)[A-Z][A-Z0-9-]{1,9}\b|\b[A-Z]{4,6}\b")
 NON_GENE_CAPS = {"MRI", "FMRI", "EEG", "ASD", "ADHD", "AI", "CNS", "DNA", "RNA", "USA", "NDD",
                  "MCI", "OCD", "SPS", "PET", "CBCT", "BBB", "TBI", "IED", "QOL", "COVID", "SARS",
-                 "MAPK", "DTI", "GWAS", "CT", "PD", "AD", "ALS", "FTD", "UK", "HIV", "LPS"}
+                 "MAPK", "DTI", "GWAS", "CT", "PD", "AD", "ALS", "FTD", "UK", "HIV", "LPS",
+                 "BMSC", "MSC", "MSCS", "BCG", "EV", "EVS", "NMN", "SCI", "ICH", "SAH", "MCAO"}
 # Treatment / pharmacology / toxicology framing: on-topic words, but rarely the mechanistic
 # cell biology this profile wants. Demoted (not removed) so strong cases can still surface.
 TREATMENT = ["alleviat*", "ameliorat*", "attenuat*", "mitigat*", "neuroprotect*", "therapeutic*",
              "treatment*", "therapy", "therapies", "nanoparticle*", "nanoplatform*", "neurotoxic*",
              "toxicity", "exposure", "deep brain stimulation", "exercise", "diet", "dietary",
-             "supplement*", "drug*", "repurpos*", "engineered", "loaded"]
+             "supplement*", "drug*", "repurpos*", "engineered", "loaded", "relief", "relieve*",
+             "vaccin*", "rescues cognitive", "improves cognitive", "restores cognitive", "inhibitor as"]
 NON_RESEARCH_TITLE = ["informed consent", "ethic*", "bibliometric*", "knowledge structure",
                       "emerging trends", "content analysis", "policy", "perspective on"]
 QUALITY_FLOOR = 62          # minimum section score for anything shown
 UNCURATED_FLOOR = 70        # uncurated journals must clear a higher bar
-THERAPEUTIC_EV_RX = re.compile(r"(mesenchymal|stem cell|msc)[\w\s-]*(exosome|vesicle)|"
+# EVs as a delivered product (cell/fluid source -> exosomes given as treatment), not EV biology.
+THERAPEUTIC_EV_RX = re.compile(r"(mesenchymal|stem cell|msc|bmsc|milk|platelet|plasma|serum|plant|bovine)[\w\s-]*(exosome|vesicle)|"
                                r"(loaded|engineered|enriched)[\w\s-]*(exosome|vesicle)", re.I)
 REVIEW_TYPES = {"Review", "Systematic Review", "Meta-Analysis", "Scoping Review"}
 
@@ -325,8 +329,11 @@ KEYS = {
              "patient derived", "isogenic", "brain organoid", "cortical organoid",
              "forebrain organoid", "assembloid*"],
     "omics": ["proteomics", "proteomic", "phosphoproteomic*", "interactom*", "lipidomic*",
-              "metabolomic*", "rna seq", "rna sequencing", "transcriptomic*", "single cell",
-              "single nucleus", "snrna seq", "scrna seq", "spatial transcriptomics",
+              "metabolomic*", "rna seq", "rna sequencing", "transcriptomic*", "single cell rna*",
+              "single cell sequencing", "single cell transcriptom*", "single cell multiom*", "single cell atac",
+              "single cell methyl*", "single cell epigenom*", "single cell profil*", "single cell barcod*",
+              "barcoding",
+              "single nucleus rna*", "single nucleus transcriptom*", "single nucleus multiom*", "snrna seq", "scrna seq", "spatial transcriptomics",
               "spatial omics", "spatial transcriptom*", "stereo seq", "visium", "merfish", "slide seq",
               "snrna seq", "scrna seq", "multiomic*", "multi omic*", "atac seq", "multiome", "crispr screen*"],
     "imaging": ["microscopy", "microscope*", "confocal", "live cell imaging", "super resolution",
@@ -461,6 +468,7 @@ def central(p, sec):
 
 def clinical_only(p):
     t = p.get("title", "")
+    if m(t, ["brain behavior", "gene brain behavior", "replication study"]): return True   # imaging-genetics
     return m(t, CLINICAL) and not (m(t, MOLECULAR) or gene_symbol_in(t))
 
 def global_reject(p):
@@ -511,6 +519,10 @@ def gate_reason(p, section):
     if section in ("organelle", "trafficking"):
         return "" if (neural or mammal) else "no neural/mammalian context"
     if section == "cytoskeleton":
+        # Axonemal/motile-cilia dynein (dynein arms, flagella) is a different machine from the
+        # cytoplasmic dynein/kinesin transport this section is about.
+        if m(t, ["axonem*", "dynein arm*", "motile cili*", "flagell*", "sperm*"]) and not neural_context(t):
+            return "axonemal/motile-cilia cytoskeleton"
         organelle_ctx = m(b, ["lysosom*", "endosom*", "organelle transport", "organelle trafficking"])
         return "" if (neural or organelle_ctx) else "no neuronal/organelle context"
     if section == "ipsc":
@@ -527,6 +539,10 @@ def gate_reason(p, section):
         # "cells" alone is not enough ("terrorist cells" let an explosives paper in)
         if m(t, ["atomic force", "scanning tunneling", "scanning electrochemical", "raman"]) and not neural:
             return "non-optical/materials microscopy"
+        # clinical imaging modalities (patients' ultrasound/CT/MRI/PET) are radiology, not cell imaging
+        if m(t, ["ultrasound", "sonograph*", "ultrasonograph*", "ct", "computed tomography", "mri", "pet ct",
+                 "radiograph*", "mammograph*", "angiograph*", "elastograph*", "differential diagnosis"]) and not neural_context(t):
+            return "clinical imaging modality"
         method_paper = (m(t, KEYS["imaging"]) or acro(t, IMAGING_ACRO)) and m(t, IMAGING_METHOD_TITLE)
         # "X imaging reveals/uncovers/shows <biology>" is an application of imaging, not a new
         # method: it must then be about profile biology (e.g. CAR-T immune-synapse actin fails).
@@ -636,6 +652,31 @@ DATA_MINING_RX = re.compile(r"\bhub genes?\b|integrated bioinformatic|bioinforma
                             r"(transcriptional|gene|prognostic|diagnostic)\s+signatures?\b|"
                             r"weighted gene co-?expression|\bwgcna\b", re.I)
 
+# Intervention papers: the title's SUBJECT (text before the outcome verb) is a compound, product,
+# vaccine or procedure rather than a gene, protein or cellular mechanism. e.g. "Hydrogen sulfide
+# ameliorates...", "BCG vaccination mitigates...", "BMSC exosomes restore...".
+# Finite verbs only: "protective", "improved", "protection", "improvements" are not outcome verbs.
+OUTCOME_VERB_RX = re.compile(r"\b(ameliorates?|alleviates?|attenuates?|mitigates?|restores?|rescues?|"
+                             r"improves?|relieves?|protects?|reverses?|prevents?|promotes? functional recovery|"
+                             r"exerts? (?:neuro)?protective|neuroprotective effects? of|therapeutic effects? of)\b", re.I)
+MECHANISM_SUBJECT = ["inhibition", "blockade", "ablation", "silencing", "editing", "restoration",
+                     "astrocyt*", "microglia*", "neuron*", "oligodendrocyt*", "glia*",
+                     "knockdown", "knockout", "deletion", "deficiency", "loss", "mutation*", "variant*",
+                     "overexpression", "inhibition of", "activation of", "phosphorylation", "signaling",
+                     "signalling", "pathway", "complex", "receptor*", "kinase*", "protein*", "gene", "genes"]
+
+SHORT_GENE_RX = re.compile(r"\b[A-Z]{3}\b|\b[A-Z]{2,4}-[αβγδκA-Za-z0-9]\b")   # APP, SMN, TGF-β
+
+def intervention_title(t):
+    mo = OUTCOME_VERB_RX.search(t or "")
+    if not mo: return False
+    subj = t[:mo.start()]
+    if not subj.strip(): return True                   # "Neuroprotective effect of X..."
+    if THERAPEUTIC_EV_RX.search(subj): return True        # EV product as the subject
+    short_gene = any(g not in NON_GENE_CAPS for g in re.findall(r"\b[A-Z]{3}\b", subj)) or \
+        bool(re.search(r"\b[A-Z]{2,4}-[αβγδκ]", subj))
+    return not (gene_symbol_in(subj) or short_gene or m(subj, PROFILE_BIOLOGY + MECHANISM_SUBJECT))
+
 def age_days(p):
     """Days since publication. Future-dated records (issue dates ahead of today) return -1."""
     try:
@@ -673,8 +714,10 @@ def score(p, section, review=False):
     sm = semantic_margin(p, section)
     if sm is not None: s += int(max(-15, min(12, round(sm * 120))))   # fit to the written topic definition
     if m(b, NONMODEL): s -= 10                           # deprioritized model organisms
-    if section != "focus" and m(p.get("title", ""), TREATMENT):
-        s -= 12                                         # "compound X alleviates Y via pathway Z"
+    if section != "focus" and intervention_title(p.get("title", "")):
+        s -= 22                                         # compound/product/vaccine as the subject
+    elif section != "focus" and m(p.get("title", ""), TREATMENT):
+        s -= 12                                         # treatment framing around a mechanism
     if section == "extracellular" and THERAPEUTIC_EV_RX.search(b): s -= 10
     # Re-mining public datasets for "hub genes"/"signatures": no new data, weak replication.
     if DATA_MINING_RX.search(p.get("title", "")) or (DATA_MINING_RX.search(b) and m(b, ["geo", "gse*", "public dataset*", "publicly available dataset*"])):

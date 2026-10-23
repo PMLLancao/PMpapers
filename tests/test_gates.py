@@ -269,6 +269,43 @@ _real = P("Single-nucleus transcriptomics of Alzheimer's disease brain reveals m
           "We generated snRNA-seq from 40 human brains; microglia; lysosome; transcriptomics.", "Frontiers in aging neuroscience")
 check("Omics: dataset re-mining ranks below new-data study", u.score(_mine, "omics") < u.score(_real, "omics") - 8)
 
+# --- Ranking behaviour: intervention vs mechanism subject (issue #1, ranking block) ----------
+for _t in ["Hydrogen sulfide ameliorates cognitive dysfunction by activating PI3K/AKT",
+           "BCG vaccination mitigates tau pathology and restores cognitive function in PS19 mice",
+           "Mitochondria-enriched BMSC exosomes restore microglia-neuron cross-talk via PINK1",
+           "Neuroprotective Effect of Intranasal Breast Milk-Derived Exosomes in a Neonatal Rat Model",
+           "Treadmill exercise rescues cognitive deficits by repairing axonal mitochondrial transport"]:
+    check("Intervention subject detected: " + _t[:40], u.intervention_title(_t))
+for _t in ["A protective role for APP in nuclear waste clearance via lysosomal exocytosis",
+           "WoundPy: an improved automatized method for in vitro cell motility",
+           "TGF-β Inhibition Attenuates Tau Accumulation in iPSC neurons",
+           "Astrocyte SMN Restoration and Forskolin Treatment Improve SMA Synaptic Pathology",
+           "LRRK2 kinase activity restores lysosomal pH in microglia",
+           "VPS35 deficiency impairs retromer sorting in neurons"]:
+    check("Mechanism subject NOT flagged: " + _t[:40], not u.intervention_title(_t))
+_mech = P("LRRK2 inhibition restores lysosomal function in Parkinson's iPSC neurons", "LRRK2 lysosome neurons", "Neuron")
+_cmpd = P("Ebselen restores lysosomal function in Parkinson's iPSC neurons", "lysosome neurons", "Neuron")
+check("Ranking: compound-subject paper ranks below mechanism-subject paper", u.score(_cmpd, "organelle") < u.score(_mech, "organelle") - 10)
+check("Gate: axonemal dynein arm assembly fails Cytoskeleton", rejects(P(
+      "DNAAF19-RUVBL1/2 complex recruits multiple adaptors to promote dynein arm assembly.",
+      "Axonemal dynein arms in motile cilia; dynein; microtubules; mice.", "Nature communications"), "cytoskeleton"))
+check("Gate: imaging-genetics replication fails Neurodevelopment", rejects(P(
+      "Validating gene-brain-behavior associations in autism: A replication study.",
+      "Autism; brain MRI; genes; children.", "Biological psychiatry"), "neurodevelopment"))
+check("Gate: clinical ultrasound fails Imaging", rejects(P(
+      "Value of Multimodal Ultrasound Imaging With Super-Resolution in the Differential Diagnosis of Thyroid Nodules",
+      "Ultrasound super-resolution in patients.", "Ultrasound in medicine & biology"), "imaging"))
+check("Gate: single-cell IMAGING is not omics", rejects(P(
+      "Integrated two-photon and photoacoustic microscopy for single-cell neurometabolic imaging",
+      "Two-photon microscopy of single-cell metabolism in mouse brain neurons.", "Nature methods"), "omics"))
+
+check("Omics: single-cell methylation method still passes", accepts(P(
+      "Integration of polygenic risk with single cell methylation data using met-scDRS.",
+      "Single-cell methylation of human brain neurons; polygenic risk; cell types.", "Bioinformatics"), "omics"))
+check("Omics: single-cell barcoding sequencing still passes", accepts(P(
+      "POINTseq: Cell-type-specific barcoding reveals single-cell projection architecture of the mouse brain",
+      "Barcoding and sequencing of mouse neurons projections.", "Nature neuroscience"), "omics"))
+
 # --- Publish guard -------------------------------------------------------------------------
 import tempfile, json as _json
 _d = Path(tempfile.mkdtemp()); _orig = u.DATA; u.DATA = _d

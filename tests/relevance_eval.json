@@ -1,0 +1,390 @@
+{
+ "_how_to_use": "Labelled papers for measuring ranking signals. label G = belongs high in the section, B = should rank low or be excluded. Judged from title+abstract against CLAUDE.md section intent; no author/lab information is used. Add rows freely; run tests/eval_relevance.py.",
+ "labels_by": "Claude, 23 Oct 2026 (ChatGPT/Pablo: please add and correct)",
+ "items": [
+  {
+   "section": "extracellular",
+   "label": "G",
+   "why": "mechanism of lysosomal exocytosis",
+   "title": "Peroxisome-derived ether lipids regulate lysosomal exocytosis.",
+   "abstract": "Lysosomes and peroxisomes are essential for cellular homeostasis, yet how their activities are coordinated remains poorly understood. Here, we identify peroxisome-derived ether lipids as key regulators of lysosomal function. A genome-wide CRISPR/Cas9 screen in LYSET-deficient mucolipidosis V cells revealed that disruption of ether lipid synthesis genes or peroxins markedly reduces lysosome accumulation and restores degradative capacity. Genetic or pharmacological inhibition of ether lipid synthesis enhanced lysosomal exocytosis and promoted the clearance of undigested material independently of mannose-6-phosphate trafficking. Conversely, supplementation with the ether lipid precursor hexadecylglycerol increased lysosome abundance, while reducing their degradative capacity. These findings uncover a peroxisome-lysosome metabolic axis, in which ether lipids act as bidirectional regulators of lysosomal number and function independently of the lysosomal master regulator TFEB. Our findings reveal how peroxisome-localized lipid metabolism modulates lysosomal homeostasis, and suggest potential new strategies to combat lysosomal and peroxisomal disorders.",
+   "journal": "The EMBO journal",
+   "semantic": [
+    0.7092,
+    -0.0085
+   ]
+  },
+  {
+   "section": "extracellular",
+   "label": "G",
+   "why": "mechanism of lysosomal exocytosis",
+   "title": "MYO18B promotes lysosomal exocytosis by facilitating focal adhesion maturation.",
+   "abstract": "Many cancer cells exhibit increased amounts of paucimannose glycans, which are truncated N-glycan structures rarely found in mammals. Paucimannosidic proteins are proposedly generated within lysosomes and exposed on the cell surface through a yet uncertain mechanism. In this study, we revealed that paucimannosidic proteins are produced by lysosomal glycosidases and secreted via lysosomal exocytosis. Interestingly, lysosomal exocytosis preferentially occurred in the vicinity of focal adhesions, protein complexes connecting the actin cytoskeleton to the extracellular matrix. Through genome-wide knockout screening, we identified that MYO18B, an actin crosslinker, is required for focal adhesion maturation, facilitating lysosomal exocytosis and the release of paucimannosidic lysosomal proteins to the extracellular milieu. Moreover, a mechanosensitive cation channel PIEZO1 locally activated at focal adhesions imports Ca2+ necessary for lysosome-plasma membrane fusion. Collectively, our study unveiled an intimate relationship between lysosomal exocytosis and focal adhesion, shedding light on the unexpected interplay between lysosomal activities and cellular mechanosensing.",
+   "journal": "The Journal of cell biology",
+   "semantic": [
+    0.7382,
+    0.0363
+   ]
+  },
+  {
+   "section": "extracellular",
+   "label": "G",
+   "why": "lysosomal exocytosis mechanism",
+   "title": "A protective role for APP in nuclear waste clearance via lysosomal exocytosis.",
+   "abstract": "Amyloid precursor protein (APP) is widely known for its role in Alzheimer's disease (AD) pathogenesis through its proteolytic processing into amyloid-β peptides. However, its physiological functions remain incompletely understood. Here, we uncover a protective role for full-length APP in facilitating the disposal of nuclear-derived debris under genotoxic stress. In both cultured cells and in vivo mouse models, loss of APP leads to nuclear waste accumulation, increased inflammation, and cell death, whereas APP overexpression mitigates these effects. Mechanistically, we show that APP supports the extracellular release of nuclear waste material through lysosomal exocytosis. APP mutants associated with familial AD fail to mediate this process. Consistently, human AD brain tissue exhibits abnormal nuclear morphology, accumulation of nuclear waste in the cytoplasm, and reduced APP levels per neuron. These findings highlight a conserved cellular mechanism by which APP contributes to nuclear and cellular homeostasis, and suggest that impaired nuclear waste clearance may represent an underappreciated contributor to neurodegeneration.",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "semantic": [
+    0.7124,
+    0.0477
+   ]
+  },
+  {
+   "section": "extracellular",
+   "label": "G",
+   "why": "LRRK2-modulated lysosomal secretion",
+   "title": "GPNMB is a biomarker for lysosomal dysfunction and is secreted via LRRK2-modulated lysosomal exocytosis.",
+   "abstract": "Genome-wide association studies have identified Glycoprotein Nmb (GPNMB) as a risk factor for Parkinson's disease. The risk allele increases GPNMB transcription and GPNMB protein levels in the CSF highlighting GPMNB as a potential biomarker for Parkinson's disease. However, a lack of knowledge of GPNMB's function and mechanism of secretion has hindered an interpretation of secreted GPNMB levels. In this study, we assessed the mechanism of GPNMB secretion by macrophages, the primary cell type expressing GPNMB in the brain. We show that GPNMB is secreted in response to lysosomal stress via lysosomal exocytosis and highlight the Parkinson's disease risk factor LRRK2 as a strong modulator of GPNMB secretion.",
+   "journal": "Science advances",
+   "semantic": [
+    0.7478,
+    0.0906
+   ]
+  },
+  {
+   "section": "extracellular",
+   "label": "B",
+   "why": "EV product used as treatment",
+   "title": "Neuroprotective Effect of Intranasal Breast Milk-Derived Exosomes in a Neonatal Rat Model of Periventricular Leukomalacia.",
+   "abstract": "BACKGROUND: Periventricular leukomalacia (PVL) is a major cause of neurodevelopmental impairment in premature infants and is characterized by inflammation-associated white matter injury. Breast milk-derived exosomes have regenerative and immunomodulatory properties. METHODS: Experimental PVL was induced in neonatal Sprague-Dawley rats by maternal lipopolysaccharide administration. Animals were assigned to control (n=10), PVL (n=9), PVL + saline (n=10), and PVL + exosome (n=9) groups. Breast milk-derived exosomes were isolated, characterized according to MISEV2018 criteria, and administered intranasally on postnatal days 1, 3, and 5. Histopathological and biochemical analyses were performed on postnatal day 7. RESULTS: Significant differences were observed among groups in microcystic injury, myelin basic protein (MBP) staining, and tyrosine hydroxylase staining (p<0.05). Exosome treatment reduced microcystic white matter injury and preserved MBP staining intensity compared with untreated PVL groups. Tyrosine hydroxylase staining was also higher in the exosome-treated group. No significant differences were observed in GFAP staining intensity, histopathological inflammation scores, or IL-6 levels. IL-1β and TNF-α showed altered profiles, suggesting immunomodulatory effects. PKH26 labeling demonstrated exosome-associated fluorescence in the frontal cortex and hippocampus after intranasal administration. CONCLUSIONS: Intranasal breast milk-derived exosomes attenuated white matter injury and preserved markers of myelin and neuronal integrity in experimental PVL, supporting further investigation in larger models with functional outcome assessments. These findings support a potential cell-free neuroprotective strategy for inflammation-associated neonatal brain injury. However, the use of human breast milk-derived exosomes in rats and the absence of long-term functional outcomes warrant further comparative and longitudinal studies before clinical translation.",
+   "journal": "Neonatology",
+   "semantic": [
+    0.7285,
+    -0.0108
+   ]
+  },
+  {
+   "section": "extracellular",
+   "label": "B",
+   "why": "EV product, behavioural outcome",
+   "title": "Time-of-Day Effects of Platelet-Derived Exosomes on Cognitive-Emotional Functions in an Animal Model of Methamphetamine Addiction.",
+   "abstract": "Methamphetamine addiction leads to profound cognitive and emotional impairments through persistent neuroinflammatory and neurodegenerative processes. Recent advances suggest that platelet-derived exosomes possess the potential to promote neurorepair and functional recovery. However, the therapeutic efficacy of exosomes may be influenced by time-of-day administration, given that neural plasticity, blood-brain barrier function, and exosomal dynamics are strongly modulated by diurnal rhythms. Understanding how treatment timing across the daily cycle modulates the neuroprotective and behavioral effects of platelet-derived exosomes is critical to optimizing their therapeutic potential in addiction-related neuropsychiatric disorders. Accordingly, the present study was designed and implemented to evaluate the impact of time-of-day administration in improving the effects of platelet-derived exosomes (pExo) on methamphetamine-induced neurotoxicity. In this study, sixty adult male Wistar rats were divided into five groups and subjected to chronic methamphetamine exposure and subsequent pExo treatment during either the active or the rest phase. Spatial learning and memory were assessed using the Morris water maze, whereas anxiety-like behavior was evaluated through the elevated plus maze and grooming behavior tests. Furthermore, hippocampal indices of cell death, apoptosis, neurogenesis, and neuroinflammation were analyzed. The results demonstrated time-of-day-dependent efficacy of pExo, with administration during the Rest-phase-onset significantly enhancing spatial memory performance (p<0.05), whereas treatment during the active-phase-onset more effectively attenuated anxiety-like behaviors. Moreover, pExo delivery in the Rest-phase-onset led to a greater reduction in apoptosis and a more pronounced induction of neurogenesis relative to the active-phase-onset. However, no significant difference was observed in the expression of Iba1, a marker of neuroinflammation, between the two groups (p=0.35). These findings reveal a time-of-day-dependent modulation of pExo therapy efficacy, suggesting that aligning treatment administration with the rest-activity cycle could optimize neurorestorative outcomes. This time-tailored therapeutic approach may open new avenues for enhancing neural recovery and reducing relapse risk in individuals with substance use disorders.",
+   "journal": "Physiology & behavior",
+   "semantic": [
+    0.7148,
+    -0.0066
+   ]
+  },
+  {
+   "section": "organelle",
+   "label": "G",
+   "why": "lysosome biology",
+   "title": "Lysosomal multi-omics reveals altered sphingolipid catabolism associated with lysosomal dysfunction in the aging brain.",
+   "abstract": "Lipids dynamically reside in multiple intracellular locations, and their organellar distribution is important for function. During brain aging, lysosomal lipid changes have been noted, but lipid identity, interactions, and functional relevance have not been characterized. We used mass spectrometry to assess longitudinal changes in the lipidome and proteome of lysosomal fractions from the murine cortex, from 3 to 24 months, followed by multi-omics factor analysis (MOFA) to identify factors underlying lysosomal aging. Our data uncover an age-dependent increase in lysosomal abundance of lipid and protein myelin components and suggest altered sphingolipid catabolism favoring degradation of sphingomyelins over glycosphingolipids. We experimentally corroborate MOFA predictions to demonstrate that age-dependent accumulation of myelin-derived glycosphingolipids is associated with lysosomal enlargement and dysfunction and is most pronounced in microglia. Our findings suggest that age-related lysosomal lipidome changes resemble those observed in lysosomal storage diseases and underscore the importance of organelle-specific analyses for elucidating lipid function.",
+   "journal": "Cell reports",
+   "semantic": [
+    0.7553,
+    -0.0061
+   ]
+  },
+  {
+   "section": "organelle",
+   "label": "G",
+   "why": "organelle transport mechanism",
+   "title": "Tau hyperphosphorylation impairs cooperative binding to microtubules and perturbs organelle trafficking in neurons.",
+   "abstract": "Tau, a neuronal microtubule-associated protein (MAP), organizes the axonal cytoskeleton, and regulates intracellular transport. Tau hyperphosphorylation is linked to neurodegeneration in tauopathies, including Alzheimer's disease. Tau binds microtubules cooperatively to form cohesive envelopes, which are thought to control access to the microtubule lattice and regulate the activity of motor proteins and other MAPs. However, how disease-related perturbations affect tau dynamics and its function as a selective barrier to intracellular transport remains unclear. Using tau phospho-variants in vitro and in live neurons, we show that tau hyperphosphorylation disrupts cooperative microtubule binding and dysregulates lysosome transport. Hyperphosphorylated tau does not form envelopes, distributes more uniformly along the axon, and dissociates faster from microtubules. Tau weakly inhibits KIF5C motility, but strongly inhibits KIF1A. Hyperphosphorylation reduces KIF5C inhibition but increases KIF1A inhibition by decreasing processivity and accelerating detachment. Consistent with these effects, hyperphosphorylated tau alters lysosome transport in neurons. While phospho-resistant tau inhibits processive lysosome motility, hyperphosphorylated tau weakens tau-mediated regulation of lysosome transport, mimicking tau knockout neurons that exhibit enhanced processivity. Altogether, these findings show that hyperphosphorylation disrupts tau envelopes and impairs lysosome trafficking, likely contributing to early defects in degradative pathways that drive neurodegeneration.",
+   "journal": "eLife",
+   "semantic": [
+    0.6702,
+    -0.0159
+   ]
+  },
+  {
+   "section": "organelle",
+   "label": "B",
+   "why": "compound treatment",
+   "title": "N1-methylnicotinamide Mediates Multi-Target Cognitive Deficit Relief via AMPK-Lysosome Axis Regulation.",
+   "abstract": "INTRODUCTION/OBJECTIVE: Alzheimer's Disease (AD) progresses via interconnected Aβ aggregation, tau hyperphosphorylation, neuroinflammation, and lysosomal failure, while current single-target drugs only relieve cognitive symptoms without halting pathogenesis. Gut microbiota-derived N1-methylnicotinamide (MNAM) is associated with lower AD risk, yet its comprehensive multilevel regulatory mechanism remains unclear. This study systematically elucidated MNAM's neuroprotective network using in vitro neuronal/microglial injury models and two AD-relevant mouse models. METHODS: In silico prediction and LC-MS verified MNAM's BBB permeability. TMT proteomics, siRNA knockdown and pharmacological rescue validated the CAB39L-AMPK-lysosomal axis. Immunofluorescence, enzyme assays and molecular docking assessed MNAM's CTSB inhibitory capacity. 16S rRNA sequencing and metabolomics characterized gut microbiota and NAD+ metabolic remodeling. RESULTS: In vitro, MNAM crossed the blood-brain barrier, improved neuronal viability, reduced ROS and pro-inflammatory cytokines (IL-1β, TNF-α). In AD-like mice, it alleviated cognitive deficits, tau hyperphosphorylation, Aβ deposition, microglial activation, and restored SOD activity. MNAM upregulated CAB39L to activate AMPK, stabilized lysosomes, and restrained CTSB leakage. It reshaped protective intestinal flora, suppressed hepatic NNMT, and restored NAD+ balance. In LPS-challenged mice, MNAM selectively alleviated microglial activation and IL-1β accumulation. DISCUSSION: MNAM targets multiple AD pathological nodes (Aβ deposition, tau phosphorylation, neuroinflammation, lysosomal dysfunction, gut microbiota-metabolite interactions) via the CAB39L-AMPK-lysosomal axis and gut microbiota/NAD+ metabolism regulation, which is distinct from single-target drugs. Its ability to cross the BBB and regulate host-microbiota metabolic crosstalk provides a novel mechanistic basis for AD therapy, supporting a shift from single-target to multi-target intervention strategies. CONCLUSION: MNAM targets the CAB39L-AMPK-lysosomal axis, inhibits CTSB, and remodels gut microbiota-NAD+ metabolism to concurrently suppress core AD pathologies. This metabolite serves as a promising multi-target disease-modifying candidate for AD, warranting further validation in transgenic AD models and human neurons.",
+   "journal": "Current neuropharmacology",
+   "semantic": [
+    0.6528,
+    -0.0196
+   ]
+  },
+  {
+   "section": "trafficking",
+   "label": "G",
+   "why": "retromer/Rab7 mechanism in microglia",
+   "title": "VPS35 Regulates Microglial Lipid Droplet Accumulation in Parkinson's Disease via Rab7.",
+   "abstract": "Microglial dysfunction and aberrant lipid metabolism are emerging as key contributors to Parkinson's disease (PD) pathogenesis. However, the specific role and regulation of lipid droplets (LDs) within microglia remain poorly defined. In this study, we employed MPTP- and LPS-induced PD mouse models and an in vitro system utilizing astrocyte-conditioned medium to model disease-relevant lipid stress and found enhanced LD accumulation in microglia. VPS35 expression was decreased in microglia, correlating with elevated microglial LD levels in PD mouse models. We then performed genetic manipulations (knockdown and overexpression) of VPS35, including the PD-associated D620N mutant, in primary microglia and assessed LD accumulation, phagocytic function, inflammatory responses, and integrated stress pathways. We showed that VPS35 knockdown exacerbated the accumulation of LDs in microglia. Conversely, VPS35 overexpression ameliorated LD formation, improved phagocytic function, and reduced inflammatory and integrated stress responses in microglia. The PD-related VPS35[D620N] mutation abolished these protective effects. We further found that VPS35 interacts with Rab7 to maintain lysosomal function, and the D620N mutation disrupts this interaction, leading to defective LD clearance. Our findings reveal VPS35 dysfunction as a key pathogenic mechanism in PD, where the D620N mutation disrupts microglial lipid handling to promote disease progression, thereby nominating VPS35 restoration as a promising therapeutic strategy.",
+   "journal": "Glia",
+   "semantic": [
+    0.6728,
+    0.0354
+   ]
+  },
+  {
+   "section": "trafficking",
+   "label": "G",
+   "why": "retromer/LRRK2 mechanism",
+   "title": "VPS35 mutation inhibits PINK1/parkin-mediated mitophagy via increased LRRK2 kinase activity.",
+   "abstract": "The p.D620N mutation in VPS35 causes an autosomal dominant form of Parkinson's disease via mechanisms that are poorly understood. PINK1 and parkin, two proteins whose loss-of-function underlies autosomal recessive Parkinson's disease, cooperate to mediate mitophagy, a quality control pathway for selective elimination of damaged mitochondria. PINK1/parkin-mediated mitophagy is disrupted by LRRK2 mutations, which are the most prevalent cause of autosomal dominant Parkinson's disease. Here, we investigated whether the p.D620N VPS35 mutation has an effect on PINK1/parkin-mediated mitophagy. We identified a novel family with autosomal dominant Parkinson's disease caused by a p.D620N VPS35 mutation. We cultured skin fibroblasts and induced pluripotent stem cell-derived dopaminergic neurons from the proband and from a second, unrelated Parkinson's disease patient with the p.D620N VPS35 mutation, and compared them with isogenic and non-isogenic control cells. PINK1/parkin-mediated mitophagy was severely impaired in VPS35 mutant fibroblasts and neurons, while non-selective, starvation-induced autophagy and lysosomal degradative capacity were preserved. siRNA-mediated VPS35 knockdown rescued the mitophagy defect in VPS35 mutant cells, whereas overexpression of wild-type VPS35 did not, suggesting a gain-of-function mechanism of the mutation. The VPS35 mutation did not interfere with activation of PINK1 or parkin after mitochondrial depolarization, but impaired mitochondrial recruitment of the autophagy receptor optineurin. LRRK2 kinase activity was increased in the VPS35 mutant cells, as shown by enhanced levels of the T73-phosphorylated form of the LRRK2 substrate RAB10. The enhanced level of phosphorylated RAB10 in VPS35 mutant cells was decreased by treatment with LRRK2 kinase inhibitors and by VPS35 knockdown. Importantly, the mitophagy defect of VPS35 mutant fibroblasts and neurons was fully rescued by LRRK2 kinase inhibitors as well as by overexpression of PPM1H, a phosphatase that dephosphorylates multiple RAB substrates of LRRK2. Finally, in situ proximity ligation experiments revealed that endogenous VPS35 and LRRK2 are proximity partners in human dopaminergic neurons and that this proximity relationship is enhanced by the VPS35 mutation. In conclusion, the VPS35 mutation impairs PINK1/parkin-mediated mitophagy via a gain-of-function mechanism that involves stimulation of LRRK2 kinase activity. Thus, a VPS35/LRRK2 axis linked to dominant Parkinson's disease intersects with a pathway mediated by proteins encoded by the recessive Parkinson's disease genes.",
+   "journal": "Brain : a journal of neurology",
+   "semantic": [
+    0.656,
+    0.0449
+   ]
+  },
+  {
+   "section": "trafficking",
+   "label": "B",
+   "why": "compound treatment after injury",
+   "title": "Ergothioneine promotes functional recovery after spinal cord injury by stabilizing VPS35 to suppress mitochondrial damage-driven neuroinflammation and oxidative stress.",
+   "abstract": "BACKGROUND: Spinal cord injury (SCI) triggers a complex secondary injury cascade involving neuroinflammation, oxidative stress, and mitochondrial dysfunction. These interconnected pathological processes exacerbate neuronal damage and hinder functional recovery. However, effective therapeutic strategies targeting these interrelated pathways remain limited. Ergothioneine (EGT), a naturally occurring antioxidant with potent cytoprotective properties and a favorable safety profile, has emerged as a promising candidate for SCI intervention, yet its mechanisms of action in this context remain unclear. METHODS: A mouse model of contusive SCI was established to evaluate the neuroprotective potential of ergothioneine. Mice received a moderate contusion injury at the T10 spinal segment by using a weight-drop impactor (5 g × 5 cm). Animals were randomly divided into four groups (n = 6 per group): Sham, SCI + vehicle, SCI+50 mg/kg EGT, and SCI+100 mg/kg EGT, with EGT administered intraperitoneally for 7 consecutive days starting at 6 h post-injury. Functional recovery was assessed using behavioral tests, histological analyses, and electrophysiological recordings. Proteomic profiling, limited proteolysis-mass spectrometry (LiP-MS), molecular docking, and molecular dynamics simulations were employed to identify direct molecular targets of ergothioneine. In vitro studies using LPS-stimulated BV-2 microglia were conducted to investigate its effects on mitochondrial function, oxidative stress, and inflammatory responses. VPS35 knockdown experiments were performed to validate its mechanistic involvement. RESULTS: Ergothioneine treatment, particularly at 100 mg/kg, significantly improved locomotor recovery, preserved tissue integrity, and enhanced electrophysiological function in SCI mice. It markedly suppressed microglia-mediated neuroinflammation and oxidative stress, as indicated by reduced pro-inflammatory cytokine expression and decreased reactive oxygen species (ROS) production. Mechanistically, VPS35 was identified as a direct binding target of ergothioneine. Ergothioneine stabilized VPS35 expression, maintained mitochondrial membrane potential, reduced mitochondrial ROS generation, and alleviated mitochondrial dysfunction in activated microglia. Notably, VPS35 knockdown significantly attenuated these protective effects, demonstrating that ergothioneine exerts its actions in a VPS35-dependent manner. CONCLUSION: Our study demonstrates that EGT confers neuroprotection after SCI by targeting VPS35, stabilizing mitochondria, and suppressing microglia-driven neuroinflammation and oxidative damage. These findings nominate EGT as a promising, well-tolerated therapeutic candidate for translational SCI treatment.",
+   "journal": "Free radical biology & medicine",
+   "semantic": [
+    0.6535,
+    0.0262
+   ]
+  },
+  {
+   "section": "cytoskeleton",
+   "label": "G",
+   "why": "kinesin variant, axonal transport",
+   "title": "KIF1A c.773C > T impairs neural progenitor differentiation and axonal transport in association with dysregulated Wnt/β-catenin-BDNF signaling.",
+   "abstract": "Pathogenic KIF1A variants are established cause neurodevelopmental and neurodegenerative disorders. However, the mechanisms by which they perturb early human neural development remains undefined. Here, we identified a heterozygous KIF1A c.773C > T (p.T258M) mutation in a Chinese family with hereditary spastic paraplegia and modeled its pathogenicity using patient-derived iPSCs and CRISPR-Cas9-corrected isogenic controls. We found that KIF1A-mutant neural stem cells (NSCs) exhibited hyperproliferation, impaired cell-cycle exit, and defective neuronal differentiation, accompanied by defective neurite outgrowth, neuronal complexity, and calcium activity. Mechanistically, the KIF1A c.773C > T mutation compromised the binding affinity of KIF1A for β-tubulin and thereby impaired microtubule-associated localization of BDNF and synaptophysin. Integrated transcriptomic and biochemical analyses further revealed dysregulation of the Wnt/β-catenin signaling pathway. Notably, pharmacological activation of Wnt signaling restored BDNF expression, whereas exogenous BDNF rescued the proliferative and differentiative defects, indicating a potential functional relationship between BDNF and Wnt/β-catenin signaling. Collectively, these findings suggested that dysregulated Wnt/β-catenin-BDNF signaling may serve as a contributory mechanism linking KIF1A motor dysfunction to aberrant neural stem cell fate.",
+   "journal": "Neurobiology of disease",
+   "semantic": [
+    0.651,
+    -0.0125
+   ]
+  },
+  {
+   "section": "cytoskeleton",
+   "label": "B",
+   "why": "axonemal (cilia) dynein assembly, not neuronal transport",
+   "title": "DNAAF19-RUVBL1/2 complex recruits multiple adaptors to promote dynein arm assembly.",
+   "abstract": "Cilia are microtubule-based organelles essential for sensing, motility, and fluid transport. Motile cilia rely on inner and outer dynein arms, large multiprotein motor complexes, for force generation and the characteristic bending motion required for ciliary beating. Before being incorporated into cilia, these dynein arms are preassembled in the cytoplasm by dynein axonemal assembly factors (DNAAFs). Defects in this assembly pathway often cause the inherited genetic condition primary ciliary dyskinesia (PCD), in which the loss of dynein arms impairs ciliary motility. The molecular mechanisms governing the precise and timely assembly of dynein arms by DNAAFs remain elusive. Here, we investigated the role of dynein axonemal assembly factor 19 (DNAAF19), a DNAAF frequently mutated in PCD patients with combined inner and outer dynein arm defects. Using biochemical, structural, and proteomic approaches, we find that DNAAF19 is a monomeric protein that interacts directly with the heterohexamer of RUVBL1 and RUVBL2, a multifunctional cochaperone complex involved in ciliary dynein arm assembly. The recurrent PCD-causing variant p.His154Pro partially destabilizes the interaction of DNAAF19 with RUVBL1-RUVBL2. Moreover, we identify Deleted in Primary Ciliary Dyskinesia forming a cocomplex with RUVBL1/2-DNAAF19 in vivo and in vitro. This indicates similarity to R2TP, the HSP90 cochaperone composed of RUVBL1/2-RPAP3-PIH1D1 that assembles different molecular machineries in cells, and to the RUVBL1/2-SPAG1-PIH1D2 complex associated with ciliary dynein arm assembly and PCD. Our results suggest that DNAAF19 acts as a DNAAF in concert with RUVBL1/2 and its interacting proteins, providing insights into the molecular coordination of dynein arm assembly and cell biology of PCD.",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "semantic": [
+    0.6706,
+    0.0309
+   ]
+  },
+  {
+   "section": "cytoskeleton",
+   "label": "B",
+   "why": "expression survey in vasculature",
+   "title": "Microtubule and cytoskeletal destabilization gene expression in the brain vasculature after experimental diffuse traumatic brain injury: Implications for neurodegenerative disease later in life.",
+   "abstract": "Neurodegenerative disease risk following traumatic brain injury (TBI) has been associated with vascular abnormalities and brain inflammation. However, the extent to which diffuse TBI with at least one persistent neurological deficit contributes to chronic neurodegeneration is not well understood. In this study, we investigated the impact of experimental diffuse TBI on the cerebral vasculature in the CA1 region of the hippocampus, which is vulnerable to multiple cognitive-associated neurodegenerative diseases. At 6-months post-injury, a timepoint with known cognitive impairment, we employed laser capture microdissection (LCM) to isolate parenchymal blood vessels from the CA1 subregion of the hippocampus in Sprague-Dawley rats subjected to either sham or midline fluid percussion injury. LCM vessels were processed for RNA sequencing and differentially expressed gene (DEG) analyses (DESeq2) were performed, followed by pathway enrichment analysis using genes with a log2FC > 0 and p-value < 0.05. A subset of differentially expressed genes (9%) were associated with microtubule/cytoskeletal organization, including the PLEC gene (encoding plectin) (Log2FC=+9.5, p < 0.0001), a cytoskeletal protein that maintains tissue integrity and whose overexpression has recently been identified as a risk factor for Alzheimer's disease (AD). Pathway analyses showed the most upregulated and downregulated biological pathways were involved in neurodegeneration-multiple-diseases (Gene count 11, p-adjusted < 0.01) and AD (Gene count 8, p-adjusted < 0.04). Understanding the complex interplay between TBI, the cerebral vasculature, and neurodegeneration risk is critical for prognosis and interventions that mitigate the long-term effects of brain injury and improve outcomes for patients.",
+   "journal": "Neuroscience letters",
+   "semantic": [
+    0.7316,
+    0.0351
+   ]
+  },
+  {
+   "section": "imaging",
+   "label": "B",
+   "why": "clinical radiology",
+   "title": "Value of Multimodal Ultrasound Imaging With Super-Resolution in the Differential Diagnosis of Benign and Malignant Superficial Lymph Nodes: A Dual-Center Prospective Study.",
+   "abstract": "OBJECTIVES: Accurate differential diagnosis of benign and malignant superficial lymph nodes (LNs) is critical for clinical management. The objectives of this study were to explore the feasibility and clinical value of super-resolution ultrasound (SRUS) in the differential diagnosis of superficial lymphadenopathy and to establish and validate a multimodal ultrasound diagnostic model based on conventional ultrasound (US), contrast-enhanced ultrasound (CEUS), and SRUS, so as to improve the accuracy of distinguishing benign from malignant superficial LNs in clinical practice. METHODS: A total of 200 LNs from 165 patients with superficial lymphadenectasis were prospectively enrolled from two medical centers. All patients underwent conventional US, CEUS, and SRUS imaging. Predictive models were constructed based on the conventional US, CEUS, and SRUS features in the training cohort, and the area under the receiver operating characteristic curve (AUC), sensitivity, and specificity were calculated to evaluate their predictive performance in the external validation cohort. RESULTS: The training cohort comprised 117 patients with a total of 140 LNs including 46 benign and 94 malignant lesions. The validation cohort included 48 patients with 60 LNs in total, with 21 benign and 39 malignant lesions. Among the models constructed based on the training cohort, the SRUS model exhibited significantly superior diagnostic performance (AUC = 0.822) to the conventional US and CEUS models (P < .05). The combined model, integrating all three modalities, achieved an AUC of 0.892 (95% confidence interval [CI]: 0.833-0.952) in the training cohort and 0.890 (95% CI: 0.791-0.990) in the external validation cohort, demonstrating excellent and stable diagnostic performance. CONCLUSION: SRUS provides crucial imaging evidence for the non-invasive qualitative evaluation of LNs. The multimodal diagnostic model incorporating the features of US, CEUS, and SRUS can significantly improve the accuracy of distinguishing benign from malignant LNs.",
+   "journal": "Journal of ultrasound in medicine : official journal of the American Institute of Ultrasound in Medicine",
+   "semantic": [
+    0.6063,
+    -0.0532
+   ]
+  },
+  {
+   "section": "imaging",
+   "label": "G",
+   "why": "reusable tissue-imaging workflow",
+   "title": "A validated deep learning workflow for 3D quantification of amyloid plaques in cleared mouse brain.",
+   "abstract": "Accurate quantification of amyloid plaque pathology is essential for understanding Alzheimer's disease (AD) progression and evaluating therapeutic interventions. Yet, conventional histology relies on sampling thin tissue sections and therefore incompletely captures three-dimensional (3D) plaque distributions, introducing bias and limiting scalability. Here, we present a validated and scalable 3D analysis pipeline for whole-brain quantification of amyloid plaques in cleared mouse brain tissue imaged by light-sheet microscopy. This pipeline also integrates deep learning-based segmentation with atlas registration to enable automated, region-specific quantification across intact brain volumes. Quantitative measurements obtained using this approach showed strong agreement with gold-standard stereology, while enabling higher throughput and comprehensive volumetric assessment of amyloid plaque burden. As a demonstration of its utility in a preclinical setting, we applied the pipeline to assess the neuroprotective effects of chronic saffron supplementation in APP/PS1 mice, identifying a significant reduction in hippocampal plaque load (p < 0.01). Together, these findings establish an accessible and validated framework for scalable 3D quantification of amyloid pathology, providing a platform for neuropathological phenotyping and therapeutic evaluation in preclinical AD research.",
+   "journal": "Journal of microscopy",
+   "semantic": [
+    0.7036,
+    -0.0034
+   ]
+  },
+  {
+   "section": "signaling",
+   "label": "B",
+   "why": "compound treatment via pathway",
+   "title": "Hydrogen sulfide ameliorates cognitive dysfunction in diabetic encephalopathy by activating PI3K/AKT/GSK-3β signaling to attenuate tau hyperphosphorylation and necroptosis.",
+   "abstract": "Diabetic encephalopathy (DE) is a serious complication of diabetes mellitus characterized by progressive cognitive dysfunction, but its underlying mechanisms remain incompletely understood. Tau hyperphosphorylation and necroptosis are key pathological events in neurodegenerative diseases, but their roles in DE and the capacity of hydrogen sulfide (H2S) to regulate these processes have not been investigated. We tested whether H2S attenuates Tau hyperphosphorylation and necroptosis through the PI3K/AKT/GSK-3β signaling pathway to improve cognitive impairment in DE. In vitro, HT22 hippocampal neurons were exposed to high glucose (85 mM), and in vivo, a streptozotocin-induced diabetic mouse model was established. NaHS served as an exogenous H2S donor, and LY294002 was employed as a PI3K-specific inhibitor. Phosphoproteomic analysis revealed that high glucose suppressed PI3K/AKT/GSK-3β signaling and concurrently elevated Tau phosphorylation (p-Tau) and necroptosis markers (p-RIPK1, p-MLKL). NaHS treatment activated PI3K/AKT/GSK-3β signaling, reduced p-Tau, p-RIPK1, and p-MLKL levels, and normalized necroptotic morphology observed by transmission electron microscopy. Flow cytometry and lactate dehydrogenase release assays confirmed that NaHS attenuated high glucose-induced cell death. In diabetic mice, NaHS improved spatial learning and memory in the Morris water maze and novel object recognition tests, restored hippocampal CA1 neuron survival, and upregulated synaptic proteins (PSD95, SYP). Co-immunofluorescence demonstrated colocalization of p-Tau and p-MLKL in the hippocampal CA1 region, which was reduced by NaHS. All protective effects of NaHS were partially reversed by LY294002, establishing a PI3K-dependent mechanism. Network pharmacology identified 76 H2S-DE overlapping targets; machine learning ranked AKT family genes as top predictors. These findings demonstrate that H2S improves DE by activating PI3K/AKT/GSK-3β signaling, attenuating Tau hyperphosphorylation and necroptosis.",
+   "journal": "Experimental neurology",
+   "semantic": [
+    0.6908,
+    0.0113
+   ]
+  },
+  {
+   "section": "signaling",
+   "label": "B",
+   "why": "EV product treatment",
+   "title": "Mitochondria-enriched BMSC exosomes restore microglia-neuron cross-talk in Parkinson's disease via PINK1/parkin and PI3K/Akt/mTOR pathways.",
+   "abstract": "BACKGROUND: Mitochondrial dysfunction and neuroinflammation drive dopaminergic neuron loss in Parkinson's disease (PD). While BMSC-derived small extracellular vesicles (BMSC-Exo) are neuroprotective, their ability to repair mitochondrial deficits is limited. We engineered mitochondrial-enriched sEVs (Exo-Mito) to evaluate their effects on microglia-neuron interactions in a PD-relevant model. METHODS: BMSC-Exo-Mito were characterized via TEM, NTA, and immunoblotting. Their therapeutic efficacy was assessed using an MPP + -induced BV2/SH-SY5Y transwell co-culture model. Assessments included ROS levels, mitochondrial membrane potential, ATP quantification, mitophagy flux, and signaling pathway analysis. RESULTS: Exo-Mito significantly restored mitochondrial homeostasis by reducing ROS, preserving membrane potential, and increasing ATP production. Mechanistically, Exo-Mito enhanced PINK1/Parkin-dependent mitophagy and PGC-1alpha/TFAM-mediated biogenesis. In BV2 microglia, Exo-Mito suppressed the NF-kappaB/NLRP3 axis, reduced proinflammatory cytokines, and promoted M2 polarization. In SH-SY5Y cells with dopaminergic phenotype, Exo-Mito was associated with reactivated PI3K/Akt/mTOR signaling, preserved tyrosine hydroxylase expression, and inhibited apoptosis. Functionally, Exo-Mito improved SH-SY5Y cell and restored microglial migratory capacity, showing superior efficacy to unmodified BMSC-Exo. CONCLUSION: Mitochondria-enriched BMSC sEVs protect SH-SY5Y cells by coordinating mitochondrial quality control and modulating neuroinflammation. These findings support Exo-Mito as a promising cell-free therapeutic strategy for Parkinson's disease.",
+   "journal": "Brain research",
+   "semantic": [
+    0.6786,
+    0.0169
+   ]
+  },
+  {
+   "section": "signaling",
+   "label": "B",
+   "why": "ischemia; signalling target not central",
+   "title": "YBX3 promotes ischemia-reperfusion injury by enhancing microglial glycolysis via PKM2 stabilization and mTOR-HIF-1α pathway activation.",
+   "abstract": "Stroke remains one of the leading causes of death and long-term disability worldwide, with neuroinflammation and metabolic dysfunction playing central roles in its pathogenesis. In this study, we investigated the function of Y-box binding protein 3 (YBX3) in ischemic stroke, with particular focus on its regulation of glycolysis and neuroinflammatory responses. Using a middle cerebral artery occlusion (MCAO) model in C57BL/6 mice and an oxygen-glucose deprivation/reperfusion (OGD/R) model in BV2 microglia, we observed that YBX3 expression was markedly upregulated following ischemia-reperfusion. Overexpression of YBX3 aggravated cerebral infarct size, worsened motor and neurological outcomes, and increased the release of pro-inflammatory cytokines (TNF-α, IL-6, and IL-1β) both in vivo and in vitro. Mechanistically, YBX3 enhanced glycolysis in BV2 cells by stabilizing pyruvate kinase M2 (PKM2) mRNA and promoting its expression, while simultaneously activating glycolysis through the mTOR-HIF-1α signaling pathway. Pharmacological inhibition of mTOR with rapamycin reversed YBX3-induced glycolytic activation, neuroinflammation, and neuronal injury. Collectively, these results identify YBX3 as a key regulator of ischemic brain damage through glycolysis-dependent mechanisms and underscore its potential as a therapeutic target for stroke.",
+   "journal": "Behavioural brain research",
+   "semantic": [
+    0.6499,
+    0.0164
+   ]
+  },
+  {
+   "section": "neurodegeneration",
+   "label": "B",
+   "why": "vaccine treatment outcome",
+   "title": "BCG vaccination mitigates tau pathology and restores cognitive function in PS19 mice.",
+   "abstract": "Retrospective studies in patients with nonmuscle invasive bladder cancer have reported a significant reduction in Alzheimer's disease incidence (12 to 78%) among Bacille Calmette-Guérin (BCG) recipients versus controls. To investigate the underlying mechanisms, we evaluated BCG in the PS19 mouse model of tauopathy. We found that BCG administration reduced hippocampal phospho-tau and microgliosis while preserving neuronal markers. In vivo volumetric T2-magnetic resonance Imaging (MRI) demonstrated attenuation of brain atrophy accompanied by increased glutamate-weighted chemical exchange saturation transfer-MRI signals. Functionally, BCG-treated mice showed improved performance in the novel object recognition test, as well as improved body-weight maintenance and survival. Transcriptomic profiling of the hippocampus revealed near complete normalization of the PS19 disease-associated gene expression signature toward that of healthy controls. Flow cytometric profiling of brain myeloid populations demonstrated a reduction in activated resident microglia, but total microglia cells remain elevated. Moreover, an increase of trained immunity marker CD80 on the recruited peripheral myeloid cells ensues following BCG treatment. Consistent with this shift in myeloid state, primary brain myeloid cells from BCG-treated mice also exhibited enhanced phagocytosis of fluorescein isothiocyanate-labeled tau fibrils and increased lactate production. Together, these findings indicate that BCG induces systemic and central nervous system myeloid cell reprogramming that limits neuroinflammation, enhances tau clearance, and rescues cognitive and neurodegenerative phenotypes in a tauopathy model. BCG is a safe, readily available therapy that merits consideration as a preventive agent against dementia.",
+   "journal": "Science advances",
+   "semantic": [
+    0.6999,
+    0.0343
+   ]
+  },
+  {
+   "section": "neurodegeneration",
+   "label": "B",
+   "why": "essay-like, no mechanism",
+   "title": "Beyond Alzheimer's story: How an engineered molecule gained an endogenous essence.",
+   "abstract": "A hallmark of Alzheimer's disease (AD) is extra-neuronal protein aggregates formed mainly by the amyloid-β peptide (Aβ), that are deposited inside the brain as amyloid plaques. The formation of amyloid plaques requires participation of zinc ions. The 11-Glu-Val-His-His-14 region of Aβ is critical for interaction between Aβ and zinc ions. The engineered peptide Ac-His-Ala-Glu-Glu-NH2 (HAEE) acts as competitive inhibitor of such interactions and suppresses formation of Aβ aggregates in animal models of AD. We sought to develop a reliable method for studying the behavior of the synthetic HAEE peptide in the human blood in preparation for clinical trials of this peptide as a potential anti-amyloid drug for AD. The analytical method to monitor HAEE concentration in blood plasma combines separation by high-performance liquid chromatography and registration on a mass detector of the parent quasi-molecular ion and fragment ions. We discover that HAEE peptide represents a normal endogenous component of human blood plasma. Moreover, the HAEE level has been significantly reduced in patients with a clinical diagnosis of AD (n = 200) as compared with the control participants with no clinical diagnosis of cognitive impairment (n = 150). Deficiency of endogenous HAEE may be considered as a potential blood-based biomarker in the diagnosis of AD, while exogenous synthetic HAEE may serve as a drug in AD-modifying therapy.",
+   "journal": "PNAS nexus",
+   "semantic": [
+    0.6607,
+    0.033
+   ]
+  },
+  {
+   "section": "neurodegeneration",
+   "label": "B",
+   "why": "public dataset re-mining",
+   "title": "Identification of Succinylation-Related Transcriptional Signatures in Alzheimer's Disease: Integrated Bioinformatics Analysis and Clinical Validation.",
+   "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder involving mitochondrial dysfunction, oxidative stress, proteostasis imbalance, and immune-inflammatory alterations. Protein succinylation is closely linked to mitochondrial metabolic status, but peripheral blood transcriptomic signatures related to succinylation in AD remain insufficiently characterized. This study aimed to identify peripheral blood transcriptional candidate biomarkers associated with a predefined succinylation-related gene set in AD. The GSE63061 dataset was used as the discovery cohort, and GSE63060 served as an external validation cohort. Differential expression analysis, ssGSEA-derived succinylation scoring, and WGCNA were integrated with a predefined succinylation-related gene set. Candidate biomarkers were then refined through four feature selection approaches: LASSO, random forest, SVM-RFE, and Boruta, and their discriminatory performance was evaluated by ROC analysis, nomogram construction, calibration analysis, decision curve analysis, and SHAP analysis. Functional enrichment, GSVA/GSEA, GeneMANIA, immune-cell signature analysis, and single-cell analyses were used to explore biological relevance and cellular distribution. qRT-PCR was performed using peripheral blood-derived PBMC samples for experimental validation. Five genes, NDUFA1, NDUFS5, RPS27A, AIF1, and PRDX1, were identified as candidate biomarkers associated with a succinylation-related transcriptional signature in AD. These genes were mainly involved in mitochondrial complex I activity, oxidative phosphorylation, ribosomal function, protein homeostasis, redox balance, and immune inflammation. Immune-cell signatures and single-cell analyses further suggested that the signature was associated with T cells, B cells, NK cells, and monocytes/macrophages. qRT-PCR confirmed significant downregulation of all five genes in AD PBMC samples (P < 0.05). These findings suggest that peripheral blood transcriptional signatures associated with succinylation-related genes may provide candidate biomarkers and hypothesis-generating clues for AD.",
+   "journal": "Molecular neurobiology",
+   "semantic": [
+    0.7135,
+    0.0304
+   ]
+  },
+  {
+   "section": "neurodegeneration",
+   "label": "G",
+   "why": "iPSC disease resource",
+   "title": "iPSC neurodegenerative disease initiative isogenic CAG repeat iPSC line for Huntington's disease.",
+   "abstract": "Purpose of ResearchThe generation of iPSC lines expressing 21, 56 and 79 glutamine repeats within the HTT protein and homozygous KO of HTT in the KOLF2.1J background as an additional disease series within the iPSC Neurodegenerative Disease Initiative (iNDI) collection.Major FindingsAll iPSCs, even those expressing long repeats of 79Q or HTT KO, were capable of differentiating to striatal and cortical neurons, astrocytes and microglia using established protocols. General quality control stains and morphological analyses are described for each differentiation. A selected set of assays were carried out on differentiated cells; expanded repeat expressing astrocytes showed altered expression of astrocyte protein markers and morphological characteristics, and striatal neurons showed altered DARPP-32/CTIP2 colocalization. mRNAseq carried out for striatal neurons showed high similarities in gene expression changes between 79Q and KO lines compared to the unexpanded repeat.ConclusionsThe KOLF2.1J isogenic CAG repeat series serves as a community resource to study HD mechanisms with the potential for direct comparison across other neurodegenerative diseases through the iNDI collection.",
+   "journal": "Journal of Huntington's disease",
+   "semantic": [
+    0.6771,
+    0.0277
+   ]
+  },
+  {
+   "section": "ipsc",
+   "label": "G",
+   "why": "mechanism in neural model",
+   "title": "Tau-induced mitochondrial reverse electron transport drives neurodegeneration.",
+   "abstract": "Hyperphosphorylation and aggregation of tau are pathological hallmarks of tauopathies. Mitochondrial dysfunction is also a common feature of tauopathies. The mechanistic link between tau abnormalities and mitochondrial dysfunction and its relationship to the physiological function of tau, however, is unclear. Here, we demonstrate that tau regulates mitochondrial reverse electron transport (RET), which produces excess reactive oxygen species (ROS), reduces the NAD+/NADH ratio, and is activated by aging or stress. In flies, mice, and human induced pluripotent stem cell (hiPSC)-derived neurons, tau depletion eliminates stress-induced RET and confers resilience. Mechanistically, tau enters mitochondria and directly interacts with the complex I subunit NDUFS3 to promote RET in a phosphorylation-dependent manner. Elevated RET further drives tau hyperphosphorylation, establishing a self-perpetuating pathological loop. Inhibition of RET ameliorates tau toxicity across species. RET regulation thus represents a previously unrecognized normal function of tau that becomes pathological in disease, providing a therapeutic target for various conditions characterized by tau abnormalities and mitochondrial dysfunction.",
+   "journal": "Neuron",
+   "semantic": [
+    0.6337,
+    0.0069
+   ]
+  },
+  {
+   "section": "ipsc",
+   "label": "G",
+   "why": "mechanism in iPSC neurons",
+   "title": "OGT regulates RNA-binding protein nucleocytoplasmic partitioning, but this fails in amyotrophic lateral sclerosis.",
+   "abstract": "O-linked N-acetylglucosamine transferase (OGT) catalyzes the O-linked β-N-acetylglucosamine (O-GlcNAc) modification to proteins and has been implicated in a range of diseases, including amyotrophic lateral sclerosis (ALS), a rapidly progressive and currently incurable neurodegenerative disorder. However, the precise mechanisms by which OGT influences ALS pathogenesis remain largely unresolved. In this study, we used human-induced pluripotent stem cell (hiPSC)-derived spinal motor neurons (hiPSC-MNs), the principal cell type that undergoes degeneration in ALS, to systematically reveal that OGT-related mechanisms regulate RNA-binding protein (RBP) nucleocytoplasmic compartmentalization. Using a combination of antisense oligonucleotide (ASO) technology and small molecular pharmacology, we reveal two distinct regulatory mechanisms of RBP compartmentalization, including by intron-retaining transcript-mediated sequestration and O-linked N-acetylglucosaminylation (O-GlcNAcylation)-mediated nuclear transport. We finally examine the tractability of manipulating OGT activity in the ALS context but demonstrate that the OGT-related mechanisms governing RBP localization in healthy hiPSC-MNs are impaired in the context of ALS-causing VCP and TARDBP mutations.",
+   "journal": "iScience",
+   "semantic": [
+    0.645,
+    0.0211
+   ]
+  },
+  {
+   "section": "neurodevelopment",
+   "label": "B",
+   "why": "imaging-genetics replication, no cellular mechanism",
+   "title": "Validating gene-brain-behavior associations in autism: A replication study.",
+   "abstract": "BACKGROUND: Autism is characterized by heterogeneity in clinical characteristics, neuroimaging and genetic profiles. To elucidate the multi-level heterogeneity, Buch et al. (2023) identified biologically meaningful subgroups in Autism Brain Imaging Data Exchange (ABIDE). However, ABIDE contains non-biological sources of variability due to retrospectively aligned site protocols. To separate biological from site-related variability and test the robustness of these subgroups, we assessed how well their findings replicate in a deeply phenotyped, prospectively collected autism dataset (EU-AIMS LEAP). METHODS: We included 270 autistic (7.5-30.3 years; 73% male) and 216 non-autistic participants (6.9-31 years; 63.4% male) from LEAP. Regularized canonical correlation analysis (RCCA) was conducted between functional connectivity and three clinical measures (verbal IQ [VIQ], and Autism Diagnostic Observation Schedule-2 [ADOS-2] social affect [SA] and restricted/repetitive behavior [RRB]). Next, subgroups identified by hierarchical clustering based on canonical variates were characterized by behavior, functional connectivity patterns and gene enrichment analyses. RESULTS: Three of four autistic subgroups showed behavioral profiles consistent with the original study. Three subgroups shared stronger thalamocortical connectivity, while all four displayed distinct connectivity involving default mode network (DMN), salience (SN), visual and somatomotor networks. These subgroup-specific connectivity patterns were further linked to autism-associated and attention deficit hyperactivity disorder (ADHD)-related gene sets. Across preprocessing pipelines, subgroup assignments were partially preserved. Subgroup2 (globally affected behaviors) and Subgroup4 (less social difficulty, but more restricted behavior) retained more consistent behavioral profiles and connectivity alterations, whereas Subgroup1 and Subgroup3 were more sensitive to the precise preprocessing steps. CONCLUSIONS: These four subgroups showed partly consistent behavioral profiles, connectivity alterations and genetic patterns, extending our understanding of the multi-level heterogeneity of autism.",
+   "journal": "Biological psychiatry. Cognitive neuroscience and neuroimaging",
+   "semantic": [
+    0.7423,
+    0.0201
+   ]
+  },
+  {
+   "section": "neurodevelopment",
+   "label": "G",
+   "why": "rare genetic NDD",
+   "title": "Absent Septum Pellucidum Without Polymicrogyria or Seizures in TCP1-Related Neurodevelopmental Disorder.",
+   "abstract": "T-complex protein 1 (TCP1) encodes the TCP1α subunit, one of eight subunits of the chaperonin containing TCP1 ring complex (TRiC). Heterozygous TCP1 variants cause autosomal dominant neurodevelopmental disorder characterized by developmental delay or intellectual disability, seizures, pyramidal or cerebellar signs, and brain malformations, particularly polymicrogyria. However, the reported clinical spectrum remains limited. We report a 4-year-old girl with global developmental delay, speech and motor delay, behavioral dysregulation, microcephaly, hypotonia with core weakness, and a previously unreported heterozygous likely pathogenic TCP1 variant, c.1392delT (p.A465Qfs*3). This frameshift variant is located in exon 11, truncates the final 16.5% of the protein, is predicted to undergo nonsense-mediated decay, and is absent from gnomAD. Biological parental testing was unavailable, precluding determination of variant inheritance. Brain magnetic resonance imaging (MRI) demonstrated an absent septum pellucidum with mild bilateral frontal sulcation/gyration asymmetry without polymicrogyria; the optic nerves and pituitary were normal. No seizures were documented through age 4 years. Additional findings included bicuspid aortic valve with mild aortic insufficiency, asthma, severe eczema/atopy, and multiple food allergies. This case suggests that the molecular and neuroimaging spectrum of TCP1-related neurodevelopmental disorder may be broader than previously recognized; however, a causal association between TCP1 and absent septum pellucidum cannot be established from a single case. The relationship of the cardiac and atopic findings to TCP1 remains uncertain. Additional cases and functional studies are needed to clarify genotype-phenotype relationships.",
+   "journal": "American journal of medical genetics. Part A",
+   "semantic": [
+    0.6762,
+    0.0392
+   ]
+  },
+  {
+   "section": "omics",
+   "label": "G",
+   "why": "brain transcriptomics, neurodegeneration",
+   "title": "A transcriptomic resilience gap between the substantia nigra and cerebellum is associated with regional vulnerability in Parkinson's disease.",
+   "abstract": "The mechanisms underlying the selective vulnerability of the substantia nigra (SN) in Parkinson's disease (PD) are incompletely understood. We computed the tissue-specificity index τ for 19,355 protein-coding genes across 68 GTEx v11 tissues, defining a gene as tissue-specific when τ ≥ 0.8, median TPM > 1, and the tissue of interest was the absolute maximum. Under this definition, the SN harboured only 12 SN-specific genes whereas the cerebellum (CB) contained 367 CB-specific genes. The direct pairwise contrast was not statistically significant (exact p = 0.090). The primary evidence is a negative correlation between signature density and PD vulnerability tier across all 13 brain subregions (Spearman ρ = -0.709, exact permutation p = 0.0098). This gradient, replicated across GTEx releases, was robust to relaxed tissue-specificity criteria and alternative τ thresholds and persisted after controlling for cell-type composition. Resilience-associated gene sets were more highly expressed in the CB (14 of 17 sets). The classical antioxidant system was the only set higher in the SN. Single-nucleus RNA-seq of 434,340 human SN nuclei showed that the SN-specific signature is dominated by, but not restricted to, dopaminergic neurons and is largely maintained in PD donors. Integration with the latest PD genome-wide association study showed that 12 of 367 CB-specific genes (3.27%) overlapped genome-wide significant PD variants versus 1.30% of a matched background (p = 0.0036). The SN-specific set overlapped no significant variant, a result that is uninformative given its size. CB-specific genes formed a significantly interaction-sparse STRING network, whereas the SN-specific network comprised a single dopamine-synthesis module (TH and SLC6A3). The SN-specific set showed a non-significant tendency toward fewer human paralogues. These findings support a transcriptomic resilience gap, defined as a narrow SN-specific repertoire alongside a broader and genetically proximal CB-specific repertoire. We propose this asymmetry as a hypothesis for regional selective vulnerability and a framework for prioritising region-specific neuroprotective targets.",
+   "journal": "Biochemical and biophysical research communications",
+   "semantic": [
+    0.7,
+    -0.0184
+   ]
+  },
+  {
+   "section": "omics",
+   "label": "B",
+   "why": "imaging method, not omics",
+   "title": "Integrated two-photon and photoacoustic microscopy for single-cell neurometabolic imaging.",
+   "abstract": "Understanding how neuronal activity couples with local energy metabolism is fundamental to brain function. Oxygen exchange between individual neurons and red blood cells (RBCs) is central to this process, yet no existing method can simultaneously capture their dynamics at single-cell resolution in vivo. Here, we introduce integrated two-photon and photoacoustic microscopy (TPM-PAM), which enables real-time imaging of single-neuron calcium activity alongside oxygen release from individual RBCs in awake mice. In TPM-PAM, a transparent micro-ring resonator-based ultrasound sensor breaks the long-standing tradeoff between optical access and acoustic sensitivity, while dual-wavelength kymography simultaneously quantifies single-RBC oxygenation and flow to derive the oxygen release rate. Incorporating nonlinear optical manipulation of the neurovascular unit with cellular precision, TPM-PAM reveals distinct neurometabolic responses to whisker stimulation, single-capillary occlusion, and single-neuron stimulation. This work establishes a powerful platform for dissecting neurometabolic coupling at the cellular scale and understanding oxygen-metabolic regulation in brain health and disease.",
+   "journal": "Nature communications",
+   "semantic": [
+    0.6599,
+    -0.013
+   ]
+  },
+  {
+   "section": "focus",
+   "label": "G",
+   "why": "direct JIP3",
+   "title": "Insights into how JIP3 and JIP4 adaptor proteins relieve the auto-inhibited form of the kinesin-1 motor.",
+   "abstract": "While our understanding of kinesin autoinhibition mechanisms is advancing, key insights into kinesin activation, especially autoinhibition relieved by cargo-motor adaptors, remain unclear. JIP3 and JIP4 are adaptors that activate kinesin-1 and dynein-dynactin motors, enabling bidirectional transport along microtubules. Here, we characterized the interaction between the kinesin-1 heavy chain, KIF5B, and both JIP3 and JIP4 (JIP3/4), using mutagenesis and binding experiments associated with modelling. We identified the minimal regions of JIP3/4 and KIF5B required for interaction. JIP3/4 binds to the CC4 coiled-coil domain of KIF5B, with no significant interaction detected with the distal tail. Conversely, KIF5B-CC4 binds to the RH1 domain of JIP3/4, with the preceding disordered N-terminus modulating the force of the binding. Notably, JIP3 and JIP4 exhibit ∼40-fold differences in affinity for KIF5B. We performed extensive site-directed mutagenesis on KIF5B-binding regions of JIP3/JIP4 targeting accessible charged residues and sequence differences between JIP3 and JIP4. This revealed multiple weak-affinity binding sites that collectively define an extensive KIF5B-binding surface on the RH1 domain of JIP3. Importantly, the KIF5B-binding surface on JIP3 differs from that of the DLIC (dynein light intermediate chain), confirming no competition between the two motors. Altogether, the fragment and mutant mapping of KIF5B binding to JIP3 and JIP4 presented here provides insights into how the auto-inhibited form of kinesin-1 might be relieved, with the CC4 region playing a central role.",
+   "journal": "The Journal of biological chemistry",
+   "semantic": [
+    0.8498,
+    0.1201
+   ]
+  },
+  {
+   "section": "focus",
+   "label": "G",
+   "why": "direct MAPK8IP3",
+   "title": "Characterization of a novel inherited splice-site variant in MAPK8IP3 expands the genetic and phenotypic spectrum of neurodevelopmental disorders.",
+   "abstract": "BACKGROUND: The MAPK8IP3 gene encodes JIP3, a kinesin-1 adapter protein crucial for axonal transport and JNK signaling pathway regulation. This gene exhibits extreme intolerance to loss-of-function variants. Heterozygous pathogenic MAPK8IP3 variants are linked to a neurodevelopmental disorder with or without variable brain abnormalities (NEDBA). This study characterizes a novel inherited canonical splice-site variant identified in a three-generation family. METHODS: Exome sequencing was performed on three affected individuals from a single non-consanguineous family with presenting neurological abnormalities. The molecular consequences of the identified variant were evaluated by RNA analysis. Clinical features of the variant carriers were evaluated in detail. RESULTS: We identified a heterozygous dinucleotide deletion (c.2630-2_2630-1del) at the canonical acceptor splice site of MAPK8IP3. This variant co-segregated with the neurological phenotype in an affected mother and her two children. RNA analysis demonstrated that this variant leads to a partial deletion of exon 22 (r.2630_2673del), which is predicted to cause a frameshift and introduce a premature termination codon (p.Gly877Valfs∗36). Notably, despite carrying an identical genotype, the three affected individuals exhibited marked interindividual variability in clinical severity, ranging from mild specific learning difficulties to global developmental delay with severe intellectual disability and autism. CONCLUSION: This represents the first report of a familial, autosomal dominantly inherited pathogenic splice-site variant in MAPK8IP3, extending the established inheritance pattern beyond previously described de novo events. Our findings expand both the mutational and phenotypic spectrum of MAPK8IP3-related disorders, highlighting the complexity of genotype-phenotype correlations and underscoring the necessity of functional assays for accurate variant interpretation.",
+   "journal": "Biochemistry and biophysics reports",
+   "semantic": [
+    0.8767,
+    0.1461
+   ]
+  }
+ ]
+}
