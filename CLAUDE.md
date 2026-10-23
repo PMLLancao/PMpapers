@@ -3,6 +3,23 @@
 This repository is an active collaboration between Pablo, Claude, and ChatGPT. This file preserves the user's goals and development rules so future sessions do not have to reconstruct them from chat history.
 
 ## Product goal
+PaperScope is not only a personalized literature dashboard for one scientist. The long-term goal is a **general scientific intelligence product** that any researcher can configure for any scientific field or combination of topics.
+
+The core value proposition is **time saved**: PaperScope should reduce the need to manually browse PubMed, bioRxiv, journal sites, methods papers and tool/resource pages by turning a large stream of literature into a compact, relevant, trustworthy briefing.
+
+The system should support:
+- multiple editable topic profiles;
+- arbitrary scientific disciplines, not only neuroscience/cell biology;
+- topic definitions that can be created/edited without changing core code;
+- reusable ranking/QA logic that is field-agnostic;
+- separate scientific modules when concepts are genuinely different rather than forcing unrelated content into one section;
+- clear provenance and transparent reasons why each paper was shown;
+- installable PWA behavior now and a future cross-platform app path;
+- free access for users whenever possible, with no required paid subscription for the basic beta;
+- install/download behavior that works across Mac, Windows, Android, iPhone and iPad through the web/PWA path, without locking the product to one platform.
+
+The current neuroscience/JIP3 configuration is the first high-quality reference profile and test bed, not the permanent limit of the product.
+
 PaperScope is not a PubMed clone. It should save a working scientist time by producing a reliable weekly/daily briefing: what matters, why it matters, what model/manipulation/methods/results/limitations were used, and where full text/code/data are available.
 The benchmark is about 5 minutes in PaperScope replacing 30–60 minutes of browsing PubMed, bioRxiv and journals.
 The current product is a GitHub Pages PWA, but backend outputs should remain reusable by a future cross-platform app.
