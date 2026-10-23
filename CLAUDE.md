@@ -105,3 +105,37 @@ If this file conflicts with a newer explicit instruction from the user, the newe
 - Confirmed false positives go in `tests/known_bad_titles.json`; the updater refuses to publish if any reappear.
 - After changing gates, ranking or `topic_definitions`, wait for the "Update literature data" run and inspect `data/audit.json` (sections, `semantic`, `rejections_by_section`) before declaring success.
 - Changelog: `CHANGES_v0.31.md`. Claude's design answers to Issue #1: `docs/claude_review_issue1.md`.
+
+
+## Product modes: Personal vs Public PaperScope
+PaperScope should support two clearly separated modes built on the same engine.
+
+### Public PaperScope
+- Public, generic, fully operational scientific briefing app.
+- A new researcher can define their own topics/sections in plain English without editing source code.
+- Topic definitions, exclusions, preferred models/methods, date windows, and section names should be user-configurable data.
+- Public defaults must be generic/demo-safe and must not expose Pablo's private scientific interests.
+- The public app should be installable as a PWA on desktop and mobile and remain usable as an ordinary website.
+- Prefer zero/low-cost infrastructure for the beta.
+
+### Personal PaperScope
+- Uses the same engine and interface, but with a user-specific profile.
+- Personal topic definitions and negative feedback should be private by default.
+- For the zero-cost beta, personal preferences should live locally in the browser/device (with explicit export/import backup), not in the public GitHub repository.
+- Do not upload or publish a user's positive-interest profile merely to personalize ranking.
+- Negative feedback may be used locally to hide/clean results; any future server-side learning must be opt-in and private.
+- Pablo's current neuroscience/JIP3 configuration is a reference profile for development, not the public default and not a reason to hard-code neuroscience assumptions.
+
+### Interface direction
+The UI should be reorganized around a small number of clear surfaces rather than many equal-weight tabs:
+1. Home / Today's Briefing — strongest current papers across the active profile.
+2. Topics — user-defined scientific sections with counts and freshness.
+3. Saved — papers kept by the user.
+4. Reviews / Preprints / Resources — secondary discovery surfaces.
+5. Profile / Preferences — topics, exclusions, models, methods, date windows, privacy, import/export.
+6. Install / App status — clear PWA installation and offline status.
+
+Cards should prioritize title, date/source, why it matters, main finding, evidence/model, and analysis depth. Secondary controls (Zotero, report, full abstract, links) should remain available without visually competing with the main scientific information.
+
+### Privacy rule
+Do not treat a public repository as private preference storage. If a personal profile would reveal a user's research interests, keep it local/private unless the user explicitly chooses to publish it.
