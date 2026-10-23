@@ -344,5 +344,103 @@
       "note": "Targeted: EV/secretion as the TITLE subject, with neural or lysosomal context.",
       "pubmed": "(\"extracellular vesicle*\"[ti] OR exosome*[ti] OR ectosome*[ti] OR \"lysosomal exocytosis\"[ti] OR \"secretory autophagy\"[ti] OR \"unconventional secretion\"[ti] OR \"secretory lysosome*\"[ti]) AND (neuron*[tiab] OR neuronal[tiab] OR microglia*[tiab] OR astrocyt*[tiab] OR oligodendrocyt*[tiab] OR brain[tiab] OR lysosom*[tiab])"
     }
-  ]
+  ],
+  "semantic_model": "BAAI/bge-small-en-v1.5",
+  "topic_definitions": {
+    "_how_to_edit": "Plain-English definitions used to score how well each paper fits a section. Edit 'about' and 'not' freely; no author or lab names are used, so ranking stays topic-based. Keyword rules in the updater remain the hard filter.",
+    "_global_not": [
+      "plant biology, crops, agriculture or plant extracts",
+      "veterinary medicine, dog or livestock breeds and animal genetics",
+      "cancer treatment, tumour growth, chemotherapy and oncology outcomes",
+      "clinical neuroimaging, MRI connectivity, diagnostic prediction or epidemiology without cellular or molecular experiments",
+      "materials science, surface chemistry, explosives, sensors or engineering microscopy",
+      "herbal medicine, traditional Chinese medicine, natural product extracts or dietary supplements",
+      "dentistry, dermatology, cardiology, nephrology or liver disease",
+      "remote sensing, satellite images or environmental microbiology",
+      "hospital care, nursing, health services or medical education"
+    ],
+    "focus": {
+      "about": "Direct studies of the JIP3 protein (MAPK8IP3): its role in axonal transport of lysosomes, endo-lysosomal maturation, kinesin and dynein motor adaptor function, MAPK8IP3 patient variants causing neurodevelopmental disorders, and closely related JIP4 mechanisms in neurons.",
+      "not": [
+        "LRRK2 or Rab proteins without JIP3",
+        "JNK stress signalling in heart, kidney or cancer"
+      ]
+    },
+    "neurodevelopment": {
+      "about": "Mechanisms of neurodevelopmental disorders and rare genetic brain diseases: intellectual disability and autism genes, patient variants, brain development, neuronal migration, axon guidance, corpus callosum and commissure formation, studied in mouse, human or iPSC neural models.",
+      "not": [
+        "adult stroke or vascular injury",
+        "psychiatric questionnaires or clinical service studies"
+      ]
+    },
+    "organelle": {
+      "about": "Cell biology of lysosomes and endosomes: lysosome biogenesis, positioning, acidification, membrane damage and repair, lysophagy, TFEB, lysosomal storage disorders, and endo-lysosomal maturation, especially in neurons and glia.",
+      "not": [
+        "drug delivery nanoparticles",
+        "lysosomes in liver, kidney or skin disease"
+      ]
+    },
+    "trafficking": {
+      "about": "Intracellular membrane trafficking and organelle transport: retromer, retriever, WASH, CCC/Commander, ESCRT, HOPS/CORVET, exocyst, Rab GTPase-controlled sorting, and kinesin/dynein-driven axonal transport of organelles in neurons.",
+      "not": [
+        "plant ER-phagy",
+        "protist or amoeba cell evolution"
+      ]
+    },
+    "cytoskeleton": {
+      "about": "Neuronal cytoskeleton: microtubules, actin, neurofilaments, dynein, dynactin, kinesins and myosins in axons, dendrites, growth cones, the axon initial segment, neuronal polarity and organelle transport.",
+      "not": [
+        "epithelial or cancer cell migration without neurons"
+      ]
+    },
+    "ipsc": {
+      "about": "Human induced pluripotent stem cell neural models: iPSC-derived neurons, microglia, astrocytes, motor neurons and brain organoids used to study neurological disease mechanisms, patient variants and isogenic controls.",
+      "not": [
+        "iPSC-derived heart, liver or blood cells",
+        "stem cell ethics or consent"
+      ]
+    },
+    "omics": {
+      "about": "Proteomics, phosphoproteomics, interactomics, lipidomics, single-cell, single-nucleus and spatial transcriptomics, and CRISPR screens that answer questions about neurons, glia, lysosomes, trafficking or neurodegeneration, or provide reusable brain datasets.",
+      "not": [
+        "blood biomarker diagnostic panels",
+        "microbiome or environmental metagenomics"
+      ]
+    },
+    "imaging": {
+      "about": "Microscopy and imaging of cells and neurons: live-cell imaging, super-resolution (STED, STORM, expansion), light-sheet, two-photon, electron microscopy and cryo-ET, and new imaging methods or probes for organelles, synapses and axonal transport.",
+      "not": [
+        "medical radiology, MRI or CT scans",
+        "atomic force or materials microscopy"
+      ]
+    },
+    "analysis-tools": {
+      "about": "Software tools, plugins and pipelines for analysing biological microscopy and cell data: image segmentation, particle and cell tracking, kymograph analysis, neurite tracing, Sholl analysis, colocalization, puncta counting, napari, Fiji/ImageJ, CellProfiler, QuPath, and open-source bioimage analysis.",
+      "not": [
+        "clinical documentation or health records software",
+        "radiology or ophthalmology image diagnosis"
+      ]
+    },
+    "signaling": {
+      "about": "Mechanisms of cAMP, EPAC, PKA and AKAP signalling; AKT, PI3K and mTOR; Rab and Rho family small GTPases (RhoA, Rac1, Cdc42); TBK1, STING, TMEM55B, RILPL1, CC2D1A and related regulators in neurons, lysosomes and membrane trafficking.",
+      "not": [
+        "a drug or compound alleviating disease through a pathway",
+        "toxicology of nanoparticles or pollutants"
+      ]
+    },
+    "extracellular": {
+      "about": "Extracellular vesicles, exosomes and microvesicles released by neurons, microglia and astrocytes; lysosomal exocytosis, secretory lysosomes, secretory autophagy and unconventional protein secretion mechanisms.",
+      "not": [
+        "stem cell exosome therapy products",
+        "plant-derived vesicles"
+      ]
+    },
+    "neurodegeneration": {
+      "about": "Cellular and molecular mechanisms of Parkinson's disease, LRRK2, ALS/FTD, Alzheimer's disease and related neurodegeneration involving lysosomes, trafficking, axonal transport, glia, cytoskeleton, small GTPases or ferroptosis.",
+      "not": [
+        "clinical progression scales or diagnostic codes",
+        "drug trial outcomes without mechanism"
+      ]
+    }
+  }
 }

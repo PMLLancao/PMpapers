@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#071a38"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="PaperScope"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg"><title>PaperScope</title><meta name="paperscope-build" content="2026-10-22-cards-best-10-v3">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#071a38"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="PaperScope"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg"><title>PaperScope</title><meta name="paperscope-build" content="2026-10-23-topic-defs-v4">
 <style>
 :root{--navy:#071a38;--blue:#1768e5;--ink:#17283e;--muted:#66758a;--line:#dbe4ef;--bg:#f3f7fb;--green:#087554;--amber:#9b5d00;--red:#a62d2d;--purple:#6b50b5;--soft:#f8fbff;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:linear-gradient(180deg,#f8fbff,var(--bg));min-height:100vh}button,input,textarea{font:inherit}button{cursor:pointer}.shell{width:min(1240px,calc(100% - 20px));margin:auto;padding-bottom:70px}.top{position:sticky;top:0;z-index:30;background:rgba(243,247,251,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:10px 0}.brandrow,.toolbar,.switch,.actions,.chips{display:flex;gap:8px;align-items:center}.brandrow{justify-content:space-between}.brand{display:flex;align-items:center;gap:10px}.logo{width:44px;height:44px;border-radius:14px;background:var(--navy);color:white;display:grid;place-items:center;font-weight:950}.brand h1{margin:0;font-size:1.35rem;letter-spacing:-.04em}.sub,.tiny{color:var(--muted);font-size:.75rem}.status{text-align:right}.toolbar{margin-top:9px;flex-wrap:wrap}.search{flex:1;min-width:220px;border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 12px;font-size:16px}.btn{border:1px solid var(--line);background:#fff;color:var(--ink);padding:9px 11px;border-radius:10px;font-weight:800}.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}.switch{margin-top:8px}.switch .btn.active{background:var(--navy);border-color:var(--navy);color:white}.hero{margin-top:13px;background:linear-gradient(135deg,#071a38,#17457f);color:white;border-radius:22px;padding:22px}.hero h2{margin:0;font-size:clamp(1.6rem,4vw,2.35rem);letter-spacing:-.04em}.hero p{color:#d8e6fa;line-height:1.48;max-width:900px;margin:7px 0 0}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:10px 0}.stat{background:white;border:1px solid var(--line);border-radius:14px;padding:11px}.stat span{display:block;color:var(--muted);font-size:.68rem}.stat strong{display:block;font-size:1.13rem;margin-top:3px}.tabs{display:flex;gap:7px;overflow-x:auto;padding:9px 1px;scrollbar-width:none}.tab{white-space:nowrap;border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 11px;font-weight:800;color:var(--ink)}.tab.active{background:var(--navy);border-color:var(--navy);color:#fff}.section-head{display:flex;justify-content:space-between;gap:12px;align-items:end;margin:12px 0 9px}.section-head h3{margin:0;font-size:1.18rem}.section-head p{margin:4px 0 0;color:var(--muted);font-size:.8rem;max-width:850px}.paper-list{display:grid;gap:10px}.paper{background:#fff;border:1px solid var(--line);border-radius:17px;padding:14px;box-shadow:0 8px 24px rgba(29,53,86,.05)}.paper-top{display:grid;grid-template-columns:1fr auto;gap:12px}.paper h4{margin:0;font-size:1rem;line-height:1.38}.meta{margin-top:5px;color:var(--muted);font-size:.72rem;line-height:1.4}.chips{flex-wrap:wrap;margin-top:8px;gap:5px}.chip{font-size:.62rem;font-weight:850;padding:5px 7px;border-radius:999px;background:#eef3f8;color:#536278}.must{background:#e4f7ef;color:var(--green)}.worth{background:#eaf2ff;color:#1455b8}.scan{background:#fff0d8;color:#8a5700}.secondary{background:#f1effa;color:var(--purple)}.preprint{background:#eee8ff;color:var(--purple)}.review{background:#fff0d8;color:var(--amber)}.fresh{background:#e4f7ef;color:var(--green)}.why,.finding{margin-top:9px;padding:9px 10px;border-radius:9px;font-size:.79rem;line-height:1.45}.why{background:#f7f9fc}.finding{background:#f3f8f6;border-left:3px solid #2c8b68}.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:9px}.fact{border:1px solid var(--line);background:#fafbfc;border-radius:9px;padding:7px 8px;font-size:.68rem;line-height:1.3}.fact b{display:block;color:var(--muted);font-size:.59rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:3px}.actions{justify-content:flex-end;flex-wrap:wrap}.actions a,.actions button{text-decoration:none;border:0;border-radius:9px;padding:7px 9px;font-size:.68rem;font-weight:850}.actions a{background:var(--navy);color:#fff}.actions button{background:#edf2f8;color:var(--ink)}.actions .good{background:#e7f7f0;color:var(--green)}.actions .bad{background:#fff0f0;color:var(--red)}details.analysis{border-top:1px solid var(--line);margin-top:12px;padding-top:10px}details.analysis summary{cursor:pointer;font-weight:850;font-size:.78rem}.analysis-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:9px}.box{border:1px solid var(--line);border-radius:11px;padding:10px;background:#fbfcfe}.box.full{grid-column:1/-1}.box h5{margin:0 0 5px;font-size:.73rem}.box p{margin:0;font-size:.73rem;line-height:1.48;color:#405067}.empty{background:white;border:1px solid var(--line);border-radius:16px;padding:28px;text-align:center;color:var(--muted)}.resource-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.resource{background:white;border:1px solid var(--line);border-radius:15px;padding:13px}.resource h4{margin:2px 0 6px}.resource p{font-size:.76rem;color:var(--muted);line-height:1.43}.resource a{font-size:.74rem;color:var(--blue);font-weight:850}.more{display:block;margin:11px auto 0}.sheet{display:none;position:fixed;inset:0;background:rgba(3,16,37,.55);z-index:50;align-items:flex-end}.sheet.open{display:flex}.sheetbox{width:min(650px,100%);margin:auto;background:#fff;border-radius:22px 22px 0 0;padding:18px;max-height:86vh;overflow:auto}.sheetbox h3{margin-top:0}.reason{display:block;width:100%;text-align:left;margin:6px 0}.note{width:100%;min-height:85px;border:1px solid var(--line);border-radius:10px;padding:10px}.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%) translateY(12px);opacity:0;background:var(--navy);color:#fff;padding:10px 13px;border-radius:10px;z-index:60;transition:.2s}.toast.show{opacity:1;transform:translateX(-50%)}footer{text-align:center;color:var(--muted);font-size:.7rem;padding-top:25px}@media(max-width:760px){.shell{width:calc(100% - 14px)}.stats{grid-template-columns:1fr 1fr}.paper-top{grid-template-columns:1fr}.actions{justify-content:flex-start}.facts,.analysis-grid,.resource-grid{grid-template-columns:1fr}.box.full{grid-column:auto}.status{display:none}.hero{padding:17px}}
-.actions a.lite{background:transparent;border:1px solid currentColor;opacity:.85}.actions{flex-wrap:wrap}.switch{flex-wrap:wrap}</style></head><body><div class="shell"><div class="top"><div class="brandrow"><div class="brand"><div class="logo">PS</div><div><h1>PaperScope</h1><div class="sub">Scientific briefing · prepared automatically</div></div></div><div class="status tiny"><div id="updated">Loading…</div><div id="paperTotal"></div></div></div><div class="toolbar"><input id="search" class="search" placeholder="Search paper, protein, method, model…"><button class="btn" id="refresh">Check latest</button><button class="btn primary" id="install">Install app</button></div><div class="switch"><button class="btn active" id="bestView">Best papers <span id="bestCount"></span></button><button class="btn" id="primaryView">Primary journals <span id="primaryCount"></span></button><button class="btn" id="secondaryView">Secondary journals <span id="secondaryCount"></span></button><button class="btn" id="exportFeedback">Export feedback</button></div><div class="tabs" id="tabs"></div></div>
-<section class="hero"><h2>What deserves your attention?</h2><p>PaperScope separates your JIP3 work from broader neuroscience, lysosome, trafficking, cytoskeleton, iPSC, signaling and neurodegeneration literature. Reviews, preprints and interactive resources stay distinct.</p></section><div class="stats"><div class="stat"><span>Current section</span><strong id="sectionCount">—</strong></div><div class="stat"><span>This week</span><strong id="weeklyCount">—</strong></div><div class="stat"><span>Saved</span><strong id="savedCount">0</strong></div><div class="stat"><span>Reported</span><strong id="reportCount">0</strong></div></div><div class="section-head"><div><h3 id="sectionTitle"></h3><p id="sectionDesc"></p></div><div class="tiny" id="sectionMeta"></div></div><main id="content"></main><footer>PaperScope hosted beta · daily GitHub literature update · feedback stored on this device</footer></div>
+.actions a.lite{background:transparent;border:1px solid currentColor;opacity:.85}.actions{flex-wrap:wrap}.switch{flex-wrap:wrap}.chip.new{background:#fde68a;color:#78350f}.section-tools{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.stats{grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}</style></head><body><div class="shell"><div class="top"><div class="brandrow"><div class="brand"><div class="logo">PS</div><div><h1>PaperScope</h1><div class="sub">Scientific briefing · prepared automatically</div></div></div><div class="status tiny"><div id="updated">Loading…</div><div id="paperTotal"></div></div></div><div class="toolbar"><input id="search" class="search" placeholder="Search paper, protein, method, model…"><button class="btn" id="refresh">Check latest</button><button class="btn primary" id="install">Install app</button></div><div class="switch"><button class="btn active" id="bestView">Best papers <span id="bestCount"></span></button><button class="btn" id="primaryView">Primary journals <span id="primaryCount"></span></button><button class="btn" id="secondaryView">Secondary journals <span id="secondaryCount"></span></button><button class="btn" id="exportFeedback">Export feedback</button></div><div class="tabs" id="tabs"></div></div>
+<section class="hero"><h2>What deserves your attention?</h2><p>PaperScope separates your JIP3 work from broader neuroscience, lysosome, trafficking, cytoskeleton, iPSC, signaling and neurodegeneration literature. Reviews, preprints and interactive resources stay distinct.</p></section><div class="stats"><div class="stat"><span>Current section</span><strong id="sectionCount">—</strong></div><div class="stat"><span>This week</span><strong id="weeklyCount">—</strong></div><div class="stat"><span>Saved</span><strong id="savedCount">0</strong></div><div class="stat"><span>New since last visit</span><strong id="newCount">0</strong></div><div class="stat"><span>Reported</span><strong id="reportCount">0</strong></div></div><div class="section-head"><div><h3 id="sectionTitle"></h3><p id="sectionDesc"></p></div><div class="tiny" id="sectionMeta"></div></div><main id="content"></main><footer>PaperScope hosted beta · daily GitHub literature update · feedback stored on this device</footer></div>
 <div class="sheet" id="reportSheet"><div class="sheetbox"><h3>Report a PaperScope problem</h3><p class="tiny" id="reportTitle"></p><div id="reasonList"></div><textarea id="reportNote" class="note" placeholder="Optional note: what was wrong?"></textarea><div class="actions" style="margin-top:10px"><button id="cancelReport">Cancel</button><button class="primary" id="saveReport">Save report</button></div></div></div><div class="sheet" id="installSheet"><div class="sheetbox"><h3>Install PaperScope</h3><p id="installText"></p><div class="actions"><button id="nativeInstall" class="primary" style="display:none">Install now</button><button id="closeInstall">Close</button></div></div></div><div class="toast" id="toast"></div>
 <script>
+
 const PROFILE = {
   modules: [
     {
@@ -144,141 +145,6 @@ const PROFILE = {
       visible: 99,
     },
   ],
-  primary_journals: [
-    "Nature",
-    "Science",
-    "Cell",
-    "Neuron",
-    "Nature Neuroscience",
-    "Nature Cell Biology",
-    "Nature Genetics",
-    "Nature Medicine",
-    "Nature Communications",
-    "Nature Methods",
-    "Science Advances",
-    "Science Signaling",
-    "Science Translational Medicine",
-    "Molecular Cell",
-    "Developmental Cell",
-    "Cell Stem Cell",
-    "Current Biology",
-    "The EMBO Journal",
-    "EMBO Journal",
-    "Journal of Cell Biology",
-    "Proceedings of the National Academy of Sciences of the United States of America",
-    "Proceedings of the National Academy of Sciences",
-    "PNAS",
-    "Journal of Neuroscience",
-    "The Journal of Neuroscience",
-    "eNeuro",
-    "Glia",
-    "Neurobiology of Disease",
-    "Journal of Neurochemistry",
-    "Cerebral Cortex",
-    "Developmental Neurobiology",
-    "Brain",
-    "Brain Communications",
-    "Acta Neuropathologica",
-    "Acta Neuropathologica Communications",
-    "Molecular Neurodegeneration",
-    "Annals of Neurology",
-    "Molecular Psychiatry",
-    "Biological Psychiatry",
-    "Movement Disorders",
-    "Alzheimer's & Dementia",
-    "Journal of Neuropathology and Experimental Neurology",
-    "Journal of Biological Chemistry",
-    "The Journal of Biological Chemistry",
-    "Journal of Cell Science",
-    "Molecular Biology of the Cell",
-    "Autophagy",
-    "Traffic",
-    "Cytoskeleton",
-    "Biology of the Cell",
-    "Life Science Alliance",
-    "EMBO Reports",
-    "EMBO Molecular Medicine",
-    "Cell Reports",
-    "Cell Reports Methods",
-    "Communications Biology",
-    "iScience",
-    "Development",
-    "eLife",
-    "Human Molecular Genetics",
-    "American Journal of Human Genetics",
-    "The American Journal of Human Genetics",
-    "Genetics in Medicine",
-    "Journal of Medical Genetics",
-    "Disease Models & Mechanisms",
-    "Developmental Dynamics",
-    "Developmental Biology",
-    "Neurogenetics",
-    "Stem Cell Reports",
-    "Stem Cells",
-    "Stem Cell Research",
-    "Cell Genomics",
-    "Genome Biology",
-    "Genome Medicine",
-    "Nature Protocols",
-    "Bioinformatics",
-    "PLOS Computational Biology",
-    "Journal of Microscopy",
-    "Microscopy and Microanalysis",
-    "Cytometry Part A",
-    "Molecular Brain",
-    "Experimental Neurology",
-    "Journal of Comparative Neurology",
-    "Genes, Brain and Behavior",
-    "Journal of Neurodevelopmental Disorders",
-    "Orphanet Journal of Rare Diseases",
-    "Cellular and Molecular Life Sciences",
-    "Aging Cell",
-    "Molecular Neurobiology",
-    "Neuroscience",
-  ],
-  secondary_journals: [
-    "Scientific Reports",
-    "Brain Research",
-    "Parkinsonism & Related Disorders",
-    "Journal of Cell Communication and Signaling",
-    "BMC Neuroscience",
-    "BMC Molecular and Cell Biology",
-    "BMC Biology",
-    "PLOS ONE",
-    "Frontiers in Neuroscience",
-    "Frontiers in Cellular Neuroscience",
-    "Frontiers in Molecular Neuroscience",
-    "Frontiers in Neuroanatomy",
-    "Frontiers in Cell and Developmental Biology",
-    "Frontiers in Aging Neuroscience",
-    "Frontiers in Synaptic Neuroscience",
-    "Frontiers in Genetics",
-    "Frontiers in Molecular Biosciences",
-  ],
-  excluded_journals: [
-    "Cells",
-    "International Journal of Molecular Sciences",
-    "Brain Sciences",
-    "Biomedicines",
-    "Biomolecules",
-    "Genes",
-    "Life",
-    "Biology",
-    "Molecules",
-    "Antioxidants",
-    "Pharmaceuticals",
-    "Cancers",
-    "Diagnostics",
-    "Journal of Clinical Medicine",
-    "Medicina",
-    "International Journal of Environmental Research and Public Health",
-    "Evidence-Based Complementary and Alternative Medicine",
-    "Journal of Ethnopharmacology",
-    "Chinese Medicine",
-    "IJMS",
-    "Membranes",
-    "Cureus",
-  ],
   resources: [
     {
       name: "CURTAIN",
@@ -385,17 +251,6 @@ const PROFILE = {
       tags: ["mouse brain", "microglia", "neurodegeneration", "atlas"],
     },
   ],
-  global_exclude: [
-    "traditional chinese medicine",
-    "chinese herbal medicine",
-    "herbal medicine",
-    "ethnopharmacology",
-    "phytotherapy",
-    "acupuncture",
-    "natural bioactive products",
-    "homeopathy",
-    "ayurvedic",
-  ],
 };
 const BRIEFING =
   "https://raw.githubusercontent.com/PMLLancao/PMpapers/main/data/briefing.json";
@@ -425,6 +280,56 @@ if (!state.ui32) {
   if (!Array.isArray(state[k])) state[k] = [];
 });
 state.expanded = state.expanded || {};
+state.seen = state.seen || {};
+let firstVisit = !Object.keys(state.seen).length;
+function markSeen() {
+  // Called after each load: anything not yet in `seen` is "new" for this visit only.
+  let now = Date.now();
+  papers.forEach((p) => {
+    let k = pid(p);
+    if (!state.seen[k]) state.seen[k] = now;
+  });
+  let keys = Object.keys(state.seen);
+  if (keys.length > 4000)
+    keys
+      .sort((a, b) => state.seen[a] - state.seen[b])
+      .slice(0, keys.length - 4000)
+      .forEach((k) => delete state.seen[k]);
+  persist();
+}
+let visitStart = Date.now();
+function isNew(p) {
+  let t = state.seen[pid(p)];
+  return !firstVisit && (!t || t >= visitStart);
+}
+// ---- Zotero / reference-manager export (RIS)
+function ris(p) {
+  let L = ["TY  - " + (p.review ? "JOUR" : p.source_type === "preprint" ? "UNPB" : "JOUR")];
+  L.push("TI  - " + (p.title || ""));
+  String(p.authors || "")
+    .split(/,\s*/)
+    .filter(Boolean)
+    .forEach((a) => L.push("AU  - " + a));
+  if (p.journal) L.push("JO  - " + p.journal);
+  if (p.date) L.push("DA  - " + String(p.date).replace(/-/g, "/"));
+  if (p.year) L.push("PY  - " + p.year);
+  if (p.doi) L.push("DO  - " + p.doi);
+  if (p.pmid) L.push("AN  - PMID:" + p.pmid);
+  if (p.url) L.push("UR  - " + p.url);
+  if (p.abstract) L.push("AB  - " + p.abstract);
+  L.push("KW  - PaperScope");
+  L.push("ER  - ");
+  return L.join("\r\n");
+}
+function downloadRis(list, name) {
+  let a = document.createElement("a");
+  a.href = URL.createObjectURL(
+    new Blob([list.map(ris).join("\r\n\r\n")], { type: "application/x-research-info-systems" }),
+  );
+  a.download = name + ".ris";
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 500);
+}
 let papers = [],
   briefing = {},
   meta = {},
@@ -482,18 +387,6 @@ function phrase(text, arr) {
 function anyExact(text, arr) {
   return arr.some((x) => exact(text, x));
 }
-function excluded(p) {
-  let b = txt(p),
-    j = norm(p.journal);
-  return (
-    PROFILE.excluded_journals.some((x) => j === norm(x)) ||
-    PROFILE.global_exclude.some((x) => b.includes(norm(x))) ||
-    /\b(kidney|renal|hepatic|liver|cardiac|skin disease|aquaculture|plant)\b/i.test(
-      b,
-    ) ||
-    /cancer therapy|tumou?r therapy/i.test(b)
-  );
-}
 function isPreprint(p) {
   return (
     p.source_type === "preprint" ||
@@ -503,339 +396,8 @@ function isPreprint(p) {
 }
 function tier(p) {
   if (isPreprint(p)) return "Preprint";
-  if (p.journal_tier && p.journal_tier !== "Excluded") return p.journal_tier;
-  let j = norm(p.journal);
-  if (PROFILE.secondary_journals.some((x) => j === norm(x))) return "Secondary";
-  if (PROFILE.primary_journals.some((x) => j === norm(x)))
-    return "Primary / trusted";
-  return "Uncurated";
-}
-function viewTierMatch(p) {
-  let t = tier(p);
-  return state.view === "primary"
-    ? t === "Primary / trusted"
-    : t === "Secondary" || t === "Uncurated";
-}
-function neural(b) {
-  return phrase(b, [
-    "neuron",
-    "neuronal",
-    "brain",
-    "axon",
-    "dendrite",
-    "microglia",
-    "astrocyte",
-    "glia",
-    "ipsc",
-    "organoid",
-    "hippocampus",
-    "cortex",
-    "motor neuron",
-    "neural progenitor",
-  ]);
-}
-function cellbio(b) {
-  return phrase(b, [
-    "hela",
-    "hek293",
-    "u2os",
-    "fibroblast",
-    "mef",
-    "macrophage",
-    "raw 264.7",
-  ]);
-}
-function moduleMatch(p, id) {
-  let b = txt(p);
-  if (excluded(p)) return false;
-  if (id === "saved") return state.saved.includes(pid(p));
-  if (id === "resources") return false;
-  if (id === "preprints") return isPreprint(p) && scientificRelevant(p);
-  if (id === "reviews")
-    return (
-      !isPreprint(p) &&
-      (p.review || /\breview\b/i.test(String(p.type || ""))) &&
-      scientificRelevant(p)
-    );
-  if (isPreprint(p) || p.review || /\breview\b/i.test(String(p.type || "")))
-    return false;
-  if (id === "focus")
-    return (
-      anyExact(b, ["mapk8ip3", "jip3"]) ||
-      (anyExact(b, ["jip4"]) &&
-        phrase(b, [
-          "neuron",
-          "neuronal",
-          "axon",
-          "lysosome",
-          "endosome",
-          "transport",
-        ]))
-    );
-  if (id === "neurodevelopment")
-    return (
-      neural(b) &&
-      phrase(b, [
-        "neurodevelopment",
-        "rare disease",
-        "intellectual disability",
-        "autism",
-        "brain development",
-        "axon guidance",
-        "commissure",
-        "corpus callosum",
-        "mapk8ip3",
-        "jip3",
-        "cc2d1a",
-        "cc2d1b",
-      ])
-    );
-  if (id === "organelle")
-    return (
-      (neural(b) || cellbio(b)) &&
-      phrase(b, [
-        "lysosome",
-        "lysosomal",
-        "endosome",
-        "endosomal",
-        "lysophagy",
-        "lysosomal damage",
-        "lysosomal membrane",
-        "lysosomal repair",
-        "lysosomal exocytosis",
-        "autophagy",
-        "ferroptosis",
-        "iron homeostasis",
-      ])
-    );
-  if (id === "trafficking")
-    return (
-      (neural(b) || cellbio(b)) &&
-      phrase(b, [
-        "retromer",
-        "retriever",
-        "wash",
-        "commander",
-        "exocyst",
-        "escrt",
-        "hops",
-        "corvet",
-        "intracellular trafficking",
-        "membrane trafficking",
-        "axonal transport",
-        "organelle transport",
-        "rab7",
-        "rab10",
-        "rab12",
-        "rab36",
-      ])
-    );
-  if (id === "cytoskeleton")
-    return (
-      neural(b) &&
-      phrase(b, [
-        "cytoskeleton",
-        "microtubule",
-        "actin",
-        "dynein",
-        "dynactin",
-        "kinesin",
-        "myosin",
-        "neuronal polarity",
-        "axon polarity",
-        "growth cone",
-      ])
-    );
-  if (id === "ipsc")
-    return (
-      phrase(b, ["ipsc", "induced pluripotent stem cell", "patient-derived"]) &&
-      phrase(b, [
-        "neuron",
-        "microglia",
-        "astrocyte",
-        "oligodendrocyte",
-        "glia",
-        "organoid",
-        "motor neuron",
-        "neural progenitor",
-      ])
-    );
-  if (id === "omics-imaging") {
-    let method = phrase(b, [
-      "proteomics",
-      "phosphoproteomics",
-      "interactomics",
-      "lipidomics",
-      "metabolomics",
-      "rna-seq",
-      "rna sequencing",
-      "single-cell",
-      "spatial transcriptomics",
-      "atac-seq",
-      "flim",
-      "fret",
-      "live-cell imaging",
-      "super-resolution",
-      "microscopy",
-      "imagej",
-      "fiji",
-      "napari",
-      "segmentation",
-      "tracking",
-    ]);
-    let relevant =
-      neural(b) ||
-      phrase(b, ["lysosome", "endosome", "trafficking", "jip3", "mapk8ip3"]);
-    let tool = phrase(b, [
-      "imagej",
-      "fiji",
-      "napari",
-      "segmentation",
-      "tracking",
-      "software",
-      "workflow",
-      "tool",
-      "resource",
-    ]);
-    let nonpreferred = phrase(b, [
-      "hamster",
-      "drosophila",
-      "zebrafish",
-      "caenorhabditis",
-      "c. elegans",
-      "yeast",
-      "arabidopsis",
-    ]);
-    return method && (tool || (relevant && !nonpreferred));
-  }
-  if (id === "signaling") {
-    let sig =
-      anyExact(b, [
-        "epac",
-        "pka",
-        "akap",
-        "akt",
-        "akt1",
-        "akt2",
-        "akt3",
-        "pi3k",
-        "mtor",
-        "cc2d1a",
-        "cc2d1b",
-        "rab7",
-        "rab10",
-        "rab12",
-        "rab36",
-        "rhoa",
-        "rhob",
-        "rhoc",
-        "rac1",
-        "rac2",
-        "rac3",
-        "cdc42",
-        "tmem55b",
-        "rilpl1",
-        "tbk1",
-        "sting",
-        "chmp4b",
-        "spag9",
-      ]) || phrase(b, ["cyclic amp", "rab gtpase", "rho gtpase"]);
-    return (
-      sig &&
-      (neural(b) ||
-        cellbio(b) ||
-        phrase(b, [
-          "lysosome",
-          "lysosomal",
-          "endosome",
-          "trafficking",
-          "autophagy",
-        ]))
-    );
-  }
-  if (id === "neurodegeneration") {
-    let disease = phrase(b, [
-      "parkinson",
-      "lrrk2",
-      "amyotrophic lateral sclerosis",
-      "frontotemporal dementia",
-      "alzheimer",
-      "neurodegeneration",
-    ]);
-    let mech = phrase(b, [
-      "lysosome",
-      "endosome",
-      "autophagy",
-      "trafficking",
-      "axon",
-      "cytoskeleton",
-      "microtubule",
-      "rab",
-      "rho",
-      "iron",
-      "ferroptosis",
-      "mitochond",
-    ]);
-    return disease && neural(b) && mech;
-  }
-  if (id === "extracellular")
-    return (
-      neural(b) &&
-      phrase(b, [
-        "extracellular vesicle",
-        "exosome",
-        "lysosomal exocytosis",
-        "lysosomal secretion",
-      ])
-    );
-  return false;
-}
-function scientificRelevant(p) {
-  let b = txt(p);
-  return moduleMatchCore(b);
-}
-function moduleMatchCore(b) {
-  return (
-    anyExact(b, [
-      "mapk8ip3",
-      "jip3",
-      "jip4",
-      "cc2d1a",
-      "cc2d1b",
-      "lrrk2",
-      "rab7",
-      "rab10",
-      "rab12",
-      "rab36",
-      "rhoa",
-      "rac1",
-      "cdc42",
-      "tmem55b",
-      "rilpl1",
-      "epac",
-      "pka",
-      "akt",
-    ]) ||
-    phrase(b, [
-      "neurodevelopment",
-      "lysosome",
-      "lysosomal",
-      "endosome",
-      "trafficking",
-      "cytoskeleton",
-      "microtubule",
-      "ipsc",
-      "microglia",
-      "astrocyte",
-      "proteomics",
-      "imagej",
-      "fiji",
-      "parkinson",
-      "alzheimer",
-      "amyotrophic lateral sclerosis",
-      "extracellular vesicle",
-    ])
-  );
+  // Journal tiers are decided by the updater (config/search_config.json).
+  return p.journal_tier && p.journal_tier !== "Excluded" ? p.journal_tier : "Uncurated";
 }
 function dateValue(p) {
   let d = p.date || p.pub_date || p.published || "";
@@ -993,7 +555,7 @@ function makeCard(p, id) {
       p.url ||
       (p.pmid ? "https://pubmed.ncbi.nlm.nih.gov/" + p.pmid + "/" : "#"),
     doi = p.doi ? "https://doi.org/" + p.doi : "";
-  return `<article class="paper"><div class="paper-top"><div><h4>${esc(p.title)}</h4><div class="meta">${esc(p.journal || "")} · ${esc(p.date || p.pub_date || p.year || "")} · ${esc(p.authors || "")}</div><div class="chips"><span class="chip ${pr[1]}">${pr[0]}</span><span class="chip ${t === "Secondary" ? "secondary" : ""}">${esc(t)}</span><span class="chip ${depth.startsWith("full") ? "fresh" : ""}" title="What PaperScope analysed for this card">${esc(depth)}</span>${weekly(p) ? '<span class="chip fresh">This week</span>' : ""}${p.review ? '<span class="chip review">Review</span>' : ""}${isPreprint(p) ? '<span class="chip preprint">Preprint</span>' : ""}</div></div><div class="actions"><a href="${esc(href)}" target="_blank" rel="noopener">${p.pmid ? "PubMed" : "Open"}</a>${doi ? `<a href="${esc(doi)}" target="_blank" rel="noopener">DOI</a>` : ""}${extra.map(([l, u]) => `<a class="lite" href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}</a>`).join("")}<button class="${sv ? "good" : ""}" data-a="save" data-id="${esc(key)}">${sv ? "Saved" : "Save"}</button><button class="${lk ? "good" : ""}" data-a="like" data-id="${esc(key)}">👍</button><button class="${dk ? "bad" : ""}" data-a="dislike" data-id="${esc(key)}">👎</button><button data-a="report" data-id="${esc(key)}">Report</button></div></div><div class="why"><b>Why this was shown:</b> ${esc(p.why_shown || whyShown(p, id))}</div><div class="finding"><b>Main finding:</b> ${esc(finding)}</div>${
+  return `<article class="paper"><div class="paper-top"><div><h4>${esc(p.title)}</h4><div class="meta">${esc(p.journal || "")} · ${esc(p.date || p.pub_date || p.year || "")} · ${esc(p.authors || "")}</div><div class="chips"><span class="chip ${pr[1]}">${pr[0]}</span><span class="chip ${t === "Secondary" ? "secondary" : ""}">${esc(t)}</span><span class="chip ${depth.startsWith("full") ? "fresh" : ""}" title="What PaperScope analysed for this card">${esc(depth)}</span>${isNew(p) ? '<span class="chip new">New</span>' : ""}${weekly(p) ? '<span class="chip fresh">This week</span>' : ""}${p.review ? '<span class="chip review">Review</span>' : ""}${isPreprint(p) ? '<span class="chip preprint">Preprint</span>' : ""}</div></div><div class="actions"><a href="${esc(href)}" target="_blank" rel="noopener">${p.pmid ? "PubMed" : "Open"}</a>${doi ? `<a href="${esc(doi)}" target="_blank" rel="noopener">DOI</a>` : ""}${extra.map(([l, u]) => `<a class="lite" href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}</a>`).join("")}<button class="${sv ? "good" : ""}" data-a="save" data-id="${esc(key)}">${sv ? "Saved" : "Save"}</button><button class="${lk ? "good" : ""}" data-a="like" data-id="${esc(key)}">👍</button><button class="${dk ? "bad" : ""}" data-a="dislike" data-id="${esc(key)}">👎</button><button data-a="cite" data-id="${esc(key)}" title="Download for Zotero / EndNote (RIS)">Zotero</button><button data-a="report" data-id="${esc(key)}">Report</button></div></div><div class="why"><b>Why this was shown:</b> ${esc(p.why_shown || whyShown(p, id))}</div><div class="finding"><b>Main finding:</b> ${esc(finding)}</div>${
     p.review
       ? `<div class="facts"><div class="fact"><b>Topics covered</b>${esc(arr(p.review_topics).join(", ") || ts.join(", ") || "—")}</div><div class="fact"><b>Evidence scope</b>${esc(arr(p.evidence_scope).join(", ") || "Not stated in abstract")}</div><div class="fact"><b>Type</b>Review · synthesis, not a single experiment</div></div>`
       : `<div class="facts"><div class="fact"><b>Targets</b>${esc(ts.join(", ") || "—")}</div><div class="fact"><b>Models</b>${esc(ms.join(", ") || (depth === "abstract-only" ? "Not stated in abstract" : "—"))}</div><div class="fact"><b>Methods</b>${esc(meth.join(", ") || (depth === "abstract-only" ? "Not stated in abstract" : "—"))}</div></div>`
@@ -1086,6 +648,14 @@ function render() {
   $("#content").innerHTML = shown.length
     ? `<div class="paper-list">${shown.map((p) => makeCard(p, state.tab)).join("")}</div>${items.length > visible ? `<button class="btn more" id="moreBtn">${showAll ? "Show top papers" : "Show queue (" + items.length + ")"}</button>` : ""}`
     : `<div class="empty">No papers in this view passed PaperScope’s relevance and quality checks yet. Sections are never padded with weak or off-topic papers; try “Best papers” or check back after the next daily update.</div>`;
+  if (shown.length)
+    $("#content").insertAdjacentHTML(
+      "beforeend",
+      `<div class="section-tools"><button class="btn" id="exportSection">Export these ${shown.length} to Zotero (RIS)</button><a class="btn" href="../data/feeds/${state.tab}.xml" target="_blank" rel="noopener">RSS feed for this section</a></div>`,
+    );
+  let es = $("#exportSection");
+  if (es) es.onclick = () => downloadRis(shown, "paperscope-" + state.tab);
+  $("#newCount").textContent = items.filter(isNew).length;
   $$("[data-a]").forEach((b) => (b.onclick = handleAction));
   let mb = $("#moreBtn");
   if (mb)
@@ -1116,6 +686,10 @@ function handleAction(e) {
   }
   if (a === "report") {
     openReport(p);
+    return;
+  }
+  if (a === "cite") {
+    downloadRis([p], "paperscope-" + (p.pmid || "paper"));
     return;
   }
   persist();
@@ -1232,6 +806,7 @@ function flattenBriefing(b) {
   }
   (b.top10_weekly || []).forEach(add);
   Object.values(b.sections || {}).forEach((s) => {
+    (s.best || []).forEach(add);
     (s.primary || []).forEach(add);
     (s.secondary || []).forEach(add);
   });
@@ -1251,6 +826,7 @@ async function load(manual = false) {
     if (!r[0].ok) throw Error("briefing unavailable");
     briefing = await r[0].json();
     papers = flattenBriefing(briefing);
+    markSeen();
     meta = r[1].ok ? await r[1].json() : {};
     let d = briefing.generated_at_utc
       ? new Date(briefing.generated_at_utc)
@@ -1273,5 +849,6 @@ async function load(manual = false) {
 }
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
 load();
+
 
 </script></body></html>

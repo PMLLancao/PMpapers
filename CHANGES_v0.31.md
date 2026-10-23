@@ -49,3 +49,11 @@ Full-text enrichment (PMC/Europe PMC), review-specific card fields, UI toggle fo
 - Card analysis moved to the updater: curated targets (PKA case-sensitive), models, methods, code/data links, data accessions, stated limitations, PMC full-text link, preprint link. Open-access papers are read in full from Europe PMC (Methods/Results/Discussion); others are labelled **abstract-only**. Reviews show topics + evidence scope instead of fake methods.
 - Must read / Worth reading / Scan now come from the server ranking; "Why this was shown" lists the real reasons.
 - 67 regression checks (added card-analysis checks).
+
+# PaperScope v0.33 — topic-definition relevance, publish guard, reader features (23 Oct 2026)
+
+- **Relevance from written instructions, not people.** `topic_definitions` in `config/search_config.json` holds a plain-English "about" and "not" for every section plus a global "not" list. A small embedding model (BAAI/bge-small-en-v1.5 via fastembed, cached in Actions) scores each paper against them. No author, lab or seed-paper data is used. Keyword gates stay the hard filter; the definition fit adjusts ranking (−15…+12) and appears in "Why this was shown". Edit the definitions to steer a section. If the model fails to load, the updater continues with rules only.
+- **Publish guard:** a run that loses >60% of papers or empties ≥3 sections is refused and the previous data is kept.
+- **RSS feeds** for every section, Top 10, Reviews and Preprints: `https://pmllancao.github.io/PMpapers/data/feeds/<section>.xml`.
+- **App:** "New since last visit" marker and count; per-paper and per-section **Zotero export (RIS)**; RSS link per section; removed the unused browser-side filters and journal lists (the updater is the single source of truth).
+- 73 regression checks.

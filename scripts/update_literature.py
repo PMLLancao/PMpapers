@@ -18,7 +18,7 @@ PREPRINT_DAYS = int(CFG.get("preprint_days", 30))
 session = requests.Session()
 email = os.getenv("USER_EMAIL", "user@example.com")
 api_key = os.getenv("NCBI_API_KEY")
-session.headers.update({"User-Agent": f"PaperScope/0.32 ({email})"})
+session.headers.update({"User-Agent": f"PaperScope/0.33 ({email})"})
 EUTIL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 EPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 
@@ -528,6 +528,61 @@ def strong_for_uncurated(p, sec):
     if sec == "analysis-tools": return m(p.get("title", ""), SOFTWARE + KEYS[sec])
     return title_hit(p, sec)
 
+# ---------------------------------------------------------------------------
+# Topic-definition relevance (v0.33). Each section has a plain-English definition
+# ("about" + "not") in config/search_config.json -> topic_definitions. A small text
+# embedding model scores every paper against those definitions. No author, lab or
+# seed-paper information is used, so ranking stays topic-based, not people-based.
+# margin = similarity to the section's "about" minus the best match among its "not"
+# statements and the global "not" list. Keyword gates remain the hard filter.
+# ---------------------------------------------------------------------------
+SEMANTIC_ENABLED = os.environ.get("PAPERSCOPE_SEMANTIC", "1") == "1"
+SEM_STATS = {}
+
+def load_embedder():
+    if not SEMANTIC_ENABLED: return None
+    try:
+        from fastembed import TextEmbedding
+        return TextEmbedding(CFG.get("semantic_model", "BAAI/bge-small-en-v1.5"),
+                             cache_dir=os.path.expanduser("~/.cache/fastembed"))
+    except Exception as e:
+        print("semantic scoring disabled:", e); return None
+
+def _unit_rows(vs):
+    import numpy as np
+    a = np.asarray(list(vs), dtype="float32")
+    n = np.linalg.norm(a, axis=1, keepdims=True); n[n == 0] = 1
+    return a / n
+
+def semantic_scores(allp, embedder):
+    defs = CFG.get("topic_definitions") or {}
+    if embedder is None or not defs or not allp: return
+    secs = [x for x in TITLES if isinstance(defs.get(x), dict)]
+    texts, idx = [], {}
+    for x in secs:
+        nots = defs[x].get("not", [])
+        idx[x] = (len(texts), len(nots)); texts += [defs[x]["about"]] + nots
+    g0 = len(texts); texts += defs.get("_global_not", [])
+    T = _unit_rows(embedder.embed(texts))
+    P = _unit_rows(embedder.embed([(p.get("title", "") + ". " + (p.get("abstract") or ""))[:2000] for p in allp]))
+    S = P @ T.T
+    for i, p in enumerate(allp):
+        out = {}
+        for x in secs:
+            a, n = idx[x]
+            neg = list(S[i, a + 1:a + 1 + n]) + list(S[i, g0:])
+            about = float(S[i, a])
+            out[x] = [round(about, 4), round(about - float(max(neg) if neg else 0.0), 4)]
+        p["semantic"] = out
+
+def semantic_margin(p, sec):
+    v = (p.get("semantic") or {}).get(sec)
+    return v[1] if v else None
+
+def semantic_label(m_):
+    if m_ is None: return ""
+    return "strong" if m_ >= 0.06 else "moderate" if m_ >= 0.0 else "weak"
+
 def age_days(p):
     """Days since publication. Future-dated records (issue dates ahead of today) return -1."""
     try:
@@ -562,6 +617,8 @@ def score(p, section, review=False):
     elif t == "Secondary": s += 3
     else: s -= 2
     b = blob(p)
+    sm = semantic_margin(p, section)
+    if sm is not None: s += int(max(-15, min(12, round(sm * 120))))   # fit to the written topic definition
     if m(b, NONMODEL): s -= 10                           # deprioritized model organisms
     if section != "focus" and m(p.get("title", ""), TREATMENT):
         s -= 12                                         # "compound X alleviates Y via pathway Z"
@@ -963,12 +1020,15 @@ def analyse_card(p, sec):
     if tg: why.append("central targets: " + ", ".join(tg[:4]))
     if p.get("models"): why.append("model: " + ", ".join(p["models"][:2]))
     why.append("source: " + p.get("journal_tier", tier(p.get("journal"))))
+    sl = semantic_label(semantic_margin(p, sec))
+    if sl: why.append(f"fits the {TITLES.get(sec, sec)} definition: {sl}")
     if p.get("weekly"): why.append("published this week")
     p["why_shown"] = " · ".join(why)
     return p
 
 def build_outputs(allp):
     allp = fold_preprints([enrich(p) for p in allp])
+    semantic_scores(allp, load_embedder())
     # A paper found by one query also belongs to any other section its TITLE is about
     # (e.g. an axon-initial-segment paper found by the imaging query -> Cytoskeleton).
     for p in allp:
@@ -1000,7 +1060,7 @@ def build_outputs(allp):
     for q in rpri[:40] + rsec[:40] + pp[:50]: analyse_card(q, q.get("section_id"))
     counts = {s: {"primary": len(sections[s]["primary"]), "secondary": len(sections[s]["secondary"]),
                   "weekly": sections[s]["weekly_count"]} for s in sections}
-    briefing = {"version": "0.32-cards-10-per-section", "generated_at_utc": NOW.isoformat(),
+    briefing = {"version": "0.33-topic-definitions", "generated_at_utc": NOW.isoformat(),
                 "weekly_days": WEEK, "weekly_start": (NOW - timedelta(days=WEEK)).date().isoformat(),
                 "weekly_end": NOW.date().isoformat(), "top10_weekly": top10, "sections": sections,
                 "reviews": {"window_days": REVIEW_DAYS, "primary": rpri[:40], "secondary": rsec[:40]},
@@ -1016,7 +1076,15 @@ def build_outputs(allp):
              "sections": {},
              "reviews": {"primary_count": len(rpri), "secondary_count": len(rsec), "top_primary": [_brief(p) for p in rpri[:10]]},
              "preprints": {"count": len(pp), "top": [_brief(p, ("sections",)) for p in pp[:12]]},
-             "rejections_by_section": REJECTIONS}
+             "rejections_by_section": REJECTIONS,
+             "semantic": {}}
+    for sec in TITLES:
+        shown = [(semantic_margin(p, sec), p["title"][:120]) for p in sections[sec]["best"][:10]]
+        shown = [t for t in shown if t[0] is not None]
+        if shown:
+            ms = sorted(v for v, _ in shown)
+            audit["semantic"][sec] = {"min": ms[0], "median": ms[len(ms) // 2], "max": ms[-1],
+                                      "weakest_shown": sorted(shown)[:3]}
     for sec in TITLES:
         x = sections[sec]
         audit["sections"][sec] = {"title": TITLES[sec], "primary_count": len(x["primary"]),
@@ -1024,6 +1092,47 @@ def build_outputs(allp):
                                   "top_primary": [_brief(p) for p in x["primary"][:8]],
                                   "top_secondary": [_brief(p) for p in x["secondary"][:8]]}
     return briefing, legacy, meta, audit
+
+SITE = "https://pmllancao.github.io/PMpapers/"
+
+def _rss(title, items, slug):
+    from xml.sax.saxutils import escape as x
+    def item(p):
+        link = p.get("url") or (("https://doi.org/" + p["doi"]) if p.get("doi") else SITE + "paperscope/")
+        desc = f"{p.get('decision','')} · {p.get('journal','')} · {p.get('why_shown','')}\n\n{p.get('main') or p.get('overview') or ''}"
+        try: pub = datetime.fromisoformat(p.get("date", "")).strftime("%a, %d %b %Y 00:00:00 +0000")
+        except Exception: pub = NOW.strftime("%a, %d %b %Y %H:%M:%S +0000")
+        guid = p.get("doi") or p.get("pmid") or norm(p.get("title"))
+        return (f"<item><title>{x(p.get('title',''))}</title><link>{x(link)}</link>"
+                f"<guid isPermaLink=\"false\">{x(str(guid))}</guid><pubDate>{pub}</pubDate>"
+                f"<description>{x(desc)}</description></item>")
+    return ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
+            f"<title>PaperScope · {x(title)}</title><link>{SITE}paperscope/</link>"
+            f"<description>PaperScope briefing: {x(title)}</description>"
+            f"<lastBuildDate>{NOW.strftime('%a, %d %b %Y %H:%M:%S +0000')}</lastBuildDate>"
+            + "".join(item(p) for p in items) + "</channel></rss>")
+
+def write_feeds(briefing):
+    d = DATA / "feeds"; d.mkdir(exist_ok=True)
+    feeds = {"weekly": ("Top 10 This Week", briefing["top10_weekly"]),
+             "preprints": ("Preprints", briefing["preprints"]["papers"][:20]),
+             "reviews": ("Reviews", (briefing["reviews"]["primary"] + briefing["reviews"]["secondary"])[:20])}
+    for sec, x_ in briefing["sections"].items(): feeds[sec] = (x_["title"], x_["best"][:10])
+    for slug, (title, items) in feeds.items():
+        (d / f"{slug}.xml").write_text(_rss(title, items, slug), encoding="utf-8")
+
+def publish_guard(meta):
+    """Refuse to overwrite good data with a broken run (e.g. PubMed outage returns nothing)."""
+    try: prev = json.loads((DATA / "meta.json").read_text())
+    except Exception: return
+    old, new = prev.get("total_papers", 0), meta.get("total_papers", 0)
+    empty_now = [k for k, v in meta.get("section_counts", {}).items()
+                 if v.get("primary", 0) + v.get("secondary", 0) == 0
+                 and (prev.get("section_counts", {}).get(k, {}).get("primary", 0) +
+                      prev.get("section_counts", {}).get(k, {}).get("secondary", 0)) >= 3]
+    if (old >= 100 and new < old * 0.4) or len(empty_now) >= 3:
+        raise SystemExit(f"PUBLISH GUARD: refusing to publish ({old} -> {new} papers; newly empty sections: "
+                         f"{empty_now}). Previous data kept. Check the run log for source outages.")
 
 def main():
     print("PaperScope: recent peer-reviewed research")
@@ -1036,10 +1145,12 @@ def main():
     for st in [research, reviews, preprints]:
         for p in st.values(): merge(merged, p)
     briefing, legacy, meta, audit = build_outputs(list(merged.values()))
+    publish_guard(meta)
     (DATA / "audit.json").write_text(json.dumps(audit, indent=2, ensure_ascii=False))
     (DATA / "briefing.json").write_text(json.dumps(briefing, indent=2, ensure_ascii=False))
     (DATA / "papers.json").write_text(json.dumps(legacy, indent=2, ensure_ascii=False))
     (DATA / "meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
+    write_feeds(briefing)
     print(f"Wrote {meta['total_papers']} unique papers; {meta['weekly_highlight_count']} weekly highlights; "
           f"{meta['reviews_count']} reviews; {meta['preprints_count']} preprints")
 

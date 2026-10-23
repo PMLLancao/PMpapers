@@ -220,6 +220,21 @@ check("Tools: diatom EM segmentation fails", rejects(P("A morphology-driven work
 check("Tools: corneal thickness tool fails", rejects(P("Automated quantification of central corneal epithelial thickness",
       "Software pipeline for OCT images of the cornea in patients.", "PloS one"), "analysis-tools"))
 
+# --- Publish guard -------------------------------------------------------------------------
+import tempfile, json as _json
+_d = Path(tempfile.mkdtemp()); _orig = u.DATA; u.DATA = _d
+(_d / "meta.json").write_text(_json.dumps({"total_papers": 400, "section_counts": {k: {"primary": 5, "secondary": 2} for k in "abc"}}))
+try:
+    u.publish_guard({"total_papers": 30, "section_counts": {k: {"primary": 0, "secondary": 0} for k in "abc"}}); _blocked = False
+except SystemExit: _blocked = True
+check("Publish guard blocks a collapsed run", _blocked)
+try:
+    u.publish_guard({"total_papers": 380, "section_counts": {k: {"primary": 4, "secondary": 2} for k in "abc"}}); _ok = True
+except SystemExit: _ok = False
+check("Publish guard allows a normal run", _ok)
+u.DATA = _orig
+check("Topic definitions exist for every section", all(k in u.CFG.get("topic_definitions", {}) for k in u.TITLES))
+
 print(f"{len(PASS)} passed, {len(FAIL)} failed")
 for f in FAIL: print("  FAIL:", f)
 sys.exit(1 if FAIL else 0)

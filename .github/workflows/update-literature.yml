@@ -35,11 +35,20 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Cache topic-definition model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/fastembed
+          key: fastembed-bge-small-en-v1.5
+
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests fastembed
 
       - name: Relevance regression tests (block publishing if any fail)
         run: python tests/test_gates.py
+        env:
+          PAPERSCOPE_SEMANTIC: "0"
+          PAPERSCOPE_FULLTEXT: "0"
 
       - name: Run updater
         env:
