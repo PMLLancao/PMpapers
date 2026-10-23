@@ -225,7 +225,7 @@ NONMODEL = ["plant", "plants", "arabidopsis", "rice", "maize", "tobacco", "tomat
             "bird", "birds", "chicken*", "dog", "dogs", "canine", "breed", "breeds", "cattle",
             "bovine", "porcine", "pig", "pigs", "sheep", "sea cucumber*", "aquaculture",
             "hamster*", "veterinar*", "livestock", "turtle*", "reptil*", "amphibian*", "frog*",
-            "xenopus", "lizard*", "snake*", "fish", "teleost*"]
+            "xenopus", "lizard*", "snake*", "fish", "teleost*", "diatom*", "algae", "algal"]
 PATHOGEN = ["virus*", "viral", "bacteri*", "infection*", "pathogen*", "xenophagy", "sars cov 2",
             "hiv", "hsv", "escherichia", "salmonella", "mycobacteri*", "tuberculosis"]
 CANCER = ["cancer*", "carcinoma*", "tumor*", "tumour*", "glioma*", "glioblastoma*",
@@ -235,7 +235,8 @@ UNRELATED_ORGAN = ["kidney*", "renal", "liver*", "hepat*", "cardiac", "cardiomyo
                    "myocard*", "skin", "dermal", "dermat*", "pancrea*", "intestin*", "gut",
                    "colitis", "bone", "osteo*", "cartilage", "lung*", "pulmonary", "endoderm*",
                    "dental", "denture*", "tooth", "teeth", "endotox*",
-                   "oocyte*", "sperm*", "testis", "testic*", "ovar*", "uter*", "endometri*"]
+                   "oocyte*", "sperm*", "testis", "testic*", "ovar*", "uter*", "endometri*", "cornea*",
+                   "corneal", "periodont*"]
 HERBAL = ["herbal", "herb", "herbs", "traditional chinese medicine", "chinese medicine",
           "ethnopharmacolog*", "phytotherap*", "acupuncture", "homeopath*", "ayurved*",
           "essential oil*", "decoction*", "saponin*", "flavonoid*", "polysaccharide*",
@@ -246,7 +247,8 @@ HERBAL = ["herbal", "herb", "herbs", "traditional chinese medicine", "chinese me
 # papers that merely use one as a tool compound are unaffected.
 PHYTOCHEMICAL = ["resveratrol", "curcumin", "quercetin", "baicalein", "baicalin", "berberine",
                  "ginsenoside*", "naringenin", "luteolin", "apigenin", "kaempferol", "icariin",
-                 "astragaloside*", "ginkgo*", "imperatorin", "stigmasterol", "schaftoside"]
+                 "astragaloside*", "ginkgo*", "imperatorin", "stigmasterol", "schaftoside", "gastrodin",
+                 "salidroside", "paeoniflorin", "tanshinone*", "emodin", "honokiol"]
 BINOMIAL_DERIVED_RX = re.compile(r"\b[A-Z][a-z]{3,} [a-z]{4,}[- ]derived\b")
 # Product-curation exclusion by journal DOMAIN (generalizes the MDPI list):
 EXCLUDED_JOURNAL_RX = re.compile(
@@ -813,7 +815,10 @@ MODELS = [
     ("knock-in mouse", ["knock in mice", "knock in mouse", "knockin mice", "knockin mouse"]),
     ("knockout / conditional mouse", ["knockout mice", "knockout mouse", "conditional knockout", "cko mice", "null mice", "deficient mice"]),
     ("transgenic mouse", ["transgenic mice", "transgenic mouse"]),
-    ("mouse (in vivo)", ["mice", "mouse"]), ("rat", ["rat", "rats"]),
+    # "mouse"/"rat" alone usually means an antibody host or a cDNA ("mouse anti-tubulin"),
+    # so the animal is only counted from phrases that describe the animal itself.
+    ("mouse (in vivo)", ["mice", "mouse model*", "mouse brain*", "mouse line*", "mouse strain*", "in vivo"]),
+    ("rat", ["rats", "rat model*", "rat brain*", "rat hippocampal neuron*", "rat cortical neuron*"]),
     ("zebrafish", ["zebrafish"]), ("Drosophila", ["drosophila"]), ("C. elegans", ["c elegans", "caenorhabditis"]),
     ("yeast", ["yeast*", "saccharomyces"]), ("non-human primate", ["macaque*", "marmoset*", "non human primate*"]),
     ("HeLa", ["hela"]), ("HEK293", ["hek293*", "hek 293"]), ("U2OS", ["u2os"]), ("SH-SY5Y", ["sh sy5y"]),
@@ -854,7 +859,10 @@ ACCESSION_RX = re.compile(r"\b(GSE\d{4,}|PXD\d{5,}|E-MTAB-\d+|SRP\d{5,}|PRJNA\d{
 LIMIT_RX = re.compile(r"[^.]*\b(limitation|limited by|caveat|we cannot exclude|remains to be determined|"
                       r"future studies|did not assess|was not assessed|small sample)\b[^.]*\.", re.I)
 
+ANTIBODY_HOST_RX = re.compile(r"\b(mouse|rat|rabbit|goat|donkey|chicken|guinea pig|sheep)\s+(anti|monoclonal|polyclonal|igg|igm)\b[\w-]*", re.I)
+
 def _labels(text, table, case_terms=()):
+    text = ANTIBODY_HOST_RX.sub(" ", text or "")
     out = []
     for label, terms in table:
         if m(text, terms): out.append(label)

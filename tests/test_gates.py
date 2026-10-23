@@ -212,6 +212,14 @@ check("Card: reviews get evidence scope, not fake methods", r["methods"] == [] a
 check("Card: JIP3-titled focus paper is Must read",
       u.analyse_card(dict(u.enrich(P("JIP3 in axons", "JIP3")), section_id="focus", section_score=60), "focus")["decision"] == "Must read")
 
+m2 = u.analyse_card(u.enrich(P("JIP3 binds kinesin", "Cells were stained with mouse anti-tubulin and rat anti-HA antibodies in HeLa cells.",
+      "Journal of Cell Biology")), "focus")["models"]
+check("Card: antibody host species are not models", "mouse (in vivo)" not in m2 and "rat" not in m2 and "HeLa" in m2)
+check("Tools: diatom EM segmentation fails", rejects(P("A morphology-driven workflow to decipher 3D electron microscopy segmentation in diatoms",
+      "Software workflow for segmentation of diatom cells imaged by electron microscopy.", "Cell reports methods"), "analysis-tools"))
+check("Tools: corneal thickness tool fails", rejects(P("Automated quantification of central corneal epithelial thickness",
+      "Software pipeline for OCT images of the cornea in patients.", "PloS one"), "analysis-tools"))
+
 print(f"{len(PASS)} passed, {len(FAIL)} failed")
 for f in FAIL: print("  FAIL:", f)
 sys.exit(1 if FAIL else 0)
