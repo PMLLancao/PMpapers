@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T01:00:58.781063+00:00",
+  "generated_at_utc": "2026-10-23T01:04:54.837236+00:00",
   "weekly_top10": [
     {
       "title": "Gαi2 promotes microtubule-driven incorporation of neurofilaments to stabilise nascent axons in vivo.",
@@ -625,19 +625,14 @@
     },
     "analysis-tools": {
       "title": "Analysis Software & Tools",
-      "primary_count": 5,
-      "secondary_count": 5,
+      "primary_count": 4,
+      "secondary_count": 4,
       "weekly_count": 1,
       "top_primary": [
         {
           "title": "napari-lattice: A user-friendly image processing tool for lattice light-sheet microscopy data.",
           "date": "2026-09-09",
           "journal": "Journal of microscopy"
-        },
-        {
-          "title": "A morphology-driven workflow to decipher 3D electron microscopy segmentation in diatoms.",
-          "date": "2026-09-09",
-          "journal": "Cell reports methods"
         },
         {
           "title": "Extended depth-of-field reflected-light microscopy with a low-cost robotic microscope and Fiji focus stacking: Workflow integration and baseline evaluation.",
@@ -675,11 +670,6 @@
           "title": "A Deep Learning Pipeline for Cell Segmentation and Viability Quantification in 3D Constructs From Fluorescence Microscopy Images.",
           "date": "2026-08-12",
           "journal": "Microscopy research and technique"
-        },
-        {
-          "title": "Automated quantification of central corneal epithelial thickness for the diagnosis of limbal stem cell deficiency.",
-          "date": "2026-10-05",
-          "journal": "PloS one"
         }
       ]
     },
@@ -756,7 +746,7 @@
     "extracellular": {
       "title": "Extracellular Vesicles & Lysosomal Secretion",
       "primary_count": 2,
-      "secondary_count": 4,
+      "secondary_count": 3,
       "weekly_count": 0,
       "top_primary": [
         {
@@ -785,11 +775,6 @@
           "title": "Complement C4b and factor B in astrocyte-derived exosomes as novel biomarkers for amnestic mild cognitive impairment.",
           "date": "2026-09-30",
           "journal": "Frontiers in aging neuroscience"
-        },
-        {
-          "title": "Gastrodin inhibits neuronal ferroptosis by regulating mir-455-5p/ACSL4 pathway after stroke via exosome.",
-          "date": "2026-10-01",
-          "journal": "Frontiers in pharmacology"
         }
       ]
     },
@@ -1166,9 +1151,10 @@
         ]
       },
       "herbal/natural-product": {
-        "count": 2,
+        "count": 3,
         "examples": [
           "Exploring the Neural Mechanisms of Acupuncture Stimulation in Autism Spectrum Disorder: Protocol for a Randomized, Sham-Controlled, Multimod",
+          "Salidroside enhances hippocampal neurogenesis in a valproic acid-induced mouse model of autism by suppressing neuroinflammation.",
           "Sex-dependent effects of imperatorin on autistic-like behaviors and BDNF signaling in rats prenatally exposed to valproic acid."
         ]
       },
@@ -1524,11 +1510,11 @@
         ]
       },
       "herbal/natural-product": {
-        "count": 4,
+        "count": 5,
         "examples": [
           "Saponin extract from Astragalus membranaceus (Fisch.) Bunge regulates gut-brain axis through intestinal Escherichia coli to reduce cerebral ",
-          "Xiaoyao San exerts antidepressant effects via the gut microbiota-brain axis: An integrative fMRI and multiomics study.",
-          "Shaoyao Gancao decoction ameliorates vascular dementia by modulating neuroinflammation and oxidative stress pathways."
+          "Gastrodin alleviates acute colitis with comorbid anxiety- and depression-like behaviours rather than cognitive dysfunction by modulating gut",
+          "Xiaoyao San exerts antidepressant effects via the gut microbiota-brain axis: An integrative fMRI and multiomics study."
         ]
       },
       "unrelated organ (title)": {
@@ -1588,19 +1574,19 @@
     },
     "imaging": {
       "non-preferred organism (title)": {
-        "count": 12,
+        "count": 13,
         "examples": [
           "Protein disulphide isomerase protects against ALS/FTD phenotypes associated with cyclin F in zebrafish and cellular models.",
           "Intercalation of organic compounds in layered copper-hydroxide for electrochemical sensor phytohormone in plants.",
           "Early attachment disruption differentially enhances multiple signs of microglia activation in the prefrontal cortex, hippocampus, and preopt"
         ]
       },
-      "imaging used, biology off-profile": {
-        "count": 8,
+      "unrelated organ, no neural context": {
+        "count": 11,
         "examples": [
           "Somatosensory phenotyping in women with persistent genital arousal disorder: a case-control study.",
-          "Decision-making logic for samples of clinically significant EDTA-dependent pseudothrombocytopenia with machine learning.",
-          "Oxidative eustress is associated with AMPK and AKT activation, GLUT4 translocation and glucose uptake in skeletal muscle cells and fibres."
+          "Optimization of Atomic Force Microscopy Cantilever Specifications for Pressure Measurement in Biological Tissues.",
+          "A case of STING-associated vasculopathy with onset in infancy highlighting the pathogenetic role of interferon regulatory factor 5."
         ]
       },
       "topic not central": {
@@ -1612,7 +1598,7 @@
         ]
       },
       "unrelated organ (title)": {
-        "count": 13,
+        "count": 14,
         "examples": [
           "Micro-FTIR identifies osteodifferentiation markers in heterogeneous mesenchymal stem cell populations.",
           "Role of Uterine Artery Doppler Indices in Predicting Endometrial Pathology in Perimenopausal and Postmenopausal Women Presenting with Abnorm",
@@ -1628,7 +1614,7 @@
         ]
       },
       "no biological/cellular context": {
-        "count": 13,
+        "count": 12,
         "examples": [
           "Energy-Resolved Localized Surface Plasmon Resonances With Non-Monochromated STEM-EELS Assisted by Multivariate Analysis.",
           "Contact-Free Mechanical Mapping of 3D Microprinted Hydrogels Using FLIM.",
@@ -1651,19 +1637,19 @@
         ]
       },
       "non-optical/materials microscopy": {
-        "count": 6,
+        "count": 5,
         "examples": [
-          "Optimization of Atomic Force Microscopy Cantilever Specifications for Pressure Measurement in Biological Tissues.",
           "Quantifying Viscosity of Semisolid Submicrometer and Nanosized Individual Aerosols Using Atomic Force Microscopy with Varying Cantilever Vel",
-          "Permeability-Based Measurement of Nanobody Binding to Nuclear Pore Complexes by Transient Scanning Electrochemical Microscopy."
+          "Permeability-Based Measurement of Nanobody Binding to Nuclear Pore Complexes by Transient Scanning Electrochemical Microscopy.",
+          "Prevention of IED threats: a non-destructive and multiparametric detection of pre-blast explosive residues in fabrics using confocal Raman m"
         ]
       },
-      "unrelated organ, no neural context": {
-        "count": 10,
+      "imaging used, biology off-profile": {
+        "count": 7,
         "examples": [
-          "A case of STING-associated vasculopathy with onset in infancy highlighting the pathogenetic role of interferon regulatory factor 5.",
-          "Detection of small extracellular vesicles as biomarkers in tear enabled by shear-horizontal surface acoustic wave biosensor.",
-          "Ferroptosis inhibition and mitochondrial rescue: a novel mechanism of emodin in rheumatoid arthritis."
+          "Decision-making logic for samples of clinically significant EDTA-dependent pseudothrombocytopenia with machine learning.",
+          "Oxidative eustress is associated with AMPK and AKT activation, GLUT4 translocation and glucose uptake in skeletal muscle cells and fibres.",
+          "STED/AFM as a tool to investigate mechanical and adhesive properties of migrating keratinocytes."
         ]
       },
       "cancer focus": {
@@ -1675,11 +1661,11 @@
         ]
       },
       "herbal/natural-product": {
-        "count": 3,
+        "count": 4,
         "examples": [
           "Multifunctional natural polysaccharide peach gum-encapsulated selenium quantum dot nanocrystals monitor and scavenge reactive oxygen species",
-          "Trillin alleviates rheumatoid arthritis by inhibiting TXNIP-mediated mitochondrial damage and NLRP3-dependent pyroptosis.",
-          "Molecular imaging-guided discovery of a potent natural FAPα inhibitor for liver fibrosis therapy."
+          "Ferroptosis inhibition and mitochondrial rescue: a novel mechanism of emodin in rheumatoid arthritis.",
+          "Trillin alleviates rheumatoid arthritis by inhibiting TXNIP-mediated mitochondrial damage and NLRP3-dependent pyroptosis."
         ]
       },
       "notice/correction/retraction": {
@@ -1707,7 +1693,7 @@
         ]
       },
       "unrelated organ, no neural context": {
-        "count": 18,
+        "count": 19,
         "examples": [
           "CCL2/CCR2 axis suggests a role in bridging obesity-related adipose inflammation to Sertoli cell injury in asthenozoospermia: Integrated mult",
           "Deep Learning-Based 3D CT Body Composition Is Associated With Mortality in Patients Undergoing Transcatheter Aortic Valve Replacement.",
@@ -1723,7 +1709,7 @@
         ]
       },
       "unrelated organ (title)": {
-        "count": 20,
+        "count": 22,
         "examples": [
           "A large-scale expert-annotated 3D image dataset of dermal tissue macrophages.",
           "Improving Data Quality, Model Transparency and Performance in Lung Histopathology with Explainable AI.",
@@ -1731,11 +1717,19 @@
         ]
       },
       "topic not central": {
-        "count": 161,
+        "count": 158,
         "examples": [
           "ASFNR Clinical State of Practice Statement on Imaging of Chronic Subdural Hematoma.",
           "Along-tract statistical mapping of white matter abnormalities in children with SeLECTS.",
           "A Cloud-Enabled LIMS-QMS Platform With Large Language Model-Assisted Standard Operating Procedure Generation for GLP/GMP-Aligned Theranostic"
+        ]
+      },
+      "herbal/natural-product": {
+        "count": 8,
+        "examples": [
+          "Integrative genetic analyses for drug repurposing identify emodin as a candidate modulator of STAT3 signaling in abdominal aortic aneurysm.",
+          "CYP1B1 is a potential target of kaempferol in renal fibrosis: a multi‑omics and single‑cell transcriptomics study.",
+          "Peroxynitrite-activated near-infrared fluorescence sensing platform for early non-invasive IBD diagnosis, herbal formula efficacy evaluation"
         ]
       },
       "cancer focus": {
@@ -1760,14 +1754,6 @@
           "A low-resource tracking workflow improves documentation and localizes the latent tuberculosis infection care gap in college student health.",
           "Deep learning-based spatial immunoprofiling of multiplex immunofluorescence images distinguishes tuberculosis disease states in diversity ou",
           "Progresses in viral detection technologies for wastewater-based epidemiology."
-        ]
-      },
-      "herbal/natural-product": {
-        "count": 7,
-        "examples": [
-          "CYP1B1 is a potential target of kaempferol in renal fibrosis: a multi‑omics and single‑cell transcriptomics study.",
-          "Peroxynitrite-activated near-infrared fluorescence sensing platform for early non-invasive IBD diagnosis, herbal formula efficacy evaluation",
-          "A novel zebrafish In vivo phenotype-based high-resolution biochromatography with automated melanin quantification for high-efficient screeni"
         ]
       },
       "tool not for cell/molecular data": {
@@ -1824,7 +1810,7 @@
         ]
       },
       "herbal/natural-product": {
-        "count": 10,
+        "count": 11,
         "examples": [
           "Disporum cantoniense suppresses non‑small cell lung cancer through AMPK/mTOR/ULK1‑mediated autophagy‑dependent apoptosis.",
           "Effects and mechanisms of Stauntonia brachyanthera Hand.-Mazz against Alzheimer's disease through network pharmacology and experimental vali",
@@ -1879,11 +1865,11 @@
         ]
       },
       "unrelated organ (title)": {
-        "count": 10,
+        "count": 9,
         "examples": [
           "Imbalance of renin-angiotensin system in calcium oxalate crystals-induced renal oxidative stress and autophagy.",
           "Imeglimin provides dual hepatic and skeletal muscle protection in experimental MASH-associated sarcopenia.",
-          "Targeting the AMPK signalling pathway: Honokiol modulated energy metabolism to mitigate pulmonary injury induced by airborne microplastics t"
+          "A reproducible computational transcriptomic framework for cell-type-resolved fibroinflammatory-AKT remodeling in human heart failure."
         ]
       },
       "unrelated organ, no neural context": {
@@ -1935,11 +1921,11 @@
         ]
       },
       "herbal/natural-product": {
-        "count": 7,
+        "count": 8,
         "examples": [
           "Effects and mechanisms of Stauntonia brachyanthera Hand.-Mazz against Alzheimer's disease through network pharmacology and experimental vali",
           "Neuroprotective effects of chitosan nanoparticle-loaded orientin in a 6-OHDA-induced Parkinson's disease experimental model in rats.",
-          "The neuroprotective mechanism of baicalein related to mitophagy mediated by MAPK1/RSK1 in a murine model of Parkinson's disease."
+          "Lactoferrin-modified MSC-derived extracellular vesicles facilitate BBB penetration and enhance gastrodin-induced neuroprotection in Parkinso"
         ]
       },
       "topic not central": {
@@ -1993,7 +1979,7 @@
     },
     "extracellular": {
       "topic not central": {
-        "count": 56,
+        "count": 54,
         "examples": [
           "Hypoxic microglia induce oligodendrocyte injury through lactate associated extracellular vesicles and toll like receptor four signaling.",
           "SIRT5 Attenuates Traumatic Brain Injury by Preserving OPA1-Mediated Mitochondrial Fusion and Limiting Oxidative Stress.",
@@ -2009,11 +1995,11 @@
         ]
       },
       "herbal/natural-product": {
-        "count": 10,
+        "count": 13,
         "examples": [
           "Exploring the potential of resveratrol-enriched cord mesenchymal stem cell derived exosomes in an in vitro Parkinson's model.",
           "Astragalus membranaceus-derived exosomes alleviate traumatic brain injury by inhibiting SERPINE1/HIF-1α/NLRP3-mediated pyroptosis.",
-          "Immune cells in cerebral small vessel disease: Emerging roles and potential targeting therapies."
+          "Lactoferrin-modified MSC-derived extracellular vesicles facilitate BBB penetration and enhance gastrodin-induced neuroprotection in Parkinso"
         ]
       },
       "unrelated organ (title)": {

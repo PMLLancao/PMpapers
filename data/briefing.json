@@ -1,6 +1,6 @@
 {
   "version": "0.32-cards-10-per-section",
-  "generated_at_utc": "2026-10-23T01:00:58.781063+00:00",
+  "generated_at_utc": "2026-10-23T01:04:54.837236+00:00",
   "weekly_days": 7,
   "weekly_start": "2026-10-16",
   "weekly_end": "2026-10-23",
@@ -48,7 +48,9 @@
       "section_score": 104,
       "weekly_section": "cytoskeleton",
       "weekly_score": 112,
-      "models": [],
+      "models": [
+        "mouse (in vivo)"
+      ],
       "methods": [
         "super-resolution microscopy"
       ],
@@ -59,7 +61,7 @@
       "data_accessions": [],
       "limitations": [],
       "decision": "Must read",
-      "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Neurofilament · source: Primary / trusted · published this week"
+      "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Neurofilament · model: mouse (in vivo) · source: Primary / trusted · published this week"
     },
     {
       "title": "Integration of polygenic risk with single cell methylation data using met-scDRS.",
@@ -389,8 +391,7 @@
       "weekly_score": 100,
       "models": [
         "human iPSC-derived microglia",
-        "brain organoids / assembloids",
-        "mouse (in vivo)"
+        "brain organoids / assembloids"
       ],
       "methods": [
         "confocal microscopy",
@@ -634,9 +635,7 @@
           "matched_topics_label": "Your Research Focus",
           "section_id": "focus",
           "section_score": 111,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "structural biology (X-ray/AlphaFold/NMR)"
           ],
@@ -654,7 +653,7 @@
           "figure_count": 7,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13499124/",
           "decision": "Must read",
-          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, KIF5/kinesin-1, Dynein · model: mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, KIF5/kinesin-1, Dynein · source: Primary / trusted"
         },
         {
           "title": "Ultrastructural studies reveal a new role for JIP3/MAPK8IP3 in endo-lysosomal maturation within the neuronal cell body.",
@@ -699,9 +698,7 @@
           "matched_topics_label": "Your Research Focus",
           "section_id": "focus",
           "section_score": 111,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "electron microscopy",
             "CRISPR editing / screens",
@@ -721,7 +718,7 @@
           "figure_count": 6,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13329886/",
           "decision": "Must read",
-          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, Dynein, LAMP1 · model: mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, Dynein, LAMP1 · source: Primary / trusted"
         },
         {
           "title": "JIP4 and RILPL1 utilize opposing motor force to dynamically regulate lysosomal tubulation.",
@@ -769,8 +766,6 @@
           "section_id": "focus",
           "section_score": 82,
           "models": [
-            "mouse (in vivo)",
-            "rat",
             "HEK293",
             "U2OS"
           ],
@@ -798,7 +793,7 @@
           "figure_count": 20,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12459091/",
           "decision": "Worth reading",
-          "why_shown": "section: Your Research Focus · topic is in the title · central targets: JIP4/SPAG9, RILPL1, MAPK8IP3/JIP3, KIF5/kinesin-1 · model: mouse (in vivo), rat · source: Primary / trusted"
+          "why_shown": "section: Your Research Focus · topic is in the title · central targets: JIP4/SPAG9, RILPL1, MAPK8IP3/JIP3, KIF5/kinesin-1 · model: HEK293, U2OS · source: Primary / trusted"
         },
         {
           "title": "Disruption of dynactin complex function in intellectual disability.",
@@ -905,8 +900,6 @@
           "section_id": "focus",
           "section_score": 90,
           "models": [
-            "mouse (in vivo)",
-            "rat",
             "patients / clinical cohort"
           ],
           "methods": [
@@ -927,7 +920,7 @@
           "figure_count": 2,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13101558/",
           "decision": "Must read",
-          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3 · model: mouse (in vivo), rat · source: Uncurated"
+          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3 · model: patients / clinical cohort · source: Uncurated"
         },
         {
           "title": "A toxic gain-of-function variant in MAPK8IP3 provides insights into JIP3 cellular roles.",
@@ -1100,9 +1093,7 @@
           "matched_topics_label": "Your Research Focus",
           "section_id": "focus",
           "section_score": 111,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "structural biology (X-ray/AlphaFold/NMR)"
           ],
@@ -1120,7 +1111,7 @@
           "figure_count": 7,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13499124/",
           "decision": "Must read",
-          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, KIF5/kinesin-1, Dynein · model: mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, KIF5/kinesin-1, Dynein · source: Primary / trusted"
         },
         {
           "title": "Ultrastructural studies reveal a new role for JIP3/MAPK8IP3 in endo-lysosomal maturation within the neuronal cell body.",
@@ -1165,9 +1156,7 @@
           "matched_topics_label": "Your Research Focus",
           "section_id": "focus",
           "section_score": 111,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "electron microscopy",
             "CRISPR editing / screens",
@@ -1187,7 +1176,7 @@
           "figure_count": 6,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13329886/",
           "decision": "Must read",
-          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, Dynein, LAMP1 · model: mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, Dynein, LAMP1 · source: Primary / trusted"
         },
         {
           "title": "Characterization of a novel inherited splice-site variant in MAPK8IP3 expands the genetic and phenotypic spectrum of neurodevelopmental disorders.",
@@ -1233,8 +1222,6 @@
           "section_id": "focus",
           "section_score": 90,
           "models": [
-            "mouse (in vivo)",
-            "rat",
             "patients / clinical cohort"
           ],
           "methods": [
@@ -1255,7 +1242,7 @@
           "figure_count": 2,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13101558/",
           "decision": "Must read",
-          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3 · model: mouse (in vivo), rat · source: Uncurated"
+          "why_shown": "section: Your Research Focus · topic is in the title · central targets: MAPK8IP3/JIP3 · model: patients / clinical cohort · source: Uncurated"
         },
         {
           "title": "A toxic gain-of-function variant in MAPK8IP3 provides insights into JIP3 cellular roles.",
@@ -1376,8 +1363,6 @@
           "section_id": "focus",
           "section_score": 82,
           "models": [
-            "mouse (in vivo)",
-            "rat",
             "HEK293",
             "U2OS"
           ],
@@ -1405,7 +1390,7 @@
           "figure_count": 20,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12459091/",
           "decision": "Worth reading",
-          "why_shown": "section: Your Research Focus · topic is in the title · central targets: JIP4/SPAG9, RILPL1, MAPK8IP3/JIP3, KIF5/kinesin-1 · model: mouse (in vivo), rat · source: Primary / trusted"
+          "why_shown": "section: Your Research Focus · topic is in the title · central targets: JIP4/SPAG9, RILPL1, MAPK8IP3/JIP3, KIF5/kinesin-1 · model: HEK293, U2OS · source: Primary / trusted"
         },
         {
           "title": "Comprehensive Clinical Characteristics, Longitudinal Adaptive Functioning, and Electroencephalogram Activity in MAPK8IP3-Related Neurodevelopmental Disorder.",
@@ -3676,8 +3661,6 @@
           "section_id": "organelle",
           "section_score": 88,
           "models": [
-            "mouse (in vivo)",
-            "rat",
             "Drosophila"
           ],
           "methods": [
@@ -3701,7 +3684,7 @@
           "figure_count": 18,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13661049/",
           "decision": "Worth reading",
-          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: RAB GTPases, RAB7, RAB10 · model: mouse (in vivo), rat · source: Primary / trusted"
+          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: RAB GTPases, RAB7, RAB10 · model: Drosophila · source: Primary / trusted"
         },
         {
           "title": "Astrocytic cathepsin D promotes α-synuclein processing and Lewy neurite-like aggregate maturation.",
@@ -3873,7 +3856,6 @@
           "section_score": 80,
           "models": [
             "transgenic mouse",
-            "rat",
             "HEK293",
             "purified proteins / in vitro reconstitution"
           ],
@@ -3901,7 +3883,7 @@
           "figure_count": 7,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13661657/",
           "decision": "Scan",
-          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: mTORC1/mTOR, LAMP1, Cathepsins, Galectin-3 · model: transgenic mouse, rat · source: Primary / trusted"
+          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: mTORC1/mTOR, LAMP1, Cathepsins, Galectin-3 · model: transgenic mouse, HEK293 · source: Primary / trusted"
         },
         {
           "title": "Autolysosomal enhancer GHF201 attenuates pathophysiology in a mucopolysaccharidosis type I mouse model.",
@@ -4016,9 +3998,7 @@
           "matched_topics_label": "Your Research Focus",
           "section_id": "organelle",
           "section_score": 77,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "electron microscopy",
             "CRISPR editing / screens",
@@ -4038,7 +4018,7 @@
           "figure_count": 6,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13329886/",
           "decision": "Scan",
-          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, Dynein, LAMP1 · model: mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, Dynein, LAMP1 · source: Primary / trusted"
         },
         {
           "title": "RYR:ATP6V0A1 complexes couple ER-lysosome contact sites to dynamic autophagy control.",
@@ -4574,7 +4554,6 @@
           "section_score": 72,
           "models": [
             "mouse (in vivo)",
-            "rat",
             "HeLa"
           ],
           "methods": [
@@ -4599,7 +4578,7 @@
           "figure_count": 6,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13671750/",
           "decision": "Scan",
-          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: LAMP1 · model: mouse (in vivo), rat · source: Uncurated"
+          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: LAMP1 · model: mouse (in vivo), HeLa · source: Uncurated"
         },
         {
           "title": "Aβ-induced CaMKII hyperactivation is associated with impaired lysosomal maturation and mitophagy.",
@@ -4643,8 +4622,7 @@
           "section_id": "organelle",
           "section_score": 72,
           "models": [
-            "mouse (in vivo)",
-            "rat"
+            "mouse (in vivo)"
           ],
           "methods": [],
           "targets": [],
@@ -4652,7 +4630,7 @@
           "data_accessions": [],
           "limitations": [],
           "decision": "Scan",
-          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · model: mouse (in vivo), rat · source: Uncurated"
+          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · model: mouse (in vivo) · source: Uncurated"
         },
         {
           "title": "Lack of cathepsin B increases severity in Niemann-Pick disease, type C1 mice.",
@@ -4972,8 +4950,6 @@
           "section_id": "organelle",
           "section_score": 88,
           "models": [
-            "mouse (in vivo)",
-            "rat",
             "Drosophila"
           ],
           "methods": [
@@ -4997,7 +4973,7 @@
           "figure_count": 18,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13661049/",
           "decision": "Worth reading",
-          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: RAB GTPases, RAB7, RAB10 · model: mouse (in vivo), rat · source: Primary / trusted"
+          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: RAB GTPases, RAB7, RAB10 · model: Drosophila · source: Primary / trusted"
         },
         {
           "title": "Astrocytic cathepsin D promotes α-synuclein processing and Lewy neurite-like aggregate maturation.",
@@ -5169,7 +5145,6 @@
           "section_score": 80,
           "models": [
             "transgenic mouse",
-            "rat",
             "HEK293",
             "purified proteins / in vitro reconstitution"
           ],
@@ -5197,7 +5172,7 @@
           "figure_count": 7,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13661657/",
           "decision": "Scan",
-          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: mTORC1/mTOR, LAMP1, Cathepsins, Galectin-3 · model: transgenic mouse, rat · source: Primary / trusted"
+          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: mTORC1/mTOR, LAMP1, Cathepsins, Galectin-3 · model: transgenic mouse, HEK293 · source: Primary / trusted"
         },
         {
           "title": "Autolysosomal enhancer GHF201 attenuates pathophysiology in a mucopolysaccharidosis type I mouse model.",
@@ -5312,9 +5287,7 @@
           "matched_topics_label": "Your Research Focus",
           "section_id": "organelle",
           "section_score": 77,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "electron microscopy",
             "CRISPR editing / screens",
@@ -5334,7 +5307,7 @@
           "figure_count": 6,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13329886/",
           "decision": "Scan",
-          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, Dynein, LAMP1 · model: mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: MAPK8IP3/JIP3, JIP4/SPAG9, Dynein, LAMP1 · source: Primary / trusted"
         },
         {
           "title": "RYR:ATP6V0A1 complexes couple ER-lysosome contact sites to dynamic autophagy control.",
@@ -5868,7 +5841,6 @@
           "section_score": 72,
           "models": [
             "mouse (in vivo)",
-            "rat",
             "HeLa"
           ],
           "methods": [
@@ -5893,7 +5865,7 @@
           "figure_count": 6,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13671750/",
           "decision": "Scan",
-          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: LAMP1 · model: mouse (in vivo), rat · source: Uncurated"
+          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · central targets: LAMP1 · model: mouse (in vivo), HeLa · source: Uncurated"
         },
         {
           "title": "Aβ-induced CaMKII hyperactivation is associated with impaired lysosomal maturation and mitophagy.",
@@ -5937,8 +5909,7 @@
           "section_id": "organelle",
           "section_score": 72,
           "models": [
-            "mouse (in vivo)",
-            "rat"
+            "mouse (in vivo)"
           ],
           "methods": [],
           "targets": [],
@@ -5946,7 +5917,7 @@
           "data_accessions": [],
           "limitations": [],
           "decision": "Scan",
-          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · model: mouse (in vivo), rat · source: Uncurated"
+          "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · model: mouse (in vivo) · source: Uncurated"
         },
         {
           "title": "Lack of cathepsin B increases severity in Niemann-Pick disease, type C1 mice.",
@@ -6224,7 +6195,6 @@
           "section_id": "trafficking",
           "section_score": 86,
           "models": [
-            "mouse (in vivo)",
             "yeast"
           ],
           "methods": [
@@ -6252,7 +6222,7 @@
           "figure_count": 6,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13652892/",
           "decision": "Worth reading",
-          "why_shown": "section: Intracellular Trafficking & Organelle Transport · topic is in the title · central targets: TDP-43, KIF5/kinesin-1, KIF1A, KLC1 · model: mouse (in vivo), yeast · source: Primary / trusted"
+          "why_shown": "section: Intracellular Trafficking & Organelle Transport · topic is in the title · central targets: TDP-43, KIF5/kinesin-1, KIF1A, KLC1 · model: yeast · source: Primary / trusted"
         },
         {
           "title": "Parkinson's disease-linked D620N mutation selectively alters the brain-specific protein interactome of VPS35.",
@@ -6593,8 +6563,7 @@
           "section_id": "trafficking",
           "section_score": 80,
           "models": [
-            "knockout / conditional mouse",
-            "rat"
+            "knockout / conditional mouse"
           ],
           "methods": [
             "confocal microscopy",
@@ -6613,7 +6582,7 @@
           "figure_count": 8,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13662985/",
           "decision": "Scan",
-          "why_shown": "section: Intracellular Trafficking & Organelle Transport · topic is in the title · central targets: VPS35/retromer · model: knockout / conditional mouse, rat · source: Uncurated"
+          "why_shown": "section: Intracellular Trafficking & Organelle Transport · topic is in the title · central targets: VPS35/retromer · model: knockout / conditional mouse · source: Uncurated"
         }
       ],
       "best": [
@@ -6724,7 +6693,6 @@
           "section_id": "trafficking",
           "section_score": 86,
           "models": [
-            "mouse (in vivo)",
             "yeast"
           ],
           "methods": [
@@ -6752,7 +6720,7 @@
           "figure_count": 6,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13652892/",
           "decision": "Worth reading",
-          "why_shown": "section: Intracellular Trafficking & Organelle Transport · topic is in the title · central targets: TDP-43, KIF5/kinesin-1, KIF1A, KLC1 · model: mouse (in vivo), yeast · source: Primary / trusted"
+          "why_shown": "section: Intracellular Trafficking & Organelle Transport · topic is in the title · central targets: TDP-43, KIF5/kinesin-1, KIF1A, KLC1 · model: yeast · source: Primary / trusted"
         },
         {
           "title": "Parkinson's disease-linked D620N mutation selectively alters the brain-specific protein interactome of VPS35.",
@@ -7033,8 +7001,7 @@
           "section_id": "trafficking",
           "section_score": 80,
           "models": [
-            "knockout / conditional mouse",
-            "rat"
+            "knockout / conditional mouse"
           ],
           "methods": [
             "confocal microscopy",
@@ -7053,7 +7020,7 @@
           "figure_count": 8,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13662985/",
           "decision": "Scan",
-          "why_shown": "section: Intracellular Trafficking & Organelle Transport · topic is in the title · central targets: VPS35/retromer · model: knockout / conditional mouse, rat · source: Uncurated"
+          "why_shown": "section: Intracellular Trafficking & Organelle Transport · topic is in the title · central targets: VPS35/retromer · model: knockout / conditional mouse · source: Uncurated"
         },
         {
           "title": "Hyperactive KIF5A in Neurodegeneration.",
@@ -7162,7 +7129,9 @@
           "matched_topics_label": "Cytoskeleton in Neurons & Organelle Biology",
           "section_id": "cytoskeleton",
           "section_score": 104,
-          "models": [],
+          "models": [
+            "mouse (in vivo)"
+          ],
           "methods": [
             "super-resolution microscopy"
           ],
@@ -7173,7 +7142,7 @@
           "data_accessions": [],
           "limitations": [],
           "decision": "Must read",
-          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Neurofilament · source: Primary / trusted · published this week"
+          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Neurofilament · model: mouse (in vivo) · source: Primary / trusted · published this week"
         },
         {
           "title": "DNAAF19-RUVBL1/2 complex recruits multiple adaptors to promote dynein arm assembly.",
@@ -7217,7 +7186,6 @@
           "section_id": "cytoskeleton",
           "section_score": 92,
           "models": [
-            "mouse (in vivo)",
             "HEK293"
           ],
           "methods": [
@@ -7236,7 +7204,7 @@
           "figure_count": 7,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663681/",
           "decision": "Worth reading",
-          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Dynein · model: mouse (in vivo), HEK293 · source: Primary / trusted"
+          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Dynein · model: HEK293 · source: Primary / trusted"
         },
         {
           "title": "Tau hyperphosphorylation impairs cooperative binding to microtubules and perturbs organelle trafficking in neurons.",
@@ -7412,9 +7380,7 @@
           "matched_topics_label": "Microscopy & Imaging",
           "section_id": "cytoskeleton",
           "section_score": 81,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "single-molecule / optical trap"
           ],
@@ -7425,7 +7391,7 @@
           "figure_count": 7,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13371924/",
           "decision": "Scan",
-          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · model: mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · source: Primary / trusted"
         },
         {
           "title": "The postsynaptic scaffold protein ABLIM1 regulates seizure susceptibility by maintaining GluA2 membrane localization in chronic epilepsy.",
@@ -8078,7 +8044,9 @@
           "matched_topics_label": "Cytoskeleton in Neurons & Organelle Biology",
           "section_id": "cytoskeleton",
           "section_score": 104,
-          "models": [],
+          "models": [
+            "mouse (in vivo)"
+          ],
           "methods": [
             "super-resolution microscopy"
           ],
@@ -8089,7 +8057,7 @@
           "data_accessions": [],
           "limitations": [],
           "decision": "Must read",
-          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Neurofilament · source: Primary / trusted · published this week"
+          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Neurofilament · model: mouse (in vivo) · source: Primary / trusted · published this week"
         },
         {
           "title": "DNAAF19-RUVBL1/2 complex recruits multiple adaptors to promote dynein arm assembly.",
@@ -8133,7 +8101,6 @@
           "section_id": "cytoskeleton",
           "section_score": 92,
           "models": [
-            "mouse (in vivo)",
             "HEK293"
           ],
           "methods": [
@@ -8152,7 +8119,7 @@
           "figure_count": 7,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13663681/",
           "decision": "Worth reading",
-          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Dynein · model: mouse (in vivo), HEK293 · source: Primary / trusted"
+          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Dynein · model: HEK293 · source: Primary / trusted"
         },
         {
           "title": "Tau hyperphosphorylation impairs cooperative binding to microtubules and perturbs organelle trafficking in neurons.",
@@ -8328,9 +8295,7 @@
           "matched_topics_label": "Microscopy & Imaging",
           "section_id": "cytoskeleton",
           "section_score": 81,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "single-molecule / optical trap"
           ],
@@ -8341,7 +8306,7 @@
           "figure_count": 7,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13371924/",
           "decision": "Scan",
-          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · model: mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · source: Primary / trusted"
         },
         {
           "title": "The postsynaptic scaffold protein ABLIM1 regulates seizure susceptibility by maintaining GluA2 membrane localization in chronic epilepsy.",
@@ -9002,8 +8967,7 @@
           "section_score": 92,
           "models": [
             "human iPSC-derived microglia",
-            "brain organoids / assembloids",
-            "mouse (in vivo)"
+            "brain organoids / assembloids"
           ],
           "methods": [
             "confocal microscopy",
@@ -9304,7 +9268,6 @@
           "section_score": 80,
           "models": [
             "primary neurons (other)",
-            "mouse (in vivo)",
             "patients / clinical cohort",
             "purified proteins / in vitro reconstitution"
           ],
@@ -9321,7 +9284,7 @@
           "figure_count": 5,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676730/",
           "decision": "Scan",
-          "why_shown": "section: Human iPSC Neural Models · central targets: TDP-43 · model: primary neurons (other), mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Human iPSC Neural Models · central targets: TDP-43 · model: primary neurons (other), patients / clinical cohort · source: Primary / trusted"
         },
         {
           "title": "APTX deficiency is associated with altered neuronal differentiation and alternative splicing in patient-derived neurons.",
@@ -9720,8 +9683,7 @@
           "section_score": 92,
           "models": [
             "human iPSC-derived microglia",
-            "brain organoids / assembloids",
-            "mouse (in vivo)"
+            "brain organoids / assembloids"
           ],
           "methods": [
             "confocal microscopy",
@@ -10074,7 +10036,6 @@
           "section_score": 80,
           "models": [
             "primary neurons (other)",
-            "mouse (in vivo)",
             "patients / clinical cohort",
             "purified proteins / in vitro reconstitution"
           ],
@@ -10091,7 +10052,7 @@
           "figure_count": 5,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676730/",
           "decision": "Scan",
-          "why_shown": "section: Human iPSC Neural Models · central targets: TDP-43 · model: primary neurons (other), mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Human iPSC Neural Models · central targets: TDP-43 · model: primary neurons (other), patients / clinical cohort · source: Primary / trusted"
         },
         {
           "title": "APTX deficiency is associated with altered neuronal differentiation and alternative splicing in patient-derived neurons.",
@@ -13666,10 +13627,7 @@
           "matched_topics_label": "Microscopy & Imaging",
           "section_id": "imaging",
           "section_score": 88,
-          "models": [
-            "mouse (in vivo)",
-            "rat"
-          ],
+          "models": [],
           "methods": [
             "confocal microscopy",
             "two-photon imaging",
@@ -13682,7 +13640,7 @@
           "figure_count": 8,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13544203/",
           "decision": "Worth reading",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: mouse (in vivo), rat · source: Primary / trusted"
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · source: Primary / trusted"
         },
         {
           "title": "Space-time light-sheet microscopy.",
@@ -13783,9 +13741,7 @@
           "matched_topics_label": "Microscopy & Imaging",
           "section_id": "imaging",
           "section_score": 86,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "two-photon imaging"
           ],
@@ -13798,7 +13754,7 @@
           "figure_count": 7,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13660992/",
           "decision": "Worth reading",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · source: Primary / trusted"
         },
         {
           "title": "Septins as novel regulators of podosome cluster organization and dynamics in human immature dendritic cells.",
@@ -14024,7 +13980,6 @@
           "section_id": "imaging",
           "section_score": 84,
           "models": [
-            "mouse (in vivo)",
             "COS-7"
           ],
           "methods": [
@@ -14040,7 +13995,7 @@
           "figure_count": 5,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13645634/",
           "decision": "Worth reading",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: mouse (in vivo), COS-7 · source: Primary / trusted"
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: COS-7 · source: Primary / trusted"
         },
         {
           "title": "Volume electron microscopy reveals oligodendrocyte axon selection patterns and spatial assembly of myelin and nodes.",
@@ -14083,9 +14038,7 @@
           "matched_topics_label": "Microscopy & Imaging",
           "section_id": "imaging",
           "section_score": 82,
-          "models": [
-            "rat"
-          ],
+          "models": [],
           "methods": [
             "electron microscopy",
             "machine learning / modelling"
@@ -14099,7 +14052,7 @@
           "figure_count": 4,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676743/",
           "decision": "Worth reading",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: rat · source: Primary / trusted"
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · source: Primary / trusted"
         },
         {
           "title": "Submicromolar imaging of intrinsic chromophores by two-photon photothermal microscopy captures mitochondrial response to chemotherapy.",
@@ -14836,60 +14789,6 @@
           "why_shown": "section: Microscopy & Imaging · topic is in the title · model: mouse (in vivo), Drosophila · source: Primary / trusted"
         },
         {
-          "title": "A morphology-driven workflow to decipher 3D electron microscopy segmentation in diatoms.",
-          "abstract": "Cells display diverse shapes, sizes, and internal structures, particularly among microbial species. These differences reflect how cells adapt to their environments and perform essential functions. Modern three-dimensional (3D) electron microscopy captures this diversity at the nanometer scale, but analysis is slow because structures must be outlined manually by experts. Artificial intelligence (AI) has improved image analysis in medical and cell biology research by learning from repeated observations. However, studies of microbial and microalgal biodiversity often rely on single snapshots, complicating automated analysis because AI must learn from static morphology. In this study, we developed an AI-assisted segmentation framework for whole-cell 3D electron microscopy data. By comparing neural network architectures and using transfer learning and contrast-aware strategies, we showed that accurate segmentation is possible with limited training data and standard computing resources. Our method enables faster, reproducible analysis of cellular ultrastructure, supporting large-scale investigations into cell morphology and diversity.",
-          "journal": "Cell reports methods",
-          "date": "2026-09-09",
-          "year": 2026,
-          "authors": "Uwizeye C, Flori S, Angulo J, Jouneau PH, Gallet B, Albanese P, Finazzi G",
-          "pmid": "42716016",
-          "pmcid": "",
-          "doi": "10.1016/j.crmeth.2026.101594",
-          "preprint_doi": "",
-          "review": false,
-          "publication_types": [
-            "Journal Article"
-          ],
-          "sections": [
-            "imaging",
-            "analysis-tools"
-          ],
-          "matched_topics": [
-            "Microscopy & Imaging",
-            "Analysis Software & Tools"
-          ],
-          "retrieval_lanes": [
-            "weekly+recent"
-          ],
-          "sources": [
-            "PubMed"
-          ],
-          "source_type": "paper",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42716016/",
-          "overview": "Cells display diverse shapes, sizes, and internal structures, particularly among microbial species.",
-          "main": "Our method enables faster, reproducible analysis of cellular ultrastructure, supporting large-scale investigations into cell morphology and diversity.",
-          "journal_tier": "Primary / trusted",
-          "age_days": 44,
-          "date_uncertain": false,
-          "weekly": false,
-          "analysis_depth": "abstract-only",
-          "full_text_available": false,
-          "sources_label": "PubMed",
-          "matched_topics_label": "Microscopy & Imaging",
-          "section_id": "imaging",
-          "section_score": 76,
-          "models": [],
-          "methods": [
-            "electron microscopy"
-          ],
-          "targets": [],
-          "code_data_links": [],
-          "data_accessions": [],
-          "limitations": [],
-          "decision": "Scan",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · source: Primary / trusted"
-        },
-        {
           "title": "Super-resolution imaging reveals altered actin architecture at CAR-T cell immune synapses.",
           "abstract": "The actin cytoskeleton plays a key integrative role in immunological synapse (IS) formation during T cell activation, but how these dynamics are altered in chimeric antigen receptor (CAR)-T cells remains unclear. Here, we used stimulated emission depletion (STED) microscopy to perform the first super-resolution analysis of actin remodeling at the IS in single- and dual (CD19/CD22) CAR-T cells, activated on supported lipid bilayers across different time points. Quantitative imaging reveals that CAR-T cells form structurally distinct synapses to untransduced cells, characterized by reduced actin-depleted regions, fewer actin foci, and persistent microvilli-like protrusions. These features indicate incomplete cytoskeletal contraction and impaired actin network reorganization, leading to partial synapse maturation. Our findings highlight fundamental differences in actin dynamics between CAR- and TCR-mediated signaling and suggest that defective actin remodeling may contribute to unstable synapse formation, altered signaling integration, and dysregulated responses or off-target effects. These insights could inform future CAR-T engineering strategies to enhance safety and efficacy.",
           "journal": "The Journal of cell biology",
@@ -15064,7 +14963,6 @@
           "section_id": "imaging",
           "section_score": 75,
           "models": [
-            "mouse (in vivo)",
             "HeLa"
           ],
           "methods": [
@@ -15086,7 +14984,7 @@
           "figure_count": 5,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13195108/",
           "decision": "Scan",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: mouse (in vivo), HeLa · source: Primary / trusted"
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: HeLa · source: Primary / trusted"
         },
         {
           "title": "Deep learning-enhanced single-shot triorganelle STED-FLIM imaging of lipid dynamics in living cells.",
@@ -15189,9 +15087,7 @@
           "matched_topics_label": "Microscopy & Imaging",
           "section_id": "imaging",
           "section_score": 74,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "two-photon imaging",
             "calcium imaging"
@@ -15201,7 +15097,69 @@
           "data_accessions": [],
           "limitations": [],
           "decision": "Scan",
-          "why_shown": "section: Microscopy & Imaging · model: mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Microscopy & Imaging · source: Primary / trusted"
+        },
+        {
+          "title": "Efficient spatio-angular reconstruction enables high-fidelity mapping of six-dimensional structures and dynamics with polarized fluorescence microscopy.",
+          "abstract": "Understanding molecular orientation and density distributions is essential for unveiling biological structure and function. Polarized fluorescence microscopy (PFM) offers valuable insights into the structural orientation information, yet existing methods typically retrieve only ensemble-averaged orientations within each voxel and struggle to resolve comprehensive three-dimensional (3D) orientation distributions, particularly in thick or densely labeled complex specimens. Here we introduce the efficient generalized Richardson-Lucy (eGRL) algorithm, a computational framework that reconstructs complete 3D position and 3D orientation (spatio-angular) distributions of fluorescent molecules from PFM measurements. eGRL statistically models the oriented-fluorophore imaging process, solves the inverse problem with an iterative maximum-likelihood solution, and integrates dimensionality reduction with angular-domain transformation to achieve accurate and efficient reconstruction on standard computational platforms. Validated on simulated and experimental data across diverse PFM implementations, eGRL resolves previously inaccessible spatio-angular structures and dynamics, including actin filament alignment, nanowire-guided cytoskeletal organization, rotational actin patterns, and membrane tension-induced anisotropy in live cells.",
+          "journal": "Nature communications",
+          "date": "2026-08-17",
+          "year": 2026,
+          "authors": "Liu J, Chandler T, Li Y, Agashe A, Wei M, Su Y, Wu Y, Baskin TI, Jaumouillé V, Chen J",
+          "pmid": "42744799",
+          "pmcid": "PMC13578705",
+          "doi": "10.1038/s41467-026-76703-0",
+          "preprint_doi": "",
+          "review": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "sections": [
+            "imaging"
+          ],
+          "matched_topics": [
+            "Microscopy & Imaging"
+          ],
+          "retrieval_lanes": [
+            "weekly+recent"
+          ],
+          "sources": [
+            "PubMed"
+          ],
+          "source_type": "paper",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42744799/",
+          "overview": "Understanding molecular orientation and density distributions is essential for unveiling biological structure and function.",
+          "main": "Validated on simulated and experimental data across diverse PFM implementations, eGRL resolves previously inaccessible spatio-angular structures and dynamics, including actin filament alignment, nanowire-guided cytoskeletal organization, rotational actin patterns, and membrane tension-induced anisotropy in live cells.",
+          "journal_tier": "Primary / trusted",
+          "age_days": 67,
+          "date_uncertain": false,
+          "weekly": false,
+          "analysis_depth": "full text (open access)",
+          "full_text_available": true,
+          "sources_label": "PubMed",
+          "matched_topics_label": "Microscopy & Imaging",
+          "section_id": "imaging",
+          "section_score": 74,
+          "models": [
+            "HeLa",
+            "U2OS"
+          ],
+          "methods": [
+            "live-cell imaging",
+            "electron microscopy",
+            "light-sheet imaging",
+            "immunofluorescence / IHC"
+          ],
+          "targets": [],
+          "code_data_links": [
+            "https://github.com/ejunyuliu/PFM-tool"
+          ],
+          "data_accessions": [],
+          "limitations": [],
+          "figure_count": 5,
+          "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13578705/",
+          "decision": "Scan",
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: HeLa, U2OS · source: Primary / trusted"
         }
       ],
       "secondary": [
@@ -15525,10 +15483,7 @@
           "matched_topics_label": "Microscopy & Imaging",
           "section_id": "imaging",
           "section_score": 69,
-          "models": [
-            "mouse (in vivo)",
-            "rat"
-          ],
+          "models": [],
           "methods": [
             "live-cell imaging",
             "bulk RNA-seq"
@@ -15544,7 +15499,7 @@
           "figure_count": 4,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13661916/",
           "decision": "Scan",
-          "why_shown": "section: Microscopy & Imaging · model: mouse (in vivo), rat · source: Secondary"
+          "why_shown": "section: Microscopy & Imaging · source: Secondary"
         }
       ],
       "best": [
@@ -15817,10 +15772,7 @@
           "matched_topics_label": "Microscopy & Imaging",
           "section_id": "imaging",
           "section_score": 88,
-          "models": [
-            "mouse (in vivo)",
-            "rat"
-          ],
+          "models": [],
           "methods": [
             "confocal microscopy",
             "two-photon imaging",
@@ -15833,7 +15785,7 @@
           "figure_count": 8,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13544203/",
           "decision": "Worth reading",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: mouse (in vivo), rat · source: Primary / trusted"
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · source: Primary / trusted"
         },
         {
           "title": "Space-time light-sheet microscopy.",
@@ -15934,9 +15886,7 @@
           "matched_topics_label": "Microscopy & Imaging",
           "section_id": "imaging",
           "section_score": 86,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "two-photon imaging"
           ],
@@ -15949,7 +15899,7 @@
           "figure_count": 7,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13660992/",
           "decision": "Worth reading",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: mouse (in vivo) · source: Primary / trusted"
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · source: Primary / trusted"
         },
         {
           "title": "Septins as novel regulators of podosome cluster organization and dynamics in human immature dendritic cells.",
@@ -16175,7 +16125,6 @@
           "section_id": "imaging",
           "section_score": 84,
           "models": [
-            "mouse (in vivo)",
             "COS-7"
           ],
           "methods": [
@@ -16191,7 +16140,7 @@
           "figure_count": 5,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13645634/",
           "decision": "Worth reading",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: mouse (in vivo), COS-7 · source: Primary / trusted"
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: COS-7 · source: Primary / trusted"
         },
         {
           "title": "Subdiffraction fluorescence lifetime imaging with Flipper-TR.",
@@ -16287,9 +16236,7 @@
           "matched_topics_label": "Microscopy & Imaging",
           "section_id": "imaging",
           "section_score": 82,
-          "models": [
-            "rat"
-          ],
+          "models": [],
           "methods": [
             "electron microscopy",
             "machine learning / modelling"
@@ -16303,7 +16250,7 @@
           "figure_count": 4,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676743/",
           "decision": "Worth reading",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: rat · source: Primary / trusted"
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · source: Primary / trusted"
         },
         {
           "title": "Submicromolar imaging of intrinsic chromophores by two-photon photothermal microscopy captures mitochondrial response to chemotherapy.",
@@ -17099,60 +17046,6 @@
           "why_shown": "section: Microscopy & Imaging · topic is in the title · model: mouse (in vivo), Drosophila · source: Primary / trusted"
         },
         {
-          "title": "A morphology-driven workflow to decipher 3D electron microscopy segmentation in diatoms.",
-          "abstract": "Cells display diverse shapes, sizes, and internal structures, particularly among microbial species. These differences reflect how cells adapt to their environments and perform essential functions. Modern three-dimensional (3D) electron microscopy captures this diversity at the nanometer scale, but analysis is slow because structures must be outlined manually by experts. Artificial intelligence (AI) has improved image analysis in medical and cell biology research by learning from repeated observations. However, studies of microbial and microalgal biodiversity often rely on single snapshots, complicating automated analysis because AI must learn from static morphology. In this study, we developed an AI-assisted segmentation framework for whole-cell 3D electron microscopy data. By comparing neural network architectures and using transfer learning and contrast-aware strategies, we showed that accurate segmentation is possible with limited training data and standard computing resources. Our method enables faster, reproducible analysis of cellular ultrastructure, supporting large-scale investigations into cell morphology and diversity.",
-          "journal": "Cell reports methods",
-          "date": "2026-09-09",
-          "year": 2026,
-          "authors": "Uwizeye C, Flori S, Angulo J, Jouneau PH, Gallet B, Albanese P, Finazzi G",
-          "pmid": "42716016",
-          "pmcid": "",
-          "doi": "10.1016/j.crmeth.2026.101594",
-          "preprint_doi": "",
-          "review": false,
-          "publication_types": [
-            "Journal Article"
-          ],
-          "sections": [
-            "imaging",
-            "analysis-tools"
-          ],
-          "matched_topics": [
-            "Microscopy & Imaging",
-            "Analysis Software & Tools"
-          ],
-          "retrieval_lanes": [
-            "weekly+recent"
-          ],
-          "sources": [
-            "PubMed"
-          ],
-          "source_type": "paper",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42716016/",
-          "overview": "Cells display diverse shapes, sizes, and internal structures, particularly among microbial species.",
-          "main": "Our method enables faster, reproducible analysis of cellular ultrastructure, supporting large-scale investigations into cell morphology and diversity.",
-          "journal_tier": "Primary / trusted",
-          "age_days": 44,
-          "date_uncertain": false,
-          "weekly": false,
-          "analysis_depth": "abstract-only",
-          "full_text_available": false,
-          "sources_label": "PubMed",
-          "matched_topics_label": "Microscopy & Imaging",
-          "section_id": "imaging",
-          "section_score": 76,
-          "models": [],
-          "methods": [
-            "electron microscopy"
-          ],
-          "targets": [],
-          "code_data_links": [],
-          "data_accessions": [],
-          "limitations": [],
-          "decision": "Scan",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · source: Primary / trusted"
-        },
-        {
           "title": "Super-resolution imaging reveals altered actin architecture at CAR-T cell immune synapses.",
           "abstract": "The actin cytoskeleton plays a key integrative role in immunological synapse (IS) formation during T cell activation, but how these dynamics are altered in chimeric antigen receptor (CAR)-T cells remains unclear. Here, we used stimulated emission depletion (STED) microscopy to perform the first super-resolution analysis of actin remodeling at the IS in single- and dual (CD19/CD22) CAR-T cells, activated on supported lipid bilayers across different time points. Quantitative imaging reveals that CAR-T cells form structurally distinct synapses to untransduced cells, characterized by reduced actin-depleted regions, fewer actin foci, and persistent microvilli-like protrusions. These features indicate incomplete cytoskeletal contraction and impaired actin network reorganization, leading to partial synapse maturation. Our findings highlight fundamental differences in actin dynamics between CAR- and TCR-mediated signaling and suggest that defective actin remodeling may contribute to unstable synapse formation, altered signaling integration, and dysregulated responses or off-target effects. These insights could inform future CAR-T engineering strategies to enhance safety and efficacy.",
           "journal": "The Journal of cell biology",
@@ -17327,7 +17220,6 @@
           "section_id": "imaging",
           "section_score": 75,
           "models": [
-            "mouse (in vivo)",
             "HeLa"
           ],
           "methods": [
@@ -17349,7 +17241,59 @@
           "figure_count": 5,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13195108/",
           "decision": "Scan",
-          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: mouse (in vivo), HeLa · source: Primary / trusted"
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · model: HeLa · source: Primary / trusted"
+        },
+        {
+          "title": "Cucurbituril-modulated NIR emission and two-photon mitochondrial imaging of an acridine derivative.",
+          "abstract": "Host-guest assemblies of an acridine dye with cucurbit[7]uril and cucurbit[8]uril give distinct NIR emissions at 674 and 708 nm, respectively. Both exhibit efficient two-photon absorption near 925 nm and successfully enable single- and two-photon mitochondrial imaging in live A549 cells.",
+          "journal": "Chemical communications (Cambridge, England)",
+          "date": "2026-10-20",
+          "year": 2026,
+          "authors": "Lin X, Wu J, Shen FF, Duan LT, Wang S, Zhang ZL, Chen KH, Yu HJ, Song R",
+          "pmid": "42788613",
+          "pmcid": "",
+          "doi": "10.1039/d6cc04991e",
+          "preprint_doi": "",
+          "review": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "sections": [
+            "imaging"
+          ],
+          "matched_topics": [
+            "Microscopy & Imaging"
+          ],
+          "retrieval_lanes": [
+            "weekly+recent"
+          ],
+          "sources": [
+            "PubMed"
+          ],
+          "source_type": "paper",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42788613/",
+          "overview": "Host-guest assemblies of an acridine dye with cucurbit[7]uril and cucurbit[8]uril give distinct NIR emissions at 674 and 708 nm, respectively.",
+          "main": "Both exhibit efficient two-photon absorption near 925 nm and successfully enable single- and two-photon mitochondrial imaging in live A549 cells.",
+          "journal_tier": "Uncurated",
+          "age_days": 3,
+          "date_uncertain": false,
+          "weekly": true,
+          "analysis_depth": "abstract-only",
+          "full_text_available": false,
+          "sources_label": "PubMed",
+          "matched_topics_label": "Microscopy & Imaging",
+          "section_id": "imaging",
+          "section_score": 80,
+          "models": [],
+          "methods": [
+            "two-photon imaging"
+          ],
+          "targets": [],
+          "code_data_links": [],
+          "data_accessions": [],
+          "limitations": [],
+          "decision": "Scan",
+          "why_shown": "section: Microscopy & Imaging · topic is in the title · source: Uncurated · published this week"
         }
       ]
     },
@@ -17412,60 +17356,6 @@
           "data_accessions": [],
           "limitations": [],
           "decision": "Worth reading",
-          "why_shown": "section: Analysis Software & Tools · topic is in the title · source: Primary / trusted"
-        },
-        {
-          "title": "A morphology-driven workflow to decipher 3D electron microscopy segmentation in diatoms.",
-          "abstract": "Cells display diverse shapes, sizes, and internal structures, particularly among microbial species. These differences reflect how cells adapt to their environments and perform essential functions. Modern three-dimensional (3D) electron microscopy captures this diversity at the nanometer scale, but analysis is slow because structures must be outlined manually by experts. Artificial intelligence (AI) has improved image analysis in medical and cell biology research by learning from repeated observations. However, studies of microbial and microalgal biodiversity often rely on single snapshots, complicating automated analysis because AI must learn from static morphology. In this study, we developed an AI-assisted segmentation framework for whole-cell 3D electron microscopy data. By comparing neural network architectures and using transfer learning and contrast-aware strategies, we showed that accurate segmentation is possible with limited training data and standard computing resources. Our method enables faster, reproducible analysis of cellular ultrastructure, supporting large-scale investigations into cell morphology and diversity.",
-          "journal": "Cell reports methods",
-          "date": "2026-09-09",
-          "year": 2026,
-          "authors": "Uwizeye C, Flori S, Angulo J, Jouneau PH, Gallet B, Albanese P, Finazzi G",
-          "pmid": "42716016",
-          "pmcid": "",
-          "doi": "10.1016/j.crmeth.2026.101594",
-          "preprint_doi": "",
-          "review": false,
-          "publication_types": [
-            "Journal Article"
-          ],
-          "sections": [
-            "imaging",
-            "analysis-tools"
-          ],
-          "matched_topics": [
-            "Microscopy & Imaging",
-            "Analysis Software & Tools"
-          ],
-          "retrieval_lanes": [
-            "weekly+recent"
-          ],
-          "sources": [
-            "PubMed"
-          ],
-          "source_type": "paper",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42716016/",
-          "overview": "Cells display diverse shapes, sizes, and internal structures, particularly among microbial species.",
-          "main": "Our method enables faster, reproducible analysis of cellular ultrastructure, supporting large-scale investigations into cell morphology and diversity.",
-          "journal_tier": "Primary / trusted",
-          "age_days": 44,
-          "date_uncertain": false,
-          "weekly": false,
-          "analysis_depth": "abstract-only",
-          "full_text_available": false,
-          "sources_label": "PubMed",
-          "matched_topics_label": "Microscopy & Imaging",
-          "section_id": "analysis-tools",
-          "section_score": 78,
-          "models": [],
-          "methods": [
-            "electron microscopy"
-          ],
-          "targets": [],
-          "code_data_links": [],
-          "data_accessions": [],
-          "limitations": [],
-          "decision": "Scan",
           "why_shown": "section: Analysis Software & Tools · topic is in the title · source: Primary / trusted"
         },
         {
@@ -17845,62 +17735,6 @@
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13635604/",
           "decision": "Scan",
           "why_shown": "section: Analysis Software & Tools · topic is in the title · source: Uncurated"
-        },
-        {
-          "title": "Automated quantification of central corneal epithelial thickness for the diagnosis of limbal stem cell deficiency.",
-          "abstract": "Limbal Stem Cell Deficiency (LSCD) is a corneal disorder characterized by conjunctivalization of the cornea. Central corneal epithelial thickness, measured using Anterior Segment Optical Coherence Tomography (AS-OCT), is a biomarker for LSCD. Manual measurement of epithelial thickness remains the gold standard for diagnosis because existing automated commercial software is unreliable in severe cases. Standard machine learning approaches have limited applicability for automating this measurement due to the difficulty of distinguishing corneal epithelium from scar tissue, and imprecise clinical labels. The goal of this study is to develop a deep learning pipeline to automate measurement of central epithelial thickness in AS-OCT images of eyes with LSCD. To accomplish this goal, we developed AI-CE, a model based on Multi-scale U-Net (MSU-Net) trained to accurately delineate the epithelial layer. The primary dataset comprised of 134 patient eyes, including 47 healthy normal eyes (35.0%), 34 with Stage 1 (25.4%), 34 with Stage 2 (25.4%), and 19 with Stage 3 (14.2%) LSCD. Performance was evaluated by calculating the average mean absolute error between model segmentations and manually measured clinical assessments. AI-CE model performance was compared against a commercially available segmentation software to demonstrate its improvement over the current state-of-the-art. The proposed model achieved a mean absolute error of 5.10 μm, significantly improving (p < 0.01) over clinical software (12.20 μm). This result was verified in a secondary retrospective dataset which similarly showed significant improvement over commercial software. We also demonstrate that clinical epithelial thickness values provided by AI-CE can distinguish between LSCD stages similarly to manual evaluations.",
-          "journal": "PloS one",
-          "date": "2026-10-05",
-          "year": 2026,
-          "authors": "Vinet M, Siu N, Bonnet C, Choi C, Wu S, Nguyen C, Arnold C, Speier W, Deng SX",
-          "pmid": "42832607",
-          "pmcid": "PMC13638045",
-          "doi": "10.1371/journal.pone.0358258",
-          "preprint_doi": "",
-          "review": false,
-          "publication_types": [
-            "Journal Article"
-          ],
-          "sections": [
-            "analysis-tools"
-          ],
-          "matched_topics": [
-            "Analysis Software & Tools"
-          ],
-          "retrieval_lanes": [
-            "weekly+recent"
-          ],
-          "sources": [
-            "PubMed"
-          ],
-          "source_type": "paper",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42832607/",
-          "overview": "Limbal Stem Cell Deficiency (LSCD) is a corneal disorder characterized by conjunctivalization of the cornea.",
-          "main": "Performance was evaluated by calculating the average mean absolute error between model segmentations and manually measured clinical assessments.",
-          "journal_tier": "Secondary",
-          "age_days": 18,
-          "date_uncertain": false,
-          "weekly": false,
-          "analysis_depth": "full text (open access)",
-          "full_text_available": true,
-          "sources_label": "PubMed",
-          "matched_topics_label": "Analysis Software & Tools",
-          "section_id": "analysis-tools",
-          "section_score": 69,
-          "models": [
-            "patients / clinical cohort"
-          ],
-          "methods": [
-            "confocal microscopy"
-          ],
-          "targets": [],
-          "code_data_links": [],
-          "data_accessions": [],
-          "limitations": [],
-          "figure_count": 7,
-          "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13638045/",
-          "decision": "Scan",
-          "why_shown": "section: Analysis Software & Tools · model: patients / clinical cohort · source: Secondary"
         }
       ],
       "best": [
@@ -18012,60 +17846,6 @@
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13678076/",
           "decision": "Worth reading",
           "why_shown": "section: Analysis Software & Tools · topic is in the title · source: Uncurated · published this week"
-        },
-        {
-          "title": "A morphology-driven workflow to decipher 3D electron microscopy segmentation in diatoms.",
-          "abstract": "Cells display diverse shapes, sizes, and internal structures, particularly among microbial species. These differences reflect how cells adapt to their environments and perform essential functions. Modern three-dimensional (3D) electron microscopy captures this diversity at the nanometer scale, but analysis is slow because structures must be outlined manually by experts. Artificial intelligence (AI) has improved image analysis in medical and cell biology research by learning from repeated observations. However, studies of microbial and microalgal biodiversity often rely on single snapshots, complicating automated analysis because AI must learn from static morphology. In this study, we developed an AI-assisted segmentation framework for whole-cell 3D electron microscopy data. By comparing neural network architectures and using transfer learning and contrast-aware strategies, we showed that accurate segmentation is possible with limited training data and standard computing resources. Our method enables faster, reproducible analysis of cellular ultrastructure, supporting large-scale investigations into cell morphology and diversity.",
-          "journal": "Cell reports methods",
-          "date": "2026-09-09",
-          "year": 2026,
-          "authors": "Uwizeye C, Flori S, Angulo J, Jouneau PH, Gallet B, Albanese P, Finazzi G",
-          "pmid": "42716016",
-          "pmcid": "",
-          "doi": "10.1016/j.crmeth.2026.101594",
-          "preprint_doi": "",
-          "review": false,
-          "publication_types": [
-            "Journal Article"
-          ],
-          "sections": [
-            "imaging",
-            "analysis-tools"
-          ],
-          "matched_topics": [
-            "Microscopy & Imaging",
-            "Analysis Software & Tools"
-          ],
-          "retrieval_lanes": [
-            "weekly+recent"
-          ],
-          "sources": [
-            "PubMed"
-          ],
-          "source_type": "paper",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42716016/",
-          "overview": "Cells display diverse shapes, sizes, and internal structures, particularly among microbial species.",
-          "main": "Our method enables faster, reproducible analysis of cellular ultrastructure, supporting large-scale investigations into cell morphology and diversity.",
-          "journal_tier": "Primary / trusted",
-          "age_days": 44,
-          "date_uncertain": false,
-          "weekly": false,
-          "analysis_depth": "abstract-only",
-          "full_text_available": false,
-          "sources_label": "PubMed",
-          "matched_topics_label": "Microscopy & Imaging",
-          "section_id": "analysis-tools",
-          "section_score": 78,
-          "models": [],
-          "methods": [
-            "electron microscopy"
-          ],
-          "targets": [],
-          "code_data_links": [],
-          "data_accessions": [],
-          "limitations": [],
-          "decision": "Scan",
-          "why_shown": "section: Analysis Software & Tools · topic is in the title · source: Primary / trusted"
         },
         {
           "title": "Extended depth-of-field reflected-light microscopy with a low-cost robotic microscope and Fiji focus stacking: Workflow integration and baseline evaluation.",
@@ -18388,62 +18168,6 @@
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13635604/",
           "decision": "Scan",
           "why_shown": "section: Analysis Software & Tools · topic is in the title · source: Uncurated"
-        },
-        {
-          "title": "Automated quantification of central corneal epithelial thickness for the diagnosis of limbal stem cell deficiency.",
-          "abstract": "Limbal Stem Cell Deficiency (LSCD) is a corneal disorder characterized by conjunctivalization of the cornea. Central corneal epithelial thickness, measured using Anterior Segment Optical Coherence Tomography (AS-OCT), is a biomarker for LSCD. Manual measurement of epithelial thickness remains the gold standard for diagnosis because existing automated commercial software is unreliable in severe cases. Standard machine learning approaches have limited applicability for automating this measurement due to the difficulty of distinguishing corneal epithelium from scar tissue, and imprecise clinical labels. The goal of this study is to develop a deep learning pipeline to automate measurement of central epithelial thickness in AS-OCT images of eyes with LSCD. To accomplish this goal, we developed AI-CE, a model based on Multi-scale U-Net (MSU-Net) trained to accurately delineate the epithelial layer. The primary dataset comprised of 134 patient eyes, including 47 healthy normal eyes (35.0%), 34 with Stage 1 (25.4%), 34 with Stage 2 (25.4%), and 19 with Stage 3 (14.2%) LSCD. Performance was evaluated by calculating the average mean absolute error between model segmentations and manually measured clinical assessments. AI-CE model performance was compared against a commercially available segmentation software to demonstrate its improvement over the current state-of-the-art. The proposed model achieved a mean absolute error of 5.10 μm, significantly improving (p < 0.01) over clinical software (12.20 μm). This result was verified in a secondary retrospective dataset which similarly showed significant improvement over commercial software. We also demonstrate that clinical epithelial thickness values provided by AI-CE can distinguish between LSCD stages similarly to manual evaluations.",
-          "journal": "PloS one",
-          "date": "2026-10-05",
-          "year": 2026,
-          "authors": "Vinet M, Siu N, Bonnet C, Choi C, Wu S, Nguyen C, Arnold C, Speier W, Deng SX",
-          "pmid": "42832607",
-          "pmcid": "PMC13638045",
-          "doi": "10.1371/journal.pone.0358258",
-          "preprint_doi": "",
-          "review": false,
-          "publication_types": [
-            "Journal Article"
-          ],
-          "sections": [
-            "analysis-tools"
-          ],
-          "matched_topics": [
-            "Analysis Software & Tools"
-          ],
-          "retrieval_lanes": [
-            "weekly+recent"
-          ],
-          "sources": [
-            "PubMed"
-          ],
-          "source_type": "paper",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42832607/",
-          "overview": "Limbal Stem Cell Deficiency (LSCD) is a corneal disorder characterized by conjunctivalization of the cornea.",
-          "main": "Performance was evaluated by calculating the average mean absolute error between model segmentations and manually measured clinical assessments.",
-          "journal_tier": "Secondary",
-          "age_days": 18,
-          "date_uncertain": false,
-          "weekly": false,
-          "analysis_depth": "full text (open access)",
-          "full_text_available": true,
-          "sources_label": "PubMed",
-          "matched_topics_label": "Analysis Software & Tools",
-          "section_id": "analysis-tools",
-          "section_score": 69,
-          "models": [
-            "patients / clinical cohort"
-          ],
-          "methods": [
-            "confocal microscopy"
-          ],
-          "targets": [],
-          "code_data_links": [],
-          "data_accessions": [],
-          "limitations": [],
-          "figure_count": 7,
-          "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13638045/",
-          "decision": "Scan",
-          "why_shown": "section: Analysis Software & Tools · model: patients / clinical cohort · source: Secondary"
         }
       ]
     },
@@ -18715,8 +18439,6 @@
           "section_id": "signaling",
           "section_score": 82,
           "models": [
-            "mouse (in vivo)",
-            "rat",
             "Drosophila"
           ],
           "methods": [
@@ -18740,7 +18462,7 @@
           "figure_count": 18,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13661049/",
           "decision": "Worth reading",
-          "why_shown": "section: Signaling, Small GTPases & Regulatory Proteins · topic is in the title · central targets: RAB GTPases, RAB7, RAB10 · model: mouse (in vivo), rat · source: Primary / trusted"
+          "why_shown": "section: Signaling, Small GTPases & Regulatory Proteins · topic is in the title · central targets: RAB GTPases, RAB7, RAB10 · model: Drosophila · source: Primary / trusted"
         },
         {
           "title": "Hydrogen sulfide ameliorates cognitive dysfunction in diabetic encephalopathy by activating PI3K/AKT/GSK-3β signaling to attenuate tau hyperphosphorylation and necroptosis.",
@@ -19416,8 +19138,6 @@
           "section_id": "signaling",
           "section_score": 82,
           "models": [
-            "mouse (in vivo)",
-            "rat",
             "Drosophila"
           ],
           "methods": [
@@ -19441,7 +19161,7 @@
           "figure_count": 18,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13661049/",
           "decision": "Worth reading",
-          "why_shown": "section: Signaling, Small GTPases & Regulatory Proteins · topic is in the title · central targets: RAB GTPases, RAB7, RAB10 · model: mouse (in vivo), rat · source: Primary / trusted"
+          "why_shown": "section: Signaling, Small GTPases & Regulatory Proteins · topic is in the title · central targets: RAB GTPases, RAB7, RAB10 · model: Drosophila · source: Primary / trusted"
         },
         {
           "title": "Preoperative sleep deprivation prolongs postoperative hyperalgesia by downregulating spinal cord D2R expression via the PP2A/AKT-dependent NMDA receptor phosphorylation.",
@@ -20145,9 +19865,7 @@
           "matched_topics_label": "Extracellular Vesicles & Lysosomal Secretion",
           "section_id": "extracellular",
           "section_score": 75,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "electron microscopy",
             "western blot"
@@ -20163,72 +19881,7 @@
           "figure_count": 4,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13661567/",
           "decision": "Scan",
-          "why_shown": "section: Extracellular Vesicles & Lysosomal Secretion · topic is in the title · central targets: APOE · model: mouse (in vivo) · source: Secondary"
-        },
-        {
-          "title": "Gastrodin inhibits neuronal ferroptosis by regulating mir-455-5p/ACSL4 pathway after stroke via exosome.",
-          "abstract": "Recent studies have demonstrated that ferroptosis plays a crucial role in neuronal cell death following cerebral infarction. Our previous research showed that gastrodin (GAS) significantly improved neurological function in rats subjected to middle cerebral artery occlusion (MCAO); however, the underlying mechanisms remain unclear. In the present study, we employed Western blotting, quantitative PCR (qPCR), and immunofluorescence assays to investigate the changes in the expression levels of ferroptosis-related regulatory proteins (ACSL4, TFR1, GPX4, and MBL-2) in both in vivo and in vitro models following ischemic-hypoxic injury, as well as the modulatory effects of gastrodin on these proteins. We also conducted an in-depth exploration of an innovative therapeutic approach involving exosomes. Specifically, we constructed gastrodin-treated serum exosomes (GSE) to assess their role in neuroprotection. Our findings revealed that gastrodin significantly reduced infarct volume in middle cerebral artery occlusion rats. Compared with the model group, the levels of ACSL4, TFR1, and MBL-2 proteins were markedly decreased, while GPX4 expression was significantly upregulated in the ischemic hemisphere of the gastrodin-treated rats. These results suggest that gastrodin exerts neuroprotective effects by inhibiting ferroptosis following cerebral infarction. In an oxygen-glucose deprivation model using Neuro-2a cells, we further observed that GSE enhanced cell viability by suppressing ferroptosis. Using RNA immunoprecipitation dual-luciferase reporter assays, and fluorescence in situ hybridization we confirmed colocalization between miR-455-5p and ACSL4. Subsequently, we manipulated miR-455-5p expression in Neuro-2a cells through transfection and assessed cell viability using CCK-8 and Live/Dead assays. The results demonstrated that GSE inhibited OGD-induced ferroptosis and improved cell viability by modulating the miR-455-5p/ACSL4 signaling pathway. In conclusion, our study indicates that gastrodin can suppress neuronal ferroptosis probably through an exosome-mediated mechanism involving the miR-455-5p/ACSL4 pathway, thereby exerting neuroprotective effects after ischemic injury. In addition, exosomal delivery represents a promising strategy to treat stroke.",
-          "journal": "Frontiers in pharmacology",
-          "date": "2026-10-01",
-          "year": 2026,
-          "authors": "Nan Y, Zhu W, Wang S",
-          "pmid": "42889422",
-          "pmcid": "PMC13670028",
-          "doi": "10.3389/fphar.2026.1882367",
-          "preprint_doi": "",
-          "review": false,
-          "publication_types": [
-            "Journal Article"
-          ],
-          "sections": [
-            "extracellular"
-          ],
-          "matched_topics": [
-            "Extracellular Vesicles & Lysosomal Secretion"
-          ],
-          "retrieval_lanes": [
-            "weekly+recent"
-          ],
-          "sources": [
-            "PubMed"
-          ],
-          "source_type": "paper",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42889422/",
-          "overview": "Recent studies have demonstrated that ferroptosis plays a crucial role in neuronal cell death following cerebral infarction.",
-          "main": "Our findings revealed that gastrodin significantly reduced infarct volume in middle cerebral artery occlusion rats.",
-          "journal_tier": "Uncurated",
-          "age_days": 22,
-          "date_uncertain": false,
-          "weekly": false,
-          "analysis_depth": "full text (open access)",
-          "full_text_available": true,
-          "sources_label": "PubMed",
-          "matched_topics_label": "Extracellular Vesicles & Lysosomal Secretion",
-          "section_id": "extracellular",
-          "section_score": 74,
-          "models": [
-            "mouse (in vivo)",
-            "rat",
-            "N2a"
-          ],
-          "methods": [
-            "confocal microscopy",
-            "electron microscopy",
-            "co-immunoprecipitation",
-            "western blot",
-            "immunofluorescence / IHC"
-          ],
-          "targets": [],
-          "code_data_links": [],
-          "data_accessions": [],
-          "limitations": [
-            "This mechanism not only contributes to the growing understanding of ferroptosis in stroke pathology but also introduces an innovative approach to overcoming the blood–brain barrier (BBB) limitation via exosomal delivery.",
-            "Future studies with larger sample volumes and additional control groups (EV-depleted supernatant, detergent-disrupted vesicles, RNase protection, and free drug controls) will be required to definitively establish the exclusivity of GSE-mediated effects."
-          ],
-          "figure_count": 6,
-          "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13670028/",
-          "decision": "Scan",
-          "why_shown": "section: Extracellular Vesicles & Lysosomal Secretion · topic is in the title · model: mouse (in vivo), rat · source: Uncurated"
+          "why_shown": "section: Extracellular Vesicles & Lysosomal Secretion · topic is in the title · central targets: APOE · source: Secondary"
         }
       ],
       "best": [
@@ -20516,9 +20169,7 @@
           "matched_topics_label": "Extracellular Vesicles & Lysosomal Secretion",
           "section_id": "extracellular",
           "section_score": 75,
-          "models": [
-            "mouse (in vivo)"
-          ],
+          "models": [],
           "methods": [
             "electron microscopy",
             "western blot"
@@ -20534,72 +20185,7 @@
           "figure_count": 4,
           "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13661567/",
           "decision": "Scan",
-          "why_shown": "section: Extracellular Vesicles & Lysosomal Secretion · topic is in the title · central targets: APOE · model: mouse (in vivo) · source: Secondary"
-        },
-        {
-          "title": "Gastrodin inhibits neuronal ferroptosis by regulating mir-455-5p/ACSL4 pathway after stroke via exosome.",
-          "abstract": "Recent studies have demonstrated that ferroptosis plays a crucial role in neuronal cell death following cerebral infarction. Our previous research showed that gastrodin (GAS) significantly improved neurological function in rats subjected to middle cerebral artery occlusion (MCAO); however, the underlying mechanisms remain unclear. In the present study, we employed Western blotting, quantitative PCR (qPCR), and immunofluorescence assays to investigate the changes in the expression levels of ferroptosis-related regulatory proteins (ACSL4, TFR1, GPX4, and MBL-2) in both in vivo and in vitro models following ischemic-hypoxic injury, as well as the modulatory effects of gastrodin on these proteins. We also conducted an in-depth exploration of an innovative therapeutic approach involving exosomes. Specifically, we constructed gastrodin-treated serum exosomes (GSE) to assess their role in neuroprotection. Our findings revealed that gastrodin significantly reduced infarct volume in middle cerebral artery occlusion rats. Compared with the model group, the levels of ACSL4, TFR1, and MBL-2 proteins were markedly decreased, while GPX4 expression was significantly upregulated in the ischemic hemisphere of the gastrodin-treated rats. These results suggest that gastrodin exerts neuroprotective effects by inhibiting ferroptosis following cerebral infarction. In an oxygen-glucose deprivation model using Neuro-2a cells, we further observed that GSE enhanced cell viability by suppressing ferroptosis. Using RNA immunoprecipitation dual-luciferase reporter assays, and fluorescence in situ hybridization we confirmed colocalization between miR-455-5p and ACSL4. Subsequently, we manipulated miR-455-5p expression in Neuro-2a cells through transfection and assessed cell viability using CCK-8 and Live/Dead assays. The results demonstrated that GSE inhibited OGD-induced ferroptosis and improved cell viability by modulating the miR-455-5p/ACSL4 signaling pathway. In conclusion, our study indicates that gastrodin can suppress neuronal ferroptosis probably through an exosome-mediated mechanism involving the miR-455-5p/ACSL4 pathway, thereby exerting neuroprotective effects after ischemic injury. In addition, exosomal delivery represents a promising strategy to treat stroke.",
-          "journal": "Frontiers in pharmacology",
-          "date": "2026-10-01",
-          "year": 2026,
-          "authors": "Nan Y, Zhu W, Wang S",
-          "pmid": "42889422",
-          "pmcid": "PMC13670028",
-          "doi": "10.3389/fphar.2026.1882367",
-          "preprint_doi": "",
-          "review": false,
-          "publication_types": [
-            "Journal Article"
-          ],
-          "sections": [
-            "extracellular"
-          ],
-          "matched_topics": [
-            "Extracellular Vesicles & Lysosomal Secretion"
-          ],
-          "retrieval_lanes": [
-            "weekly+recent"
-          ],
-          "sources": [
-            "PubMed"
-          ],
-          "source_type": "paper",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42889422/",
-          "overview": "Recent studies have demonstrated that ferroptosis plays a crucial role in neuronal cell death following cerebral infarction.",
-          "main": "Our findings revealed that gastrodin significantly reduced infarct volume in middle cerebral artery occlusion rats.",
-          "journal_tier": "Uncurated",
-          "age_days": 22,
-          "date_uncertain": false,
-          "weekly": false,
-          "analysis_depth": "full text (open access)",
-          "full_text_available": true,
-          "sources_label": "PubMed",
-          "matched_topics_label": "Extracellular Vesicles & Lysosomal Secretion",
-          "section_id": "extracellular",
-          "section_score": 74,
-          "models": [
-            "mouse (in vivo)",
-            "rat",
-            "N2a"
-          ],
-          "methods": [
-            "confocal microscopy",
-            "electron microscopy",
-            "co-immunoprecipitation",
-            "western blot",
-            "immunofluorescence / IHC"
-          ],
-          "targets": [],
-          "code_data_links": [],
-          "data_accessions": [],
-          "limitations": [
-            "This mechanism not only contributes to the growing understanding of ferroptosis in stroke pathology but also introduces an innovative approach to overcoming the blood–brain barrier (BBB) limitation via exosomal delivery.",
-            "Future studies with larger sample volumes and additional control groups (EV-depleted supernatant, detergent-disrupted vesicles, RNase protection, and free drug controls) will be required to definitively establish the exclusivity of GSE-mediated effects."
-          ],
-          "figure_count": 6,
-          "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13670028/",
-          "decision": "Scan",
-          "why_shown": "section: Extracellular Vesicles & Lysosomal Secretion · topic is in the title · model: mouse (in vivo), rat · source: Uncurated"
+          "why_shown": "section: Extracellular Vesicles & Lysosomal Secretion · topic is in the title · central targets: APOE · source: Secondary"
         }
       ]
     },
@@ -20818,8 +20404,7 @@
           "section_score": 90,
           "models": [
             "human iPSC-derived microglia",
-            "brain organoids / assembloids",
-            "mouse (in vivo)"
+            "brain organoids / assembloids"
           ],
           "methods": [
             "confocal microscopy",
@@ -22282,8 +21867,7 @@
           "section_score": 90,
           "models": [
             "human iPSC-derived microglia",
-            "brain organoids / assembloids",
-            "mouse (in vivo)"
+            "brain organoids / assembloids"
           ],
           "methods": [
             "confocal microscopy",
@@ -24311,9 +23895,7 @@
         "section_score": 72,
         "models": [],
         "methods": [],
-        "evidence_scope": [
-          "mouse (in vivo)"
-        ],
+        "evidence_scope": [],
         "review_topics": [],
         "targets": [],
         "code_data_links": [],
@@ -25215,7 +24797,9 @@
         "section_score": 80,
         "models": [],
         "methods": [],
-        "evidence_scope": [],
+        "evidence_scope": [
+          "mouse (in vivo)"
+        ],
         "review_topics": [],
         "targets": [],
         "code_data_links": [],
@@ -26122,6 +25706,7 @@
         "models": [],
         "methods": [],
         "evidence_scope": [
+          "mouse (in vivo)",
           "patients / clinical cohort"
         ],
         "review_topics": [],
@@ -26182,6 +25767,7 @@
         "methods": [],
         "evidence_scope": [
           "brain organoids / assembloids",
+          "mouse (in vivo)",
           "patients / clinical cohort"
         ],
         "review_topics": [
@@ -26297,7 +25883,9 @@
         "section_score": 66,
         "models": [],
         "methods": [],
-        "evidence_scope": [],
+        "evidence_scope": [
+          "mouse (in vivo)"
+        ],
         "review_topics": [],
         "targets": [],
         "code_data_links": [],
@@ -26405,7 +25993,9 @@
         "section_score": 62,
         "models": [],
         "methods": [],
-        "evidence_scope": [],
+        "evidence_scope": [
+          "mouse (in vivo)"
+        ],
         "review_topics": [],
         "targets": [],
         "code_data_links": [],
@@ -26679,7 +26269,8 @@
         "section_id": "analysis-tools",
         "section_score": 88,
         "models": [
-          "primary hippocampal neurons"
+          "primary hippocampal neurons",
+          "mouse (in vivo)"
         ],
         "methods": [
           "confocal microscopy",
@@ -26691,7 +26282,7 @@
         "data_accessions": [],
         "limitations": [],
         "decision": "Worth reading",
-        "why_shown": "section: Analysis Software & Tools · topic is in the title · model: primary hippocampal neurons · source: Uncurated · published this week"
+        "why_shown": "section: Analysis Software & Tools · topic is in the title · model: primary hippocampal neurons, mouse (in vivo) · source: Uncurated · published this week"
       },
       {
         "title": "Longitudinal single-cell transcriptional profiling identifies dynamic neurodegenerative mechanisms in Christianson Syndrome rat",
@@ -27126,6 +26717,7 @@
         "section_id": "cytoskeleton",
         "section_score": 84,
         "models": [
+          "mouse (in vivo)",
           "HEK293"
         ],
         "methods": [],
@@ -27134,7 +26726,7 @@
         "data_accessions": [],
         "limitations": [],
         "decision": "Worth reading",
-        "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · model: HEK293 · source: Uncurated · published this week"
+        "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · model: mouse (in vivo), HEK293 · source: Uncurated · published this week"
       },
       {
         "title": "Genetically regulated molecular mediators of phenotypic heterogeneity in autism spectrum disorder",
@@ -27284,9 +26876,7 @@
         "matched_topics_label": "Lysosomes, Endosomes & Lysosomal Stress/Repair",
         "section_id": "organelle",
         "section_score": 84,
-        "models": [
-          "mouse (in vivo)"
-        ],
+        "models": [],
         "methods": [
           "MRI / neuroimaging"
         ],
@@ -27295,7 +26885,7 @@
         "data_accessions": [],
         "limitations": [],
         "decision": "Worth reading",
-        "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · model: mouse (in vivo) · source: Uncurated · published this week"
+        "why_shown": "section: Lysosomes, Endosomes & Lysosomal Stress/Repair · topic is in the title · source: Uncurated · published this week"
       },
       {
         "title": "Dishevelled2 Condensates control Axon Initial Segment (AIS) assembly and function through MTCL1-Dependent microtubule recruitment",
@@ -27338,7 +26928,8 @@
         "section_id": "cytoskeleton",
         "section_score": 84,
         "models": [
-          "primary hippocampal neurons"
+          "primary hippocampal neurons",
+          "mouse (in vivo)"
         ],
         "methods": [],
         "targets": [
@@ -27348,7 +26939,7 @@
         "data_accessions": [],
         "limitations": [],
         "decision": "Worth reading",
-        "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Ankyrin-G · model: primary hippocampal neurons · source: Uncurated"
+        "why_shown": "section: Cytoskeleton in Neurons & Organelle Biology · topic is in the title · central targets: Ankyrin-G · model: primary hippocampal neurons, mouse (in vivo) · source: Uncurated"
       },
       {
         "title": "PDE4D inhibition activates cAMP-PKA signaling to preserve mitochondrial homeostasis and prevent neuronal necroptosis in Alzheimer's disease",
@@ -29183,7 +28774,7 @@
     ]
   },
   "meta": {
-    "total_unique_papers": 497,
+    "total_unique_papers": 491,
     "weekly_highlight_count": 10,
     "review_count": 52,
     "preprint_count": 103,
@@ -29229,8 +28820,8 @@
         "weekly": 4
       },
       "analysis-tools": {
-        "primary": 5,
-        "secondary": 5,
+        "primary": 4,
+        "secondary": 4,
         "weekly": 1
       },
       "signaling": {
@@ -29240,7 +28831,7 @@
       },
       "extracellular": {
         "primary": 2,
-        "secondary": 4,
+        "secondary": 3,
         "weekly": 0
       },
       "neurodegeneration": {

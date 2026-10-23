@@ -1489,46 +1489,6 @@
     "matched_topics_label": "Omics & Datasets"
   },
   {
-    "title": "Gastrodin alleviates acute colitis with comorbid anxiety- and depression-like behaviours rather than cognitive dysfunction by modulating gut microbiota and suppressing inflammation.",
-    "abstract": "Inflammatory bowel disease (IBD) patients frequently suffer from emotional disturbances, predominantly anxiety- and depression-like symptoms, and may also have cognitive dysfunction, but the mechanisms remain unclear, and no therapies targeting the gut or nervous system exist. Gastrodin (GAS), the primary active component of Gastrodia elata, has anti-inflammatory and neuroprotective effects. Whether GAS can alleviate acute colitis with comorbid anxiety- and depression-like behaviours or cognitive dysfunction via the gut-brain axis is unknown. Using a 3% dextran sulfate sodium (DSS)-induced mouse model, we administered GAS (240 mg/kg) by gavage for 7 days. The open field, elevated plus maze, tail suspension, and forced swimming tests showed that GAS improved behavioural abnormalities (including anxiety- and depression-like behaviours); it also restored colon length and reduced colonic histopathological injury. Metagenomic sequencing revealed that GAS reshaped the gut microbiota, increasing Sporosarcina and Nitrospirae while decreasing Clostridiaceae and Lachnospiraceae. Untargeted metabolomics indicated that GAS shifted the metabolic profile away from DSS and normalized taurine levels, and KEGG pathway analysis suggested that GAS may partially ameliorate DSS-induced metabolic disturbances by downregulating virulence-related pathways and upregulating energy metabolic pathways such as the TCA cycle and oxidative phosphorylation relative to DSS. Western blot confirmed that GAS restored the tight junction protein Occludin and decreased TNF-α. Quantitative proteomics demonstrated that GAS reversed the aberrant expression of 191 colonic proteins. These results demonstrate correlative associations between GAS treatment and the alleviation of acute colitis and behavioural abnormalities, alongside concurrent changes in gut microbiota composition, metabolite profiles, and intestinal barrier proteins. Whether these associations reflect a causal gut-brain axis mechanism requires direct experimental validation. GAS modulates the microbiota, partially restores metabolism, repairs the gut barrier, and suppresses local inflammation, suggesting a potential gut-brain axis mechanism. These findings position GAS as a promising candidate for further mechanistic and translational investigation in IBD-associated behavioural comorbidities.",
-    "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
-    "date": "2026-10-19",
-    "year": 2026,
-    "authors": "Song JL, Wu RC, Sun R, Gao YX, He BQ, Xie YJ, Xie JS, Li XR, Tong FX, Liu Y",
-    "pmid": "42894046",
-    "pmcid": "",
-    "doi": "10.1007/s00210-026-05930-5",
-    "preprint_doi": "",
-    "review": false,
-    "publication_types": [
-      "Journal Article"
-    ],
-    "sections": [
-      "omics"
-    ],
-    "matched_topics": [
-      "Omics & Datasets"
-    ],
-    "retrieval_lanes": [
-      "weekly+recent"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42894046/",
-    "overview": "Inflammatory bowel disease (IBD) patients frequently suffer from emotional disturbances, predominantly anxiety- and depression-like symptoms, and may also have cognitive dysfunction, but the mechanisms remain unclear, and no therapies targeting the gut or nervous system exist.",
-    "main": "Metagenomic sequencing revealed that GAS reshaped the gut microbiota, increasing Sporosarcina and Nitrospirae while decreasing Clostridiaceae and Lachnospiraceae.",
-    "journal_tier": "Uncurated",
-    "age_days": 4,
-    "date_uncertain": false,
-    "weekly": true,
-    "analysis_depth": "abstract-only",
-    "full_text_available": false,
-    "sources_label": "PubMed",
-    "matched_topics_label": "Omics & Datasets"
-  },
-  {
     "title": "QuRad: Radiomics Feature Extraction for QuPath.",
     "abstract": "Radiomic features provide a quantitative description of tissue organization in histopathology images. QuPath, a widely used open-source platform for whole-slide image analysis, offers morphology, intensity, and Haralick texture measurements but no standardized radiomic feature set such as that of PyRadiomics. Researchers must therefore export data to external Python pipelines, interrupting their QuPath workflow. QuRad extracts radiomic features from cell detections and annotation regions directly inside QuPath. The extension and equivalent Groovy script implement 119 features: 103 two-dimensional features enabled by default and 16 optional legacy shape descriptors. We compared QuRad 0.4 with PyRadiomics 3.0.1 on identical grayscale images and pixel masks. All 103 default features met a 10-9 absolute-or-relative agreement tolerance on a breast-cancer benchmark tile (410 cells). On 20 melanoma tiles (8,644 nuclei), 97 of 103 features met this tolerance and 6 polygon-derived shape features differed from PyRadiomics' raster-derived mesh (minimum concordance correlation coefficient 0.942). The 22 synthetic regions accepted by PyRadiomics reproduced the expected intensity and texture values. A single-threaded server benchmark reached about 1,900 nuclei per second, and processing the 184,242 cells of a whole-slide image took 2.7 min on a laptop. A random forest distinguished tumor cells from lymphocytes in melanoma (pooled macro-F1 0.853) and classified 197 tissue regions of 6 breast-cancer slides into 3 compartments (0.696). QuRad exports the features with object coordinates and extraction settings for use in QuPath or downstream analyses.",
     "journal": "Computational and structural biotechnology journal",
@@ -4910,46 +4870,6 @@
     "matched_topics_label": "Analysis Software & Tools"
   },
   {
-    "title": "Automated quantification of central corneal epithelial thickness for the diagnosis of limbal stem cell deficiency.",
-    "abstract": "Limbal Stem Cell Deficiency (LSCD) is a corneal disorder characterized by conjunctivalization of the cornea. Central corneal epithelial thickness, measured using Anterior Segment Optical Coherence Tomography (AS-OCT), is a biomarker for LSCD. Manual measurement of epithelial thickness remains the gold standard for diagnosis because existing automated commercial software is unreliable in severe cases. Standard machine learning approaches have limited applicability for automating this measurement due to the difficulty of distinguishing corneal epithelium from scar tissue, and imprecise clinical labels. The goal of this study is to develop a deep learning pipeline to automate measurement of central epithelial thickness in AS-OCT images of eyes with LSCD. To accomplish this goal, we developed AI-CE, a model based on Multi-scale U-Net (MSU-Net) trained to accurately delineate the epithelial layer. The primary dataset comprised of 134 patient eyes, including 47 healthy normal eyes (35.0%), 34 with Stage 1 (25.4%), 34 with Stage 2 (25.4%), and 19 with Stage 3 (14.2%) LSCD. Performance was evaluated by calculating the average mean absolute error between model segmentations and manually measured clinical assessments. AI-CE model performance was compared against a commercially available segmentation software to demonstrate its improvement over the current state-of-the-art. The proposed model achieved a mean absolute error of 5.10 μm, significantly improving (p < 0.01) over clinical software (12.20 μm). This result was verified in a secondary retrospective dataset which similarly showed significant improvement over commercial software. We also demonstrate that clinical epithelial thickness values provided by AI-CE can distinguish between LSCD stages similarly to manual evaluations.",
-    "journal": "PloS one",
-    "date": "2026-10-05",
-    "year": 2026,
-    "authors": "Vinet M, Siu N, Bonnet C, Choi C, Wu S, Nguyen C, Arnold C, Speier W, Deng SX",
-    "pmid": "42832607",
-    "pmcid": "PMC13638045",
-    "doi": "10.1371/journal.pone.0358258",
-    "preprint_doi": "",
-    "review": false,
-    "publication_types": [
-      "Journal Article"
-    ],
-    "sections": [
-      "analysis-tools"
-    ],
-    "matched_topics": [
-      "Analysis Software & Tools"
-    ],
-    "retrieval_lanes": [
-      "weekly+recent"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42832607/",
-    "overview": "Limbal Stem Cell Deficiency (LSCD) is a corneal disorder characterized by conjunctivalization of the cornea.",
-    "main": "Performance was evaluated by calculating the average mean absolute error between model segmentations and manually measured clinical assessments.",
-    "journal_tier": "Secondary",
-    "age_days": 18,
-    "date_uncertain": false,
-    "weekly": false,
-    "analysis_depth": "abstract-only",
-    "full_text_available": true,
-    "sources_label": "PubMed",
-    "matched_topics_label": "Analysis Software & Tools"
-  },
-  {
     "title": "Spatial transcriptomics profiling across tissue boundaries in the developing mouse brain.",
     "abstract": "Tissue boundaries preserve structural integrity and guide cell differentiation during development, despite constant stress from proliferation, cell death, and tissue deformation. To study gene regulation in these regions we developed REBOSEP, a workflow for analyzing spatial transcriptomics data to detect tissue boundaries and measure gene expression relative to boundary distance. REBOSEP uses hierarchical clustering to uncover shared regulatory patterns among genes, revealing highly diverse expression changes that can shift sharply across just a few cell layers. Using this approach, the study generated the first resource of gene expression across tissue boundaries, covering five brain-meninges boundaries in the developing mouse brain. Analysis of the dorsal pallium-meninges boundary showed specific regulatory patterns in outer brain and meningeal layers, with strong links to developmental processes and distance-dependent regulation in major pathways, including those involved in neurodevelopmental disease and cancer. Overall, REBOSEP provides a systematic framework for studying gene expression regulation at tissue boundaries.",
     "journal": "iScience",
@@ -5354,46 +5274,6 @@
     "full_text_available": true,
     "sources_label": "PubMed",
     "matched_topics_label": "Microscopy & Imaging"
-  },
-  {
-    "title": "Gastrodin inhibits neuronal ferroptosis by regulating mir-455-5p/ACSL4 pathway after stroke via exosome.",
-    "abstract": "Recent studies have demonstrated that ferroptosis plays a crucial role in neuronal cell death following cerebral infarction. Our previous research showed that gastrodin (GAS) significantly improved neurological function in rats subjected to middle cerebral artery occlusion (MCAO); however, the underlying mechanisms remain unclear. In the present study, we employed Western blotting, quantitative PCR (qPCR), and immunofluorescence assays to investigate the changes in the expression levels of ferroptosis-related regulatory proteins (ACSL4, TFR1, GPX4, and MBL-2) in both in vivo and in vitro models following ischemic-hypoxic injury, as well as the modulatory effects of gastrodin on these proteins. We also conducted an in-depth exploration of an innovative therapeutic approach involving exosomes. Specifically, we constructed gastrodin-treated serum exosomes (GSE) to assess their role in neuroprotection. Our findings revealed that gastrodin significantly reduced infarct volume in middle cerebral artery occlusion rats. Compared with the model group, the levels of ACSL4, TFR1, and MBL-2 proteins were markedly decreased, while GPX4 expression was significantly upregulated in the ischemic hemisphere of the gastrodin-treated rats. These results suggest that gastrodin exerts neuroprotective effects by inhibiting ferroptosis following cerebral infarction. In an oxygen-glucose deprivation model using Neuro-2a cells, we further observed that GSE enhanced cell viability by suppressing ferroptosis. Using RNA immunoprecipitation dual-luciferase reporter assays, and fluorescence in situ hybridization we confirmed colocalization between miR-455-5p and ACSL4. Subsequently, we manipulated miR-455-5p expression in Neuro-2a cells through transfection and assessed cell viability using CCK-8 and Live/Dead assays. The results demonstrated that GSE inhibited OGD-induced ferroptosis and improved cell viability by modulating the miR-455-5p/ACSL4 signaling pathway. In conclusion, our study indicates that gastrodin can suppress neuronal ferroptosis probably through an exosome-mediated mechanism involving the miR-455-5p/ACSL4 pathway, thereby exerting neuroprotective effects after ischemic injury. In addition, exosomal delivery represents a promising strategy to treat stroke.",
-    "journal": "Frontiers in pharmacology",
-    "date": "2026-10-01",
-    "year": 2026,
-    "authors": "Nan Y, Zhu W, Wang S",
-    "pmid": "42889422",
-    "pmcid": "PMC13670028",
-    "doi": "10.3389/fphar.2026.1882367",
-    "preprint_doi": "",
-    "review": false,
-    "publication_types": [
-      "Journal Article"
-    ],
-    "sections": [
-      "extracellular"
-    ],
-    "matched_topics": [
-      "Extracellular Vesicles & Lysosomal Secretion"
-    ],
-    "retrieval_lanes": [
-      "weekly+recent"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42889422/",
-    "overview": "Recent studies have demonstrated that ferroptosis plays a crucial role in neuronal cell death following cerebral infarction.",
-    "main": "Our findings revealed that gastrodin significantly reduced infarct volume in middle cerebral artery occlusion rats.",
-    "journal_tier": "Uncurated",
-    "age_days": 22,
-    "date_uncertain": false,
-    "weekly": false,
-    "analysis_depth": "abstract-only",
-    "full_text_available": true,
-    "sources_label": "PubMed",
-    "matched_topics_label": "Extracellular Vesicles & Lysosomal Secretion"
   },
   {
     "title": "Brain-enriched extracellular vesicle microRNAs could help to predict onset of psychosis in people at clinical high risk.",
@@ -6251,46 +6131,6 @@
     "full_text_available": false,
     "sources_label": "PubMed",
     "matched_topics_label": "Microscopy & Imaging"
-  },
-  {
-    "title": "Lactoferrin-modified MSC-derived extracellular vesicles facilitate BBB penetration and enhance gastrodin-induced neuroprotection in Parkinson's disease: involvement of mitophagy.",
-    "abstract": "BACKGROUND: The blood-brain barrier (BBB) severely impedes neuroprotective agent delivery to the brain in Parkinson's disease (PD). Although gastrodin (Gas) possesses neuroprotective properties, its efficacy is limited by poor BBB permeability. This study aimed to develop a brain-targeted extracellular vesicle (EV) delivery system for Gas and elucidate its neuroprotective mechanisms. METHODS: A brain-targeted EV delivery system was developed using mesenchymal stem cell-derived EVs modified with lactoferrin (Lf). Gas was loaded into Lf-EVs via sonication to construct Lf-EVs-Gas nanocomplexes. The nanocomplexes were characterized by transmission electron microscopy, western blotting, and nano-flow cytometry. Trans-Barrier transport was evaluated using an in vitro Transwell BBB model (hCMEC/D3 cells), while therapeutic efficacy and biodistribution were assessed in an MPTP-induced PD mouse model. RESULTS: Lf-EVs-Gas exhibited a typical cup-shaped morphology, with a mean size of 79.08 nm and a drug loading efficiency of 47.08 ± 4.63%. Lf functionalization significantly enhanced BBB transport, achieving a brain Gas concentration of 10.34 ± 2.7 ng/g in PD mice versus undetectable levels for free Gas. The targeted system demonstrated superior brain accumulation versus non-targeted vesicles. In 6-OHDA-treated SH-SY5Y cells and MPTP-induced PD mice, the system upregulated tyrosine hydroxylase, reduced α-synuclein aggregation, inhibited neuronal apoptosis, and improved motor function. Mechanistically, these protective effects of Lf-EVs-Gas were associated with activation of PINK1-related mitophagy, as evidenced by elevated LC3-II/LC3-I ratio and increased TOMM20/LC3 colocalization. CONCLUSION: Lf-EVs-Gas enhanced the brain delivery of Gas and produced neuroprotective effects in cellular and mouse toxin-based models of PD. These effects were associated with the activation of PINK1-related mitophagy, supporting Lf-modified EVs as a promising brain-targeted delivery platform for Gas. Further studies establishing mechanistic causality, long-term safety, and efficacy in progressive PD models are warranted.",
-    "journal": "International journal of pharmaceutics: X",
-    "date": "2026-09-25",
-    "year": 2026,
-    "authors": "Luo ZY, Han RJ, Guo TJ, Huang H, Su BH, Xu JL, Zhang W, Li JZ, Sang ZW, Mei ZT",
-    "pmid": "42861415",
-    "pmcid": "PMC13654566",
-    "doi": "10.1016/j.ijpx.2026.100674",
-    "preprint_doi": "",
-    "review": false,
-    "publication_types": [
-      "Journal Article"
-    ],
-    "sections": [
-      "neurodegeneration"
-    ],
-    "matched_topics": [
-      "Neurodegeneration"
-    ],
-    "retrieval_lanes": [
-      "weekly+recent"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42861415/",
-    "overview": "BACKGROUND: The blood-brain barrier (BBB) severely impedes neuroprotective agent delivery to the brain in Parkinson's disease (PD).",
-    "main": "RESULTS: Lf-EVs-Gas exhibited a typical cup-shaped morphology, with a mean size of 79.08 nm and a drug loading efficiency of 47.08 ± 4.63%.",
-    "journal_tier": "Uncurated",
-    "age_days": 28,
-    "date_uncertain": false,
-    "weekly": false,
-    "analysis_depth": "abstract-only",
-    "full_text_available": true,
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodegeneration"
   },
   {
     "title": "Time-of-Day Effects of Platelet-Derived Exosomes on Cognitive-Emotional Functions in an Animal Model of Methamphetamine Addiction.",
@@ -8037,48 +7877,6 @@
     "full_text_available": false,
     "sources_label": "PubMed",
     "matched_topics_label": "Omics & Datasets"
-  },
-  {
-    "title": "A morphology-driven workflow to decipher 3D electron microscopy segmentation in diatoms.",
-    "abstract": "Cells display diverse shapes, sizes, and internal structures, particularly among microbial species. These differences reflect how cells adapt to their environments and perform essential functions. Modern three-dimensional (3D) electron microscopy captures this diversity at the nanometer scale, but analysis is slow because structures must be outlined manually by experts. Artificial intelligence (AI) has improved image analysis in medical and cell biology research by learning from repeated observations. However, studies of microbial and microalgal biodiversity often rely on single snapshots, complicating automated analysis because AI must learn from static morphology. In this study, we developed an AI-assisted segmentation framework for whole-cell 3D electron microscopy data. By comparing neural network architectures and using transfer learning and contrast-aware strategies, we showed that accurate segmentation is possible with limited training data and standard computing resources. Our method enables faster, reproducible analysis of cellular ultrastructure, supporting large-scale investigations into cell morphology and diversity.",
-    "journal": "Cell reports methods",
-    "date": "2026-09-09",
-    "year": 2026,
-    "authors": "Uwizeye C, Flori S, Angulo J, Jouneau PH, Gallet B, Albanese P, Finazzi G",
-    "pmid": "42716016",
-    "pmcid": "",
-    "doi": "10.1016/j.crmeth.2026.101594",
-    "preprint_doi": "",
-    "review": false,
-    "publication_types": [
-      "Journal Article"
-    ],
-    "sections": [
-      "imaging",
-      "analysis-tools"
-    ],
-    "matched_topics": [
-      "Microscopy & Imaging",
-      "Analysis Software & Tools"
-    ],
-    "retrieval_lanes": [
-      "weekly+recent"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42716016/",
-    "overview": "Cells display diverse shapes, sizes, and internal structures, particularly among microbial species.",
-    "main": "Our method enables faster, reproducible analysis of cellular ultrastructure, supporting large-scale investigations into cell morphology and diversity.",
-    "journal_tier": "Primary / trusted",
-    "age_days": 44,
-    "date_uncertain": false,
-    "weekly": false,
-    "analysis_depth": "abstract-only",
-    "full_text_available": false,
-    "sources_label": "PubMed",
-    "matched_topics_label": "Microscopy & Imaging"
   },
   {
     "title": "napari-lattice: A user-friendly image processing tool for lattice light-sheet microscopy data.",
@@ -11760,46 +11558,6 @@
     "full_text_available": true,
     "sources_label": "PubMed",
     "matched_topics_label": "Microscopy & Imaging"
-  },
-  {
-    "title": "Salidroside enhances hippocampal neurogenesis in a valproic acid-induced mouse model of autism by suppressing neuroinflammation.",
-    "abstract": "OBJECTIVE: Neuroinflammation plays a pivotal role in the pathogenesis of autism spectrum disorder (ASD) and represents a potential therapeutic target. Salidroside (SLDS), a bioactive compound isolated from Rhodiola rosea L., exhibits potent anti-inflammatory and neuroprotective effects in various neurological disorders; however, its therapeutic efficacy in ASD remains to be fully established. This study investigated whether SLDS ameliorates autism-like behaviors and hippocampal neuroinflammation in a valproic acid (VPA)-induced mouse model. METHODS: A total of 92 male C57BL/6 J mice were randomly assigned to four groups (n = 23 per group). Mice received a subcutaneous injection of VPA or saline on postnatal day 14 (P14), followed by intraperitoneal administration of SLDS or saline from postnatal day 28 (P28) for seven consecutive days. Behavioral assessments were conducted at 8 weeks of age. Hippocampal neuroinflammation, microglial polarization, and neurogenesis were analyzed by molecular, immunofluorescence, and histological techniques. RESULTS: VPA-exposed mice exhibited social interaction deficits, increased repetitive behaviors, elevated levels of pro-inflammatory cytokines, upregulated expression of inflammation-related proteins, microglial activation, and impaired hippocampal neurogenesis. SLDS treatment significantly attenuated these VPA-induced abnormalities. CONCLUSION: Collectively, these findings suggest that SLDS represents a promising therapeutic candidate for ASD by mitigating neuroinflammation and restoring hippocampal function. Nevertheless, given that these observations are derived from preclinical models, further validation in translationally relevant experimental systems and clinical investigations is warranted before extrapolation to human therapeutic applications.",
-    "journal": "International immunopharmacology",
-    "date": "2026-08-04",
-    "year": 2026,
-    "authors": "Wang X, Li R, Li Y, Wang D, Cai Y, Liu X",
-    "pmid": "42551196",
-    "pmcid": "",
-    "doi": "10.1016/j.intimp.2026.117195",
-    "preprint_doi": "",
-    "review": false,
-    "publication_types": [
-      "Journal Article"
-    ],
-    "sections": [
-      "neurodevelopment"
-    ],
-    "matched_topics": [
-      "Neurodevelopmental Disorders & Rare Diseases"
-    ],
-    "retrieval_lanes": [
-      "weekly+recent"
-    ],
-    "sources": [
-      "PubMed"
-    ],
-    "source_type": "paper",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42551196/",
-    "overview": "OBJECTIVE: Neuroinflammation plays a pivotal role in the pathogenesis of autism spectrum disorder (ASD) and represents a potential therapeutic target.",
-    "main": "RESULTS: VPA-exposed mice exhibited social interaction deficits, increased repetitive behaviors, elevated levels of pro-inflammatory cytokines, upregulated expression of inflammation-related proteins, microglial activation, and impaired hippocampal neurogenesis.",
-    "journal_tier": "Uncurated",
-    "age_days": 80,
-    "date_uncertain": false,
-    "weekly": false,
-    "analysis_depth": "abstract-only",
-    "full_text_available": false,
-    "sources_label": "PubMed",
-    "matched_topics_label": "Neurodevelopmental Disorders & Rare Diseases"
   },
   {
     "title": "In silico analysis of transcriptomic datasets reveals nonlinear gene expression trajectories in aging microglia and Alzheimer's disease.",
