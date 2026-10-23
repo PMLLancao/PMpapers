@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T01:42:33.560288+00:00",
+  "generated_at_utc": "2026-10-23T03:18:01.364205+00:00",
   "weekly_top10": [
     {
       "title": "Gαi2 promotes microtubule-driven incorporation of neurofilaments to stabilise nascent axons in vivo.",
@@ -190,7 +190,7 @@
     },
     "organelle": {
       "title": "Lysosomes, Endosomes & Lysosomal Stress/Repair",
-      "primary_count": 14,
+      "primary_count": 18,
       "secondary_count": 5,
       "weekly_count": 1,
       "top_primary": [
@@ -210,9 +210,19 @@
           "journal": "EMBO reports"
         },
         {
+          "title": "Astrocytes mobilize a broader repertoire of lysosomal repair mechanisms than neurons.",
+          "date": "2026-08-12",
+          "journal": "iScience"
+        },
+        {
           "title": "Lysosomal multi-omics reveals altered sphingolipid catabolism associated with lysosomal dysfunction in the aging brain.",
           "date": "2026-10-01",
           "journal": "Cell reports"
+        },
+        {
+          "title": "The endo-lysosomal system drives lumen formation in a human epiblast model.",
+          "date": "2026-08-27",
+          "journal": "Nature communications"
         },
         {
           "title": "Ultrastructural studies reveal a new role for JIP3/MAPK8IP3 in endo-lysosomal maturation within the neuronal cell body.",
@@ -223,16 +233,6 @@
           "title": "BAG3 coordinates astrocytic proteostasis of Alzheimer's disease-linked proteins via proteasome, autophagy, and retromer interactions.",
           "date": "2026-09-28",
           "journal": "Proceedings of the National Academy of Sciences of the United States of America"
-        },
-        {
-          "title": "CHCHD2 mitigates age-associated proteostatic collapse by maintaining homeostasis of the mitochondria-lysosome axis.",
-          "date": "2026-10-13",
-          "journal": "Acta neuropathologica"
-        },
-        {
-          "title": "Tau hyperphosphorylation impairs cooperative binding to microtubules and perturbs organelle trafficking in neurons.",
-          "date": "2026-09-28",
-          "journal": "eLife"
         }
       ],
       "top_secondary": [
@@ -265,8 +265,8 @@
     },
     "trafficking": {
       "title": "Intracellular Trafficking & Organelle Transport",
-      "primary_count": 7,
-      "secondary_count": 1,
+      "primary_count": 21,
+      "secondary_count": 7,
       "weekly_count": 0,
       "top_primary": [
         {
@@ -280,9 +280,24 @@
           "journal": "Proceedings of the National Academy of Sciences of the United States of America"
         },
         {
+          "title": "Distinct Regulatory Logic Controls Recruitment and Membrane Dynamics of ESCRT-III Subunit Vps60.",
+          "date": "2026-10-08",
+          "journal": "Molecular biology of the cell"
+        },
+        {
           "title": "Parkinson's disease-linked D620N mutation selectively alters the brain-specific protein interactome of VPS35.",
           "date": "2026-09-01",
           "journal": "Neurobiology of disease"
+        },
+        {
+          "title": "VPS35 Regulates Microglial Lipid Droplet Accumulation in Parkinson's Disease via Rab7.",
+          "date": "2026-09-01",
+          "journal": "Glia"
+        },
+        {
+          "title": "Sorcin couples Annexin A11 recruitment to ESCRT-III assembly for plasma membrane repair.",
+          "date": "2026-08-10",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America"
         },
         {
           "title": "Astrocytes regulate axonal mitochondrial transport deficits in C9ORF72 amyotrophic lateral sclerosis motor neurons.",
@@ -293,16 +308,6 @@
           "title": "KIF1A-Mediated Axonal Transport of Netrin-1 in iPSC-Derived Human Forebrain Neurons.",
           "date": "2026-09-26",
           "journal": "Cytoskeleton (Hoboken, N.J.)"
-        },
-        {
-          "title": "KIF1A c.773C > T impairs neural progenitor differentiation and axonal transport in association with dysregulated Wnt/β-catenin-BDNF signaling.",
-          "date": "2026-10-11",
-          "journal": "Neurobiology of disease"
-        },
-        {
-          "title": "Hyperactive KIF5A in Neurodegeneration.",
-          "date": "2026-09-14",
-          "journal": "Cytoskeleton (Hoboken, N.J.)"
         }
       ],
       "top_secondary": [
@@ -310,12 +315,42 @@
           "title": "Levetiracetam restores GABAergic function and network homeostasis following Vps35 deficiency in excitatory neurons.",
           "date": "2026-10-14",
           "journal": "Translational neurodegeneration"
+        },
+        {
+          "title": "Rab10 coordinates SADS-CoV non-lytic egress through the ERGIC-TGN-lysosome trafficking pathway.",
+          "date": "2026-09-01",
+          "journal": "PLoS pathogens"
+        },
+        {
+          "title": "Ergothioneine promotes functional recovery after spinal cord injury by stabilizing VPS35 to suppress mitochondrial damage-driven neuroinflammation and oxidative stress.",
+          "date": "2026-10-03",
+          "journal": "Free radical biology & medicine"
+        },
+        {
+          "title": "Astrocytic VPS35 coordinates iron homeostasis with HIF1α-VEGFa signaling to prevent astrocytic ferroptosis and to promote neocortical angiogenesis.",
+          "date": "2026-06-24",
+          "journal": "Cell & bioscience"
+        },
+        {
+          "title": "Functional validation of the novel KIF5A p.R17Q VUS reveals defective axonal transport in iPSC-motoneurons from a SPG10 patient.",
+          "date": "2026-02-27",
+          "journal": "Frontiers in genetics"
+        },
+        {
+          "title": "Effect of ALA on preventing diabetic peripheral neuropathy in rats through mitochondrial axonal transport.",
+          "date": "2026-04-01",
+          "journal": "PloS one"
+        },
+        {
+          "title": "Genetic evidence for a functional association between Parkinson's disease proteins leucine-rich repeat kinase 2 and α-synuclein during axonal transport.",
+          "date": "2026-01-12",
+          "journal": "Frontiers in molecular neuroscience"
         }
       ]
     },
     "cytoskeleton": {
       "title": "Cytoskeleton in Neurons & Organelle Biology",
-      "primary_count": 11,
+      "primary_count": 12,
       "secondary_count": 6,
       "weekly_count": 2,
       "top_primary": [
@@ -345,6 +380,11 @@
           "journal": "Journal of cell science"
         },
         {
+          "title": "Kinesin-3 KIF1A functions as a diligent worker and its functionality is regulated by the ubiquitin-proteasome system.",
+          "date": "2026-08-25",
+          "journal": "Molecular biology of the cell"
+        },
+        {
           "title": "Disruption of dynactin complex function in intellectual disability.",
           "date": "2026-06-30",
           "journal": "Proceedings of the National Academy of Sciences of the United States of America"
@@ -353,11 +393,6 @@
           "title": "The postsynaptic scaffold protein ABLIM1 regulates seizure susceptibility by maintaining GluA2 membrane localization in chronic epilepsy.",
           "date": "2026-10-09",
           "journal": "Neurobiology of disease"
-        },
-        {
-          "title": "Endosome motility controls light-responsive reproductive development and secondary metabolite production in Aspergillus.",
-          "date": "2026-10-07",
-          "journal": "Current biology : CB"
         }
       ],
       "top_secondary": [
@@ -705,8 +740,8 @@
     },
     "signaling": {
       "title": "Signaling, Small GTPases & Regulatory Proteins",
-      "primary_count": 6,
-      "secondary_count": 6,
+      "primary_count": 7,
+      "secondary_count": 7,
       "weekly_count": 4,
       "top_primary": [
         {
@@ -735,6 +770,11 @@
           "journal": "Experimental neurology"
         },
         {
+          "title": "VPS35 Regulates Microglial Lipid Droplet Accumulation in Parkinson's Disease via Rab7.",
+          "date": "2026-09-01",
+          "journal": "Glia"
+        },
+        {
           "title": "Hydrogen sulfide ameliorates cognitive dysfunction in diabetic encephalopathy by activating PI3K/AKT/GSK-3β signaling to attenuate tau hyperphosphorylation and necroptosis.",
           "date": "2026-08-19",
           "journal": "Experimental neurology"
@@ -757,6 +797,11 @@
           "journal": "Brain research"
         },
         {
+          "title": "Rab10 coordinates SADS-CoV non-lytic egress through the ERGIC-TGN-lysosome trafficking pathway.",
+          "date": "2026-09-01",
+          "journal": "PLoS pathogens"
+        },
+        {
           "title": "Targeting the Calcium-mtDNA-cGAS-STING Signaling Nexus: A Novel Redox Mechanism for Nimodipine's Neuroprotection in Traumatic Brain Injury.",
           "date": "2026-10-20",
           "journal": "Antioxidants & redox signaling"
@@ -775,8 +820,8 @@
     },
     "extracellular": {
       "title": "Extracellular Vesicles & Lysosomal Secretion",
-      "primary_count": 2,
-      "secondary_count": 6,
+      "primary_count": 13,
+      "secondary_count": 7,
       "weekly_count": 0,
       "top_primary": [
         {
@@ -785,9 +830,39 @@
           "journal": "Brain : a journal of neurology"
         },
         {
+          "title": "Mechanism of Autophagic Extracellular Vesicles Revealed.",
+          "date": "2026-09-01",
+          "journal": "Traffic (Copenhagen, Denmark)"
+        },
+        {
+          "title": "Glycoprotein-induced phase separation drives unconventional secretion of galectin-3.",
+          "date": "2026-08-06",
+          "journal": "Nature communications"
+        },
+        {
+          "title": "A protective role for APP in nuclear waste clearance via lysosomal exocytosis.",
+          "date": "2026-06-11",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America"
+        },
+        {
+          "title": "GPNMB is a biomarker for lysosomal dysfunction and is secreted via LRRK2-modulated lysosomal exocytosis.",
+          "date": "2025-12-17",
+          "journal": "Science advances"
+        },
+        {
           "title": "Astrocyte-derived extracellular vesicle phosphorylated TDP-43 as a blood-based biomarker for amyotrophic lateral sclerosis.",
           "date": "2026-09-10",
           "journal": "Neurobiology of disease"
+        },
+        {
+          "title": "RYR:ATP6V0A1 complexes couple ER-lysosome contact sites to dynamic autophagy control.",
+          "date": "2026-05-14",
+          "journal": "Autophagy"
+        },
+        {
+          "title": "Autophagic extracellular vesicles: a distinct secretory route linking autophagy to extracellular communication.",
+          "date": "2026-04-13",
+          "journal": "Autophagy"
         }
       ],
       "top_secondary": [
@@ -795,6 +870,11 @@
           "title": "TRPML3 and TRPML1/3 differentially regulate unconventional MIF secretion through TMED10 and secretory autophagy.",
           "date": "2026-10-08",
           "journal": "Autophagy reports"
+        },
+        {
+          "title": "Crosstalk between exosomes and cellular senescence: A core vicious loop promoting α-synuclein pathology in Parkinson's disease.",
+          "date": "2026-09-30",
+          "journal": "Neural regeneration research"
         },
         {
           "title": "Complement C4b and factor B in astrocyte-derived exosomes as novel biomarkers for amnestic mild cognitive impairment.",
@@ -825,8 +905,8 @@
     },
     "neurodegeneration": {
       "title": "Neurodegeneration",
-      "primary_count": 18,
-      "secondary_count": 18,
+      "primary_count": 20,
+      "secondary_count": 19,
       "weekly_count": 12,
       "top_primary": [
         {
@@ -892,6 +972,11 @@
           "journal": "Journal of visualized experiments : JoVE"
         },
         {
+          "title": "Crosstalk between exosomes and cellular senescence: A core vicious loop promoting α-synuclein pathology in Parkinson's disease.",
+          "date": "2026-09-30",
+          "journal": "Neural regeneration research"
+        },
+        {
           "title": "Up-regulation of the kinase LRRK2, in enteric glia contributes to mucosal barrier impairment in Parkinson's disease via secretory autophagy.",
           "date": "2026-08-13",
           "journal": "British journal of pharmacology"
@@ -905,11 +990,6 @@
           "title": "Mitochondria-enriched BMSC exosomes restore microglia-neuron cross-talk in Parkinson's disease via PINK1/parkin and PI3K/Akt/mTOR pathways.",
           "date": "2026-08-05",
           "journal": "Brain research"
-        },
-        {
-          "title": "In silico analysis of transcriptomic datasets reveals nonlinear gene expression trajectories in aging microglia and Alzheimer's disease.",
-          "date": "2026-08-04",
-          "journal": "Experimental gerontology"
         }
       ]
     }
@@ -971,7 +1051,7 @@
     ]
   },
   "preprints": {
-    "count": 100,
+    "count": 104,
     "top": [
       {
         "title": "Pathogenic MAPK8IP3 variants drive distinct motor and behavioral phenotypes in humans and mice",
@@ -1300,7 +1380,7 @@
     },
     "trafficking": {
       "topic not central": {
-        "count": 46,
+        "count": 103,
         "examples": [
           "ClC-7 links PIKfyve inhibition to Rab-dependent LRRK2 activity at lysosomes.",
           "The orientation of cholesterol's hydroxy group affects its membrane dynamics and intracellular transport.",
@@ -1308,7 +1388,7 @@
         ]
       },
       "non-preferred organism, no mammalian context": {
-        "count": 5,
+        "count": 17,
         "examples": [
           "Characterization of the Mos10 (Vps60) ESCRT-III complex.",
           "Late endosome trafficking is slower in regenerated dendrites.",
@@ -1316,7 +1396,7 @@
         ]
       },
       "excluded journal/domain": {
-        "count": 17,
+        "count": 47,
         "examples": [
           "Uropathogenic Escherichia coli escapes autolysosome exocytosis by inhibiting autophagosome-lysosome fusion.",
           "Perfluoroalkylated polymeric constructs bypass endosomal entrapment to stimulate transnuclear delivery in proliferating and non-proliferatin",
@@ -1324,21 +1404,23 @@
         ]
       },
       "unrelated organ, no neural context": {
-        "count": 1,
+        "count": 9,
         "examples": [
-          "TM6SF2 acts at ER membrane contact sites to enable RAB7-dependent endolysosomal VLDL secretion and maintain Golgi structure."
+          "TM6SF2 acts at ER membrane contact sites to enable RAB7-dependent endolysosomal VLDL secretion and maintain Golgi structure.",
+          "WNT2B impairs endosomal trafficking via WASHC5 to inhibit autophagy: a novel non-secretory WNT pathway.",
+          "One-Week Reliability of the Multimodal Exertional Test for Concussion in Healthy Athletes."
         ]
       },
       "unrelated organ (title)": {
-        "count": 3,
+        "count": 13,
         "examples": [
           "SIRT1 Regulates Late Stage of Autophagy and Mitophagy via Autophagosome-Lysosome Fusion in Cardiomyocytes.",
-          "Hepatic retromer is essential for systemic cholesterol homeostasis by regulating lysosomal cholesterol handling.",
-          "MLKL regulates intracellular trafficking of neutrophil elastase to promote lung epithelial cell senescence."
+          "Tracing refractile body biogenesis in human oocytes: the role of lysosomes and mitochondria.",
+          "Hepatic retromer is essential for systemic cholesterol homeostasis by regulating lysosomal cholesterol handling."
         ]
       },
       "non-preferred organism (title)": {
-        "count": 9,
+        "count": 26,
         "examples": [
           "Polytetrafluoroethylene utensils as a source of micro- and nanoplastics: Insights from a Drosophila model.",
           "VPS33A and VPS18 orchestrate porcine epidemic diarrhea virus replication by modulating autophagic flux.",
@@ -1346,37 +1428,49 @@
         ]
       },
       "cancer focus": {
-        "count": 3,
+        "count": 8,
         "examples": [
           "Nanoparticles-mediated dual drug administration boosts therapeutic efficacy in drug resistant melanoma.",
-          "Lattice Distortion-Enhanced Cuproptosis Nanoplatform for Synergistic Catalytic-Autophagy Tumor Therapy",
-          "SNX2, but not SNX1, regulates the hepatocyte growth factor receptor MET in HCT116 colorectal cancer cells"
+          "The N6-methyladenosine reader IGF2BP2 in T-cell lymphoma.",
+          "Bedside trans-burr hole dynamic contrast-enhanced ultrasound (DCE-US) and ultrasound localization microscopy (ULM) in relapsed glioblastoma "
         ]
       },
       "no neural/mammalian context": {
-        "count": 2,
+        "count": 15,
         "examples": [
           "DFCP1-containing ER microdomains mediate lysosomal membrane repair.",
+          "COMMD3 coordinates mannose-6-phosphate receptor trafficking to sustain lysosomal protease maturation.",
           "COMMD3 coordinates mannose-6-phosphate receptor trafficking to sustain lysosomal protease maturation."
         ]
       },
       "cancer therapy": {
-        "count": 1,
+        "count": 4,
         "examples": [
-          "PSEN1 Expression Identifies a Developmentally Distinct Favourable-Prognosis State in SHH α Medulloblastoma."
+          "PSEN1 Expression Identifies a Developmentally Distinct Favourable-Prognosis State in SHH α Medulloblastoma.",
+          "Tubocapsenolide A Overcomes Oxaliplatin Resistance in Colorectal Cancer by Targeting PLK1 to Impair CEP55-ESCRT-Associated Vesicular Damage ",
+          "URGCP promotes osteosarcoma progression by regulating the ESCRT-III subunit CHMP4B."
         ]
       },
       "herbal/natural-product": {
-        "count": 2,
+        "count": 4,
         "examples": [
           "Fucoidan attenuates renal fibrosis by alleviating tubular ectopic lipid deposition through sirtuin 1/forkhead box protein O1/adipose triglyc",
-          "Herbal nanoparticles in the treatment of neurodegeneration: from molecular mechanisms to therapeutic translation."
+          "Distinct mitochondrial-derived vesicle pathways connect mitochondria with peroxisomes and lysosomes.",
+          "Fucoidan attenuates renal fibrosis by alleviating tubular ectopic lipid deposition through sirtuin 1/forkhead box protein O1/adipose triglyc"
         ]
       },
       "pathogen/infection focus": {
+        "count": 6,
+        "examples": [
+          "FKBP8 inhibits influenza a virus infection by degrading viral M2 protein in lysosomes.",
+          "TRIM62 facilitates influenza A virus entry by regulating WASH-dependent endosomal trafficking.",
+          "SARS-CoV-2 ORF3a blocks lysosomal cholesterol egress by disrupting VPS39-regulated NPC2 trafficking and BMP metabolism."
+        ]
+      },
+      "notice/correction/retraction": {
         "count": 1,
         "examples": [
-          "FKBP8 inhibits influenza a virus infection by degrading viral M2 protein in lysosomes."
+          "Erratum: Consequences of the Novel ALS-Associated KIF5A Variant c.2993-6C>A for Exon 27 Splicing and Axonal Transport of SFPQ."
         ]
       }
     },
@@ -2030,7 +2124,7 @@
     },
     "extracellular": {
       "topic not central": {
-        "count": 54,
+        "count": 109,
         "examples": [
           "Hypoxic microglia induce oligodendrocyte injury through lactate associated extracellular vesicles and toll like receptor four signaling.",
           "SIRT5 Attenuates Traumatic Brain Injury by Preserving OPA1-Mediated Mitochondrial Fusion and Limiting Oxidative Stress.",
@@ -2038,7 +2132,7 @@
         ]
       },
       "excluded journal/domain": {
-        "count": 36,
+        "count": 70,
         "examples": [
           "Uropathogenic Escherichia coli escapes autolysosome exocytosis by inhibiting autophagosome-lysosome fusion.",
           "Therapeutic potential and underlying mechanisms of engineered young plasma-derived exosomes in Alzheimer's disease.",
@@ -2046,7 +2140,7 @@
         ]
       },
       "herbal/natural-product": {
-        "count": 13,
+        "count": 20,
         "examples": [
           "Exploring the potential of resveratrol-enriched cord mesenchymal stem cell derived exosomes in an in vitro Parkinson's model.",
           "Astragalus membranaceus-derived exosomes alleviate traumatic brain injury by inhibiting SERPINE1/HIF-1α/NLRP3-mediated pyroptosis.",
@@ -2054,7 +2148,7 @@
         ]
       },
       "unrelated organ (title)": {
-        "count": 5,
+        "count": 13,
         "examples": [
           "Taurine mitigates intestinal injury and spatial memory deficits induced by high-fat diet and abdominal irradiation.",
           "Renal stress-associated extracellular vesicle signaling linked to lysosomal cathepsin D and NEK7-NLRP3 neuroinflammation.",
@@ -2062,7 +2156,7 @@
         ]
       },
       "cancer focus": {
-        "count": 15,
+        "count": 30,
         "examples": [
           "Elevated miR-103b in exosomes derived from brain-metastatic triple-negative breast cancer cells remodels the brain pre-metastatic niche (PMN",
           "Peripheral neuron circuitry mediating pain in head and neck cancer.",
@@ -2070,25 +2164,57 @@
         ]
       },
       "EV without neural context": {
-        "count": 2,
+        "count": 4,
         "examples": [
+          "Exosome research and neuroimaging techniques: Visualization analysis of development trends and research hotspots.",
           "Exosome research and neuroimaging techniques: Visualization analysis of development trends and research hotspots.",
           "Exosome research and neuroimaging techniques: Visualization analysis of development trends and research hotspots."
         ]
       },
       "cancer therapy": {
-        "count": 3,
+        "count": 8,
         "examples": [
           "Exploratory analysis of extracellular vesicle Profile changes during pembrolizumab treatment in NSCLC.",
           "Neuroprotective effect of normal and modified mesenchymal stem cell-derived exosomes by mitigating Alzheimer's-related oxidative and inflamm",
-          "ICANS After CAR-T Therapy: Mechanisms and Management With a Focus on Corticosteroid-Refractory ICANS."
+          "Neuroprotective effect of normal and modified mesenchymal stem cell-derived exosomes by mitigating Alzheimer's-related oxidative and inflamm"
         ]
       },
       "non-preferred organism, no mammalian context": {
-        "count": 2,
+        "count": 7,
         "examples": [
           "Anti-inflammatory activities of extracellular vesicles-derived from rainbow trout (Oncorhynchus mykiss) plasma.",
-          "Blast fungus unconventional effector secretion sorting requires pre-Golgi compartment protein MoGrh1"
+          "Anti-inflammatory activities of extracellular vesicles-derived from rainbow trout (Oncorhynchus mykiss) plasma.",
+          "Enhanced lysosomal exocytosis and altered growth factor signaling are associated with cartilage pathology in a model of mucopolysaccharidosi"
+        ]
+      },
+      "notice/correction/retraction": {
+        "count": 3,
+        "examples": [
+          "Correction: TFEB and MCOLN1 are important for Coxiella burnetii egress via lysosomal exocytosis.",
+          "Correction to \"Unconventional Protein Secretion in the Central Nervous System: Mechanisms and Roles in Physiology and Disease\".",
+          "Correction: Yamada et al. Extended-Synaptotagmin 1 Enhances Liver Cancer Progression Mediated by the Unconventional Secretion of Cytosolic P"
+        ]
+      },
+      "pathogen/infection focus": {
+        "count": 8,
+        "examples": [
+          "SARS-CoV-2 enhances lysosomal exocytosis and deacidifies lysosomes to facilitate viral release.",
+          "ARF-like GTPase 8B orchestrates lipophagy and exocytosis to drive single-stranded RNA virus replication.",
+          "Progranulin-driven lysosomal acidification facilitates exocytosis of PHEV-hijacked lysosomes for viral release."
+        ]
+      },
+      "unrelated organ, no neural context": {
+        "count": 11,
+        "examples": [
+          "Cyclic Strain and Macrophage-Mediated Transport Govern Micron-Sized PM2.5 Translocation across the Air-Blood Barrier.",
+          "Loss of Fanconi anemia proteins causes a reliance on lysosomal exocytosis.",
+          "Uncovering the role of the Hsp40 family member cysteine string protein-α in mouse platelets."
+        ]
+      },
+      "non-preferred organism (title)": {
+        "count": 1,
+        "examples": [
+          "Neu1-deficient zebrafish cells exhibit reduced Edwardsiella piscicida infection due to altered lysosomal exocytosis and membrane dynamics."
         ]
       }
     }
@@ -2096,7 +2222,7 @@
   "semantic": {
     "focus": {
       "min": 0.0607,
-      "median": 0.146,
+      "median": 0.1461,
       "max": 0.1896,
       "weakest_shown": [
         [
@@ -2108,7 +2234,7 @@
           "Comprehensive Clinical Characteristics, Longitudinal Adaptive Functioning, and Electroencephalogram Activity in MAPK8IP3"
         ],
         [
-          0.12,
+          0.1201,
           "Insights into how JIP3 and JIP4 adaptor proteins relieve the auto-inhibited form of the kinesin-1 motor."
         ]
       ]
@@ -2134,7 +2260,7 @@
     },
     "organelle": {
       "min": -0.0159,
-      "median": 0.0249,
+      "median": 0.0455,
       "max": 0.1015,
       "weakest_shown": [
         [
@@ -2142,49 +2268,49 @@
           "Tau hyperphosphorylation impairs cooperative binding to microtubules and perturbs organelle trafficking in neurons."
         ],
         [
-          -0.0129,
-          "Autolysosomal enhancer GHF201 attenuates pathophysiology in a mucopolysaccharidosis type I mouse model."
+          -0.0061,
+          "Lysosomal multi-omics reveals altered sphingolipid catabolism associated with lysosomal dysfunction in the aging brain."
         ],
         [
-          -0.006,
-          "Lysosomal multi-omics reveals altered sphingolipid catabolism associated with lysosomal dysfunction in the aging brain."
+          -0.0006,
+          "CHCHD2 mitigates age-associated proteostatic collapse by maintaining homeostasis of the mitochondria-lysosome axis."
         ]
       ]
     },
     "trafficking": {
-      "min": 0.0494,
-      "median": 0.1263,
+      "min": 0.0354,
+      "median": 0.1214,
       "max": 0.1836,
       "weakest_shown": [
+        [
+          0.0354,
+          "VPS35 Regulates Microglial Lipid Droplet Accumulation in Parkinson's Disease via Rab7."
+        ],
         [
           0.0494,
           "KIF1A c.773C > T impairs neural progenitor differentiation and axonal transport in association with dysregulated Wnt/β-c"
         ],
         [
-          0.0638,
-          "Levetiracetam restores GABAergic function and network homeostasis following Vps35 deficiency in excitatory neurons."
-        ],
-        [
-          0.0691,
-          "Parkinson's disease-linked D620N mutation selectively alters the brain-specific protein interactome of VPS35."
+          0.054,
+          "Sorcin couples Annexin A11 recruitment to ESCRT-III assembly for plasma membrane repair."
         ]
       ]
     },
     "cytoskeleton": {
-      "min": 0.0302,
-      "median": 0.0798,
-      "max": 0.1264,
+      "min": 0.0301,
+      "median": 0.0526,
+      "max": 0.1263,
       "weakest_shown": [
         [
-          0.0302,
+          0.0301,
           "Photonic waveguide chip-based nanoscopy visualizes rearrangements of the cortical actin cytoskeleton in activated Jurkat"
         ],
         [
-          0.031,
+          0.0309,
           "DNAAF19-RUVBL1/2 complex recruits multiple adaptors to promote dynein arm assembly."
         ],
         [
-          0.0364,
+          0.0365,
           "The postsynaptic scaffold protein ABLIM1 regulates seizure susceptibility by maintaining GluA2 membrane localization in "
         ]
       ]
@@ -2199,11 +2325,11 @@
           "OGT regulates RNA-binding protein nucleocytoplasmic partitioning, but this fails in amyotrophic lateral sclerosis."
         ],
         [
-          0.0314,
+          0.0313,
           "Female iPSC X chromosome inactivation erosion and its transcriptomic effects during CRISPR gene editing and neural diffe"
         ],
         [
-          0.0359,
+          0.0358,
           "iPSC neurodegenerative disease initiative isogenic CAG repeat iPSC line for Huntington's disease."
         ]
       ]
@@ -2237,7 +2363,7 @@
           "CelFDrive: Multimodal deep learning-assisted microscopy for automated detection of rare events."
         ],
         [
-          0.0278,
+          0.0279,
           "Broadband backscattering confocal microscopy enables label-free 3D live cell nanoscale sensitive imaging."
         ],
         [
@@ -2249,53 +2375,53 @@
     "analysis-tools": {
       "min": 0.0643,
       "median": 0.1477,
-      "max": 0.1689,
+      "max": 0.169,
       "weakest_shown": [
         [
           0.0643,
           "Extended depth-of-field reflected-light microscopy with a low-cost robotic microscope and Fiji focus stacking: Workflow "
         ],
         [
-          0.0849,
+          0.0848,
           "QuRad: Radiomics Feature Extraction for QuPath."
         ],
         [
-          0.0889,
+          0.0888,
           "Comparison of manual counting with two rule-based image analysis programs, ImageJ and CellProfiler, for quantitative ana"
         ]
       ]
     },
     "signaling": {
-      "min": -0.0121,
+      "min": 0.0113,
       "median": 0.0484,
-      "max": 0.1843,
+      "max": 0.1842,
       "weakest_shown": [
         [
-          -0.0121,
-          "Targeting the Calcium-mtDNA-cGAS-STING Signaling Nexus: A Novel Redox Mechanism for Nimodipine's Neuroprotection in Trau"
-        ],
-        [
-          0.0114,
+          0.0113,
           "Hydrogen sulfide ameliorates cognitive dysfunction in diabetic encephalopathy by activating PI3K/AKT/GSK-3β signaling to"
         ],
         [
           0.0169,
           "Mitochondria-enriched BMSC exosomes restore microglia-neuron cross-talk in Parkinson's disease via PINK1/parkin and PI3K"
+        ],
+        [
+          0.0282,
+          "VPS35 Regulates Microglial Lipid Droplet Accumulation in Parkinson's Disease via Rab7."
         ]
       ]
     },
     "extracellular": {
-      "min": -0.0066,
-      "median": 0.0527,
-      "max": 0.0992,
+      "min": 0.0017,
+      "median": 0.05,
+      "max": 0.0906,
       "weakest_shown": [
         [
-          -0.0066,
-          "Time-of-Day Effects of Platelet-Derived Exosomes on Cognitive-Emotional Functions in an Animal Model of Methamphetamine "
+          0.0017,
+          "Astrocyte-derived extracellular vesicle phosphorylated TDP-43 as a blood-based biomarker for amyotrophic lateral scleros"
         ],
         [
-          0.0018,
-          "Astrocyte-derived extracellular vesicle phosphorylated TDP-43 as a blood-based biomarker for amyotrophic lateral scleros"
+          0.0111,
+          "Crosstalk between exosomes and cellular senescence: A core vicious loop promoting α-synuclein pathology in Parkinson's d"
         ],
         [
           0.0153,
@@ -2306,18 +2432,18 @@
     "neurodegeneration": {
       "min": 0.0304,
       "median": 0.1151,
-      "max": 0.1506,
+      "max": 0.1507,
       "weakest_shown": [
         [
           0.0304,
           "Identification of Succinylation-Related Transcriptional Signatures in Alzheimer's Disease: Integrated Bioinformatics Ana"
         ],
         [
-          0.0633,
+          0.0632,
           "BAG3 coordinates astrocytic proteostasis of Alzheimer's disease-linked proteins via proteasome, autophagy, and retromer "
         ],
         [
-          0.0697,
+          0.0696,
           "An integrated human forebrain organoid reveals microglia-mediated CD8+ T cell recruitment and neuroimmune dysfunction in"
         ]
       ]
