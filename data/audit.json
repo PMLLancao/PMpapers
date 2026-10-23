@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T01:36:25.276946+00:00",
+  "generated_at_utc": "2026-10-23T01:42:33.560288+00:00",
   "weekly_top10": [
     {
       "title": "Gαi2 promotes microtubule-driven incorporation of neurofilaments to stabilise nascent axons in vivo.",
@@ -2096,7 +2096,7 @@
   "semantic": {
     "focus": {
       "min": 0.0607,
-      "median": 0.1461,
+      "median": 0.146,
       "max": 0.1896,
       "weakest_shown": [
         [
@@ -2108,7 +2108,7 @@
           "Comprehensive Clinical Characteristics, Longitudinal Adaptive Functioning, and Electroencephalogram Activity in MAPK8IP3"
         ],
         [
-          0.1201,
+          0.12,
           "Insights into how JIP3 and JIP4 adaptor proteins relieve the auto-inhibited form of the kinesin-1 motor."
         ]
       ]
@@ -2146,7 +2146,7 @@
           "Autolysosomal enhancer GHF201 attenuates pathophysiology in a mucopolysaccharidosis type I mouse model."
         ],
         [
-          -0.0061,
+          -0.006,
           "Lysosomal multi-omics reveals altered sphingolipid catabolism associated with lysosomal dysfunction in the aging brain."
         ]
       ]
@@ -2171,20 +2171,20 @@
       ]
     },
     "cytoskeleton": {
-      "min": 0.0301,
+      "min": 0.0302,
       "median": 0.0798,
-      "max": 0.1263,
+      "max": 0.1264,
       "weakest_shown": [
         [
-          0.0301,
+          0.0302,
           "Photonic waveguide chip-based nanoscopy visualizes rearrangements of the cortical actin cytoskeleton in activated Jurkat"
         ],
         [
-          0.0309,
+          0.031,
           "DNAAF19-RUVBL1/2 complex recruits multiple adaptors to promote dynein arm assembly."
         ],
         [
-          0.0365,
+          0.0364,
           "The postsynaptic scaffold protein ABLIM1 regulates seizure susceptibility by maintaining GluA2 membrane localization in "
         ]
       ]
@@ -2199,11 +2199,11 @@
           "OGT regulates RNA-binding protein nucleocytoplasmic partitioning, but this fails in amyotrophic lateral sclerosis."
         ],
         [
-          0.0313,
+          0.0314,
           "Female iPSC X chromosome inactivation erosion and its transcriptomic effects during CRISPR gene editing and neural diffe"
         ],
         [
-          0.0358,
+          0.0359,
           "iPSC neurodegenerative disease initiative isogenic CAG repeat iPSC line for Huntington's disease."
         ]
       ]
@@ -2237,7 +2237,7 @@
           "CelFDrive: Multimodal deep learning-assisted microscopy for automated detection of rare events."
         ],
         [
-          0.0279,
+          0.0278,
           "Broadband backscattering confocal microscopy enables label-free 3D live cell nanoscale sensitive imaging."
         ],
         [
@@ -2249,33 +2249,33 @@
     "analysis-tools": {
       "min": 0.0643,
       "median": 0.1477,
-      "max": 0.169,
+      "max": 0.1689,
       "weakest_shown": [
         [
           0.0643,
           "Extended depth-of-field reflected-light microscopy with a low-cost robotic microscope and Fiji focus stacking: Workflow "
         ],
         [
-          0.0848,
+          0.0849,
           "QuRad: Radiomics Feature Extraction for QuPath."
         ],
         [
-          0.0888,
+          0.0889,
           "Comparison of manual counting with two rule-based image analysis programs, ImageJ and CellProfiler, for quantitative ana"
         ]
       ]
     },
     "signaling": {
-      "min": -0.0122,
+      "min": -0.0121,
       "median": 0.0484,
-      "max": 0.1842,
+      "max": 0.1843,
       "weakest_shown": [
         [
-          -0.0122,
+          -0.0121,
           "Targeting the Calcium-mtDNA-cGAS-STING Signaling Nexus: A Novel Redox Mechanism for Nimodipine's Neuroprotection in Trau"
         ],
         [
-          0.0113,
+          0.0114,
           "Hydrogen sulfide ameliorates cognitive dysfunction in diabetic encephalopathy by activating PI3K/AKT/GSK-3β signaling to"
         ],
         [
@@ -2286,15 +2286,15 @@
     },
     "extracellular": {
       "min": -0.0066,
-      "median": 0.0526,
-      "max": 0.0991,
+      "median": 0.0527,
+      "max": 0.0992,
       "weakest_shown": [
         [
           -0.0066,
           "Time-of-Day Effects of Platelet-Derived Exosomes on Cognitive-Emotional Functions in an Animal Model of Methamphetamine "
         ],
         [
-          0.0017,
+          0.0018,
           "Astrocyte-derived extracellular vesicle phosphorylated TDP-43 as a blood-based biomarker for amyotrophic lateral scleros"
         ],
         [
@@ -2306,18 +2306,18 @@
     "neurodegeneration": {
       "min": 0.0304,
       "median": 0.1151,
-      "max": 0.1507,
+      "max": 0.1506,
       "weakest_shown": [
         [
           0.0304,
           "Identification of Succinylation-Related Transcriptional Signatures in Alzheimer's Disease: Integrated Bioinformatics Ana"
         ],
         [
-          0.0632,
+          0.0633,
           "BAG3 coordinates astrocytic proteostasis of Alzheimer's disease-linked proteins via proteasome, autophagy, and retromer "
         ],
         [
-          0.0696,
+          0.0697,
           "An integrated human forebrain organoid reveals microglia-mediated CD8+ T cell recruitment and neuroimmune dysfunction in"
         ]
       ]
