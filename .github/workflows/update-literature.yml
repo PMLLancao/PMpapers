@@ -11,13 +11,16 @@ on:
       - "scripts/update_literature.py"
       - "config/search_config.json"
       - "tests/test_gates.py"
+      - ".github/workflows/update-literature.yml"
 
 permissions:
   contents: write
 
 concurrency:
   group: update-literature
-  cancel-in-progress: true
+  # Finish the running update, then run once more with the newest code. Cancelling mid-run
+  # lost updates whenever two people/assistants pushed within a few minutes.
+  cancel-in-progress: false
 
 jobs:
   update:
