@@ -4,9 +4,8 @@
 #
 # Requires (done once by the repository owner, see docs/SETUP_CLAUDE_GITHUB.md):
 #   1. Claude GitHub App installed on this repository: https://github.com/apps/claude
-#   2. Repository secret ANTHROPIC_API_KEY (Claude Console API key).
-#      Using a Claude subscription instead? Add secret CLAUDE_CODE_OAUTH_TOKEN and swap the
-#      two marked lines below.
+#   2. Repository secret CLAUDE_CODE_OAUTH_TOKEN generated with `claude setup-token`.
+#      This uses an eligible existing Claude subscription instead of a pay-per-use API key.
 name: Claude Code
 
 on:
@@ -60,8 +59,7 @@ jobs:
         id: claude
         uses: anthropics/claude-code-action@v1
         with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}                 # API key (swap 1/2)
-          # claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}   # subscription (swap 2/2)
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           # If ChatGPT posts through a bot account instead of PMLLancao, list it here, e.g.:
           # allowed_bots: "chatgpt-codex-connector[bot]"
           claude_args: |
