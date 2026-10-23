@@ -317,5 +317,32 @@
     "imaging": 365,
     "analysis-tools": 365,
     "extracellular": 365
-  }
+  },
+  "extra_queries": [
+    {
+      "topic": "Imaging",
+      "note": "Targeted: imaging techniques studied IN neurons/organelles (title-level biology).",
+      "pubmed": "(\"super-resolution\"[tiab] OR \"expansion microscopy\"[tiab] OR \"live-cell imaging\"[tiab] OR \"live imaging\"[tiab] OR \"light-sheet\"[tiab] OR \"cryo-electron tomography\"[tiab] OR \"cryo-ET\"[tiab] OR \"correlative light\"[tiab] OR \"volume electron microscopy\"[tiab] OR \"two-photon\"[tiab] OR \"single-molecule imaging\"[tiab] OR STED[tiab] OR MINFLUX[tiab] OR \"high-content imaging\"[tiab]) AND (neuron*[ti] OR neuronal[ti] OR axon*[ti] OR dendrit*[ti] OR synap*[ti] OR lysosom*[ti] OR endosom*[ti] OR organelle*[ti] OR microglia*[ti] OR astrocyt*[ti] OR mitochondri*[ti] OR \"axon initial segment\"[ti] OR brain[ti])"
+    },
+    {
+      "topic": "Imaging",
+      "note": "Targeted: imaging-method papers in methods/cell-biology journals.",
+      "pubmed": "(microscop*[ti] OR imaging[ti] OR nanoscopy[ti] OR \"super-resolution\"[ti]) AND (\"Nature methods\"[ta] OR \"Cell reports methods\"[ta] OR \"eLife\"[ta] OR \"The Journal of cell biology\"[ta] OR \"Nature communications\"[ta] OR \"Journal of cell science\"[ta] OR \"Molecular biology of the cell\"[ta] OR \"Communications biology\"[ta] OR \"Science advances\"[ta]) AND (cell*[tiab] OR neuron*[tiab])"
+    },
+    {
+      "topic": "Analysis Tools",
+      "note": "Targeted: named image-analysis ecosystems released as software.",
+      "pubmed": "(napari[tiab] OR Fiji[tiab] OR ImageJ[tiab] OR CellProfiler[tiab] OR QuPath[tiab] OR Cellpose[tiab] OR StarDist[tiab] OR ilastik[tiab] OR TrackMate[tiab] OR DeepLabCut[tiab] OR \"Sholl analysis\"[tiab] OR kymograph*[tiab]) AND (plugin[tiab] OR software[tiab] OR tool[ti] OR toolbox[tiab] OR \"open-source\"[tiab] OR macro[tiab] OR workflow[ti] OR pipeline[ti])"
+    },
+    {
+      "topic": "Analysis Tools",
+      "note": "Targeted: software for microscopy/omics/neural data in tool-publishing journals.",
+      "pubmed": "(software[tiab] OR plugin[tiab] OR \"open-source\"[tiab] OR toolbox[tiab] OR \"python package\"[tiab] OR \"R package\"[tiab] OR pipeline[ti] OR \"deep learning\"[ti]) AND (microscopy[tiab] OR fluorescence[tiab] OR \"image analysis\"[tiab] OR segmentation[tiab] OR \"cell tracking\"[tiab] OR kymograph*[tiab] OR neurite*[tiab] OR \"single-cell\"[tiab] OR proteomic*[tiab] OR \"spatial transcriptomic*\"[tiab] OR \"pose estimation\"[tiab]) AND (\"Bioinformatics (Oxford, England)\"[ta] OR \"Nature methods\"[ta] OR \"Cell reports methods\"[ta] OR \"eLife\"[ta] OR \"PLoS computational biology\"[ta] OR \"BMC bioinformatics\"[ta] OR \"Journal of neuroscience methods\"[ta] OR \"Neuroinformatics\"[ta] OR \"Nature communications\"[ta] OR \"Communications biology\"[ta] OR \"Journal of cell science\"[ta] OR \"Molecular biology of the cell\"[ta] OR \"Patterns (New York, N.Y.)\"[ta] OR \"Biological imaging\"[ta] OR \"Scientific reports\"[ta] OR \"PloS one\"[ta] OR \"GigaScience\"[ta] OR \"Nucleic acids research\"[ta] OR \"eNeuro\"[ta] OR \"Frontiers in neuroinformatics\"[ta])"
+    },
+    {
+      "topic": "Extracellular",
+      "note": "Targeted: EV/secretion as the TITLE subject, with neural or lysosomal context.",
+      "pubmed": "(\"extracellular vesicle*\"[ti] OR exosome*[ti] OR ectosome*[ti] OR \"lysosomal exocytosis\"[ti] OR \"secretory autophagy\"[ti] OR \"unconventional secretion\"[ti] OR \"secretory lysosome*\"[ti]) AND (neuron*[tiab] OR neuronal[tiab] OR microglia*[tiab] OR astrocyt*[tiab] OR oligodendrocyt*[tiab] OR brain[tiab] OR lysosom*[tiab])"
+    }
+  ]
 }

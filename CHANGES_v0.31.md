@@ -40,3 +40,12 @@ Sparse sections are expected: the handoff prefers honest small sections over pad
 
 ## Still open (not done here)
 Full-text enrichment (PMC/Europe PMC), review-specific card fields, UI toggle for `best`, broader imaging/tools retrieval queries, live verification of the Focus preprint backfill.
+
+# PaperScope v0.32 — 10 per section, real card analysis, one entry point (22 Oct 2026)
+
+- Main site address now opens PaperScope (old Lit Scout page kept as `litscout-old.html`).
+- Every section shows up to 10 papers. New default **Best papers** view mixes Primary + strong Secondary; Primary / Secondary views remain separate and disjoint. Counts come from the served lists.
+- Targeted extra searches (`extra_queries` in config) for Imaging, Analysis Tools and Extracellular, whose broad queries were crowded out by off-topic papers. Sections are still never padded: if fewer than 10 pass the checks, the page says so.
+- Card analysis moved to the updater: curated targets (PKA case-sensitive), models, methods, code/data links, data accessions, stated limitations, PMC full-text link, preprint link. Open-access papers are read in full from Europe PMC (Methods/Results/Discussion); others are labelled **abstract-only**. Reviews show topics + evidence scope instead of fake methods.
+- Must read / Worth reading / Scan now come from the server ranking; "Why this was shown" lists the real reasons.
+- 67 regression checks (added card-analysis checks).

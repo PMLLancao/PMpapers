@@ -194,6 +194,24 @@ items = [dict(P("t%d" % i), journal_tier=t, section_score=80) for i, t in
 pri, sec = u.split_tiers(items)
 check("Primary and Secondary are disjoint", not ({id(x) for x in pri} & {id(x) for x in sec}))
 
+# --- Card analysis (handoff section 6) ---------------------------------------------------
+u.FULLTEXT_ENABLED = False
+c = u.analyse_card(u.enrich(P("PKA phosphorylates TFEB in hippocampal neurons",
+      "PKA activity was measured in primary hippocampal neurons from knockout mice by live-cell imaging. PKA ...",
+      "Journal of Cell Biology")), "signaling")
+check("Card: PKA extracted as target", "PKA" in c["targets"])
+check("Card: pKa (chemistry) is not PKA", "PKA" not in u.analyse_card(u.enrich(P(
+      "Lysosomal pH probes", "The pKa of the probe was 4.5; the pKa shifted.", "Traffic")), "organelle")["targets"])
+check("Card: models extracted (specific mouse beats generic)",
+      "primary hippocampal neurons" in c["models"] and "mouse (in vivo)" not in c["models"])
+check("Card: methods extracted", "live-cell imaging" in c["methods"])
+check("Card: abstract-only label when no full text", c["analysis_depth"] == "abstract-only")
+r = u.analyse_card(u.enrich(P("Lysosomes in neurodegeneration: a review", "Studies in mice and iPSC neurons...",
+      "Trends in cell biology", ("Review",), review=True)), "organelle")
+check("Card: reviews get evidence scope, not fake methods", r["methods"] == [] and r["models"] == [] and r["evidence_scope"])
+check("Card: JIP3-titled focus paper is Must read",
+      u.analyse_card(dict(u.enrich(P("JIP3 in axons", "JIP3")), section_id="focus", section_score=60), "focus")["decision"] == "Must read")
+
 print(f"{len(PASS)} passed, {len(FAIL)} failed")
 for f in FAIL: print("  FAIL:", f)
 sys.exit(1 if FAIL else 0)

@@ -18,7 +18,7 @@ PREPRINT_DAYS = int(CFG.get("preprint_days", 30))
 session = requests.Session()
 email = os.getenv("USER_EMAIL", "user@example.com")
 api_key = os.getenv("NCBI_API_KEY")
-session.headers.update({"User-Agent": f"PaperScope/0.31 ({email})"})
+session.headers.update({"User-Agent": f"PaperScope/0.32 ({email})"})
 EUTIL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 EPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 
@@ -50,7 +50,7 @@ TITLES = {
     "extracellular":"Extracellular Vesicles & Lysosomal Secretion",
     "neurodegeneration":"Neurodegeneration"
 }
-VISIBLE = {k:(10 if k=="signaling" else 5) for k in TITLES}
+VISIBLE = {k:10 for k in TITLES}   # user request (22 Oct 2026): 10 per section
 PRIMARY = CFG.get("primary_journals", CFG.get("top_journals", []))
 SECONDARY = CFG.get("secondary_journals", [])
 EXCLUDED = CFG.get("excluded_journals", [])
@@ -347,7 +347,7 @@ SOFTWARE = ["software", "plugin*", "package*", "toolbox*", "toolkit*", "open sou
             "graphical user interface", "gui", "benchmark*", "napari", "imagej", "fiji",
             "cellprofiler", "qupath", "ilastik", "cellpose", "stardist", "database", "atlas",
             "resource"]
-BIO_DATA = ["cell", "cells", "cellular", "neuron*", "microscop*", "fluorescen*", "histolog*",
+BIO_DATA = ["pose estimation", "behavioral video*", "behavioural video*", "cell", "cells", "cellular", "neuron*", "microscop*", "fluorescen*", "histolog*",
             "immunofluorescen*", "tissue section*", "single cell", "proteom*", "transcriptom*",
             "rna seq", "organoid*", "live imaging", "time lapse", "puncta", "organelle*",
             "lysosom*", "mitochondri*", "synap*", "axon*", "dendrit*"]
@@ -648,7 +648,9 @@ PER_QUERY = int(CFG.get("max_results_per_query", 45))
 
 def retrieve_research():
     store = {}
-    for q in CFG["queries"]:
+    # extra_queries: narrower, high-precision searches for sections where the broad query is
+    # crowded out by off-topic recent papers (Imaging, Analysis Tools, Extracellular).
+    for q in CFG["queries"] + CFG.get("extra_queries", []):
         sec = TOPIC_SECTION.get(q["topic"])
         if not sec: continue
         ids = list(dict.fromkeys(pubmed_search(q["pubmed"], PER_QUERY, WEEK) +
@@ -733,12 +735,13 @@ def split_tiers(items):
     return pri, sec
 
 def best_mix(pri, seco, n=30):
-    """Default 'best papers' view (handoff priority 4): Primary first, plus strong
-    Secondary papers when the Primary slice is sparse. Primary/Secondary stay disjoint."""
-    floor = 70
-    pool = pri + [p for p in seco if p["section_score"] >= floor]
-    pool.sort(key=lambda x: (x["section_score"], x.get("date", "")), reverse=True)
-    return pool[:n]
+    """Default 'Best' view (handoff priority 4): one ranked list mixing Primary and
+    Secondary so a section can show 10 good papers when Primary alone is sparse.
+    Secondary items carry a small handicap so Primary wins ties. Both already passed
+    the section gates and quality floors; nothing weaker is added to reach 10."""
+    pool = [(p["section_score"], p) for p in pri] + [(p["section_score"] - 6, p) for p in seco]
+    pool.sort(key=lambda x: (x[0], x[1].get("date", "")), reverse=True)
+    return [p for _, p in pool][:n]
 
 def weekly_top10(section_lists):
     c = []
@@ -768,6 +771,194 @@ def _brief(p, extra=()):
     for f in extra: d[f] = p.get(f)
     return d
 
+# ---------------------------------------------------------------------------
+# Card analysis (v0.32): computed in the updater so the app shows real fields.
+# Open-access papers (PMC id) are read in full from Europe PMC: Methods for models
+# and methods, Results/Discussion for limitations, and the whole text for code/data
+# links. Everything else is labelled "abstract-only". Nothing is inferred beyond text.
+# ---------------------------------------------------------------------------
+FULLTEXT_ENABLED = os.environ.get("PAPERSCOPE_FULLTEXT", "1") == "1"
+FULLTEXT_MAX = int(os.environ.get("PAPERSCOPE_FULLTEXT_MAX", "260"))
+EPMC_REST = "https://www.ebi.ac.uk/europepmc/webservices/rest/"
+_FT_CACHE = {}
+
+# (label, terms) — curated profile targets. Case-sensitive entries guard words like PKA/pKa.
+TARGETS = [
+    ("MAPK8IP3/JIP3", ["mapk8ip3", "jip3"]), ("JIP4/SPAG9", ["jip4", "spag9"]),
+    ("KIF5/kinesin-1", ["kif5a", "kif5b", "kif5c", "kinesin 1"]), ("KIF1A", ["kif1a"]),
+    ("KLC1", ["klc1"]), ("Dynein", ["dynein", "dync1h1"]), ("Dynactin", ["dynactin", "dctn1"]),
+    ("LRRK2", ["lrrk2"]), ("VPS35/retromer", ["vps35", "retromer"]),
+    ("RAB7", ["rab7", "rab7a"]), ("RAB10", ["rab10"]), ("RAB12", ["rab12"]), ("RAB29", ["rab29"]),
+    ("RAB36", ["rab36"]), ("RAB GTPases", ["rab gtpase*"]), ("RHOA", ["rhoa"]), ("RAC1", ["rac1"]),
+    ("CDC42", ["cdc42"]), ("TMEM55B", ["tmem55b"]), ("RILPL1", ["rilpl1"]), ("CC2D1A", ["cc2d1a"]),
+    ("CC2D1B", ["cc2d1b"]), ("TBK1", ["tbk1"]), ("STING", ["sting", "cgas"]), ("CHMP4B/ESCRT", ["chmp4b", "escrt"]),
+    ("TFEB", ["tfeb"]), ("mTORC1/mTOR", ["mtorc1", "mtor"]), ("AKT/PI3K", ["akt", "pi3k"]),
+    ("cAMP/EPAC", ["camp", "cyclic amp", "epac", "epac1", "epac2"]), ("AKAP", ["akap*"]),
+    ("LAMP1", ["lamp1"]), ("Cathepsins", ["cathepsin*"]), ("GBA1", ["gba", "gba1", "glucocerebrosidase"]),
+    ("TDP-43", ["tdp 43", "tardbp"]), ("Tau", ["tau", "mapt"]), ("α-synuclein", ["synuclein", "snca"]),
+    ("APOE", ["apoe", "apoe4"]), ("C9orf72", ["c9orf72"]), ("TREM2", ["trem2"]), ("Neurofilament", ["neurofilament*"]),
+    ("Ankyrin-G", ["ankyrin g", "ankyrin-g", "ank3"]), ("Galectin-3", ["galectin 3", "lgals3"]),
+]
+TARGETS_CS = [("PKA", ["PKA", "protein kinase A"])]
+
+MODELS = [
+    ("human iPSC-derived neurons", ["ipsc derived neuron*", "hipsc derived neuron*", "induced neuron*", "i3neuron*"]),
+    ("human iPSC-derived microglia", ["ipsc derived microglia*", "hipsc derived microglia*"]),
+    ("human iPSC-derived astrocytes", ["ipsc derived astrocyt*", "hipsc derived astrocyt*"]),
+    ("human iPSC-derived cells", ["ipsc*", "hipsc*", "induced pluripotent"]),
+    ("brain organoids / assembloids", ["organoid*", "assembloid*"]),
+    ("primary hippocampal neurons", ["primary hippocampal neuron*", "hippocampal neuron culture*", "cultured hippocampal neuron*"]),
+    ("primary cortical neurons", ["primary cortical neuron*", "cultured cortical neuron*"]),
+    ("primary neurons (other)", ["primary neuron*", "dorsal root ganglion neuron*", "drg neuron*", "motor neuron culture*"]),
+    ("knock-in mouse", ["knock in mice", "knock in mouse", "knockin mice", "knockin mouse"]),
+    ("knockout / conditional mouse", ["knockout mice", "knockout mouse", "conditional knockout", "cko mice", "null mice", "deficient mice"]),
+    ("transgenic mouse", ["transgenic mice", "transgenic mouse"]),
+    ("mouse (in vivo)", ["mice", "mouse"]), ("rat", ["rat", "rats"]),
+    ("zebrafish", ["zebrafish"]), ("Drosophila", ["drosophila"]), ("C. elegans", ["c elegans", "caenorhabditis"]),
+    ("yeast", ["yeast*", "saccharomyces"]), ("non-human primate", ["macaque*", "marmoset*", "non human primate*"]),
+    ("HeLa", ["hela"]), ("HEK293", ["hek293*", "hek 293"]), ("U2OS", ["u2os"]), ("SH-SY5Y", ["sh sy5y"]),
+    ("COS-7", ["cos 7"]), ("N2a", ["n2a", "neuro 2a"]), ("ARPE-19", ["arpe 19"]),
+    ("patient fibroblasts", ["patient fibroblast*", "patient derived fibroblast*"]),
+    ("human post-mortem brain", ["post mortem", "postmortem", "autopsy"]),
+    ("patients / clinical cohort", ["patients", "cohort", "probands", "families"]),
+    ("purified proteins / in vitro reconstitution", ["purified protein*", "in vitro reconstitution", "reconstituted in vitro", "recombinant protein*"]),
+]
+METHODS = [
+    ("live-cell imaging", ["live cell imaging", "live imaging", "time lapse"]),
+    ("super-resolution microscopy", ["super resolution", "sted", "storm", "palm", "sim microscopy", "minflux", "expansion microscopy"]),
+    ("confocal microscopy", ["confocal"]), ("electron microscopy", ["electron microscopy", "tem", "sem", "focused ion beam"]),
+    ("cryo-EM / cryo-ET", ["cryo em", "cryo et", "cryo electron"]), ("CLEM", ["correlative light"]),
+    ("light-sheet imaging", ["light sheet"]), ("two-photon imaging", ["two photon"]),
+    ("kymograph / axonal transport assay", ["kymograph*", "axonal transport"]),
+    ("proteomics / mass spectrometry", ["proteomic*", "mass spectrometry", "lc ms", "tmt"]),
+    ("phosphoproteomics", ["phosphoproteomic*"]), ("interactomics / proximity labelling", ["interactom*", "bioid", "turboid", "apex2", "proximity labeling", "proximity labelling"]),
+    ("co-immunoprecipitation", ["co immunoprecipitation", "coimmunoprecipitation", "co ip", "immunoprecipitation"]),
+    ("lipidomics / metabolomics", ["lipidomic*", "metabolomic*"]),
+    ("bulk RNA-seq", ["rna seq", "rna sequencing"]), ("single-cell / single-nucleus RNA-seq", ["scrna seq", "snrna seq", "single cell rna", "single nucleus rna", "single cell transcriptom*", "single nucleus transcriptom*"]),
+    ("spatial transcriptomics", ["spatial transcriptom*", "visium", "merfish", "stereo seq"]),
+    ("ATAC-seq / chromatin profiling", ["atac seq", "chip seq", "cut tag", "cut&tag"]),
+    ("exome / genome sequencing", ["exome sequencing", "whole exome", "whole genome sequencing", "wes", "wgs"]),
+    ("GWAS / genetic association", ["gwas", "genome wide association"]),
+    ("CRISPR editing / screens", ["crispr*"]), ("siRNA / shRNA knockdown", ["sirna", "shrna", "knockdown"]),
+    ("western blot", ["western blot*", "immunoblot*"]), ("immunofluorescence / IHC", ["immunofluorescen*", "immunohistochem*", "immunostain*"]),
+    ("electrophysiology", ["patch clamp", "electrophysiolog*", "multielectrode", "mea recording*"]),
+    ("calcium imaging", ["calcium imaging", "gcamp"]), ("behavioural testing", ["behavioral test*", "behavioural test*", "morris water maze", "rotarod", "open field", "fear conditioning"]),
+    ("structural biology (X-ray/AlphaFold/NMR)", ["crystal structure", "x ray crystallograph*", "alphafold", "nmr"]),
+    ("single-molecule / optical trap", ["single molecule", "optical trap*", "in vitro motility"]),
+    ("MRI / neuroimaging", ["mri", "fmri", "diffusion tensor"]), ("machine learning / modelling", ["machine learning", "deep learning", "computational model*"]),
+]
+LINK_RX = re.compile(r"https?://(?:www\.)?(github\.com|gitlab\.com|zenodo\.org|figshare\.com|osf\.io|addgene\.org|"
+                     r"bitbucket\.org|huggingface\.co|codeocean\.com|dandiarchive\.org|ebi\.ac\.uk/pride|"
+                     r"proteomexchange\.org|ncbi\.nlm\.nih\.gov/geo)[^\s<>\")\],;]*", re.I)
+ACCESSION_RX = re.compile(r"\b(GSE\d{4,}|PXD\d{5,}|E-MTAB-\d+|SRP\d{5,}|PRJNA\d{5,})\b")
+LIMIT_RX = re.compile(r"[^.]*\b(limitation|limited by|caveat|we cannot exclude|remains to be determined|"
+                      r"future studies|did not assess|was not assessed|small sample)\b[^.]*\.", re.I)
+
+def _labels(text, table, case_terms=()):
+    out = []
+    for label, terms in table:
+        if m(text, terms): out.append(label)
+    for label, terms in case_terms:
+        if _rx(tuple(terms), True).search(text or ""): out.append(label)
+    return out
+
+def central_targets(p, extra_text=""):
+    """Targets in the title first, then those mentioned at least twice in abstract (+ full text)."""
+    t = p.get("title", ""); body = (p.get("abstract", "") + " " + extra_text)
+    title_hits = _labels(t, TARGETS, TARGETS_CS)
+    body_hits = [lab for lab, terms in TARGETS if lab not in title_hits and count(body, terms) >= 2]
+    body_hits += [lab for lab, terms in TARGETS_CS if lab not in title_hits and
+                  len(_rx(tuple(terms), True).findall(body)) >= 2]
+    return (title_hits + body_hits)[:6]
+
+def _prune_models(ms):
+    # Keep the most specific label: drop generic "mouse (in vivo)" if a specific mouse model is present, etc.
+    if any(x in ms for x in ("knock-in mouse", "knockout / conditional mouse", "transgenic mouse")):
+        ms = [x for x in ms if x != "mouse (in vivo)"]
+    if any(x.startswith("human iPSC-derived") for x in ms):
+        ms = [x for x in ms if x != "human iPSC-derived cells"]
+    if any(x.startswith("primary ") and x != "primary neurons (other)" for x in ms):
+        ms = [x for x in ms if x != "primary neurons (other)"]
+    return ms
+
+def _sec_text(root, rx):
+    out = []
+    for sec in root.iter("sec"):
+        title = "".join(sec.findtext("title") or "")
+        if re.search(rx, (sec.get("sec-type") or "") + " " + title, re.I):
+            out.append(" ".join(sec.itertext()))
+    return " ".join(out)
+
+def fetch_fulltext(pmcid):
+    """Europe PMC open-access full text -> dict of section texts. None if not available."""
+    if not pmcid or not FULLTEXT_ENABLED: return None
+    if pmcid in _FT_CACHE: return _FT_CACHE[pmcid]
+    if len(_FT_CACHE) >= FULLTEXT_MAX: return None
+    res = None
+    try:
+        r = session.get(EPMC_REST + pmcid + "/fullTextXML", timeout=40)
+        if r.status_code == 200 and r.text.lstrip().startswith("<"):
+            root = ET.fromstring(r.content)
+            body = root.find(".//body")
+            whole = " ".join(root.itertext())
+            res = {"methods": _sec_text(root, r"method|materials|experimental procedures|star\W*methods"),
+                   "results": _sec_text(root, r"^\s*results|results and discussion"),
+                   "discussion": _sec_text(root, r"discussion|limitation"),
+                   "figures": len(root.findall(".//fig")),
+                   "has_body": body is not None, "all": whole}
+    except Exception as e:
+        print("full text skipped", pmcid, e)
+    _FT_CACHE[pmcid] = res
+    time.sleep(0.15)
+    return res
+
+def decision(p):
+    s = p.get("section_score", 0)
+    if p.get("section_id") == "focus" and m(p.get("title", ""), ["mapk8ip3", "jip3"]): return "Must read"
+    if s >= 100: return "Must read"
+    if s >= 82: return "Worth reading"
+    return "Scan"
+
+def analyse_card(p, sec):
+    """Fill the card fields the app shows. Mutates and returns p."""
+    ft = fetch_fulltext(p.get("pmcid")) if p.get("pmcid") else None
+    full = bool(ft and ft.get("has_body"))
+    methods_text = (ft or {}).get("methods", "") if full else ""
+    study_text = methods_text or blob(p)
+    tg = central_targets(p, (ft or {}).get("results", "") if full else "")
+    if p.get("review"):
+        p["models"] = []; p["methods"] = []
+        scope = _prune_models(_labels(blob(p), MODELS))
+        p["evidence_scope"] = scope[:6]
+        p["review_topics"] = tg
+    else:
+        p["models"] = _prune_models(_labels(study_text, MODELS))[:6]
+        p["methods"] = _labels(study_text, METHODS)[:8]
+    p["targets"] = tg
+    if full:
+        p["analysis_depth"] = "full text (open access)"
+        whole = ft.get("all", "")
+        links = list(dict.fromkeys(mm.group(0).rstrip(".") for mm in LINK_RX.finditer(whole)))[:6]
+        p["code_data_links"] = links
+        p["data_accessions"] = list(dict.fromkeys(ACCESSION_RX.findall(whole)))[:6]
+        lim = [mm.group(0).strip() for mm in LIMIT_RX.finditer(ft.get("discussion", ""))][:2]
+        p["limitations"] = [x[:300] for x in lim]
+        p["figure_count"] = ft.get("figures", 0)
+    else:
+        p["analysis_depth"] = "abstract-only" if p.get("abstract") else "title-only"
+        p.setdefault("code_data_links", []); p.setdefault("data_accessions", []); p.setdefault("limitations", [])
+    if p.get("pmcid"): p["pmc_url"] = "https://pmc.ncbi.nlm.nih.gov/articles/" + p["pmcid"] + "/"
+    if p.get("preprint_doi") and not p.get("preprint_url"): p["preprint_url"] = "https://doi.org/" + p["preprint_doi"]
+    p["decision"] = decision(p)
+    why = [f"section: {TITLES.get(sec, sec)}"]
+    if sec in KEYS and title_hit(p, sec): why.append("topic is in the title")
+    if tg: why.append("central targets: " + ", ".join(tg[:4]))
+    if p.get("models"): why.append("model: " + ", ".join(p["models"][:2]))
+    why.append("source: " + p.get("journal_tier", tier(p.get("journal"))))
+    if p.get("weekly"): why.append("published this week")
+    p["why_shown"] = " · ".join(why)
+    return p
+
 def build_outputs(allp):
     allp = fold_preprints([enrich(p) for p in allp])
     # A paper found by one query also belongs to any other section its TITLE is about
@@ -793,9 +984,15 @@ def build_outputs(allp):
     for sec in TITLES: pp.extend(ranked(allp, sec, preprint=True))
     pp = dedupe(sorted(pp, key=lambda x: (x["section_score"], x.get("date", "")), reverse=True))
     top10 = weekly_top10(weekly_source)
+    # Card analysis (targets/models/methods/full text/decision/why) for everything the app can show.
+    for sec, x in sections.items():
+        for lst in (x["primary"], x["secondary"], x["best"]):
+            for q in lst: analyse_card(q, sec)
+    for q in top10: analyse_card(q, q.get("weekly_section") or q.get("section_id"))
+    for q in rpri[:40] + rsec[:40] + pp[:50]: analyse_card(q, q.get("section_id"))
     counts = {s: {"primary": len(sections[s]["primary"]), "secondary": len(sections[s]["secondary"]),
                   "weekly": sections[s]["weekly_count"]} for s in sections}
-    briefing = {"version": "0.31-relevance-gates", "generated_at_utc": NOW.isoformat(),
+    briefing = {"version": "0.32-cards-10-per-section", "generated_at_utc": NOW.isoformat(),
                 "weekly_days": WEEK, "weekly_start": (NOW - timedelta(days=WEEK)).date().isoformat(),
                 "weekly_end": NOW.date().isoformat(), "top10_weekly": top10, "sections": sections,
                 "reviews": {"window_days": REVIEW_DAYS, "primary": rpri[:40], "secondary": rsec[:40]},
