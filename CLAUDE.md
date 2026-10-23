@@ -99,3 +99,9 @@ PaperScope PWA: https://pmllancao.github.io/PMpapers/paperscope/
 Shared architecture issue: https://github.com/PMLLancao/PMpapers/issues/1
 
 If this file conflicts with a newer explicit instruction from the user, the newer user instruction wins.
+## Running the checks (for Claude in GitHub Actions or any session)
+- Regression suite: `PAPERSCOPE_SEMANTIC=0 PAPERSCOPE_FULLTEXT=0 python tests/test_gates.py` (must pass before any push; the updater workflow runs it too).
+- Offline output QA on the stored data, no network: `python tests/qa_offline.py`.
+- Confirmed false positives go in `tests/known_bad_titles.json`; the updater refuses to publish if any reappear.
+- After changing gates, ranking or `topic_definitions`, wait for the "Update literature data" run and inspect `data/audit.json` (sections, `semantic`, `rejections_by_section`) before declaring success.
+- Changelog: `CHANGES_v0.31.md`. Claude's design answers to Issue #1: `docs/claude_review_issue1.md`.
