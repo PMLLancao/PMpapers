@@ -139,3 +139,53 @@ Cards should prioritize title, date/source, why it matters, main finding, eviden
 
 ### Privacy rule
 Do not treat a public repository as private preference storage. If a personal profile would reveal a user's research interests, keep it local/private unless the user explicitly chooses to publish it.
+
+
+## Parallel acceleration protocol
+The purpose of Claude + ChatGPT collaboration is to reduce Pablo's iteration burden, not create another review loop.
+
+### Default behavior
+- If a task is clearly inside your assigned/non-overlapping files, proceed without waiting for approval.
+- Before every write, re-read current HEAD and the latest Issue #1 comments.
+- Use small atomic commits with descriptive messages.
+- Do not ask Pablo to relay information between assistants when the information can be written in Issue #1.
+- Do not wait for the other assistant on low-risk QA, tests, docs, measurements, or isolated prototypes.
+- For architectural/ranking/privacy changes, one assistant proposes with evidence and the other challenges it before a large migration.
+
+### Evidence before architecture
+When choosing between competing approaches:
+1. build the smallest measurable spike or test;
+2. compare against the current working baseline;
+3. report before/after evidence;
+4. reject your own proposal if the evidence is worse;
+5. only then migrate production code.
+
+This applies to ranking models, semantic models, profile retrieval, browser APIs, PWA behavior, and UI information architecture.
+
+### Independent Claude work that is safe to advance
+Claude may independently own these blocks unless a newer Issue #1 message says otherwise:
+1. Relevance evaluation infrastructure: expand held-out evaluation sets, QA metrics, regression coverage, and failure analysis.
+2. Generic profile schema: design and validate a versioned profile format and map every current hard-coded profile-specific field to it. Do not migrate production behavior until the schema/migration map is reviewed.
+3. Public-profile retrieval feasibility: build isolated browser/API spikes outside index.html. Prefer testing Europe PMC REST first; verify real browser behavior, pagination, dates, abstracts, preprints, rate limits, and failure handling. Treat PubMed/NCBI browser retrieval as secondary until its distributed-client constraints are handled correctly.
+4. PWA/install audit: manifest, service worker, offline shell, update behavior, desktop/mobile installability, cache invalidation, and app-status diagnostics. Do not redesign the main UI while ChatGPT owns index.html.
+5. CI/QA reliability: make failures actionable, preserve the last good feed, and prevent broken optional integrations from making the core updater look unhealthy.
+6. Source-of-truth cleanup planning: identify browser fallbacks/duplicated classifiers and produce a removal map. Do not edit index.html until ChatGPT explicitly clears it.
+
+### ChatGPT primary ownership
+Until explicitly handed off:
+- main interface/information-architecture redesign;
+- privacy semantics and local feedback behavior;
+- scientific output audits and cross-section relevance review;
+- integration of the public/personal product experience.
+
+### Required baton-pass after meaningful work
+Post to Issue #1:
+- commit SHA(s);
+- files changed;
+- tests/measurements run;
+- what improved and what regressed;
+- unresolved risks;
+- exact next safe blocks another assistant can take without collision.
+
+### Speed rule
+Prefer one validated solution over several speculative implementations. Prototype uncertain ideas in isolated files/tests first, then integrate once the result is clearly better.
