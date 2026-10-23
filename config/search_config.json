@@ -316,7 +316,8 @@
     "omics": 180,
     "imaging": 365,
     "analysis-tools": 365,
-    "extracellular": 365
+    "extracellular": 730,
+    "trafficking": 365
   },
   "extra_queries": [
     {
@@ -343,6 +344,36 @@
       "topic": "Extracellular",
       "note": "Targeted: EV/secretion as the TITLE subject, with neural or lysosomal context.",
       "pubmed": "(\"extracellular vesicle*\"[ti] OR exosome*[ti] OR ectosome*[ti] OR \"lysosomal exocytosis\"[ti] OR \"secretory autophagy\"[ti] OR \"unconventional secretion\"[ti] OR \"secretory lysosome*\"[ti]) AND (neuron*[tiab] OR neuronal[tiab] OR microglia*[tiab] OR astrocyt*[tiab] OR oligodendrocyt*[tiab] OR brain[tiab] OR lysosom*[tiab])"
+    },
+    {
+      "topic": "Trafficking",
+      "note": "Targeted: retromer/retriever/Commander/WASH and endosomal sorting subtopics to prevent broad-query crowding.",
+      "pubmed": "(retromer[tiab] OR retriever[tiab] OR Commander[tiab] OR WASH[tiab] OR CCC[tiab] OR VPS35[tiab] OR VPS26[tiab] OR VPS29[tiab] OR SNX27[tiab] OR FAM21[tiab]) AND (neuron*[tiab] OR brain[tiab] OR glia*[tiab] OR lysosom*[tiab] OR endosom*[tiab] OR membrane trafficking[tiab] OR cargo sorting[tiab] OR HeLa[tiab] OR HEK293[tiab])"
+    },
+    {
+      "topic": "Trafficking",
+      "note": "Targeted: ESCRT/HOPS/CORVET/exocyst and Rab-controlled endolysosomal transport.",
+      "pubmed": "(ESCRT[tiab] OR HOPS[tiab] OR CORVET[tiab] OR exocyst[tiab] OR Rab7[tiab] OR Rab10[tiab] OR Rab12[tiab] OR Rab36[tiab] OR endosomal sorting[tiab] OR lysosomal transport[tiab]) AND (neuron*[tiab] OR axon*[tiab] OR brain[tiab] OR glia*[tiab] OR lysosom*[tiab] OR endosom*[tiab] OR organelle*[tiab] OR HeLa[tiab] OR HEK293[tiab])"
+    },
+    {
+      "topic": "Trafficking",
+      "note": "Targeted: axonal and organelle motor transport.",
+      "pubmed": "(\"axonal transport\"[tiab] OR \"organelle transport\"[tiab] OR \"lysosome transport\"[tiab] OR \"endosome transport\"[tiab] OR \"mitochondrial transport\"[tiab]) AND (kinesin*[tiab] OR dynein[tiab] OR dynactin[tiab] OR KIF1A[tiab] OR KIF5A[tiab] OR KIF5B[tiab] OR adaptor*[tiab]) AND (neuron*[tiab] OR axon*[tiab] OR brain[tiab] OR glia*[tiab])"
+    },
+    {
+      "topic": "Extracellular",
+      "note": "Targeted: neuronal and glial EV biology as a central topic.",
+      "pubmed": "(\"extracellular vesicle*\"[ti] OR exosome*[ti] OR ectosome*[ti] OR microvesicle*[ti]) AND (neuron*[tiab] OR neuronal[tiab] OR microglia*[tiab] OR astrocyt*[tiab] OR oligodendrocyt*[tiab] OR glia*[tiab] OR synap*[tiab] OR brain[tiab])"
+    },
+    {
+      "topic": "Extracellular",
+      "note": "Targeted: lysosomal exocytosis and secretory lysosome mechanisms independent of neural context.",
+      "pubmed": "(\"lysosomal exocytosis\"[tiab] OR \"lysosome exocytosis\"[tiab] OR \"lysosomal secretion\"[tiab] OR \"secretory lysosome*\"[tiab]) AND (mechanism*[tiab] OR membrane*[tiab] OR calcium[tiab] OR TRPML*[tiab] OR MCOLN1[tiab] OR synaptotagmin*[tiab] OR repair[tiab] OR trafficking[tiab] OR secretion[tiab])"
+    },
+    {
+      "topic": "Extracellular",
+      "note": "Targeted: secretory autophagy and unconventional secretion mechanisms.",
+      "pubmed": "(\"secretory autophagy\"[tiab] OR \"unconventional secretion\"[tiab] OR \"unconventional protein secretion\"[tiab]) AND (lysosom*[tiab] OR autophag*[tiab] OR vesicle*[tiab] OR membrane*[tiab] OR secretion[tiab])"
     }
   ],
   "semantic_model": "BAAI/bge-small-en-v1.5",
