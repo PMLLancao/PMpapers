@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T16:23:41.344830+00:00",
+  "generated_at_utc": "2026-10-23T17:45:22.300955+00:00",
   "weekly_top10": [
     {
       "title": "Gαi2 promotes microtubule-driven incorporation of neurofilaments to stabilise nascent axons in vivo.",
@@ -110,9 +110,9 @@
     },
     "neurodevelopment": {
       "title": "Neurodevelopmental Disorders & Rare Diseases",
-      "primary_count": 8,
-      "secondary_count": 7,
-      "weekly_count": 8,
+      "primary_count": 7,
+      "secondary_count": 6,
+      "weekly_count": 7,
       "top_primary": [
         {
           "title": "A microglial basis for fragile X syndrome via impairment of FMRP-regulated lysosomal function.",
@@ -128,11 +128,6 @@
           "title": "Persistent neuronal stress signalling underlies Angelman syndrome phenotypes.",
           "date": "2026-10-21",
           "journal": "Nature"
-        },
-        {
-          "title": "Dynamic roles of embryonic glial cells in octopus brain development.",
-          "date": "2026-10-21",
-          "journal": "Current biology : CB"
         },
         {
           "title": "KATNAL2 dysfunction impairs microtubule dynamics and contributes to syndromic neurodevelopmental disease.",
@@ -185,18 +180,13 @@
           "title": "Increased inflammatory cytokines in the temporal cortex in autism spectrum disorder.",
           "date": "2026-09-19",
           "journal": "Brain, behavior, & immunity - health"
-        },
-        {
-          "title": "Identification of EIF4A1 as a candidate molecular indicator of autism spectrum disorder using integrative bioinformatic and biological methods.",
-          "date": "2026-08-06",
-          "journal": "Brain research"
         }
       ]
     },
     "organelle": {
       "title": "Lysosomes, Endosomes & Lysosomal Stress/Repair",
       "primary_count": 18,
-      "secondary_count": 5,
+      "secondary_count": 4,
       "weekly_count": 1,
       "top_primary": [
         {
@@ -250,11 +240,6 @@
           "title": "N1-methylnicotinamide Mediates Multi-Target Cognitive Deficit Relief via AMPK-Lysosome Axis Regulation.",
           "date": "2026-09-30",
           "journal": "Current neuropharmacology"
-        },
-        {
-          "title": "Kinesin-3 and the cargo adaptor Hook1 regulate early endosome and peroxisome motility and are required for mitochondrial and endoplasmic reticulum spatial organization during polarized fungal cell growth in Podospora anserina.",
-          "date": "2026-07-29",
-          "journal": "Biochimica et biophysica acta. Molecular cell research"
         },
         {
           "title": "Evaluation of Antisense Oligonucleotide-Associated Neuronal Lysosomal Changes.",
@@ -355,8 +340,8 @@
     },
     "cytoskeleton": {
       "title": "Cytoskeleton in Neurons & Organelle Biology",
-      "primary_count": 14,
-      "secondary_count": 7,
+      "primary_count": 12,
+      "secondary_count": 6,
       "weekly_count": 4,
       "top_primary": [
         {
@@ -385,11 +370,6 @@
           "journal": "Human molecular genetics"
         },
         {
-          "title": "Photonic waveguide chip-based nanoscopy visualizes rearrangements of the cortical actin cytoskeleton in activated Jurkat T cells.",
-          "date": "2026-07-15",
-          "journal": "Science advances"
-        },
-        {
           "title": "Cross-species molecular mapping of the photoreceptor sensory cilium and periciliary structures identifies conserved and species-specific architectural features.",
           "date": "2026-10-21",
           "journal": "Journal of cell science"
@@ -398,6 +378,11 @@
           "title": "Kinesin-3 KIF1A functions as a diligent worker and its functionality is regulated by the ubiquitin-proteasome system.",
           "date": "2026-08-25",
           "journal": "Molecular biology of the cell"
+        },
+        {
+          "title": "Disruption of dynactin complex function in intellectual disability.",
+          "date": "2026-06-30",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America"
         }
       ],
       "top_secondary": [
@@ -420,11 +405,6 @@
           "title": "Suppression of Tau-tubulin kinase 1 mitigates tau phosphorylation, and Aβ mediated neurotoxicity via altered kinase network.",
           "date": "2026-10-21",
           "journal": "Molecular & cellular proteomics : MCP"
-        },
-        {
-          "title": "Kinesin-3 and the cargo adaptor Hook1 regulate early endosome and peroxisome motility and are required for mitochondrial and endoplasmic reticulum spatial organization during polarized fungal cell growth in Podospora anserina.",
-          "date": "2026-07-29",
-          "journal": "Biochimica et biophysica acta. Molecular cell research"
         },
         {
           "title": "Microtubule and cytoskeletal destabilization gene expression in the brain vasculature after experimental diffuse traumatic brain injury: Implications for neurodegenerative disease later in life.",
@@ -505,9 +485,9 @@
     },
     "omics": {
       "title": "Omics & Datasets",
-      "primary_count": 22,
-      "secondary_count": 9,
-      "weekly_count": 11,
+      "primary_count": 21,
+      "secondary_count": 8,
+      "weekly_count": 10,
       "top_primary": [
         {
           "title": "Multi-omics profiling of the choroid plexus reveals developmental cellular remodeling, early immune gene activation, and epithelial cell heterogeneity.",
@@ -577,11 +557,6 @@
           "journal": "Virulence"
         },
         {
-          "title": "Single-cell reanalysis characterizes an Osmr+ astrocyte state and predicts midkine signaling to Cox6b1+ glutamatergic neurons at 24 h after traumatic brain injury.",
-          "date": "2026-08-16",
-          "journal": "Brain research"
-        },
-        {
           "title": "In silico analysis of transcriptomic datasets reveals nonlinear gene expression trajectories in aging microglia and Alzheimer's disease.",
           "date": "2026-08-04",
           "journal": "Experimental gerontology"
@@ -590,6 +565,11 @@
           "title": "Machine learning-assisted plasma PEA proteomics enables differential diagnosis of melancholic depression and bipolar disorder.",
           "date": "2026-09-09",
           "journal": "Journal of affective disorders"
+        },
+        {
+          "title": "Neonatal propofol exposure induces region-specific neurotoxic proteomic signatures in mouse cortex and hippocampus.",
+          "date": "2026-07-23",
+          "journal": "Brain research"
         }
       ]
     },
@@ -916,7 +896,7 @@
     "neurodegeneration": {
       "title": "Neurodegeneration",
       "primary_count": 24,
-      "secondary_count": 15,
+      "secondary_count": 14,
       "weekly_count": 14,
       "top_primary": [
         {
@@ -955,9 +935,9 @@
           "journal": "Science translational medicine"
         },
         {
-          "title": "Identification of Succinylation-Related Transcriptional Signatures in Alzheimer's Disease: Integrated Bioinformatics Analysis and Clinical Validation.",
-          "date": "2026-10-19",
-          "journal": "Molecular neurobiology"
+          "title": "Translational control of microglial metabolism, inflammatory responses, and survival by the eIF4E-binding proteins.",
+          "date": "2026-10-21",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America"
         }
       ],
       "top_secondary": [
@@ -1061,7 +1041,7 @@
     ]
   },
   "preprints": {
-    "count": 103,
+    "count": 102,
     "top": [
       {
         "title": "Pathogenic MAPK8IP3 variants drive distinct motor and behavioral phenotypes in humans and mice",
@@ -1245,6 +1225,14 @@
           "Leveraging Preclinical Models to Understand Human Neurobiology and Behavior."
         ]
       },
+      "non-preferred organism (title)": {
+        "count": 5,
+        "examples": [
+          "Dynamic roles of embryonic glial cells in octopus brain development.",
+          "Expanded characterization of the valproic acid zebrafish larval model of autism spectrum disorder: Insights into dysregulation in the gut.",
+          "NLGN3 autism variants have distinct functional impact on synapses and sleep behavior in Drosophila."
+        ]
+      },
       "no specific neurodevelopmental disease/development mechanism": {
         "count": 13,
         "examples": [
@@ -1280,14 +1268,6 @@
         "examples": [
           "Paternal methylphenidate exposure alters sperm miRNAs and induces intergenerational behavioral and transcriptional changes that are largely ",
           "Neurocognitive sequelae following seronegative anti-NMDA receptor encephalitis with ovarian teratoma in a pediatric patient: A six-year foll"
-        ]
-      },
-      "non-preferred organism (title)": {
-        "count": 4,
-        "examples": [
-          "Expanded characterization of the valproic acid zebrafish larval model of autism spectrum disorder: Insights into dysregulation in the gut.",
-          "NLGN3 autism variants have distinct functional impact on synapses and sleep behavior in Drosophila.",
-          "WAC loss alters food-associated behavior and physiological homeostasis with stage-associated cholinergic dysregulation in Caenorhabditis ele"
         ]
       },
       "cancer focus": {
@@ -1383,6 +1363,12 @@
           "Lysosomal metabolism in pancreatic cancer and its crosstalk with host physiology."
         ]
       },
+      "non-preferred organism (title)": {
+        "count": 1,
+        "examples": [
+          "Kinesin-3 and the cargo adaptor Hook1 regulate early endosome and peroxisome motility and are required for mitochondrial and endoplasmic ret"
+        ]
+      },
       "cancer focus": {
         "count": 2,
         "examples": [
@@ -1393,7 +1379,7 @@
     },
     "trafficking": {
       "topic not central": {
-        "count": 102,
+        "count": 100,
         "examples": [
           "ClC-7 links PIKfyve inhibition to Rab-dependent LRRK2 activity at lysosomes.",
           "The orientation of cholesterol's hydroxy group affects its membrane dynamics and intracellular transport.",
@@ -1401,7 +1387,7 @@
         ]
       },
       "non-preferred organism, no mammalian context": {
-        "count": 17,
+        "count": 16,
         "examples": [
           "Characterization of the Mos10 (Vps60) ESCRT-III complex.",
           "The Ral small GTPase is an essential regulator of exocyst complex function in secretion.",
@@ -1417,7 +1403,7 @@
         ]
       },
       "non-preferred organism (title)": {
-        "count": 26,
+        "count": 30,
         "examples": [
           "Polytetrafluoroethylene utensils as a source of micro- and nanoplastics: Insights from a Drosophila model.",
           "VPS33A and VPS18 orchestrate porcine epidemic diarrhea virus replication by modulating autophagic flux.",
@@ -1449,7 +1435,7 @@
         ]
       },
       "no neural/mammalian context": {
-        "count": 14,
+        "count": 13,
         "examples": [
           "DFCP1-containing ER microdomains mediate lysosomal membrane repair.",
           "COMMD3 coordinates mannose-6-phosphate receptor trafficking to sustain lysosomal protease maturation.",
@@ -1505,7 +1491,7 @@
         ]
       },
       "non-preferred organism (title)": {
-        "count": 11,
+        "count": 12,
         "examples": [
           "Msps/XMAP215 Is Essential for Oocyte Specification in the Drosophila Ovary.",
           "Organization of myosin H in the apical complex of Toxoplasma gondii revealed by 3D single-molecule super-resolution microscopy.",
@@ -1665,11 +1651,11 @@
         ]
       },
       "non-preferred organism (title)": {
-        "count": 7,
+        "count": 8,
         "examples": [
+          "Dynamic roles of embryonic glial cells in octopus brain development.",
           "From Genes to Neural Circuits: Genetic and Systems Mechanisms of Ethanol Sensitivity and Tolerance in Drosophila melanogaster.",
-          "Temporal regulation of metabolic processes in the marine diazotroph Crocosphaera watsonii WH8501.",
-          "Modulation of avian iridescence via melanogenesis."
+          "Temporal regulation of metabolic processes in the marine diazotroph Crocosphaera watsonii WH8501."
         ]
       },
       "unrelated organ (title)": {
@@ -1748,7 +1734,7 @@
         ]
       },
       "topic not central": {
-        "count": 129,
+        "count": 128,
         "examples": [
           "Piezo1 knockdown alleviates high‑altitude cerebral edema by improving brain microvascular endothelial cell tight junctions via blocking the ",
           "Cross-species molecular mapping of the photoreceptor sensory cilium and periciliary structures identifies conserved and species-specific arc",
@@ -1810,7 +1796,7 @@
         ]
       },
       "imaging used, biology off-profile": {
-        "count": 8,
+        "count": 11,
         "examples": [
           "Decision-making logic for samples of clinically significant EDTA-dependent pseudothrombocytopenia with machine learning.",
           "Oxidative eustress is associated with AMPK and AKT activation, GLUT4 translocation and glucose uptake in skeletal muscle cells and fibres.",
@@ -1818,7 +1804,7 @@
         ]
       },
       "non-preferred organism, no mammalian context": {
-        "count": 12,
+        "count": 14,
         "examples": [
           "Specific regulation of transsynaptic nanoalignment and postsynaptic assembly by a novel NCAM family synaptic adhesion molecule.",
           "Functionalized Polystyrene Nanoplastics Drive Distinct Mitochondrial Bioenergetic and Phenotypic Responses in Rainbow Trout Gill Epithelia.",
@@ -1833,9 +1819,8 @@
         ]
       },
       "non-optical/materials microscopy": {
-        "count": 2,
+        "count": 1,
         "examples": [
-          "Correlative SEM–Raman Microscopy of Inhalable Particles Sampled during Indoor Football on Artificial Turf with Crumb Rubber and Olive-Stone ",
           "afMLevel: Deep learning U-Net Models for Levelling Atomic Force Microscopy Images and Movies"
         ]
       }
@@ -2107,7 +2092,7 @@
         ]
       },
       "no mechanistic intersection": {
-        "count": 21,
+        "count": 20,
         "examples": [
           "Understanding Holistic Patient-Relevant Measurement in Amyotrophic Lateral Sclerosis: A Mixed-Methods Content Validity and Exploratory Rasch",
           "A transcriptomic resilience gap between the substantia nigra and cerebellum is associated with regional vulnerability in Parkinson's disease",
@@ -2115,7 +2100,7 @@
         ]
       },
       "non-preferred organism (title)": {
-        "count": 8,
+        "count": 9,
         "examples": [
           "Parkinson's Disease-Associated Genetic Alterations Disrupt Behavior and Diurnal Activity in Drosophila melanogaster.",
           "Machine learning-guided spectral fingerprinting reveals Parkinson's disease-associated biochemical changes in Drosophila melanogaster.",
@@ -2153,7 +2138,7 @@
         ]
       },
       "topic not central": {
-        "count": 109,
+        "count": 108,
         "examples": [
           "SIRT5 Attenuates Traumatic Brain Injury by Preserving OPA1-Mediated Mitochondrial Fusion and Limiting Oxidative Stress.",
           "TGF-β Inhibition Attenuates Tau Accumulation and Neurodegeneration in Progressive Supranuclear Palsy Patient-Derived Organoids.",
@@ -2201,7 +2186,7 @@
         ]
       },
       "non-preferred organism, no mammalian context": {
-        "count": 7,
+        "count": 5,
         "examples": [
           "Anti-inflammatory activities of extracellular vesicles-derived from rainbow trout (Oncorhynchus mykiss) plasma.",
           "Anti-inflammatory activities of extracellular vesicles-derived from rainbow trout (Oncorhynchus mykiss) plasma.",
@@ -2233,9 +2218,11 @@
         ]
       },
       "non-preferred organism (title)": {
-        "count": 1,
+        "count": 5,
         "examples": [
-          "Neu1-deficient zebrafish cells exhibit reduced Edwardsiella piscicida infection due to altered lysosomal exocytosis and membrane dynamics."
+          "Neu1-deficient zebrafish cells exhibit reduced Edwardsiella piscicida infection due to altered lysosomal exocytosis and membrane dynamics.",
+          "A NACHT domain-containing protein Ncp is required for appendage-associated unconventional protein secretion in the fungus Penicillium herque",
+          "Expression and Detection of Heterologous Proteins in Ustilago maydis."
         ]
       }
     }
@@ -2261,10 +2248,14 @@
       ]
     },
     "neurodevelopment": {
-      "min": 0.0392,
-      "median": 0.1036,
-      "max": 0.1318,
+      "min": 0.0201,
+      "median": 0.0966,
+      "max": 0.1311,
       "weakest_shown": [
+        [
+          0.0201,
+          "Validating gene-brain-behavior associations in autism: A replication study."
+        ],
         [
           0.0392,
           "Absent Septum Pellucidum Without Polymicrogyria or Seizures in TCP1-Related Neurodevelopmental Disorder."
@@ -2272,10 +2263,6 @@
         [
           0.0698,
           "Neurobehavioral Profiles and Clinical Consequences of MYT1L-Related Neurodevelopmental Disorder: Insights From the Brain"
-        ],
-        [
-          0.073,
-          "Overexpression of endoplasmic reticulum acetyl-CoA transporter AT-1 alters neuronal metabolism, growth, and synaptic act"
         ]
       ]
     },
@@ -2318,17 +2305,17 @@
       ]
     },
     "cytoskeleton": {
-      "min": 0.0301,
+      "min": 0.0309,
       "median": 0.0798,
       "max": 0.1263,
       "weakest_shown": [
         [
-          0.0301,
-          "Photonic waveguide chip-based nanoscopy visualizes rearrangements of the cortical actin cytoskeleton in activated Jurkat"
-        ],
-        [
           0.0309,
           "DNAAF19-RUVBL1/2 complex recruits multiple adaptors to promote dynein arm assembly."
+        ],
+        [
+          0.0365,
+          "The postsynaptic scaffold protein ABLIM1 regulates seizure susceptibility by maintaining GluA2 membrane localization in "
         ],
         [
           0.0451,
@@ -2365,8 +2352,8 @@
           "Integration of polygenic risk with single cell methylation data using met-scDRS."
         ],
         [
-          0.0183,
-          "Identification of Succinylation-Related Transcriptional Signatures in Alzheimer's Disease: Integrated Bioinformatics Ana"
+          0.0356,
+          "Parkinson's disease-linked D620N mutation selectively alters the brain-specific protein interactome of VPS35."
         ],
         [
           0.041,
@@ -2451,17 +2438,17 @@
       ]
     },
     "neurodegeneration": {
-      "min": 0.0304,
+      "min": 0.0494,
       "median": 0.0928,
       "max": 0.1507,
       "weakest_shown": [
         [
-          0.0304,
-          "Identification of Succinylation-Related Transcriptional Signatures in Alzheimer's Disease: Integrated Bioinformatics Ana"
-        ],
-        [
           0.0494,
           "Cas9 nickase-mediated contraction of CAG/CTG repeats is associated with phenotypic improvements in a Huntington's diseas"
+        ],
+        [
+          0.0632,
+          "BAG3 coordinates astrocytic proteostasis of Alzheimer's disease-linked proteins via proteasome, autophagy, and retromer "
         ],
         [
           0.0696,
