@@ -377,6 +377,30 @@ DEGEN_MECHANISM = ["lysosom*", "endosom*", "autophag*", "trafficking", "axon*", 
 def blob(p):
     return f"{p.get('title','')} {p.get('abstract','')}"
 
+NEURAL_STRICT = ["neuron*", "neurite*", "brain*", "axon*", "microglia*", "astrocyt*", "glial",
+                 "oligodendrocyt*", "hippocamp*", "cerebral cortex", "neocort*", "prefrontal",
+                 "cortical neuron*", "cortical organoid*", "cerebell*", "striat*", "spinal cord",
+                 "motor neuron*", "neural progenitor*", "neural stem", "organoid*", "assembloid*",
+                 "ipsc*", "hipsc*", "nervous system", "cns", "neurodevelop*", "neurodegenerat*",
+                 "neurogenesis", "dopaminergic"]
+NDD_DISEASE = ["neurodevelopment*", "intellectual disability", "autis*", "developmental delay",
+               "developmental and epileptic", "microcephaly", "fragile x", "rare genetic",
+               "rare disease", "syndrome*", "pathogenic variant*", "de novo"]
+NDD_DEVELOPMENT = ["brain development", "cortical development", "neuronal migration",
+                   "axon guidance", "commissure*", "corpus callosum", "fetal", "foetal",
+                   "prenatal", "postnatal", "embryo*", "neurogenesis", "synapse development"]
+GENERIC_NEUROIMAGING = ["functional connectivity", "diffusion tensor", "dti", "resting state",
+                        "resting-state", "fmri", "volumetric", "mri"]
+
+def neural_context(text):
+    """Strict neural context; prevents immune dendritic cells from counting as dendrites."""
+    text = text or ""
+    if m(text, NEURAL_STRICT): return True
+    if m(text, ["dendrit*"]) and not re.search(r"\bdendritic\s+cells?\b", text, re.I): return True
+    if m(text, ["synap*"]) and m(text, ["neuron*", "brain*", "axon*", "hippocamp*", "cortical",
+                                       "glia*", "microglia*", "astrocyt*"]): return True
+    return False
+
 DEVELOPMENTAL = ["neurodevelop*", "developing", "embryo*", "fetal", "foetal", "prenatal", "postnatal",
                  "perinatal", "congenital", "de novo", "syndrome*", "autis*", "intellectual disability",
                  "child*", "infant*", "pediatric", "paediatric", "juvenile", "early life"]
@@ -459,7 +483,7 @@ def gate_reason(p, section):
     r = global_reject(p)
     if r: return r
     t = p.get("title", ""); a = p.get("abstract", ""); b = blob(p)
-    neural = m(b, NEURAL); mammal = m(b, MAMMAL); cellctx = m(b, CELL_CONTEXT)
+    neural = neural_context(b); mammal = m(b, MAMMAL); cellctx = m(b, CELL_CONTEXT)
     if section == "focus":
         if m(b, ["mapk8ip3", "jip3"]): return ""
         if m(b, ["jip4"]) and m(b, ["neuron*", "axon*", "lysosom*", "endosom*", "transport"]): return ""
@@ -469,12 +493,17 @@ def gate_reason(p, section):
         return "clinical/neuroimaging only, no molecular question"
     if section == "neurodevelopment":
         if not neural: return "no neural context"
-        # corpus callosum / commissure mentions in adult injury papers are not neurodevelopment
-        return "" if (title_hit(p, section) or m(b, DEVELOPMENTAL)) else "no developmental/disease context"
+        disease = m(t, NDD_DISEASE) or (m(b, NDD_DISEASE) and gene_symbol_in(t))
+        development = m(t, NDD_DEVELOPMENT) or (m(b, NDD_DEVELOPMENT) and
+                      m(t, ["develop*", "axon*", "commissure*", "corpus callosum", "neurogenesis", "synap*"]))
+        if m(t, GENERIC_NEUROIMAGING) and not (disease or development):
+            return "generic neuroimaging, not neurodevelopment mechanism"
+        return "" if (disease or development) else "no specific neurodevelopmental disease/development mechanism"
     if section in ("organelle", "trafficking"):
         return "" if (neural or mammal) else "no neural/mammalian context"
     if section == "cytoskeleton":
-        return "" if neural else "no neural context"
+        organelle_ctx = m(b, ["lysosom*", "endosom*", "organelle transport", "organelle trafficking"])
+        return "" if (neural or organelle_ctx) else "no neuronal/organelle context"
     if section == "ipsc":
         return "" if m(b, ["neuron*", "microglia*", "astrocyt*", "oligodendrocyt*", "glia*",
                            "organoid*", "assembloid*", "motor neuron*", "neural progenitor*",
