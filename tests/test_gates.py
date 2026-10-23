@@ -188,6 +188,19 @@ b = P("Structural basis for binding of RILPL1 to TMEM55B reveals a lysosomal pla
 folded = u.fold_preprints([u.enrich(a), u.enrich(b)])
 check("Dedup: preprint folded into its published version", len(folded) == 1 and folded[0].get("preprint_url"))
 
+check("Cytoskeleton: immune dendritic-cell actin paper fails", rejects(P(
+      "Super-resolution imaging reveals altered actin architecture at CAR-T cell immune synapses",
+      "Actin remodeling in human T cells and dendritic cells was imaged by STED microscopy.",
+      "Journal of Cell Biology"), "cytoskeleton"))
+check("Imaging: immune dendritic-cell microscopy without neural biology fails", rejects(P(
+      "Septins regulate podosome dynamics in human immature dendritic cells",
+      "Confocal live-cell microscopy of dendritic immune cells and actin-rich podosomes.",
+      "Journal of Cell Science"), "imaging"))
+check("Neurodevelopment: migraine corpus-callosum DTI fails", rejects(P(
+      "Comprehensive evaluation of corpus callosum alterations in migraine using diffusion tensor imaging",
+      "Adult migraine patients underwent MRI and DTI of the corpus callosum.",
+      "Journal of clinical neuroscience"), "neurodevelopment"))
+
 # --- Primary / Secondary disjoint --------------------------------------------------------
 items = [dict(P("t%d" % i), journal_tier=t, section_score=80) for i, t in
          enumerate(["Primary / trusted", "Secondary", "Uncurated", "Primary / trusted"])]
