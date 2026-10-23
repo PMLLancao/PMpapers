@@ -1,6 +1,6 @@
 {
   "project_name": "PaperScope",
-  "last_updated_utc": "2026-10-23T03:18:01.364205+00:00",
+  "last_updated_utc": "2026-10-23T16:23:41.344830+00:00",
   "weekly_days": 7,
   "semantic": {
     "enabled": true,
@@ -8,10 +8,10 @@
     "reason": "ok"
   },
   "full_text_analysed": 42,
-  "total_papers": 536,
+  "total_papers": 540,
   "weekly_highlight_count": 10,
-  "reviews_count": 54,
-  "preprints_count": 104,
+  "reviews_count": 53,
+  "preprints_count": 103,
   "section_counts": {
     "focus": {
       "primary": 4,
@@ -19,9 +19,9 @@
       "weekly": 0
     },
     "neurodevelopment": {
-      "primary": 7,
+      "primary": 8,
       "secondary": 7,
-      "weekly": 6
+      "weekly": 8
     },
     "organelle": {
       "primary": 18,
@@ -34,44 +34,44 @@
       "weekly": 0
     },
     "cytoskeleton": {
-      "primary": 12,
-      "secondary": 6,
-      "weekly": 2
+      "primary": 14,
+      "secondary": 7,
+      "weekly": 4
     },
     "ipsc": {
-      "primary": 10,
+      "primary": 9,
       "secondary": 3,
-      "weekly": 3
+      "weekly": 4
     },
     "omics": {
       "primary": 22,
       "secondary": 9,
-      "weekly": 10
+      "weekly": 11
     },
     "imaging": {
       "primary": 30,
-      "secondary": 6,
+      "secondary": 5,
       "weekly": 3
     },
     "analysis-tools": {
-      "primary": 6,
-      "secondary": 7,
+      "primary": 7,
+      "secondary": 9,
       "weekly": 1
     },
     "signaling": {
       "primary": 7,
       "secondary": 7,
-      "weekly": 4
+      "weekly": 5
     },
     "extracellular": {
       "primary": 13,
-      "secondary": 7,
-      "weekly": 0
+      "secondary": 6,
+      "weekly": 1
     },
     "neurodegeneration": {
-      "primary": 20,
-      "secondary": 19,
-      "weekly": 12
+      "primary": 24,
+      "secondary": 15,
+      "weekly": 14
     }
   }
 }
