@@ -42,20 +42,39 @@ jobs:
       PAPERSCOPE_SEMANTIC: "0"
       PAPERSCOPE_FULLTEXT: "0"
     steps:
+      # Without a model credential the action fails and posts "Claude encountered an error"
+      # on every @claude mention. Skip cleanly with an explanation instead.
+      - name: Check Claude credential is configured
+        id: cred
+        env:
+          OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          APIKEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$OAUTH" ] && [ -z "$APIKEY" ]; then
+            echo "::notice title=Claude not configured::No CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY secret. Skipping. See docs/SETUP_CLAUDE_GITHUB.md"
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout repository
+        if: steps.cred.outputs.ok == 'true'
         uses: actions/checkout@v6
         with:
           fetch-depth: 1
 
       - name: Set up Python
+        if: steps.cred.outputs.ok == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install test dependencies
+        if: steps.cred.outputs.ok == 'true'
         run: pip install requests numpy
 
       - name: Run Claude Code
+        if: steps.cred.outputs.ok == 'true'
         id: claude
         uses: anthropics/claude-code-action@v1
         with:
