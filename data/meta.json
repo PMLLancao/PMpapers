@@ -1,17 +1,17 @@
 {
   "project_name": "PaperScope",
-  "last_updated_utc": "2026-10-23T18:05:51.607400+00:00",
+  "last_updated_utc": "2026-10-24T15:19:20.915086+00:00",
   "weekly_days": 7,
   "semantic": {
     "enabled": true,
     "model": "BAAI/bge-small-en-v1.5",
     "reason": "ok"
   },
-  "full_text_analysed": 41,
-  "total_papers": 519,
+  "full_text_analysed": 38,
+  "total_papers": 522,
   "weekly_highlight_count": 10,
   "reviews_count": 51,
-  "preprints_count": 98,
+  "preprints_count": 96,
   "section_counts": {
     "focus": {
       "primary": 4,
@@ -19,49 +19,49 @@
       "weekly": 0
     },
     "neurodevelopment": {
-      "primary": 7,
-      "secondary": 5,
-      "weekly": 6
+      "primary": 9,
+      "secondary": 9,
+      "weekly": 11
     },
     "organelle": {
-      "primary": 17,
+      "primary": 15,
       "secondary": 3,
-      "weekly": 1
+      "weekly": 0
     },
     "trafficking": {
-      "primary": 21,
+      "primary": 20,
       "secondary": 5,
       "weekly": 0
     },
     "cytoskeleton": {
-      "primary": 11,
-      "secondary": 6,
-      "weekly": 4
+      "primary": 10,
+      "secondary": 7,
+      "weekly": 5
     },
     "ipsc": {
-      "primary": 9,
-      "secondary": 3,
-      "weekly": 4
+      "primary": 8,
+      "secondary": 4,
+      "weekly": 5
     },
     "omics": {
-      "primary": 18,
-      "secondary": 8,
-      "weekly": 9
+      "primary": 12,
+      "secondary": 7,
+      "weekly": 6
     },
     "imaging": {
       "primary": 30,
-      "secondary": 4,
-      "weekly": 2
+      "secondary": 7,
+      "weekly": 4
     },
     "analysis-tools": {
-      "primary": 7,
-      "secondary": 9,
-      "weekly": 1
+      "primary": 8,
+      "secondary": 10,
+      "weekly": 3
     },
     "signaling": {
-      "primary": 7,
-      "secondary": 6,
-      "weekly": 5
+      "primary": 6,
+      "secondary": 9,
+      "weekly": 7
     },
     "extracellular": {
       "primary": 13,
@@ -69,9 +69,9 @@
       "weekly": 0
     },
     "neurodegeneration": {
-      "primary": 23,
-      "secondary": 12,
-      "weekly": 13
+      "primary": 26,
+      "secondary": 11,
+      "weekly": 16
     }
   }
 }
