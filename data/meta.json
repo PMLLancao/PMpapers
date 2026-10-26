@@ -1,17 +1,17 @@
 {
   "project_name": "PaperScope",
-  "last_updated_utc": "2026-10-25T15:29:07.962493+00:00",
+  "last_updated_utc": "2026-10-26T18:10:01.086459+00:00",
   "weekly_days": 7,
   "semantic": {
     "enabled": true,
     "model": "BAAI/bge-small-en-v1.5",
     "reason": "ok"
   },
-  "full_text_analysed": 43,
-  "total_papers": 524,
+  "full_text_analysed": 44,
+  "total_papers": 531,
   "weekly_highlight_count": 10,
-  "reviews_count": 54,
-  "preprints_count": 102,
+  "reviews_count": 53,
+  "preprints_count": 104,
   "section_counts": {
     "focus": {
       "primary": 4,
@@ -19,9 +19,9 @@
       "weekly": 0
     },
     "neurodevelopment": {
-      "primary": 9,
+      "primary": 8,
       "secondary": 10,
-      "weekly": 10
+      "weekly": 9
     },
     "organelle": {
       "primary": 14,
@@ -34,8 +34,8 @@
       "weekly": 0
     },
     "cytoskeleton": {
-      "primary": 10,
-      "secondary": 8,
+      "primary": 11,
+      "secondary": 7,
       "weekly": 6
     },
     "ipsc": {
@@ -45,23 +45,23 @@
     },
     "omics": {
       "primary": 10,
-      "secondary": 7,
-      "weekly": 4
+      "secondary": 9,
+      "weekly": 7
     },
     "imaging": {
       "primary": 30,
-      "secondary": 6,
-      "weekly": 3
+      "secondary": 8,
+      "weekly": 6
     },
     "analysis-tools": {
       "primary": 8,
-      "secondary": 9,
+      "secondary": 10,
       "weekly": 3
     },
     "signaling": {
       "primary": 5,
-      "secondary": 9,
-      "weekly": 7
+      "secondary": 7,
+      "weekly": 5
     },
     "extracellular": {
       "primary": 13,
