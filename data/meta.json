@@ -1,17 +1,17 @@
 {
   "project_name": "PaperScope",
-  "last_updated_utc": "2026-10-31T16:45:15.929203+00:00",
+  "last_updated_utc": "2026-11-01T17:34:56.676992+00:00",
   "weekly_days": 7,
   "semantic": {
     "enabled": true,
     "model": "BAAI/bge-small-en-v1.5",
     "reason": "ok"
   },
-  "full_text_analysed": 41,
-  "total_papers": 527,
+  "full_text_analysed": 42,
+  "total_papers": 501,
   "weekly_highlight_count": 10,
   "reviews_count": 51,
-  "preprints_count": 101,
+  "preprints_count": 99,
   "section_counts": {
     "focus": {
       "primary": 4,
@@ -19,14 +19,14 @@
       "weekly": 0
     },
     "neurodevelopment": {
-      "primary": 7,
-      "secondary": 9,
-      "weekly": 9
+      "primary": 4,
+      "secondary": 5,
+      "weekly": 2
     },
     "organelle": {
       "primary": 15,
-      "secondary": 3,
-      "weekly": 1
+      "secondary": 5,
+      "weekly": 4
     },
     "trafficking": {
       "primary": 18,
@@ -36,32 +36,32 @@
     "cytoskeleton": {
       "primary": 9,
       "secondary": 7,
-      "weekly": 2
+      "weekly": 1
     },
     "ipsc": {
       "primary": 5,
-      "secondary": 6,
-      "weekly": 3
+      "secondary": 4,
+      "weekly": 1
     },
     "omics": {
-      "primary": 11,
-      "secondary": 6,
-      "weekly": 9
+      "primary": 8,
+      "secondary": 3,
+      "weekly": 2
     },
     "imaging": {
       "primary": 30,
-      "secondary": 6,
-      "weekly": 1
+      "secondary": 8,
+      "weekly": 2
     },
     "analysis-tools": {
       "primary": 6,
-      "secondary": 12,
-      "weekly": 3
+      "secondary": 11,
+      "weekly": 2
     },
     "signaling": {
-      "primary": 6,
-      "secondary": 6,
-      "weekly": 5
+      "primary": 4,
+      "secondary": 3,
+      "weekly": 2
     },
     "extracellular": {
       "primary": 14,
@@ -69,9 +69,9 @@
       "weekly": 1
     },
     "neurodegeneration": {
-      "primary": 24,
-      "secondary": 13,
-      "weekly": 15
+      "primary": 15,
+      "secondary": 14,
+      "weekly": 7
     }
   }
 }
