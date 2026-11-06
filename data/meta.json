@@ -1,17 +1,17 @@
 {
   "project_name": "PaperScope",
-  "last_updated_utc": "2026-11-05T19:26:33.663836+00:00",
+  "last_updated_utc": "2026-11-06T18:49:40.424335+00:00",
   "weekly_days": 7,
   "semantic": {
     "enabled": true,
     "model": "BAAI/bge-small-en-v1.5",
     "reason": "ok"
   },
-  "full_text_analysed": 44,
-  "total_papers": 533,
+  "full_text_analysed": 39,
+  "total_papers": 547,
   "weekly_highlight_count": 10,
   "reviews_count": 53,
-  "preprints_count": 114,
+  "preprints_count": 115,
   "section_counts": {
     "focus": {
       "primary": 4,
@@ -19,14 +19,14 @@
       "weekly": 0
     },
     "neurodevelopment": {
-      "primary": 8,
-      "secondary": 7,
-      "weekly": 9
+      "primary": 12,
+      "secondary": 8,
+      "weekly": 11
     },
     "organelle": {
-      "primary": 14,
+      "primary": 13,
       "secondary": 6,
-      "weekly": 5
+      "weekly": 4
     },
     "trafficking": {
       "primary": 19,
@@ -34,44 +34,44 @@
       "weekly": 1
     },
     "cytoskeleton": {
-      "primary": 13,
-      "secondary": 5,
-      "weekly": 6
+      "primary": 14,
+      "secondary": 4,
+      "weekly": 5
     },
     "ipsc": {
-      "primary": 9,
-      "secondary": 4,
+      "primary": 10,
+      "secondary": 3,
       "weekly": 3
     },
     "omics": {
       "primary": 9,
-      "secondary": 6,
-      "weekly": 6
+      "secondary": 12,
+      "weekly": 13
     },
     "imaging": {
       "primary": 30,
-      "secondary": 6,
-      "weekly": 4
+      "secondary": 8,
+      "weekly": 7
     },
     "analysis-tools": {
-      "primary": 6,
+      "primary": 7,
       "secondary": 9,
-      "weekly": 0
+      "weekly": 1
     },
     "signaling": {
       "primary": 6,
-      "secondary": 4,
-      "weekly": 5
+      "secondary": 6,
+      "weekly": 7
     },
     "extracellular": {
       "primary": 15,
-      "secondary": 3,
+      "secondary": 4,
       "weekly": 1
     },
     "neurodegeneration": {
-      "primary": 22,
-      "secondary": 16,
-      "weekly": 15
+      "primary": 21,
+      "secondary": 20,
+      "weekly": 20
     }
   }
 }
