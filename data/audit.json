@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-08T17:33:29.185930+00:00",
+  "generated_at_utc": "2026-11-09T21:53:34.577410+00:00",
   "weekly_top10": [
     {
       "title": "Subcellular compartment determines signal dominance: Endosomal cAMP overrides concurrent plasma membrane RhoA activation from a single receptor.",
@@ -38,6 +38,18 @@
       "section": "signaling"
     },
     {
+      "title": "Integrated Multi-omics Reveals Molecular Signatures of Rett Syndrome, Informing Future Biomarker Discovery.",
+      "date": "2026-11-09",
+      "journal": "Molecular neurobiology",
+      "section": "omics"
+    },
+    {
+      "title": "Exosome-associated cargo is linked to familial Alzheimer's disease-associated phenotypes in vitro.",
+      "date": "2026-11-09",
+      "journal": "Disease models & mechanisms",
+      "section": "extracellular"
+    },
+    {
       "title": "Transcriptomic convergence and the female protective effect in autism.",
       "date": "2026-11-04",
       "journal": "Nature",
@@ -48,18 +60,6 @@
       "date": "2026-11-06",
       "journal": "Journal of cell science",
       "section": "imaging"
-    },
-    {
-      "title": "Tau monomers and fibrils escape microglial clearance via distinct cellular mechanisms.",
-      "date": "2026-11-05",
-      "journal": "Nature cell biology",
-      "section": "neurodegeneration"
-    },
-    {
-      "title": "A Cilia-Centered Nicotinamide Adenine Dinucleotide (NAD+) Signaling Network Regulates Hypothalamic Lysosomal Homeostasis and Metabolic Aging.",
-      "date": "2026-11-01",
-      "journal": "Aging cell",
-      "section": "organelle"
     }
   ],
   "sections": {
@@ -111,7 +111,7 @@
     "neurodevelopment": {
       "title": "Neurodevelopmental Disorders & Rare Diseases",
       "primary_count": 13,
-      "secondary_count": 8,
+      "secondary_count": 10,
       "weekly_count": 12,
       "top_primary": [
         {
@@ -130,11 +130,6 @@
           "journal": "American journal of human genetics"
         },
         {
-          "title": "A massively parallel reporter assay of MECP2 cis-regulatory elements reveals genetic candidates for male-biased autism.",
-          "date": "2026-10-09",
-          "journal": "American journal of human genetics"
-        },
-        {
           "title": "Truncating Kabuki Syndrome-associated KMT2D Mutation in FYR Domain Alters Chromatin Accessibility at Neurodevelopmental Loci.",
           "date": "2026-11-05",
           "journal": "Molecular neurobiology"
@@ -143,6 +138,11 @@
           "title": "Cell Type-Specific Assessment of Cholesterol Distribution in Models of Neurodevelopmental Disorders.",
           "date": "2026-11-04",
           "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience"
+        },
+        {
+          "title": "A massively parallel reporter assay of MECP2 cis-regulatory elements reveals genetic candidates for male-biased autism.",
+          "date": "2026-10-09",
+          "journal": "American journal of human genetics"
         },
         {
           "title": "New neuronal microexons linked to autism.",
@@ -187,22 +187,22 @@
           "journal": "Drug design, development and therapy"
         },
         {
+          "title": "Disruption of GAD1 protein architecture by a novel missense variant in a consanguineous family with autosomal recessive intellectual disability.",
+          "date": "2026-09-15",
+          "journal": "Psychiatric genetics"
+        },
+        {
           "title": "Digital twin control framework uncovers individualized cross-scale links between functional connectivity deviations, communication impairment, and molecular mechanisms in autism.",
           "date": "2026-10-23",
           "journal": "NeuroImage"
-        },
-        {
-          "title": "Differential frontostriatal ΔFosB dynamics and behavioral flexibility in autism like VPA-exposed mice.",
-          "date": "2026-09-26",
-          "journal": "Behavioural brain research"
         }
       ]
     },
     "organelle": {
       "title": "Lysosomes, Endosomes & Lysosomal Stress/Repair",
-      "primary_count": 11,
-      "secondary_count": 7,
-      "weekly_count": 2,
+      "primary_count": 12,
+      "secondary_count": 6,
+      "weekly_count": 1,
       "top_primary": [
         {
           "title": "ALS-linked FUS mutation impairs GEMIN5-dependent mRNA recruitment to neuronal late endosomes.",
@@ -210,14 +210,14 @@
           "journal": "Cell reports"
         },
         {
-          "title": "A Cilia-Centered Nicotinamide Adenine Dinucleotide (NAD+) Signaling Network Regulates Hypothalamic Lysosomal Homeostasis and Metabolic Aging.",
-          "date": "2026-11-01",
-          "journal": "Aging cell"
-        },
-        {
           "title": "Endosome-associated Rab GTPases control distinct aspects of neural circuit assembly.",
           "date": "2026-10-13",
           "journal": "eLife"
+        },
+        {
+          "title": "A Cilia-Centered Nicotinamide Adenine Dinucleotide (NAD+) Signaling Network Regulates Hypothalamic Lysosomal Homeostasis and Metabolic Aging.",
+          "date": "2026-11-01",
+          "journal": "Aging cell"
         },
         {
           "title": "Lysosomal multi-omics reveals altered sphingolipid catabolism associated with lysosomal dysfunction in the aging brain.",
@@ -240,9 +240,9 @@
           "journal": "Autophagy"
         },
         {
-          "title": "Autolysosomal enhancer GHF201 attenuates pathophysiology in a mucopolysaccharidosis type I mouse model.",
-          "date": "2026-10-07",
-          "journal": "Life science alliance"
+          "title": "Isozyme-Specific Inhibition of GSK-3 Reveals Distinct Cellular Responses in Huntington's Disease Fibroblasts.",
+          "date": "2026-11-01",
+          "journal": "Journal of neurochemistry"
         }
       ],
       "top_secondary": [
@@ -272,11 +272,6 @@
           "journal": "Brain research bulletin"
         },
         {
-          "title": "β-Adducin Restrains PLA2G4A-Dependent Lysosomal Membrane Permeabilization and Neuronal Death in Ischemic Stroke.",
-          "date": "2026-10-06",
-          "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
-        },
-        {
           "title": "Aβ-induced CaMKII hyperactivation is associated with impaired lysosomal maturation and mitophagy.",
           "date": "2026-09-01",
           "journal": "Neurochemistry international"
@@ -285,15 +280,10 @@
     },
     "trafficking": {
       "title": "Intracellular Trafficking & Organelle Transport",
-      "primary_count": 19,
+      "primary_count": 20,
       "secondary_count": 5,
       "weekly_count": 1,
       "top_primary": [
-        {
-          "title": "Multiple motor proteins regulate TDP-43 anterograde axonal transport.",
-          "date": "2026-10-09",
-          "journal": "Acta neuropathologica"
-        },
         {
           "title": "Parkinson's disease-linked D620N mutation selectively alters the brain-specific protein interactome of VPS35.",
           "date": "2026-09-01",
@@ -303,6 +293,11 @@
           "title": "VPS35 Regulates Microglial Lipid Droplet Accumulation in Parkinson's Disease via Rab7.",
           "date": "2026-09-01",
           "journal": "Glia"
+        },
+        {
+          "title": "Multiple motor proteins regulate TDP-43 anterograde axonal transport.",
+          "date": "2026-10-09",
+          "journal": "Acta neuropathologica"
         },
         {
           "title": "BAG3 coordinates astrocytic proteostasis of Alzheimer's disease-linked proteins via proteasome, autophagy, and retromer interactions.",
@@ -325,9 +320,9 @@
           "journal": "Molecular biology of the cell"
         },
         {
-          "title": "SSH1 knockdown increases autophagosome formation through ATG9A recruitment and promotes MAPT/tau protein degradation.",
-          "date": "2026-11-02",
-          "journal": "Autophagy"
+          "title": "Isozyme-Specific Inhibition of GSK-3 Reveals Distinct Cellular Responses in Huntington's Disease Fibroblasts.",
+          "date": "2026-11-01",
+          "journal": "Journal of neurochemistry"
         }
       ],
       "top_secondary": [
@@ -360,9 +355,9 @@
     },
     "cytoskeleton": {
       "title": "Cytoskeleton in Neurons & Organelle Biology",
-      "primary_count": 14,
-      "secondary_count": 4,
-      "weekly_count": 5,
+      "primary_count": 15,
+      "secondary_count": 5,
+      "weekly_count": 6,
       "top_primary": [
         {
           "title": "Tubulin autoregulation factors recruit γ-tubulin to non-centrosomal MTOCs for neuronal microtubule nucleation.",
@@ -407,6 +402,11 @@
       ],
       "top_secondary": [
         {
+          "title": "Caltubin regulates microtubule stability through tubulin interaction favouring neurite regrowth.",
+          "date": "2026-11-09",
+          "journal": "Acta pharmacologica Sinica"
+        },
+        {
           "title": "Postsynaptic remodeling and F-actin dysregulation in the Dctn1Δ2-4 mouse model of motor neuron disease.",
           "date": "2026-10-24",
           "journal": "Neural regeneration research"
@@ -431,8 +431,8 @@
     "ipsc": {
       "title": "Human iPSC Neural Models",
       "primary_count": 9,
-      "secondary_count": 5,
-      "weekly_count": 5,
+      "secondary_count": 4,
+      "weekly_count": 4,
       "top_primary": [
         {
           "title": "De novo MAP2K4 variants cause a neurodevelopmental syndrome and impaired JNK signaling in iPSC-derived neurons.",
@@ -492,11 +492,6 @@
           "journal": "Molecular therapy. Advances"
         },
         {
-          "title": "CalDyn: an advanced high-throughput automated algorithm for monitoring intracellular calcium dynamics and electrophysiological signals in patient-derived cells.",
-          "date": "2026-11-02",
-          "journal": "Briefings in bioinformatics"
-        },
-        {
           "title": "High-resolution genomic architecture of a 1.71-Mb inverted SNCA triplication in a patient-derived PARK4 model.",
           "date": "2026-09-30",
           "journal": "Biochemical and biophysical research communications"
@@ -505,10 +500,15 @@
     },
     "omics": {
       "title": "Omics & Datasets",
-      "primary_count": 9,
+      "primary_count": 10,
       "secondary_count": 10,
-      "weekly_count": 11,
+      "weekly_count": 12,
       "top_primary": [
+        {
+          "title": "Integrated Multi-omics Reveals Molecular Signatures of Rett Syndrome, Informing Future Biomarker Discovery.",
+          "date": "2026-11-09",
+          "journal": "Molecular neurobiology"
+        },
         {
           "title": "Transcriptomic convergence and the female protective effect in autism.",
           "date": "2026-11-04",
@@ -543,11 +543,6 @@
           "title": "Single-cell multiome landscape reveals elovanoid-mediated suppression of inflammatory glial states and induction of homeostatic signaling after ischemic stroke.",
           "date": "2026-08-29",
           "journal": "Experimental neurology"
-        },
-        {
-          "title": "Identification of new targets for the protection against radiation-induced brain injury through integrated dual-omics analysis.",
-          "date": "2026-08-29",
-          "journal": "Experimental neurology"
         }
       ],
       "top_secondary": [
@@ -572,11 +567,6 @@
           "journal": "ACS chemical neuroscience"
         },
         {
-          "title": "Proteomics analysis of small extracellular vesicles derived from human retinal Müller glial cells under high glucose condition.",
-          "date": "2026-10-09",
-          "journal": "Experimental eye research"
-        },
-        {
           "title": "Brain Region-Specific Peptide and Proteomic Signatures Inform Alzheimer's Disease Biomarker Panels.",
           "date": "2026-11-06",
           "journal": "Journal of proteome research"
@@ -590,14 +580,19 @@
           "title": "PRKN-independent mitophagy regulators in dopaminergic neurons identified by genome-wide CRISPR screening.",
           "date": "2026-11-05",
           "journal": "Neuroscience research"
+        },
+        {
+          "title": "Proteomics analysis of small extracellular vesicles derived from human retinal Müller glial cells under high glucose condition.",
+          "date": "2026-10-09",
+          "journal": "Experimental eye research"
         }
       ]
     },
     "imaging": {
       "title": "Microscopy & Imaging",
       "primary_count": 30,
-      "secondary_count": 8,
-      "weekly_count": 8,
+      "secondary_count": 7,
+      "weekly_count": 7,
       "top_primary": [
         {
           "title": "Live-cell imaging of inter-organelle contacts using an integrated dimerization-dependent fluorescent protein reporter.",
@@ -615,14 +610,14 @@
           "journal": "Journal of cell science"
         },
         {
+          "title": "Quantum-sensing-based super-resolution live cell microenvironment imaging.",
+          "date": "2026-10-10",
+          "journal": "Nature communications"
+        },
+        {
           "title": "Assessing cellular metabolic dynamics with two-photon NAD(P)H fluorescence polarization microscopy.",
           "date": "2026-09-04",
           "journal": "Science advances"
-        },
-        {
-          "title": "Novel NaV1.6-Mitochondrial Complexes in Retinal Astrocyte Pockets Sequester GABA.",
-          "date": "2026-11-01",
-          "journal": "Glia"
         },
         {
           "title": "Space-time light-sheet microscopy.",
@@ -675,11 +670,6 @@
           "title": "A Deep Learning Pipeline for Cell Segmentation and Viability Quantification in 3D Constructs From Fluorescence Microscopy Images.",
           "date": "2026-08-12",
           "journal": "Microscopy research and technique"
-        },
-        {
-          "title": "Macroscopic cerebral energy efficiency corresponds to neuron reorganization in awake and anesthetized mice.",
-          "date": "2026-10-09",
-          "journal": "Frontiers in neuroscience"
         }
       ]
     },
@@ -840,10 +830,15 @@
     },
     "extracellular": {
       "title": "Extracellular Vesicles & Lysosomal Secretion",
-      "primary_count": 13,
+      "primary_count": 14,
       "secondary_count": 5,
-      "weekly_count": 2,
+      "weekly_count": 3,
       "top_primary": [
+        {
+          "title": "Exosome-associated cargo is linked to familial Alzheimer's disease-associated phenotypes in vitro.",
+          "date": "2026-11-09",
+          "journal": "Disease models & mechanisms"
+        },
         {
           "title": "P2RX7 drives inflammatory microglia and pathogenic extracellular vesicle secretion in tauopathy.",
           "date": "2026-11-04",
@@ -878,11 +873,6 @@
           "title": "RYR:ATP6V0A1 complexes couple ER-lysosome contact sites to dynamic autophagy control.",
           "date": "2026-05-14",
           "journal": "Autophagy"
-        },
-        {
-          "title": "Autophagic extracellular vesicles: a distinct secretory route linking autophagy to extracellular communication.",
-          "date": "2026-04-13",
-          "journal": "Autophagy"
         }
       ],
       "top_secondary": [
@@ -915,14 +905,19 @@
     },
     "neurodegeneration": {
       "title": "Neurodegeneration",
-      "primary_count": 17,
+      "primary_count": 18,
       "secondary_count": 16,
-      "weekly_count": 14,
+      "weekly_count": 15,
       "top_primary": [
         {
           "title": "Cofilin hyperphosphorylation triggers TDP-43 pathology in sporadic amyotrophic lateral sclerosis.",
           "date": "2026-11-04",
           "journal": "Brain : a journal of neurology"
+        },
+        {
+          "title": "Exosome-associated cargo is linked to familial Alzheimer's disease-associated phenotypes in vitro.",
+          "date": "2026-11-09",
+          "journal": "Disease models & mechanisms"
         },
         {
           "title": "Tau monomers and fibrils escape microglial clearance via distinct cellular mechanisms.",
@@ -943,11 +938,6 @@
           "title": "ALS-linked FUS mutation impairs GEMIN5-dependent mRNA recruitment to neuronal late endosomes.",
           "date": "2026-10-29",
           "journal": "Cell reports"
-        },
-        {
-          "title": "Dystrophic changes of nigrostriatal axons harboring a SYNJ1 Parkinson's mutation suggest catastrophic failure of endocytic mechanisms.",
-          "date": "2026-10-09",
-          "journal": "Proceedings of the National Academy of Sciences of the United States of America"
         },
         {
           "title": "Astrocytes regulate axonal mitochondrial transport deficits in C9ORF72 amyotrophic lateral sclerosis motor neurons.",
@@ -1061,7 +1051,7 @@
     ]
   },
   "preprints": {
-    "count": 114,
+    "count": 106,
     "top": [
       {
         "title": "Pathogenic MAPK8IP3 variants drive distinct motor and behavioral phenotypes in humans and mice",
@@ -1069,6 +1059,31 @@
         "journal": "bioRxiv / preprint",
         "sections": [
           "focus"
+        ]
+      },
+      {
+        "title": "Disrupted mannosidase enzymes in C9orf72 ALS/FTD",
+        "date": "2026-11-04",
+        "journal": "bioRxiv / preprint",
+        "sections": [
+          "ipsc",
+          "neurodegeneration"
+        ]
+      },
+      {
+        "title": "Dual kinase inhibition provides early clues to restoration of neuroimmune homeostasis in an AAV-haSyn model of Parkinsons disease",
+        "date": "2026-11-07",
+        "journal": "bioRxiv / preprint",
+        "sections": [
+          "neurodegeneration"
+        ]
+      },
+      {
+        "title": "Agentic AI enables cell segmentation-free cell-type inference and cell-type-guided cell segmentation in spatial transcriptomics",
+        "date": "2026-11-06",
+        "journal": "bioRxiv / preprint",
+        "sections": [
+          "analysis-tools"
         ]
       },
       {
@@ -1082,11 +1097,11 @@
         ]
       },
       {
-        "title": "SegRef3D Lite: A browser-based workflow for artificial intelligence–assisted segmentation and quantitative three-dimensional morphological analysis",
-        "date": "2026-11-03",
+        "title": "Red fluorescent sensor for intensity-and lifetime imaging of cAMP in living cells",
+        "date": "2026-11-04",
         "journal": "bioRxiv / preprint",
         "sections": [
-          "analysis-tools"
+          "signaling"
         ]
       },
       {
@@ -1094,7 +1109,24 @@
         "date": "2026-11-02",
         "journal": "bioRxiv / preprint",
         "sections": [
+          "organelle",
           "neurodegeneration"
+        ]
+      },
+      {
+        "title": "Temperature-dependent Fano resonance in Microtubules and Tubulin investigated with Spontaneous Raman Spectroscopy",
+        "date": "2026-11-06",
+        "journal": "bioRxiv / preprint",
+        "sections": [
+          "cytoskeleton"
+        ]
+      },
+      {
+        "title": "Early Joint Attention Behaviors in Infants at High Familial Risk for Autism Spectrum Disorder: association with cortical development",
+        "date": "2026-11-05",
+        "journal": "bioRxiv / preprint",
+        "sections": [
+          "neurodevelopment"
         ]
       },
       {
@@ -1123,47 +1155,6 @@
         "sections": [
           "organelle",
           "neurodegeneration"
-        ]
-      },
-      {
-        "title": "A candidate HNRNPU – CHD2 RNA-processing axis in neurodevelopmental disease",
-        "date": "2026-11-03",
-        "journal": "bioRxiv / preprint",
-        "sections": [
-          "neurodevelopment"
-        ]
-      },
-      {
-        "title": "Light-sheet fluorescence microscopy of optically cleared human head-and-neck organs: three-dimensional tissue assessment and histological correlation",
-        "date": "2026-11-03",
-        "journal": "bioRxiv / preprint",
-        "sections": [
-          "imaging",
-          "analysis-tools"
-        ]
-      },
-      {
-        "title": "A Comparative Study of Efficacy and Acceptability of a new Paradigm Foldscopy and Conventional Microscopy for analysis of Goblet Cells in patients with Limbal Stem Cell Deficiency",
-        "date": "2026-11-03",
-        "journal": "bioRxiv / preprint",
-        "sections": [
-          "imaging"
-        ]
-      },
-      {
-        "title": "Alzheimer’s disease-related cerebrospinal fluid Biomarkers in Amyotrophic Lateral Sclerosis: Real-World Associations with Disease Status, Cognition and Tofersen Response",
-        "date": "2026-10-28",
-        "journal": "bioRxiv / preprint",
-        "sections": [
-          "neurodegeneration"
-        ]
-      },
-      {
-        "title": "Rare protein-disrupting variants in NPY5R, DLGAP1 and MAPK8IP3 segregate with OCD in two multiplex pedigrees.",
-        "date": "2026-04-22",
-        "journal": "medRxiv : the preprint server for health sciences",
-        "sections": [
-          "focus"
         ]
       }
     ]
@@ -1220,7 +1211,7 @@
     },
     "neurodevelopment": {
       "topic not central": {
-        "count": 40,
+        "count": 45,
         "examples": [
           "Burnout Among Professionals in ABA-Based Services in Brazil.",
           "GluD1 modulates GluN2B-containing NMDAR function and plasticity at subicular synapses.",
@@ -1236,7 +1227,7 @@
         ]
       },
       "no specific neurodevelopmental disease/development mechanism": {
-        "count": 10,
+        "count": 12,
         "examples": [
           "Single-cell atlas uncovers layer 4 heterogeneity and functional gradients in rhesus macaque visual cortex.",
           "AKT is necessary for neuronal hypertrophy and epilepsy caused by Pten knockout.",
@@ -1264,7 +1255,7 @@
         ]
       },
       "no neural context": {
-        "count": 5,
+        "count": 7,
         "examples": [
           "Structural basis of glycoprotein recognition by the human folding sensor UDP-glucose:glycoprotein glucosyltransferase.",
           "Atypical early-life ultrasonic vocalizations disrupt the pup-dam communication dyad in the BTBR model of autism spectrum disorder.",
@@ -1293,7 +1284,7 @@
         "count": 2,
         "examples": [
           "Investigating the effects of missense mutations on the dual Ras/Rap activation mechanism of SYNGAP1 using molecular modelling.",
-          "RNA-sequencing of butyrate-treated human lymphoblastoid cell lines shows dysregulated genes of multiple disease-related pathways"
+          "Cell-resolved pharmacodynamic profiling reveals tissue- and cell-population-specific activity of antisense oligonucleotide chemical conjugat"
         ]
       },
       "pathogen/infection focus": {
@@ -1303,25 +1294,20 @@
         ]
       },
       "unrelated organ (title)": {
-        "count": 1,
+        "count": 2,
         "examples": [
-          "Delivery architectures for oligonucleotide therapeutics in genetic and rare diseases: GalNAc-based hepatocyte targeting and extrahepatic tra"
-        ]
-      },
-      "non-preferred organism, no mammalian context": {
-        "count": 1,
-        "examples": [
-          "Cumulative Prenatal Adversity and Fronto-Limbic White Matter Development Across Adolescence"
+          "Delivery architectures for oligonucleotide therapeutics in genetic and rare diseases: GalNAc-based hepatocyte targeting and extrahepatic tra",
+          "Morphometric Characterization and Anatomical Variations of Coronary Ostia in Human Hearts: Implications for Coronary and Aortic Intervention"
         ]
       }
     },
     "organelle": {
       "topic not central": {
-        "count": 24,
+        "count": 26,
         "examples": [
           "Tau monomers and fibrils escape microglial clearance via distinct cellular mechanisms.",
           "Second-Generation JNK Activity Reporter Illuminates the Mechanism of AT1R-Induced JNK Activation.",
-          "Dose-Dependent Autophagic Dysfunction and CCR5-Mediated Neuroinflammation Drive Arsenic Trioxide-Induced Cortical Neurodegeneration in Mice."
+          "STEP61 is a regulator of mGluR5 expression."
         ]
       },
       "unrelated organ, no neural context": {
@@ -1337,13 +1323,6 @@
           "Autotaxin inhibition mitigates chronic kidney disease by reducing renal tubular lysosome-mitochondria stress and suppressing fibroblast acti",
           "Early mitophagy defects and impaired mitochondrial energy metabolism drive target organ damage progression: Lessons from the Fabry heart.",
           "Autophagy and Inflammation in Cardiothoracic Surgery: The Mechanisms of Perioperative Lung Injury and Therapeutic Opportunities."
-        ]
-      },
-      "non-preferred organism, no mammalian context": {
-        "count": 2,
-        "examples": [
-          "Evolved differences in microglial cell biology between surface and cave populations of Astyanax mexicanus.",
-          "Late endosome trafficking is slower in regenerated dendrites."
         ]
       },
       "excluded journal/domain": {
@@ -1367,6 +1346,14 @@
           "Polysaccharides targeting organelle network dysfunction in Alzheimer's disease: A review."
         ]
       },
+      "non-preferred organism, no mammalian context": {
+        "count": 3,
+        "examples": [
+          "Evolved differences in microglial cell biology between surface and cave populations of Astyanax mexicanus.",
+          "Late endosome trafficking is slower in regenerated dendrites.",
+          "Jade1S SUMOylates tau and targets oligomers for degradation"
+        ]
+      },
       "cancer focus": {
         "count": 3,
         "examples": [
@@ -1384,7 +1371,7 @@
     },
     "trafficking": {
       "topic not central": {
-        "count": 99,
+        "count": 98,
         "examples": [
           "The AP-1 clathrin adaptor has a conserved role in recycling resident proteins of the trans-Golgi network.",
           "The TNKS/PI31-proteasome axis as a central node in TDP-43 neuropathies.",
@@ -1403,32 +1390,32 @@
         "count": 31,
         "examples": [
           "Multiple evolutionary routes to cytoskeletal arborization revealed by the rhizarian amoeba Filoreta ramosa.",
-          "Biologically-synthesized zinc oxide nanoparticle-based α-synuclein nanoformulation mitigates Parkinson's disease progression in Drosophila m",
-          "The Rab7 C-terminal intrinsically disordered region is a key determinant of development and pathogenicity in Aspergillus flavus."
+          "Polytetrafluoroethylene utensils as a source of micro- and nanoplastics: Insights from a Drosophila model.",
+          "VPS33A and VPS18 orchestrate porcine epidemic diarrhea virus replication by modulating autophagic flux."
         ]
       },
       "non-preferred organism, no mammalian context": {
         "count": 15,
         "examples": [
           "The Ral small GTPase is an essential regulator of exocyst complex function in secretion.",
-          "The VPS9-family GEF VINE activates Ypt10 in a late endosomal Rab cascade.",
-          "Eriocheir sinensis 14-3-3ζ regulates hemocyte phagocytosis, apoptosis and antimicrobial peptide expression during Spiroplasma eriocheiris in"
+          "Eriocheir sinensis 14-3-3ζ regulates hemocyte phagocytosis, apoptosis and antimicrobial peptide expression during Spiroplasma eriocheiris in",
+          "The VPS9-family GEF VINE activates Ypt10 in a late endosomal Rab cascade."
         ]
       },
       "excluded journal/domain": {
         "count": 47,
         "examples": [
-          "Allium polyrhizum Turcz. flavonoids extract alleviates cadmium-induced renal injury through differential regulation of autophagy mediated by",
-          "Molecular mechanisms of Microcystin-LR decreasing dopamine release by binding VPS35 and clinical correlation between Microcystin-LR exposure",
-          "Gualou-Xiebai-derived Apigenin-7-O-glucoside inhibits VSMCs foam cell formation and alleviates atherosclerosis by targeting Rab7 to drive SN"
+          "Shugan Tongbian Decoction ameliorates constipation and mental disorder by inhibiting UPRmt via Wnt/Retromer axis.",
+          "Perfluoroalkylated polymeric constructs bypass endosomal entrapment to stimulate transnuclear delivery in proliferating and non-proliferatin",
+          "Simultaneous detection of positive-sense RNA1 and RNA2 of nervous necrosis virus in viral factories of infected brain cells using RNA-fluore"
         ]
       },
       "unrelated organ (title)": {
         "count": 16,
         "examples": [
+          "Tracing refractile body biogenesis in human oocytes: the role of lysosomes and mitochondria.",
           "Selenium Nanoparticles Alleviate Intestinal Epithelial Barrier Dysfunction by Coordinating Mitochondria-lysosome Communication under Dual Or",
-          "Bisphosphonate zoledronic acid blocks secretory autophagy and inhibits bone resorptive functions in osteoclasts.",
-          "Tracing refractile body biogenesis in human oocytes: the role of lysosomes and mitochondria."
+          "Bisphosphonate zoledronic acid blocks secretory autophagy and inhibits bone resorptive functions in osteoclasts."
         ]
       },
       "unrelated organ, no neural context": {
@@ -1490,12 +1477,12 @@
         "count": 40,
         "examples": [
           "ALMS1 stabilizes the proximal centriole to drive transition zone assembly and ciliogenesis.",
-          "Tau monomers and fibrils escape microglial clearance via distinct cellular mechanisms.",
-          "Monoallelic variants in BRSK1 are associated with a neurodevelopmental disorder with or without epilepsy."
+          "A Unique Case of PPP1R12A-Related Urogenital and Brain Malformation Syndrome Phenotypically Overlapping With VACTERL Association, With Addit",
+          "Exosome-associated cargo is linked to familial Alzheimer's disease-associated phenotypes in vitro."
         ]
       },
       "non-preferred organism (title)": {
-        "count": 13,
+        "count": 12,
         "examples": [
           "Spectraplakin is required for dendritic microtubule organization via a tip-based mechanism in Drosophila.",
           "Endosome motility controls light-responsive reproductive development and secondary metabolite production in Aspergillus.",
@@ -1523,30 +1510,30 @@
         "examples": [
           "CDK4 maintains cytoskeletal homeostasis by restraining actomyosin contractility.",
           "The nucleus as a mechanobiological hub in muscle aging.",
-          "Identification of candidate ciliary microtubule-associated proteins using CEP41 proximity labeling"
+          "Mitochondria-Coupled Hitchhiking Drives Vimentin Intermediate Filament Transport"
         ]
       },
       "herbal/natural-product": {
         "count": 3,
         "examples": [
-          "Ginsenoside Rh2, a putative functional modulator of Annexin A2, attenuates post-hemorrhagic stroke cerebral edema via inhibiting vesicular t",
           "The neuroprotective mechanism of baicalein related to mitophagy mediated by MAPK1/RSK1 in a murine model of Parkinson's disease.",
+          "Ginsenoside Rh2, a putative functional modulator of Annexin A2, attenuates post-hemorrhagic stroke cerebral edema via inhibiting vesicular t",
           "Emodin induces defensive autophagy against white spot syndrome virus infection via targeting the hemocyanin-mediated endoplasmic reticulum-m"
+        ]
+      },
+      "pathogen/infection focus": {
+        "count": 4,
+        "examples": [
+          "Prevotella intermedia culture supernatant impairs alveolar macrophage function and promotes Mycobacterium avium persistence.",
+          "Repurposing tirbanibulin as an orally active E2-targeting entry inhibitor against Chikungunya virus.",
+          "Tunneling nanotube-mediated intercellular spread of SARS-CoV-2 variants in epithelial cells reveals a host-targeted antiviral vulnerability."
         ]
       },
       "cancer therapy": {
         "count": 2,
         "examples": [
-          "Neoliensinine promotes lysosomal cell death in T cell malignancies via a novel STING-TUBA1B pathway.",
-          "Sequential lysosome-microtubule targeted transformable nanosystem for long-lasting photodynamic-based multimodal therapy of breast cancer."
-        ]
-      },
-      "pathogen/infection focus": {
-        "count": 5,
-        "examples": [
-          "Repurposing tirbanibulin as an orally active E2-targeting entry inhibitor against Chikungunya virus.",
-          "Tunneling nanotube-mediated intercellular spread of SARS-CoV-2 variants in epithelial cells reveals a host-targeted antiviral vulnerability.",
-          "Prevotella intermedia culture supernatant impairs alveolar macrophage function and promotes Mycobacterium avium persistence."
+          "Sequential lysosome-microtubule targeted transformable nanosystem for long-lasting photodynamic-based multimodal therapy of breast cancer.",
+          "Neoliensinine promotes lysosomal cell death in T cell malignancies via a novel STING-TUBA1B pathway."
         ]
       },
       "unrelated organ, no neural context": {
@@ -1567,15 +1554,15 @@
     },
     "ipsc": {
       "cancer focus": {
-        "count": 44,
+        "count": 43,
         "examples": [
           "Adaptive kinase signaling enables escape from small molecule inhibition in glioblastoma.",
-          "Chronotherapy leveraging dietary context overcomes circadian rhythm influence on cancer cell response to PPAR antagonists.",
-          "Temporally evolving neuronal remodeling via the CTNNB1-NRG3-ERBB4 axis drives therapy resistance in glioblastoma."
+          "Advancing in Sarcoma 3D Modeling: Identification of SRC as an Actionable Vulnerability in Doxorubicin-Resistant Osteosarcoma Organoids.",
+          "Chronotherapy leveraging dietary context overcomes circadian rhythm influence on cancer cell response to PPAR antagonists."
         ]
       },
       "topic not central": {
-        "count": 30,
+        "count": 31,
         "examples": [
           "Pilocarpine disrupts spontaneous rhythmic inhibitory bursting in the basolateral amygdala, promoting a transition to hyperexcitability.",
           "Evaluation of the SPEED Sample Preparation Protocol for Metabolomics.",
@@ -1597,10 +1584,11 @@
         ]
       },
       "unrelated organ (title)": {
-        "count": 2,
+        "count": 3,
         "examples": [
           "STING engages PKR to drive lysosomal cell death in lung ischemia-reperfusion injury.",
-          "An actionable GPCR restores phosphoinositide homeostasis and kidney function in Lowe syndrome."
+          "An actionable GPCR restores phosphoinositide homeostasis and kidney function in Lowe syndrome.",
+          "Vorinostat Can Reduce an Ongoing Fibrosis and Preserve Key Liver Metabolic Functions by Selectively Altering Mesenchymal Cell Differentiatio"
         ]
       },
       "cancer therapy": {
@@ -1638,20 +1626,26 @@
           "Integrated bulk and single-cell transcriptomic analyses prioritize candidate genes associated with lysosomes and ferroptosis in rheumatoid a"
         ]
       },
-      "topic not central": {
-        "count": 43,
+      "excluded journal/domain": {
+        "count": 37,
         "examples": [
-          "Effects of maternal exposure to 2,6-dichloro-1,4-benzoquinone during pregnancy and lactation on the gut microbiota and neurodevelopment in o",
-          "Temporal and Spatial Dynamics and Mechanisms of Brain-Gut Axis Injury Induced by Confinement-Like Physical Restraint Stress in Mice.",
-          "Identification of potential active ingredients from Chuanxiong Rhizoma in the treatment of vascular dementia: CHI3L1 and TLR2 are potential "
+          "Construction of Highly Viable, Excitable, Aligned Human Induced Pluripotent Stem Cell-Derived Retinal Ganglion Cell Sheets on Poly-ε-caprola",
+          "Integrative Multi-Omics Reveals Differential Mechanisms of Four TCM Formulations in Treating Insomnia via Syndrome-Compound-Metabolite Assoc",
+          "Role of Arachidonic Acid Metabolic Dysregulation in Sheep Brain Injury Caused by Coenurus cerebralis Infection."
         ]
       },
-      "excluded journal/domain": {
-        "count": 36,
+      "topic not central": {
+        "count": 45,
         "examples": [
-          "Integrative Multi-Omics Reveals Differential Mechanisms of Four TCM Formulations in Treating Insomnia via Syndrome-Compound-Metabolite Assoc",
-          "Role of Arachidonic Acid Metabolic Dysregulation in Sheep Brain Injury Caused by Coenurus cerebralis Infection.",
-          "Gastrodin Attenuates Neuroinflammation and Depressive-Like Phenotypes via Modulation of the PHD2-HIF-1α/Glycolysis Axis."
+          "Disrupted neuronal expression of autism risk genes and white matter micro-organization after infant Zika infection.",
+          "Effects of maternal exposure to 2,6-dichloro-1,4-benzoquinone during pregnancy and lactation on the gut microbiota and neurodevelopment in o",
+          "Temporal and Spatial Dynamics and Mechanisms of Brain-Gut Axis Injury Induced by Confinement-Like Physical Restraint Stress in Mice."
+        ]
+      },
+      "cancer therapy": {
+        "count": 1,
+        "examples": [
+          "OTUD1 Prevents Immunosuppression via Promoting Lysosomal-Associated Degradation of PD-L1."
         ]
       },
       "pathogen/infection focus": {
@@ -1661,7 +1655,7 @@
         ]
       },
       "unrelated organ (title)": {
-        "count": 5,
+        "count": 6,
         "examples": [
           "Estrogen/autophagy/ECSCR regulatory axis in vascular endothelial cells facilitates angiogenesis in endometriosis.",
           "Acute co-exposure to urban particulate matter and aircraft noise elicits lung-centered immune-redox proteomic remodeling in mice.",
@@ -1669,29 +1663,15 @@
         ]
       },
       "cancer focus": {
-        "count": 13,
+        "count": 12,
         "examples": [
           "Integrative miRNA-multi-omics analysis of brain-metastasis predisposition in non-small cell lung cancer prioritizes HDAC inhibitors and anti",
           "Decoding the regulatory programs governing glioblastoma plasticity.",
-          "A spatiotemporal cancer cell trajectory underlies glioblastoma heterogeneity."
-        ]
-      },
-      "cancer therapy": {
-        "count": 2,
-        "examples": [
-          "Antiviral humoral immunity as biomarker and effector in oncolytic adenovirus TILT-123 therapy.",
-          "Integrated single-cell transcriptomics reveal E2F1-driven multidrug resistance in medulloblastoma and identify Palbociclib as a therapeutic "
-        ]
-      },
-      "herbal/natural-product": {
-        "count": 2,
-        "examples": [
-          "Enterochromaffin cell-derived 5-HT contributes to dexamethasone protection against cisplatin-induced nausea-related responses.",
-          "Xiaoyao San exerts antidepressant effects via the gut microbiota-brain axis: An integrative fMRI and multiomics study."
+          "Integrated DIA proteomics of tissue and exudate reveals screening markers for early detection of ulcerative colitis and colorectal cancer."
         ]
       },
       "non-preferred organism (title)": {
-        "count": 7,
+        "count": 5,
         "examples": [
           "Development of a high-throughput proteome sample preparation workflow based on efficient protein extraction to empower rational design of ye",
           "A comparative zebrafish atlas of metallic toxicity identifies vanadium as a multi-target neurobehavioral toxicant and reveals effective chel",
@@ -1699,11 +1679,17 @@
         ]
       },
       "non-preferred organism, no mammalian context": {
-        "count": 4,
+        "count": 5,
         "examples": [
           "zDHHC11 is a common palmitoyltransferase regulating microglia-mediated neuroinflammation across neurodegenerative diseases.",
           "Grouper KCNE2 restricts RGNNV replication and attenuates virus-induced mitochondrial depolarization and apoptosis.",
           "Cerium dioxide nanoparticle exposure attenuates mobility-linked antibiotic resistome signatures across the soil-lettuce continuum."
+        ]
+      },
+      "herbal/natural-product": {
+        "count": 1,
+        "examples": [
+          "Xiaoyao San exerts antidepressant effects via the gut microbiota-brain axis: An integrative fMRI and multiomics study."
         ]
       },
       "ethics/bibliometric/policy": {
@@ -1718,11 +1704,17 @@
         "examples": [
           "Immune-related biomarkers for major depressive disorder identified via integrated bioinformatics and machine learning."
         ]
+      },
+      "no mammalian/human or neural context": {
+        "count": 1,
+        "examples": [
+          "Analysis of Reduced-Representation DNA Methylome and Transcriptome in Spontaneous Primary Age-related Cataract of Microtus fortis"
+        ]
       }
     },
     "imaging": {
       "imaging used, biology off-profile": {
-        "count": 15,
+        "count": 14,
         "examples": [
           "Chitosan-coated cerium oxide nanoparticles: enhanced antioxidant activity with increased hemolytic activity.",
           "Dynamic force-induced nucleoporin stretch mechanomemory prolongs nuclear pore complex dilation and importin transport.",
@@ -1730,7 +1722,7 @@
         ]
       },
       "no biological/cellular context": {
-        "count": 22,
+        "count": 24,
         "examples": [
           "Mussels possess distinct vanadium and iron storage systems for fabricating metal-reinforced adhesive fibers.",
           "Cooling fast and slow: Characterizing the effects of vitrification in cryo-EM and the subsequent recovery of equilibrium populations.",
@@ -1738,75 +1730,59 @@
         ]
       },
       "topic not central": {
-        "count": 123,
+        "count": 119,
         "examples": [
           "The purinergic receptor P2Y13 controls the activation and mode of division of adult ventricular-subventricular zone neural stem cells.",
-          "Methylene blue-functionalized blue/red dual-emissive carbon dots for ratiometric fluorescence detection of sunset yellow in food.",
-          "Surface-engineering of Fe(III)-polydopamine nanoparticles enabling high-resolution optical-electrochemical dual-mode imaging of various late"
+          "Systematic Exploration of the Ternary Dy-Ir-Sn System with Magnetic Property Investigation.",
+          "Simultaneous quantitation of synthetic cathinone positional isomers in wastewater and urine using liquid chromatography-high-resolution mass"
         ]
       },
       "excluded journal/domain": {
-        "count": 48,
+        "count": 52,
         "examples": [
-          "Symmetric Off-Axis Spectral Encoding Enables High-Throughput Six-Color Optical Sectioning Imaging.",
-          "Streptococcus suis-induced mitophagy via Eno-HSP90AA1 interaction disrupts the blood-brain barrier.",
-          "Microscopy-Detected Enteric Parasite-Compatible Stages and Arthropod Contaminants in Ready-to-Eat Salads in Sylhet City Corporation, Banglad"
-        ]
-      },
-      "non-preferred organism (title)": {
-        "count": 13,
-        "examples": [
-          "Combined exposure of copper and iron induces nerve damage in Caenorhabditis elegans through ROS-induced autophagy/mitophagy.",
-          "A Three-Dimensional Gelatin Methacryloyl (GelMA) Hydrogel Platform for In Vitro Bovine Ovarian Tissue Culture and Primordial Follicle Activa",
-          "Intercalation of organic compounds in layered copper-hydroxide for electrochemical sensor phytohormone in plants."
-        ]
-      },
-      "unrelated organ (title)": {
-        "count": 12,
-        "examples": [
-          "Combining shear wave elastography and ultrasound localization microscopy for liver fibrosis staging in a rat model.",
-          "Right heart remodeling in Sugen/hypoxia rat model of severe pulmonary hypertension.",
-          "Super-resolution imaging with a mitochondria-targeted fluorescent probe: Evaluation of chemotherapy-induced hepatorenal injury."
+          "Mutations in the nsP1 dodecamerization surface impair Semliki Forest virus RNA synthesis in mosquito cells.",
+          "Identification of ebastine and ceritinib as effective inhibitors of Fusobacterium nucleatum FtsZ.",
+          "Cytocompatible and Antimicrobial Human Hair-Derived Keratin/N,N,N-Trimethyl Chitosan Polyelectrolyte Multilayers."
         ]
       },
       "herbal/natural-product": {
-        "count": 6,
+        "count": 7,
         "examples": [
+          "Unsaturation-driven nanoscale structural remodeling of thermoresponsive Triton X-114 mixed micelles for enhanced curcumin delivery.",
           "Cis-3-Hexen-1-ol suppresses clear cell renal cell carcinoma by inducing ferroptosis via inhibition of the ACSF2-KIF20A axis.",
-          "Mechanism of Tongqiao Huashuan decoction regulating neuroinflammation and its effect on intestinal flora in vascular dementia rats.",
           "A fluorescent/colorimetric/electrochemical tri-modal sensing platform for cross-validated dynamic monitoring of endogenous glutathione in pl"
         ]
       },
-      "pathogen/infection focus": {
-        "count": 7,
+      "non-preferred organism (title)": {
+        "count": 14,
         "examples": [
-          "Calprotectin Accelerates Pathogenic Calciprotein Particle Maturation to Promote Vascular Calcification in Chronic Kidney Disease.",
-          "Live imaging and interactome analysis of Zika and chikungunya viral RNAs via dual-action aptamer tag.",
-          "Nanoscopy reveals heparan sulfate clusters as docking sites for SARS-CoV-2 attachment and entry."
+          "Combined exposure of copper and iron induces nerve damage in Caenorhabditis elegans through ROS-induced autophagy/mitophagy.",
+          "Intercalation of organic compounds in layered copper-hydroxide for electrochemical sensor phytohormone in plants.",
+          "Early attachment disruption differentially enhances multiple signs of microglia activation in the prefrontal cortex, hippocampus, and preopt"
         ]
       },
-      "unrelated organ, no neural context": {
-        "count": 7,
+      "unrelated organ (title)": {
+        "count": 10,
         "examples": [
-          "Arterial Resident But Not Monocyte-Derived Macrophages Require Endothelial CSF1.",
-          "PABCNet: A super-resolution network for non-contrast coronary MRA with inter-slice fusion and Bayesian confidence quantification.",
-          "SPRIZ (CCDC127) protein conserved in deuterostome animals is a rigid OMM-IMM tether that locally sets mitochondrial IMS volume."
-        ]
-      },
-      "non-preferred organism, no mammalian context": {
-        "count": 11,
-        "examples": [
-          "Cryo-EM Analysis of Photosynthetic Complexes: From Purification to Data Collection.",
-          "Dopaminergic neurons linking threat processing to cardiac modulation and locomotor responses.",
-          "Brain-wide activity imaging with electron microscopy reveals a distributed brain network for processing threatening somatosensory stimuli."
+          "Combining shear wave elastography and ultrasound localization microscopy for liver fibrosis staging in a rat model.",
+          "Super-resolution imaging with a mitochondria-targeted fluorescent probe: Evaluation of chemotherapy-induced hepatorenal injury.",
+          "Super-resolution mapping of nuclear stress signaling by probiotic-derived extracellular vesicles in UV-induced skin photodamage."
         ]
       },
       "cancer focus": {
         "count": 14,
         "examples": [
           "Development of a europium-thiosemicarbazide-based nano-optical biosensor for early detection of HE4 in ovarian cancer.",
-          "Mitochondrial Morphology Dynamics Remodel Metabolism and Affect TKI Sensitivity in EGFR-Mutated Lung Cancer.",
-          "Elevated miR-103b in exosomes derived from brain-metastatic triple-negative breast cancer cells remodels the brain pre-metastatic niche (PMN"
+          "Elevated miR-103b in exosomes derived from brain-metastatic triple-negative breast cancer cells remodels the brain pre-metastatic niche (PMN",
+          "Dual novel compounds destroy mitochondrial morphology and function to treat glioblastoma by promoting the p62-mediated protein degradation o"
+        ]
+      },
+      "unrelated organ, no neural context": {
+        "count": 8,
+        "examples": [
+          "PABCNet: A super-resolution network for non-contrast coronary MRA with inter-slice fusion and Bayesian confidence quantification.",
+          "SPRIZ (CCDC127) protein conserved in deuterostome animals is a rigid OMM-IMM tether that locally sets mitochondrial IMS volume.",
+          "Chem-SIM: SIM-resolved chemical imaging via wide-field mid-infrared photothermal modulation of fluorescence."
         ]
       },
       "notice/correction/retraction": {
@@ -1814,6 +1790,14 @@
         "examples": [
           "A step toward molecular-scale views of human synapses: Cryo-ET of human induced neurons on EM grids.",
           "Corrigendum to RIRGAN: \"An end-to-end lightweight multi-task learning method for brain MRI super-resolution and denoising\" [Comput. Biol. Me"
+        ]
+      },
+      "non-preferred organism, no mammalian context": {
+        "count": 11,
+        "examples": [
+          "Dopaminergic neurons linking threat processing to cardiac modulation and locomotor responses.",
+          "Brain-wide activity imaging with electron microscopy reveals a distributed brain network for processing threatening somatosensory stimuli.",
+          "Functionalized Polystyrene Nanoplastics Drive Distinct Mitochondrial Bioenergetic and Phenotypic Responses in Rainbow Trout Gill Epithelia."
         ]
       },
       "cancer therapy": {
@@ -1824,26 +1808,44 @@
           "Advancing collagen-related pathology assessment through second-harmonic generation imaging."
         ]
       },
+      "pathogen/infection focus": {
+        "count": 6,
+        "examples": [
+          "Live imaging and interactome analysis of Zika and chikungunya viral RNAs via dual-action aptamer tag.",
+          "Nanoscopy reveals heparan sulfate clusters as docking sites for SARS-CoV-2 attachment and entry.",
+          "Synchrotron cryo-soft X-ray microscopy reveals bacterial interactions with nanostructured calcium phosphate substrates."
+        ]
+      },
       "ethics/bibliometric/policy": {
         "count": 1,
         "examples": [
           "Global research trends in confocal laser endomicroscopy for brain tumor surgery, 2010-2026: A bibliometric review."
         ]
-      },
-      "clinical imaging modality": {
-        "count": 1,
-        "examples": [
-          "Cerebrovascular Structure–Flow Gradients Revealed by Volumetric Ultrasound Localization Microscopy"
-        ]
       }
     },
     "analysis-tools": {
       "topic not central": {
-        "count": 148,
+        "count": 147,
         "examples": [
+          "Topography of motor endplates in the human posterior cricoarytenoid muscle: Implications for selective reinnervation.",
           "Structure-property investigation of aminonaphthalene-based hemicyanine dyes for high-performance mitochondrial imaging.",
-          "A solid-phase microextraction method base on a novel porphyrin-based porous organic polymer for trace detection of bisphenol AF and monitori",
-          "Resolving drug uptake heterogeneity in 3D organ on chip models via live single-cell microsampling and ion mobility mass spectrometry."
+          "A solid-phase microextraction method base on a novel porphyrin-based porous organic polymer for trace detection of bisphenol AF and monitori"
+        ]
+      },
+      "clinical/non-biological tool": {
+        "count": 17,
+        "examples": [
+          "Cervical lymph node image analysis using YOLO11 segmentation model: an application and performance study.",
+          "TotalSpineSeg: automated whole-spine vertebral segmentation with high robustness to labeling errors.",
+          "Oriented Ship Detection via Key Structural Landmarks in Optical Remote Sensing Image."
+        ]
+      },
+      "unrelated organ, no neural context": {
+        "count": 25,
+        "examples": [
+          "High-fidelity 3D geometric reconstruction of pelvic organs from MRI: a hybrid deep learning and iterative optimization approach.",
+          "SECNet: Differentiable Mask-Driven Spatiotemporal Learning for Video-Based Spontaneous Echo Contrast Severity Detection.",
+          "Spatial Clonal Discordance in Early Mycosis Fungoides Revealed by Compartment-specific TRBC1 Immunohistochemistry."
         ]
       },
       "pathogen/infection focus": {
@@ -1854,16 +1856,8 @@
           "Deep-learning single-cell profiling uncovers interbacterial and drug-driven reshaping of pathogen virulence."
         ]
       },
-      "clinical/non-biological tool": {
-        "count": 14,
-        "examples": [
-          "TotalSpineSeg: automated whole-spine vertebral segmentation with high robustness to labeling errors.",
-          "Oriented Ship Detection via Key Structural Landmarks in Optical Remote Sensing Image.",
-          "Novel image analysis method for estimating muscle strain from ultrasound B-mode images."
-        ]
-      },
       "no software/tool signal": {
-        "count": 5,
+        "count": 6,
         "examples": [
           "Plasma proteome-driven discovery of therapeutic targets for age-related macular degeneration: a multi-omics mendelian randomization framewor",
           "A 96-well headspace iodometric assay with a starch-KI paper for high-throughput screening of formaldehyde in fresh-food contacting liquids.",
@@ -1871,7 +1865,7 @@
         ]
       },
       "excluded journal/domain": {
-        "count": 41,
+        "count": 37,
         "examples": [
           "Exploring the Organization of Uncalcified Vertebral Shark Cartilage.",
           "Anchored Brownian motion and Bayesian methods for the analysis of single particle tracking data.",
@@ -1879,7 +1873,7 @@
         ]
       },
       "unrelated organ (title)": {
-        "count": 30,
+        "count": 25,
         "examples": [
           "Synchrotron X-ray Data of non-diseased and diabetic Human Pancreas Tissue and Islet Segmentation Model.",
           "MONKEY Challenge: Machine-learning for Optimal detection of iNflammatory cells in KidnEY transplant biopsies.",
@@ -1887,19 +1881,11 @@
         ]
       },
       "cancer focus": {
-        "count": 16,
+        "count": 19,
         "examples": [
           "Planned adaptation of an evidence-based VHA lung cancer care coordination model to improve time to treatment in a rural health system.",
           "Hypoxia-powered MRI guides supramaximal biosurgical sampling of glioblastoma infiltration: the GLIOXY initiative.",
           "From imaging to intelligence: AI applications in CT and MRI for hepatocellular carcinoma."
-        ]
-      },
-      "unrelated organ, no neural context": {
-        "count": 23,
-        "examples": [
-          "SECNet: Differentiable Mask-Driven Spatiotemporal Learning for Video-Based Spontaneous Echo Contrast Severity Detection.",
-          "Spatial Clonal Discordance in Early Mycosis Fungoides Revealed by Compartment-specific TRBC1 Immunohistochemistry.",
-          "Application of digital pathology to assess the effect of hormone treatment on placental histomorphometry in mares with induced ascending pla"
         ]
       },
       "tool not for cell/molecular data": {
@@ -1927,7 +1913,7 @@
         ]
       },
       "non-preferred organism (title)": {
-        "count": 5,
+        "count": 7,
         "examples": [
           "A Cu/ZIF-8-based flexible sensor for real-time monitoring of protocatechuic acid in plants under environmental stress.",
           "Design of a red-emitting camphor-derived benzothiazole ratiometric fluorescent probe for hydrazine detection in environmental samples and it",
@@ -1959,21 +1945,45 @@
       "notice/correction/retraction": {
         "count": 8,
         "examples": [
-          "Corrigendum to \"Paeonol alleviates oxidative stress and brain injury in hypoxic-ischemic encephalopathy by activating the PI3K/Akt/Nrf2 sign",
           "Statement of Retraction: Octreotide activates autophagy to alleviate lipopolysaccharide-induced human pulmonary epithelial cell injury by in",
-          "Corrigendum to \"A new approach for treating AD: Guifu Dihuang Pills improves brain insulin resistance by promoting NrCAM to activate the EGF"
+          "Corrigendum to \"A new approach for treating AD: Guifu Dihuang Pills improves brain insulin resistance by promoting NrCAM to activate the EGF",
+          "Corrigendum to \"Paeonol alleviates oxidative stress and brain injury in hypoxic-ischemic encephalopathy by activating the PI3K/Akt/Nrf2 sign"
+        ]
+      },
+      "cancer focus": {
+        "count": 22,
+        "examples": [
+          "Elucidating cancer cachexia-mediated aberrant cardiac wasting signaling in human iPSC-derived cardiac muscle.",
+          "Integrated Transcriptomic Analysis Suggests THBS2 as a Candidate Fibroblast-Associated Marker in Oral Lichen Planus and Oral Squamous Cell C",
+          "Parthenolide reduces transgelin-2 expression in inhibiting glioblastoma malignancy through activating GSK3β-suppressing CREB signaling."
         ]
       },
       "topic not central": {
-        "count": 20,
+        "count": 22,
         "examples": [
+          "PHB2 connects mitochondrial membrane remodeling to selective autophagy.",
           "Effects of maternal exposure to 2,6-dichloro-1,4-benzoquinone during pregnancy and lactation on the gut microbiota and neurodevelopment in o",
-          "Selective disruption of tau-SH3 interactions rescues seizure and sleep phenotypes.",
-          "Suppression of ER stress underlies Montelukast's neuroprotective actions in D-gal/AlCl3-induced Alzheimer's disease in rats."
+          "Selective disruption of tau-SH3 interactions rescues seizure and sleep phenotypes."
+        ]
+      },
+      "cancer therapy": {
+        "count": 4,
+        "examples": [
+          "OTUD1 Prevents Immunosuppression via Promoting Lysosomal-Associated Degradation of PD-L1.",
+          "Sphingolipid Metabolic Dysregulation Drives Cisplatin-Induced Ototoxicity Through Mitochondrial Dysfunction and Intrinsic Apoptosis.",
+          "Low Expression of PINK1 Suppresses Mitophagy in Sonic Hedgehog-Driven Medulloblastoma in Association With Activation of the PI3K/AKT Signali"
+        ]
+      },
+      "signaling target only incidental": {
+        "count": 13,
+        "examples": [
+          "Reduced hypoxanthine Ameliorates LPS-triggered autism-like stereotyped behaviors in intestinal Tlr4 knockout mice via the DRN ROS-5-HT axis.",
+          "ROS/pH/glucose-responsive hydrogel based on 3-aminophenylboronic acid-modified hyaluronic acid and PVA loaded self-assembled ursolic acid/β-",
+          "Exploring the neuroprotective potential of trigonelline as a multitarget therapeutic candidate for Alzheimer's disease: network pharmacology"
         ]
       },
       "unrelated organ (title)": {
-        "count": 12,
+        "count": 10,
         "examples": [
           "Comment on \"Corilagin attenuates osteoarthritis progression by coordinating NF-κB inhibition with PI3K/AKT/mTOR-associated autophagy restora",
           "Vascular smooth muscle cell-derived osteoprotegerin drives pulmonary arterial hypertension via AKT activation and is attenuated by monoclona",
@@ -1986,22 +1996,6 @@
           "Pathological Ossification of Spinal Ligament-Derived Fibroblasts in an Inflammatory Micro-Environment via Activation of the ECM/ITGA5/FAK/AK",
           "Decoding the lymphangioleiomyomatosis niche microenvironment via integrative analysis of single cell multiomics and spatial transcriptomics.",
           "Design and optimization of 5-hydroxy-4H-benzo[1,4]oxazin-3-one-derived β2-adrenoceptor agonists with potent anti-asthmatic activity."
-        ]
-      },
-      "signaling target only incidental": {
-        "count": 11,
-        "examples": [
-          "ROS/pH/glucose-responsive hydrogel based on 3-aminophenylboronic acid-modified hyaluronic acid and PVA loaded self-assembled ursolic acid/β-",
-          "Exploring the neuroprotective potential of trigonelline as a multitarget therapeutic candidate for Alzheimer's disease: network pharmacology",
-          "Role of dopaminergic projections from ventral tegmental area to paraventricular thalamus in heroin-induced behavioural sensitization of rats"
-        ]
-      },
-      "cancer focus": {
-        "count": 22,
-        "examples": [
-          "Integrated Transcriptomic Analysis Suggests THBS2 as a Candidate Fibroblast-Associated Marker in Oral Lichen Planus and Oral Squamous Cell C",
-          "Anti-glioma effect of Chloroxylon swietenia (Roxb.) DC demonstrate cellular inhibition, apoptosis induction, and down regulation of onco-miR",
-          "Spatial mapping of neuroendocrine stress-response programs in head and neck squamous cell carcinoma reveals stromal niches associated with m"
         ]
       },
       "herbal/natural-product": {
@@ -2020,14 +2014,6 @@
           "Oleanolic Acid and Ursolic Acid Alleviate Obesity-Induced Skeletal Muscle Atrophy via Activation of the IRS/PI3K/AKT/mTOR Signaling Pathway "
         ]
       },
-      "cancer therapy": {
-        "count": 4,
-        "examples": [
-          "Sphingolipid Metabolic Dysregulation Drives Cisplatin-Induced Ototoxicity Through Mitochondrial Dysfunction and Intrinsic Apoptosis.",
-          "Low Expression of PINK1 Suppresses Mitophagy in Sonic Hedgehog-Driven Medulloblastoma in Association With Activation of the PI3K/AKT Signali",
-          "SERINC2: From membrane lipid synthesis to human disease."
-        ]
-      },
       "non-preferred organism, no mammalian context": {
         "count": 4,
         "examples": [
@@ -2037,21 +2023,20 @@
         ]
       },
       "non-preferred organism (title)": {
-        "count": 3,
+        "count": 2,
         "examples": [
           "Harnessing Toxoplasma gondii microneme proteins for serodiagnosis and vaccine development: a review.",
-          "Effect of Metformin on tau pathology and proteostasis in cellular and a Drosophila model of Tauopathy",
-          "The anxiolytic-like effect of the aqueous extract of Punica granatum depends on the stress level of fish and mice: Evidence of a homeostatic"
+          "Effect of Metformin on tau pathology and proteostasis in cellular and a Drosophila model of Tauopathy"
         ]
       }
     },
     "neurodegeneration": {
       "no neural context": {
-        "count": 5,
+        "count": 4,
         "examples": [
           "PIKfyve inhibition induces LRRK2 activation through phosphatidylinositol 3-phosphate and CASM.",
-          "Development of potent BChE/Nrf2 modulators for Alzheimer's disease treatment via dual suppression of ferroptosis.",
-          "Parkinson's disease, Gaucher disease, and bistability in the lysosomal degradation pathway."
+          "Parkinson's disease, Gaucher disease, and bistability in the lysosomal degradation pathway.",
+          "Circulating insulin-like growth factor 1 (IGF-1) and short-term functional change in amyotrophic lateral sclerosis (ALS): exploratory eviden"
         ]
       },
       "excluded journal/domain": {
@@ -2068,8 +2053,16 @@
           "Statement of Retraction: Long non-coding RNA myocardial infarction-associated transcript promotes 1-Methyl-4-phenylpyridinium ion-induced ne"
         ]
       },
+      "topic not central": {
+        "count": 26,
+        "examples": [
+          "Serine palmitoyltransferase inhibition in SPTSSA-related complex hereditary spastic paraplegia.",
+          "Applicability of cognitive decline risk scores in a high socioeconomic preventive medicine cohort.",
+          "Sex differences in post-traumatic epileptogenesis and neurological dysfunction following traumatic brain injury."
+        ]
+      },
       "clinical/neuroimaging only, no molecular question": {
-        "count": 7,
+        "count": 8,
         "examples": [
           "In vivo assessment of brain microstructure in patients with Huntington's disease using quantitative MRI.",
           "Forecasting and Dynamics of Huntington's disease: A Machine Learning approach for Fractional-Order Mathematical Model.",
@@ -2077,19 +2070,11 @@
         ]
       },
       "non-preferred organism (title)": {
-        "count": 6,
+        "count": 7,
         "examples": [
           "Combined exposure of copper and iron induces nerve damage in Caenorhabditis elegans through ROS-induced autophagy/mitophagy.",
           "Differential effects of amyloid-β and tau on UCH gene expression in Drosophila models of Alzheimer's disease.",
           "Machine learning-guided spectral fingerprinting reveals Parkinson's disease-associated biochemical changes in Drosophila melanogaster."
-        ]
-      },
-      "topic not central": {
-        "count": 24,
-        "examples": [
-          "Applicability of cognitive decline risk scores in a high socioeconomic preventive medicine cohort.",
-          "Sex differences in post-traumatic epileptogenesis and neurological dysfunction following traumatic brain injury.",
-          "Divergent susceptibility of peripheral and central neurons to macrophages with a neurotoxic phenotype."
         ]
       },
       "unrelated organ (title)": {
@@ -2137,7 +2122,7 @@
     },
     "extracellular": {
       "topic not central": {
-        "count": 123,
+        "count": 121,
         "examples": [
           "Hepatocyte-derived exosomal miR-122 mediates liver-to-brain crosstalk and neuroinflammation in alcohol-exposed Alzheimer's disease mice.",
           "Chemoproteomics Discovery of a Central Nervous System-Penetrant Covalent Inhibitor of PIKfyve.",
@@ -2153,11 +2138,19 @@
         ]
       },
       "cancer focus": {
-        "count": 31,
+        "count": 32,
         "examples": [
           "Autophagy-mediated Secretion of Intracellular Antigens Co-opts Antibody Responses to Drive Neutrophil-Dependent Tumor Progression.",
-          "Disease-Specific Glycopattern Signatures of Serum Small Extracellular Vesicles in Depression, Schizophrenia, and Glioblastoma.",
-          "Elevated miR-103b in exosomes derived from brain-metastatic triple-negative breast cancer cells remodels the brain pre-metastatic niche (PMN"
+          "Elevated miR-103b in exosomes derived from brain-metastatic triple-negative breast cancer cells remodels the brain pre-metastatic niche (PMN",
+          "Disease-Specific Glycopattern Signatures of Serum Small Extracellular Vesicles in Depression, Schizophrenia, and Glioblastoma."
+        ]
+      },
+      "herbal/natural-product": {
+        "count": 13,
+        "examples": [
+          "Astragalus membranaceus-derived exosomes alleviate traumatic brain injury by inhibiting SERPINE1/HIF-1α/NLRP3-mediated pyroptosis.",
+          "Lactoferrin-modified MSC-derived extracellular vesicles facilitate BBB penetration and enhance gastrodin-induced neuroprotection in Parkinso",
+          "Astragalus membranaceus-derived exosomes alleviate traumatic brain injury by inhibiting SERPINE1/HIF-1α/NLRP3-mediated pyroptosis."
         ]
       },
       "non-preferred organism, no mammalian context": {
@@ -2174,14 +2167,6 @@
           "Exosome research and neuroimaging techniques: Visualization analysis of development trends and research hotspots.",
           "Exosome research and neuroimaging techniques: Visualization analysis of development trends and research hotspots.",
           "ATG9 and ATG2 as lipid managers at the crossroads of autophagy and extracellular vesicle secretion."
-        ]
-      },
-      "herbal/natural-product": {
-        "count": 13,
-        "examples": [
-          "Astragalus membranaceus-derived exosomes alleviate traumatic brain injury by inhibiting SERPINE1/HIF-1α/NLRP3-mediated pyroptosis.",
-          "Lactoferrin-modified MSC-derived extracellular vesicles facilitate BBB penetration and enhance gastrodin-induced neuroprotection in Parkinso",
-          "Astragalus membranaceus-derived exosomes alleviate traumatic brain injury by inhibiting SERPINE1/HIF-1α/NLRP3-mediated pyroptosis."
         ]
       },
       "cancer therapy": {
@@ -2237,7 +2222,7 @@
   "semantic": {
     "focus": {
       "min": 0.0607,
-      "median": 0.1461,
+      "median": 0.146,
       "max": 0.1896,
       "weakest_shown": [
         [
@@ -2249,7 +2234,7 @@
           "Comprehensive Clinical Characteristics, Longitudinal Adaptive Functioning, and Electroencephalogram Activity in MAPK8IP3"
         ],
         [
-          0.1201,
+          0.12,
           "Insights into how JIP3 and JIP4 adaptor proteins relieve the auto-inhibited form of the kinesin-1 motor."
         ]
       ]
@@ -2274,16 +2259,16 @@
       ]
     },
     "organelle": {
-      "min": -0.0061,
-      "median": 0.0079,
+      "min": -0.006,
+      "median": 0.009,
       "max": 0.1015,
       "weakest_shown": [
         [
-          -0.0061,
+          -0.006,
           "Lysosomal multi-omics reveals altered sphingolipid catabolism associated with lysosomal dysfunction in the aging brain."
         ],
         [
-          -0.0006,
+          -0.0007,
           "CHCHD2 mitigates age-associated proteostatic collapse by maintaining homeostasis of the mitochondria-lysosome axis."
         ],
         [
@@ -2294,7 +2279,7 @@
     },
     "trafficking": {
       "min": 0.0354,
-      "median": 0.0927,
+      "median": 0.0866,
       "max": 0.2261,
       "weakest_shown": [
         [
@@ -2312,35 +2297,35 @@
       ]
     },
     "cytoskeleton": {
-      "min": 0.0526,
-      "median": 0.0906,
+      "min": 0.0591,
+      "median": 0.0957,
       "max": 0.1486,
       "weakest_shown": [
         [
-          0.0526,
-          "Kinesin-3 KIF1A functions as a diligent worker and its functionality is regulated by the ubiquitin-proteasome system."
-        ],
-        [
-          0.0592,
+          0.0591,
           "Extracellular neuroligin-ICAM5 coupling drives dendritic growth via actin remodeling."
         ],
         [
           0.0622,
           "Tubulin autoregulation mediator TTC5 regulates neuronal morphology and migration."
+        ],
+        [
+          0.0769,
+          "A chemomechanical bifurcation landscape unifies sustained growth, length homeostasis, and regenerative collapse in axons"
         ]
       ]
     },
     "ipsc": {
       "min": 0.0211,
       "median": 0.0721,
-      "max": 0.0995,
+      "max": 0.0996,
       "weakest_shown": [
         [
           0.0211,
           "OGT regulates RNA-binding protein nucleocytoplasmic partitioning, but this fails in amyotrophic lateral sclerosis."
         ],
         [
-          0.0282,
+          0.0283,
           "iPSC-derived RPE and retinal organoids from two phenotypically different Stargardt disease patients show differences in "
         ],
         [
@@ -2351,7 +2336,7 @@
     },
     "omics": {
       "min": -0.0065,
-      "median": 0.0537,
+      "median": 0.0524,
       "max": 0.1202,
       "weakest_shown": [
         [
@@ -2363,14 +2348,14 @@
           "Evaluation of the SPEED Sample Preparation Protocol for Metabolomics."
         ],
         [
-          0.0356,
-          "Parkinson's disease-linked D620N mutation selectively alters the brain-specific protein interactome of VPS35."
+          0.0304,
+          "Integrated Multi-omics Reveals Molecular Signatures of Rett Syndrome, Informing Future Biomarker Discovery."
         ]
       ]
     },
     "imaging": {
       "min": -0.0217,
-      "median": 0.0525,
+      "median": 0.0473,
       "max": 0.0901,
       "weakest_shown": [
         [
@@ -2378,18 +2363,18 @@
           "53BP1 as a cofactor in the activation of the p53-family transcriptional program: A correlative multimodal microscopy app"
         ],
         [
-          0.0014,
+          0.0013,
           "CelFDrive - multimodal deep learning-assisted microscopy for automated detection of rare events."
         ],
         [
-          0.0279,
+          0.0278,
           "Broadband backscattering confocal microscopy enables label-free 3D live cell nanoscale sensitive imaging."
         ]
       ]
     },
     "analysis-tools": {
       "min": 0.0643,
-      "median": 0.1061,
+      "median": 0.1062,
       "max": 0.1614,
       "weakest_shown": [
         [
@@ -2397,7 +2382,7 @@
           "Extended depth-of-field reflected-light microscopy with a low-cost robotic microscope and Fiji focus stacking: Workflow "
         ],
         [
-          0.0848,
+          0.0849,
           "QuRad: Radiomics Feature Extraction for QuPath."
         ],
         [
@@ -2409,14 +2394,14 @@
     "signaling": {
       "min": -0.0433,
       "median": 0.047,
-      "max": 0.1842,
+      "max": 0.1843,
       "weakest_shown": [
         [
           -0.0433,
           "Restoration of mitophagy by crebanine suppresses sevoflurane-induced microglial activation and cognitive deficits by blo"
         ],
         [
-          -0.0116,
+          -0.0115,
           "STING-dependent TNF signalling promotes IKKβ-mediated ATG9A phosphorylation and autophagy."
         ],
         [
@@ -2426,35 +2411,35 @@
       ]
     },
     "extracellular": {
-      "min": -0.0449,
-      "median": 0.0583,
+      "min": -0.0152,
+      "median": 0.0677,
       "max": 0.0906,
       "weakest_shown": [
         [
-          -0.0449,
-          "Evaluation of the effect of p38γ gene delivery using exosomes derived from mesenchymal stem cells on Alzheimer's rat mod"
-        ],
-        [
-          -0.0153,
+          -0.0152,
           "Exosomes derived from N2 neutrophils reprogram the immune microenvironment to promote spinal cord injury repair."
         ],
         [
-          0.0169,
+          0.017,
           "Recessive variants in ESCRT-II component VPS25 alter vesicular transport and small extracellular vesicle processing in l"
+        ],
+        [
+          0.0477,
+          "A protective role for APP in nuclear waste clearance via lysosomal exocytosis."
         ]
       ]
     },
     "neurodegeneration": {
       "min": 0.0589,
       "median": 0.1143,
-      "max": 0.1566,
+      "max": 0.1565,
       "weakest_shown": [
         [
           0.0589,
           "Plasma P-Tau217 and NfL Longitudinal Changes Across Neurodegenerative Diseases: Impact of α-Synuclein in Alzheimer Disea"
         ],
         [
-          0.086,
+          0.0859,
           "Hepatocyte-derived exosomal miR-122 mediates liver-to-brain crosstalk and neuroinflammation in alcohol-exposed Alzheimer"
         ],
         [
