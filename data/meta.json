@@ -1,17 +1,17 @@
 {
   "project_name": "PaperScope",
-  "last_updated_utc": "2026-11-11T19:12:04.030905+00:00",
+  "last_updated_utc": "2026-11-12T19:29:21.501333+00:00",
   "weekly_days": 7,
   "semantic": {
     "enabled": true,
     "model": "BAAI/bge-small-en-v1.5",
     "reason": "ok"
   },
-  "full_text_analysed": 49,
-  "total_papers": 527,
+  "full_text_analysed": 41,
+  "total_papers": 513,
   "weekly_highlight_count": 10,
-  "reviews_count": 52,
-  "preprints_count": 102,
+  "reviews_count": 51,
+  "preprints_count": 97,
   "section_counts": {
     "focus": {
       "primary": 4,
@@ -19,59 +19,59 @@
       "weekly": 0
     },
     "neurodevelopment": {
-      "primary": 12,
+      "primary": 9,
       "secondary": 10,
-      "weekly": 11
+      "weekly": 8
     },
     "organelle": {
       "primary": 9,
-      "secondary": 10,
+      "secondary": 11,
       "weekly": 2
     },
     "trafficking": {
       "primary": 19,
       "secondary": 5,
-      "weekly": 1
+      "weekly": 0
     },
     "cytoskeleton": {
-      "primary": 16,
+      "primary": 18,
       "secondary": 5,
-      "weekly": 4
+      "weekly": 5
     },
     "ipsc": {
-      "primary": 10,
+      "primary": 9,
       "secondary": 4,
       "weekly": 3
     },
     "omics": {
       "primary": 7,
-      "secondary": 7,
+      "secondary": 9,
       "weekly": 8
     },
     "imaging": {
       "primary": 30,
-      "secondary": 5,
-      "weekly": 5
+      "secondary": 7,
+      "weekly": 7
     },
     "analysis-tools": {
-      "primary": 6,
+      "primary": 7,
       "secondary": 8,
-      "weekly": 2
+      "weekly": 3
     },
     "signaling": {
       "primary": 2,
-      "secondary": 8,
-      "weekly": 6
-    },
-    "extracellular": {
-      "primary": 14,
       "secondary": 5,
       "weekly": 3
     },
+    "extracellular": {
+      "primary": 14,
+      "secondary": 4,
+      "weekly": 2
+    },
     "neurodegeneration": {
-      "primary": 20,
+      "primary": 21,
       "secondary": 14,
-      "weekly": 15
+      "weekly": 13
     }
   }
 }
