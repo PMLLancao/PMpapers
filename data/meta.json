@@ -1,17 +1,17 @@
 {
   "project_name": "PaperScope",
-  "last_updated_utc": "2026-11-17T20:25:12.877753+00:00",
+  "last_updated_utc": "2026-11-24T21:53:01.187735+00:00",
   "weekly_days": 7,
   "semantic": {
     "enabled": true,
     "model": "BAAI/bge-small-en-v1.5",
     "reason": "ok"
   },
-  "full_text_analysed": 36,
-  "total_papers": 522,
+  "full_text_analysed": 35,
+  "total_papers": 519,
   "weekly_highlight_count": 10,
   "reviews_count": 49,
-  "preprints_count": 103,
+  "preprints_count": 94,
   "section_counts": {
     "focus": {
       "primary": 4,
@@ -19,59 +19,59 @@
       "weekly": 0
     },
     "neurodevelopment": {
-      "primary": 11,
-      "secondary": 9,
-      "weekly": 12
+      "primary": 8,
+      "secondary": 16,
+      "weekly": 14
     },
     "organelle": {
-      "primary": 9,
+      "primary": 11,
       "secondary": 12,
       "weekly": 4
     },
     "trafficking": {
-      "primary": 19,
-      "secondary": 5,
-      "weekly": 0
+      "primary": 18,
+      "secondary": 6,
+      "weekly": 2
     },
     "cytoskeleton": {
-      "primary": 15,
-      "secondary": 6,
-      "weekly": 3
-    },
-    "ipsc": {
       "primary": 12,
       "secondary": 3,
       "weekly": 4
     },
+    "ipsc": {
+      "primary": 11,
+      "secondary": 7,
+      "weekly": 8
+    },
     "omics": {
-      "primary": 6,
-      "secondary": 9,
+      "primary": 3,
+      "secondary": 11,
       "weekly": 8
     },
     "imaging": {
       "primary": 30,
-      "secondary": 7,
+      "secondary": 5,
       "weekly": 5
     },
     "analysis-tools": {
-      "primary": 6,
+      "primary": 4,
       "secondary": 10,
-      "weekly": 2
-    },
-    "signaling": {
-      "primary": 1,
-      "secondary": 6,
-      "weekly": 4
-    },
-    "extracellular": {
-      "primary": 14,
-      "secondary": 4,
       "weekly": 1
     },
+    "signaling": {
+      "primary": 5,
+      "secondary": 4,
+      "weekly": 5
+    },
+    "extracellular": {
+      "primary": 13,
+      "secondary": 6,
+      "weekly": 3
+    },
     "neurodegeneration": {
-      "primary": 16,
-      "secondary": 16,
-      "weekly": 9
+      "primary": 17,
+      "secondary": 17,
+      "weekly": 13
     }
   }
 }
